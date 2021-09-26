@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-02 00:20+0000\n"
+"POT-Creation-Date: 2021-09-26 18:48+0000\n"
 "PO-Revision-Date: 2021-06-10 14:31+0000\n"
 "Last-Translator: Park Jeongyong <kladess@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/webodm/react-ui/"
@@ -51,11 +51,11 @@ msgstr "변경사항들을 잃게 됩니다. 정말로 떠나기를 원하십니
 
 #: app/static/app/js/MapView.jsx:67
 #: app/static/app/js/classes/PipelineSteps.js:47
-#: app/static/app/js/components/Map.jsx:84
+#: app/static/app/js/components/Map.jsx:85
 msgid "Orthophoto"
 msgstr "정사영상"
 
-#: app/static/app/js/MapView.jsx:72 app/static/app/js/components/Map.jsx:86
+#: app/static/app/js/MapView.jsx:72 app/static/app/js/components/Map.jsx:87
 msgid "Plant Health"
 msgstr "식생 건강"
 
@@ -87,7 +87,7 @@ msgstr "모델 보기"
 msgid "Show Cameras"
 msgstr "카메라 보기"
 
-#: app/static/app/js/ModelView.jsx:653
+#: app/static/app/js/ModelView.jsx:668
 msgid "Loading textured model..."
 msgstr "텍스쳐된 모델 불러오는 중..."
 
@@ -108,54 +108,66 @@ msgid "Orthophoto (Tiles)"
 msgstr "정사영상 (Tiles)"
 
 #: app/static/app/js/classes/AssetDownloads.js:40
+#, fuzzy
+#| msgid "Orthophoto (PNG)"
+msgid "Orthophoto (KMZ)"
+msgstr "정사영상 (PNG)"
+
+#: app/static/app/js/classes/AssetDownloads.js:41
 msgid "Terrain Model (GeoTIFF)"
 msgstr "지형모델 (GeoTIFF)"
 
-#: app/static/app/js/classes/AssetDownloads.js:41
+#: app/static/app/js/classes/AssetDownloads.js:42
 msgid "Terrain Model (Tiles)"
 msgstr "지형모델 (Tiles)"
 
-#: app/static/app/js/classes/AssetDownloads.js:42
+#: app/static/app/js/classes/AssetDownloads.js:43
 msgid "Surface Model (GeoTIFF)"
 msgstr "표면모델 (GeoTIFF)"
 
-#: app/static/app/js/classes/AssetDownloads.js:43
+#: app/static/app/js/classes/AssetDownloads.js:44
 msgid "Surface Model (Tiles)"
 msgstr "표면모델 (Tiles)"
 
-#: app/static/app/js/classes/AssetDownloads.js:44
+#: app/static/app/js/classes/AssetDownloads.js:45
 msgid "Point Cloud (LAS)"
 msgstr "포인트 클라우드 (LAS)"
 
-#: app/static/app/js/classes/AssetDownloads.js:45
+#: app/static/app/js/classes/AssetDownloads.js:46
 msgid "Point Cloud (LAZ)"
 msgstr "포인트 클라우드 (LAZ)"
 
-#: app/static/app/js/classes/AssetDownloads.js:46
+#: app/static/app/js/classes/AssetDownloads.js:47
 msgid "Point Cloud (PLY)"
 msgstr "포인트 클라우드 (PLY)"
 
-#: app/static/app/js/classes/AssetDownloads.js:47
+#: app/static/app/js/classes/AssetDownloads.js:48
 msgid "Point Cloud (CSV)"
 msgstr "포인트 클라우드 (CSV)"
 
-#: app/static/app/js/classes/AssetDownloads.js:48
+#: app/static/app/js/classes/AssetDownloads.js:49
 msgid "Textured Model"
 msgstr "텍스쳐된 모델"
 
-#: app/static/app/js/classes/AssetDownloads.js:49
+#: app/static/app/js/classes/AssetDownloads.js:50
 msgid "Camera Parameters"
 msgstr "카메라 파라미터"
 
-#: app/static/app/js/classes/AssetDownloads.js:50
+#: app/static/app/js/classes/AssetDownloads.js:51
 msgid "Camera Shots (GeoJSON)"
 msgstr "카메라 슈팅 (GeoJSON)"
 
-#: app/static/app/js/classes/AssetDownloads.js:51
+#: app/static/app/js/classes/AssetDownloads.js:52
+#, fuzzy
+#| msgid "Camera Shots (GeoJSON)"
+msgid "Ground Control Points (GeoJSON)"
+msgstr "카메라 슈팅 (GeoJSON)"
+
+#: app/static/app/js/classes/AssetDownloads.js:53
 msgid "Quality Report"
 msgstr "품질 보고서"
 
-#: app/static/app/js/classes/AssetDownloads.js:55
+#: app/static/app/js/classes/AssetDownloads.js:58
 msgid "All Assets"
 msgstr "모든 에셋들"
 
@@ -176,7 +188,7 @@ msgid "Canceling..."
 msgstr "취소 중..."
 
 #: app/static/app/js/classes/PendingActions.js:14
-#: app/static/app/js/components/FormDialog.jsx:170
+#: app/static/app/js/components/FormDialog.jsx:151
 msgid "Deleting..."
 msgstr "삭제 중..."
 
@@ -228,6 +240,10 @@ msgstr "DEM"
 msgid "Report"
 msgstr "보고"
 
+#: app/static/app/js/classes/PipelineSteps.js:57
+msgid "Postprocess"
+msgstr ""
+
 #: app/static/app/js/classes/ResizeModes.js:4
 msgid "No"
 msgstr "아니오"
@@ -241,8 +257,10 @@ msgid "Queued"
 msgstr "대기열에 추가 됨"
 
 #: app/static/app/js/classes/StatusCodes.js:15
-msgid "Running"
-msgstr "실행 중"
+#, fuzzy
+#| msgid "Processing Node"
+msgid "Processing"
+msgstr "프로세싱 노드"
 
 #: app/static/app/js/classes/StatusCodes.js:19
 msgid "Failed"
@@ -281,7 +299,7 @@ msgid "Edit Task Options"
 msgstr "작업 옵션 수정"
 
 #: app/static/app/js/components/EditPresetDialog.jsx:113
-#: app/static/app/js/components/EditProjectDialog.jsx:85
+#: app/static/app/js/components/EditProjectDialog.jsx:130
 #: app/static/app/js/components/EditTaskForm.jsx:597
 msgid "Name"
 msgstr "이름"
@@ -290,19 +308,19 @@ msgstr "이름"
 msgid "Search"
 msgstr "검색"
 
-#: app/static/app/js/components/EditProjectDialog.jsx:10
+#: app/static/app/js/components/EditProjectDialog.jsx:12
 msgid "New Project"
 msgstr "새 프로젝트"
 
-#: app/static/app/js/components/EditProjectDialog.jsx:11
+#: app/static/app/js/components/EditProjectDialog.jsx:13
 msgid "Create Project"
 msgstr "프로젝트 생성"
 
-#: app/static/app/js/components/EditProjectDialog.jsx:12
+#: app/static/app/js/components/EditProjectDialog.jsx:14
 msgid "Creating project..."
 msgstr "프로젝트 생성 중..."
 
-#: app/static/app/js/components/EditProjectDialog.jsx:14
+#: app/static/app/js/components/EditProjectDialog.jsx:16
 msgid ""
 "All tasks, images and models associated with this project will be "
 "permanently deleted. Are you sure you want to continue?"
@@ -310,7 +328,14 @@ msgstr ""
 "이 프로젝트와 관련된 모든 작업, 이미지, 모델 등이 영구적으로 삭제됩니다. 정"
 "말 계속하기를 원하십니까?"
 
-#: app/static/app/js/components/EditProjectDialog.jsx:91
+#: app/static/app/js/components/EditProjectDialog.jsx:105
+#: app/static/app/js/components/EditProjectDialog.jsx:111
+#: app/static/app/js/components/TaskListItem.jsx:206
+#: app/static/app/js/components/TaskListItem.jsx:214
+msgid "Cannot complete operation."
+msgstr "명령을 완료할 수 없습니다."
+
+#: app/static/app/js/components/EditProjectDialog.jsx:136
 msgid "Description (optional)"
 msgstr "설명 (선택)"
 
@@ -348,7 +373,7 @@ msgstr "사전 설정 목록을 가져올 수 없습니다. 인터넷과 연결�
 
 #: app/static/app/js/components/EditTaskForm.jsx:225
 #: app/static/app/js/components/EditTaskForm.jsx:384
-#: app/static/app/js/components/Map.jsx:350
+#: app/static/app/js/components/Map.jsx:400
 #: coreplugins/contours/public/ContoursPanel.jsx:246
 #: coreplugins/contours/public/ContoursPanel.jsx:273
 #: coreplugins/contours/public/ContoursPanel.jsx:292
@@ -395,24 +420,29 @@ msgstr "재시도"
 
 #: app/static/app/js/components/EditTaskForm.jsx:524
 #: app/static/app/js/components/EditTaskForm.jsx:531
-#: app/static/app/js/components/ProjectListItem.jsx:534
-#: app/static/app/js/components/TaskListItem.jsx:412
+#: app/static/app/js/components/ProjectListItem.jsx:545
+#: app/static/app/js/components/TaskListItem.jsx:455
+#: app/static/app/js/components/TaskListItem.jsx:683
+#: coreplugins/editshortlinks/public/SLControls.jsx:162
 msgid "Edit"
 msgstr "편집"
 
 #: app/static/app/js/components/EditTaskForm.jsx:537
+#: app/static/app/js/components/TaskListItem.jsx:689
 msgid "Duplicate"
 msgstr "복제"
 
 #: app/static/app/js/components/EditTaskForm.jsx:541
 #: app/static/app/js/components/EditTaskPanel.jsx:82
 #: app/static/app/js/components/FormDialog.jsx:11
+#: coreplugins/editshortlinks/public/SLControls.jsx:170
 msgid "Save"
 msgstr "저장"
 
 #: app/static/app/js/components/EditTaskForm.jsx:545
-#: app/static/app/js/components/FormDialog.jsx:173
-#: app/static/app/js/components/TaskListItem.jsx:438
+#: app/static/app/js/components/FormDialog.jsx:154
+#: app/static/app/js/components/TaskListItem.jsx:483
+#: app/static/app/js/components/TaskListItem.jsx:699
 #: coreplugins/measure/public/app.jsx:34
 msgid "Delete"
 msgstr "삭제"
@@ -435,9 +465,10 @@ msgid "Could not update task information. Plese try again."
 msgstr "작업 정보를 갱신할 수 없습니다. 다시 시도해 주세요."
 
 #: app/static/app/js/components/EditTaskPanel.jsx:75
-#: app/static/app/js/components/FormDialog.jsx:151
+#: app/static/app/js/components/FormDialog.jsx:181
 #: app/static/app/js/components/NewTaskPanel.jsx:185
-#: app/static/app/js/components/TaskListItem.jsx:421
+#: app/static/app/js/components/TaskListItem.jsx:464
+#: app/static/app/js/components/TaskListItem.jsx:678
 #: coreplugins/measure/public/app.jsx:33
 msgid "Cancel"
 msgstr "취소"
@@ -447,7 +478,7 @@ msgid "Saving..."
 msgstr "저장 중..."
 
 #: app/static/app/js/components/ErrorMessage.jsx:29
-#: app/static/app/js/components/ProjectListItem.jsx:544
+#: app/static/app/js/components/ProjectListItem.jsx:555
 msgid "Close"
 msgstr "닫기"
 
@@ -460,16 +491,37 @@ msgid "Saving…"
 msgstr "저장 중…"
 
 #: app/static/app/js/components/FormDialog.jsx:14
+#: coreplugins/editshortlinks/public/SLControls.jsx:112
 msgid "Are you sure?"
 msgstr "확실합니까?"
 
-#: app/static/app/js/components/FormDialog.jsx:109
+#: app/static/app/js/components/FormDialog.jsx:115
 msgid "Could not apply changes"
 msgstr "변경사항을 적용할 수 없습니다"
 
-#: app/static/app/js/components/FormDialog.jsx:123
+#: app/static/app/js/components/FormDialog.jsx:134
 msgid "Could not delete item"
 msgstr "항목을 삭제할 수 없습니다"
+
+#: app/static/app/js/components/GCPPopup.jsx:81
+#: app/static/app/js/components/ImagePopup.jsx:47
+msgid "Image missing"
+msgstr "이미지 손실"
+
+#: app/static/app/js/components/GCPPopup.jsx:175
+msgid "Horizontal error:"
+msgstr ""
+
+#: app/static/app/js/components/GCPPopup.jsx:175
+#: app/static/app/js/components/GCPPopup.jsx:178
+#, fuzzy
+#| msgid "meters"
+msgid "(meters)"
+msgstr "미터"
+
+#: app/static/app/js/components/GCPPopup.jsx:178
+msgid "Vertical error:"
+msgstr ""
 
 #: app/static/app/js/components/Histogram.jsx:293
 msgid "Min:"
@@ -478,10 +530,6 @@ msgstr "최소:"
 #: app/static/app/js/components/Histogram.jsx:294
 msgid "Max:"
 msgstr "최대:"
-
-#: app/static/app/js/components/ImagePopup.jsx:47
-msgid "Image missing"
-msgstr "이미지 손실"
 
 #: app/static/app/js/components/ImagePopup.jsx:86
 msgid "Download Image"
@@ -492,6 +540,11 @@ msgid "Cannot upload file. Check your internet connection and try again."
 msgstr "파일을 올릴 수 없습니다. 인터넷 연결상태를 확인하시고 다시 시도하세요."
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:91
+#: coreplugins/editshortlinks/public/SLControls.jsx:44
+#: coreplugins/editshortlinks/public/SLControls.jsx:62
+#: coreplugins/editshortlinks/public/SLControls.jsx:100
+#: coreplugins/editshortlinks/public/SLControls.jsx:128
+#: coreplugins/editshortlinks/public/SLControls.jsx:131
 #: coreplugins/shortlinks/public/SLCheckbox.jsx:46
 #: coreplugins/shortlinks/public/SLCheckbox.jsx:50
 #, python-format
@@ -535,7 +588,7 @@ msgid "Import From URL"
 msgstr "URL로부터 가져오기"
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:184
-#: app/static/app/js/components/ProjectListItem.jsx:498
+#: app/static/app/js/components/ProjectListItem.jsx:509
 msgid "Import"
 msgstr "가져오기"
 
@@ -560,7 +613,7 @@ msgid "Shading:"
 msgstr "쉐이딩:"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:326
-#: app/static/app/js/components/Map.jsx:351
+#: app/static/app/js/components/Map.jsx:401
 msgid "None"
 msgstr "없음"
 
@@ -587,51 +640,82 @@ msgstr "불러오는 중…"
 msgid "Layers"
 msgstr "레이어"
 
-#: app/static/app/js/components/Map.jsx:88
+#: app/static/app/js/components/Map.jsx:89
 msgid "DSM"
 msgstr "DSM"
 
-#: app/static/app/js/components/Map.jsx:90
+#: app/static/app/js/components/Map.jsx:91
 msgid "DTM"
 msgstr "DTM"
 
-#: app/static/app/js/components/Map.jsx:260
+#: app/static/app/js/components/Map.jsx:261
 msgid "(Cameras)"
 msgstr "(카메라)"
 
-#: app/static/app/js/components/Map.jsx:332
+#: app/static/app/js/components/Map.jsx:310
+msgid "(GCPs)"
+msgstr ""
+
+#: app/static/app/js/components/Map.jsx:382
 msgid "Enter a tile URL template. Valid coordinates are:"
 msgstr "타일 URL 템플릿을 입력하세. 유요한 좌표는:"
 
-#: app/static/app/js/components/Map.jsx:333
+#: app/static/app/js/components/Map.jsx:383
 #, python-brace-format
 msgid "{z}, {x}, {y} for Z/X/Y tile scheme"
 msgstr "Z/X/Y 타일 스키마를 위한 {z}, {x}, {y}"
 
-#: app/static/app/js/components/Map.jsx:334
+#: app/static/app/js/components/Map.jsx:384
 msgid "{-y} for flipped TMS-style Y coordinates"
 msgstr "플립된 TMS 스타일의 Y 좌표는 {-y} 를 이용"
 
-#: app/static/app/js/components/Map.jsx:336
+#: app/static/app/js/components/Map.jsx:386
 msgid "Example:"
 msgstr "예시:"
 
-#: app/static/app/js/components/Map.jsx:402
+#: app/static/app/js/components/Map.jsx:452
 msgid "Add a temporary GeoJSON (.json) or ShapeFile (.zip) overlay"
 msgstr "임시 GeoJSON(.json) 또는 쉐이프파일(.zip) 오버레이 추가"
 
-#: app/static/app/js/components/Map.jsx:453
+#: app/static/app/js/components/Map.jsx:503
 msgid "Error: cannot load assets list."
 msgstr "오류: 에셋 목록을 불러올 수 없음."
 
-#: app/static/app/js/components/Map.jsx:524
+#: app/static/app/js/components/Map.jsx:574
 msgid "Opacity:"
 msgstr "불투명도:"
 
-#: app/static/app/js/components/Map.jsx:528
-#: app/static/app/js/components/TaskList.jsx:75
+#: app/static/app/js/components/Map.jsx:578
+#: app/static/app/js/components/TaskList.jsx:82
 msgid "Loading..."
 msgstr "불러오는 중..."
+
+#: app/static/app/js/components/MoveTaskDialog.jsx:9
+msgid "Move Task"
+msgstr ""
+
+#: app/static/app/js/components/MoveTaskDialog.jsx:10
+#: app/static/app/js/components/ProjectListItem.jsx:482
+msgid "Save Changes"
+msgstr "변경사항 저장"
+
+#: app/static/app/js/components/MoveTaskDialog.jsx:11
+#, fuzzy
+#| msgid "Saving..."
+msgid "Moving..."
+msgstr "저장 중..."
+
+#: app/static/app/js/components/MoveTaskDialog.jsx:54
+#: app/static/app/js/components/ProjectList.jsx:63
+#, python-format
+msgid "Could not load projects list: %(error)s"
+msgstr "프로젝트 목록을 불러올 수 없습니다:%(error)s"
+
+#: app/static/app/js/components/MoveTaskDialog.jsx:88
+#, fuzzy
+#| msgid "Add Project"
+msgid "Project"
+msgstr "프로젝트 추가"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:83
 msgid "Are you sure you want to cancel?"
@@ -672,30 +756,25 @@ msgstr ".JSON 파일을 불러오려면 클릭"
 msgid "Reset to default"
 msgstr "기본 값으로 초기화"
 
-#: app/static/app/js/components/ProjectList.jsx:63
-#, python-format
-msgid "Could not load projects list: %(error)s"
-msgstr "프로젝트 목록을 불러올 수 없습니다:%(error)s"
-
-#: app/static/app/js/components/ProjectListItem.jsx:185
+#: app/static/app/js/components/ProjectListItem.jsx:188
 #, python-format
 msgid "Cannot upload %(filename)s, exceeded max retries (%(max_retries)s)"
 msgstr ""
 "%(filename)s을 올릴 수 없습니다. 최대 재시도 횟수를 초과했습니다"
 "(%(max_retries)s)"
 
-#: app/static/app/js/components/ProjectListItem.jsx:234
-#: app/static/app/js/components/ProjectListItem.jsx:346
+#: app/static/app/js/components/ProjectListItem.jsx:237
+#: app/static/app/js/components/ProjectListItem.jsx:354
 #, python-format
 msgid "Cannot create new task. Invalid response from server: %(error)s"
 msgstr "새 작업을 생성할 수 없습니다. 서버로부터 유효하지 않은 응답: %(error)s"
 
-#: app/static/app/js/components/ProjectListItem.jsx:237
-#: app/static/app/js/components/ProjectListItem.jsx:350
+#: app/static/app/js/components/ProjectListItem.jsx:240
+#: app/static/app/js/components/ProjectListItem.jsx:358
 msgid "Cannot create new task. Please try again later."
 msgstr "새 작업을 생성할 수 없습니다. 잠시후 다시 시도해주세요."
 
-#: app/static/app/js/components/ProjectListItem.jsx:244
+#: app/static/app/js/components/ProjectListItem.jsx:247
 #, python-format
 msgid ""
 "%(count)s files cannot be uploaded. As a reminder, only images (.jpg, .tif, ."
@@ -704,28 +783,24 @@ msgstr ""
 "%(count)s개의 파일이 업로드 되지 않았습니다. 참고로 이미지 파일(.jpg, .tif, ."
 "png)과 GCP 파일(.txt)만 업로드 가능합니다. 다시 시도해주세요."
 
-#: app/static/app/js/components/ProjectListItem.jsx:473
+#: app/static/app/js/components/ProjectListItem.jsx:481
 msgid "Edit Project"
 msgstr "프로젝트 편집"
 
-#: app/static/app/js/components/ProjectListItem.jsx:474
-msgid "Save Changes"
-msgstr "변경사항 저장"
-
-#: app/static/app/js/components/ProjectListItem.jsx:475
+#: app/static/app/js/components/ProjectListItem.jsx:483
 msgid "Saving changes..."
 msgstr "변경사항을 저장하는 중..."
 
-#: app/static/app/js/components/ProjectListItem.jsx:493
+#: app/static/app/js/components/ProjectListItem.jsx:504
 msgid "Select Images and GCP"
 msgstr "이미지와 GCP를 선택"
 
-#: app/static/app/js/components/ProjectListItem.jsx:513
-#: app/static/app/js/components/TaskListItem.jsx:397
+#: app/static/app/js/components/ProjectListItem.jsx:524
+#: app/static/app/js/components/TaskListItem.jsx:442
 msgid "View Map"
 msgstr "지도 보기"
 
-#: app/static/app/js/components/ProjectListItem.jsx:528
+#: app/static/app/js/components/ProjectListItem.jsx:539
 #, python-format
 msgid "%(count)s Tasks"
 msgstr "%(count)s 작업들"
@@ -734,27 +809,27 @@ msgstr "%(count)s 작업들"
 msgid "Share"
 msgstr "공유하기"
 
-#: app/static/app/js/components/SharePopup.jsx:77
+#: app/static/app/js/components/SharePopup.jsx:78
 msgid "An error occurred. Check your connection and permissions."
 msgstr "오류가 발생하였습니다. 인터넷 연결과 권한을 확인하세요."
 
-#: app/static/app/js/components/SharePopup.jsx:95
+#: app/static/app/js/components/SharePopup.jsx:96
 msgid "Share This Task"
 msgstr "이 작업을 공유하기"
 
-#: app/static/app/js/components/SharePopup.jsx:104
+#: app/static/app/js/components/SharePopup.jsx:105
 msgid "QR"
 msgstr "QR"
 
-#: app/static/app/js/components/SharePopup.jsx:117
+#: app/static/app/js/components/SharePopup.jsx:118
 msgid "Enabled"
 msgstr "활성화됨"
 
-#: app/static/app/js/components/SharePopup.jsx:123
+#: app/static/app/js/components/SharePopup.jsx:124
 msgid "Link:"
 msgstr "링크:"
 
-#: app/static/app/js/components/SharePopup.jsx:140
+#: app/static/app/js/components/SharePopup.jsx:141
 msgid "HTML iframe:"
 msgstr "HTML 아이프레임:"
 
@@ -766,32 +841,21 @@ msgstr "3D"
 msgid "2D"
 msgstr "2D"
 
-#: app/static/app/js/components/TaskList.jsx:51
+#: app/static/app/js/components/TaskList.jsx:53
 #, python-format
 msgid "Could not load task list: %(error)s"
 msgstr "작업 목록을 불러올 수 없습니다: %(error)s"
 
-#: app/static/app/js/components/TaskList.jsx:77
+#: app/static/app/js/components/TaskList.jsx:84
 #, python-format
 msgid "Error: %(error)s"
 msgstr "오류: %(error)s"
 
-#: app/static/app/js/components/TaskList.jsx:77
+#: app/static/app/js/components/TaskList.jsx:84
 msgid "Try again"
 msgstr "다시 시도하세요"
 
-#: app/static/app/js/components/TaskList.jsx:79
-msgid "This project has no tasks. Create one by uploading some images!"
-msgstr ""
-"이 프로젝트는 작업이 없습니다. 몇개의 이미지들을 업로드 하여 작업을 생성하세"
-"요!"
-
-#: app/static/app/js/components/TaskListItem.jsx:200
-#: app/static/app/js/components/TaskListItem.jsx:207
-msgid "Cannot complete operation."
-msgstr "명령을 완료할 수 없습니다."
-
-#: app/static/app/js/components/TaskListItem.jsx:250
+#: app/static/app/js/components/TaskListItem.jsx:260
 #, python-format
 msgid ""
 "It looks like there might be one of the following problems: %(problems)s You "
@@ -800,28 +864,28 @@ msgstr ""
 "다음 문제 중 하나가있을 수 있습니다. %(problems)s 좋은 이미지를 캡처하기위한 "
 "모범 사례에 대해 자세히 읽어 볼 수 있습니다 %(link)s."
 
-#: app/static/app/js/components/TaskListItem.jsx:251
+#: app/static/app/js/components/TaskListItem.jsx:261
 msgid "Not enough images"
 msgstr "충분하지 않은 이미지들"
 
-#: app/static/app/js/components/TaskListItem.jsx:252
+#: app/static/app/js/components/TaskListItem.jsx:262
 msgid "Not enough overlap between images"
 msgstr "이미지들 간의 중복도가 충분하지 않음"
 
-#: app/static/app/js/components/TaskListItem.jsx:253
+#: app/static/app/js/components/TaskListItem.jsx:263
 msgid "Images might be too blurry (common with phone cameras)"
 msgstr "이미지들이 너무 흐릿할 수 있음(일반적으로 휴대폰 카메라의 경우)"
 
-#: app/static/app/js/components/TaskListItem.jsx:254
+#: app/static/app/js/components/TaskListItem.jsx:264
 msgid ""
 "The min-num-features task option is set too low, try increasing it by 25%"
 msgstr "작업 옵션의 특징 점의 최소 개수가 너무 낮게 설정 됨, 25% 늘려보세요"
 
-#: app/static/app/js/components/TaskListItem.jsx:255
+#: app/static/app/js/components/TaskListItem.jsx:265
 msgid "here"
 msgstr "여기"
 
-#: app/static/app/js/components/TaskListItem.jsx:258
+#: app/static/app/js/components/TaskListItem.jsx:268
 #, python-format
 msgid ""
 "It looks like this computer might be too old. WebODM requires a computer "
@@ -834,11 +898,11 @@ msgstr ""
 "합니다. 자신의 도커 이미지를 컴파일해도 WebODM을 실행할 수 있습니다. 자세한 "
 "내용은 %(link)s를 참조하세요."
 
-#: app/static/app/js/components/TaskListItem.jsx:258
+#: app/static/app/js/components/TaskListItem.jsx:268
 msgid "this page"
 msgstr "이 페이지"
 
-#: app/static/app/js/components/TaskListItem.jsx:260
+#: app/static/app/js/components/TaskListItem.jsx:270
 msgid ""
 "The processing node is missing a program necessary to complete the task. "
 "This might indicate a corrupted installation. If you built OpenDroneMap, "
@@ -848,49 +912,51 @@ msgstr ""
 "치를 의미할 수 있습니다. OpenDroneMap을 빌드했다면 모든 프로그램이 오류없이 "
 "빌드되었는지 확인하세요."
 
-#: app/static/app/js/components/TaskListItem.jsx:283
+#: app/static/app/js/components/TaskListItem.jsx:310
 #, python-format
 msgid "From %(stage)s"
 msgstr "%(stage)s로 부터"
 
-#: app/static/app/js/components/TaskListItem.jsx:295
+#: app/static/app/js/components/TaskListItem.jsx:322
 msgid "Resume Processing"
 msgstr "처리 다시시작"
 
-#: app/static/app/js/components/TaskListItem.jsx:311
+#: app/static/app/js/components/TaskListItem.jsx:338
 msgid "Cannot restart task."
 msgstr "작업을 다시 시작할 수 없음."
 
-#: app/static/app/js/components/TaskListItem.jsx:353
+#: app/static/app/js/components/TaskListItem.jsx:380
 msgid "Cannot restart task from (stage)s."
 msgstr "(stage)에서 작업을 다시 시작할 수 없습니다."
 
-#: app/static/app/js/components/TaskListItem.jsx:367
+#: app/static/app/js/components/TaskListItem.jsx:406
 #, python-format
 msgid "Task #%(number)s"
 msgstr "작업 #%(number)s"
 
-#: app/static/app/js/components/TaskListItem.jsx:371
+#: app/static/app/js/components/TaskListItem.jsx:410
 msgid "Uploading images to processing node"
 msgstr "프로세싱 노드로 이미지를 전송하는 중"
 
-#: app/static/app/js/components/TaskListItem.jsx:373
+#: app/static/app/js/components/TaskListItem.jsx:412
 msgid "Waiting for a node..."
 msgstr "노드를 기다리는 중..."
 
-#: app/static/app/js/components/TaskListItem.jsx:404
+#: app/static/app/js/components/TaskListItem.jsx:449
 msgid "View 3D Model"
 msgstr "3D 모델 보기"
 
-#: app/static/app/js/components/TaskListItem.jsx:421
+#: app/static/app/js/components/TaskListItem.jsx:464
+#: app/static/app/js/components/TaskListItem.jsx:678
 msgid "Cannot cancel task."
 msgstr "작업을 취소할 수 없습니다."
 
-#: app/static/app/js/components/TaskListItem.jsx:433
+#: app/static/app/js/components/TaskListItem.jsx:477
 msgid "Restart"
 msgstr "재시작"
 
-#: app/static/app/js/components/TaskListItem.jsx:439
+#: app/static/app/js/components/TaskListItem.jsx:484
+#: app/static/app/js/components/TaskListItem.jsx:700
 msgid ""
 "All information related to this task, including images, maps and models will "
 "be deleted. Continue?"
@@ -898,43 +964,57 @@ msgstr ""
 "이 작업과 연관된 이미지, 지도, 모델 등의 모든 정보들이 삭제됩니다. 계속하시겠"
 "습니까?"
 
-#: app/static/app/js/components/TaskListItem.jsx:440
+#: app/static/app/js/components/TaskListItem.jsx:485
+#: app/static/app/js/components/TaskListItem.jsx:701
 msgid "Cannot delete task."
 msgstr "작업을 삭제할 수 없습니다."
 
-#: app/static/app/js/components/TaskListItem.jsx:493
+#: app/static/app/js/components/TaskListItem.jsx:536
 msgid "Task Output:"
 msgstr "작업 출력:"
 
-#: app/static/app/js/components/TaskListItem.jsx:496
+#: app/static/app/js/components/TaskListItem.jsx:539
 msgid "On"
 msgstr "켬"
 
-#: app/static/app/js/components/TaskListItem.jsx:497
+#: app/static/app/js/components/TaskListItem.jsx:540
 msgid "Off"
 msgstr "끔"
 
-#: app/static/app/js/components/TaskListItem.jsx:505
+#: app/static/app/js/components/TaskListItem.jsx:548
 msgid "Created on:"
 msgstr "생성됨:"
 
-#: app/static/app/js/components/TaskListItem.jsx:508
+#: app/static/app/js/components/TaskListItem.jsx:551
 msgid "Processing Node:"
 msgstr "프로세스 노드:"
 
-#: app/static/app/js/components/TaskListItem.jsx:508
+#: app/static/app/js/components/TaskListItem.jsx:551
 msgid "auto"
 msgstr "자동"
 
-#: app/static/app/js/components/TaskListItem.jsx:508
+#: app/static/app/js/components/TaskListItem.jsx:551
 msgid "manual"
 msgstr "수동"
 
-#: app/static/app/js/components/TaskListItem.jsx:512
+#: app/static/app/js/components/TaskListItem.jsx:555
 msgid "Options:"
 msgstr "옵션:"
 
-#: app/static/app/js/components/TaskListItem.jsx:532
+#: app/static/app/js/components/TaskListItem.jsx:561
+msgid "Average GSD:"
+msgstr ""
+
+#: app/static/app/js/components/TaskListItem.jsx:565
+#: coreplugins/measure/public/MeasurePopup.jsx:142
+msgid "Area:"
+msgstr "면적:"
+
+#: app/static/app/js/components/TaskListItem.jsx:569
+msgid "Reconstructed Points:"
+msgstr ""
+
+#: app/static/app/js/components/TaskListItem.jsx:587
 msgid ""
 "An orthophoto could not be generated. To generate one, make sure GPS "
 "information is embedded in the EXIF tags of your images, or use a Ground "
@@ -944,15 +1024,15 @@ msgstr ""
 "내장된 GPS 정보가 있는지 확인하고, 또는 지상기준점(GCP )파일을 사용하여야 합"
 "니다."
 
-#: app/static/app/js/components/TaskListItem.jsx:535
+#: app/static/app/js/components/TaskListItem.jsx:590
 msgid "enough RAM allocated"
 msgstr "충분한 RAM이 할당됨"
 
-#: app/static/app/js/components/TaskListItem.jsx:535
+#: app/static/app/js/components/TaskListItem.jsx:590
 msgid "cloud processing node"
 msgstr "클라우드 프로세싱 노드"
 
-#: app/static/app/js/components/TaskListItem.jsx:535
+#: app/static/app/js/components/TaskListItem.jsx:590
 #, python-format
 msgid ""
 "It looks like your processing node ran out of memory. If you are using "
@@ -967,11 +1047,11 @@ msgstr ""
 "대 동시성(max-concurrency) 매개변수를 줄이는 것을 시도할 수 있습니다. 또는 "
 "%(cloudlink)s 를 이용하여 시도할 수도 있습니다."
 
-#: app/static/app/js/components/TaskListItem.jsx:542
+#: app/static/app/js/components/TaskListItem.jsx:597
 msgid "open a topic"
 msgstr "토픽 열기"
 
-#: app/static/app/js/components/TaskListItem.jsx:542
+#: app/static/app/js/components/TaskListItem.jsx:597
 #, python-format
 msgid ""
 "\"Process exited with code 1\" means that part of the processing failed. "
@@ -988,13 +1068,17 @@ msgstr ""
 "물의 사본을 첨부해야합니다. 우리의 멋진 기여자들이 당신을 돕기 위해 노력할 것"
 "입니다!"
 
-#: app/static/app/js/components/TaskListItem.jsx:588
+#: app/static/app/js/components/TaskListItem.jsx:644
 msgid "Set a processing node"
 msgstr "프로세싱 노드 설정"
 
-#: app/static/app/js/components/TaskListItem.jsx:593
+#: app/static/app/js/components/TaskListItem.jsx:649
 msgid "Waiting for image upload..."
 msgstr "이미지 업로드를 기다리는 중..."
+
+#: app/static/app/js/components/TaskListItem.jsx:688
+msgid "Move"
+msgstr ""
 
 #: app/static/app/js/components/UploadProgressBar.jsx:29
 #, python-format
@@ -1013,6 +1097,276 @@ msgstr "%(count)s 파일이 성공적으로 업로드되었습니다"
 
 #: app/static/app/js/translations/odm_autogenerated.js:3
 #, python-format
+msgid "The maximum vertex count of the output mesh. Default: %(default)s"
+msgstr "출력 메시의 최대 버텍스 수입니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:4
+#, python-format
+msgid ""
+"Skip normalization of colors across all images. Useful when processing "
+"radiometric data. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:5
+#, fuzzy, python-format
+msgid ""
+"End processing at this stage. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"이 단계에서 처리를 종료합니다. 다음 중 하나 일 수 있습니다. %(choices)s. 기본"
+"값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:6
+#, python-format
+msgid ""
+"Delete heavy intermediate files to optimize disk space usage. This affects "
+"the ability to restart the pipeline from an intermediate stage, but allows "
+"datasets to be processed on machines that don't have sufficient disk space "
+"available. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:7
+#, python-format
+msgid ""
+"Use images' GPS exif data for reconstruction, even if there are GCPs present."
+"This flag is useful if you have high precision GPS measurements. If there "
+"are no GCPs, this flag does nothing. Default: %(default)s"
+msgstr ""
+"GCP가 있는 경우에도 이미지의 GPS exif 데이터를 재구성용으로 사용합니다. 이 플"
+"래그는 고정밀 GPS 측정이 있는 경우에 유용합니다. GCP가 없는 경우 이 플래그는 "
+"아무 것도 수행하지 않습니다. 기본값: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:8
+#, python-format
+msgid "Generates a benchmark file with runtime info. Default: %(default)s"
+msgstr ""
+"런타임 정보가 포함 된 벤치 마크 파일을 생성합니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:9
+#, python-format
+msgid ""
+"Simple Morphological Filter window radius parameter (meters). Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:10
+#, python-format
+msgid ""
+"Rerun this stage only and stop. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"이 단계 만 다시 실행하고 중지하십시오. 다음 중 하나 일 수 있습니다. "
+"%(choices)s. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:11
+#, fuzzy, python-format
+msgid ""
+"Run local bundle adjustment for every image added to the reconstruction and "
+"a global adjustment every 100 images. Speeds up reconstruction for very "
+"large datasets. Default: %(default)s"
+msgstr ""
+"재구성에 추가 된 모든 이미지에 대해 로컬 번들 조정을 실행하고 100 개 이미지마"
+"다 전역 조정을 실행합니다. 매우 큰 데이터 세트의 재구성 속도를 높입니다. 기본"
+"값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:12
+msgid ""
+"Permanently delete all previous results and rerun the processing pipeline."
+msgstr ""
+"이전 결과를 모두 영구적으로 삭제하고 처리 파이프 라인을 다시 실행합니다."
+
+#: app/static/app/js/translations/odm_autogenerated.js:13
+#, python-format
+msgid "Print additional messages to the console. Default: %(default)s"
+msgstr "콘솔에 추가 메시지를 출력합니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:14
+#, python-format
+msgid ""
+"Use this tag if you have a GCP File but want to use the EXIF information for "
+"georeferencing instead. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:15
+#, python-format
+msgid ""
+"DSM/DTM resolution in cm / pixel. Note that this value is capped by a ground "
+"sampling distance (GSD) estimate. To remove the cap, check --ignore-gsd "
+"also. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:16
+#, python-format
+msgid ""
+"Path to the image groups file that controls how images should be split into "
+"groups. The file needs to use the following format: image_name "
+"group_nameDefault: %(default)s"
+msgstr ""
+"이미지를 그룹으로 분할하는 방법을 제어하는 이미지 그룹 파일의 경로입니다. 파"
+"일은 다음 형식을 사용해야합니다. image_name group_name 기본값: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:17
+#, python-format
+msgid ""
+"When processing multispectral datasets, ODM will automatically align the "
+"images for each band. If the images have been postprocessed and are already "
+"aligned, use this option. Default: %(default)s"
+msgstr ""
+"다중 스펙트럼 데이터 세트를 처리 할 때 ODM은 각 밴드에 대한 이미지를 자동으"
+"로 정렬합니다. 이미지가 후 처리되었고 이미 정렬 된 경우이 옵션을 사용하십시"
+"오. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:18
+#, python-format
+msgid ""
+"Legacy option (use --feature-quality instead). Resizes images by the largest "
+"side for feature extraction purposes only. Set to -1 to disable. This does "
+"not affect the final orthophoto resolution quality and will not resize the "
+"original images. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:19
+#, python-format
+msgid ""
+"Legacy option (use --pc-quality instead). Controls the density of the point "
+"cloud by setting the resolution of the depthmap images. Higher values take "
+"longer to compute but produce denser point clouds. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:20
+#, python-format
+msgid ""
+"Name of dataset (i.e subfolder name within project folder). Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:21
+#, python-format
+msgid ""
+"Simple Morphological Filter elevation threshold parameter (meters). Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:22
+#, python-format
+msgid ""
+"Set this parameter if you want to generate a PNG rendering of the "
+"orthophoto. Default: %(default)s"
+msgstr ""
+"정사 사진의 PNG 렌더링을 생성하려면이 매개 변수를 설정하십시오. 기본값 : "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:23
+msgid ""
+"Path to the project folder. Your project folder should contain subfolders "
+"for each dataset. Each dataset should have an \"images\" folder."
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:24
+#, python-format
+msgid ""
+"Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag of "
+"Words. FLANN is slower, but more stable. BOW is faster, but can sometimes "
+"miss valid matches. Can be one of: %(choices)s. Default: %(default)s"
+msgstr ""
+"Matcher 알고리즘, 근사 인접 이웃 또는 단어 모음에 대한 빠른 라이브러리. FLANN"
+"은 느리지 만 더 안정적입니다. BOW는 더 빠르지 만 때때로 유효한 일치를 놓칠 "
+"수 있습니다. %(choices)s 중 하나 일 수 있습니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:25
+#, python-format
+msgid ""
+"Choose what to merge in the merge step in a split dataset. By default all "
+"available outputs are merged. Options: %(choices)s. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:26
+#, fuzzy, python-format
+msgid ""
+"Export the georeferenced point cloud in Entwine Point Tile (EPT) format. "
+"Default: %(default)s"
+msgstr ""
+"EPT (Entwine Point Tile) 형식으로 지리 참조 된 포인트 클라우드를 내 보냅니"
+"다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:27
+#, fuzzy, python-format
+msgid ""
+"When processing multispectral datasets, you can specify the name of the "
+"primary band that will be used for reconstruction. It's recommended to "
+"choose a band which has sharp details and is in focus. Default: %(default)s"
+msgstr ""
+"멀티 스펙트럼 데이터 세트를 처리 할 때 재구성에 사용할 기본 대역의 이름을 지"
+"정할 수 있습니다. 디테일이 선명하고 초점이 맞는 밴드를 선택하는 것이 좋습니"
+"다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:28
+#, python-format
+msgid ""
+"Use a full 3D mesh to compute the orthophoto instead of a 2.5D mesh. This "
+"option is a bit faster and provides similar results in planar areas. "
+"Default: %(default)s"
+msgstr ""
+"2.5D 메시 대신 전체 3D 메시를 사용하여 정사 광을 계산합니다. 이 옵션은 조금 "
+"더 빠르며 평면 영역에서 유사한 결과를 제공합니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:29
+#, fuzzy
+msgid "Displays version number and exits. "
+msgstr "버전 번호를 표시하고 종료합니다. "
+
+#: app/static/app/js/translations/odm_autogenerated.js:30
+#, python-format
+msgid ""
+"When texturing the 3D mesh, for each triangle, choose to prioritize images "
+"with sharp features (gmi) or those that cover the largest area (area). "
+"Default: %(default)s"
+msgstr ""
+"3D 메시를 텍스처링 할 때 각 삼각형에 대해 선명한 특징 (gmi)이있는 이미지 또"
+"는 가장 큰 영역 (영역)을 포함하는 이미지의 우선 순위를 선택합니다. 기본값 : "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:31
+#, python-format
+msgid ""
+"URL to a ClusterODM instance for distributing a split-merge workflow on "
+"multiple nodes in parallel. Default: %(default)s"
+msgstr ""
+"여러 노드에 병렬로 분할 병합 워크 플로를 배포하기위한 ClusterODM 인스턴스에 "
+"대한 URL입니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:32
+#, python-format
+msgid ""
+"Use this tag to build a DTM (Digital Terrain Model, ground only) using a "
+"simple morphological filter. Check the --dem* and --smrf* parameters for "
+"finer tuning. Default: %(default)s"
+msgstr ""
+"이 태그를 사용하여 간단한 형태 학적필터를 사용하여 DTM (디지털 지형 모델, 지"
+"상 전용)을 구축합니다. 미세 조정을 위해 --dem* 및 --smrf * 매개 변수를 확인하"
+"십시오. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:33
+#, python-format
+msgid ""
+"Use this tag to build a DSM (Digital Surface Model, ground + objects) using "
+"a progressive morphological filter. Check the --dem* parameters for finer "
+"tuning. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:34
+#, python-format
+msgid ""
+"Generates a polygon around the cropping area that cuts the orthophoto around "
+"the edges of features. This polygon can be useful for stitching seamless "
+"mosaics with multiple overlapping orthophotos. Default: %(default)s"
+msgstr ""
+"피처 가장자리 주변의 정사 사진을 자르는 자르기 영역 주변에 다각형을 생성합니"
+"다. 이 다각형은 여러 개의 겹치는 정사 사진으로 매끄러운 모자이크를 스티칭하"
+"는 데 유용 할 수 있습니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:35
+#, python-format
 msgid ""
 "Turn on gamma tone mapping or none for no tone mapping. Can be one of "
 "%(choices)s. Default: %(default)s "
@@ -1020,7 +1374,331 @@ msgstr ""
 "감마 톤 매핑을 켜거나 톤 매핑이없는 경우 없음을 설정합니다. %(choices)s 중 하"
 "나 일 수 있습니다. 기본값 : %(default)s "
 
-#: app/static/app/js/translations/odm_autogenerated.js:4
+#: app/static/app/js/translations/odm_autogenerated.js:36
+#, python-format
+msgid ""
+"Set the compression to use for orthophotos. Can be one of: %(choices)s. "
+"Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:37
+#, python-format
+msgid "Set this parameter if you want a striped GeoTIFF. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:38
+#, python-format
+msgid ""
+"Simple Morphological Filter elevation scalar parameter. Default: %(default)s"
+msgstr "단순 형태 학 필터의 고도 스칼라 매개 변수. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:39
+#, python-format
+msgid ""
+"Rerun processing from this stage. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:40
+#, python-format
+msgid ""
+"Simple Morphological Filter slope parameter (rise over run). Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:41
+#, python-format
+msgid ""
+"Classify the point cloud outputs using a Simple Morphological Filter. You "
+"can control the behavior of this option by tweaking the --dem-* parameters. "
+"Default: %(default)s"
+msgstr ""
+"Simple Morphological Filter를 사용하여 포인트 클라우드 출력을 분류합니다. --"
+"dem- * 매개 변수를 조정하여이 옵션의 동작을 제어 할 수 있습니다. 기본값 : "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:42
+#, fuzzy, python-format
+msgid ""
+"Export the georeferenced point cloud in LAS format. Default: %(default)s"
+msgstr ""
+"지리 참조 된 포인트 클라우드를 LAS 형식으로 내 보냅니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:43
+#, fuzzy, python-format
+msgid ""
+"Number of nearest images to pre-match based on GPS exif data. Set to 0 to "
+"skip pre-matching. Neighbors works together with Distance parameter, set "
+"both to 0 to not use pre-matching. Default: %(default)s"
+msgstr ""
+"GPS exif 데이터를 기반으로 사전 일치 할 가장 가까운 이미지 수입니다. 사전 일"
+"치를 건너 뛰려면 0으로 설정하십시오. 이웃은 거리 매개 변수와 함께 작동하며 사"
+"전 일치를 사용하지 않으려면 둘 다 0으로 설정합니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:44
+#, fuzzy, python-format
+#| msgid ""
+#| "Set this parameter if you want to generate a PNG rendering of the "
+#| "orthophoto. Default: %(default)s"
+msgid ""
+"Set this parameter if you want to generate a Google Earth (KMZ) rendering of "
+"the orthophoto. Default: %(default)s"
+msgstr ""
+"정사 사진의 PNG 렌더링을 생성하려면이 매개 변수를 설정하십시오. 기본값 : "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:45
+#, fuzzy, python-format
+msgid ""
+"Path to the file containing the ground control points used for "
+"georeferencing. The file needs to use the following format: EPSG:<code> or <"
+"+proj definition>geo_x geo_y geo_z im_x im_y image_name [gcp_name] [extra1] "
+"[extra2]Default: %(default)s"
+msgstr ""
+"지리 참조에 사용되는 지상 기준점이 포함 된 파일의 경로입니다. 파일은 다음 형"
+"식을 사용해야합니다. EPSG : <code> 또는 <+ proj definition> geo_x geo_y "
+"geo_z im_x im_y image_name [gcp_name] [extra1] [extra2] 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:46
+#, python-format
+msgid ""
+"Reduce the memory usage needed for depthmap fusion by splitting large scenes "
+"into tiles. Turn this on if your machine doesn't have much RAM and/or you've "
+"set --pc-quality to high or ultra. Experimental. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:47
+#, python-format
+msgid ""
+"Radius of the overlap between submodels. After grouping images into "
+"clusters, images that are closer than this radius to a cluster are added to "
+"the cluster. This is done to ensure that neighboring submodels overlap. "
+"Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:48
+#, fuzzy, python-format
+msgid ""
+"Average number of images per submodel. When splitting a large dataset into "
+"smaller submodels, images are grouped into clusters. This value regulates "
+"the number of images that each cluster should have on average. Default: "
+"%(default)s"
+msgstr ""
+"서브 모델 당 평균 이미지 수입니다. 큰 데이터 세트를 더 작은 하위 모델로 분할"
+"하면 이미지가 클러스터로 그룹화됩니다. 이 값은 각 클러스터가 평균적으로 가져"
+"야하는 이미지 수를 조절합니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:49
+#, python-format
+msgid ""
+"Minimum number of features to extract per image. More features can be useful "
+"for finding more matches between images, potentially allowing the "
+"reconstruction of areas with little overlap or insufficient features. More "
+"features also slow down processing. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:50
+#, python-format
+msgid ""
+"Distance threshold in meters to find pre-matching images based on GPS exif "
+"data. Set both matcher-neighbors and this to 0 to skip pre-matching. "
+"Default: %(default)s"
+msgstr ""
+"GPS exif 데이터를 기반으로 사전 일치 이미지를 찾기위한 거리 임계 값 (미터). "
+"사전 일치를 건너 뛰려면 matcher-neighbors와 this를 모두 0으로 설정하십시오. "
+"기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:51
+#, python-format
+msgid "Skip the blending of colors near seams. Default: %(default)s"
+msgstr "솔기 근처의 색상 혼합을 건너뜁니다. 기본값: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:52
+#, python-format
+msgid ""
+"Improve the accuracy of the point cloud by computing geometrically "
+"consistent depthmaps. This increases processing time, but can improve "
+"results in urban scenes. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:53
+#, python-format
+msgid ""
+"Computes an euclidean raster map for each DEM. The map reports the distance "
+"from each cell to the nearest NODATA value (before any hole filling takes "
+"place). This can be useful to isolate the areas that have been filled. "
+"Default: %(default)s"
+msgstr ""
+"각 DEM에 대한 유클리드 래스터 맵을 계산합니다. 맵은 각 셀에서 가장 가까운 "
+"NODATA 값까지의 거리를보고합니다 (구멍 채우기가 발생하기 전). 이것은 채워진 "
+"영역을 분리하는 데 유용 할 수 있습니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:54
+#, python-format
+msgid ""
+"Filters the point cloud by removing points that deviate more than N standard "
+"deviations from the local mean. Set to 0 to disable filtering. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:55
+#, python-format
+msgid ""
+"Set point cloud quality. Higher quality generates better, denser point "
+"clouds, but requires more memory and takes longer. Each step up in quality "
+"increases processing time roughly by a factor of 4x.Can be one of: "
+"%(choices)s. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:56
+#, python-format
+msgid ""
+"Skip generation of PDF report. This can save time if you don't need a "
+"report. Default: %(default)s"
+msgstr ""
+"PDF 보고서 생성을 건너 뜁니다. 보고서가 필요하지 않은 경우 시간을 절약 할 수 "
+"있습니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:57
+#, python-format
+msgid ""
+"Generate static tiles for orthophotos and DEMs that are suitable for viewers "
+"like Leaflet or OpenLayers. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:58
+#, fuzzy, python-format
+msgid ""
+"Ignore Ground Sampling Distance (GSD). GSD caps the maximum resolution of "
+"image outputs and resizes images when necessary, resulting in faster "
+"processing and lower memory usage. Since GSD is an estimate, sometimes "
+"ignoring it can result in slightly better image output quality. Default: "
+"%(default)s"
+msgstr ""
+"GSD (Ground Sampling Distance)를 무시합니다. GSD는 이미지 출력의 최대 해상도"
+"를 제한하고 필요한 경우 이미지 크기를 조정하여 처리 속도를 높이고 메모리 사용"
+"량을 줄입니다. GSD는 추정치이므로 간혹 무시하면 이미지 출력 품질이 약간 더 좋"
+"아질 수 있습니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:59
+#, fuzzy, python-format
+msgid ""
+"Choose the algorithm for extracting keypoints and computing descriptors. Can "
+"be one of: %(choices)s. Default: %(default)s"
+msgstr ""
+"키포인트를 추출하고 설명자를 계산하기위한 알고리즘을 선택합니다. 다음 중 하"
+"나 일 수 있습니다. %(choices)s. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:60
+#, python-format
+msgid ""
+"Perform ground rectification on the point cloud. This means that wrongly "
+"classified ground points will be re-classified and gaps will be filled. "
+"Useful for generating DTMs. Default: %(default)s"
+msgstr ""
+"포인트 클라우드에서 지면 교정을 수행합니다. 이는 잘못 분류 된 지면 지점들이 "
+"재 분류되고 간격이 채워짐을 의미합니다. DTM 생성에 유용합니다. 기본값 : "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:61
+#, python-format
+msgid ""
+"Build orthophoto overviews for faster display in programs such as QGIS. "
+"Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:62
+msgid "show this help message and exit"
+msgstr "이 도움말 메시지를 표시하고 종료"
+
+#: app/static/app/js/translations/odm_autogenerated.js:63
+msgid "Copy output results to this folder after processing."
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:64
+#, python-format
+msgid ""
+"Octree depth used in the mesh reconstruction, increase to get more vertices, "
+"recommended values are 8-12. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:65
+#, python-format
+msgid ""
+"Turn off camera parameter optimization during bundle adjustment. This can be "
+"sometimes useful for improving results that exhibit doming/bowling or when "
+"images are taken with a rolling shutter camera. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:66
+#, python-format
+msgid ""
+"Set a camera projection type. Manually setting a value can help improve "
+"geometric undistortion. By default the application tries to determine a lens "
+"type from the images metadata. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"카메라 투영 유형을 설정합니다. 값을 수동으로 설정하면 기하학적 왜곡 제거를 개"
+"선하는 데 도움이 될 수 있습니다. 기본적으로 응용 프로그램은 이미지 메타 데이"
+"터에서 렌즈 유형을 확인하려고합니다. 다음 중 하나 일 수 있습니다. "
+"%(choices)s. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:67
+#, python-format
+msgid ""
+"Automatically crop image outputs by creating a smooth buffer around the "
+"dataset boundaries, shrinked by N meters. Use 0 to disable cropping. "
+"Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:68
+#, python-format
+msgid ""
+"Number of steps used to fill areas with gaps. Set to 0 to disable gap "
+"filling. Starting with a radius equal to the output resolution, N different "
+"DEMs are generated with progressively bigger radius using the inverse "
+"distance weighted (IDW) algorithm and merged together. Remaining gaps are "
+"then merged using nearest neighbor interpolation. Default: %(default)s"
+msgstr ""
+"영역을 간격으로 채우는 데 사용되는 단계 수입니다. 0이면 간격 채우기를 비활성"
+"화합니다. 출력 해상도와 동일한 반경으로 시작하여 역 거리 가중치 (IDW) 알고리"
+"즘을 사용하여 점차적으로 더 큰 반경으로 N 개의 서로 다른 DEM이 생성되고 함께 "
+"병합됩니다. 나머지 간격은 최근 접 이웃 보간을 사용하여 병합됩니다. 기본값 : "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:69
+#, python-format
+msgid ""
+"Skips dense reconstruction and 3D model generation. It generates an "
+"orthophoto directly from the sparse reconstruction. If you just need an "
+"orthophoto and do not need a full 3D model, turn on this option. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:70
+#, python-format
+msgid ""
+"Use the camera parameters computed from another dataset instead of "
+"calculating them. Can be specified either as path to a cameras.json file or "
+"as a JSON string representing the contents of a cameras.json file. Default: "
+"%(default)s"
+msgstr ""
+"계산하는 대신 다른 데이터 세트에서 계산 된 카메라 매개 변수를 사용합니다. "
+"cameras.json 파일의 경로 또는 cameras.json 파일의 내용을 나타내는 JSON 문자열"
+"로 지정할 수 있습니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:71
+#, python-format
+msgid ""
+"Path to the image geolocation file containing the camera center coordinates "
+"used for georeferencing. Note that omega/phi/kappa are currently not "
+"supported (you can set them to 0). The file needs to use the following "
+"format: EPSG:<code> or <+proj definition>image_name geo_x geo_y geo_z [omega "
+"(degrees)] [phi (degrees)] [kappa (degrees)] [horz accuracy (meters)] [vert "
+"accuracy (meters)]Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:72
 #, fuzzy, python-format
 #| msgid ""
 #| "Filters the point cloud by keeping only a single point around a radius N "
@@ -1036,430 +1714,7 @@ msgstr ""
 "포인트 클라우드의 출력 해상도를 제한하는 데 유용 할 수 있습니다. 샘플링을 비"
 "활성화하려면 0으로 설정합니다. 기본값 : %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:5
-#, fuzzy, python-format
-msgid ""
-"Type of photometric outlier removal method. Can be one of: %(choices)s. "
-"Default: %(default)s"
-msgstr ""
-"포토 메트릭 이상 값 제거 방법의 유형입니다. 다음 중 하나 일 수 있습니다. "
-"%(choices)s. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:6
-#, fuzzy, python-format
-msgid ""
-"Number of nearest images to pre-match based on GPS exif data. Set to 0 to "
-"skip pre-matching. Neighbors works together with Distance parameter, set "
-"both to 0 to not use pre-matching. Default: %(default)s"
-msgstr ""
-"GPS exif 데이터를 기반으로 사전 일치 할 가장 가까운 이미지 수입니다. 사전 일"
-"치를 건너 뛰려면 0으로 설정하십시오. 이웃은 거리 매개 변수와 함께 작동하며 사"
-"전 일치를 사용하지 않으려면 둘 다 0으로 설정합니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:7
-#, python-format
-msgid ""
-"Use the camera parameters computed from another dataset instead of "
-"calculating them. Can be specified either as path to a cameras.json file or "
-"as a JSON string representing the contents of a cameras.json file. Default: "
-"%(default)s"
-msgstr ""
-"계산하는 대신 다른 데이터 세트에서 계산 된 카메라 매개 변수를 사용합니다. "
-"cameras.json 파일의 경로 또는 cameras.json 파일의 내용을 나타내는 JSON 문자열"
-"로 지정할 수 있습니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:8
-#, fuzzy, python-format
-msgid ""
-"Export the georeferenced point cloud in LAS format. Default: %(default)s"
-msgstr ""
-"지리 참조 된 포인트 클라우드를 LAS 형식으로 내 보냅니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:9
-#, python-format
-msgid ""
-"Filters the point cloud by removing points that deviate more than N standard "
-"deviations from the local mean. Set to 0 to disable filtering. Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:10
-#, python-format
-msgid ""
-"Simple Morphological Filter elevation threshold parameter (meters). Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:11
-msgid ""
-"Path to the project folder. Your project folder should contain subfolders "
-"for each dataset. Each dataset should have an \"images\" folder."
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:12
-#, python-format
-msgid ""
-"Path to the image geolocation file containing the camera center coordinates "
-"used for georeferencing. Note that omega/phi/kappa are currently not "
-"supported (you can set them to 0). The file needs to use the following "
-"format: EPSG:<code> or <+proj definition>image_name geo_x geo_y geo_z [omega "
-"(degrees)] [phi (degrees)] [kappa (degrees)] [horz accuracy (meters)] [vert "
-"accuracy (meters)]Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:13
-#, python-format
-msgid ""
-"Reduce the memory usage needed for depthmap fusion by splitting large scenes "
-"into tiles. Turn this on if your machine doesn't have much RAM and/or you've "
-"set --pc-quality to high or ultra. Experimental. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:14
-#, python-format
-msgid ""
-"Improve the accuracy of the point cloud by computing geometrically "
-"consistent depthmaps. This increases processing time, but can improve "
-"results in urban scenes. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:15
-#, python-format
-msgid ""
-"Decimate the points before generating the DEM. 1 is no decimation (full "
-"quality). 100 decimates ~99%% of the points. Useful for speeding up "
-"generation of DEM results in very large datasets. Default: %(default)s"
-msgstr ""
-"DEM을 생성하기 전에 점을 줄입니다. 1은 소멸이 아닙니다 (전체 품질). 100은 포"
-"인트의 ~ 99 %%를 데시 메이트합니다. DEM 생성 속도를 높이는 데 유용하므로 매"
-"우 큰 데이터 세트가 생성됩니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:16
-#, python-format
-msgid ""
-"Number of steps used to fill areas with gaps. Set to 0 to disable gap "
-"filling. Starting with a radius equal to the output resolution, N different "
-"DEMs are generated with progressively bigger radius using the inverse "
-"distance weighted (IDW) algorithm and merged together. Remaining gaps are "
-"then merged using nearest neighbor interpolation. Default: %(default)s"
-msgstr ""
-"영역을 간격으로 채우는 데 사용되는 단계 수입니다. 0이면 간격 채우기를 비활성"
-"화합니다. 출력 해상도와 동일한 반경으로 시작하여 역 거리 가중치 (IDW) 알고리"
-"즘을 사용하여 점차적으로 더 큰 반경으로 N 개의 서로 다른 DEM이 생성되고 함께 "
-"병합됩니다. 나머지 간격은 최근 접 이웃 보간을 사용하여 병합됩니다. 기본값 : "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:17
-#, python-format
-msgid "Skip the blending of colors near seams. Default: %(default)s"
-msgstr "솔기 근처의 색상 혼합을 건너뜁니다. 기본값: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:18
-#, python-format
-msgid "Generates a benchmark file with runtime info. Default: %(default)s"
-msgstr ""
-"런타임 정보가 포함 된 벤치 마크 파일을 생성합니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:19
-#, fuzzy, python-format
-msgid ""
-"When processing multispectral datasets, you can specify the name of the "
-"primary band that will be used for reconstruction. It's recommended to "
-"choose a band which has sharp details and is in focus. Default: %(default)s"
-msgstr ""
-"멀티 스펙트럼 데이터 세트를 처리 할 때 재구성에 사용할 기본 대역의 이름을 지"
-"정할 수 있습니다. 디테일이 선명하고 초점이 맞는 밴드를 선택하는 것이 좋습니"
-"다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:20
-#, python-format
-msgid ""
-"Use this tag to build a DSM (Digital Surface Model, ground + objects) using "
-"a progressive morphological filter. Check the --dem* parameters for finer "
-"tuning. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:21
-#, python-format
-msgid ""
-"Octree depth used in the mesh reconstruction, increase to get more vertices, "
-"recommended values are 8-12. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:22
-#, fuzzy, python-format
-msgid ""
-"Ignore Ground Sampling Distance (GSD). GSD caps the maximum resolution of "
-"image outputs and resizes images when necessary, resulting in faster "
-"processing and lower memory usage. Since GSD is an estimate, sometimes "
-"ignoring it can result in slightly better image output quality. Default: "
-"%(default)s"
-msgstr ""
-"GSD (Ground Sampling Distance)를 무시합니다. GSD는 이미지 출력의 최대 해상도"
-"를 제한하고 필요한 경우 이미지 크기를 조정하여 처리 속도를 높이고 메모리 사용"
-"량을 줄입니다. GSD는 추정치이므로 간혹 무시하면 이미지 출력 품질이 약간 더 좋"
-"아질 수 있습니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:23
-#, python-format
-msgid ""
-"Radius of the overlap between submodels. After grouping images into "
-"clusters, images that are closer than this radius to a cluster are added to "
-"the cluster. This is done to ensure that neighboring submodels overlap. "
-"Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:24
-#, python-format
-msgid "The maximum vertex count of the output mesh. Default: %(default)s"
-msgstr "출력 메시의 최대 버텍스 수입니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:25
-#, python-format
-msgid ""
-"Use a full 3D mesh to compute the orthophoto instead of a 2.5D mesh. This "
-"option is a bit faster and provides similar results in planar areas. "
-"Default: %(default)s"
-msgstr ""
-"2.5D 메시 대신 전체 3D 메시를 사용하여 정사 광을 계산합니다. 이 옵션은 조금 "
-"더 빠르며 평면 영역에서 유사한 결과를 제공합니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:26
-#, python-format
-msgid ""
-"Minimum number of features to extract per image. More features can be useful "
-"for finding more matches between images, potentially allowing the "
-"reconstruction of areas with little overlap or insufficient features. More "
-"features also slow down processing. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:27
-#, python-format
-msgid ""
-"Legacy option (use --feature-quality instead). Resizes images by the largest "
-"side for feature extraction purposes only. Set to -1 to disable. This does "
-"not affect the final orthophoto resolution quality and will not resize the "
-"original images. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:28
-#, python-format
-msgid ""
-"Computes an euclidean raster map for each DEM. The map reports the distance "
-"from each cell to the nearest NODATA value (before any hole filling takes "
-"place). This can be useful to isolate the areas that have been filled. "
-"Default: %(default)s"
-msgstr ""
-"각 DEM에 대한 유클리드 래스터 맵을 계산합니다. 맵은 각 셀에서 가장 가까운 "
-"NODATA 값까지의 거리를보고합니다 (구멍 채우기가 발생하기 전). 이것은 채워진 "
-"영역을 분리하는 데 유용 할 수 있습니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:29
-#, python-format
-msgid "Print debug messages. Default: %(default)s"
-msgstr "디버그 메시지를 출력합니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:30
-#, python-format
-msgid ""
-"Set the compression to use for orthophotos. Can be one of: %(choices)s. "
-"Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:31
-#, python-format
-msgid ""
-"Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag of "
-"Words. FLANN is slower, but more stable. BOW is faster, but can sometimes "
-"miss valid matches. Can be one of: %(choices)s. Default: %(default)s"
-msgstr ""
-"Matcher 알고리즘, 근사 인접 이웃 또는 단어 모음에 대한 빠른 라이브러리. FLANN"
-"은 느리지 만 더 안정적입니다. BOW는 더 빠르지 만 때때로 유효한 일치를 놓칠 "
-"수 있습니다. %(choices)s 중 하나 일 수 있습니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:32
-#, fuzzy
-msgid "Displays version number and exits. "
-msgstr "버전 번호를 표시하고 종료합니다. "
-
-#: app/static/app/js/translations/odm_autogenerated.js:33
-#, python-format
-msgid ""
-"When processing multispectral datasets, ODM will automatically align the "
-"images for each band. If the images have been postprocessed and are already "
-"aligned, use this option. Default: %(default)s"
-msgstr ""
-"다중 스펙트럼 데이터 세트를 처리 할 때 ODM은 각 밴드에 대한 이미지를 자동으"
-"로 정렬합니다. 이미지가 후 처리되었고 이미 정렬 된 경우이 옵션을 사용하십시"
-"오. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:34
-#, fuzzy, python-format
-msgid ""
-"End processing at this stage. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-"이 단계에서 처리를 종료합니다. 다음 중 하나 일 수 있습니다. %(choices)s. 기본"
-"값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:35
-#, fuzzy, python-format
-msgid ""
-"Run local bundle adjustment for every image added to the reconstruction and "
-"a global adjustment every 100 images. Speeds up reconstruction for very "
-"large datasets. Default: %(default)s"
-msgstr ""
-"재구성에 추가 된 모든 이미지에 대해 로컬 번들 조정을 실행하고 100 개 이미지마"
-"다 전역 조정을 실행합니다. 매우 큰 데이터 세트의 재구성 속도를 높입니다. 기본"
-"값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:36
-#, python-format
-msgid "Print additional messages to the console. Default: %(default)s"
-msgstr "콘솔에 추가 메시지를 출력합니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:37
-#, python-format
-msgid ""
-"Skip generation of PDF report. This can save time if you don't need a "
-"report. Default: %(default)s"
-msgstr ""
-"PDF 보고서 생성을 건너 뜁니다. 보고서가 필요하지 않은 경우 시간을 절약 할 수 "
-"있습니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:38
-#, python-format
-msgid ""
-"Simple Morphological Filter window radius parameter (meters). Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:39
-#, python-format
-msgid "Set this parameter if you want a striped GeoTIFF. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:40
-#, python-format
-msgid ""
-"Distance threshold in meters to find pre-matching images based on GPS exif "
-"data. Set both matcher-neighbors and this to 0 to skip pre-matching. "
-"Default: %(default)s"
-msgstr ""
-"GPS exif 데이터를 기반으로 사전 일치 이미지를 찾기위한 거리 임계 값 (미터). "
-"사전 일치를 건너 뛰려면 matcher-neighbors와 this를 모두 0으로 설정하십시오. "
-"기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:41
-#, fuzzy, python-format
-msgid ""
-"Path to the file containing the ground control points used for "
-"georeferencing. The file needs to use the following format: EPSG:<code> or <"
-"+proj definition>geo_x geo_y geo_z im_x im_y image_name [gcp_name] [extra1] "
-"[extra2]Default: %(default)s"
-msgstr ""
-"지리 참조에 사용되는 지상 기준점이 포함 된 파일의 경로입니다. 파일은 다음 형"
-"식을 사용해야합니다. EPSG : <code> 또는 <+ proj definition> geo_x geo_y "
-"geo_z im_x im_y image_name [gcp_name] [extra1] [extra2] 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:42
-#, python-format
-msgid ""
-"Generates a polygon around the cropping area that cuts the orthophoto around "
-"the edges of features. This polygon can be useful for stitching seamless "
-"mosaics with multiple overlapping orthophotos. Default: %(default)s"
-msgstr ""
-"피처 가장자리 주변의 정사 사진을 자르는 자르기 영역 주변에 다각형을 생성합니"
-"다. 이 다각형은 여러 개의 겹치는 정사 사진으로 매끄러운 모자이크를 스티칭하"
-"는 데 유용 할 수 있습니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:43
-#, python-format
-msgid ""
-"URL to a ClusterODM instance for distributing a split-merge workflow on "
-"multiple nodes in parallel. Default: %(default)s"
-msgstr ""
-"여러 노드에 병렬로 분할 병합 워크 플로를 배포하기위한 ClusterODM 인스턴스에 "
-"대한 URL입니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:44
-#, python-format
-msgid ""
-"Rerun processing from this stage. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:45
-msgid "show this help message and exit"
-msgstr "이 도움말 메시지를 표시하고 종료"
-
-#: app/static/app/js/translations/odm_autogenerated.js:46
-#, python-format
-msgid ""
-"Simple Morphological Filter slope parameter (rise over run). Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:47
-#, python-format
-msgid ""
-"When texturing the 3D mesh, for each triangle, choose to prioritize images "
-"with sharp features (gmi) or those that cover the largest area (area). "
-"Default: %(default)s"
-msgstr ""
-"3D 메시를 텍스처링 할 때 각 삼각형에 대해 선명한 특징 (gmi)이있는 이미지 또"
-"는 가장 큰 영역 (영역)을 포함하는 이미지의 우선 순위를 선택합니다. 기본값 : "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:48
-#, python-format
-msgid ""
-"Set point cloud quality. Higher quality generates better, denser point "
-"clouds, but requires more memory and takes longer. Each step up in quality "
-"increases processing time roughly by a factor of 4x.Can be one of: "
-"%(choices)s. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:49
-#, fuzzy, python-format
-msgid ""
-"Export the georeferenced point cloud in Entwine Point Tile (EPT) format. "
-"Default: %(default)s"
-msgstr ""
-"EPT (Entwine Point Tile) 형식으로 지리 참조 된 포인트 클라우드를 내 보냅니"
-"다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:50
-#, fuzzy, python-format
-msgid ""
-"Choose the algorithm for extracting keypoints and computing descriptors. Can "
-"be one of: %(choices)s. Default: %(default)s"
-msgstr ""
-"키포인트를 추출하고 설명자를 계산하기위한 알고리즘을 선택합니다. 다음 중 하"
-"나 일 수 있습니다. %(choices)s. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:51
-#, python-format
-msgid ""
-"Turn off camera parameter optimization during bundle adjustment. This can be "
-"sometimes useful for improving results that exhibit doming/bowling or when "
-"images are taken with a rolling shutter camera. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:52
-#, python-format
-msgid ""
-"Set a camera projection type. Manually setting a value can help improve "
-"geometric undistortion. By default the application tries to determine a lens "
-"type from the images metadata. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-"카메라 투영 유형을 설정합니다. 값을 수동으로 설정하면 기하학적 왜곡 제거를 개"
-"선하는 데 도움이 될 수 있습니다. 기본적으로 응용 프로그램은 이미지 메타 데이"
-"터에서 렌즈 유형을 확인하려고합니다. 다음 중 하나 일 수 있습니다. "
-"%(choices)s. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:53
+#: app/static/app/js/translations/odm_autogenerated.js:73
 #, fuzzy, python-format
 #| msgid ""
 #| "Set the radiometric calibration to perform on images. When processing "
@@ -1489,18 +1744,23 @@ msgstr ""
 "light sensor)를 통해 등록 된 스펙트럼 방사를 보정합니다.  %(choices)s중 하나 "
 "일 수 있습니다. 기본값 : %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:54
+#: app/static/app/js/translations/odm_autogenerated.js:74
+#, fuzzy, python-format
+msgid ""
+"Type of photometric outlier removal method. Can be one of: %(choices)s. "
+"Default: %(default)s"
+msgstr ""
+"포토 메트릭 이상 값 제거 방법의 유형입니다. 다음 중 하나 일 수 있습니다. "
+"%(choices)s. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:75
 #, python-format
 msgid ""
-"Use this tag to build a DTM (Digital Terrain Model, ground only) using a "
-"simple morphological filter. Check the --dem* and --smrf* parameters for "
-"finer tuning. Default: %(default)s"
+"Skip generation of a full 3D model. This can save time if you only need 2D "
+"results such as orthophotos and DEMs. Default: %(default)s"
 msgstr ""
-"이 태그를 사용하여 간단한 형태 학적필터를 사용하여 DTM (디지털 지형 모델, 지"
-"상 전용)을 구축합니다. 미세 조정을 위해 --dem* 및 --smrf * 매개 변수를 확인하"
-"십시오. 기본값 : %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:55
+#: app/static/app/js/translations/odm_autogenerated.js:76
 #, python-format
 msgid ""
 "Orthophoto resolution in cm / pixel. Note that this value is capped by a "
@@ -1508,43 +1768,18 @@ msgid ""
 "gsd also. Default: %(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:56
-msgid "Copy output results to this folder after processing."
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:57
+#: app/static/app/js/translations/odm_autogenerated.js:77
 #, python-format
 msgid ""
-"Perform ground rectification on the point cloud. This means that wrongly "
-"classified ground points will be re-classified and gaps will be filled. "
-"Useful for generating DTMs. Default: %(default)s"
+"Decimate the points before generating the DEM. 1 is no decimation (full "
+"quality). 100 decimates ~99%% of the points. Useful for speeding up "
+"generation of DEM results in very large datasets. Default: %(default)s"
 msgstr ""
-"포인트 클라우드에서 지면 교정을 수행합니다. 이는 잘못 분류 된 지면 지점들이 "
-"재 분류되고 간격이 채워짐을 의미합니다. DTM 생성에 유용합니다. 기본값 : "
-"%(default)s"
+"DEM을 생성하기 전에 점을 줄입니다. 1은 소멸이 아닙니다 (전체 품질). 100은 포"
+"인트의 ~ 99 %%를 데시 메이트합니다. DEM 생성 속도를 높이는 데 유용하므로 매"
+"우 큰 데이터 세트가 생성됩니다. 기본값 : %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:58
-#, python-format
-msgid ""
-"Simple Morphological Filter elevation scalar parameter. Default: %(default)s"
-msgstr "단순 형태 학 필터의 고도 스칼라 매개 변수. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:59
-#, fuzzy, python-format
-#| msgid "Generates a benchmark file with runtime info. Default: %(default)s"
-msgid ""
-"Keep faces in the mesh that are not seen in any camera. Default:  %(default)s"
-msgstr ""
-"런타임 정보가 포함 된 벤치 마크 파일을 생성합니다. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:60
-#, python-format
-msgid ""
-"Choose what to merge in the merge step in a split dataset. By default all "
-"available outputs are merged. Options: %(choices)s. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:61
+#: app/static/app/js/translations/odm_autogenerated.js:78
 #, fuzzy, python-format
 msgid ""
 "Set feature extraction quality. Higher quality generates better features, "
@@ -1555,112 +1790,7 @@ msgstr ""
 "은 메모리가 필요하고 더 오래 걸립니다. 다음 중 하나 일 수 있습니다. "
 "%(choices)s. 기본값 : %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:62
-#, python-format
-msgid ""
-"Build orthophoto overviews for faster display in programs such as QGIS. "
-"Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:63
-#, python-format
-msgid ""
-"Name of dataset (i.e subfolder name within project folder). Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:64
-#, python-format
-msgid ""
-"Use this tag if you have a GCP File but want to use the EXIF information for "
-"georeferencing instead. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:65
-#, python-format
-msgid ""
-"Use images' GPS exif data for reconstruction, even if there are GCPs present."
-"This flag is useful if you have high precision GPS measurements. If there "
-"are no GCPs, this flag does nothing. Default: %(default)s"
-msgstr ""
-"GCP가 있는 경우에도 이미지의 GPS exif 데이터를 재구성용으로 사용합니다. 이 플"
-"래그는 고정밀 GPS 측정이 있는 경우에 유용합니다. GCP가 없는 경우 이 플래그는 "
-"아무 것도 수행하지 않습니다. 기본값: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:66
-#, fuzzy, python-format
-#| msgid ""
-#| "Set this parameter if you want to generate a PNG rendering of the "
-#| "orthophoto. Default: %(default)s"
-msgid ""
-"Set this parameter if you want to generate a Google Earth (KMZ) rendering of "
-"the orthophoto. Default: %(default)s"
-msgstr ""
-"정사 사진의 PNG 렌더링을 생성하려면이 매개 변수를 설정하십시오. 기본값 : "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:67
-#, python-format
-msgid ""
-"Create Cloud-Optimized GeoTIFFs instead of normal GeoTIFFs. Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:68
-#, python-format
-msgid ""
-"Delete heavy intermediate files to optimize disk space usage. This affects "
-"the ability to restart the pipeline from an intermediate stage, but allows "
-"datasets to be processed on machines that don't have sufficient disk space "
-"available. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:69
-msgid ""
-"Permanently delete all previous results and rerun the processing pipeline."
-msgstr ""
-"이전 결과를 모두 영구적으로 삭제하고 처리 파이프 라인을 다시 실행합니다."
-
-#: app/static/app/js/translations/odm_autogenerated.js:70
-#, python-format
-msgid ""
-"Automatically crop image outputs by creating a smooth buffer around the "
-"dataset boundaries, shrinked by N meters. Use 0 to disable cropping. "
-"Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:71
-#, python-format
-msgid ""
-"Skip normalization of colors across all images. Useful when processing "
-"radiometric data. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:72
-#, python-format
-msgid ""
-"Skip generation of a full 3D model. This can save time if you only need 2D "
-"results such as orthophotos and DEMs. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:73
-#, python-format
-msgid ""
-"DSM/DTM resolution in cm / pixel. Note that this value is capped by a ground "
-"sampling distance (GSD) estimate. To remove the cap, check --ignore-gsd "
-"also. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:74
-#, python-format
-msgid ""
-"Rerun this stage only and stop. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-"이 단계 만 다시 실행하고 중지하십시오. 다음 중 하나 일 수 있습니다. "
-"%(choices)s. 기본값 : %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:75
+#: app/static/app/js/translations/odm_autogenerated.js:79
 #, python-format
 msgid ""
 "The maximum number of processes to use in various processes. Peak memory "
@@ -1668,38 +1798,26 @@ msgid ""
 "%(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:76
-#, python-format
-msgid ""
-"Legacy option (use --pc-quality instead). Controls the density of the point "
-"cloud by setting the resolution of the depthmap images. Higher values take "
-"longer to compute but produce denser point clouds. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:77
-#, python-format
-msgid ""
-"Generate static tiles for orthophotos and DEMs that are suitable for viewers "
-"like Leaflet or OpenLayers. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:78
+#: app/static/app/js/translations/odm_autogenerated.js:80
 #, python-format
 msgid ""
 "Export the georeferenced point cloud in CSV format. Default: %(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:79
+#: app/static/app/js/translations/odm_autogenerated.js:81
 #, python-format
-msgid ""
-"Path to the image groups file that controls how images should be split into "
-"groups. The file needs to use the following format: image_name "
-"group_nameDefault: %(default)s"
-msgstr ""
-"이미지를 그룹으로 분할하는 방법을 제어하는 이미지 그룹 파일의 경로입니다. 파"
-"일은 다음 형식을 사용해야합니다. image_name group_name 기본값: %(default)s"
+msgid "Print debug messages. Default: %(default)s"
+msgstr "디버그 메시지를 출력합니다. 기본값 : %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:80
+#: app/static/app/js/translations/odm_autogenerated.js:82
+#, fuzzy, python-format
+#| msgid "Generates a benchmark file with runtime info. Default: %(default)s"
+msgid ""
+"Keep faces in the mesh that are not seen in any camera. Default:  %(default)s"
+msgstr ""
+"런타임 정보가 포함 된 벤치 마크 파일을 생성합니다. 기본값 : %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:83
 #, python-format
 msgid ""
 "Set a value in meters for the GPS Dilution of Precision (DOP) information "
@@ -1710,46 +1828,12 @@ msgid ""
 "areas. Default: %(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:81
-#, python-format
-msgid ""
-"Set this parameter if you want to generate a PNG rendering of the "
-"orthophoto. Default: %(default)s"
-msgstr ""
-"정사 사진의 PNG 렌더링을 생성하려면이 매개 변수를 설정하십시오. 기본값 : "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:82
-#, python-format
-msgid ""
-"Classify the point cloud outputs using a Simple Morphological Filter. You "
-"can control the behavior of this option by tweaking the --dem-* parameters. "
-"Default: %(default)s"
-msgstr ""
-"Simple Morphological Filter를 사용하여 포인트 클라우드 출력을 분류합니다. --"
-"dem- * 매개 변수를 조정하여이 옵션의 동작을 제어 할 수 있습니다. 기본값 : "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:83
-#, python-format
-msgid ""
-"Skips dense reconstruction and 3D model generation. It generates an "
-"orthophoto directly from the sparse reconstruction. If you just need an "
-"orthophoto and do not need a full 3D model, turn on this option. Default: "
-"%(default)s"
-msgstr ""
-
 #: app/static/app/js/translations/odm_autogenerated.js:84
-#, fuzzy, python-format
+#, python-format
 msgid ""
-"Average number of images per submodel. When splitting a large dataset into "
-"smaller submodels, images are grouped into clusters. This value regulates "
-"the number of images that each cluster should have on average. Default: "
+"Create Cloud-Optimized GeoTIFFs instead of normal GeoTIFFs. Default: "
 "%(default)s"
 msgstr ""
-"서브 모델 당 평균 이미지 수입니다. 큰 데이터 세트를 더 작은 하위 모델로 분할"
-"하면 이미지가 클러스터로 그룹화됩니다. 이 값은 각 클러스터가 평균적으로 가져"
-"야하는 이미지 수를 조절합니다. 기본값 : %(default)s"
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:3
 msgid "Compute volume, area and length measurements on Leaflet"
@@ -2199,6 +2283,19 @@ msgstr "내보내기"
 msgid "Contours"
 msgstr "등고선"
 
+#: coreplugins/editshortlinks/public/SLControls.jsx:154
+#: coreplugins/shortlinks/public/SLCheckbox.jsx:69
+msgid "Short Link"
+msgstr ""
+
+#: coreplugins/editshortlinks/public/SLControls.jsx:178
+msgid "Suffix"
+msgstr ""
+
+#: coreplugins/editshortlinks/public/SLControls.jsx:191
+msgid "Delete Short Link"
+msgstr ""
+
 #: coreplugins/lightning/public/CostEstimateItem.jsx:103
 msgid "Cannot retrieve estimate. Try again later."
 msgstr ""
@@ -2337,10 +2434,6 @@ msgstr ""
 msgid "Invalid response: %(error)s"
 msgstr ""
 
-#: coreplugins/measure/public/MeasurePopup.jsx:142
-msgid "Area:"
-msgstr "면적:"
-
 #: coreplugins/measure/public/MeasurePopup.jsx:143
 msgid "Perimeter:"
 msgstr "둘레:"
@@ -2467,6 +2560,10 @@ msgstr "평방마일"
 msgid "Export Measurements"
 msgstr "측정 내보내기"
 
-#: coreplugins/shortlinks/public/SLCheckbox.jsx:69
-msgid "Short Link"
-msgstr ""
+#~ msgid "Running"
+#~ msgstr "실행 중"
+
+#~ msgid "This project has no tasks. Create one by uploading some images!"
+#~ msgstr ""
+#~ "이 프로젝트는 작업이 없습니다. 몇개의 이미지들을 업로드 하여 작업을 생성하"
+#~ "세요!"

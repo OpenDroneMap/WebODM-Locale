@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-02 00:20+0000\n"
+"POT-Creation-Date: 2021-09-26 18:48+0000\n"
 "PO-Revision-Date: 2020-12-23 16:28+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/webodm/webodm/fr/"
@@ -64,7 +64,7 @@ msgstr ""
 msgid "HTML (footer)"
 msgstr "HTML (pied de page)"
 
-#: app/admin.py:100 app/models/project.py:24
+#: app/admin.py:100 app/models/project.py:25
 msgid "Description"
 msgstr "Description"
 
@@ -149,104 +149,123 @@ msgstr ""
 "L'indice visuel de résistance atmosphérique montre les zones de végétation."
 
 #: app/api/formulas.py:29
+#, fuzzy
+#| msgid ""
+#| "Excess Green Index emphasizes the greenness of leafy crops such as "
+#| "potatoes."
 msgid ""
-"Excess Green Index emphasizes the greenness of leafy crops such as potatoes."
+"Excess Green Index (derived from only the RGB bands) emphasizes the "
+"greenness of leafy crops such as potatoes."
 msgstr ""
 "L'indice de verdure excédentaire met l'accent sur la verdeur des cultures à "
 "feuilles comme les pommes de terre."
 
 #: app/api/formulas.py:33
 msgid ""
-"Burn Area Index hightlights burned land in the red to near-infrared spectrum."
+"Triangular Greenness Index (derived from only the RGB bands) performs "
+"similarly to EXG but with improvements over certain environments."
 msgstr ""
 
 #: app/api/formulas.py:37
+msgid ""
+"Burn Area Index hightlights burned land in the red to near-infrared spectrum."
+msgstr ""
+
+#: app/api/formulas.py:41
 msgid "Green Leaf Index shows greens leaves and stems."
 msgstr ""
 
-#: app/api/formulas.py:42
+#: app/api/formulas.py:46
 msgid ""
 "Green Normalized Difference Vegetation Index is similar to NDVI, but "
 "measures the green spectrum instead of red."
 msgstr ""
 
-#: app/api/formulas.py:46
+#: app/api/formulas.py:50
 msgid ""
 "Green Ratio Vegetation Index is sensitive to photosynthetic rates in forests."
 msgstr ""
 
-#: app/api/formulas.py:50
+#: app/api/formulas.py:54
 msgid ""
 "Soil Adjusted Vegetation Index is similar to NDVI but attempts to remove the "
 "effects of soil areas using an adjustment factor (0.5)."
 msgstr ""
 
-#: app/api/formulas.py:54
+#: app/api/formulas.py:58
 msgid ""
 "Modified Non-Linear Index improves the Non-Linear Index algorithm to account "
 "for soil areas."
 msgstr ""
 
-#: app/api/formulas.py:58
+#: app/api/formulas.py:62
 msgid ""
 "Modified Simple Ratio is an improvement of the Simple Ratio (SR) index to be "
 "more sensitive to vegetation."
 msgstr ""
 
-#: app/api/formulas.py:62
+#: app/api/formulas.py:66
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
 msgstr ""
 
-#: app/api/formulas.py:66
+#: app/api/formulas.py:70
 msgid ""
 "Transformed Difference Vegetation Index highlights vegetation cover in urban "
 "environments."
 msgstr ""
 
-#: app/api/formulas.py:70
+#: app/api/formulas.py:74
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
 msgstr ""
 
-#: app/api/formulas.py:74
+#: app/api/formulas.py:78
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
 msgstr ""
 
-#: app/api/formulas.py:79
+#: app/api/formulas.py:83
 msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
 msgstr ""
 
-#: app/api/tasks.py:179
+#: app/api/projects.py:62
+msgid "Cannot duplicate project"
+msgstr ""
+
+#: app/api/tasks.py:183
 msgid "You need to upload at least 2 images before commit"
 msgstr "Vous devez envoyer au moins 2 images avant de valider"
 
-#: app/api/tasks.py:201
+#: app/api/tasks.py:205
 msgid "No files uploaded"
 msgstr "Aucun fichier envoyé"
 
-#: app/api/tasks.py:224
+#: app/api/tasks.py:234
+msgid "Cannot duplicate task"
+msgstr ""
+
+#: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Impossible de créer la tâche, il vous faut au moins 2 images"
 
-#: app/api/tasks.py:329 app/api/tasks.py:332 app/api/tasks.py:351
-#: app/api/tasks.py:354
+#: app/api/tasks.py:356 app/api/tasks.py:359 app/api/tasks.py:378
+#: app/api/tasks.py:381
 msgid "Asset does not exist"
 msgstr "La ressource n'existe pas"
 
-#: app/api/tasks.py:370
+#: app/api/tasks.py:397
 msgid "Imported Task"
 msgstr "Tâche importée"
 
-#: app/api/tasks.py:373
+#: app/api/tasks.py:400
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Impossiber de créer la tâche, vous devez envoyer un fichier"
 
-#: app/api/tasks.py:376
+#: app/api/tasks.py:403
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 "Impossible de créer la tâche, spécifiez une URL ou bien envoyez un fichier."
@@ -255,7 +274,7 @@ msgstr ""
 msgid "Task this image belongs to"
 msgstr "La tâche à laquelle cette image appartient"
 
-#: app/models/image_upload.py:10 app/models/task.py:261
+#: app/models/image_upload.py:10 app/models/task.py:263
 msgid "Task"
 msgstr "Tâche"
 
@@ -279,8 +298,8 @@ msgstr "Téléversements d'image"
 msgid "Plugin name"
 msgstr "Nom de l'extension"
 
-#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:23
-#: app/models/task.py:222 app/models/theme.py:16
+#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
+#: app/models/task.py:224 app/models/theme.py:16
 msgid "Name"
 msgstr "Nom"
 
@@ -346,7 +365,7 @@ msgstr "Extension Datum"
 msgid "The person who owns this preset"
 msgstr "La personne à qui appartient ce préréglage"
 
-#: app/models/preset.py:9 app/models/project.py:22
+#: app/models/preset.py:9 app/models/project.py:23
 msgid "Owner"
 msgstr "Propriétaire"
 
@@ -360,15 +379,15 @@ msgstr ""
 "Options qui définissent ce préréglage (même format que dans les options "
 "d'une tâche)."
 
-#: app/models/preset.py:11 app/models/task.py:228
+#: app/models/preset.py:11 app/models/task.py:230
 msgid "Options"
 msgstr "Options"
 
-#: app/models/preset.py:13 app/models/project.py:25 app/models/task.py:237
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:239
 msgid "Creation date"
 msgstr "Date de création"
 
-#: app/models/preset.py:13 app/models/project.py:25 app/models/task.py:237
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:239
 msgid "Created at"
 msgstr "Créé le"
 
@@ -392,19 +411,19 @@ msgstr "Préréglage"
 msgid "Presets"
 msgstr "Préréglages"
 
-#: app/models/project.py:22
+#: app/models/project.py:23
 msgid "The person who created the project"
 msgstr "La personne qui a créé le projet"
 
-#: app/models/project.py:23
+#: app/models/project.py:24
 msgid "A label used to describe the project"
 msgstr "Un nom utilisé pour décrire le projet"
 
-#: app/models/project.py:24
+#: app/models/project.py:25
 msgid "More in-depth description of the project"
 msgstr "Description plus appronfondie du projet"
 
-#: app/models/project.py:26
+#: app/models/project.py:27
 msgid ""
 "Whether this project has been marked for deletion. Projects that have "
 "running tasks need to wait for tasks to be properly cleaned up before they "
@@ -414,15 +433,20 @@ msgstr ""
 "plusieurs tâches en cours d'exécution doivent attendre que les tâches soient "
 "correctement terminées avant de pouvoir être supprimés."
 
-#: app/models/project.py:26
+#: app/models/project.py:27
 msgid "Deleting"
 msgstr "Suppression"
 
-#: app/models/project.py:56 app/models/task.py:221
+#: app/models/project.py:61 app/models/task.py:405
+#, python-format
+msgid "Copy of %(task)s"
+msgstr ""
+
+#: app/models/project.py:84 app/models/task.py:223
 msgid "Project"
 msgstr "Projet"
 
-#: app/models/project.py:57
+#: app/models/project.py:85
 msgid "Projects"
 msgstr "Projets"
 
@@ -475,27 +499,27 @@ msgstr "Application"
 msgid "Settings"
 msgstr "Paramètres"
 
-#: app/models/task.py:218
+#: app/models/task.py:220
 msgid "Id"
 msgstr "Identifiant"
 
-#: app/models/task.py:220
+#: app/models/task.py:222
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "Identifiant de la tâche (tel que retourné par l'API NodeODM)"
 
-#: app/models/task.py:220
+#: app/models/task.py:222
 msgid "UUID"
 msgstr "Identifiant unique"
 
-#: app/models/task.py:221
+#: app/models/task.py:223
 msgid "Project that this task belongs to"
 msgstr "Projet auquel appartient cette tâche"
 
-#: app/models/task.py:222
+#: app/models/task.py:224
 msgid "A label for the task"
 msgstr "Un nom pour cette tâche"
 
-#: app/models/task.py:223
+#: app/models/task.py:225
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -503,11 +527,11 @@ msgstr ""
 "Nombre de millisecondes écoulées depuis le début de cette tâche (-1 indique "
 "qu'il n'y a pas d'information disponible)"
 
-#: app/models/task.py:223
+#: app/models/task.py:225
 msgid "Processing Time"
 msgstr "Temps de traitement"
 
-#: app/models/task.py:224
+#: app/models/task.py:226
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -515,11 +539,11 @@ msgstr ""
 "Nœud de traitement assigné à cette tâche (ou défini à null si la tâche n'a "
 "pas encore été associée)"
 
-#: app/models/task.py:224 app/views/app.py:115 nodeodm/models.py:34
+#: app/models/task.py:226 app/views/app.py:115 nodeodm/models.py:34
 msgid "Processing Node"
 msgstr "Nœud de traitement"
 
-#: app/models/task.py:225
+#: app/models/task.py:227
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
@@ -527,63 +551,63 @@ msgstr ""
 "Un drapeau indiquant si cette tâche doit être automatiquement associée ou "
 "non à un nœud de traitement"
 
-#: app/models/task.py:225
+#: app/models/task.py:227
 msgid "Auto Processing Node"
 msgstr "Nœud de traitement automatique"
 
-#: app/models/task.py:226
+#: app/models/task.py:228
 msgid "Current status of the task"
 msgstr "État actuel de la tâche"
 
-#: app/models/task.py:226
+#: app/models/task.py:228
 msgid "Status"
 msgstr "État"
 
-#: app/models/task.py:227
+#: app/models/task.py:229
 msgid "The last processing error received"
 msgstr "La dernière erreur de traitement reçue"
 
-#: app/models/task.py:227
+#: app/models/task.py:229
 msgid "Last Error"
 msgstr "Dernière erreur"
 
-#: app/models/task.py:228
+#: app/models/task.py:230
 msgid "Options that are being used to process this task"
 msgstr "Options utilisées pour effectuer cette tâche"
 
-#: app/models/task.py:229
+#: app/models/task.py:231
 msgid "List of available assets to download"
 msgstr "Liste des ressources disponibles au téléchargement"
 
-#: app/models/task.py:229
+#: app/models/task.py:231
 msgid "Available Assets"
 msgstr "Ressources disponibles"
 
-#: app/models/task.py:230
+#: app/models/task.py:232
 msgid "Console output of the processing node"
 msgstr "Sortie console du nœud de traitement"
 
-#: app/models/task.py:230
+#: app/models/task.py:232
 msgid "Console Output"
 msgstr "Sortie console"
 
-#: app/models/task.py:232
+#: app/models/task.py:234
 msgid "Extent of the orthophoto"
 msgstr "Étendue de l'orthophoto"
 
-#: app/models/task.py:232
+#: app/models/task.py:234
 msgid "Orthophoto Extent"
 msgstr "Étendue de l'orthophoto"
 
-#: app/models/task.py:233
+#: app/models/task.py:235
 msgid "DSM Extent"
 msgstr "Étendue du DSM"
 
-#: app/models/task.py:234
+#: app/models/task.py:236
 msgid "DTM Extent"
 msgstr "Étendue du DTM"
 
-#: app/models/task.py:238
+#: app/models/task.py:240
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -591,19 +615,19 @@ msgstr ""
 "Une action demandée à effectuer sur la tâche. L'action sélectionnée sera "
 "exécutée par le processus lors de la prochaine itération."
 
-#: app/models/task.py:238
+#: app/models/task.py:240
 msgid "Pending Action"
 msgstr "Action en attente"
 
-#: app/models/task.py:240
+#: app/models/task.py:242
 msgid "A flag indicating whether this task is available to the public"
 msgstr "Un drapeau indiquant si cette tâche est disponible au public ou non"
 
-#: app/models/task.py:240
+#: app/models/task.py:242
 msgid "Public"
 msgstr "Public"
 
-#: app/models/task.py:241
+#: app/models/task.py:243
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -613,11 +637,11 @@ msgstr ""
 "cette tâche ont été / seront redimensionnées à la taille définie ici avant "
 "le traitement."
 
-#: app/models/task.py:241
+#: app/models/task.py:243
 msgid "Resize To"
 msgstr "Redimensionner vers"
 
-#: app/models/task.py:244
+#: app/models/task.py:246
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
@@ -625,51 +649,51 @@ msgstr ""
 "Les valeurs entre 0 et 1 indiquent la progression du téléversement des "
 "fichiers de cette tâche vers le nœud de traitement"
 
-#: app/models/task.py:245
+#: app/models/task.py:247
 msgid "Upload Progress"
 msgstr "Progression du téléversement"
 
-#: app/models/task.py:248
+#: app/models/task.py:250
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
 "Les valeurs entre 0 et 1 indiquent la progression du redimensionnement des "
 "images de cette tâche"
 
-#: app/models/task.py:249
+#: app/models/task.py:251
 msgid "Resize Progress"
 msgstr "Progression du redimensionnement"
 
-#: app/models/task.py:252
+#: app/models/task.py:254
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr ""
 "Les valeurs entre 0 et 1 indiquent la progression (estimée) de cette tâche"
 
-#: app/models/task.py:253
+#: app/models/task.py:255
 msgid "Running Progress"
 msgstr "Progression de l'exécution"
 
-#: app/models/task.py:255
+#: app/models/task.py:257
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr ""
 "URL à partir de laquelle cette tâche a été importée (uniquement pour les "
 "tâches importées)"
 
-#: app/models/task.py:255
+#: app/models/task.py:257
 msgid "Import URL"
 msgstr "URL d’importation"
 
-#: app/models/task.py:256
+#: app/models/task.py:258
 msgid "Number of images associated with this task"
 msgstr "Nombre d'images associées à cette tâche"
 
-#: app/models/task.py:256
+#: app/models/task.py:258
 msgid "Images Count"
 msgstr "Nombre d'images"
 
-#: app/models/task.py:257
+#: app/models/task.py:259
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
@@ -678,53 +702,53 @@ msgstr ""
 "d'information des fichiers à téléverser avant d'être considérée pour le "
 "traitement."
 
-#: app/models/task.py:257
+#: app/models/task.py:259
 msgid "Partial"
 msgstr "Partiel"
 
-#: app/models/task.py:258
+#: app/models/task.py:260
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
 
-#: app/models/task.py:258
+#: app/models/task.py:260
 msgid "Potree Scene"
 msgstr ""
 
-#: app/models/task.py:262
+#: app/models/task.py:264
 msgid "Tasks"
 msgstr "Tâches"
 
-#: app/models/task.py:271
+#: app/models/task.py:273
 msgid "unnamed"
 msgstr "sans nom"
 
-#: app/models/task.py:374
+#: app/models/task.py:461
 msgid "Importing assets..."
 msgstr "Importation des ressources…"
 
-#: app/models/task.py:413 app/models/task.py:681
+#: app/models/task.py:500 app/models/task.py:768
 msgid "Invalid zip file"
 msgstr "Fichier zip invalide"
 
-#: app/models/task.py:507
+#: app/models/task.py:594
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Erreur de connexion : %(error)s"
 
-#: app/models/task.py:587
+#: app/models/task.py:674
 msgid "Cannot restart a task that has no processing node"
 msgstr "Impossible de redémarrer une tâche qui n'a pas de nœud de traitement"
 
-#: app/models/task.py:739
+#: app/models/task.py:826
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "SRS non pris en charge %(code)s. S’il vous plaît assurez-vous que vous avez "
 "sélectionné un SRS pris en charge."
 
-#: app/models/task.py:750
+#: app/models/task.py:837
 msgid "Done!"
 msgstr "Terminé !"
 
@@ -1317,7 +1341,7 @@ msgstr ""
 "la précision du géoréférencement"
 
 #: app/templates/app/dev_tools.html:6 app/templates/app/logged_in_base.html:110
-#: app/views/dev.py:81
+#: app/views/dev.py:78
 msgid "Developer Tools"
 msgstr "Outils de développement"
 
@@ -1523,6 +1547,10 @@ msgstr "Une extension pour créer des fichiers GCP à partir d'images"
 msgid "Create short links when sharing task URLs"
 msgstr ""
 
+#: app/translations/plugin_manifest_autogenerated.py:18
+msgid "Create editable short links when sharing task URLs"
+msgstr ""
+
 #: app/views/app.py:44
 msgid "First Project"
 msgstr "Premier projet"
@@ -1543,11 +1571,11 @@ msgstr "Bienvenue"
 msgid "Cannot find locale/ folder in .zip archive"
 msgstr "Impossible de trouver le fichier/dossier de langue dans l'archive .zip"
 
-#: app/views/dev.py:74
+#: app/views/dev.py:71
 msgid "Translation files reloaded!"
 msgstr "Fichiers de traduction rechargés !"
 
-#: app/views/dev.py:78
+#: app/views/dev.py:75
 msgid "Invalid action"
 msgstr "Action invalide"
 
@@ -1644,6 +1672,16 @@ msgstr ""
 #: coreplugins/diagnostic/templates/diagnostic.html:82
 msgid "Disk Space"
 msgstr "Espace disque"
+
+#: coreplugins/editshortlinks/api.py:59
+msgid ""
+"Short URLs can only include letters, numbers, underscore and dash characters "
+"(A-Z, 0-9, _, -)."
+msgstr ""
+
+#: coreplugins/editshortlinks/api.py:63
+msgid "This short URL is already taken."
+msgstr ""
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
 msgid "Lightning Network"
