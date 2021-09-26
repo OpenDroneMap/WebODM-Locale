@@ -3,44 +3,45 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-26 17:51+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2021-07-02 00:20+0000\n"
+"PO-Revision-Date: 2021-02-08 14:30+0000\n"
+"Last-Translator: Aslan Rustamov <aslan.rustamov10@gmail.com>\n"
+"Language-Team: Azerbaijani <https://hosted.weblate.org/projects/webodm/"
+"webodm/az/>\n"
+"Language: az\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #: app/admin.py:52
 msgid "Enter custom CSS"
-msgstr ""
+msgstr "Xüsusi CSS daxil edin"
 
 #: app/admin.py:53 app/models/theme.py:38
 msgid "CSS"
-msgstr ""
+msgstr "CSS"
 
 #: app/admin.py:56
 msgid "HTML that will be displayed above site header"
-msgstr ""
+msgstr "Sayt başlığının üstündə görünəcək HTML"
 
 #: app/admin.py:57 app/models/theme.py:39
 msgid "HTML (before header)"
-msgstr ""
+msgstr "HTML (başlıqdan əvvəl)"
 
 #: app/admin.py:60
 msgid "HTML that will be displayed after site header"
-msgstr ""
+msgstr "Sayt başlığından sonra göstəriləcək HTML"
 
 #: app/admin.py:61 app/models/theme.py:40
 msgid "HTML (after header)"
-msgstr ""
+msgstr "HTML (başlıqdan sonra)"
 
 #: app/admin.py:64
 msgid "HTML that will be displayed after the body tag"
@@ -61,17 +62,17 @@ msgstr ""
 msgid "HTML (footer)"
 msgstr ""
 
-#: app/admin.py:100 app/models/project.py:25
+#: app/admin.py:100 app/models/project.py:24
 msgid "Description"
-msgstr ""
+msgstr "Təsvir"
 
 #: app/admin.py:106
 msgid "Version"
-msgstr ""
+msgstr "Versiya"
 
 #: app/admin.py:112
 msgid "Author"
-msgstr ""
+msgstr "Müəllif"
 
 #: app/admin.py:144
 #, python-format
@@ -108,25 +109,31 @@ msgid "Cannot load plugin: %(message)s"
 msgstr ""
 
 #: app/admin.py:216
+#, fuzzy
+#| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload a zip file"
-msgstr ""
+msgstr "İşə başlamazdan əvvəl ən azı 2 şəkil yükləməlisiniz"
 
 #: app/admin.py:230
 msgid "Disable"
 msgstr ""
 
 #: app/admin.py:233
+#, fuzzy
+#| msgid "Enabled"
 msgid "Enable"
-msgstr ""
+msgstr "Aktiv"
 
 #: app/admin.py:238
 msgid "Actions"
-msgstr ""
+msgstr "Fəaliyyətlər"
 
 #: app/api/formulas.py:12 app/api/formulas.py:16
 msgid ""
 "Normalized Difference Vegetation Index shows the amount of green vegetation."
 msgstr ""
+"Normallaşdırılmış Fərqlilik Bitki İndeksi yaşıl bitki örtüyünün miqdarını "
+"göstərir."
 
 #: app/api/formulas.py:20
 msgid ""
@@ -140,116 +147,101 @@ msgstr ""
 
 #: app/api/formulas.py:29
 msgid ""
-"Excess Green Index (derived from only the RGB bands) emphasizes the "
-"greenness of leafy crops such as potatoes."
+"Excess Green Index emphasizes the greenness of leafy crops such as potatoes."
 msgstr ""
 
 #: app/api/formulas.py:33
 msgid ""
-"Triangular Greenness Index (derived from only the RGB bands) performs "
-"similarly to EXG but with improvements over certain environments."
-msgstr ""
-
-#: app/api/formulas.py:37
-msgid ""
 "Burn Area Index hightlights burned land in the red to near-infrared spectrum."
 msgstr ""
 
-#: app/api/formulas.py:41
+#: app/api/formulas.py:37
 msgid "Green Leaf Index shows greens leaves and stems."
 msgstr ""
 
-#: app/api/formulas.py:46
+#: app/api/formulas.py:42
 msgid ""
 "Green Normalized Difference Vegetation Index is similar to NDVI, but "
 "measures the green spectrum instead of red."
 msgstr ""
 
-#: app/api/formulas.py:50
+#: app/api/formulas.py:46
 msgid ""
 "Green Ratio Vegetation Index is sensitive to photosynthetic rates in forests."
 msgstr ""
 
-#: app/api/formulas.py:54
+#: app/api/formulas.py:50
 msgid ""
 "Soil Adjusted Vegetation Index is similar to NDVI but attempts to remove the "
 "effects of soil areas using an adjustment factor (0.5)."
 msgstr ""
 
-#: app/api/formulas.py:58
+#: app/api/formulas.py:54
 msgid ""
 "Modified Non-Linear Index improves the Non-Linear Index algorithm to account "
 "for soil areas."
 msgstr ""
 
-#: app/api/formulas.py:62
+#: app/api/formulas.py:58
 msgid ""
 "Modified Simple Ratio is an improvement of the Simple Ratio (SR) index to be "
 "more sensitive to vegetation."
 msgstr ""
 
-#: app/api/formulas.py:66
+#: app/api/formulas.py:62
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
 msgstr ""
 
-#: app/api/formulas.py:70
+#: app/api/formulas.py:66
 msgid ""
 "Transformed Difference Vegetation Index highlights vegetation cover in urban "
 "environments."
 msgstr ""
 
-#: app/api/formulas.py:74
+#: app/api/formulas.py:70
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
 msgstr ""
 
-#: app/api/formulas.py:78
+#: app/api/formulas.py:74
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
 msgstr ""
 
-#: app/api/formulas.py:83
+#: app/api/formulas.py:79
 msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
 msgstr ""
 
-#: app/api/projects.py:62
-msgid "Cannot duplicate project"
-msgstr ""
-
-#: app/api/tasks.py:183
+#: app/api/tasks.py:179
 msgid "You need to upload at least 2 images before commit"
-msgstr ""
+msgstr "İşə başlamazdan əvvəl ən azı 2 şəkil yükləməlisiniz"
 
-#: app/api/tasks.py:205
+#: app/api/tasks.py:201
 msgid "No files uploaded"
-msgstr ""
+msgstr "Heç bir fayl yüklənmədi"
 
-#: app/api/tasks.py:234
-msgid "Cannot duplicate task"
-msgstr ""
-
-#: app/api/tasks.py:251
+#: app/api/tasks.py:224
 msgid "Cannot create task, you need at least 2 images"
 msgstr ""
 
-#: app/api/tasks.py:356 app/api/tasks.py:359 app/api/tasks.py:378
-#: app/api/tasks.py:381
+#: app/api/tasks.py:329 app/api/tasks.py:332 app/api/tasks.py:351
+#: app/api/tasks.py:354
 msgid "Asset does not exist"
 msgstr ""
 
-#: app/api/tasks.py:397
+#: app/api/tasks.py:370
 msgid "Imported Task"
 msgstr ""
 
-#: app/api/tasks.py:400
+#: app/api/tasks.py:373
 msgid "Cannot create task, you need to upload 1 file"
 msgstr ""
 
-#: app/api/tasks.py:403
+#: app/api/tasks.py:376
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 
@@ -257,9 +249,9 @@ msgstr ""
 msgid "Task this image belongs to"
 msgstr ""
 
-#: app/models/image_upload.py:10 app/models/task.py:263
+#: app/models/image_upload.py:10 app/models/task.py:261
 msgid "Task"
-msgstr ""
+msgstr "Tapşırıq"
 
 #: app/models/image_upload.py:11
 msgid "File uploaded by a user"
@@ -267,7 +259,7 @@ msgstr ""
 
 #: app/models/image_upload.py:11
 msgid "Image"
-msgstr ""
+msgstr "Şəkil"
 
 #: app/models/image_upload.py:20
 msgid "Image Upload"
@@ -275,16 +267,16 @@ msgstr ""
 
 #: app/models/image_upload.py:21
 msgid "Image Uploads"
-msgstr ""
+msgstr "Şəkil yükləmələri"
 
 #: app/models/plugin.py:5
 msgid "Plugin name"
-msgstr ""
+msgstr "Qoşmanın adı"
 
-#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:224 app/models/theme.py:16
+#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:23
+#: app/models/task.py:222 app/models/theme.py:16
 msgid "Name"
-msgstr ""
+msgstr "Adı"
 
 #: app/models/plugin.py:6
 msgid "Whether this plugin is turned on."
@@ -292,15 +284,15 @@ msgstr ""
 
 #: app/models/plugin.py:6
 msgid "Enabled"
-msgstr ""
+msgstr "Aktiv"
 
 #: app/models/plugin.py:20
 msgid "Plugin"
-msgstr ""
+msgstr "Qoşma"
 
 #: app/models/plugin.py:21 app/templates/app/logged_in_base.html:98
 msgid "Plugins"
-msgstr ""
+msgstr "Qoşmalar"
 
 #: app/models/plugin_datum.py:7
 msgid "Setting key"
@@ -308,7 +300,7 @@ msgstr ""
 
 #: app/models/plugin_datum.py:7
 msgid "Key"
-msgstr ""
+msgstr "Açar"
 
 #: app/models/plugin_datum.py:8
 msgid "The user this setting belongs to. If NULL, the setting is global."
@@ -316,7 +308,7 @@ msgstr ""
 
 #: app/models/plugin_datum.py:8 app/templates/app/admin/object_history.html:23
 msgid "User"
-msgstr ""
+msgstr "İstifadəçi"
 
 #: app/models/plugin_datum.py:9
 msgid "Integer value"
@@ -346,7 +338,7 @@ msgstr ""
 msgid "The person who owns this preset"
 msgstr ""
 
-#: app/models/preset.py:9 app/models/project.py:23
+#: app/models/preset.py:9 app/models/project.py:22
 msgid "Owner"
 msgstr ""
 
@@ -358,15 +350,15 @@ msgstr ""
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr ""
 
-#: app/models/preset.py:11 app/models/task.py:230
+#: app/models/preset.py:11 app/models/task.py:228
 msgid "Options"
-msgstr ""
+msgstr "Seçimlər"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:239
+#: app/models/preset.py:13 app/models/project.py:25 app/models/task.py:237
 msgid "Creation date"
 msgstr ""
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:239
+#: app/models/preset.py:13 app/models/project.py:25 app/models/task.py:237
 msgid "Created at"
 msgstr ""
 
@@ -378,7 +370,7 @@ msgstr ""
 
 #: app/models/preset.py:14
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
 #: app/models/preset.py:20
 msgid "Preset"
@@ -388,41 +380,36 @@ msgstr ""
 msgid "Presets"
 msgstr ""
 
-#: app/models/project.py:23
+#: app/models/project.py:22
 msgid "The person who created the project"
 msgstr ""
 
-#: app/models/project.py:24
+#: app/models/project.py:23
 msgid "A label used to describe the project"
 msgstr ""
 
-#: app/models/project.py:25
+#: app/models/project.py:24
 msgid "More in-depth description of the project"
 msgstr ""
 
-#: app/models/project.py:27
+#: app/models/project.py:26
 msgid ""
 "Whether this project has been marked for deletion. Projects that have "
 "running tasks need to wait for tasks to be properly cleaned up before they "
 "can be deleted."
 msgstr ""
 
-#: app/models/project.py:27
+#: app/models/project.py:26
 msgid "Deleting"
-msgstr ""
+msgstr "Silinir"
 
-#: app/models/project.py:61 app/models/task.py:405
-#, python-format
-msgid "Copy of %(task)s"
-msgstr ""
-
-#: app/models/project.py:84 app/models/task.py:223
+#: app/models/project.py:56 app/models/task.py:221
 msgid "Project"
-msgstr ""
+msgstr "Layihə"
 
-#: app/models/project.py:85
+#: app/models/project.py:57
 msgid "Projects"
-msgstr ""
+msgstr "Layihələr"
 
 #: app/models/setting.py:20
 msgid "The name of your application"
@@ -471,237 +458,237 @@ msgstr ""
 
 #: app/models/setting.py:76 app/models/setting.py:77
 msgid "Settings"
-msgstr ""
+msgstr "Tənzimləmələr"
 
-#: app/models/task.py:220
+#: app/models/task.py:218
 msgid "Id"
 msgstr ""
 
-#: app/models/task.py:222
+#: app/models/task.py:220
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr ""
 
-#: app/models/task.py:222
+#: app/models/task.py:220
 msgid "UUID"
 msgstr ""
 
-#: app/models/task.py:223
+#: app/models/task.py:221
 msgid "Project that this task belongs to"
 msgstr ""
 
-#: app/models/task.py:224
+#: app/models/task.py:222
 msgid "A label for the task"
 msgstr ""
 
-#: app/models/task.py:225
+#: app/models/task.py:223
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr ""
 
-#: app/models/task.py:225
+#: app/models/task.py:223
 msgid "Processing Time"
 msgstr ""
 
-#: app/models/task.py:226
+#: app/models/task.py:224
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr ""
 
-#: app/models/task.py:226 app/views/app.py:115 nodeodm/models.py:34
+#: app/models/task.py:224 app/views/app.py:115 nodeodm/models.py:34
 msgid "Processing Node"
-msgstr ""
+msgstr "Node işlənir"
 
-#: app/models/task.py:227
+#: app/models/task.py:225
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr ""
 
-#: app/models/task.py:227
+#: app/models/task.py:225
 msgid "Auto Processing Node"
 msgstr ""
 
-#: app/models/task.py:228
+#: app/models/task.py:226
 msgid "Current status of the task"
 msgstr ""
 
-#: app/models/task.py:228
+#: app/models/task.py:226
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
-#: app/models/task.py:229
+#: app/models/task.py:227
 msgid "The last processing error received"
 msgstr ""
 
-#: app/models/task.py:229
+#: app/models/task.py:227
 msgid "Last Error"
 msgstr ""
 
-#: app/models/task.py:230
+#: app/models/task.py:228
 msgid "Options that are being used to process this task"
 msgstr ""
 
-#: app/models/task.py:231
+#: app/models/task.py:229
 msgid "List of available assets to download"
 msgstr ""
 
-#: app/models/task.py:231
+#: app/models/task.py:229
 msgid "Available Assets"
 msgstr ""
 
-#: app/models/task.py:232
+#: app/models/task.py:230
 msgid "Console output of the processing node"
 msgstr ""
 
-#: app/models/task.py:232
+#: app/models/task.py:230
 msgid "Console Output"
 msgstr ""
 
-#: app/models/task.py:234
+#: app/models/task.py:232
 msgid "Extent of the orthophoto"
 msgstr ""
 
-#: app/models/task.py:234
+#: app/models/task.py:232
 msgid "Orthophoto Extent"
 msgstr ""
 
-#: app/models/task.py:235
+#: app/models/task.py:233
 msgid "DSM Extent"
 msgstr ""
 
-#: app/models/task.py:236
+#: app/models/task.py:234
 msgid "DTM Extent"
 msgstr ""
 
-#: app/models/task.py:240
+#: app/models/task.py:238
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
 msgstr ""
 
-#: app/models/task.py:240
+#: app/models/task.py:238
 msgid "Pending Action"
 msgstr ""
 
-#: app/models/task.py:242
+#: app/models/task.py:240
 msgid "A flag indicating whether this task is available to the public"
 msgstr ""
 
-#: app/models/task.py:242
+#: app/models/task.py:240
 msgid "Public"
 msgstr ""
 
-#: app/models/task.py:243
+#: app/models/task.py:241
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
 "processing."
 msgstr ""
 
-#: app/models/task.py:243
+#: app/models/task.py:241
 msgid "Resize To"
 msgstr ""
 
-#: app/models/task.py:246
+#: app/models/task.py:244
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr ""
 
-#: app/models/task.py:247
+#: app/models/task.py:245
 msgid "Upload Progress"
 msgstr ""
 
-#: app/models/task.py:250
+#: app/models/task.py:248
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
 
-#: app/models/task.py:251
+#: app/models/task.py:249
 msgid "Resize Progress"
 msgstr ""
 
-#: app/models/task.py:254
+#: app/models/task.py:252
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr ""
 
-#: app/models/task.py:255
+#: app/models/task.py:253
 msgid "Running Progress"
 msgstr ""
 
-#: app/models/task.py:257
+#: app/models/task.py:255
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr ""
 
-#: app/models/task.py:257
+#: app/models/task.py:255
 msgid "Import URL"
 msgstr ""
 
-#: app/models/task.py:258
+#: app/models/task.py:256
 msgid "Number of images associated with this task"
 msgstr ""
 
-#: app/models/task.py:258
+#: app/models/task.py:256
 msgid "Images Count"
 msgstr ""
 
-#: app/models/task.py:259
+#: app/models/task.py:257
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr ""
 
-#: app/models/task.py:259
+#: app/models/task.py:257
 msgid "Partial"
 msgstr ""
 
-#: app/models/task.py:260
+#: app/models/task.py:258
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
 
-#: app/models/task.py:260
+#: app/models/task.py:258
 msgid "Potree Scene"
 msgstr ""
 
-#: app/models/task.py:264
+#: app/models/task.py:262
 msgid "Tasks"
 msgstr ""
 
-#: app/models/task.py:273
+#: app/models/task.py:271
 msgid "unnamed"
 msgstr ""
 
-#: app/models/task.py:461
+#: app/models/task.py:374
 msgid "Importing assets..."
 msgstr ""
 
-#: app/models/task.py:500 app/models/task.py:768
+#: app/models/task.py:413 app/models/task.py:681
 msgid "Invalid zip file"
 msgstr ""
 
-#: app/models/task.py:594
+#: app/models/task.py:507
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr ""
 
-#: app/models/task.py:674
+#: app/models/task.py:587
 msgid "Cannot restart a task that has no processing node"
 msgstr ""
 
-#: app/models/task.py:826
+#: app/models/task.py:739
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 
-#: app/models/task.py:837
+#: app/models/task.py:750
 msgid "Done!"
-msgstr ""
+msgstr "Hazırdır!"
 
 #: app/models/theme.py:16
 msgid "Name of theme"
@@ -713,7 +700,7 @@ msgstr ""
 
 #: app/models/theme.py:19
 msgid "Primary"
-msgstr ""
+msgstr "Birinci dərəcəli"
 
 #: app/models/theme.py:20
 msgid "The main background color, and text color of some buttons."
@@ -801,7 +788,7 @@ msgstr ""
 
 #: app/models/theme.py:35
 msgid "Failed"
-msgstr ""
+msgstr "Uğursuz oldu"
 
 #: app/models/theme.py:36
 msgid "The background color of success notifications."
@@ -821,7 +808,7 @@ msgstr ""
 
 #: app/templates/app/500.html:5
 msgid "500 Internal Server Error"
-msgstr ""
+msgstr "500 Daxili Server Xətası"
 
 #: app/templates/app/500.html:6
 msgid "Something happened. The server logs contain more information."
@@ -839,7 +826,7 @@ msgstr ""
 
 #: app/templates/app/admin/404.html:4 app/templates/app/admin/404.html:8
 msgid "Page not found"
-msgstr ""
+msgstr "Səhifə tapılmadı"
 
 #: app/templates/app/admin/404.html:10
 msgid "We're sorry, but the requested page could not be found."
@@ -855,11 +842,11 @@ msgstr ""
 #: app/templates/app/admin/invalid_setup.html:6
 #: app/templates/app/admin/object_history.html:6
 msgid "Home"
-msgstr ""
+msgstr "Başlanğıc"
 
 #: app/templates/app/admin/500.html:7
 msgid "Server error"
-msgstr ""
+msgstr "Server xətası"
 
 #: app/templates/app/admin/500.html:11
 msgid "Server error (500)"
@@ -881,7 +868,7 @@ msgstr ""
 
 #: app/templates/app/admin/actions.html:4
 msgid "Go"
-msgstr ""
+msgstr "Davam"
 
 #: app/templates/app/admin/actions.html:10
 msgid "Click here to select the objects across all pages"
@@ -909,7 +896,7 @@ msgstr ""
 #: app/templates/app/admin/auth/user/change_password.html:17
 #: app/templates/app/admin/auth/user/change_password.html:54
 msgid "Change password"
-msgstr ""
+msgstr "Parolu dəyiş"
 
 #: app/templates/app/admin/auth/user/change_password.html:27
 #: app/templates/app/admin/change_form.html:47
@@ -947,7 +934,7 @@ msgstr ""
 #: app/templates/app/admin/change_form.html:33
 #: app/templates/app/admin/object_history.html:10
 msgid "History"
-msgstr ""
+msgstr "Tarixçə"
 
 #: app/templates/app/admin/change_form.html:35
 #: app/templates/app/admin/edit_inline/stacked.html:14
@@ -957,7 +944,7 @@ msgstr ""
 
 #: app/templates/app/admin/change_list.html:69
 msgid "Filter"
-msgstr ""
+msgstr "Filtr"
 
 #: app/templates/app/admin/change_list_plugin.html:24
 msgid "Load Plugin (.zip)"
@@ -985,7 +972,7 @@ msgstr ""
 #: app/templates/app/admin/submit_line.html:6
 #: app/templates/app/processing_node.html:54
 msgid "Delete"
-msgstr ""
+msgstr "Sil"
 
 #: app/templates/app/admin/delete_confirmation.html:23
 #, python-format
@@ -1055,7 +1042,7 @@ msgstr ""
 #: app/templates/app/admin/index.html:37
 #: app/templates/app/admin/related_widget_wrapper.html:9
 msgid "Change"
-msgstr ""
+msgstr "Dəyişdir"
 
 #: app/templates/app/admin/edit_inline/tabular.html:20
 msgid "Delete?"
@@ -1078,7 +1065,7 @@ msgstr ""
 #: app/templates/app/admin/index.html:31
 #: app/templates/app/admin/related_widget_wrapper.html:16
 msgid "Add"
-msgstr ""
+msgstr "Əlavə et"
 
 #: app/templates/app/admin/index.html:47
 msgid "You don't have permission to edit anything."
@@ -1094,7 +1081,7 @@ msgstr ""
 
 #: app/templates/app/admin/index.html:60
 msgid "None available"
-msgstr ""
+msgstr "Heç biri mövcud deyil"
 
 #: app/templates/app/admin/index.html:74
 msgid "Unknown content"
@@ -1120,7 +1107,7 @@ msgstr ""
 
 #: app/templates/app/admin/login.html:61
 msgid "Log in"
-msgstr ""
+msgstr "Giriş et"
 
 #: app/templates/app/admin/object_history.html:22
 msgid "Date/time"
@@ -1128,7 +1115,7 @@ msgstr ""
 
 #: app/templates/app/admin/object_history.html:24
 msgid "Action"
-msgstr ""
+msgstr "Fəaliyyət"
 
 #: app/templates/app/admin/object_history.html:38
 msgid ""
@@ -1139,12 +1126,12 @@ msgstr ""
 #: app/templates/app/admin/pagination.html:10
 #: app/templates/app/admin/search_form.html:9
 msgid "Show all"
-msgstr ""
+msgstr "Hamısını göstər"
 
 #: app/templates/app/admin/pagination.html:11
 #: app/templates/app/admin/submit_line.html:3
 msgid "Save"
-msgstr ""
+msgstr "Yadda saxla"
 
 #: app/templates/app/admin/popup_response.html:3
 msgid "Popup closing..."
@@ -1167,7 +1154,7 @@ msgstr ""
 
 #: app/templates/app/admin/search_form.html:7
 msgid "Search"
-msgstr ""
+msgstr "Axtarış"
 
 #: app/templates/app/admin/search_form.html:9
 #, python-format
@@ -1196,7 +1183,7 @@ msgstr ""
 #: app/templates/app/dashboard.html:15 app/templates/app/dashboard.html:27
 #: app/templates/app/welcome.html:227
 msgid "Welcome!"
-msgstr ""
+msgstr "Xoş gəlmisiniz!"
 
 #: app/templates/app/dashboard.html:16
 msgid "Add a Processing Node"
@@ -1212,7 +1199,7 @@ msgstr ""
 
 #: app/templates/app/dashboard.html:28
 msgid "Select Images and GCP"
-msgstr ""
+msgstr "Şəkillər və GCP seçin"
 
 #: app/templates/app/dashboard.html:30
 #, python-format
@@ -1243,13 +1230,13 @@ msgid ""
 msgstr ""
 
 #: app/templates/app/dev_tools.html:6 app/templates/app/logged_in_base.html:110
-#: app/views/dev.py:78
+#: app/views/dev.py:81
 msgid "Developer Tools"
 msgstr ""
 
 #: app/templates/app/dev_tools.html:9
 msgid "Close"
-msgstr ""
+msgstr "Bağla"
 
 #: app/templates/app/dev_tools.html:14
 msgid "Current Locale:"
@@ -1288,31 +1275,31 @@ msgstr ""
 
 #: app/templates/app/logged_in_base.html:19
 msgid "Logout"
-msgstr ""
+msgstr "Çıxış"
 
 #: app/templates/app/logged_in_base.html:33 app/views/app.py:46
 msgid "Dashboard"
-msgstr ""
+msgstr "Dashboard"
 
 #: app/templates/app/logged_in_base.html:59 nodeodm/models.py:35
 msgid "Processing Nodes"
-msgstr ""
+msgstr "İşləmə nodu"
 
 #: app/templates/app/logged_in_base.html:69
 msgid "Add New"
-msgstr ""
+msgstr "Yenisini əlavə et"
 
 #: app/templates/app/logged_in_base.html:79
 msgid "Administration"
-msgstr ""
+msgstr "Administrasiya"
 
 #: app/templates/app/logged_in_base.html:84
 msgid "Accounts"
-msgstr ""
+msgstr "Hesablar"
 
 #: app/templates/app/logged_in_base.html:87
 msgid "Groups"
-msgstr ""
+msgstr "Qruplar"
 
 #: app/templates/app/logged_in_base.html:92
 msgid "Brand"
@@ -1320,15 +1307,15 @@ msgstr ""
 
 #: app/templates/app/logged_in_base.html:114 app/views/app.py:105
 msgid "About"
-msgstr ""
+msgstr "Haqqında"
 
 #: app/templates/app/processing_node.html:11 nodeodm/models.py:21
 msgid "Hostname"
-msgstr ""
+msgstr "Host adı"
 
 #: app/templates/app/processing_node.html:15 nodeodm/models.py:22
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: app/templates/app/processing_node.html:19 nodeodm/models.py:23
 msgid "API Version"
@@ -1336,7 +1323,7 @@ msgstr ""
 
 #: app/templates/app/processing_node.html:23 nodeodm/models.py:31
 msgid "Engine"
-msgstr ""
+msgstr "Mühərrik"
 
 #: app/templates/app/processing_node.html:27 nodeodm/models.py:29
 msgid "Engine Version"
@@ -1352,7 +1339,7 @@ msgstr ""
 
 #: app/templates/app/processing_node.html:39 nodeodm/models.py:30
 msgid "Label"
-msgstr ""
+msgstr "Etiket"
 
 #: app/templates/app/processing_node.html:43 nodeodm/models.py:24
 msgid "Last Refreshed"
@@ -1369,7 +1356,7 @@ msgstr ""
 
 #: app/templates/app/processing_node.html:53
 msgid "Edit"
-msgstr ""
+msgstr "Düzəliş et"
 
 #: app/templates/app/welcome.html:224
 msgid "Uh oh! Could you please check the errors below?"
@@ -1434,17 +1421,13 @@ msgstr ""
 msgid "Create short links when sharing task URLs"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:18
-msgid "Create editable short links when sharing task URLs"
-msgstr ""
-
 #: app/views/app.py:44
 msgid "First Project"
 msgstr ""
 
 #: app/views/app.py:54 app/views/public.py:27
 msgid "Map"
-msgstr ""
+msgstr "Xəritə"
 
 #: app/views/app.py:82
 msgid "3D Model Display"
@@ -1452,17 +1435,17 @@ msgstr ""
 
 #: app/views/app.py:149
 msgid "Welcome"
-msgstr ""
+msgstr "Xoş gəlmisiniz"
 
 #: app/views/dev.py:59
 msgid "Cannot find locale/ folder in .zip archive"
 msgstr ""
 
-#: app/views/dev.py:71
+#: app/views/dev.py:74
 msgid "Translation files reloaded!"
 msgstr ""
 
-#: app/views/dev.py:75
+#: app/views/dev.py:78
 msgid "Invalid action"
 msgstr ""
 
@@ -1484,11 +1467,11 @@ msgstr ""
 
 #: coreplugins/diagnostic/plugin.py:36
 msgid "Diagnostic"
-msgstr ""
+msgstr "Diaqnostika"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:6
 msgid "Diagnostic Information"
-msgstr ""
+msgstr "Diaqnostik məlumat"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:10
 msgid "Storage Space"
@@ -1499,7 +1482,7 @@ msgstr ""
 #: coreplugins/diagnostic/templates/diagnostic.html:45
 msgctxt "Megabytes of storage space"
 msgid "Free"
-msgstr ""
+msgstr "Pulsuz"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:15
 #: coreplugins/diagnostic/templates/diagnostic.html:39
@@ -1511,7 +1494,7 @@ msgstr ""
 #: coreplugins/diagnostic/templates/diagnostic.html:16
 msgctxt "Megabytes of storage space"
 msgid "Total"
-msgstr ""
+msgstr "Cəmi"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:20
 msgctxt "Computer memory (RAM)"
@@ -1539,7 +1522,7 @@ msgstr ""
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
 msgid "Note!"
-msgstr ""
+msgstr "Qeyd!"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
 #, python-format
@@ -1555,16 +1538,6 @@ msgstr ""
 msgid "Disk Space"
 msgstr ""
 
-#: coreplugins/editshortlinks/api.py:59
-msgid ""
-"Short URLs can only include letters, numbers, underscore and dash characters "
-"(A-Z, 0-9, _, -)."
-msgstr ""
-
-#: coreplugins/editshortlinks/api.py:63
-msgid "This short URL is already taken."
-msgstr ""
-
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
 msgid "Lightning Network"
 msgstr ""
@@ -1578,7 +1551,7 @@ msgstr ""
 
 #: coreplugins/posm-gcpi/plugin.py:8
 msgid "GCP Interface"
-msgstr ""
+msgstr "GCP interfeysi"
 
 #: nodeodm/apps.py:8
 msgid "Node Management"
