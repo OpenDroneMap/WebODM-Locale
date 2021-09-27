@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-26 18:48+0000\n"
-"PO-Revision-Date: 2021-09-26 17:11+0000\n"
+"PO-Revision-Date: 2021-09-28 08:32+0000\n"
 "Last-Translator: Rumi Kuribayashi <rumikr02005@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/webodm/webodm/"
 "ja/>\n"
@@ -79,50 +79,46 @@ msgstr "作者"
 #: app/admin.py:144
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
-msgstr ""
+msgstr "再起動が必要です。%(plugin)sを有効にするためにWebODMを再起動してください"
 
 #: app/admin.py:146
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "%(plugin)sプラグインを有効化できません: %(message)s"
 
 #: app/admin.py:154
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
-msgstr ""
+msgstr "再起動が必要です。%(plugin)sプラグインを完全に無効化するためにWebODMを再起動してください"
 
 #: app/admin.py:156
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "%(plugin)sプラグインを無効化できません: %(message)s"
 
 #: app/admin.py:164
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "%(plugin)sプラグインを削除できません: %(message)s"
 
 #: app/admin.py:208
 msgid "Plugin added successfully"
-msgstr ""
+msgstr "プラグインの追加に成功"
 
 #: app/admin.py:210
 #, python-format
 msgid "Cannot load plugin: %(message)s"
-msgstr ""
+msgstr "プラグインを読み込めません: %(message)s"
 
 #: app/admin.py:216
-#, fuzzy
-#| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload a zip file"
-msgstr "実行前に少なくとも２つの画像をアップロードする必要があります"
+msgstr "zipファイルのアップロードが必要です"
 
 #: app/admin.py:230
 msgid "Disable"
-msgstr ""
+msgstr "無効"
 
 #: app/admin.py:233
-#, fuzzy
-#| msgid "Enabled"
 msgid "Enable"
 msgstr "有効"
 
@@ -133,7 +129,7 @@ msgstr "行動"
 #: app/api/formulas.py:12 app/api/formulas.py:16
 msgid ""
 "Normalized Difference Vegetation Index shows the amount of green vegetation."
-msgstr ""
+msgstr "正規化植生指標は植生の量を示します。"
 
 #: app/api/formulas.py:20
 msgid ""
@@ -143,7 +139,7 @@ msgstr ""
 
 #: app/api/formulas.py:24
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
-msgstr ""
+msgstr "Visual Atmospheric Resistance Index は植生の範囲を示します。"
 
 #: app/api/formulas.py:29
 msgid ""
@@ -164,13 +160,14 @@ msgstr ""
 
 #: app/api/formulas.py:41
 msgid "Green Leaf Index shows greens leaves and stems."
-msgstr ""
+msgstr "Green Leaf Index は緑の葉と茎を表します。"
 
 #: app/api/formulas.py:46
+#, fuzzy
 msgid ""
 "Green Normalized Difference Vegetation Index is similar to NDVI, but "
 "measures the green spectrum instead of red."
-msgstr ""
+msgstr "緑正規化植生指数は正規化植生に似ていますが、赤色ではなく緑色域を測定します。"
 
 #: app/api/formulas.py:50
 msgid ""
@@ -215,7 +212,7 @@ msgstr ""
 
 #: app/api/formulas.py:78
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
-msgstr ""
+msgstr "Leaf Area Index は葉の面積を推定し、作物の収穫量を予測します。"
 
 #: app/api/formulas.py:83
 msgid ""
@@ -225,7 +222,7 @@ msgstr ""
 
 #: app/api/projects.py:62
 msgid "Cannot duplicate project"
-msgstr ""
+msgstr "プロジェクトを複製できません"
 
 #: app/api/tasks.py:183
 msgid "You need to upload at least 2 images before commit"
@@ -237,7 +234,7 @@ msgstr "ファイルがアップロードされていません"
 
 #: app/api/tasks.py:234
 msgid "Cannot duplicate task"
-msgstr ""
+msgstr "タスクを複製できません"
 
 #: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
@@ -262,7 +259,7 @@ msgstr ""
 
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
-msgstr ""
+msgstr "この画像が属するタスク"
 
 #: app/models/image_upload.py:10 app/models/task.py:263
 msgid "Task"
@@ -295,7 +292,7 @@ msgstr "名前"
 
 #: app/models/plugin.py:6
 msgid "Whether this plugin is turned on."
-msgstr ""
+msgstr "このプラグインがオンになっているかどうか。"
 
 #: app/models/plugin.py:6
 msgid "Enabled"
@@ -351,7 +348,7 @@ msgstr "プラグインデータ"
 
 #: app/models/preset.py:9
 msgid "The person who owns this preset"
-msgstr ""
+msgstr "このプリセットを所有する者"
 
 #: app/models/preset.py:9 app/models/project.py:23
 msgid "Owner"
@@ -359,7 +356,7 @@ msgstr "所有者"
 
 #: app/models/preset.py:10
 msgid "A label used to describe the preset"
-msgstr ""
+msgstr "プリセット説明用ラベル"
 
 #: app/models/preset.py:11
 msgid "Options that define this preset (same format as in a Task's options)."
@@ -397,11 +394,11 @@ msgstr "プリセット"
 
 #: app/models/project.py:23
 msgid "The person who created the project"
-msgstr ""
+msgstr "このプロジェクトの作成者"
 
 #: app/models/project.py:24
 msgid "A label used to describe the project"
-msgstr ""
+msgstr "プロジェクト説明用ラベル"
 
 #: app/models/project.py:25
 msgid "More in-depth description of the project"
@@ -421,7 +418,7 @@ msgstr "削除しています"
 #: app/models/project.py:61 app/models/task.py:405
 #, python-format
 msgid "Copy of %(task)s"
-msgstr ""
+msgstr "%(task)sをコピー"
 
 #: app/models/project.py:84 app/models/task.py:223
 msgid "Project"
@@ -441,7 +438,7 @@ msgstr "アプリ名"
 
 #: app/models/setting.py:21
 msgid "A 512x512 logo of your application (.png or .jpeg)"
-msgstr ""
+msgstr "512x512 サイズのアプリのロゴ (.png or .jpeg)"
 
 #: app/models/setting.py:21
 msgid "App logo"
@@ -457,11 +454,11 @@ msgstr "組織名"
 
 #: app/models/setting.py:32
 msgid "The website URL of your organization"
-msgstr ""
+msgstr "所属する組織のウェブサイトURL"
 
 #: app/models/setting.py:32
 msgid "Organization website"
-msgstr ""
+msgstr "組織のウェブサイト"
 
 #: app/models/setting.py:33 app/models/theme.py:48 app/models/theme.py:49
 #: app/templates/app/logged_in_base.html:95
@@ -552,11 +549,11 @@ msgstr ""
 
 #: app/models/task.py:231
 msgid "List of available assets to download"
-msgstr ""
+msgstr "ダウンロード可能なアセットのリスト"
 
 #: app/models/task.py:231
 msgid "Available Assets"
-msgstr ""
+msgstr "使用可能なアセット"
 
 #: app/models/task.py:232
 msgid "Console output of the processing node"
@@ -624,17 +621,17 @@ msgstr "アップロード進行状況:"
 #: app/models/task.py:250
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
-msgstr ""
+msgstr "タスク画像のリサイズ進行状況を示す0から1の値"
 
 #: app/models/task.py:251
 msgid "Resize Progress"
-msgstr ""
+msgstr "リサイズ進行状況"
 
 #: app/models/task.py:254
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
-msgstr ""
+msgstr "このタスクの進行状況（予想）を示す0から1の値"
 
 #: app/models/task.py:255
 msgid "Running Progress"
@@ -642,19 +639,19 @@ msgstr "実行中の処理"
 
 #: app/models/task.py:257
 msgid "URL this task is imported from (only for imported tasks)"
-msgstr ""
+msgstr "このタスクのインポート元のURL（インポートのみ）"
 
 #: app/models/task.py:257
 msgid "Import URL"
-msgstr ""
+msgstr "URLインポート"
 
 #: app/models/task.py:258
 msgid "Number of images associated with this task"
-msgstr ""
+msgstr "このタスクに関連する画像の数"
 
 #: app/models/task.py:258
 msgid "Images Count"
-msgstr ""
+msgstr "画像のカウント数"
 
 #: app/models/task.py:259
 msgid ""
@@ -664,7 +661,7 @@ msgstr ""
 
 #: app/models/task.py:259
 msgid "Partial"
-msgstr ""
+msgstr "部分"
 
 #: app/models/task.py:260
 msgid ""
@@ -686,11 +683,11 @@ msgstr ""
 
 #: app/models/task.py:461
 msgid "Importing assets..."
-msgstr ""
+msgstr "アセットをインポート中..."
 
 #: app/models/task.py:500 app/models/task.py:768
 msgid "Invalid zip file"
-msgstr ""
+msgstr "無効なzipファイル"
 
 #: app/models/task.py:594
 #, python-format
@@ -732,11 +729,11 @@ msgstr "セカンダリ"
 
 #: app/models/theme.py:21
 msgid "Navigation links."
-msgstr ""
+msgstr "ナビゲーションリンク"
 
 #: app/models/theme.py:21
 msgid "Tertiary"
-msgstr ""
+msgstr "第三"
 
 #: app/models/theme.py:23
 msgid "Primary button color."
@@ -772,7 +769,7 @@ msgstr ""
 
 #: app/models/theme.py:28
 msgid "Text and icons in the site's header."
-msgstr ""
+msgstr "サイトのヘッダーのテキストとアイコン"
 
 #: app/models/theme.py:28
 msgid "Header Primary"
@@ -788,7 +785,7 @@ msgstr "境界線"
 
 #: app/models/theme.py:31
 msgid "The background color of panels and some borders."
-msgstr ""
+msgstr "パネルと罫線の背景色"
 
 #: app/models/theme.py:31
 msgid "Highlight"
@@ -796,15 +793,15 @@ msgstr "ハイライト"
 
 #: app/models/theme.py:33
 msgid "The border color of warning dialogs."
-msgstr ""
+msgstr "警告ダイアログの罫線色"
 
 #: app/models/theme.py:33
 msgid "Dialog Warning"
-msgstr ""
+msgstr "警告ダイアログ"
 
 #: app/models/theme.py:35
 msgid "The background color of failed notifications."
-msgstr ""
+msgstr "失敗通知の背景色"
 
 #: app/models/theme.py:35
 msgid "Failed"
@@ -812,7 +809,7 @@ msgstr "失敗"
 
 #: app/models/theme.py:36
 msgid "The background color of success notifications."
-msgstr ""
+msgstr "成功通知の背景色"
 
 #: app/models/theme.py:36
 msgid "Success"
@@ -831,8 +828,9 @@ msgid "500 Internal Server Error"
 msgstr "500　内部サーバエラー"
 
 #: app/templates/app/500.html:6
+#, fuzzy
 msgid "Something happened. The server logs contain more information."
-msgstr ""
+msgstr "事案が発生。サーバーのログに詳細な情報があります。"
 
 #: app/templates/app/about.html:94
 #, python-format
@@ -843,6 +841,9 @@ msgid ""
 "option) any later version. See %(link_start)sthe GNU Affero General Public "
 "License%(link_end)s for more details."
 msgstr ""
+"このプログラムはフリーソフトウェアです:Free Software Foundationが公表しているthe GNU Affero General "
+"Public License のバージョン3 または(任意により) 最新バージョンに基づいて、再配布や改変が可能です。the GNU Affero "
+"General Public License%(link_start)s、詳細は%(link_end)s を確認してください。"
 
 #: app/templates/app/admin/404.html:4 app/templates/app/admin/404.html:8
 msgid "Page not found"
@@ -850,7 +851,7 @@ msgstr "ページが見つかりません"
 
 #: app/templates/app/admin/404.html:10
 msgid "We're sorry, but the requested page could not be found."
-msgstr ""
+msgstr "残念ながら、リクエストされたページが見つかりません。"
 
 #: app/templates/app/admin/500.html:6 app/templates/app/admin/app_index.html:9
 #: app/templates/app/admin/auth/user/change_password.html:13
@@ -880,7 +881,7 @@ msgstr "サーバエラー（500）"
 msgid ""
 "There's been an error. It's been reported to the site administrators via "
 "email and should be fixed shortly. Thanks for your patience."
-msgstr ""
+msgstr "エラー発生中です。サイトの管理者にメールで報告されており間もなく復旧します。しばらくお待ちください。"
 
 #: app/templates/app/admin/actions.html:4
 msgid "Run the selected action"
@@ -923,19 +924,19 @@ msgstr "パスワードの変更"
 #: app/templates/app/admin/change_list.html:58
 #: app/templates/app/admin/login.html:21
 msgid "Please correct the error below."
-msgstr ""
+msgstr "下記のエラーを修正してください。"
 
 #: app/templates/app/admin/auth/user/change_password.html:27
 #: app/templates/app/admin/change_form.html:47
 #: app/templates/app/admin/change_list.html:58
 #: app/templates/app/admin/login.html:21
 msgid "Please correct the errors below."
-msgstr ""
+msgstr "下記の複数エラーを修正してください。"
 
 #: app/templates/app/admin/auth/user/change_password.html:31
 #, python-format
 msgid "Enter a new password for the user <strong>%(username)s</strong>."
-msgstr ""
+msgstr "ユーザー <strong>%(username)s</strong>の新しいパスワードを入力してください。"
 
 #: app/templates/app/admin/base_site.html:3
 msgid "Django site admin"
@@ -1033,7 +1034,7 @@ msgstr ""
 
 #: app/templates/app/admin/delete_selected_confirmation.html:16
 msgid "Delete multiple objects"
-msgstr ""
+msgstr "複数のオブジェクトを削除"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:22
 #, python-format
@@ -1097,7 +1098,7 @@ msgstr "最近のアクション"
 
 #: app/templates/app/admin/index.html:56
 msgid "My actions"
-msgstr "私の行動"
+msgstr "自分の行動"
 
 #: app/templates/app/admin/index.html:60
 msgid "None available"
@@ -1123,7 +1124,7 @@ msgstr ""
 
 #: app/templates/app/admin/login.html:57
 msgid "Forgotten your password or username?"
-msgstr ""
+msgstr "パスワードまたはユーザーネームを忘れましたか？"
 
 #: app/templates/app/admin/login.html:61
 msgid "Log in"
@@ -1189,15 +1190,17 @@ msgstr "合計%(full_result_count)s個"
 
 #: app/templates/app/admin/submit_line.html:8
 msgid "Save as new"
-msgstr "名前をつけて保存"
+msgstr "新規保存"
 
 #: app/templates/app/admin/submit_line.html:9
+#, fuzzy
 msgid "Save and add another"
-msgstr ""
+msgstr "保存して別のファイルを追加"
 
 #: app/templates/app/admin/submit_line.html:10
+#, fuzzy
 msgid "Save and continue editing"
-msgstr "上書き保存"
+msgstr "保存して編集を継続"
 
 #: app/templates/app/dashboard.html:15 app/templates/app/dashboard.html:27
 #: app/templates/app/welcome.html:227
@@ -1246,7 +1249,7 @@ msgstr "緻密な3D化には83%%のオーバーラップした画像"
 msgid ""
 "A %(link_start)sGCP File%(link_end)s is optional, but can increase "
 "georeferencing accuracy"
-msgstr ""
+msgstr "%(link_start)sGCPファイル%(link_end)s は任意ですが、ジオリファレンスの精度が向上します"
 
 #: app/templates/app/dev_tools.html:6 app/templates/app/logged_in_base.html:110
 #: app/views/dev.py:78
@@ -1283,7 +1286,7 @@ msgstr "現在地："
 
 #: app/templates/app/dev_tools.html:29
 msgid "Apply"
-msgstr ""
+msgstr "適用"
 
 #: app/templates/app/dev_tools.html:33
 msgid "Executing… do not refresh the page! This could take a while."
@@ -1397,7 +1400,7 @@ msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:6
 msgid "Import images from external sources directly"
-msgstr ""
+msgstr "外部ソースから直接画像をインポート"
 
 #: app/translations/plugin_manifest_autogenerated.py:7
 msgid "Compute, preview and export contours from DEMs"
