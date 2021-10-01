@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-26 18:48+0000\n"
-"PO-Revision-Date: 2021-09-29 11:48+0000\n"
-"Last-Translator: Kunihiro Yukawa <mx.vaio@gmail.com>\n"
+"PO-Revision-Date: 2021-10-01 13:36+0000\n"
+"Last-Translator: Rumi Kuribayashi <rumikr02005@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/webodm/react-ui/"
 "ja/>\n"
 "Language: ja\n"
@@ -568,7 +568,7 @@ msgstr "既存データをインポート"
 msgid ""
 "You can import .zip files that have been exported from existing tasks via "
 "Download Assets %(arrow)s All Assets."
-msgstr ""
+msgstr "存在するタスクから全てのアセット %(arrow)s をダウンロードすることにより.zipファイルをインポートできます。"
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:167
 msgid "Upload a File"
@@ -645,16 +645,16 @@ msgstr "(カメラ)"
 
 #: app/static/app/js/components/Map.jsx:310
 msgid "(GCPs)"
-msgstr ""
+msgstr "(GCP)"
 
 #: app/static/app/js/components/Map.jsx:382
 msgid "Enter a tile URL template. Valid coordinates are:"
-msgstr ""
+msgstr "タイルURLテンプレートを入力してください。有効な座標系:"
 
 #: app/static/app/js/components/Map.jsx:383
 #, python-brace-format
 msgid "{z}, {x}, {y} for Z/X/Y tile scheme"
-msgstr ""
+msgstr "Z/X/Y タイルスキーム {z}, {x}, {y}"
 
 #: app/static/app/js/components/Map.jsx:384
 msgid "{-y} for flipped TMS-style Y coordinates"
@@ -670,7 +670,7 @@ msgstr "GeoJSON (.json) またはShapeFile (.zip)のオーバーレイ一時フ�
 
 #: app/static/app/js/components/Map.jsx:503
 msgid "Error: cannot load assets list."
-msgstr "エラー：データリストの読み込みができませんでした。"
+msgstr "エラー：アセットリストの読み込みができませんでした。"
 
 #: app/static/app/js/components/Map.jsx:574
 msgid "Opacity:"
@@ -683,7 +683,7 @@ msgstr "読み込み中..."
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:9
 msgid "Move Task"
-msgstr ""
+msgstr "タスクを移動"
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:10
 #: app/static/app/js/components/ProjectListItem.jsx:482
@@ -746,7 +746,7 @@ msgstr "デフォルト設定に戻す"
 #: app/static/app/js/components/ProjectListItem.jsx:188
 #, python-format
 msgid "Cannot upload %(filename)s, exceeded max retries (%(max_retries)s)"
-msgstr ""
+msgstr "再試行の最大回数 (%(max_retries)s)を超えたため、%(filename)sをアップロードできません"
 
 #: app/static/app/js/components/ProjectListItem.jsx:237
 #: app/static/app/js/components/ProjectListItem.jsx:354
@@ -859,16 +859,16 @@ msgstr "画像間のオーバーラップが不足しています"
 
 #: app/static/app/js/components/TaskListItem.jsx:263
 msgid "Images might be too blurry (common with phone cameras)"
-msgstr "画像が不鮮明です (携帯電話のカメラに多いです)"
+msgstr "画像が不鮮明です (携帯電話のカメラによくあります)"
 
 #: app/static/app/js/components/TaskListItem.jsx:264
 msgid ""
 "The min-num-features task option is set too low, try increasing it by 25%"
-msgstr ""
+msgstr "The min-num-features タスクオプションの設定値が低すぎます。25%まで増加してください"
 
 #: app/static/app/js/components/TaskListItem.jsx:265
 msgid "here"
-msgstr ""
+msgstr "ここ"
 
 #: app/static/app/js/components/TaskListItem.jsx:268
 #, python-format
@@ -878,6 +878,9 @@ msgid ""
 "support or higher. You can still run WebODM if you compile your own docker "
 "images. See %(link)s for more information."
 msgstr ""
+"コンピューターが古すぎるようです。WebODM はMMX, SSE, SSE2, SSE3とSSSE3の命令セットをサポートしている 64-bit "
+"CPU 以上のコンピューターが必要です。自身のdocker imagesのコンパイルによりWebODMが動作する可能性はあります。 詳細は %(link)"
+"s を参照してください。"
 
 #: app/static/app/js/components/TaskListItem.jsx:268
 msgid "this page"
@@ -889,11 +892,13 @@ msgid ""
 "This might indicate a corrupted installation. If you built OpenDroneMap, "
 "please check that all programs built without errors."
 msgstr ""
+"このプロセシングノードはタスク完了に必要なプログラムが欠けています。インストール時の破損が考えられます。OpenDroneMapを構築している場合は全ての"
+"プログラムがエラー無く構築されたか確認してください。"
 
 #: app/static/app/js/components/TaskListItem.jsx:310
 #, python-format
 msgid "From %(stage)s"
-msgstr ""
+msgstr "%(stage)s から"
 
 #: app/static/app/js/components/TaskListItem.jsx:322
 msgid "Resume Processing"
@@ -969,11 +974,11 @@ msgstr "プロセシングノード:"
 
 #: app/static/app/js/components/TaskListItem.jsx:551
 msgid "auto"
-msgstr ""
+msgstr "オート"
 
 #: app/static/app/js/components/TaskListItem.jsx:551
 msgid "manual"
-msgstr ""
+msgstr "マニュアル"
 
 #: app/static/app/js/components/TaskListItem.jsx:555
 msgid "Options:"
@@ -981,16 +986,16 @@ msgstr "オプション:"
 
 #: app/static/app/js/components/TaskListItem.jsx:561
 msgid "Average GSD:"
-msgstr ""
+msgstr "平均 GSD:"
 
 #: app/static/app/js/components/TaskListItem.jsx:565
 #: coreplugins/measure/public/MeasurePopup.jsx:142
 msgid "Area:"
-msgstr ""
+msgstr "エリア:"
 
 #: app/static/app/js/components/TaskListItem.jsx:569
 msgid "Reconstructed Points:"
-msgstr ""
+msgstr "再構築されたポイント:"
 
 #: app/static/app/js/components/TaskListItem.jsx:587
 msgid ""
@@ -1055,7 +1060,7 @@ msgstr "画像のアップロードを待機中..."
 
 #: app/static/app/js/components/TaskListItem.jsx:688
 msgid "Move"
-msgstr ""
+msgstr "移動"
 
 #: app/static/app/js/components/UploadProgressBar.jsx:29
 #, python-format
@@ -1082,14 +1087,14 @@ msgstr ""
 msgid ""
 "Skip normalization of colors across all images. Useful when processing "
 "radiometric data. Default: %(default)s"
-msgstr ""
+msgstr "全画像の色の正規化をスキップ。放射測定データを処理する場合に効果的です。デフォルト: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:5
 #, python-format
 msgid ""
 "End processing at this stage. Can be one of: %(choices)s. Default: "
 "%(default)s"
-msgstr ""
+msgstr "このステージで処理を終了。次から選択: %(choices)s. デフォルト: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:6
 #, python-format
@@ -1099,6 +1104,8 @@ msgid ""
 "datasets to be processed on machines that don't have sufficient disk space "
 "available. Default: %(default)s"
 msgstr ""
+"ディスクスペース使用を最適化するため重い中間ファイルを削除。中間ステージからパイプラインを再スタートする場合に影響しますが、十分なディスクスペースがないマ"
+"シンでのデータセット処理が可能になります。デフォルト: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:7
 #, python-format
@@ -1114,7 +1121,7 @@ msgstr ""
 #: app/static/app/js/translations/odm_autogenerated.js:8
 #, python-format
 msgid "Generates a benchmark file with runtime info. Default: %(default)s"
-msgstr ""
+msgstr "ランタイム情報のベンチマークファイルを生成。デフォルト: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:9
 #, python-format
@@ -1128,7 +1135,7 @@ msgstr ""
 msgid ""
 "Rerun this stage only and stop. Can be one of: %(choices)s. Default: "
 "%(default)s"
-msgstr "このステージのみ再実行して停止してください。選択可能: %(choices)s。デフォルト: %(default)s"
+msgstr "このステージのみ再実行して停止。次から選択: %(choices)s。デフォルト: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:11
 #, python-format
@@ -1141,7 +1148,7 @@ msgstr ""
 #: app/static/app/js/translations/odm_autogenerated.js:12
 msgid ""
 "Permanently delete all previous results and rerun the processing pipeline."
-msgstr ""
+msgstr "前の結果を全て完全に削除し、処理パイプラインを再実行。"
 
 #: app/static/app/js/translations/odm_autogenerated.js:13
 #, python-format
@@ -1153,7 +1160,7 @@ msgstr ""
 msgid ""
 "Use this tag if you have a GCP File but want to use the EXIF information for "
 "georeferencing instead. Default: %(default)s"
-msgstr ""
+msgstr "GCPファイルの代わりにEXIF情報をジオリファレンスに使用したい場合は、このタグを使用。 デフォルト: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:15
 #, python-format
@@ -1215,7 +1222,7 @@ msgstr ""
 msgid ""
 "Set this parameter if you want to generate a PNG rendering of the "
 "orthophoto. Default: %(default)s"
-msgstr ""
+msgstr "オルソフォトをPNGで生成したい場合はこのパラメーターをセット。デフォルト: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:23
 msgid ""
@@ -1742,7 +1749,7 @@ msgstr "外部ソースから直接画像をインポート"
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:15
 msgid "Detect changes between two different tasks in the same project."
-msgstr ""
+msgstr "同一プロジェクトの二つの異なるタスクの差異を探知。"
 
 #: app/static/app/js/translations/potree_autogenerated.js:3
 msgid "Navigation"
@@ -2222,11 +2229,11 @@ msgstr "こんにちは、"
 
 #: coreplugins/lightning/public/Dashboard.jsx:138
 msgid "Synced Nodes"
-msgstr ""
+msgstr "同期済ノード"
 
 #: coreplugins/lightning/public/Dashboard.jsx:146
 msgid "Resync"
-msgstr ""
+msgstr "再同期"
 
 #: coreplugins/lightning/public/Dashboard.jsx:153
 msgid "Dashboard"
@@ -2266,17 +2273,18 @@ msgstr "パスワードをお忘れですか？"
 
 #: coreplugins/lightning/public/Login.jsx:110
 msgid "Login and Sync"
-msgstr ""
+msgstr "ログインと同期"
 
 #: coreplugins/lightning/public/app.jsx:39
+#, fuzzy
 msgid "Lightning Network"
-msgstr ""
+msgstr "Lightning Network"
 
 #: coreplugins/lightning/public/app.jsx:40
 msgid ""
 "Lightning is a service that allows you to quickly process small and large "
 "datasets using high performance servers in the cloud."
-msgstr ""
+msgstr "Lightning はデータセットの大小に関わらずクラウド上の高性能サーバーを用いて素早く処理を行うサービスです。"
 
 #: coreplugins/lightning/public/app.jsx:41
 msgid "register"
@@ -2319,15 +2327,15 @@ msgstr "立方フィート"
 
 #: coreplugins/measure/public/MeasurePopup.jsx:147
 msgid "Export to GeoJSON"
-msgstr ""
+msgstr "GeoJSONにエクスポート"
 
 #: coreplugins/measure/public/app.jsx:18
 msgid "Measure volume, area and length"
-msgstr ""
+msgstr "体積、面積、長さを測定"
 
 #: coreplugins/measure/public/app.jsx:19
 msgid "Measurement"
-msgstr ""
+msgstr "測定"
 
 #: coreplugins/measure/public/app.jsx:20
 msgid "Measure"
