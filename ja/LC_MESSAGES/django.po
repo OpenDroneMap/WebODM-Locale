@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-26 18:48+0000\n"
-"PO-Revision-Date: 2021-10-01 13:36+0000\n"
+"PO-Revision-Date: 2021-10-05 15:03+0000\n"
 "Last-Translator: Rumi Kuribayashi <rumikr02005@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/webodm/webodm/"
 "ja/>\n"
@@ -408,14 +408,14 @@ msgstr "プロジェクト説明用ラベル"
 
 #: app/models/project.py:25
 msgid "More in-depth description of the project"
-msgstr ""
+msgstr "プロジェクトのより詳細な説明"
 
 #: app/models/project.py:27
 msgid ""
 "Whether this project has been marked for deletion. Projects that have "
 "running tasks need to wait for tasks to be properly cleaned up before they "
 "can be deleted."
-msgstr ""
+msgstr "このプロジェクトは削除に印が付いているかどうか。タスクが動作中のプロジェクトはタスクが適切に消去されるのを待ってから削除可能になります。"
 
 #: app/models/project.py:27
 msgid "Deleting"
@@ -507,7 +507,7 @@ msgstr "タスクのラベル"
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
-msgstr ""
+msgstr "タスク開始から経過したミリ秒 (-1 は利用可能な情報が無いことを示します)"
 
 #: app/models/task.py:225
 msgid "Processing Time"
@@ -543,7 +543,7 @@ msgstr "状態"
 
 #: app/models/task.py:229
 msgid "The last processing error received"
-msgstr ""
+msgstr "最後に受け取った処理エラー"
 
 #: app/models/task.py:229
 msgid "Last Error"
@@ -551,7 +551,7 @@ msgstr "最新のエラー"
 
 #: app/models/task.py:230
 msgid "Options that are being used to process this task"
-msgstr ""
+msgstr "このタスク処理に使われているオプション"
 
 #: app/models/task.py:231
 msgid "List of available assets to download"
@@ -597,7 +597,7 @@ msgstr "保留中の動作"
 
 #: app/models/task.py:242
 msgid "A flag indicating whether this task is available to the public"
-msgstr ""
+msgstr "このタスクが公開可能か示すフラグ"
 
 #: app/models/task.py:242
 msgid "Public"
@@ -608,17 +608,17 @@ msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
 "processing."
-msgstr ""
+msgstr "-1とは違う値を設定した時に、このタスクの画像は処理開始前にここで指定したサイズにリサイズされました / されます。"
 
 #: app/models/task.py:243
 msgid "Resize To"
-msgstr ""
+msgstr "リサイズ"
 
 #: app/models/task.py:246
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
-msgstr ""
+msgstr "0から1の値はタスクファイルのプロセシングノードへのアップロード進捗状況を示します"
 
 #: app/models/task.py:247
 msgid "Upload Progress"
@@ -1666,4 +1666,4 @@ msgstr ""
 
 #: nodeodm/models.py:31
 msgid "Engine used by the node."
-msgstr ""
+msgstr "ノードが使用するエンジン"
