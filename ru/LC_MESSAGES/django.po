@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-26 18:48+0000\n"
-"PO-Revision-Date: 2021-10-10 19:04+0000\n"
-"Last-Translator: Artem <Localizer_in_Russian@protonmail.com>\n"
+"PO-Revision-Date: 2021-10-18 20:39+0000\n"
+"Last-Translator: Andrei <1geo.andrey1@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/webodm/webodm/ru/"
 ">\n"
 "Language: ru\n"
@@ -84,41 +84,43 @@ msgstr "Автор"
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr ""
+"Требуется перезагрузка. Пожалуйста перезапустите WebODM чтобы активировать "
+"%(plugin)s"
 
 #: app/admin.py:146
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Невозможно активировать плагин %(plugin)s: %(message)s"
 
 #: app/admin.py:154
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr ""
+"Требуется перезагрузка. Пожалуйста перезапустите WebODM для полной "
+"дезактивации %(plugin)s"
 
 #: app/admin.py:156
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Невозможно выключить плагин %(plugin)s: %(message)s"
 
 #: app/admin.py:164
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Невозможно удалить плагин %(plugin)s: %(message)s"
 
 #: app/admin.py:208
 msgid "Plugin added successfully"
-msgstr ""
+msgstr "Плагин успешно добавлен"
 
 #: app/admin.py:210
 #, python-format
 msgid "Cannot load plugin: %(message)s"
-msgstr ""
+msgstr "Невозможно удалить плагин: %(message)s"
 
 #: app/admin.py:216
-#, fuzzy
-#| msgid "You need at least 5 images"
 msgid "You need to upload a zip file"
-msgstr "Необходимо как минимум 5 изображений"
+msgstr "Необходимо загрузить .zip файл"
 
 #: app/admin.py:230
 msgid "Disable"
@@ -164,17 +166,19 @@ msgstr ""
 #: app/api/formulas.py:37
 msgid ""
 "Burn Area Index hightlights burned land in the red to near-infrared spectrum."
-msgstr ""
+msgstr "BAI индекс отображает выжженную землю в инфракрасном диапазоне."
 
 #: app/api/formulas.py:41
 msgid "Green Leaf Index shows greens leaves and stems."
-msgstr ""
+msgstr "GLI индекс отображает зелень, листья и стебли."
 
 #: app/api/formulas.py:46
 msgid ""
 "Green Normalized Difference Vegetation Index is similar to NDVI, but "
 "measures the green spectrum instead of red."
 msgstr ""
+"GNDV индекс похож на NDVI, но измеряет растительность зеленом спектре вместо "
+"красного."
 
 #: app/api/formulas.py:50
 msgid ""
@@ -219,7 +223,7 @@ msgstr ""
 
 #: app/api/formulas.py:78
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
-msgstr ""
+msgstr "LAI индекс оценивает площадь листвы и прогнозирует урожайность."
 
 #: app/api/formulas.py:83
 msgid ""
@@ -229,11 +233,11 @@ msgstr ""
 
 #: app/api/projects.py:62
 msgid "Cannot duplicate project"
-msgstr ""
+msgstr "Невозможно продублировать проект"
 
 #: app/api/tasks.py:183
 msgid "You need to upload at least 2 images before commit"
-msgstr ""
+msgstr "Вы должны загрузить минимум 2 изображения перед тем как продолжить"
 
 #: app/api/tasks.py:205
 msgid "No files uploaded"
@@ -241,16 +245,16 @@ msgstr "Нет загруженных файлов"
 
 #: app/api/tasks.py:234
 msgid "Cannot duplicate task"
-msgstr ""
+msgstr "Невозможно продублировать задачу"
 
 #: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
-msgstr ""
+msgstr "Невозможно создать задачу, требуется минимум 2 изображения"
 
 #: app/api/tasks.py:356 app/api/tasks.py:359 app/api/tasks.py:378
 #: app/api/tasks.py:381
 msgid "Asset does not exist"
-msgstr ""
+msgstr "Набор данных отсутствует"
 
 #: app/api/tasks.py:397
 msgid "Imported Task"
@@ -258,15 +262,15 @@ msgstr "Импортированная задача"
 
 #: app/api/tasks.py:400
 msgid "Cannot create task, you need to upload 1 file"
-msgstr ""
+msgstr "Невозможно создать задачу, требуется загрузить минимум 1 файл"
 
 #: app/api/tasks.py:403
 msgid "Cannot create task, either specify a URL or upload 1 file."
-msgstr ""
+msgstr "Невозможно создать задачу, укажите URL-адрес или загрузите 1 файл."
 
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
-msgstr ""
+msgstr "Задача, которой принадлежит это изображение"
 
 #: app/models/image_upload.py:10 app/models/task.py:263
 msgid "Task"
@@ -274,7 +278,7 @@ msgstr "Задача"
 
 #: app/models/image_upload.py:11
 msgid "File uploaded by a user"
-msgstr ""
+msgstr "Файл загружен пользователем"
 
 #: app/models/image_upload.py:11
 msgid "Image"
@@ -299,7 +303,7 @@ msgstr "Имя"
 
 #: app/models/plugin.py:6
 msgid "Whether this plugin is turned on."
-msgstr ""
+msgstr "Включен ли этот плагин."
 
 #: app/models/plugin.py:6
 msgid "Enabled"
@@ -324,6 +328,8 @@ msgstr "Ключ"
 #: app/models/plugin_datum.py:8
 msgid "The user this setting belongs to. If NULL, the setting is global."
 msgstr ""
+"Пользователь, которому принадлежит этот параметр. Если NULL, то настройка "
+"глобальная."
 
 #: app/models/plugin_datum.py:8 app/templates/app/admin/object_history.html:23
 msgid "User"
@@ -335,11 +341,11 @@ msgstr "Целое значение"
 
 #: app/models/plugin_datum.py:10
 msgid "Float value"
-msgstr ""
+msgstr "Значение с плавающей точкой"
 
 #: app/models/plugin_datum.py:11
 msgid "Bool value"
-msgstr ""
+msgstr "Булево значение"
 
 #: app/models/plugin_datum.py:12
 msgid "String value"
@@ -347,7 +353,7 @@ msgstr "Строковое значение"
 
 #: app/models/plugin_datum.py:13
 msgid "JSON value"
-msgstr ""
+msgstr "JSON значение"
 
 #: app/models/plugin_datum.py:19 app/models/plugin_datum.py:20
 msgid "Plugin Datum"
@@ -355,7 +361,7 @@ msgstr "Данные плагинов"
 
 #: app/models/preset.py:9
 msgid "The person who owns this preset"
-msgstr ""
+msgstr "Пользователь которому принадлежит этот пресет"
 
 #: app/models/preset.py:9 app/models/project.py:23
 msgid "Owner"
@@ -363,11 +369,13 @@ msgstr "Владелец"
 
 #: app/models/preset.py:10
 msgid "A label used to describe the preset"
-msgstr ""
+msgstr "Метка, используемая для описания пресета"
 
 #: app/models/preset.py:11
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr ""
+"Параметры, определяющие эту предустановку (тот же формат, что и в параметрах "
+"задачи)."
 
 #: app/models/preset.py:11 app/models/task.py:230
 msgid "Options"
@@ -386,10 +394,12 @@ msgid ""
 "Whether this preset is available to every user in the system or just to its "
 "owner."
 msgstr ""
+"Доступен ли этот пресет каждому пользователю в системе или только его "
+"владельцу."
 
 #: app/models/preset.py:14
 msgid "System"
-msgstr ""
+msgstr "Система"
 
 #: app/models/preset.py:20
 msgid "Preset"
@@ -405,7 +415,7 @@ msgstr "Человек, создавший проект"
 
 #: app/models/project.py:24
 msgid "A label used to describe the project"
-msgstr ""
+msgstr "Метка, используемая для описания проекта"
 
 #: app/models/project.py:25
 msgid "More in-depth description of the project"
@@ -417,6 +427,8 @@ msgid ""
 "running tasks need to wait for tasks to be properly cleaned up before they "
 "can be deleted."
 msgstr ""
+"Помечен ли этот проект для удаления? Проекты у которых есть действующие "
+"задачи должны быть завершены перед тем как вы сможете удалить их."
 
 #: app/models/project.py:27
 msgid "Deleting"
@@ -425,7 +437,7 @@ msgstr "Удаление"
 #: app/models/project.py:61 app/models/task.py:405
 #, python-format
 msgid "Copy of %(task)s"
-msgstr ""
+msgstr "Копия %(task)s"
 
 #: app/models/project.py:84 app/models/task.py:223
 msgid "Project"
@@ -437,7 +449,7 @@ msgstr "Проекты"
 
 #: app/models/setting.py:20
 msgid "The name of your application"
-msgstr ""
+msgstr "Наименование вашего приложения"
 
 #: app/models/setting.py:20
 msgid "App name"
@@ -445,7 +457,7 @@ msgstr "Название приложения"
 
 #: app/models/setting.py:21
 msgid "A 512x512 logo of your application (.png or .jpeg)"
-msgstr ""
+msgstr "Логотип вашего приложения 512x512 (.png или .jpeg)"
 
 #: app/models/setting.py:21
 msgid "App logo"
@@ -453,7 +465,7 @@ msgstr "Логотип приложения"
 
 #: app/models/setting.py:31
 msgid "The name of your organization"
-msgstr ""
+msgstr "Наименование вашей организации"
 
 #: app/models/setting.py:31
 msgid "Organization name"
@@ -490,7 +502,7 @@ msgstr "ID"
 
 #: app/models/task.py:222
 msgid "Identifier of the task (as returned by NodeODM API)"
-msgstr ""
+msgstr "Идентификатор вашей задачи ( так же как и в NodeODM API)"
 
 #: app/models/task.py:222
 msgid "UUID"
@@ -498,17 +510,19 @@ msgstr "UUID"
 
 #: app/models/task.py:223
 msgid "Project that this task belongs to"
-msgstr ""
+msgstr "Проект к которому принадлежит эта задача"
 
 #: app/models/task.py:224
 msgid "A label for the task"
-msgstr ""
+msgstr "Пометка для задачи"
 
 #: app/models/task.py:225
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr ""
+"Количество мили секунд, которое прошло с момента начала задачи ( -1 "
+"обозначает что нет информации доступной для отображения)"
 
 #: app/models/task.py:225
 msgid "Processing Time"
@@ -518,17 +532,19 @@ msgstr "Время обработки"
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
-msgstr ""
+msgstr "Ядро назначенное для этой задачи (или null если ядро не назначено)"
 
 #: app/models/task.py:226 app/views/app.py:115 nodeodm/models.py:34
 msgid "Processing Node"
-msgstr ""
+msgstr "Ядро"
 
 #: app/models/task.py:227
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr ""
+"Флаг, указывающий на то - следует ли этой задаче автоматически назначать "
+"узел(ядро) обработки"
 
 #: app/models/task.py:227
 msgid "Auto Processing Node"
@@ -536,7 +552,7 @@ msgstr ""
 
 #: app/models/task.py:228
 msgid "Current status of the task"
-msgstr ""
+msgstr "Текущий статус выполнения задачи"
 
 #: app/models/task.py:228
 msgid "Status"
@@ -544,7 +560,7 @@ msgstr "Статус"
 
 #: app/models/task.py:229
 msgid "The last processing error received"
-msgstr ""
+msgstr "Последняя полученная ошибка обработки"
 
 #: app/models/task.py:229
 msgid "Last Error"
@@ -552,31 +568,31 @@ msgstr "Последняя ошибка"
 
 #: app/models/task.py:230
 msgid "Options that are being used to process this task"
-msgstr ""
+msgstr "Опции которые будут использованы при выполнении этой задачи"
 
 #: app/models/task.py:231
 msgid "List of available assets to download"
-msgstr ""
+msgstr "Список доступных наборов данных для скачивания"
 
 #: app/models/task.py:231
 msgid "Available Assets"
-msgstr ""
+msgstr "Доступные наборы данных"
 
 #: app/models/task.py:232
 msgid "Console output of the processing node"
-msgstr ""
+msgstr "Вывод в командную строку обрабаттывающего ядра"
 
 #: app/models/task.py:232
 msgid "Console Output"
-msgstr ""
+msgstr "Вывод в консоль"
 
 #: app/models/task.py:234
 msgid "Extent of the orthophoto"
-msgstr ""
+msgstr "Размер ортофотоплана"
 
 #: app/models/task.py:234
 msgid "Orthophoto Extent"
-msgstr ""
+msgstr "Размер ортофотоплана"
 
 #: app/models/task.py:235
 msgid "DSM Extent"
@@ -591,6 +607,8 @@ msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
 msgstr ""
+"Запрошенное действие, которое нужно выполнить для задачи. Выбранное действие "
+"исполнитель выполнит на следующей итерации."
 
 #: app/models/task.py:240
 msgid "Pending Action"
@@ -598,11 +616,11 @@ msgstr ""
 
 #: app/models/task.py:242
 msgid "A flag indicating whether this task is available to the public"
-msgstr ""
+msgstr "Флаг указывает на то, является ли эта задача доступной в общем доступе"
 
 #: app/models/task.py:242
 msgid "Public"
-msgstr ""
+msgstr "Публичный"
 
 #: app/models/task.py:243
 msgid ""
@@ -610,6 +628,9 @@ msgid ""
 "task have been / will be resized to the size specified here before "
 "processing."
 msgstr ""
+"Если установлено значение, отличающееся от -1, то это указывает, что "
+"изображения для этой задачи были или будут изменены до размера, указанного "
+"здесь, перед обработкой."
 
 #: app/models/task.py:243
 msgid "Resize To"
@@ -620,15 +641,19 @@ msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr ""
+"Значение от 0 до 1, указывают на ход загрузки файлов этой задачи на узел "
+"обработки(ядро)"
 
 #: app/models/task.py:247
 msgid "Upload Progress"
-msgstr ""
+msgstr "Текущий статус загрузки"
 
 #: app/models/task.py:250
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
+"Значение от 0 до 1, указывают на степень изменения размера изображений этой "
+"задачи"
 
 #: app/models/task.py:251
 msgid "Resize Progress"
@@ -639,22 +664,25 @@ msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr ""
+"Значение от 0 до 1, указывают на выполнение (статус) выполнения этой задачи."
 
 #: app/models/task.py:255
 msgid "Running Progress"
-msgstr ""
+msgstr "Общий статус выполнения"
 
 #: app/models/task.py:257
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr ""
+"Ссылка на то, откуда была импортирована задача (только для импортированных "
+"задач)"
 
 #: app/models/task.py:257
 msgid "Import URL"
-msgstr ""
+msgstr "Импортировать по ссылке"
 
 #: app/models/task.py:258
 msgid "Number of images associated with this task"
-msgstr ""
+msgstr "Количество изображений относящихся к этой задачи"
 
 #: app/models/task.py:258
 msgid "Images Count"
@@ -665,6 +693,8 @@ msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr ""
+"Флаг, указывающий, ожидает ли эта задача в настоящее время загрузки "
+"информации или файлов, прежде чем будет допущена для обработки."
 
 #: app/models/task.py:259
 msgid "Partial"
@@ -690,25 +720,27 @@ msgstr "безымянный"
 
 #: app/models/task.py:461
 msgid "Importing assets..."
-msgstr ""
+msgstr "Импортирование наборов данных..."
 
 #: app/models/task.py:500 app/models/task.py:768
 msgid "Invalid zip file"
-msgstr ""
+msgstr "Неверный zip файл"
 
 #: app/models/task.py:594
 #, python-format
 msgid "Connection error: %(error)s"
-msgstr ""
+msgstr "Ошибка соединения: %(error)s"
 
 #: app/models/task.py:674
 msgid "Cannot restart a task that has no processing node"
-msgstr ""
+msgstr "Невозможно перезапустить задачу так как нет доступного ядра(узла)"
 
 #: app/models/task.py:826
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
+"Неподдерживаемый SRS %(code)s. Пожалуйста убедитесь что выбрали "
+"поддерживаемый SRS файл."
 
 #: app/models/task.py:837
 msgid "Done!"
@@ -720,7 +752,7 @@ msgstr "Название темы"
 
 #: app/models/theme.py:19
 msgid "Most text, icons, and borders."
-msgstr ""
+msgstr "Текст, лого, и границы"
 
 #: app/models/theme.py:19
 msgid "Primary"
@@ -728,7 +760,7 @@ msgstr "Основной"
 
 #: app/models/theme.py:20
 msgid "The main background color, and text color of some buttons."
-msgstr ""
+msgstr "Цвет фона, и цвета некоторых кнопок."
 
 #: app/models/theme.py:20
 msgid "Secondary"
@@ -736,7 +768,7 @@ msgstr "Вторичный"
 
 #: app/models/theme.py:21
 msgid "Navigation links."
-msgstr ""
+msgstr "Ссылки для навигации."
 
 #: app/models/theme.py:21
 msgid "Tertiary"
@@ -752,23 +784,23 @@ msgstr ""
 
 #: app/models/theme.py:24
 msgid "Default button color."
-msgstr ""
+msgstr "Стандартный цвет кнопки."
 
 #: app/models/theme.py:24
 msgid "Button Default"
-msgstr ""
+msgstr "Кнопка по умолчанию"
 
 #: app/models/theme.py:25
 msgid "Delete button color."
-msgstr ""
+msgstr "Удалить цвет кнопки."
 
 #: app/models/theme.py:25
 msgid "Button Danger"
-msgstr ""
+msgstr "Кнопка Внимание"
 
 #: app/models/theme.py:27
 msgid "Background color of the site's header."
-msgstr ""
+msgstr "Фоновый цвет заголовка сайта."
 
 #: app/models/theme.py:27
 msgid "Header Background"
@@ -776,7 +808,7 @@ msgstr ""
 
 #: app/models/theme.py:28
 msgid "Text and icons in the site's header."
-msgstr ""
+msgstr "Текст и лого хэдера"
 
 #: app/models/theme.py:28
 msgid "Header Primary"
@@ -784,15 +816,15 @@ msgstr ""
 
 #: app/models/theme.py:30
 msgid "The color of most borders."
-msgstr ""
+msgstr "Цвет границ."
 
 #: app/models/theme.py:30
 msgid "Border"
-msgstr ""
+msgstr "Граница"
 
 #: app/models/theme.py:31
 msgid "The background color of panels and some borders."
-msgstr ""
+msgstr "Цвет границ панели управления и некоторых границ."
 
 #: app/models/theme.py:31
 msgid "Highlight"
@@ -800,7 +832,7 @@ msgstr ""
 
 #: app/models/theme.py:33
 msgid "The border color of warning dialogs."
-msgstr ""
+msgstr "Цвет границ Уведомлений об осторожности."
 
 #: app/models/theme.py:33
 msgid "Dialog Warning"
@@ -808,7 +840,7 @@ msgstr ""
 
 #: app/models/theme.py:35
 msgid "The background color of failed notifications."
-msgstr ""
+msgstr "Цвет фона уведомлений об ошибках."
 
 #: app/models/theme.py:35
 msgid "Failed"
@@ -816,7 +848,7 @@ msgstr "Ошибка"
 
 #: app/models/theme.py:36
 msgid "The background color of success notifications."
-msgstr ""
+msgstr "Цвет фона уведомлений об успешном выполнении."
 
 #: app/models/theme.py:36
 msgid "Success"
@@ -828,7 +860,7 @@ msgstr "404 Страница не найдена"
 
 #: app/templates/app/404.html:7
 msgid "Are you sure the address is correct?"
-msgstr ""
+msgstr "Вы уверены в том что введенный вами адрес правильный?"
 
 #: app/templates/app/500.html:5
 msgid "500 Internal Server Error"
@@ -837,6 +869,8 @@ msgstr "500 Внутренняя ошибка сервера"
 #: app/templates/app/500.html:6
 msgid "Something happened. The server logs contain more information."
 msgstr ""
+"Что то пошло не так. Просмотрите лог сервера для получения более подробной "
+"информации."
 
 #: app/templates/app/about.html:94
 #, python-format
@@ -847,6 +881,12 @@ msgid ""
 "option) any later version. See %(link_start)sthe GNU Affero General Public "
 "License%(link_end)s for more details."
 msgstr ""
+"Это бесплатное ПО: вы можете распространять и/или изменять и модифицировать "
+"в соответствии с соглашениями GNU Affero General Public License которое "
+"опубликовано Free Software Foundation, так же это относится к версии 3 этой "
+", или(на ваш выбор) любой другой. Пройдите по ссылке %(link_start)s GNU "
+"Affero General Public License %(link_end)s для получения более подробной "
+"информации."
 
 #: app/templates/app/admin/404.html:4 app/templates/app/admin/404.html:8
 msgid "Page not found"
@@ -854,7 +894,7 @@ msgstr "Страница не найдена"
 
 #: app/templates/app/admin/404.html:10
 msgid "We're sorry, but the requested page could not be found."
-msgstr ""
+msgstr "Приносим свои извинения, но запрашиваемая страница не найдена."
 
 #: app/templates/app/admin/500.html:6 app/templates/app/admin/app_index.html:9
 #: app/templates/app/admin/auth/user/change_password.html:13
@@ -866,7 +906,7 @@ msgstr ""
 #: app/templates/app/admin/invalid_setup.html:6
 #: app/templates/app/admin/object_history.html:6
 msgid "Home"
-msgstr ""
+msgstr "Домой"
 
 #: app/templates/app/admin/500.html:7
 msgid "Server error"
@@ -1224,7 +1264,7 @@ msgstr ""
 
 #: app/templates/app/dashboard.html:28
 msgid "Select Images and GCP"
-msgstr ""
+msgstr "Выберите изображения и контрольные точки"
 
 #: app/templates/app/dashboard.html:30
 #, python-format
