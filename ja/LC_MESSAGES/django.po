@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-26 18:48+0000\n"
-"PO-Revision-Date: 2021-10-13 14:04+0000\n"
+"PO-Revision-Date: 2021-10-29 13:40+0000\n"
 "Last-Translator: Rumi Kuribayashi <rumikr02005@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/webodm/webodm/"
 "ja/>\n"
@@ -294,7 +294,7 @@ msgstr "プラグイン名"
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
 #: app/models/task.py:224 app/models/theme.py:16
 msgid "Name"
-msgstr "名前"
+msgstr "名称"
 
 #: app/models/plugin.py:6
 msgid "Whether this plugin is turned on."
@@ -575,21 +575,21 @@ msgstr "オルソフォトの範囲"
 
 #: app/models/task.py:234
 msgid "Orthophoto Extent"
-msgstr ""
+msgstr "オルソフォト範囲"
 
 #: app/models/task.py:235
 msgid "DSM Extent"
-msgstr ""
+msgstr "DSM(数値表層モデル)範囲"
 
 #: app/models/task.py:236
 msgid "DTM Extent"
-msgstr ""
+msgstr "DTM(数値地形モデル)範囲"
 
 #: app/models/task.py:240
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
-msgstr ""
+msgstr "このタスクで実行をリクエストされたアクション。選択されたアクションは次回反復時に実行されます。"
 
 #: app/models/task.py:240
 msgid "Pending Action"
@@ -663,7 +663,7 @@ msgstr "画像のカウント数"
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
-msgstr ""
+msgstr "このタスクが処理実行前に情報またはファイルのアップロードを現在待機中であるか表示するフラグ."
 
 #: app/models/task.py:259
 msgid "Partial"
@@ -673,11 +673,12 @@ msgstr "部分"
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
-msgstr ""
+msgstr "測定結果やカメラビュー角度の保存/読込に使用される連続したpotree sceneの情報"
 
 #: app/models/task.py:260
+#, fuzzy
 msgid "Potree Scene"
-msgstr ""
+msgstr "Potree Scene"
 
 #: app/models/task.py:264
 msgid "Tasks"
@@ -685,7 +686,7 @@ msgstr "タスク"
 
 #: app/models/task.py:273
 msgid "unnamed"
-msgstr ""
+msgstr "名称未設定"
 
 #: app/models/task.py:461
 msgid "Importing assets..."
@@ -719,7 +720,7 @@ msgstr "テーマ名"
 
 #: app/models/theme.py:19
 msgid "Most text, icons, and borders."
-msgstr ""
+msgstr "大部分のテキスト、アイコン、下線。"
 
 #: app/models/theme.py:19
 msgid "Primary"
@@ -727,7 +728,7 @@ msgstr "プライマリ"
 
 #: app/models/theme.py:20
 msgid "The main background color, and text color of some buttons."
-msgstr ""
+msgstr "主な背景色、ボタンの文字色."
 
 #: app/models/theme.py:20
 msgid "Secondary"
@@ -743,27 +744,27 @@ msgstr "第三"
 
 #: app/models/theme.py:23
 msgid "Primary button color."
-msgstr ""
+msgstr "当初ボタン色."
 
 #: app/models/theme.py:23
 msgid "Button Primary"
-msgstr ""
+msgstr "当初ボタン"
 
 #: app/models/theme.py:24
 msgid "Default button color."
-msgstr ""
+msgstr "初期設定ボタン色."
 
 #: app/models/theme.py:24
 msgid "Button Default"
-msgstr ""
+msgstr "初期設定ボタン"
 
 #: app/models/theme.py:25
 msgid "Delete button color."
-msgstr ""
+msgstr "ボタンの色を消去."
 
 #: app/models/theme.py:25
 msgid "Button Danger"
-msgstr ""
+msgstr "危険ボタン"
 
 #: app/models/theme.py:27
 msgid "Background color of the site's header."
@@ -779,11 +780,11 @@ msgstr "サイトのヘッダーのテキストとアイコン"
 
 #: app/models/theme.py:28
 msgid "Header Primary"
-msgstr ""
+msgstr "当初ヘッダー"
 
 #: app/models/theme.py:30
 msgid "The color of most borders."
-msgstr ""
+msgstr "大部分の下線色."
 
 #: app/models/theme.py:30
 msgid "Border"
@@ -1558,7 +1559,7 @@ msgstr "容量"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
 msgid "Note!"
-msgstr ""
+msgstr "注意！"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
 #, python-format
@@ -1568,6 +1569,8 @@ msgid ""
 "See instructions for %(win_link)s and %(mac_link)s for changing these values "
 "in a Docker setup."
 msgstr ""
+"この値は必ずしもあなたのマシンによるものではなく、アプリケーションが動作している仮想化環境に関係している可能性があります。Dockerセットアップでこの値"
+"を変更するには、%(win_link)sや%(mac_link)sのインストラクションを参照してください。"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:47
 #: coreplugins/diagnostic/templates/diagnostic.html:82
@@ -1594,14 +1597,16 @@ msgid ""
 "Edit, from the options make sure to check \"dsm\", then press Restart --> "
 "From DEM."
 msgstr ""
+"有効な表層モデルがありません。ダッシュボードでこのタスクを選択し、編集を押し、オプションから\"dsm\"にチェックがあることを確認してから、"
+"Restart --> From DEMを押してください。"
 
 #: coreplugins/posm-gcpi/plugin.py:8
 msgid "GCP Interface"
-msgstr ""
+msgstr "GCP インターフェイス"
 
 #: nodeodm/apps.py:8
 msgid "Node Management"
-msgstr ""
+msgstr "ノード管理"
 
 #: nodeodm/models.py:21
 msgid ""
@@ -1610,24 +1615,26 @@ msgid ""
 "localhost. Find the IP address of your host machine by running ifconfig on "
 "Linux or by checking your network settings."
 msgstr ""
+"ノードが位置するホストネームまたは IPアドレス (内部ホストネームの場合も有り)。Dockerを使用している場合、絶対に127.0.0.1 または "
+"localhostではありません。Linuxでifconfigを実行するかネットワーク設定をチェックして、ホストマシンのIPアドレスを確認してください。"
 
 #: nodeodm/models.py:22
 msgid "Port that connects to the node's API"
-msgstr ""
+msgstr "ノードのAPIに接続しているポート"
 
 #: nodeodm/models.py:23
 msgid "API version used by the node"
-msgstr ""
+msgstr "ノードが使用するAPIのバージョン"
 
 #: nodeodm/models.py:24
 msgid "When was the information about this node last retrieved?"
-msgstr ""
+msgstr "このノードが最後に回復したのはいつですか？"
 
 #: nodeodm/models.py:25
 msgid ""
 "Number of tasks currently being processed by this node (as reported by the "
 "node itself)"
-msgstr ""
+msgstr "このノードが現在処理しているタスク数（ノードからの情報）"
 
 #: nodeodm/models.py:26
 msgid "Available Options"
@@ -1635,7 +1642,7 @@ msgstr "使用可能なオプション"
 
 #: nodeodm/models.py:26
 msgid "Description of the options that can be used for processing"
-msgstr ""
+msgstr "処理で使用可能なオプションの記述"
 
 #: nodeodm/models.py:27
 msgid "Token"
@@ -1657,13 +1664,13 @@ msgstr ""
 
 #: nodeodm/models.py:29
 msgid "Engine version used by the node."
-msgstr ""
+msgstr "このノードが使用するエンジンのバージョン."
 
 #: nodeodm/models.py:30
 msgid ""
 "Optional label for this node. When set, this label will be shown instead of "
 "the hostname:port name."
-msgstr ""
+msgstr "このノードのオプションのラベル。設定すると、ホストネーム：ポートネームの代わりにラベルが表示されます。"
 
 #: nodeodm/models.py:31
 msgid "Engine used by the node."
