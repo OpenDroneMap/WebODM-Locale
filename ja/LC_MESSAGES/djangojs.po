@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-26 18:48+0000\n"
-"PO-Revision-Date: 2021-10-26 02:42+0000\n"
+"PO-Revision-Date: 2021-10-29 13:40+0000\n"
 "Last-Translator: Rumi Kuribayashi <rumikr02005@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/webodm/react-ui/"
 "ja/>\n"
@@ -22,16 +22,18 @@ msgstr ""
 #: app/static/app/js/Console.jsx:135
 #, python-format
 msgid "output truncated at %(count)s lines"
-msgstr "%(count)s列目で切り取った出力"
+msgstr "%(count)s行で切り捨てられた出力"
 
 #: app/static/app/js/Console.jsx:147 app/static/app/js/Console.jsx:155
 #: app/static/app/js/Console.jsx:165
+#, fuzzy
 msgid "Toggle Fullscreen"
-msgstr "全画面表示に切り替える"
+msgstr "全画面表示の切り替え"
 
 #: app/static/app/js/Console.jsx:148 app/static/app/js/Console.jsx:156
+#, fuzzy
 msgid "Exit Fullscreen"
-msgstr "全画面表示の終了"
+msgstr "全画面表示を終了"
 
 #: app/static/app/js/Console.jsx:162
 msgid "Download To File"
@@ -47,7 +49,7 @@ msgstr "プロジェクトを追加"
 
 #: app/static/app/js/Dashboard.jsx:97
 msgid "Your changes will be lost. Are you sure you want to leave?"
-msgstr "変更は保存されません。このまま終了しますか？"
+msgstr "変更は失われます。本当に終了しますか？"
 
 #: app/static/app/js/MapView.jsx:67
 #: app/static/app/js/classes/PipelineSteps.js:47
@@ -68,12 +70,13 @@ msgid "Terrain Model"
 msgstr "地形モデル"
 
 #: app/static/app/js/ModelView.jsx:36
+#, fuzzy
 msgid "Cannot set initial camera view"
-msgstr "最初のカメラビューがセットできません"
+msgstr "初期カメラビューを設定できません"
 
 #: app/static/app/js/ModelView.jsx:61
 msgid "set initial camera view"
-msgstr "最初のカメラビューをセット"
+msgstr "初期カメラビューを設定"
 
 #: app/static/app/js/ModelView.jsx:82
 msgid "Cameras"
@@ -105,7 +108,7 @@ msgstr "オルソフォト (MBTiles)"
 
 #: app/static/app/js/classes/AssetDownloads.js:39
 msgid "Orthophoto (Tiles)"
-msgstr "オルソフォト (Tiles)"
+msgstr "オルソフォト（タイル）"
 
 #: app/static/app/js/classes/AssetDownloads.js:40
 msgid "Orthophoto (KMZ)"
@@ -116,8 +119,9 @@ msgid "Terrain Model (GeoTIFF)"
 msgstr "地形モデル (GeoTIFF)"
 
 #: app/static/app/js/classes/AssetDownloads.js:42
+#, fuzzy
 msgid "Terrain Model (Tiles)"
-msgstr "地形モデル (Tiles)"
+msgstr "地形モデル (タイル)"
 
 #: app/static/app/js/classes/AssetDownloads.js:43
 msgid "Surface Model (GeoTIFF)"
@@ -125,7 +129,7 @@ msgstr "表層モデル (GeoTIFF)"
 
 #: app/static/app/js/classes/AssetDownloads.js:44
 msgid "Surface Model (Tiles)"
-msgstr "表層モデル (Tiles)"
+msgstr "表層モデル (タイル)"
 
 #: app/static/app/js/classes/AssetDownloads.js:45
 msgid "Point Cloud (LAS)"
@@ -160,16 +164,18 @@ msgid "Ground Control Points (GeoJSON)"
 msgstr "グラウンドコントロールポイント (GeoJSON)"
 
 #: app/static/app/js/classes/AssetDownloads.js:53
+#, fuzzy
 msgid "Quality Report"
-msgstr "品質報告"
+msgstr "品質レポート"
 
 #: app/static/app/js/classes/AssetDownloads.js:58
 msgid "All Assets"
-msgstr "全データ"
+msgstr "全てのアセット"
 
 #: app/static/app/js/classes/Basemaps.js:9
+#, fuzzy
 msgid "Google Maps Hybrid"
-msgstr "Google マップ ハイブリッド"
+msgstr "Google Maps ハイブリッド"
 
 #: app/static/app/js/classes/Basemaps.js:17
 msgid "ESRI Satellite"
@@ -180,8 +186,9 @@ msgid "OSM Mapnik"
 msgstr "OSM Mapnik"
 
 #: app/static/app/js/classes/PendingActions.js:11
+#, fuzzy
 msgid "Canceling..."
-msgstr "中止..."
+msgstr "キャンセル中..."
 
 #: app/static/app/js/classes/PendingActions.js:14
 #: app/static/app/js/components/FormDialog.jsx:151
@@ -194,7 +201,7 @@ msgstr "再起動中..."
 
 #: app/static/app/js/classes/PendingActions.js:20
 msgid "Resizing images..."
-msgstr "サイズ変更..."
+msgstr "画像のサイズ変更..."
 
 #: app/static/app/js/classes/PendingActions.js:23
 msgid "Importing..."
@@ -202,7 +209,7 @@ msgstr "インポート中..."
 
 #: app/static/app/js/classes/PipelineSteps.js:7
 msgid "Load Dataset"
-msgstr "データセットを読み込み"
+msgstr "データセットの読み込み"
 
 #: app/static/app/js/classes/PipelineSteps.js:12
 msgid "Structure From Motion"
@@ -226,7 +233,7 @@ msgstr "テクスチャ化"
 
 #: app/static/app/js/classes/PipelineSteps.js:37
 msgid "Georeferencing"
-msgstr "ジオリファレンス化"
+msgstr "ジオリファレンス"
 
 #: app/static/app/js/classes/PipelineSteps.js:42
 msgid "DEM"
@@ -249,8 +256,9 @@ msgid "Yes"
 msgstr "はい"
 
 #: app/static/app/js/classes/StatusCodes.js:11
+#, fuzzy
 msgid "Queued"
-msgstr "処理待ち"
+msgstr "キュー"
 
 #: app/static/app/js/classes/StatusCodes.js:15
 msgid "Processing"
@@ -265,38 +273,41 @@ msgid "Completed"
 msgstr "完了"
 
 #: app/static/app/js/classes/StatusCodes.js:27
+#, fuzzy
 msgid "Canceled"
-msgstr "中止"
+msgstr "キャンセル"
 
 #: app/static/app/js/classes/TempLayer.js:14
 #, python-format
 msgid "%(file)s is bigger than 5 MB."
-msgstr "%(file)s は5 MBより大きいです。"
+msgstr "%(file)sは5MBを超えています。"
 
 #: app/static/app/js/classes/TempLayer.js:30
-#, python-format
+#, fuzzy, python-format
 msgid "Not a proper zipped shapefile: %(file)s"
-msgstr "zip圧縮が適切でないシェイプファイル: %(file)s"
+msgstr "適切なzip形式のシェープファイルではありません：%(file)s"
 
 #: app/static/app/js/classes/TempLayer.js:43
-#, python-format
+#, fuzzy, python-format
 msgid "Not a proper JSON file: %(file)s"
-msgstr "適切でないJSONファイル: %(file)s"
+msgstr "適切な JSON ファイルではありません: %(file)s"
 
 #: app/static/app/js/components/AssetDownloadButtons.jsx:33
+#, fuzzy
 msgid "Download Assets"
-msgstr "データのダウンロード"
+msgstr "アセットのダウンロード"
 
 #: app/static/app/js/components/EditPresetDialog.jsx:107
 #: app/static/app/js/components/EditTaskForm.jsx:523
+#, fuzzy
 msgid "Edit Task Options"
-msgstr "タスクのオプションを編集"
+msgstr "タスクオプションの編集"
 
 #: app/static/app/js/components/EditPresetDialog.jsx:113
 #: app/static/app/js/components/EditProjectDialog.jsx:130
 #: app/static/app/js/components/EditTaskForm.jsx:597
 msgid "Name"
-msgstr "名前"
+msgstr "名称"
 
 #: app/static/app/js/components/EditPresetDialog.jsx:121
 msgid "Search"
@@ -307,8 +318,9 @@ msgid "New Project"
 msgstr "新規プロジェクト"
 
 #: app/static/app/js/components/EditProjectDialog.jsx:13
+#, fuzzy
 msgid "Create Project"
-msgstr "プロジェクトを作成"
+msgstr "プロジェクトの作成"
 
 #: app/static/app/js/components/EditProjectDialog.jsx:14
 msgid "Creating project..."
@@ -318,9 +330,7 @@ msgstr "プロジェクトを作成中..."
 msgid ""
 "All tasks, images and models associated with this project will be "
 "permanently deleted. Are you sure you want to continue?"
-msgstr ""
-"このプロジェクトに関連する全てのタスク、画像、モデルが完全に消去されます。本"
-"当に続けますか？"
+msgstr "このプロジェクトに関連する全てのタスク、画像、モデルは完全に削除されます。続行しますか？"
 
 #: app/static/app/js/components/EditProjectDialog.jsx:105
 #: app/static/app/js/components/EditProjectDialog.jsx:111
@@ -331,22 +341,21 @@ msgstr "操作を完了できません。"
 
 #: app/static/app/js/components/EditProjectDialog.jsx:136
 msgid "Description (optional)"
-msgstr "記述（オプション入力）"
+msgstr "記述（オプション）"
 
 #: app/static/app/js/components/EditTaskForm.jsx:89
 msgid ""
 "Could not load list of processing nodes. Are you connected to the internet?"
-msgstr ""
-"プロセシングノードのリストを読み込めません。インターネットに接続しています"
-"か？"
+msgstr "処理ノードのリストを読み込めません。インターネットに接続していますか？"
 
 #: app/static/app/js/components/EditTaskForm.jsx:97
 msgid "We tried to reach:"
 msgstr "到達を試みました:"
 
 #: app/static/app/js/components/EditTaskForm.jsx:98
+#, fuzzy
 msgid "There are no usable processing nodes."
-msgstr "有効なプロセシングノードが存在しません。"
+msgstr "使用可能な処理ノードはありません。"
 
 #: app/static/app/js/components/EditTaskForm.jsx:98
 msgid ""
@@ -357,9 +366,10 @@ msgid ""
 "are bringing a node back online, it will take about 30 seconds for WebODM to "
 "recognize it."
 msgstr ""
-"少なくとも一つのプロセシングノードに到達可能で、現在のユーザーがプロセシングノードの閲覧権限を有しているか確認してください （アドミニストレーション --"
-" プロセシングノード -- ノードを選択 -- オブジェクトの許可 -- ユーザー/グループを追加 "
-"、プロセシングノードを閲覧可能か確認)。ノードをオンラインに戻したら、WebODM が認識するまで約30秒かかります。"
+"少なくとも一つの処理ノードに到達可能であり、現在のユーザーに処理ノードを表示するための十分な権限が与えられていることを確認してください （ "
+"Administration -- Processing Nodes -- Select Node -- Object Permissions -- "
+"Add User/Group から、CAN VIEW PROCESSING NODE をチェック)。ノードをオンラインに戻したら、WebODM "
+"が認識するまでに約30秒かかります。"
 
 #: app/static/app/js/components/EditTaskForm.jsx:216
 msgid "Could not load list of presets. Are you connected to the internet?"
@@ -376,8 +386,9 @@ msgstr "カスタム"
 
 #: app/static/app/js/components/EditTaskForm.jsx:232
 #: app/static/app/js/components/EditTaskForm.jsx:353
+#, fuzzy
 msgid "Default"
-msgstr "標準"
+msgstr "デフォルト"
 
 #: app/static/app/js/components/EditTaskForm.jsx:437
 msgid "My Preset"
@@ -637,7 +648,7 @@ msgstr "DSM(数値表層モデル)"
 
 #: app/static/app/js/components/Map.jsx:91
 msgid "DTM"
-msgstr "DTN(数値地形モデル)"
+msgstr "DTM(数値地形モデル)"
 
 #: app/static/app/js/components/Map.jsx:261
 msgid "(Cameras)"
@@ -1251,6 +1262,8 @@ msgid ""
 "Words. FLANN is slower, but more stable. BOW is faster, but can sometimes "
 "miss valid matches. Can be one of: %(choices)s. Default: %(default)s"
 msgstr ""
+"Matcherアルゴリズム、 最近傍点探索やBag of Wordsの高速ライブラリ。FLANNは速度が遅いが、安定しています。BOWは高速ですが、有効な"
+"マッチを見逃すことがあります。次のいずれかになります：%(choices)s.デフォルト:%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:25
 #, python-format
@@ -1301,13 +1314,15 @@ msgid ""
 "with sharp features (gmi) or those that cover the largest area (area). "
 "Default: %(default)s"
 msgstr ""
+"3Dメッシュをテクスチャリングする際に、各三角形について、鮮明な画像(gmi)を優先するか、最大の面積をカバーする画像(area)を優先するか選択します。"
+"Default:%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:31
 #, python-format
 msgid ""
 "URL to a ClusterODM instance for distributing a split-merge workflow on "
 "multiple nodes in parallel. Default: %(default)s"
-msgstr ""
+msgstr "スプリット-マージのワークフローを並列の複数ノードに分配するClusterODMへのURL。 Default: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:32
 #, python-format
@@ -1316,6 +1331,8 @@ msgid ""
 "simple morphological filter. Check the --dem* and --smrf* parameters for "
 "finer tuning. Default: %(default)s"
 msgstr ""
+"このタグを使用して、単純モルフォロジカルフィルタを使ったDTM（数値地形モデル、地上のみ）を構築。--dem* と --smrf* "
+"パラメータでより細かい調整が可能です。デフォルト：%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:33
 #, python-format
@@ -1324,6 +1341,8 @@ msgid ""
 "a progressive morphological filter. Check the --dem* parameters for finer "
 "tuning. Default: %(default)s"
 msgstr ""
+"このタグを使用し、プログレッシブ・モルフォロジカル・フィルターを用いたDSM（数値表層モデル、地面＋物体）を構築。--dem* "
+"パラメーターでより細かい調整が可能です。デフォルト：%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:34
 #, python-format
@@ -2362,24 +2381,27 @@ msgid "Measurement"
 msgstr "測定"
 
 #: coreplugins/measure/public/app.jsx:20
+#, fuzzy
 msgid "Measure"
-msgstr ""
+msgstr "計測"
 
 #: coreplugins/measure/public/app.jsx:21
+#, fuzzy
 msgid "Create a new measurement"
-msgstr ""
+msgstr "新規測定の作成"
 
 #: coreplugins/measure/public/app.jsx:22
 msgid "Start creating a measurement by adding points to the map"
-msgstr ""
+msgstr "マップにポイントを追加して測定の作成を開始"
 
 #: coreplugins/measure/public/app.jsx:23
 msgid "Finish measurement"
-msgstr ""
+msgstr "測定を終了"
 
 #: coreplugins/measure/public/app.jsx:24
+#, fuzzy
 msgid "Last point"
-msgstr ""
+msgstr "最後のポイント"
 
 #: coreplugins/measure/public/app.jsx:25
 msgid "Area"
