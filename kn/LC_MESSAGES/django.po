@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-24 01:30+0000\n"
+"POT-Creation-Date: 2021-11-05 17:15+0000\n"
 "PO-Revision-Date: 2021-04-28 02:31+0000\n"
 "Last-Translator: Anand Mahesh <manand881@gmail.com>\n"
 "Language-Team: Kannada <https://hosted.weblate.org/projects/webodm/webodm/kn/"
@@ -62,7 +62,7 @@ msgstr ""
 msgid "HTML (footer)"
 msgstr "ಹ್.ಟಿ.ಮ್.ಲ್ (ಫೂಟರ್ )"
 
-#: app/admin.py:100 app/models/project.py:24
+#: app/admin.py:100 app/models/project.py:25
 msgid "Description"
 msgstr "ವಿವರ"
 
@@ -74,15 +74,64 @@ msgstr "ಆವೃತ್ತಿ"
 msgid "Author"
 msgstr "ಲೇಖಕ"
 
+#: app/admin.py:144
+#, python-format
+msgid "Restart required. Please restart WebODM to enable %(plugin)s"
+msgstr ""
+
+#: app/admin.py:146
+#, python-format
+msgid "Cannot enable plugin %(plugin)s: %(message)s"
+msgstr ""
+
+#: app/admin.py:154
+#, python-format
+msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
+msgstr ""
+
+#: app/admin.py:156
+#, python-format
+msgid "Cannot disable plugin %(plugin)s: %(message)s"
+msgstr ""
+
+#: app/admin.py:164
+#, python-format
+msgid "Cannot delete plugin %(plugin)s: %(message)s"
+msgstr ""
+
+#: app/admin.py:208
+msgid "Plugin added successfully"
+msgstr ""
+
+#: app/admin.py:210
+#, python-format
+msgid "Cannot load plugin: %(message)s"
+msgstr ""
+
+#: app/admin.py:216
+#, fuzzy
+#| msgid "You need to upload at least 2 images before commit"
+msgid "You need to upload a zip file"
+msgstr "ಬದ್ಧರಾಗುವ ಮೊದಲು ನೀವು ಕನಿಷ್ಠ 2 ಚಿತ್ರಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ"
+
+#: app/admin.py:230
+msgid "Disable"
+msgstr ""
+
 #: app/admin.py:233
+#, fuzzy
+#| msgid "Enabled"
+msgid "Enable"
+msgstr "ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
+
+#: app/admin.py:238
 msgid "Actions"
 msgstr "ಕ್ರಿಯೆಗಳನ್ನು"
 
 #: app/api/formulas.py:12 app/api/formulas.py:16
 msgid ""
 "Normalized Difference Vegetation Index shows the amount of green vegetation."
-msgstr ""
-"ಸಾಮಾನ್ಯ ವ್ಯತ್ಯಾಸ ಸಸ್ಯವರ್ಗದ ಸೂಚ್ಯಂಕವು ಹಸಿರು ಸಸ್ಯವರ್ಗದ ಪ್ರಮಾಣವನ್ನು ತೋರಿಸುತ್ತದೆ."
+msgstr "ಸಾಮಾನ್ಯ ವ್ಯತ್ಯಾಸ ಸಸ್ಯವರ್ಗದ ಸೂಚ್ಯಂಕವು ಹಸಿರು ಸಸ್ಯವರ್ಗದ ಪ್ರಮಾಣವನ್ನು ತೋರಿಸುತ್ತದೆ."
 
 #: app/api/formulas.py:20
 msgid ""
@@ -91,119 +140,207 @@ msgid ""
 msgstr ""
 
 #: app/api/formulas.py:24
+msgid ""
+"Visible NDVI is an un-normalized index for RGB sensors using constants "
+"derived from citrus, grape, and sugarcane crop data."
+msgstr ""
+
+#: app/api/formulas.py:28
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
 msgstr ""
 
-#: app/api/formulas.py:29
-msgid ""
-"Excess Green Index emphasizes the greenness of leafy crops such as potatoes."
-msgstr ""
-"ಹೆಚ್ಚುವರಿ ಹಸಿರು ಸೂಚ್ಯಂಕವು ಆಲೂಗಡ್ಡೆಯಂತಹ ಎಲೆಗಳ ಬೆಳೆಗಳ ಹಸಿರನ್ನು ಒತ್ತಿಹೇಳುತ್ತದೆ."
-
 #: app/api/formulas.py:33
+#, fuzzy
+#| msgid ""
+#| "Excess Green Index emphasizes the greenness of leafy crops such as "
+#| "potatoes."
+msgid ""
+"Excess Green Index (derived from only the RGB bands) emphasizes the "
+"greenness of leafy crops such as potatoes."
+msgstr "ಹೆಚ್ಚುವರಿ ಹಸಿರು ಸೂಚ್ಯಂಕವು ಆಲೂಗಡ್ಡೆಯಂತಹ ಎಲೆಗಳ ಬೆಳೆಗಳ ಹಸಿರನ್ನು ಒತ್ತಿಹೇಳುತ್ತದೆ."
+
+#: app/api/formulas.py:37
+msgid ""
+"Triangular Greenness Index (derived from only the RGB bands) performs "
+"similarly to EXG but with improvements over certain environments."
+msgstr ""
+
+#: app/api/formulas.py:41
 msgid ""
 "Burn Area Index hightlights burned land in the red to near-infrared spectrum."
 msgstr ""
 
-#: app/api/formulas.py:37
+#: app/api/formulas.py:45
 msgid "Green Leaf Index shows greens leaves and stems."
 msgstr "ಹಸಿರು ಎಲೆ ಸೂಚ್ಯಂಕವು ಸೊಪ್ಪಿನ ಎಲೆಗಳು ಮತ್ತು ಕಾಂಡಗಳನ್ನು ತೋರಿಸುತ್ತದೆ."
 
-#: app/api/formulas.py:42
+#: app/api/formulas.py:50
 msgid ""
 "Green Normalized Difference Vegetation Index is similar to NDVI, but "
 "measures the green spectrum instead of red."
 msgstr ""
 
-#: app/api/formulas.py:46
+#: app/api/formulas.py:54
 msgid ""
 "Green Ratio Vegetation Index is sensitive to photosynthetic rates in forests."
 msgstr ""
 
-#: app/api/formulas.py:50
+#: app/api/formulas.py:58
 msgid ""
 "Soil Adjusted Vegetation Index is similar to NDVI but attempts to remove the "
 "effects of soil areas using an adjustment factor (0.5)."
 msgstr ""
 
-#: app/api/formulas.py:54
+#: app/api/formulas.py:62
 msgid ""
 "Modified Non-Linear Index improves the Non-Linear Index algorithm to account "
 "for soil areas."
 msgstr ""
 
-#: app/api/formulas.py:58
+#: app/api/formulas.py:66
 msgid ""
 "Modified Simple Ratio is an improvement of the Simple Ratio (SR) index to be "
 "more sensitive to vegetation."
 msgstr ""
 
-#: app/api/formulas.py:62
+#: app/api/formulas.py:70
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
 msgstr ""
 
-#: app/api/formulas.py:66
+#: app/api/formulas.py:74
 msgid ""
 "Transformed Difference Vegetation Index highlights vegetation cover in urban "
 "environments."
 msgstr ""
 
-#: app/api/formulas.py:70
+#: app/api/formulas.py:78
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
 msgstr ""
 
-#: app/api/formulas.py:74
+#: app/api/formulas.py:82
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
 msgstr ""
-"ಎಲೆ ಪ್ರದೇಶ ಸೂಚ್ಯಂಕವು ಎಲೆಗಳ ಪ್ರದೇಶಗಳನ್ನು ಅಂದಾಜು ಮಾಡುತ್ತದೆ ಮತ್ತು ಬೆಳೆ "
-"ಇಳುವರಿಯನ್ನು ts ಹಿಸುತ್ತದೆ."
+"ಎಲೆ ಪ್ರದೇಶ ಸೂಚ್ಯಂಕವು ಎಲೆಗಳ ಪ್ರದೇಶಗಳನ್ನು ಅಂದಾಜು ಮಾಡುತ್ತದೆ ಮತ್ತು ಬೆಳೆ ಇಳುವರಿಯನ್ನು ts "
+"ಹಿಸುತ್ತದೆ."
 
-#: app/api/formulas.py:79
+#: app/api/formulas.py:87
 msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
 msgstr ""
 
-#: app/api/tasks.py:179
+#: app/api/projects.py:67
+msgid "Cannot duplicate project"
+msgstr ""
+
+#: app/api/projects.py:134
+msgid "Invalid user in permissions list"
+msgstr ""
+
+#: app/api/projects.py:136
+msgid "Invalid permissions"
+msgstr ""
+
+#: app/api/tasks.py:183
 msgid "You need to upload at least 2 images before commit"
 msgstr "ಬದ್ಧರಾಗುವ ಮೊದಲು ನೀವು ಕನಿಷ್ಠ 2 ಚಿತ್ರಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ"
 
-#: app/api/tasks.py:201
+#: app/api/tasks.py:205
 msgid "No files uploaded"
 msgstr "ಯಾವುದೇ ಫೈಲ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿಲ್ಲ"
 
-#: app/api/tasks.py:224
+#: app/api/tasks.py:234
+msgid "Cannot duplicate task"
+msgstr ""
+
+#: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
 msgstr "ಕಾರ್ಯವನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ನಿಮಗೆ ಕನಿಷ್ಠ 2 ಚಿತ್ರಗಳು ಬೇಕಾಗುತ್ತವೆ"
 
-#: app/api/tasks.py:329 app/api/tasks.py:332 app/api/tasks.py:351
-#: app/api/tasks.py:354
+#: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
+#: app/api/tasks.py:401
 msgid "Asset does not exist"
 msgstr "ಆಸ್ತಿ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್"
 
-#: app/api/tasks.py:370
+#: app/api/tasks.py:417
 msgid "Imported Task"
 msgstr "ಆಮದು ಮಾಡಿದ ಕಾರ್ಯ"
 
-#: app/api/tasks.py:373
+#: app/api/tasks.py:420
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "ಕಾರ್ಯವನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ನೀವು 1 ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ"
 
-#: app/api/tasks.py:376
+#: app/api/tasks.py:423
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
-"ಕಾರ್ಯವನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಉ.ರ್.ಲ್ ಅನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ ಅಥವಾ 1 ಫೈಲ್ ಅನ್ನು "
-"ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
+"ಕಾರ್ಯವನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಉ.ರ್.ಲ್ ಅನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ ಅಥವಾ 1 ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
+
+#: app/api/tiler.py:311
+msgid "Invalid boundaries parameter"
+msgstr ""
+
+#: app/api/tiler.py:347 app/api/tiler.py:410
+msgid "Outside of bounds"
+msgstr ""
+
+#: app/api/tiler.py:358
+msgid "Invalid boundaries"
+msgstr ""
+
+#: app/api/tiler.py:416 app/api/tiler.py:513
+msgid "Not a valid color_map value"
+msgstr ""
+
+#: app/api/tiler.py:422
+msgid "Invalid rescale value"
+msgstr ""
+
+#: app/api/tiler.py:431
+msgid "Invalid hillshade value"
+msgstr ""
+
+#: app/api/tiler.py:434
+msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
+msgstr ""
+
+#: app/api/tiler.py:451
+msgid ""
+"Cannot process tile: intensity image provided, but no RGB data was computed."
+msgstr ""
+
+#: app/api/tiler.py:498 app/api/tiler.py:500
+#, python-format
+msgid "Unsupported format: %(value)s"
+msgstr ""
+
+#: app/api/tiler.py:519
+#, python-format
+msgid "Invalid EPSG code: %(value)s"
+msgstr ""
+
+#: app/api/tiler.py:522
+msgid "Both formula and bands parameters are required"
+msgstr ""
+
+#: app/api/tiler.py:542
+#, python-format
+msgid "Invalid rescale value: %(value)s"
+msgstr ""
+
+#: app/api/tiler.py:550
+#, python-format
+msgid "Invalid hillshade value: %(value)s"
+msgstr ""
 
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
 msgstr "ಈ ಚಿತ್ರವು ಸೇರಿರುವ ಕಾರ್ಯ"
 
-#: app/models/image_upload.py:10 app/models/task.py:259
+#: app/models/image_upload.py:10 app/models/task.py:270
 msgid "Task"
 msgstr "ಕಾರ್ಯ"
 
@@ -227,8 +364,8 @@ msgstr "ಚಿತ್ರ ಅಪ್‌ಲೋಡ್‌ಗಳು"
 msgid "Plugin name"
 msgstr "ಪ್ಲಗಿನ್ ಹೆಸರು"
 
-#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:23
-#: app/models/task.py:221 app/models/theme.py:16
+#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
+#: app/models/task.py:230 app/models/theme.py:16
 msgid "Name"
 msgstr "ಹೆಸರು"
 
@@ -292,7 +429,7 @@ msgstr ""
 msgid "The person who owns this preset"
 msgstr ""
 
-#: app/models/preset.py:9 app/models/project.py:22
+#: app/models/preset.py:9 app/models/project.py:23
 msgid "Owner"
 msgstr "ಒಡೆಯ"
 
@@ -304,15 +441,15 @@ msgstr ""
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr ""
 
-#: app/models/preset.py:11 app/models/task.py:227
+#: app/models/preset.py:11 app/models/task.py:236
 msgid "Options"
 msgstr "ಆಯ್ಕೆಗಳು"
 
-#: app/models/preset.py:13 app/models/project.py:25 app/models/task.py:236
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:245
 msgid "Creation date"
 msgstr "ಸೃಷ್ಟಿ ದಿನಾಂಕ"
 
-#: app/models/preset.py:13 app/models/project.py:25 app/models/task.py:236
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:245
 msgid "Created at"
 msgstr ""
 
@@ -334,34 +471,39 @@ msgstr ""
 msgid "Presets"
 msgstr ""
 
-#: app/models/project.py:22
+#: app/models/project.py:23
 msgid "The person who created the project"
 msgstr ""
 
-#: app/models/project.py:23
+#: app/models/project.py:24
 msgid "A label used to describe the project"
 msgstr ""
 
-#: app/models/project.py:24
+#: app/models/project.py:25
 msgid "More in-depth description of the project"
 msgstr ""
 
-#: app/models/project.py:26
+#: app/models/project.py:27
 msgid ""
 "Whether this project has been marked for deletion. Projects that have "
 "running tasks need to wait for tasks to be properly cleaned up before they "
 "can be deleted."
 msgstr ""
 
-#: app/models/project.py:26
+#: app/models/project.py:27
 msgid "Deleting"
 msgstr "ಅಳಿಸಲಾಗುತ್ತಿದೆ"
 
-#: app/models/project.py:56 app/models/task.py:220
+#: app/models/project.py:61 app/models/task.py:412
+#, python-format
+msgid "Copy of %(task)s"
+msgstr ""
+
+#: app/models/project.py:84 app/models/task.py:229
 msgid "Project"
 msgstr "ಯೋಜನೆ"
 
-#: app/models/project.py:57
+#: app/models/project.py:85
 msgid "Projects"
 msgstr "ಯೋಜನೆಗಳು"
 
@@ -414,223 +556,237 @@ msgstr "ಅಪ್ಲಿಕೇಶನ್"
 msgid "Settings"
 msgstr ""
 
-#: app/models/task.py:217
+#: app/models/task.py:226
 msgid "Id"
 msgstr "ಐಡಿ"
 
-#: app/models/task.py:219
+#: app/models/task.py:228
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr ""
 
-#: app/models/task.py:219
+#: app/models/task.py:228
 msgid "UUID"
 msgstr ""
 
-#: app/models/task.py:220
+#: app/models/task.py:229
 msgid "Project that this task belongs to"
 msgstr ""
 
-#: app/models/task.py:221
+#: app/models/task.py:230
 msgid "A label for the task"
 msgstr ""
 
-#: app/models/task.py:222
+#: app/models/task.py:231
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr ""
 
-#: app/models/task.py:222
+#: app/models/task.py:231
 msgid "Processing Time"
 msgstr ""
 
-#: app/models/task.py:223
+#: app/models/task.py:232
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr ""
 
-#: app/models/task.py:223 app/views/app.py:113 nodeodm/models.py:36
+#: app/models/task.py:232 app/views/app.py:115 nodeodm/models.py:34
 msgid "Processing Node"
 msgstr ""
 
-#: app/models/task.py:224
+#: app/models/task.py:233
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr ""
 
-#: app/models/task.py:224
+#: app/models/task.py:233
 msgid "Auto Processing Node"
 msgstr ""
 
-#: app/models/task.py:225
+#: app/models/task.py:234
 msgid "Current status of the task"
 msgstr ""
 
-#: app/models/task.py:225
+#: app/models/task.py:234
 msgid "Status"
 msgstr ""
 
-#: app/models/task.py:226
+#: app/models/task.py:235
 msgid "The last processing error received"
 msgstr ""
 
-#: app/models/task.py:226
+#: app/models/task.py:235
 msgid "Last Error"
 msgstr "ಹಿಂದಿನ ತಪ್ಪು"
 
-#: app/models/task.py:227
+#: app/models/task.py:236
 msgid "Options that are being used to process this task"
 msgstr ""
 
-#: app/models/task.py:228
+#: app/models/task.py:237
 msgid "List of available assets to download"
 msgstr ""
 
-#: app/models/task.py:228
+#: app/models/task.py:237
 msgid "Available Assets"
 msgstr ""
 
-#: app/models/task.py:229
+#: app/models/task.py:238
 msgid "Console output of the processing node"
 msgstr ""
 
-#: app/models/task.py:229
+#: app/models/task.py:238
 msgid "Console Output"
 msgstr ""
 
-#: app/models/task.py:231
+#: app/models/task.py:240
 msgid "Extent of the orthophoto"
 msgstr ""
 
-#: app/models/task.py:231
+#: app/models/task.py:240
 msgid "Orthophoto Extent"
 msgstr ""
 
-#: app/models/task.py:232
+#: app/models/task.py:241
 msgid "DSM Extent"
 msgstr ""
 
-#: app/models/task.py:233
+#: app/models/task.py:242
 msgid "DTM Extent"
 msgstr ""
 
-#: app/models/task.py:237
+#: app/models/task.py:246
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
 msgstr ""
 
-#: app/models/task.py:237
+#: app/models/task.py:246
 msgid "Pending Action"
 msgstr "ಬಾಕಿ ಉಳಿದಿರುವ ಕ್ರಮಗಳು"
 
-#: app/models/task.py:239
+#: app/models/task.py:248
 msgid "A flag indicating whether this task is available to the public"
 msgstr ""
 
-#: app/models/task.py:239
+#: app/models/task.py:248
 msgid "Public"
 msgstr "ಸಾರ್ವಜನಿಕ"
 
-#: app/models/task.py:240
+#: app/models/task.py:249
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
 "processing."
 msgstr ""
 
-#: app/models/task.py:240
+#: app/models/task.py:249
 msgid "Resize To"
 msgstr ""
 
-#: app/models/task.py:243
+#: app/models/task.py:252
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr ""
 
-#: app/models/task.py:244
+#: app/models/task.py:253
 msgid "Upload Progress"
 msgstr ""
 
-#: app/models/task.py:247
+#: app/models/task.py:256
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
 
-#: app/models/task.py:248
+#: app/models/task.py:257
 msgid "Resize Progress"
 msgstr ""
 
-#: app/models/task.py:251
+#: app/models/task.py:260
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr ""
 
-#: app/models/task.py:252
+#: app/models/task.py:261
 msgid "Running Progress"
 msgstr ""
 
-#: app/models/task.py:254
+#: app/models/task.py:263
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr ""
 
-#: app/models/task.py:254
+#: app/models/task.py:263
 msgid "Import URL"
 msgstr ""
 
-#: app/models/task.py:255
+#: app/models/task.py:264
 msgid "Number of images associated with this task"
 msgstr ""
 
-#: app/models/task.py:255
+#: app/models/task.py:264
 msgid "Images Count"
 msgstr ""
 
-#: app/models/task.py:256
+#: app/models/task.py:265
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr ""
 
-#: app/models/task.py:256
+#: app/models/task.py:265
 msgid "Partial"
 msgstr ""
 
-#: app/models/task.py:260
+#: app/models/task.py:266
+msgid ""
+"Serialized potree scene information used to save/load measurements and "
+"camera view angle"
+msgstr ""
+
+#: app/models/task.py:266
+msgid "Potree Scene"
+msgstr ""
+
+#: app/models/task.py:267
+msgid "EPSG code of the dataset (if georeferenced)"
+msgstr ""
+
+#: app/models/task.py:271
 msgid "Tasks"
 msgstr "ಕಾರ್ಯಗಳು"
 
-#: app/models/task.py:269
+#: app/models/task.py:280
 msgid "unnamed"
 msgstr ""
 
-#: app/models/task.py:372
+#: app/models/task.py:491
 msgid "Importing assets..."
 msgstr ""
 
-#: app/models/task.py:411 app/models/task.py:679
+#: app/models/task.py:543 app/models/task.py:811
 msgid "Invalid zip file"
 msgstr ""
 
-#: app/models/task.py:505
+#: app/models/task.py:637
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr ""
 
-#: app/models/task.py:585
+#: app/models/task.py:717
 msgid "Cannot restart a task that has no processing node"
 msgstr ""
 
-#: app/models/task.py:737
+#: app/models/task.py:872
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 
-#: app/models/task.py:747
+#: app/models/task.py:884
 msgid "Done!"
 msgstr ""
 
@@ -1174,7 +1330,7 @@ msgid ""
 msgstr ""
 
 #: app/templates/app/dev_tools.html:6 app/templates/app/logged_in_base.html:110
-#: app/views/dev.py:73
+#: app/views/dev.py:78
 msgid "Developer Tools"
 msgstr ""
 
@@ -1189,7 +1345,7 @@ msgstr ""
 #: app/templates/app/dev_tools.html:15
 msgid ""
 "To change locale, modify your browser's locale settings, then refresh the "
-"page."
+"page, or use the set locale button below."
 msgstr ""
 
 #: app/templates/app/dev_tools.html:18
@@ -1200,7 +1356,15 @@ msgstr ""
 msgid "Download and Replace Translation Files"
 msgstr ""
 
-#: app/templates/app/dev_tools.html:26
+#: app/templates/app/dev_tools.html:27
+msgid "Set locale:"
+msgstr ""
+
+#: app/templates/app/dev_tools.html:29
+msgid "Apply"
+msgstr ""
+
+#: app/templates/app/dev_tools.html:33
 msgid "Executing… do not refresh the page! This could take a while."
 msgstr ""
 
@@ -1217,7 +1381,7 @@ msgstr ""
 msgid "Dashboard"
 msgstr ""
 
-#: app/templates/app/logged_in_base.html:59 nodeodm/models.py:37
+#: app/templates/app/logged_in_base.html:59 nodeodm/models.py:35
 msgid "Processing Nodes"
 msgstr ""
 
@@ -1241,31 +1405,31 @@ msgstr ""
 msgid "Brand"
 msgstr ""
 
-#: app/templates/app/logged_in_base.html:114 app/views/app.py:103
+#: app/templates/app/logged_in_base.html:114 app/views/app.py:105
 msgid "About"
 msgstr ""
 
-#: app/templates/app/processing_node.html:11 nodeodm/models.py:23
+#: app/templates/app/processing_node.html:11 nodeodm/models.py:21
 msgid "Hostname"
 msgstr ""
 
-#: app/templates/app/processing_node.html:15 nodeodm/models.py:24
+#: app/templates/app/processing_node.html:15 nodeodm/models.py:22
 msgid "Port"
 msgstr ""
 
-#: app/templates/app/processing_node.html:19 nodeodm/models.py:25
+#: app/templates/app/processing_node.html:19 nodeodm/models.py:23
 msgid "API Version"
 msgstr ""
 
-#: app/templates/app/processing_node.html:23 nodeodm/models.py:33
+#: app/templates/app/processing_node.html:23 nodeodm/models.py:31
 msgid "Engine"
 msgstr ""
 
-#: app/templates/app/processing_node.html:27 nodeodm/models.py:31
+#: app/templates/app/processing_node.html:27 nodeodm/models.py:29
 msgid "Engine Version"
 msgstr ""
 
-#: app/templates/app/processing_node.html:31 nodeodm/models.py:27
+#: app/templates/app/processing_node.html:31 nodeodm/models.py:25
 msgid "Queue Count"
 msgstr ""
 
@@ -1273,11 +1437,11 @@ msgstr ""
 msgid "Max Images Limit"
 msgstr ""
 
-#: app/templates/app/processing_node.html:39 nodeodm/models.py:32
+#: app/templates/app/processing_node.html:39 nodeodm/models.py:30
 msgid "Label"
 msgstr ""
 
-#: app/templates/app/processing_node.html:43 nodeodm/models.py:26
+#: app/templates/app/processing_node.html:43 nodeodm/models.py:24
 msgid "Last Refreshed"
 msgstr ""
 
@@ -1303,230 +1467,168 @@ msgid "Create Account"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:4
-msgid "Compute volume, area and length measurements on Leaflet"
+msgid "Upload and tile ODM assets with Cesium ion."
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:5
+msgid "Detect changes between two different tasks in the same project."
+msgstr ""
+
 #: app/translations/plugin_manifest_autogenerated.py:6
-msgid "A plugin to create GCP files from images"
+msgid "Import images from external sources directly"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:7
+msgid "Compute, preview and export contours from DEMs"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:8
+msgid "Display program version, memory and disk space usage statistics"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:9
+msgid "Calculate and draw an elevation map based on a task's DEMs"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:10
+msgid "Add a fullscreen button to the 2D map view"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:11
+msgid "Sync accounts from webodm.net"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:12
+msgid "Compute volume, area and length measurements on Leaflet"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:13
+msgid "A plugin to upload orthophotos to OpenAerialMap"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:14
 msgid ""
 "A plugin to add a button for quickly opening OpenStreetMap's iD editor and "
 "setup a TMS basemap."
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:8
-msgid "A plugin to upload orthophotos to OpenAerialMap"
-msgstr ""
-
-#: app/translations/plugin_manifest_autogenerated.py:9
-msgid "Display program version, memory and disk space usage statistics"
-msgstr ""
-
-#: app/translations/plugin_manifest_autogenerated.py:10
-msgid "Sync accounts from webodm.net"
-msgstr ""
-
-#: app/translations/plugin_manifest_autogenerated.py:11
-msgid "Add a fullscreen button to the 2D map view"
-msgstr ""
-
-#: app/translations/plugin_manifest_autogenerated.py:12
-msgid "Compute, preview and export contours from DEMs"
-msgstr ""
-
-#: app/translations/plugin_manifest_autogenerated.py:13
-msgid "Calculate and draw an elevation map based on a task's DEMs"
-msgstr ""
-
-#: app/translations/plugin_manifest_autogenerated.py:14
-msgid "Upload and tile ODM assets with Cesium ion."
-msgstr ""
-
 #: app/translations/plugin_manifest_autogenerated.py:15
-msgid "Import images from external sources directly"
+#: app/translations/plugin_manifest_autogenerated.py:16
+msgid "A plugin to create GCP files from images"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:16
-msgid "Detect changes between two different tasks in the same project."
+#: app/translations/plugin_manifest_autogenerated.py:17
+msgid "Create short links when sharing task URLs"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:18
+msgid "Create editable short links when sharing task URLs"
 msgstr ""
 
 #: app/views/app.py:44
 msgid "First Project"
 msgstr ""
 
-#: app/views/app.py:54 app/views/public.py:26
+#: app/views/app.py:54 app/views/public.py:27
 msgid "Map"
 msgstr ""
 
-#: app/views/app.py:81
+#: app/views/app.py:82
 msgid "3D Model Display"
 msgstr ""
 
-#: app/views/app.py:147
+#: app/views/app.py:149
 msgid "Welcome"
 msgstr ""
 
-#: app/views/dev.py:48
+#: app/views/dev.py:59
 msgid "Cannot find locale/ folder in .zip archive"
 msgstr ""
 
-#: app/views/dev.py:66
+#: app/views/dev.py:71
 msgid "Translation files reloaded!"
 msgstr ""
 
-#: app/views/dev.py:70
+#: app/views/dev.py:75
 msgid "Invalid action"
 msgstr ""
 
-#: nodeodm/apps.py:8
-msgid "Node Management"
-msgstr ""
-
-#: nodeodm/models.py:23
-msgid ""
-"Hostname or IP address where the node is located (can be an internal "
-"hostname as well). If you are using Docker, this is never 127.0.0.1 or "
-"localhost. Find the IP address of your host machine by running ifconfig on "
-"Linux or by checking your network settings."
-msgstr ""
-
-#: nodeodm/models.py:24
-msgid "Port that connects to the node's API"
-msgstr ""
-
-#: nodeodm/models.py:25
-msgid "API version used by the node"
-msgstr ""
-
-#: nodeodm/models.py:26
-msgid "When was the information about this node last retrieved?"
-msgstr ""
-
-#: nodeodm/models.py:27
-msgid ""
-"Number of tasks currently being processed by this node (as reported by the "
-"node itself)"
-msgstr ""
-
-#: nodeodm/models.py:28
-msgid "Available Options"
-msgstr ""
-
-#: nodeodm/models.py:28
-msgid "Description of the options that can be used for processing"
-msgstr ""
-
-#: nodeodm/models.py:29
-msgid "Token"
-msgstr ""
-
-#: nodeodm/models.py:29
-msgid ""
-"Token to use for authentication. If the node doesn't have authentication, "
-"you can leave this field blank."
-msgstr ""
-
-#: nodeodm/models.py:30
-msgid "Max Images"
-msgstr ""
-
-#: nodeodm/models.py:30
-msgid "Maximum number of images accepted by this node."
-msgstr ""
-
-#: nodeodm/models.py:31
-msgid "Engine version used by the node."
-msgstr ""
-
-#: nodeodm/models.py:32
-msgid ""
-"Optional label for this node. When set, this label will be shown instead of "
-"the hostname:port name."
-msgstr ""
-
-#: nodeodm/models.py:33
-msgid "Engine used by the node."
-msgstr ""
-
-#: plugins/cesium-ion/api_views.py:170
+#: coreplugins/cesiumion/api_views.py:159
 msgid "No matching enum type."
 msgstr ""
 
-#: plugins/contours/api.py:16
+#: coreplugins/contours/api.py:16
 msgid "No DSM layer is available."
 msgstr ""
 
-#: plugins/contours/api.py:18
+#: coreplugins/contours/api.py:18
 msgid "No DTM layer is available."
 msgstr ""
 
-#: plugins/contours/api.py:60
+#: coreplugins/contours/api.py:60
 msgid "Could not generate contour file. This might be a bug."
 msgstr ""
 
-#: plugins/diagnostic/plugin.py:36
+#: coreplugins/diagnostic/plugin.py:36
 msgid "Diagnostic"
 msgstr ""
 
-#: plugins/diagnostic/templates/diagnostic.html:6
+#: coreplugins/diagnostic/templates/diagnostic.html:6
 msgid "Diagnostic Information"
 msgstr ""
 
-#: plugins/diagnostic/templates/diagnostic.html:10
+#: coreplugins/diagnostic/templates/diagnostic.html:10
 msgid "Storage Space"
 msgstr ""
 
-#: plugins/diagnostic/templates/diagnostic.html:14
-#: plugins/diagnostic/templates/diagnostic.html:40
-#: plugins/diagnostic/templates/diagnostic.html:45
+#: coreplugins/diagnostic/templates/diagnostic.html:14
+#: coreplugins/diagnostic/templates/diagnostic.html:40
+#: coreplugins/diagnostic/templates/diagnostic.html:45
 msgctxt "Megabytes of storage space"
 msgid "Free"
 msgstr "ಉಚಿತ"
 
-#: plugins/diagnostic/templates/diagnostic.html:15
-#: plugins/diagnostic/templates/diagnostic.html:39
-#: plugins/diagnostic/templates/diagnostic.html:45
+#: coreplugins/diagnostic/templates/diagnostic.html:15
+#: coreplugins/diagnostic/templates/diagnostic.html:39
+#: coreplugins/diagnostic/templates/diagnostic.html:45
 msgctxt "Megabytes of storage space"
 msgid "Used"
 msgstr "ಬಳಸಿದ"
 
-#: plugins/diagnostic/templates/diagnostic.html:16
+#: coreplugins/diagnostic/templates/diagnostic.html:16
 msgctxt "Megabytes of storage space"
 msgid "Total"
 msgstr "ಒಟ್ಟು"
 
-#: plugins/diagnostic/templates/diagnostic.html:20
+#: coreplugins/diagnostic/templates/diagnostic.html:20
 msgctxt "Computer memory (RAM)"
 msgid "Memory"
 msgstr "ಮೆಮೊರಿ"
 
-#: plugins/diagnostic/templates/diagnostic.html:24
-#: plugins/diagnostic/templates/diagnostic.html:75
-#: plugins/diagnostic/templates/diagnostic.html:80
+#: coreplugins/diagnostic/templates/diagnostic.html:24
+#: coreplugins/diagnostic/templates/diagnostic.html:75
+#: coreplugins/diagnostic/templates/diagnostic.html:80
 msgctxt "Megabytes of memory space"
 msgid "Free"
 msgstr "ಉಚಿತ"
 
-#: plugins/diagnostic/templates/diagnostic.html:25
-#: plugins/diagnostic/templates/diagnostic.html:74
-#: plugins/diagnostic/templates/diagnostic.html:80
+#: coreplugins/diagnostic/templates/diagnostic.html:25
+#: coreplugins/diagnostic/templates/diagnostic.html:74
+#: coreplugins/diagnostic/templates/diagnostic.html:80
 msgctxt "Megabytes of memory space"
 msgid "Used"
 msgstr "ಬಳಸಿದ"
 
-#: plugins/diagnostic/templates/diagnostic.html:26
+#: coreplugins/diagnostic/templates/diagnostic.html:26
 msgctxt "Megabytes of memory space"
 msgid "Total"
 msgstr "ಒಟ್ಟು"
 
-#: plugins/diagnostic/templates/diagnostic.html:33
+#: coreplugins/diagnostic/templates/diagnostic.html:33
 msgid "Note!"
 msgstr "ಸೂಚನೆ!"
 
-#: plugins/diagnostic/templates/diagnostic.html:33
+#: coreplugins/diagnostic/templates/diagnostic.html:33
 #, python-format
 msgid ""
 "These values might be relative to the virtualization environment in which "
@@ -1535,22 +1637,102 @@ msgid ""
 "in a Docker setup."
 msgstr ""
 
-#: plugins/diagnostic/templates/diagnostic.html:47
-#: plugins/diagnostic/templates/diagnostic.html:82
+#: coreplugins/diagnostic/templates/diagnostic.html:47
+#: coreplugins/diagnostic/templates/diagnostic.html:82
 msgid "Disk Space"
 msgstr "ಡಿಸ್ಕ್ ಸ್ಪೇಸ್"
 
-#: plugins/lightning/plugin.py:25 plugins/lightning/plugin.py:39
+#: coreplugins/editshortlinks/api.py:59
+msgid ""
+"Short URLs can only include letters, numbers, underscore and dash characters "
+"(A-Z, 0-9, _, -)."
+msgstr ""
+
+#: coreplugins/editshortlinks/api.py:63
+msgid "This short URL is already taken."
+msgstr ""
+
+#: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
 msgid "Lightning Network"
 msgstr "ಲೈಟನಿಂಗ್ ನೆಟ್ವರ್ಕ್"
 
-#: plugins/measure/api.py:27
+#: coreplugins/measure/api.py:27
 msgid ""
 "No surface model available. From the Dashboard, select this task, press "
 "Edit, from the options make sure to check \"dsm\", then press Restart --> "
 "From DEM."
 msgstr ""
 
-#: plugins/posm-gcpi/plugin.py:8
+#: coreplugins/posm-gcpi/plugin.py:8
 msgid "GCP Interface"
 msgstr "ಜಿ.ಸಿ.ಪಿ ಇಂಟರ್ಫೇಸ್"
+
+#: nodeodm/apps.py:8
+msgid "Node Management"
+msgstr ""
+
+#: nodeodm/models.py:21
+msgid ""
+"Hostname or IP address where the node is located (can be an internal "
+"hostname as well). If you are using Docker, this is never 127.0.0.1 or "
+"localhost. Find the IP address of your host machine by running ifconfig on "
+"Linux or by checking your network settings."
+msgstr ""
+
+#: nodeodm/models.py:22
+msgid "Port that connects to the node's API"
+msgstr ""
+
+#: nodeodm/models.py:23
+msgid "API version used by the node"
+msgstr ""
+
+#: nodeodm/models.py:24
+msgid "When was the information about this node last retrieved?"
+msgstr ""
+
+#: nodeodm/models.py:25
+msgid ""
+"Number of tasks currently being processed by this node (as reported by the "
+"node itself)"
+msgstr ""
+
+#: nodeodm/models.py:26
+msgid "Available Options"
+msgstr ""
+
+#: nodeodm/models.py:26
+msgid "Description of the options that can be used for processing"
+msgstr ""
+
+#: nodeodm/models.py:27
+msgid "Token"
+msgstr ""
+
+#: nodeodm/models.py:27
+msgid ""
+"Token to use for authentication. If the node doesn't have authentication, "
+"you can leave this field blank."
+msgstr ""
+
+#: nodeodm/models.py:28
+msgid "Max Images"
+msgstr ""
+
+#: nodeodm/models.py:28
+msgid "Maximum number of images accepted by this node."
+msgstr ""
+
+#: nodeodm/models.py:29
+msgid "Engine version used by the node."
+msgstr ""
+
+#: nodeodm/models.py:30
+msgid ""
+"Optional label for this node. When set, this label will be shown instead of "
+"the hostname:port name."
+msgstr ""
+
+#: nodeodm/models.py:31
+msgid "Engine used by the node."
+msgstr ""

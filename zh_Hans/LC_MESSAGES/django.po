@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-25 17:42+0000\n"
+"POT-Creation-Date: 2021-11-05 17:15+0000\n"
 "PO-Revision-Date: 2021-09-08 05:03+0000\n"
 "Last-Translator: liangshuo <herokobe24@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -62,7 +62,7 @@ msgstr "HTML将显示在页脚中。您还可以使用特殊标记，如{ORGANIZ
 msgid "HTML (footer)"
 msgstr "HTML (页脚)"
 
-#: app/admin.py:100 app/models/project.py:24
+#: app/admin.py:100 app/models/project.py:25
 msgid "Description"
 msgstr "描述"
 
@@ -74,7 +74,57 @@ msgstr "版本"
 msgid "Author"
 msgstr "作者"
 
+#: app/admin.py:144
+#, python-format
+msgid "Restart required. Please restart WebODM to enable %(plugin)s"
+msgstr ""
+
+#: app/admin.py:146
+#, python-format
+msgid "Cannot enable plugin %(plugin)s: %(message)s"
+msgstr ""
+
+#: app/admin.py:154
+#, python-format
+msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
+msgstr ""
+
+#: app/admin.py:156
+#, python-format
+msgid "Cannot disable plugin %(plugin)s: %(message)s"
+msgstr ""
+
+#: app/admin.py:164
+#, python-format
+msgid "Cannot delete plugin %(plugin)s: %(message)s"
+msgstr ""
+
+#: app/admin.py:208
+msgid "Plugin added successfully"
+msgstr ""
+
+#: app/admin.py:210
+#, python-format
+msgid "Cannot load plugin: %(message)s"
+msgstr ""
+
+#: app/admin.py:216
+#, fuzzy
+#| msgid "You need to upload at least 2 images before commit"
+msgid "You need to upload a zip file"
+msgstr "提交前，您需要上传至少2张图像"
+
+#: app/admin.py:230
+msgid "Disable"
+msgstr ""
+
 #: app/admin.py:233
+#, fuzzy
+#| msgid "Enabled"
+msgid "Enable"
+msgstr "已开启"
+
+#: app/admin.py:238
 msgid "Actions"
 msgstr "动作"
 
@@ -87,117 +137,212 @@ msgstr "归一化差异植被指数表示绿色植被的数量。"
 msgid ""
 "Enhanced Normalized Difference Vegetation Index is like NDVI, but uses Blue "
 "and Green bands instead of only Red to isolate plant health."
-msgstr "增强的标准化差异植被指数类似于NDVI，但使用蓝色和绿色波段而不是仅使用红色来区分植物健康。"
+msgstr ""
+"增强的标准化差异植被指数类似于NDVI，但使用蓝色和绿色波段而不是仅使用红色来区"
+"分植物健康。"
 
 #: app/api/formulas.py:24
+msgid ""
+"Visible NDVI is an un-normalized index for RGB sensors using constants "
+"derived from citrus, grape, and sugarcane crop data."
+msgstr ""
+
+#: app/api/formulas.py:28
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
 msgstr "可视大气阻力指数显示植被的面积。"
 
-#: app/api/formulas.py:29
+#: app/api/formulas.py:33
+#, fuzzy
+#| msgid ""
+#| "Excess Green Index emphasizes the greenness of leafy crops such as "
+#| "potatoes."
 msgid ""
-"Excess Green Index emphasizes the greenness of leafy crops such as potatoes."
+"Excess Green Index (derived from only the RGB bands) emphasizes the "
+"greenness of leafy crops such as potatoes."
 msgstr "过量的绿色指数强调类似马铃薯等多叶作物的绿色。"
 
-#: app/api/formulas.py:33
+#: app/api/formulas.py:37
+msgid ""
+"Triangular Greenness Index (derived from only the RGB bands) performs "
+"similarly to EXG but with improvements over certain environments."
+msgstr ""
+
+#: app/api/formulas.py:41
 msgid ""
 "Burn Area Index hightlights burned land in the red to near-infrared spectrum."
 msgstr "燃烧面积指数以红色到近红外光谱高亮燃烧区域。"
 
-#: app/api/formulas.py:37
+#: app/api/formulas.py:45
 msgid "Green Leaf Index shows greens leaves and stems."
 msgstr "绿叶指数显示绿色的叶子和茎。"
 
-#: app/api/formulas.py:42
+#: app/api/formulas.py:50
 msgid ""
 "Green Normalized Difference Vegetation Index is similar to NDVI, but "
 "measures the green spectrum instead of red."
 msgstr "绿色归一化差异植被指数与NDVI相似，但测量的是绿色光谱，而不是红色光谱。"
 
-#: app/api/formulas.py:46
+#: app/api/formulas.py:54
 msgid ""
 "Green Ratio Vegetation Index is sensitive to photosynthetic rates in forests."
 msgstr "森林绿比植被指数对光合速率敏感。"
 
-#: app/api/formulas.py:50
+#: app/api/formulas.py:58
 msgid ""
 "Soil Adjusted Vegetation Index is similar to NDVI but attempts to remove the "
 "effects of soil areas using an adjustment factor (0.5)."
-msgstr "土壤调整植被指数与NDVI相似，但试图使用调整因子（0.5）消除对土壤面积的影响。"
+msgstr ""
+"土壤调整植被指数与NDVI相似，但试图使用调整因子（0.5）消除对土壤面积的影响。"
 
-#: app/api/formulas.py:54
+#: app/api/formulas.py:62
 msgid ""
 "Modified Non-Linear Index improves the Non-Linear Index algorithm to account "
 "for soil areas."
 msgstr "改进的非线性指数改进了非线性指数算法，以计算土壤面积。"
 
-#: app/api/formulas.py:58
+#: app/api/formulas.py:66
 msgid ""
 "Modified Simple Ratio is an improvement of the Simple Ratio (SR) index to be "
 "more sensitive to vegetation."
 msgstr "修正简单比是简单比（SR）指数的改进，对植被更敏感。"
 
-#: app/api/formulas.py:62
+#: app/api/formulas.py:70
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
-msgstr "重正化差异植被指数使用近红外和红色之间的差异，加上NDVI来显示健康植被的区域。"
+msgstr ""
+"重正化差异植被指数使用近红外和红色之间的差异，加上NDVI来显示健康植被的区域。"
 
-#: app/api/formulas.py:66
+#: app/api/formulas.py:74
 msgid ""
 "Transformed Difference Vegetation Index highlights vegetation cover in urban "
 "environments."
 msgstr "转换后的差异植被指数突出了城市环境中的植被覆盖。"
 
-#: app/api/formulas.py:70
+#: app/api/formulas.py:78
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
 msgstr "优化的土壤调整植被指数基于SAVI，但在土壤可见的植被较少的地区效果更好。"
 
-#: app/api/formulas.py:74
+#: app/api/formulas.py:82
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
 msgstr "叶面积指数估计叶面积并预测作物产量。"
 
-#: app/api/formulas.py:79
+#: app/api/formulas.py:87
 msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
-msgstr "通过使用蓝色波长校正土壤信号，增强植被指数在NDVI可能饱和的地区非常有用。"
+msgstr ""
+"通过使用蓝色波长校正土壤信号，增强植被指数在NDVI可能饱和的地区非常有用。"
 
-#: app/api/tasks.py:179
+#: app/api/projects.py:67
+msgid "Cannot duplicate project"
+msgstr ""
+
+#: app/api/projects.py:134
+msgid "Invalid user in permissions list"
+msgstr ""
+
+#: app/api/projects.py:136
+msgid "Invalid permissions"
+msgstr ""
+
+#: app/api/tasks.py:183
 msgid "You need to upload at least 2 images before commit"
 msgstr "提交前，您需要上传至少2张图像"
 
-#: app/api/tasks.py:201
+#: app/api/tasks.py:205
 msgid "No files uploaded"
 msgstr "没有文件可上传"
 
-#: app/api/tasks.py:224
+#: app/api/tasks.py:234
+msgid "Cannot duplicate task"
+msgstr ""
+
+#: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
 msgstr "无法创建任务，您至少需要2个图像"
 
-#: app/api/tasks.py:329 app/api/tasks.py:332 app/api/tasks.py:351
-#: app/api/tasks.py:354
+#: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
+#: app/api/tasks.py:401
 msgid "Asset does not exist"
 msgstr "资源不存在"
 
-#: app/api/tasks.py:370
+#: app/api/tasks.py:417
 msgid "Imported Task"
 msgstr "导入的任务"
 
-#: app/api/tasks.py:373
+#: app/api/tasks.py:420
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "无法创建任务，你需要上传1个文件"
 
-#: app/api/tasks.py:376
+#: app/api/tasks.py:423
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "无法创建任务，请指定URL或上载1个文件。"
+
+#: app/api/tiler.py:311
+msgid "Invalid boundaries parameter"
+msgstr ""
+
+#: app/api/tiler.py:347 app/api/tiler.py:410
+msgid "Outside of bounds"
+msgstr ""
+
+#: app/api/tiler.py:358
+msgid "Invalid boundaries"
+msgstr ""
+
+#: app/api/tiler.py:416 app/api/tiler.py:513
+msgid "Not a valid color_map value"
+msgstr ""
+
+#: app/api/tiler.py:422
+msgid "Invalid rescale value"
+msgstr ""
+
+#: app/api/tiler.py:431
+msgid "Invalid hillshade value"
+msgstr ""
+
+#: app/api/tiler.py:434
+msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
+msgstr ""
+
+#: app/api/tiler.py:451
+msgid ""
+"Cannot process tile: intensity image provided, but no RGB data was computed."
+msgstr ""
+
+#: app/api/tiler.py:498 app/api/tiler.py:500
+#, python-format
+msgid "Unsupported format: %(value)s"
+msgstr ""
+
+#: app/api/tiler.py:519
+#, python-format
+msgid "Invalid EPSG code: %(value)s"
+msgstr ""
+
+#: app/api/tiler.py:522
+msgid "Both formula and bands parameters are required"
+msgstr ""
+
+#: app/api/tiler.py:542
+#, python-format
+msgid "Invalid rescale value: %(value)s"
+msgstr ""
+
+#: app/api/tiler.py:550
+#, python-format
+msgid "Invalid hillshade value: %(value)s"
+msgstr ""
 
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
 msgstr "此图像所属的任务"
 
-#: app/models/image_upload.py:10 app/models/task.py:260
+#: app/models/image_upload.py:10 app/models/task.py:270
 msgid "Task"
 msgstr "任务"
 
@@ -221,8 +366,8 @@ msgstr "图片上传"
 msgid "Plugin name"
 msgstr "插件名称"
 
-#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:23
-#: app/models/task.py:222 app/models/theme.py:16
+#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
+#: app/models/task.py:230 app/models/theme.py:16
 msgid "Name"
 msgstr "名字"
 
@@ -286,7 +431,7 @@ msgstr "插件数据"
 msgid "The person who owns this preset"
 msgstr "拥有此预设的人"
 
-#: app/models/preset.py:9 app/models/project.py:22
+#: app/models/preset.py:9 app/models/project.py:23
 msgid "Owner"
 msgstr "拥有者"
 
@@ -298,15 +443,15 @@ msgstr "用于描述预设的标签"
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr "定义此预设的选项（与任务选项中的格式相同）。"
 
-#: app/models/preset.py:11 app/models/task.py:228
+#: app/models/preset.py:11 app/models/task.py:236
 msgid "Options"
 msgstr "选项"
 
-#: app/models/preset.py:13 app/models/project.py:25 app/models/task.py:237
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:245
 msgid "Creation date"
 msgstr "创建时间"
 
-#: app/models/preset.py:13 app/models/project.py:25 app/models/task.py:237
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:245
 msgid "Created at"
 msgstr "创建于"
 
@@ -328,34 +473,41 @@ msgstr "预设"
 msgid "Presets"
 msgstr "预设"
 
-#: app/models/project.py:22
+#: app/models/project.py:23
 msgid "The person who created the project"
 msgstr "创建项目的人"
 
-#: app/models/project.py:23
+#: app/models/project.py:24
 msgid "A label used to describe the project"
 msgstr "用于描述项目的标签"
 
-#: app/models/project.py:24
+#: app/models/project.py:25
 msgid "More in-depth description of the project"
 msgstr "对项目进行更深入的描述"
 
-#: app/models/project.py:26
+#: app/models/project.py:27
 msgid ""
 "Whether this project has been marked for deletion. Projects that have "
 "running tasks need to wait for tasks to be properly cleaned up before they "
 "can be deleted."
-msgstr "是否已将此项目标记为删除。具有正在运行的任务的项目需要等待任务被正确清理，然后才能删除它们。"
+msgstr ""
+"是否已将此项目标记为删除。具有正在运行的任务的项目需要等待任务被正确清理，然"
+"后才能删除它们。"
 
-#: app/models/project.py:26
+#: app/models/project.py:27
 msgid "Deleting"
 msgstr "删除中"
 
-#: app/models/project.py:56 app/models/task.py:221
+#: app/models/project.py:61 app/models/task.py:412
+#, python-format
+msgid "Copy of %(task)s"
+msgstr ""
+
+#: app/models/project.py:84 app/models/task.py:229
 msgid "Project"
 msgstr "项目"
 
-#: app/models/project.py:57
+#: app/models/project.py:85
 msgid "Projects"
 msgstr "项目"
 
@@ -408,223 +560,237 @@ msgstr "应用"
 msgid "Settings"
 msgstr "设置"
 
-#: app/models/task.py:218
+#: app/models/task.py:226
 msgid "Id"
 msgstr "ID"
 
-#: app/models/task.py:220
+#: app/models/task.py:228
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "任务的标识符（由NodeODM api返回）"
 
-#: app/models/task.py:220
+#: app/models/task.py:228
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:221
+#: app/models/task.py:229
 msgid "Project that this task belongs to"
 msgstr "此任务所属的项目"
 
-#: app/models/task.py:222
+#: app/models/task.py:230
 msgid "A label for the task"
 msgstr "任务的标签"
 
-#: app/models/task.py:223
+#: app/models/task.py:231
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr "自此任务开始以来消耗的毫秒数（-1表示没有可用信息）"
 
-#: app/models/task.py:223
+#: app/models/task.py:231
 msgid "Processing Time"
 msgstr "生产时间"
 
-#: app/models/task.py:224
+#: app/models/task.py:232
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr "分配给此任务的处理节点（如果此任务尚未关联，则为null）"
 
-#: app/models/task.py:224 app/views/app.py:113 nodeodm/models.py:36
+#: app/models/task.py:232 app/views/app.py:115 nodeodm/models.py:34
 msgid "Processing Node"
 msgstr "处理节点"
 
-#: app/models/task.py:225
+#: app/models/task.py:233
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr "指示是否应自动为该任务分配处理节点的标志"
 
-#: app/models/task.py:225
+#: app/models/task.py:233
 msgid "Auto Processing Node"
 msgstr "自动处理结点"
 
-#: app/models/task.py:226
+#: app/models/task.py:234
 msgid "Current status of the task"
 msgstr "任务当前状态"
 
-#: app/models/task.py:226
+#: app/models/task.py:234
 msgid "Status"
 msgstr "状态"
 
-#: app/models/task.py:227
+#: app/models/task.py:235
 msgid "The last processing error received"
 msgstr "接收到的最后一个处理错误"
 
-#: app/models/task.py:227
+#: app/models/task.py:235
 msgid "Last Error"
 msgstr "最新错误"
 
-#: app/models/task.py:228
+#: app/models/task.py:236
 msgid "Options that are being used to process this task"
 msgstr "该任务已使用过的选项"
 
-#: app/models/task.py:229
+#: app/models/task.py:237
 msgid "List of available assets to download"
 msgstr "可下载的资源列表"
 
-#: app/models/task.py:229
+#: app/models/task.py:237
 msgid "Available Assets"
 msgstr "资源列表"
 
-#: app/models/task.py:230
+#: app/models/task.py:238
 msgid "Console output of the processing node"
 msgstr "处理节点的控制台输出"
 
-#: app/models/task.py:230
+#: app/models/task.py:238
 msgid "Console Output"
 msgstr "控制台输出"
 
-#: app/models/task.py:232
+#: app/models/task.py:240
 msgid "Extent of the orthophoto"
 msgstr "正射影像的范围"
 
-#: app/models/task.py:232
+#: app/models/task.py:240
 msgid "Orthophoto Extent"
 msgstr "正射影像的范围"
 
-#: app/models/task.py:233
+#: app/models/task.py:241
 msgid "DSM Extent"
 msgstr "DSM范围"
 
-#: app/models/task.py:234
+#: app/models/task.py:242
 msgid "DTM Extent"
 msgstr "DTM的范围"
 
-#: app/models/task.py:238
+#: app/models/task.py:246
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
 msgstr "要求对任务执行的行动。所选的行动将由工作者在下次迭代时执行。"
 
-#: app/models/task.py:238
+#: app/models/task.py:246
 msgid "Pending Action"
 msgstr ""
 
-#: app/models/task.py:240
+#: app/models/task.py:248
 msgid "A flag indicating whether this task is available to the public"
 msgstr ""
 
-#: app/models/task.py:240
+#: app/models/task.py:248
 msgid "Public"
 msgstr "公共"
 
-#: app/models/task.py:241
+#: app/models/task.py:249
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
 "processing."
 msgstr ""
 
-#: app/models/task.py:241
+#: app/models/task.py:249
 msgid "Resize To"
 msgstr ""
 
-#: app/models/task.py:244
+#: app/models/task.py:252
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr "介于0和1之间的值，表示该任务的文件上传到处理节点的进度。"
 
-#: app/models/task.py:245
+#: app/models/task.py:253
 msgid "Upload Progress"
 msgstr "上传进度"
 
-#: app/models/task.py:248
+#: app/models/task.py:256
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
 
-#: app/models/task.py:249
+#: app/models/task.py:257
 msgid "Resize Progress"
 msgstr ""
 
-#: app/models/task.py:252
+#: app/models/task.py:260
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr ""
 
-#: app/models/task.py:253
+#: app/models/task.py:261
 msgid "Running Progress"
 msgstr "执行进度"
 
-#: app/models/task.py:255
+#: app/models/task.py:263
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr ""
 
-#: app/models/task.py:255
+#: app/models/task.py:263
 msgid "Import URL"
 msgstr "导入URL"
 
-#: app/models/task.py:256
+#: app/models/task.py:264
 msgid "Number of images associated with this task"
 msgstr ""
 
-#: app/models/task.py:256
+#: app/models/task.py:264
 msgid "Images Count"
 msgstr "图片总数"
 
-#: app/models/task.py:257
+#: app/models/task.py:265
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr ""
 
-#: app/models/task.py:257
+#: app/models/task.py:265
 msgid "Partial"
 msgstr "部分"
 
-#: app/models/task.py:261
+#: app/models/task.py:266
+msgid ""
+"Serialized potree scene information used to save/load measurements and "
+"camera view angle"
+msgstr ""
+
+#: app/models/task.py:266
+msgid "Potree Scene"
+msgstr ""
+
+#: app/models/task.py:267
+msgid "EPSG code of the dataset (if georeferenced)"
+msgstr ""
+
+#: app/models/task.py:271
 msgid "Tasks"
 msgstr "任务"
 
-#: app/models/task.py:270
+#: app/models/task.py:280
 msgid "unnamed"
 msgstr "未命名"
 
-#: app/models/task.py:373
+#: app/models/task.py:491
 msgid "Importing assets..."
 msgstr ""
 
-#: app/models/task.py:412 app/models/task.py:680
+#: app/models/task.py:543 app/models/task.py:811
 msgid "Invalid zip file"
 msgstr ""
 
-#: app/models/task.py:506
+#: app/models/task.py:637
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr ""
 
-#: app/models/task.py:586
+#: app/models/task.py:717
 msgid "Cannot restart a task that has no processing node"
 msgstr ""
 
-#: app/models/task.py:738
+#: app/models/task.py:872
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 
-#: app/models/task.py:748
+#: app/models/task.py:884
 msgid "Done!"
 msgstr "完成了！"
 
@@ -1167,7 +1333,7 @@ msgid ""
 msgstr ""
 
 #: app/templates/app/dev_tools.html:6 app/templates/app/logged_in_base.html:110
-#: app/views/dev.py:83
+#: app/views/dev.py:78
 msgid "Developer Tools"
 msgstr "开发工具"
 
@@ -1182,7 +1348,7 @@ msgstr "当前语言："
 #: app/templates/app/dev_tools.html:15
 msgid ""
 "To change locale, modify your browser's locale settings, then refresh the "
-"page."
+"page, or use the set locale button below."
 msgstr ""
 
 #: app/templates/app/dev_tools.html:18
@@ -1193,7 +1359,17 @@ msgstr "翻译文件（.zip）:"
 msgid "Download and Replace Translation Files"
 msgstr ""
 
-#: app/templates/app/dev_tools.html:26
+#: app/templates/app/dev_tools.html:27
+#, fuzzy
+#| msgid "Current Locale:"
+msgid "Set locale:"
+msgstr "当前语言："
+
+#: app/templates/app/dev_tools.html:29
+msgid "Apply"
+msgstr ""
+
+#: app/templates/app/dev_tools.html:33
 msgid "Executing… do not refresh the page! This could take a while."
 msgstr ""
 
@@ -1210,7 +1386,7 @@ msgstr "退出登录"
 msgid "Dashboard"
 msgstr "仪表盘"
 
-#: app/templates/app/logged_in_base.html:59 nodeodm/models.py:37
+#: app/templates/app/logged_in_base.html:59 nodeodm/models.py:35
 msgid "Processing Nodes"
 msgstr "处理节点"
 
@@ -1234,31 +1410,31 @@ msgstr "组"
 msgid "Brand"
 msgstr "商标"
 
-#: app/templates/app/logged_in_base.html:114 app/views/app.py:103
+#: app/templates/app/logged_in_base.html:114 app/views/app.py:105
 msgid "About"
 msgstr "关于"
 
-#: app/templates/app/processing_node.html:11 nodeodm/models.py:23
+#: app/templates/app/processing_node.html:11 nodeodm/models.py:21
 msgid "Hostname"
 msgstr "主机名"
 
-#: app/templates/app/processing_node.html:15 nodeodm/models.py:24
+#: app/templates/app/processing_node.html:15 nodeodm/models.py:22
 msgid "Port"
 msgstr "端口"
 
-#: app/templates/app/processing_node.html:19 nodeodm/models.py:25
+#: app/templates/app/processing_node.html:19 nodeodm/models.py:23
 msgid "API Version"
 msgstr ""
 
-#: app/templates/app/processing_node.html:23 nodeodm/models.py:33
+#: app/templates/app/processing_node.html:23 nodeodm/models.py:31
 msgid "Engine"
 msgstr "引擎"
 
-#: app/templates/app/processing_node.html:27 nodeodm/models.py:31
+#: app/templates/app/processing_node.html:27 nodeodm/models.py:29
 msgid "Engine Version"
 msgstr ""
 
-#: app/templates/app/processing_node.html:31 nodeodm/models.py:27
+#: app/templates/app/processing_node.html:31 nodeodm/models.py:25
 msgid "Queue Count"
 msgstr ""
 
@@ -1266,11 +1442,11 @@ msgstr ""
 msgid "Max Images Limit"
 msgstr "最大图片限制"
 
-#: app/templates/app/processing_node.html:39 nodeodm/models.py:32
+#: app/templates/app/processing_node.html:39 nodeodm/models.py:30
 msgid "Label"
 msgstr "标签"
 
-#: app/templates/app/processing_node.html:43 nodeodm/models.py:26
+#: app/templates/app/processing_node.html:43 nodeodm/models.py:24
 msgid "Last Refreshed"
 msgstr ""
 
@@ -1296,69 +1472,77 @@ msgid "Create Account"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:4
-msgid "Compute volume, area and length measurements on Leaflet"
+msgid "Upload and tile ODM assets with Cesium ion."
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:5
+msgid "Detect changes between two different tasks in the same project."
+msgstr "检测同一项目中两个不同任务之间的更改。"
+
 #: app/translations/plugin_manifest_autogenerated.py:6
-msgid "A plugin to create GCP files from images"
+msgid "Import images from external sources directly"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:7
+msgid "Compute, preview and export contours from DEMs"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:8
+msgid "Display program version, memory and disk space usage statistics"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:9
+msgid "Calculate and draw an elevation map based on a task's DEMs"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:10
+msgid "Add a fullscreen button to the 2D map view"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:11
+msgid "Sync accounts from webodm.net"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:12
+msgid "Compute volume, area and length measurements on Leaflet"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:13
+msgid "A plugin to upload orthophotos to OpenAerialMap"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:14
 msgid ""
 "A plugin to add a button for quickly opening OpenStreetMap's iD editor and "
 "setup a TMS basemap."
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:8
-msgid "A plugin to upload orthophotos to OpenAerialMap"
-msgstr ""
-
-#: app/translations/plugin_manifest_autogenerated.py:9
-msgid "Display program version, memory and disk space usage statistics"
-msgstr ""
-
-#: app/translations/plugin_manifest_autogenerated.py:10
-msgid "Sync accounts from webodm.net"
-msgstr ""
-
-#: app/translations/plugin_manifest_autogenerated.py:11
-msgid "Add a fullscreen button to the 2D map view"
-msgstr ""
-
-#: app/translations/plugin_manifest_autogenerated.py:12
-msgid "Compute, preview and export contours from DEMs"
-msgstr ""
-
-#: app/translations/plugin_manifest_autogenerated.py:13
-msgid "Calculate and draw an elevation map based on a task's DEMs"
-msgstr ""
-
-#: app/translations/plugin_manifest_autogenerated.py:14
-msgid "Upload and tile ODM assets with Cesium ion."
-msgstr ""
-
 #: app/translations/plugin_manifest_autogenerated.py:15
-msgid "Import images from external sources directly"
+#: app/translations/plugin_manifest_autogenerated.py:16
+msgid "A plugin to create GCP files from images"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:16
-msgid "Detect changes between two different tasks in the same project."
-msgstr "检测同一项目中两个不同任务之间的更改。"
+#: app/translations/plugin_manifest_autogenerated.py:17
+msgid "Create short links when sharing task URLs"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:18
+msgid "Create editable short links when sharing task URLs"
+msgstr ""
 
 #: app/views/app.py:44
 msgid "First Project"
 msgstr ""
 
-#: app/views/app.py:54 app/views/public.py:26
+#: app/views/app.py:54 app/views/public.py:27
 msgid "Map"
 msgstr "地图"
 
-#: app/views/app.py:81
+#: app/views/app.py:82
 msgid "3D Model Display"
 msgstr "三维模型显示"
 
-#: app/views/app.py:147
+#: app/views/app.py:149
 msgid "Welcome"
 msgstr "欢迎"
 
@@ -1366,160 +1550,90 @@ msgstr "欢迎"
 msgid "Cannot find locale/ folder in .zip archive"
 msgstr ""
 
-#: app/views/dev.py:76
+#: app/views/dev.py:71
 msgid "Translation files reloaded!"
 msgstr ""
 
-#: app/views/dev.py:80
+#: app/views/dev.py:75
 msgid "Invalid action"
 msgstr ""
 
-#: nodeodm/apps.py:8
-msgid "Node Management"
-msgstr ""
-
-#: nodeodm/models.py:23
-msgid ""
-"Hostname or IP address where the node is located (can be an internal "
-"hostname as well). If you are using Docker, this is never 127.0.0.1 or "
-"localhost. Find the IP address of your host machine by running ifconfig on "
-"Linux or by checking your network settings."
-msgstr ""
-
-#: nodeodm/models.py:24
-msgid "Port that connects to the node's API"
-msgstr ""
-
-#: nodeodm/models.py:25
-msgid "API version used by the node"
-msgstr ""
-
-#: nodeodm/models.py:26
-msgid "When was the information about this node last retrieved?"
-msgstr ""
-
-#: nodeodm/models.py:27
-msgid ""
-"Number of tasks currently being processed by this node (as reported by the "
-"node itself)"
-msgstr ""
-
-#: nodeodm/models.py:28
-msgid "Available Options"
-msgstr ""
-
-#: nodeodm/models.py:28
-msgid "Description of the options that can be used for processing"
-msgstr ""
-
-#: nodeodm/models.py:29
-msgid "Token"
-msgstr "令牌"
-
-#: nodeodm/models.py:29
-msgid ""
-"Token to use for authentication. If the node doesn't have authentication, "
-"you can leave this field blank."
-msgstr ""
-
-#: nodeodm/models.py:30
-msgid "Max Images"
-msgstr ""
-
-#: nodeodm/models.py:30
-msgid "Maximum number of images accepted by this node."
-msgstr ""
-
-#: nodeodm/models.py:31
-msgid "Engine version used by the node."
-msgstr ""
-
-#: nodeodm/models.py:32
-msgid ""
-"Optional label for this node. When set, this label will be shown instead of "
-"the hostname:port name."
-msgstr ""
-
-#: nodeodm/models.py:33
-msgid "Engine used by the node."
-msgstr ""
-
-#: plugins/cesium-ion/api_views.py:170
+#: coreplugins/cesiumion/api_views.py:159
 msgid "No matching enum type."
 msgstr ""
 
-#: plugins/contours/api.py:16
+#: coreplugins/contours/api.py:16
 msgid "No DSM layer is available."
 msgstr ""
 
-#: plugins/contours/api.py:18
+#: coreplugins/contours/api.py:18
 msgid "No DTM layer is available."
 msgstr ""
 
-#: plugins/contours/api.py:60
+#: coreplugins/contours/api.py:60
 msgid "Could not generate contour file. This might be a bug."
 msgstr ""
 
-#: plugins/diagnostic/plugin.py:36
+#: coreplugins/diagnostic/plugin.py:36
 msgid "Diagnostic"
 msgstr "诊断"
 
-#: plugins/diagnostic/templates/diagnostic.html:6
+#: coreplugins/diagnostic/templates/diagnostic.html:6
 msgid "Diagnostic Information"
 msgstr "诊断信息"
 
-#: plugins/diagnostic/templates/diagnostic.html:10
+#: coreplugins/diagnostic/templates/diagnostic.html:10
 msgid "Storage Space"
 msgstr "存储空间"
 
-#: plugins/diagnostic/templates/diagnostic.html:14
-#: plugins/diagnostic/templates/diagnostic.html:40
-#: plugins/diagnostic/templates/diagnostic.html:45
+#: coreplugins/diagnostic/templates/diagnostic.html:14
+#: coreplugins/diagnostic/templates/diagnostic.html:40
+#: coreplugins/diagnostic/templates/diagnostic.html:45
 msgctxt "Megabytes of storage space"
 msgid "Free"
 msgstr "未使用"
 
-#: plugins/diagnostic/templates/diagnostic.html:15
-#: plugins/diagnostic/templates/diagnostic.html:39
-#: plugins/diagnostic/templates/diagnostic.html:45
+#: coreplugins/diagnostic/templates/diagnostic.html:15
+#: coreplugins/diagnostic/templates/diagnostic.html:39
+#: coreplugins/diagnostic/templates/diagnostic.html:45
 msgctxt "Megabytes of storage space"
 msgid "Used"
 msgstr "已用"
 
-#: plugins/diagnostic/templates/diagnostic.html:16
+#: coreplugins/diagnostic/templates/diagnostic.html:16
 msgctxt "Megabytes of storage space"
 msgid "Total"
 msgstr "总量"
 
-#: plugins/diagnostic/templates/diagnostic.html:20
+#: coreplugins/diagnostic/templates/diagnostic.html:20
 msgctxt "Computer memory (RAM)"
 msgid "Memory"
 msgstr "内存"
 
-#: plugins/diagnostic/templates/diagnostic.html:24
-#: plugins/diagnostic/templates/diagnostic.html:75
-#: plugins/diagnostic/templates/diagnostic.html:80
+#: coreplugins/diagnostic/templates/diagnostic.html:24
+#: coreplugins/diagnostic/templates/diagnostic.html:75
+#: coreplugins/diagnostic/templates/diagnostic.html:80
 msgctxt "Megabytes of memory space"
 msgid "Free"
 msgstr "未使用"
 
-#: plugins/diagnostic/templates/diagnostic.html:25
-#: plugins/diagnostic/templates/diagnostic.html:74
-#: plugins/diagnostic/templates/diagnostic.html:80
+#: coreplugins/diagnostic/templates/diagnostic.html:25
+#: coreplugins/diagnostic/templates/diagnostic.html:74
+#: coreplugins/diagnostic/templates/diagnostic.html:80
 msgctxt "Megabytes of memory space"
 msgid "Used"
 msgstr "已用"
 
-#: plugins/diagnostic/templates/diagnostic.html:26
+#: coreplugins/diagnostic/templates/diagnostic.html:26
 msgctxt "Megabytes of memory space"
 msgid "Total"
 msgstr "总量"
 
-#: plugins/diagnostic/templates/diagnostic.html:33
+#: coreplugins/diagnostic/templates/diagnostic.html:33
 msgid "Note!"
 msgstr "注意！"
 
-#: plugins/diagnostic/templates/diagnostic.html:33
+#: coreplugins/diagnostic/templates/diagnostic.html:33
 #, python-format
 msgid ""
 "These values might be relative to the virtualization environment in which "
@@ -1527,25 +1641,105 @@ msgid ""
 "See instructions for %(win_link)s and %(mac_link)s for changing these values "
 "in a Docker setup."
 msgstr ""
-"这些值可能与运行应用程序的虚拟化环境相关，而不一定与机器的值相关。请参阅在Docker设置中更改这些值的%(win_link)s和%(mac_link)s"
-"说明。"
+"这些值可能与运行应用程序的虚拟化环境相关，而不一定与机器的值相关。请参阅在"
+"Docker设置中更改这些值的%(win_link)s和%(mac_link)s说明。"
 
-#: plugins/diagnostic/templates/diagnostic.html:47
-#: plugins/diagnostic/templates/diagnostic.html:82
+#: coreplugins/diagnostic/templates/diagnostic.html:47
+#: coreplugins/diagnostic/templates/diagnostic.html:82
 msgid "Disk Space"
 msgstr ""
 
-#: plugins/lightning/plugin.py:25 plugins/lightning/plugin.py:39
+#: coreplugins/editshortlinks/api.py:59
+msgid ""
+"Short URLs can only include letters, numbers, underscore and dash characters "
+"(A-Z, 0-9, _, -)."
+msgstr ""
+
+#: coreplugins/editshortlinks/api.py:63
+msgid "This short URL is already taken."
+msgstr ""
+
+#: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
 msgid "Lightning Network"
 msgstr "闪网"
 
-#: plugins/measure/api.py:27
+#: coreplugins/measure/api.py:27
 msgid ""
 "No surface model available. From the Dashboard, select this task, press "
 "Edit, from the options make sure to check \"dsm\", then press Restart --> "
 "From DEM."
 msgstr ""
 
-#: plugins/posm-gcpi/plugin.py:8
+#: coreplugins/posm-gcpi/plugin.py:8
 msgid "GCP Interface"
 msgstr "GCP 接口"
+
+#: nodeodm/apps.py:8
+msgid "Node Management"
+msgstr ""
+
+#: nodeodm/models.py:21
+msgid ""
+"Hostname or IP address where the node is located (can be an internal "
+"hostname as well). If you are using Docker, this is never 127.0.0.1 or "
+"localhost. Find the IP address of your host machine by running ifconfig on "
+"Linux or by checking your network settings."
+msgstr ""
+
+#: nodeodm/models.py:22
+msgid "Port that connects to the node's API"
+msgstr ""
+
+#: nodeodm/models.py:23
+msgid "API version used by the node"
+msgstr ""
+
+#: nodeodm/models.py:24
+msgid "When was the information about this node last retrieved?"
+msgstr ""
+
+#: nodeodm/models.py:25
+msgid ""
+"Number of tasks currently being processed by this node (as reported by the "
+"node itself)"
+msgstr ""
+
+#: nodeodm/models.py:26
+msgid "Available Options"
+msgstr ""
+
+#: nodeodm/models.py:26
+msgid "Description of the options that can be used for processing"
+msgstr ""
+
+#: nodeodm/models.py:27
+msgid "Token"
+msgstr "令牌"
+
+#: nodeodm/models.py:27
+msgid ""
+"Token to use for authentication. If the node doesn't have authentication, "
+"you can leave this field blank."
+msgstr ""
+
+#: nodeodm/models.py:28
+msgid "Max Images"
+msgstr ""
+
+#: nodeodm/models.py:28
+msgid "Maximum number of images accepted by this node."
+msgstr ""
+
+#: nodeodm/models.py:29
+msgid "Engine version used by the node."
+msgstr ""
+
+#: nodeodm/models.py:30
+msgid ""
+"Optional label for this node. When set, this label will be shown instead of "
+"the hostname:port name."
+msgstr ""
+
+#: nodeodm/models.py:31
+msgid "Engine used by the node."
+msgstr ""
