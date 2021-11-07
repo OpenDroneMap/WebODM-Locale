@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 17:15+0000\n"
-"PO-Revision-Date: 2021-10-31 12:33+0000\n"
+"PO-Revision-Date: 2021-11-08 04:52+0000\n"
 "Last-Translator: Israel Barragan <israelbar@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/webodm/webodm/es/"
 ">\n"
@@ -149,6 +149,8 @@ msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
 msgstr ""
+"NDVI Visible es un índice no normalizado para sensores RGB que utiliza "
+"constantes derivadas de datos de cultivos de cítricos, uvas y caña de azúcar."
 
 #: app/api/formulas.py:28
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
@@ -268,13 +270,11 @@ msgstr "No se puede duplicar el proyecto"
 
 #: app/api/projects.py:134
 msgid "Invalid user in permissions list"
-msgstr ""
+msgstr "Usuario inválido en la lista de permisos"
 
 #: app/api/projects.py:136
-#, fuzzy
-#| msgid "Invalid action"
 msgid "Invalid permissions"
-msgstr "Acción no válida"
+msgstr "Permisos no válidos"
 
 #: app/api/tasks.py:183
 msgid "You need to upload at least 2 images before commit"
@@ -311,64 +311,64 @@ msgstr "No se puede crear la tarea, especifique una URL o cargue 1 archivo."
 
 #: app/api/tiler.py:311
 msgid "Invalid boundaries parameter"
-msgstr ""
+msgstr "Parámetro de límites no válido"
 
 #: app/api/tiler.py:347 app/api/tiler.py:410
 msgid "Outside of bounds"
-msgstr ""
+msgstr "Fuera de los límites"
 
 #: app/api/tiler.py:358
-#, fuzzy
-#| msgid "Invalid action"
 msgid "Invalid boundaries"
-msgstr "Acción no válida"
+msgstr "Límites no válidos"
 
 #: app/api/tiler.py:416 app/api/tiler.py:513
 msgid "Not a valid color_map value"
-msgstr ""
+msgstr "No es un valor de color_map válido"
 
 #: app/api/tiler.py:422
 msgid "Invalid rescale value"
-msgstr ""
+msgstr "Valor de cambio de escala no válido"
 
 #: app/api/tiler.py:431
-#, fuzzy
-#| msgid "Invalid zip file"
 msgid "Invalid hillshade value"
-msgstr "Archivo zip no valido"
+msgstr "Valor de sombreado no válido"
 
 #: app/api/tiler.py:434
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
+"No se puede calcular el sombreado de un ráster sin elevación (se encontraron "
+"varias bandas)"
 
 #: app/api/tiler.py:451
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
+"No se puede procesar el mosaico: se proporcionó una imagen de intensidad, "
+"pero no se calcularon datos RGB."
 
 #: app/api/tiler.py:498 app/api/tiler.py:500
 #, python-format
 msgid "Unsupported format: %(value)s"
-msgstr ""
+msgstr "Formato no admitido: %(value)s"
 
 #: app/api/tiler.py:519
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr ""
+msgstr "Código EPSG no valido: %(value)s"
 
 #: app/api/tiler.py:522
 msgid "Both formula and bands parameters are required"
-msgstr ""
+msgstr "Se requieren parámetros tanto de fórmula como de bandas"
 
 #: app/api/tiler.py:542
 #, python-format
 msgid "Invalid rescale value: %(value)s"
-msgstr ""
+msgstr "Valor de cambio de escala no válido: %(value)s"
 
 #: app/api/tiler.py:550
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
-msgstr ""
+msgstr "Valor de sombreado no valido: %(value)s"
 
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
@@ -818,7 +818,7 @@ msgstr "Escena potree"
 
 #: app/models/task.py:267
 msgid "EPSG code of the dataset (if georeferenced)"
-msgstr ""
+msgstr "Código EPSG del conjunto de datos (si está georreferenciado)"
 
 #: app/models/task.py:271
 msgid "Tasks"
