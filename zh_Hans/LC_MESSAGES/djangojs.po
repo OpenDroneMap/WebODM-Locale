@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 17:15+0000\n"
-"PO-Revision-Date: 2021-09-26 23:07+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2021-11-17 10:04+0000\n"
+"Last-Translator: ZhiPengYu <719525852@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "webodm/react-ui/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.9.1-dev\n"
 
 #: app/static/app/js/Console.jsx:135
 #, python-format
@@ -72,11 +72,11 @@ msgstr "地形模型"
 
 #: app/static/app/js/ModelView.jsx:36
 msgid "Cannot set initial camera view"
-msgstr ""
+msgstr "无法设置初始摄影机视图"
 
 #: app/static/app/js/ModelView.jsx:61
 msgid "set initial camera view"
-msgstr ""
+msgstr "设置初始摄像机视图"
 
 #: app/static/app/js/ModelView.jsx:82
 msgid "Cameras"
@@ -125,14 +125,12 @@ msgid "Camera Parameters"
 msgstr "相机参数"
 
 #: app/static/app/js/classes/AssetDownloads.js:56
-#, fuzzy
-#| msgid "Cameras"
 msgid "Camera Shots"
-msgstr "相机"
+msgstr "相机镜头"
 
 #: app/static/app/js/classes/AssetDownloads.js:57
 msgid "Ground Control Points"
-msgstr ""
+msgstr "地面控制点"
 
 #: app/static/app/js/classes/AssetDownloads.js:58
 msgid "Quality Report"
@@ -213,7 +211,7 @@ msgstr "报告"
 
 #: app/static/app/js/classes/PipelineSteps.js:57
 msgid "Postprocess"
-msgstr ""
+msgstr "后处理"
 
 #: app/static/app/js/classes/ResizeModes.js:4
 msgid "No"
@@ -265,30 +263,28 @@ msgid "Download Assets"
 msgstr "下载资产"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:49
-#, fuzzy
-#| msgid "Cannot complete operation."
 msgid "Cannot load permissions."
-msgstr "无法完成操作。"
+msgstr "无法加载权限。"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:150
 msgid "Read/Write"
-msgstr ""
+msgstr "读/写"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:151
 msgid "Read"
-msgstr ""
+msgstr "读"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:152
 msgid "No Access"
-msgstr ""
+msgstr "没有访问"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:225
 msgid "Username"
-msgstr ""
+msgstr "用户名"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:248
 msgid "Permissions"
-msgstr ""
+msgstr "权限"
 
 #: app/static/app/js/components/EditPresetDialog.jsx:110
 #: app/static/app/js/components/EditTaskForm.jsx:523
@@ -476,16 +472,12 @@ msgid "Close"
 msgstr "关闭"
 
 #: app/static/app/js/components/ExportAssetDialog.jsx:38
-#, fuzzy
-#| msgid "Loading…"
 msgid "Downloading…"
-msgstr "导入中…"
+msgstr "下载中……"
 
 #: app/static/app/js/components/ExportAssetDialog.jsx:39
-#, fuzzy
-#| msgid "Download Image"
 msgid "Download"
-msgstr "下载图片"
+msgstr "下载"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:150
 #: app/static/app/js/components/ImportTaskPanel.jsx:138
@@ -498,23 +490,22 @@ msgstr "非法JSON答复：%(error)s"
 #: app/static/app/js/components/ExportAssetPanel.jsx:177
 #: coreplugins/contours/public/ContoursPanel.jsx:287
 msgid "Projection:"
-msgstr ""
+msgstr "投影:"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:181
 #: coreplugins/contours/public/ContoursPanel.jsx:290
 msgid "Lat/Lon"
-msgstr ""
+msgstr "纬度/经度"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:182
 #: coreplugins/contours/public/ContoursPanel.jsx:291
+#, fuzzy
 msgid "Web Mercator"
-msgstr ""
+msgstr "Web Mercator"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:200
-#, fuzzy
-#| msgid "Normal"
 msgid "Format:"
-msgstr "普通的"
+msgstr "格式:"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:209
 msgid "Export:"
@@ -554,18 +545,16 @@ msgstr "图像缺失"
 
 #: app/static/app/js/components/GCPPopup.jsx:175
 msgid "Horizontal error:"
-msgstr ""
+msgstr "水平误差："
 
 #: app/static/app/js/components/GCPPopup.jsx:175
 #: app/static/app/js/components/GCPPopup.jsx:178
-#, fuzzy
-#| msgid "Meters"
 msgid "(meters)"
-msgstr "米"
+msgstr "（米）"
 
 #: app/static/app/js/components/GCPPopup.jsx:178
 msgid "Vertical error:"
-msgstr ""
+msgstr "垂直误差："
 
 #: app/static/app/js/components/Histogram.jsx:293
 msgid "Min:"
@@ -684,8 +673,9 @@ msgid "(Cameras)"
 msgstr "(相机)"
 
 #: app/static/app/js/components/Map.jsx:310
+#, fuzzy
 msgid "(GCPs)"
-msgstr ""
+msgstr "(GCP)"
 
 #: app/static/app/js/components/Map.jsx:382
 msgid "Enter a tile URL template. Valid coordinates are:"
@@ -697,9 +687,8 @@ msgid "{z}, {x}, {y} for Z/X/Y tile scheme"
 msgstr "{z} ，{x}，{y}的z/x/y瓦片方案"
 
 #: app/static/app/js/components/Map.jsx:384
-#, fuzzy
 msgid "{-y} for flipped TMS-style Y coordinates"
-msgstr "{-y}用于翻转的TMS式Y坐标"
+msgstr "{-y}用于翻转的TMS样式的Y坐标"
 
 #: app/static/app/js/components/Map.jsx:386
 msgid "Example:"
@@ -724,7 +713,7 @@ msgstr "加载中..."
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:9
 msgid "Move Task"
-msgstr ""
+msgstr "移动任务"
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:10
 #: app/static/app/js/components/ProjectListItem.jsx:485
@@ -744,10 +733,8 @@ msgid "Could not load projects list: %(error)s"
 msgstr "无法加载项目列表。%(error)s"
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:88
-#, fuzzy
-#| msgid "Add Project"
 msgid "Project"
-msgstr "新建工程"
+msgstr "新建项目"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:83
 msgid "Are you sure you want to cancel?"
@@ -790,25 +777,25 @@ msgstr "重置为默认"
 #: app/static/app/js/components/ProjectListItem.jsx:188
 #, python-format
 msgid "Cannot upload %(filename)s, exceeded max retries (%(max_retries)s)"
-msgstr ""
+msgstr "无法上传%(filename)s, 超过最大重试次数 (%(max_retries)s)"
 
 #: app/static/app/js/components/ProjectListItem.jsx:237
 #: app/static/app/js/components/ProjectListItem.jsx:354
 #, python-format
 msgid "Cannot create new task. Invalid response from server: %(error)s"
-msgstr ""
+msgstr "无法创建新任务。来自服务器的无效响应：%(error)s"
 
 #: app/static/app/js/components/ProjectListItem.jsx:240
 #: app/static/app/js/components/ProjectListItem.jsx:358
 msgid "Cannot create new task. Please try again later."
-msgstr ""
+msgstr "无法创建新任务。请稍后再试。"
 
 #: app/static/app/js/components/ProjectListItem.jsx:247
 #, python-format
 msgid ""
 "%(count)s files cannot be uploaded. As a reminder, only images (.jpg, .tif, ."
 "png) and GCP files (.txt) can be uploaded. Try again."
-msgstr ""
+msgstr "%(count)s 文件无法上传。只能上传 (.jpg, .tif, .png)格式图片和(.txt) 格式GCP文件。请重试。"
 
 #: app/static/app/js/components/ProjectListItem.jsx:484
 msgid "Edit Project"
@@ -816,7 +803,7 @@ msgstr "编辑项目"
 
 #: app/static/app/js/components/ProjectListItem.jsx:486
 msgid "Saving changes..."
-msgstr ""
+msgstr "保存更改..."
 
 #: app/static/app/js/components/ProjectListItem.jsx:509
 msgid "Select Images and GCP"
@@ -838,7 +825,7 @@ msgstr "分享"
 
 #: app/static/app/js/components/SharePopup.jsx:78
 msgid "An error occurred. Check your connection and permissions."
-msgstr ""
+msgstr "发生错误。检查您的连接和权限。"
 
 #: app/static/app/js/components/SharePopup.jsx:96
 msgid "Share This Task"
@@ -846,7 +833,7 @@ msgstr "分享该任务"
 
 #: app/static/app/js/components/SharePopup.jsx:105
 msgid "QR"
-msgstr ""
+msgstr "二维码"
 
 #: app/static/app/js/components/SharePopup.jsx:118
 msgid "Enabled"
@@ -874,9 +861,9 @@ msgid "Could not load task list: %(error)s"
 msgstr "无法加载任务列表。%(error)s"
 
 #: app/static/app/js/components/TaskList.jsx:84
-#, fuzzy, python-format
+#, python-format
 msgid "Error: %(error)s"
-msgstr "错误。%(error)s。"
+msgstr "错误：%(error)s。"
 
 #: app/static/app/js/components/TaskList.jsx:84
 msgid "Try again"
@@ -893,24 +880,24 @@ msgstr ""
 
 #: app/static/app/js/components/TaskListItem.jsx:261
 msgid "Not enough images"
-msgstr ""
+msgstr "图像数量不足"
 
 #: app/static/app/js/components/TaskListItem.jsx:262
 msgid "Not enough overlap between images"
-msgstr ""
+msgstr "图片重叠率不足"
 
 #: app/static/app/js/components/TaskListItem.jsx:263
 msgid "Images might be too blurry (common with phone cameras)"
-msgstr ""
+msgstr "图像可能太模糊（常见于手机摄像头）"
 
 #: app/static/app/js/components/TaskListItem.jsx:264
 msgid ""
 "The min-num-features task option is set too low, try increasing it by 25%"
-msgstr ""
+msgstr "min-num-features任务选项设置得太低，请尝试将其增加25%"
 
 #: app/static/app/js/components/TaskListItem.jsx:265
 msgid "here"
-msgstr ""
+msgstr "这里"
 
 #: app/static/app/js/components/TaskListItem.jsx:268
 #, python-format
@@ -920,17 +907,19 @@ msgid ""
 "support or higher. You can still run WebODM if you compile your own docker "
 "images. See %(link)s for more information."
 msgstr ""
+"看起来这台电脑可能太旧了。WebODM需要一台64位CPU支持MMX、SSE、SSE2、SSE3和SSSE3指令集支持或更高版本的计算机。如果使用自行编译"
+"的docker映像，你仍然可以运行WebODM。有关更多信息，请参阅%(link)s。"
 
 #: app/static/app/js/components/TaskListItem.jsx:268
 msgid "this page"
-msgstr ""
+msgstr "本页"
 
 #: app/static/app/js/components/TaskListItem.jsx:270
 msgid ""
 "The processing node is missing a program necessary to complete the task. "
 "This might indicate a corrupted installation. If you built OpenDroneMap, "
 "please check that all programs built without errors."
-msgstr ""
+msgstr "处理节点缺少完成该任务所必需的程序。这可能表明安装已损坏。如果您构建了OpenDroneMap，请检查所有程序构建时没有错误。"
 
 #: app/static/app/js/components/TaskListItem.jsx:310
 #, python-format
@@ -939,7 +928,7 @@ msgstr "从 %(stage)s"
 
 #: app/static/app/js/components/TaskListItem.jsx:322
 msgid "Resume Processing"
-msgstr ""
+msgstr "恢复处理"
 
 #: app/static/app/js/components/TaskListItem.jsx:338
 msgid "Cannot restart task."
@@ -952,7 +941,7 @@ msgstr "无法从某阶段重启任务。"
 #: app/static/app/js/components/TaskListItem.jsx:406
 #, python-format
 msgid "Task #%(number)s"
-msgstr ""
+msgstr "任务 #%(number)s"
 
 #: app/static/app/js/components/TaskListItem.jsx:410
 msgid "Uploading images to processing node"
@@ -960,7 +949,7 @@ msgstr "上传图片到处理节点"
 
 #: app/static/app/js/components/TaskListItem.jsx:412
 msgid "Waiting for a node..."
-msgstr ""
+msgstr "等待节点..."
 
 #: app/static/app/js/components/TaskListItem.jsx:449
 msgid "View 3D Model"
@@ -980,7 +969,7 @@ msgstr "重启"
 msgid ""
 "All information related to this task, including images, maps and models will "
 "be deleted. Continue?"
-msgstr ""
+msgstr "将删除与此任务相关的所有信息，包括图像、地图和模型。继续？"
 
 #: app/static/app/js/components/TaskListItem.jsx:485
 #: app/static/app/js/components/TaskListItem.jsx:701
@@ -1013,7 +1002,7 @@ msgstr "自动"
 
 #: app/static/app/js/components/TaskListItem.jsx:551
 msgid "manual"
-msgstr ""
+msgstr "手动"
 
 #: app/static/app/js/components/TaskListItem.jsx:555
 msgid "Options:"
@@ -1021,27 +1010,27 @@ msgstr "选项："
 
 #: app/static/app/js/components/TaskListItem.jsx:561
 msgid "Average GSD:"
-msgstr ""
+msgstr "平均 GSD："
 
 #: app/static/app/js/components/TaskListItem.jsx:565
 #: coreplugins/measure/public/MeasurePopup.jsx:142
 msgid "Area:"
-msgstr ""
+msgstr "区域："
 
 #: app/static/app/js/components/TaskListItem.jsx:569
 msgid "Reconstructed Points:"
-msgstr ""
+msgstr "重建点:"
 
 #: app/static/app/js/components/TaskListItem.jsx:587
 msgid ""
 "An orthophoto could not be generated. To generate one, make sure GPS "
 "information is embedded in the EXIF tags of your images, or use a Ground "
 "Control Points (GCP) file."
-msgstr ""
+msgstr "无法生成正射影像。请确保GPS信息已经嵌入到图像的EXIF标记中，或者使用地面控制点(GCP)文件。"
 
 #: app/static/app/js/components/TaskListItem.jsx:590
 msgid "enough RAM allocated"
-msgstr ""
+msgstr "已分配足够内存"
 
 #: app/static/app/js/components/TaskListItem.jsx:590
 msgid "cloud processing node"
@@ -1056,10 +1045,12 @@ msgid ""
 "images, make your images smaller, or reduce the max-concurrency parameter "
 "from the task's options. You can also try to use a %(cloudlink)s."
 msgstr ""
+"看起来您处理节点的内存不足。如果您正在使用docker，请确保您的docker环境中有%(memlink)s。或者，确保您有足够的物理内存、减少映像的数量"
+"、使映像更小、或者减少任务选项中的最大并发性参数。您也可以尝试使用%(cloudlink)s。"
 
 #: app/static/app/js/components/TaskListItem.jsx:597
 msgid "open a topic"
-msgstr ""
+msgstr "打开一个主题"
 
 #: app/static/app/js/components/TaskListItem.jsx:597
 #, python-format
@@ -1071,6 +1062,9 @@ msgid ""
 "%(open_a_topic)s on our community forum, making sure to include a copy of "
 "your task's output. Our awesome contributors will try to help you!"
 msgstr ""
+"\"Process exited with code 1\"表示部分处理失败。有时这是数据集的问题，有时可以通过调整任务选项来解决，有时可能是一个bug！"
+"如果您需要帮助，请在我们的社区论坛上上传您的图像，如%(link1)s或%(link2)s和%(open_a_topic)s，确保包含任务输出的副本。我们"
+"的优秀贡献者将尽力帮助您！"
 
 #: app/static/app/js/components/TaskListItem.jsx:644
 msgid "Set a processing node"
@@ -1078,26 +1072,26 @@ msgstr "设置处理节点"
 
 #: app/static/app/js/components/TaskListItem.jsx:649
 msgid "Waiting for image upload..."
-msgstr ""
+msgstr "等待图像上传..."
 
 #: app/static/app/js/components/TaskListItem.jsx:688
 msgid "Move"
-msgstr ""
+msgstr "移动"
 
 #: app/static/app/js/components/UploadProgressBar.jsx:29
 #, python-format
 msgid "remaining to upload: %(bytes)s"
-msgstr ""
+msgstr "剩余上传：%(bytes)s"
 
 #: app/static/app/js/components/UploadProgressBar.jsx:35
 #, python-format
 msgid "%(count)s files %(remaining)s"
-msgstr ""
+msgstr "%(count)s 文件 %(remaining)s"
 
 #: app/static/app/js/components/UploadProgressBar.jsx:36
 #, python-format
 msgid "%(count)s files uploaded successfully"
-msgstr ""
+msgstr "已经成功上传%(count)s 文件"
 
 #: app/static/app/js/translations/odm_autogenerated.js:3
 #, python-format
@@ -1106,6 +1100,8 @@ msgid ""
 "This flag is useful if you have high precision GPS measurements. If there "
 "are no GCPs, this flag does nothing. Default: %(default)s"
 msgstr ""
+"即使GCP数据存在，也请使用图像的GPS "
+"exif数据进行重建。这个标志在有高精度的GPS测量的情况下是有效的。这个标志在没有GCP的情况下什么都不会发生。默认:%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:4
 #, python-format
@@ -1113,7 +1109,7 @@ msgid ""
 "Perform ground rectification on the point cloud. This means that wrongly "
 "classified ground points will be re-classified and gaps will be filled. "
 "Useful for generating DTMs. Default: %(default)s"
-msgstr ""
+msgstr "再点云上执行地面校正。这意味着错误分类的地点将被重新分类，空白将被填补，有助于生成DTMs。默认值:%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:5
 #, python-format
@@ -1123,39 +1119,40 @@ msgid ""
 "orthophoto and do not need a full 3D model, turn on this option. Default: "
 "%(default)s"
 msgstr ""
+"跳过密集重建和三维模型生成。它直接从稀疏重建生成正射影像。如果只需要正射影像而不需要完整的三维模型，请启用此选项。默认值：%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:6
 #, python-format
 msgid ""
 "Export the georeferenced point cloud in CSV format. Default: %(default)s"
-msgstr ""
+msgstr "以CSV格式导出地理参考点云。默认值:%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:7
 #, python-format
 msgid ""
 "Set this parameter if you want to generate a PNG rendering of the "
 "orthophoto. Default: %(default)s"
-msgstr ""
+msgstr "如果要生成正射影像的PNG渲染，请设置此参数。默认值：%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:8
 #, python-format
 msgid ""
 "Export the georeferenced point cloud in Entwine Point Tile (EPT) format. "
 "Default: %(default)s"
-msgstr ""
+msgstr "以 Entwine Point Tile (EPT) 格式导出具有地理参考坐标的点云资料。 默认值： %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:9
 #, python-format
 msgid ""
 "Keep faces in the mesh that are not seen in any camera. Default:  %(default)s"
-msgstr ""
+msgstr "将任何照相机都没有拍到的面保持在网格内。默认:%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:10
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Generate static tiles for orthophotos and DEMs that are suitable for viewers "
 "like Leaflet or OpenLayers. Default: %(default)s"
-msgstr ""
+msgstr "为正射影像和DEM生成适用于Leaflet或OpenLayers的静态贴图。默认值：%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:11
 #, python-format
@@ -1163,26 +1160,26 @@ msgid ""
 "The maximum number of processes to use in various processes. Peak memory "
 "requirement is ~1GB per thread and 2 megapixel image resolution. Default: "
 "%(default)s"
-msgstr ""
+msgstr "各种进程中使用的最大进程数。峰值内存需求是每线程约1GB和200万像素的图像分辨率。默认值：%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:12
 msgid "Displays version number and exits. "
-msgstr ""
+msgstr "显示版本号并退出。 "
 
 #: app/static/app/js/translations/odm_autogenerated.js:13
 #, python-format
 msgid ""
 "Skip generation of a full 3D model. This can save time if you only need 2D "
 "results such as orthophotos and DEMs. Default: %(default)s"
-msgstr ""
+msgstr "跳过生成完整的三维模型。如果只需要正射影像和DEM等二维结果，这可以节省时间。默认值：%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:14
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Distance threshold in meters to find pre-matching images based on GPS exif "
 "data. Set both matcher-neighbors and this to 0 to skip pre-matching. "
 "Default: %(default)s"
-msgstr ""
+msgstr "基于GPS exif数据查找预匹配图像的距离阈值（以米为单位）。设置两个相邻的匹配器设置为0以跳过预匹配。默认值：%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:15
 #, python-format
@@ -1190,7 +1187,7 @@ msgid ""
 "Run local bundle adjustment for every image added to the reconstruction and "
 "a global adjustment every 100 images. Speeds up reconstruction for very "
 "large datasets. Default: %(default)s"
-msgstr ""
+msgstr "对添加到重建中的所有图像执行本地捆绑调整以对每100个图像执行全局调整。通过庞大的数据集提高重建速度。默认值: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:16
 #, python-format
@@ -1198,7 +1195,7 @@ msgid ""
 "Filters the point cloud by removing points that deviate more than N standard "
 "deviations from the local mean. Set to 0 to disable filtering. Default: "
 "%(default)s"
-msgstr ""
+msgstr "通过从局部均值中去除偏离超过N个标准差的点来过滤点云。设置为0禁用过滤。默认值:%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:17
 #, python-format
