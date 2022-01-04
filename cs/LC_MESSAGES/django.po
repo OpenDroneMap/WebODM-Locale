@@ -8,46 +8,48 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 17:15+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-01-05 23:55+0000\n"
+"Last-Translator: Jiří Podhorecký <j.podhorecky@volny.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/webodm/webodm/cs/>"
+"\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: app/admin.py:52
 msgid "Enter custom CSS"
-msgstr ""
+msgstr "Zadejte vlastní CSS"
 
 #: app/admin.py:53 app/models/theme.py:38
 msgid "CSS"
-msgstr ""
+msgstr "CSS"
 
 #: app/admin.py:56
 msgid "HTML that will be displayed above site header"
-msgstr ""
+msgstr "HTML, které se zobrazí nad záhlavím webu"
 
 #: app/admin.py:57 app/models/theme.py:39
 msgid "HTML (before header)"
-msgstr ""
+msgstr "HTML (před záhlavím)"
 
 #: app/admin.py:60
 msgid "HTML that will be displayed after site header"
-msgstr ""
+msgstr "HTML, které se zobrazí za záhlavím webu"
 
 #: app/admin.py:61 app/models/theme.py:40
 msgid "HTML (after header)"
-msgstr ""
+msgstr "HTML (za záhlavím)"
 
 #: app/admin.py:64
 msgid "HTML that will be displayed after the body tag"
-msgstr ""
+msgstr "HTML, které se zobrazí za značkou body"
 
 #: app/admin.py:65 app/models/theme.py:41
 msgid "HTML (after body)"
-msgstr ""
+msgstr "HTML (za body)"
 
 #: app/admin.py:68
 #, python-brace-format
@@ -55,191 +57,225 @@ msgid ""
 "HTML that will be displayed in the footer. You can also use the special tags "
 "such as {ORGANIZATION} and {YEAR}."
 msgstr ""
+"HTML, které se zobrazí v zápatí. Můžete také použít speciální značky, "
+"například {ORGANIZATION} a {YEAR}."
 
 #: app/admin.py:69 app/models/theme.py:42
 msgid "HTML (footer)"
-msgstr ""
+msgstr "HTML (zápatí)"
 
 #: app/admin.py:100 app/models/project.py:25
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #: app/admin.py:106
 msgid "Version"
-msgstr ""
+msgstr "Verze"
 
 #: app/admin.py:112
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: app/admin.py:144
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr ""
+"Nutný restart. Restartujte prosím WebODM, abyste mohli povolit %(plugin)s"
 
 #: app/admin.py:146
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Nelze povolit zásuvný modul %(plugin)s: %(message)s"
 
 #: app/admin.py:154
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr ""
+"Nutný restart. Restartujte prosím WebODM, abyste zcela zakázali %(plugin)s"
 
 #: app/admin.py:156
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Nelze zakázat zásuvný modul %(plugin)s: %(message)s"
 
 #: app/admin.py:164
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Nelze odstranit zásuvný modul %(plugin)s: %(message)s"
 
 #: app/admin.py:208
 msgid "Plugin added successfully"
-msgstr ""
+msgstr "Plugin byl úspěšně přidán"
 
 #: app/admin.py:210
 #, python-format
 msgid "Cannot load plugin: %(message)s"
-msgstr ""
+msgstr "Nelze načíst zásuvný modul: %(message)s"
 
 #: app/admin.py:216
 msgid "You need to upload a zip file"
-msgstr ""
+msgstr "Musíte nahrát soubor zip"
 
 #: app/admin.py:230
 msgid "Disable"
-msgstr ""
+msgstr "Vypnout"
 
 #: app/admin.py:233
 msgid "Enable"
-msgstr ""
+msgstr "Zapnout"
 
 #: app/admin.py:238
 msgid "Actions"
-msgstr ""
+msgstr "Akce"
 
 #: app/api/formulas.py:12 app/api/formulas.py:16
 msgid ""
 "Normalized Difference Vegetation Index shows the amount of green vegetation."
 msgstr ""
+"Normalizovaný diferenční vegetační index udává množství zelené vegetace."
 
 #: app/api/formulas.py:20
 msgid ""
 "Enhanced Normalized Difference Vegetation Index is like NDVI, but uses Blue "
 "and Green bands instead of only Red to isolate plant health."
 msgstr ""
+"Vylepšený normovaný rozdílový vegetační index je podobný indexu NDVI, ale k "
+"izolaci zdraví rostlin používá modré a zelené pásmo namísto pouze červeného."
 
 #: app/api/formulas.py:24
 msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
 msgstr ""
+"Viditelný index NDVI je nenormalizovaný index pro senzory RGB používající "
+"konstanty odvozené z údajů o plodinách citrusů, vinné révy a cukrové třtiny."
 
 #: app/api/formulas.py:28
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
-msgstr ""
+msgstr "Vizuální index atmosférického odporu zobrazuje plochy vegetace."
 
 #: app/api/formulas.py:33
 msgid ""
 "Excess Green Index (derived from only the RGB bands) emphasizes the "
 "greenness of leafy crops such as potatoes."
 msgstr ""
+"Index nadměrné zeleně (odvozený pouze z pásem RGB) zdůrazňuje zelenou barvu "
+"listnatých plodin, jako jsou brambory."
 
 #: app/api/formulas.py:37
 msgid ""
 "Triangular Greenness Index (derived from only the RGB bands) performs "
 "similarly to EXG but with improvements over certain environments."
 msgstr ""
+"Trojúhelníkový index zeleně (odvozený pouze z pásem RGB) funguje podobně "
+"jako EXG, ale s vylepšením v určitých prostředích."
 
 #: app/api/formulas.py:41
 msgid ""
 "Burn Area Index hightlights burned land in the red to near-infrared spectrum."
 msgstr ""
+"Burn Area Index zvýrazňuje spálenou půdu v červeném až blízkém infračerveném "
+"spektru."
 
 #: app/api/formulas.py:45
 msgid "Green Leaf Index shows greens leaves and stems."
-msgstr ""
+msgstr "Index zelených listů zobrazuje zelené listy a stonky."
 
 #: app/api/formulas.py:50
 msgid ""
 "Green Normalized Difference Vegetation Index is similar to NDVI, but "
 "measures the green spectrum instead of red."
 msgstr ""
+"Zelený normalizovaný rozdílový vegetační index je podobný indexu NDVI, ale "
+"měří zelené spektrum namísto červeného."
 
 #: app/api/formulas.py:54
 msgid ""
 "Green Ratio Vegetation Index is sensitive to photosynthetic rates in forests."
 msgstr ""
+"Vegetační index zeleného poměru je citlivý na míru fotosyntézy v lesích."
 
 #: app/api/formulas.py:58
 msgid ""
 "Soil Adjusted Vegetation Index is similar to NDVI but attempts to remove the "
 "effects of soil areas using an adjustment factor (0.5)."
 msgstr ""
+"Půdně upravený vegetační index je podobný indexu NDVI, ale snaží se "
+"odstranit vliv půdních ploch pomocí korekčního faktoru (0,5)."
 
 #: app/api/formulas.py:62
 msgid ""
 "Modified Non-Linear Index improves the Non-Linear Index algorithm to account "
 "for soil areas."
 msgstr ""
+"Modifikovaný nelineární index vylepšuje algoritmus nelineárního indexu tak, "
+"aby zohledňoval plochy půdy."
 
 #: app/api/formulas.py:66
 msgid ""
 "Modified Simple Ratio is an improvement of the Simple Ratio (SR) index to be "
 "more sensitive to vegetation."
 msgstr ""
+"Modifikovaný jednoduchý poměr je vylepšený index jednoduchého poměru (SR), "
+"který je citlivější na vegetaci."
 
 #: app/api/formulas.py:70
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
 msgstr ""
+"Renormalizovaný diferenční vegetační index využívá rozdíl mezi blízkou a "
+"červenou barvou a index NDVI k zobrazení oblastí se zdravou vegetací."
 
 #: app/api/formulas.py:74
 msgid ""
 "Transformed Difference Vegetation Index highlights vegetation cover in urban "
 "environments."
 msgstr ""
+"Transformovaný diferenční vegetační index zvýrazňuje vegetační pokryv v "
+"městském prostředí."
 
 #: app/api/formulas.py:78
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
 msgstr ""
+"Optimalizovaný index vegetace upravený podle půdy vychází z indexu SAVI, ale "
+"má tendenci fungovat lépe v oblastech s malou vegetací, kde je půda "
+"viditelná."
 
 #: app/api/formulas.py:82
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
 msgstr ""
+"Index listové plochy odhaduje plochy olistění a předpovídá výnosy plodin."
 
 #: app/api/formulas.py:87
 msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
 msgstr ""
+"Rozšířený vegetační index je užitečný v oblastech, kde může být NDVI "
+"nasycený, protože využívá modré vlnové délky ke korekci půdních signálů."
 
 #: app/api/projects.py:67
 msgid "Cannot duplicate project"
-msgstr ""
+msgstr "Nelze duplikovat projekt"
 
 #: app/api/projects.py:134
 msgid "Invalid user in permissions list"
-msgstr ""
+msgstr "Neplatný uživatel v seznamu oprávnění"
 
 #: app/api/projects.py:136
 msgid "Invalid permissions"
-msgstr ""
+msgstr "Neplatná oprávnění"
 
 #: app/api/tasks.py:183
 msgid "You need to upload at least 2 images before commit"
-msgstr ""
+msgstr "Před odevzdáním je třeba nahrát alespoň 2 obrázky"
 
 #: app/api/tasks.py:205
 msgid "No files uploaded"
-msgstr ""
+msgstr "Nebyly nahrány žádné soubory"
 
 #: app/api/tasks.py:234
 msgid "Cannot duplicate task"
