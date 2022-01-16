@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 17:15+0000\n"
-"PO-Revision-Date: 2021-11-05 18:31+0000\n"
-"Last-Translator: Nico Ninov <weblate@nicomputer.de>\n"
+"PO-Revision-Date: 2022-01-17 17:53+0000\n"
+"Last-Translator: pvitt <pvitt@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/webodm/webodm/de/>"
 "\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: app/admin.py:52
 msgid "Enter custom CSS"
@@ -80,45 +80,46 @@ msgstr "Autor"
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr ""
+"Neustart erforderlich. Um %(plugin)s zu aktivieren, starten Sie WebOD neu"
 
 #: app/admin.py:146
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Plugin %(plugin)s kann nicht aktiviert werden: %(message)s"
 
 #: app/admin.py:154
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr ""
+"Neustart erforderlich. Starten Sie WebODM neu, um %(plugin)s vollständig zu "
+"deaktivieren"
 
 #: app/admin.py:156
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Plugin %(plugin)s kann nicht deaktiviert werden: %(message)s"
 
 #: app/admin.py:164
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Plugin %(plugin)s kann nicht gelöscht werden: %(message)s"
 
 #: app/admin.py:208
 msgid "Plugin added successfully"
-msgstr ""
+msgstr "Plugin erfolgreich hinzugefügt"
 
 #: app/admin.py:210
 #, python-format
 msgid "Cannot load plugin: %(message)s"
-msgstr ""
+msgstr "Plugin kann nicht geladen werden: %(message)s"
 
 #: app/admin.py:216
-#, fuzzy
-#| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload a zip file"
-msgstr "Man benötigt mindestens 2 Bilder"
+msgstr "Sie müssen ein Zip-Archiv hochladen"
 
 #: app/admin.py:230
 msgid "Disable"
-msgstr ""
+msgstr "Deaktivieren"
 
 #: app/admin.py:233
 msgid "Enable"
@@ -149,20 +150,21 @@ msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
 msgstr ""
+"Visible NDVI ist ein nicht normalisierter Index für RGB-Sensoren, der von "
+"Ertragsdaten von Zitrusgewächsen, Trauben und Zuckerrohr abgeleitete "
+"Konstanten verwendet."
 
 #: app/api/formulas.py:28
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
 msgstr "Der Visual Atmospheric Resistance Index zeigt die Vegetationsflächen."
 
 #: app/api/formulas.py:33
-#, fuzzy
-#| msgid ""
-#| "Excess Green Index emphasizes the greenness of leafy crops such as "
-#| "potatoes."
 msgid ""
 "Excess Green Index (derived from only the RGB bands) emphasizes the "
 "greenness of leafy crops such as potatoes."
-msgstr "Excess Green Index betont das Grün von Blattfrüchten wie Kartoffeln."
+msgstr ""
+"Excess Green Index (nur von den RGB-Kanälen abgeleitet) betont das Grün von "
+"Blattfrüchten wie Kartoffeln."
 
 #: app/api/formulas.py:37
 msgid ""
@@ -240,7 +242,7 @@ msgstr ""
 
 #: app/api/projects.py:67
 msgid "Cannot duplicate project"
-msgstr ""
+msgstr "Projekt kann nicht dupliziert werden"
 
 #: app/api/projects.py:134
 msgid "Invalid user in permissions list"
@@ -260,7 +262,7 @@ msgstr "Keine Dateien geladen"
 
 #: app/api/tasks.py:234
 msgid "Cannot duplicate task"
-msgstr ""
+msgstr "Aufgabe kann nicht dupliziert werden"
 
 #: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
@@ -273,7 +275,7 @@ msgstr "Asset existiert nicht"
 
 #: app/api/tasks.py:417
 msgid "Imported Task"
-msgstr ""
+msgstr "Importierte Aufgabe"
 
 #: app/api/tasks.py:420
 msgid "Cannot create task, you need to upload 1 file"
@@ -342,7 +344,7 @@ msgstr ""
 
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
-msgstr ""
+msgstr "Aufgabe, zu der dieses Bild gehört"
 
 #: app/models/image_upload.py:10 app/models/task.py:270
 msgid "Task"
@@ -379,7 +381,7 @@ msgstr ""
 
 #: app/models/plugin.py:6
 msgid "Enabled"
-msgstr "aktiviert"
+msgstr "Aktiviert"
 
 #: app/models/plugin.py:20
 msgid "Plugin"
