@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 17:15+0000\n"
-"PO-Revision-Date: 2021-02-01 10:39+0000\n"
-"Last-Translator: Gunduzhan Gunduz <gunduzhan@gmail.com>\n"
+"PO-Revision-Date: 2022-01-25 08:56+0000\n"
+"Last-Translator: Buğrahan Karlılar <serhanbugrahan735@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/webodm/webodm/tr/"
 ">\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: app/admin.py:52
 msgid "Enter custom CSS"
@@ -80,51 +80,51 @@ msgstr "Yazar"
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr ""
+"Yeniden başlatma gerekli. Lütfen %(plugin)s aktifleştirmek için WebODM'i "
+"yeniden başlatın"
 
 #: app/admin.py:146
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Eklenti etkinleştirilemiyor %(plugin)s : %(message)s"
 
 #: app/admin.py:154
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr ""
+"Yeniden başlatma gerekli. Lütfen %(plugin)s tamamen devre dışı bırakmak için "
+"WebODM'i yeniden başlatın"
 
 #: app/admin.py:156
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Eklenti devre dışı bırakılamıyor %(plugin)s: %(message)s"
 
 #: app/admin.py:164
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Eklenti silinemiyor %(plugin)s: %(message)s"
 
 #: app/admin.py:208
 msgid "Plugin added successfully"
-msgstr ""
+msgstr "Eklenti başarıyla eklendi"
 
 #: app/admin.py:210
 #, python-format
 msgid "Cannot load plugin: %(message)s"
-msgstr ""
+msgstr "Eklenti yüklenemiyor: %(message)s"
 
 #: app/admin.py:216
-#, fuzzy
-#| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload a zip file"
-msgstr "Kaydetmeden önce en az 2 resim yüklemelisiniz"
+msgstr "Kaydetmeden önce bir zip dosyası yüklemelisiniz"
 
 #: app/admin.py:230
 msgid "Disable"
-msgstr ""
+msgstr "Devre dışı bırak"
 
 #: app/admin.py:233
-#, fuzzy
-#| msgid "Enabled"
 msgid "Enable"
-msgstr "Aktif"
+msgstr "Etkinleştir"
 
 #: app/admin.py:238
 msgid "Actions"
@@ -157,21 +157,20 @@ msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
 msgstr "Görsel Atmosferik Direnç Endeksi, bitki örtüsünün alanlarını gösterir."
 
 #: app/api/formulas.py:33
-#, fuzzy
-#| msgid ""
-#| "Excess Green Index emphasizes the greenness of leafy crops such as "
-#| "potatoes."
 msgid ""
 "Excess Green Index (derived from only the RGB bands) emphasizes the "
 "greenness of leafy crops such as potatoes."
 msgstr ""
-"Fazla Yeşil İndeks, patates gibi yapraklı mahsullerin yeşilliğini vurgular."
+"Fazla Yeşil İndeks (sadece RGB bantlarından türemiş), patates gibi yapraklı "
+"mahsullerin yeşilliğini vurgular."
 
 #: app/api/formulas.py:37
 msgid ""
 "Triangular Greenness Index (derived from only the RGB bands) performs "
 "similarly to EXG but with improvements over certain environments."
 msgstr ""
+"Üçgen Yeşillik İndeksi (yalnızca RGB bantlarından türetilmiş), belirli "
+"ortamlarda iyileştirmelerle EXG'ye benzer şekilde çalışır."
 
 #: app/api/formulas.py:41
 msgid ""
@@ -264,15 +263,15 @@ msgstr ""
 
 #: app/api/projects.py:67
 msgid "Cannot duplicate project"
-msgstr ""
+msgstr "Proje çoğaltılamıyor"
 
 #: app/api/projects.py:134
 msgid "Invalid user in permissions list"
-msgstr ""
+msgstr "İzinler listesinde geçersiz kullanıcı"
 
 #: app/api/projects.py:136
 msgid "Invalid permissions"
-msgstr ""
+msgstr "Geçersiz izin"
 
 #: app/api/tasks.py:183
 msgid "You need to upload at least 2 images before commit"
@@ -284,7 +283,7 @@ msgstr "Dosya yüklenmedi"
 
 #: app/api/tasks.py:234
 msgid "Cannot duplicate task"
-msgstr ""
+msgstr "Görev çoğaltılamıyor"
 
 #: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
@@ -313,15 +312,15 @@ msgstr ""
 
 #: app/api/tiler.py:347 app/api/tiler.py:410
 msgid "Outside of bounds"
-msgstr ""
+msgstr "Sınır dışı"
 
 #: app/api/tiler.py:358
 msgid "Invalid boundaries"
-msgstr ""
+msgstr "Geçersiz sınır"
 
 #: app/api/tiler.py:416 app/api/tiler.py:513
 msgid "Not a valid color_map value"
-msgstr ""
+msgstr "Geçerli bir color_map değeri değil"
 
 #: app/api/tiler.py:422
 msgid "Invalid rescale value"
@@ -529,7 +528,7 @@ msgstr ""
 
 #: app/models/project.py:84 app/models/task.py:229
 msgid "Project"
-msgstr ""
+msgstr "Proje"
 
 #: app/models/project.py:85
 msgid "Projects"
@@ -916,7 +915,7 @@ msgstr ""
 
 #: app/models/theme.py:35
 msgid "Failed"
-msgstr ""
+msgstr "Başarısız Oldu"
 
 #: app/models/theme.py:36
 msgid "The background color of success notifications."
@@ -1327,7 +1326,7 @@ msgstr ""
 
 #: app/templates/app/dashboard.html:28
 msgid "Select Images and GCP"
-msgstr ""
+msgstr "Görselleri ve GCP'yi seçin"
 
 #: app/templates/app/dashboard.html:30
 #, python-format
