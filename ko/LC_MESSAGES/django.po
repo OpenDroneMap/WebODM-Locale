@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 17:15+0000\n"
-"PO-Revision-Date: 2022-01-14 04:52+0000\n"
+"PO-Revision-Date: 2022-01-25 08:56+0000\n"
 "Last-Translator: Park Jeongyong <kladess@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/webodm/webodm/ko/>"
 "\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: app/admin.py:52
 msgid "Enter custom CSS"
@@ -79,7 +79,7 @@ msgstr "작성자"
 #: app/admin.py:144
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
-msgstr ""
+msgstr "다시 시작해야 합니다. %(plugin)s를 활성화하려면 WebODM을 다시 시작하십시오."
 
 #: app/admin.py:146
 #, python-format
@@ -89,17 +89,17 @@ msgstr ""
 #: app/admin.py:154
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
-msgstr ""
+msgstr "다시 시작해야 합니다. %(plugin)s를 완전히 비활성화하려면 WebODM을 다시 시작하십시오."
 
 #: app/admin.py:156
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "플러그인 %(plugin)s를 비활성화할 수 없음: %(message)s"
 
 #: app/admin.py:164
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "플러그인 %(plugin)s를 삭제할 수 없습니다: %(message)s"
 
 #: app/admin.py:208
 msgid "Plugin added successfully"
@@ -144,6 +144,7 @@ msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
 msgstr ""
+"Visible NDVI는 감귤류, 포도 및 사탕수수 작물 데이터에서 파생된 상수를 사용하는 RGB 센서에 대한 비정규화 지수입니다."
 
 #: app/api/formulas.py:28
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
@@ -152,22 +153,16 @@ msgstr ""
 "니다."
 
 #: app/api/formulas.py:33
-#, fuzzy
-#| msgid ""
-#| "Excess Green Index emphasizes the greenness of leafy crops such as "
-#| "potatoes."
 msgid ""
 "Excess Green Index (derived from only the RGB bands) emphasizes the "
 "greenness of leafy crops such as potatoes."
-msgstr ""
-"과잉녹색지수(Excess Green Index)는 감자와 같은 잎이 많은 작물의 녹색성을 강조"
-"합니다."
+msgstr "과잉 녹색 지수(RGB 밴드에서만 파생됨)는 감자와 같은 잎이 많은 작물의 녹색을 강조합니다."
 
 #: app/api/formulas.py:37
 msgid ""
 "Triangular Greenness Index (derived from only the RGB bands) performs "
 "similarly to EXG but with improvements over certain environments."
-msgstr ""
+msgstr "삼각형 녹색도 지수(RGB 밴드에서만 파생됨)는 EXG와 유사하지만 특정 환경에서 개선된 성능을 보입니다."
 
 #: app/api/formulas.py:41
 msgid ""
@@ -253,15 +248,15 @@ msgstr ""
 
 #: app/api/projects.py:67
 msgid "Cannot duplicate project"
-msgstr ""
+msgstr "프로젝트를 복제할 수 없습니다"
 
 #: app/api/projects.py:134
 msgid "Invalid user in permissions list"
-msgstr ""
+msgstr "사용 권한 목록에서 잘못된 사용자"
 
 #: app/api/projects.py:136
 msgid "Invalid permissions"
-msgstr ""
+msgstr "잘못된 권한"
 
 #: app/api/tasks.py:183
 msgid "You need to upload at least 2 images before commit"
@@ -273,7 +268,7 @@ msgstr "업로드된 파일이 없습니다"
 
 #: app/api/tasks.py:234
 msgid "Cannot duplicate task"
-msgstr ""
+msgstr "작업을 복제할 수 없습니다"
 
 #: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
@@ -299,23 +294,23 @@ msgstr ""
 
 #: app/api/tiler.py:311
 msgid "Invalid boundaries parameter"
-msgstr ""
+msgstr "잘못된 경계 매개변수"
 
 #: app/api/tiler.py:347 app/api/tiler.py:410
 msgid "Outside of bounds"
-msgstr ""
+msgstr "범위를 벗어남"
 
 #: app/api/tiler.py:358
 msgid "Invalid boundaries"
-msgstr ""
+msgstr "잘못된 경계"
 
 #: app/api/tiler.py:416 app/api/tiler.py:513
 msgid "Not a valid color_map value"
-msgstr ""
+msgstr "유효한 color_map 값이 아닙니다"
 
 #: app/api/tiler.py:422
 msgid "Invalid rescale value"
-msgstr ""
+msgstr "잘못된 재조정 값"
 
 #: app/api/tiler.py:431
 msgid "Invalid hillshade value"
@@ -323,36 +318,36 @@ msgstr "잘못된 hillshade 값"
 
 #: app/api/tiler.py:434
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
-msgstr ""
+msgstr "고도가 없는 래스터의 색조를 계산할 수 없습니다(여러 대역 발견)"
 
 #: app/api/tiler.py:451
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
-msgstr ""
+msgstr "타일을 처리할 수 없음: 강도 이미지가 제공되었지만 RGB 데이터가 계산되지 않았습니다."
 
 #: app/api/tiler.py:498 app/api/tiler.py:500
 #, python-format
 msgid "Unsupported format: %(value)s"
-msgstr ""
+msgstr "지원되지 않는 형식: %(value)s"
 
 #: app/api/tiler.py:519
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr ""
+msgstr "잘못된 EPSG 코드: %(value)s"
 
 #: app/api/tiler.py:522
 msgid "Both formula and bands parameters are required"
-msgstr ""
+msgstr "공식 및 대역 매개변수가 모두 필요합니다"
 
 #: app/api/tiler.py:542
-#, python-format
+#, fuzzy, python-format
 msgid "Invalid rescale value: %(value)s"
-msgstr ""
+msgstr "잘못된 재조정 값: %(value)s"
 
 #: app/api/tiler.py:550
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
-msgstr ""
+msgstr "잘못된 힐쉐이드 값: %(value)s"
 
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
@@ -519,7 +514,7 @@ msgstr "삭제 중"
 #: app/models/project.py:61 app/models/task.py:412
 #, python-format
 msgid "Copy of %(task)s"
-msgstr ""
+msgstr "%(task)s 사본"
 
 #: app/models/project.py:84 app/models/task.py:229
 msgid "Project"
@@ -1506,11 +1501,11 @@ msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:6
 msgid "Import images from external sources directly"
-msgstr ""
+msgstr "외부 소스에서 직접 이미지 가져오기"
 
 #: app/translations/plugin_manifest_autogenerated.py:7
 msgid "Compute, preview and export contours from DEMs"
-msgstr ""
+msgstr "DEM에서 등고선 계산, 미리보기 및 내보내기"
 
 #: app/translations/plugin_manifest_autogenerated.py:8
 msgid "Display program version, memory and disk space usage statistics"
