@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 17:15+0000\n"
-"PO-Revision-Date: 2022-01-31 06:31+0000\n"
+"PO-Revision-Date: 2022-02-01 14:53+0000\n"
 "Last-Translator: Rumi Kuribayashi <rumikr02005@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/webodm/webodm/"
 "ja/>\n"
@@ -143,10 +143,11 @@ msgstr ""
 "るために赤色だけではなく青色と緑色域を使用します。"
 
 #: app/api/formulas.py:24
+#, fuzzy
 msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
-msgstr ""
+msgstr "可視光NDVIは、RGBセンサー用の正規化されていない指標で、柑橘類、ブドウ、サトウキビの作物データから得られた定数を使用しています。"
 
 #: app/api/formulas.py:28
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
@@ -214,13 +215,10 @@ msgstr ""
 "り感受性があります。"
 
 #: app/api/formulas.py:70
-#, fuzzy
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
-msgstr ""
-"再正規化植生指数は近赤外線と赤色光の間の差異を用い、NDVIに加えて健全な植生の"
-"範囲を示します。"
+msgstr "再正規化植生指数は近赤外線と赤色光の間の差異を用い、NDVIに加えて健全な植生の範囲を示します。"
 
 #: app/api/formulas.py:74
 msgid ""
@@ -255,12 +253,14 @@ msgid "Cannot duplicate project"
 msgstr "プロジェクトを複製できません"
 
 #: app/api/projects.py:134
+#, fuzzy
 msgid "Invalid user in permissions list"
-msgstr ""
+msgstr "権限リストの無効なユーザー"
 
 #: app/api/projects.py:136
+#, fuzzy
 msgid "Invalid permissions"
-msgstr ""
+msgstr "無効な権限"
 
 #: app/api/tasks.py:183
 msgid "You need to upload at least 2 images before commit"
@@ -298,63 +298,71 @@ msgstr ""
 "い。"
 
 #: app/api/tiler.py:311
+#, fuzzy
 msgid "Invalid boundaries parameter"
-msgstr ""
+msgstr "無効な境界線パラメータ"
 
 #: app/api/tiler.py:347 app/api/tiler.py:410
+#, fuzzy
 msgid "Outside of bounds"
-msgstr ""
+msgstr "境界線の外側"
 
 #: app/api/tiler.py:358
+#, fuzzy
 msgid "Invalid boundaries"
-msgstr ""
+msgstr "無効な境界線"
 
 #: app/api/tiler.py:416 app/api/tiler.py:513
+#, fuzzy
 msgid "Not a valid color_map value"
-msgstr ""
+msgstr "有効なcolor_mapの値ではない"
 
 #: app/api/tiler.py:422
+#, fuzzy
 msgid "Invalid rescale value"
-msgstr ""
+msgstr "無効な再スケール値"
 
 #: app/api/tiler.py:431
 #, fuzzy
 #| msgid "Invalid zip file"
 msgid "Invalid hillshade value"
-msgstr "無効なzipファイル"
+msgstr "無効な陰影起伏値"
 
 #: app/api/tiler.py:434
+#, fuzzy
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
-msgstr ""
+msgstr "非標高ラスターの陰影起伏を計算できません（複数のバンドが見つかりました）"
 
 #: app/api/tiler.py:451
+#, fuzzy
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
-msgstr ""
+msgstr "タイルを処理できません：強度画像は提供されましたが、RGBデータは計算されませんでした。"
 
 #: app/api/tiler.py:498 app/api/tiler.py:500
-#, python-format
+#, fuzzy, python-format
 msgid "Unsupported format: %(value)s"
-msgstr ""
+msgstr "サポートされていない形式：%(value)s"
 
 #: app/api/tiler.py:519
-#, python-format
+#, fuzzy, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr ""
+msgstr "無効な EPSG コード: %(value)s"
 
 #: app/api/tiler.py:522
+#, fuzzy
 msgid "Both formula and bands parameters are required"
-msgstr ""
+msgstr "数式とバンドの両方のパラメータが必要です"
 
 #: app/api/tiler.py:542
-#, python-format
+#, fuzzy, python-format
 msgid "Invalid rescale value: %(value)s"
-msgstr ""
+msgstr "無効な再スケール値：%(value)s"
 
 #: app/api/tiler.py:550
-#, python-format
+#, fuzzy, python-format
 msgid "Invalid hillshade value: %(value)s"
-msgstr ""
+msgstr "無効な陰影起伏値：%(value)s"
 
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
@@ -787,11 +795,12 @@ msgstr ""
 #: app/models/task.py:266
 #, fuzzy
 msgid "Potree Scene"
-msgstr "Potree Scene"
+msgstr "Potreeシーン"
 
 #: app/models/task.py:267
+#, fuzzy
 msgid "EPSG code of the dataset (if georeferenced)"
-msgstr ""
+msgstr "データセットのEPSGコード（地理参照されている場合）"
 
 #: app/models/task.py:271
 msgid "Tasks"
@@ -1067,12 +1076,14 @@ msgstr ""
 "ユーザー <strong>%(username)s</strong>の新しいパスワードを入力してください。"
 
 #: app/templates/app/admin/base_site.html:3
+#, fuzzy
 msgid "Django site admin"
-msgstr ""
+msgstr "Djangoサイト管理者"
 
 #: app/templates/app/admin/base_site.html:6
+#, fuzzy
 msgid "Django administration"
-msgstr ""
+msgstr "Djangoの管理"
 
 #: app/templates/app/admin/change_form.html:21
 #: app/templates/app/admin/change_list.html:49
@@ -1088,8 +1099,9 @@ msgstr "履歴"
 #: app/templates/app/admin/change_form.html:35
 #: app/templates/app/admin/edit_inline/stacked.html:14
 #: app/templates/app/admin/edit_inline/tabular.html:36
+#, fuzzy
 msgid "View on site"
-msgstr ""
+msgstr "サイト内の表示"
 
 #: app/templates/app/admin/change_list.html:69
 msgid "Filter"
@@ -1104,17 +1116,19 @@ msgid "Manage Plugins"
 msgstr "プラグインの管理"
 
 #: app/templates/app/admin/change_list_results.html:17
+#, fuzzy
 msgid "Remove from sorting"
-msgstr ""
+msgstr "並べ替えから削除"
 
 #: app/templates/app/admin/change_list_results.html:18
-#, python-format
+#, fuzzy, python-format
 msgid "Sorting priority: %(priority_number)s"
-msgstr ""
+msgstr "並べ替えの優先順位: %(priority_number)s"
 
 #: app/templates/app/admin/change_list_results.html:19
+#, fuzzy
 msgid "Toggle sorting"
-msgstr ""
+msgstr "並べ替えを切り替える"
 
 #: app/templates/app/admin/delete_confirmation.html:17
 #: app/templates/app/admin/related_widget_wrapper.html:23
@@ -1130,13 +1144,16 @@ msgid ""
 "related objects, but your account doesn't have permission to delete the "
 "following types of objects:"
 msgstr ""
+"%(object_name)s '%(escaped_object)s'を削除すると、関連するオブジェクトを削除することになりますが、あなたのアカウントに"
+"は以下の種類のオブジェクトを削除する権限がありません。"
 
 #: app/templates/app/admin/delete_confirmation.html:30
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
 "following protected related objects:"
 msgstr ""
+"%(object_name)s '%(escaped_object)s'を削除するには、以下の保護された関連オブジェクトを削除する必要があります。"
 
 #: app/templates/app/admin/delete_confirmation.html:37
 #, python-format
@@ -1154,9 +1171,8 @@ msgstr "オブジェクト"
 
 #: app/templates/app/admin/delete_confirmation.html:46
 #: app/templates/app/admin/delete_selected_confirmation.html:49
-#, fuzzy
 msgid "Yes, I'm sure"
-msgstr "はい、確かに"
+msgstr "はい、大丈夫です"
 
 #: app/templates/app/admin/delete_confirmation.html:47
 #: app/templates/app/admin/delete_selected_confirmation.html:50
@@ -1175,20 +1191,22 @@ msgid ""
 "objects, but your account doesn't have permission to delete the following "
 "types of objects:"
 msgstr ""
+"選択した%(objects_name)sを削除すると、関連するオブジェクトが削除されますが、あなたのアカウントには、次の種類のオブジェクトを削除する権限が"
+"ありません'。"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:29
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Deleting the selected %(objects_name)s would require deleting the following "
 "protected related objects:"
-msgstr ""
+msgstr "選択された%(objects_name)sを削除するには、以下の保護された関連オブジェクトを削除する必要があります。"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:36
 #, python-format
 msgid ""
 "Are you sure you want to delete the selected %(objects_name)s? All of the "
 "following objects and their related items will be deleted:"
-msgstr ""
+msgstr "選択した%(objects_name)sを削除してよろしいですか？以下のオブジェクトとその関連アイテムがすべて削除されます。"
 
 #: app/templates/app/admin/edit_inline/stacked.html:12
 #: app/templates/app/admin/edit_inline/tabular.html:34
@@ -1204,16 +1222,16 @@ msgstr "削除？"
 #: app/templates/app/admin/filter.html:2
 #, python-format
 msgid " By %(filter_title)s "
-msgstr ""
+msgstr " %(filter_title)sによる "
 
 #: app/templates/app/admin/includes/object_delete_summary.html:2
 msgid "Summary"
 msgstr "要約"
 
 #: app/templates/app/admin/index.html:20
-#, python-format
+#, fuzzy, python-format
 msgid "Models in the %(name)s application"
-msgstr ""
+msgstr "%(name)s アプリケーション内のモデル"
 
 #: app/templates/app/admin/index.html:31
 #: app/templates/app/admin/related_widget_wrapper.html:16
@@ -1241,18 +1259,21 @@ msgid "Unknown content"
 msgstr "不明なコンテンツ"
 
 #: app/templates/app/admin/invalid_setup.html:12
+#, fuzzy
 msgid ""
 "Something's wrong with your database installation. Make sure the appropriate "
 "database tables have been created, and make sure the database is readable by "
 "the appropriate user."
 msgstr ""
+"データベースのインストールに問題があります。適切なデータベーステーブルが作成されていることを確認し、データベースが適切なユーザーによって読めることを確認し"
+"てください。"
 
 #: app/templates/app/admin/login.html:37
 #, python-format
 msgid ""
 "You are authenticated as %(username)s, but are not authorized to access this "
 "page. Would you like to login to a different account?"
-msgstr ""
+msgstr "あなたは%(username)sとして認証されていますが、このページにアクセスする権限がありません。別のアカウントでログインしてますか？"
 
 #: app/templates/app/admin/login.html:57
 msgid "Forgotten your password or username?"
@@ -1274,7 +1295,7 @@ msgstr "動作"
 msgid ""
 "This object doesn't have a change history. It probably wasn't added via this "
 "admin site."
-msgstr ""
+msgstr "このオブジェクトには変更履歴がありません。この管理サイト経由で追加されたものではないと思われます。"
 
 #: app/templates/app/admin/pagination.html:10
 #: app/templates/app/admin/search_form.html:9
@@ -1298,7 +1319,7 @@ msgstr "選択した%(model)sを変更"
 #: app/templates/app/admin/related_widget_wrapper.html:15
 #, python-format
 msgid "Add another %(model)s"
-msgstr ""
+msgstr "別の%(model)sを追加"
 
 #: app/templates/app/admin/related_widget_wrapper.html:22
 #, python-format
@@ -1330,7 +1351,6 @@ msgid "Save and add another"
 msgstr "保存して別のファイルを追加"
 
 #: app/templates/app/admin/submit_line.html:10
-#, fuzzy
 msgid "Save and continue editing"
 msgstr "保存して編集を継続"
 
@@ -1350,6 +1370,8 @@ msgid ""
 "running an instance of %(nodeodm_link)s or some other software implementing "
 "this %(api_link)s."
 msgstr ""
+"開始するには、\"%(add_processing_node)s\"。処理ノードとは、%(nodeodm_link)sのインスタンスを実行しているコンピュ"
+"ータや、この%(api_link)sを実装しているその他のソフトウェアのことです。"
 
 #: app/templates/app/dashboard.html:28
 msgid "Select Images and GCP"
@@ -1360,7 +1382,7 @@ msgstr "画像とGCPを選択"
 msgid ""
 "To create a map, press the \"%(upload_images)s\" button, or drag and drop "
 "some images into a project."
-msgstr ""
+msgstr "マップを作成するには、\"%(upload_images)s\"ボタンを押すか、画像をプロジェクトにドラッグ＆ドロップします。"
 
 #: app/templates/app/dashboard.html:34
 msgid "You need at least 5 images"
@@ -1402,7 +1424,7 @@ msgstr "現在地："
 msgid ""
 "To change locale, modify your browser's locale settings, then refresh the "
 "page, or use the set locale button below."
-msgstr ""
+msgstr "ロケールを変更するには、ブラウザのロケール設定を変更してからページを更新するか、下のロケール設定ボタンを使用します。"
 
 #: app/templates/app/dev_tools.html:18
 msgid "Translation Files (.zip):"
@@ -1416,7 +1438,7 @@ msgstr "翻訳ファイルをダウンロードして置換えます"
 #, fuzzy
 #| msgid "Current Locale:"
 msgid "Set locale:"
-msgstr "現在地："
+msgstr "ロケールの設定："
 
 #: app/templates/app/dev_tools.html:29
 msgid "Apply"
@@ -1488,12 +1510,14 @@ msgid "Engine Version"
 msgstr "エンジンバージョン"
 
 #: app/templates/app/processing_node.html:31 nodeodm/models.py:25
+#, fuzzy
 msgid "Queue Count"
-msgstr ""
+msgstr "キューの数"
 
 #: app/templates/app/processing_node.html:35
+#, fuzzy
 msgid "Max Images Limit"
-msgstr ""
+msgstr "最大画像数の制限"
 
 #: app/templates/app/processing_node.html:39 nodeodm/models.py:30
 msgid "Label"
@@ -1501,7 +1525,7 @@ msgstr "ラベル"
 
 #: app/templates/app/processing_node.html:43 nodeodm/models.py:24
 msgid "Last Refreshed"
-msgstr ""
+msgstr "最終更新"
 
 #: app/templates/app/processing_node.html:44
 msgctxt "5 minutes ago"
@@ -1509,8 +1533,9 @@ msgid "ago"
 msgstr "前"
 
 #: app/templates/app/processing_node.html:47
+#, fuzzy
 msgid "Options (JSON)"
-msgstr ""
+msgstr "オプション(JSON)"
 
 #: app/templates/app/processing_node.html:53
 msgid "Edit"
@@ -1518,7 +1543,7 @@ msgstr "編集"
 
 #: app/templates/app/welcome.html:224
 msgid "Uh oh! Could you please check the errors below?"
-msgstr ""
+msgstr "Uh oh! 以下のエラーを確認していただけますか？"
 
 #: app/templates/app/welcome.html:237
 msgid "Create Account"
@@ -1545,9 +1570,8 @@ msgid "Display program version, memory and disk space usage statistics"
 msgstr "プログラムのバージョン、メモリ、ディスク使用量の統計を表示"
 
 #: app/translations/plugin_manifest_autogenerated.py:9
-#, fuzzy
 msgid "Calculate and draw an elevation map based on a task's DEMs"
-msgstr "タスクのDEMに基づいて標高マップを計算し、描画する。"
+msgstr "タスクのDEMに基づいて標高マップを計算し、描画"
 
 #: app/translations/plugin_manifest_autogenerated.py:10
 msgid "Add a fullscreen button to the 2D map view"
@@ -1558,7 +1582,6 @@ msgid "Sync accounts from webodm.net"
 msgstr "webodm.netからアカウントを同期"
 
 #: app/translations/plugin_manifest_autogenerated.py:12
-#, fuzzy
 msgid "Compute volume, area and length measurements on Leaflet"
 msgstr "リーフレットの体積、面積、長さの測定値を計算する"
 
@@ -1579,15 +1602,16 @@ msgstr "画像からGCPファイルを作るためのプラグイン"
 
 #: app/translations/plugin_manifest_autogenerated.py:17
 msgid "Create short links when sharing task URLs"
-msgstr ""
+msgstr "タスク URL の共有時にショートリンクを作成する"
 
 #: app/translations/plugin_manifest_autogenerated.py:18
 msgid "Create editable short links when sharing task URLs"
-msgstr ""
+msgstr "タスクURLの共有時に編集可能なショートリンクを作成"
 
 #: app/views/app.py:44
+#, fuzzy
 msgid "First Project"
-msgstr ""
+msgstr "最初のプロジェクト"
 
 #: app/views/app.py:54 app/views/public.py:27
 msgid "Map"
@@ -1595,7 +1619,7 @@ msgstr "マップ"
 
 #: app/views/app.py:82
 msgid "3D Model Display"
-msgstr ""
+msgstr "3Dモデル表示"
 
 #: app/views/app.py:149
 msgid "Welcome"
@@ -1603,19 +1627,20 @@ msgstr "ようこそ"
 
 #: app/views/dev.py:59
 msgid "Cannot find locale/ folder in .zip archive"
-msgstr ""
+msgstr ".zipアーカイブにロケール/フォルダが見つかりません"
 
 #: app/views/dev.py:71
+#, fuzzy
 msgid "Translation files reloaded!"
-msgstr ""
+msgstr "翻訳ファイルがリロードされました！"
 
 #: app/views/dev.py:75
 msgid "Invalid action"
-msgstr ""
+msgstr "無効なアクション"
 
 #: coreplugins/cesiumion/api_views.py:159
 msgid "No matching enum type."
-msgstr ""
+msgstr "一致する列挙型がありません。"
 
 #: coreplugins/contours/api.py:16
 msgid "No DSM layer is available."
@@ -1710,11 +1735,11 @@ msgstr "ディスク容量"
 msgid ""
 "Short URLs can only include letters, numbers, underscore and dash characters "
 "(A-Z, 0-9, _, -)."
-msgstr ""
+msgstr "ショートURLには、アルファベット、数字、アンダースコア、ダッシュ文字（A-Z、0-9、_、-）のみが使用できます。"
 
 #: coreplugins/editshortlinks/api.py:63
 msgid "This short URL is already taken."
-msgstr ""
+msgstr "このショートURLはすでに使用されています。"
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
 msgid "Lightning Network"
@@ -1784,15 +1809,16 @@ msgstr "トークン"
 msgid ""
 "Token to use for authentication. If the node doesn't have authentication, "
 "you can leave this field blank."
-msgstr ""
+msgstr "認証に使用するトークン。ノードが認証を持っていない場合は、このフィールドを空白にすることができます。"
 
 #: nodeodm/models.py:28
+#, fuzzy
 msgid "Max Images"
-msgstr ""
+msgstr "最大画像"
 
 #: nodeodm/models.py:28
 msgid "Maximum number of images accepted by this node."
-msgstr ""
+msgstr "このノードが受け入れる画像の最大数。"
 
 #: nodeodm/models.py:29
 msgid "Engine version used by the node."
