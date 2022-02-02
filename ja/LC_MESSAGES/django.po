@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 17:15+0000\n"
-"PO-Revision-Date: 2022-02-01 14:53+0000\n"
+"PO-Revision-Date: 2022-02-02 13:20+0000\n"
 "Last-Translator: Rumi Kuribayashi <rumikr02005@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/webodm/webodm/"
 "ja/>\n"
@@ -143,7 +143,6 @@ msgstr ""
 "るために赤色だけではなく青色と緑色域を使用します。"
 
 #: app/api/formulas.py:24
-#, fuzzy
 msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
@@ -240,25 +239,20 @@ msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
 msgstr "Leaf Area Index は葉の面積を推定し、作物の収穫量を予測します。"
 
 #: app/api/formulas.py:87
-#, fuzzy
 msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
-msgstr ""
-"Enhanced Vegetation Index は青色の波長を用いて土壌の信号を正確にとらえるの"
-"で、NDVIが飽和する場所で有益です。"
+msgstr "Enhanced Vegetation Index は青色の波長を用いて土壌の信号を正確にとらえるので、NDVIが飽和する場所で有益です。"
 
 #: app/api/projects.py:67
 msgid "Cannot duplicate project"
 msgstr "プロジェクトを複製できません"
 
 #: app/api/projects.py:134
-#, fuzzy
 msgid "Invalid user in permissions list"
 msgstr "権限リストの無効なユーザー"
 
 #: app/api/projects.py:136
-#, fuzzy
 msgid "Invalid permissions"
 msgstr "無効な権限"
 
@@ -298,69 +292,59 @@ msgstr ""
 "い。"
 
 #: app/api/tiler.py:311
-#, fuzzy
 msgid "Invalid boundaries parameter"
 msgstr "無効な境界線パラメータ"
 
 #: app/api/tiler.py:347 app/api/tiler.py:410
-#, fuzzy
 msgid "Outside of bounds"
 msgstr "境界線の外側"
 
 #: app/api/tiler.py:358
-#, fuzzy
 msgid "Invalid boundaries"
 msgstr "無効な境界線"
 
 #: app/api/tiler.py:416 app/api/tiler.py:513
-#, fuzzy
 msgid "Not a valid color_map value"
 msgstr "有効なcolor_mapの値ではない"
 
 #: app/api/tiler.py:422
-#, fuzzy
 msgid "Invalid rescale value"
 msgstr "無効な再スケール値"
 
 #: app/api/tiler.py:431
-#, fuzzy
-#| msgid "Invalid zip file"
 msgid "Invalid hillshade value"
 msgstr "無効な陰影起伏値"
 
 #: app/api/tiler.py:434
-#, fuzzy
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr "非標高ラスターの陰影起伏を計算できません（複数のバンドが見つかりました）"
 
 #: app/api/tiler.py:451
-#, fuzzy
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr "タイルを処理できません：強度画像は提供されましたが、RGBデータは計算されませんでした。"
 
 #: app/api/tiler.py:498 app/api/tiler.py:500
-#, fuzzy, python-format
+#, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "サポートされていない形式：%(value)s"
 
 #: app/api/tiler.py:519
-#, fuzzy, python-format
+#, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "無効な EPSG コード: %(value)s"
 
 #: app/api/tiler.py:522
-#, fuzzy
 msgid "Both formula and bands parameters are required"
 msgstr "数式とバンドの両方のパラメータが必要です"
 
 #: app/api/tiler.py:542
-#, fuzzy, python-format
+#, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "無効な再スケール値：%(value)s"
 
 #: app/api/tiler.py:550
-#, fuzzy, python-format
+#, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "無効な陰影起伏値：%(value)s"
 
@@ -793,12 +777,10 @@ msgstr ""
 "測定結果やカメラビュー角度の保存/読込に使用される連続したpotree sceneの情報"
 
 #: app/models/task.py:266
-#, fuzzy
 msgid "Potree Scene"
 msgstr "Potreeシーン"
 
 #: app/models/task.py:267
-#, fuzzy
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "データセットのEPSGコード（地理参照されている場合）"
 
@@ -860,7 +842,7 @@ msgstr "セカンダリ"
 
 #: app/models/theme.py:21
 msgid "Navigation links."
-msgstr "ナビゲーションリンク"
+msgstr "ナビゲーションリンクです。"
 
 #: app/models/theme.py:21
 msgid "Tertiary"
@@ -900,7 +882,7 @@ msgstr "ヘッダーの背景"
 
 #: app/models/theme.py:28
 msgid "Text and icons in the site's header."
-msgstr "サイトのヘッダーのテキストとアイコン"
+msgstr "サイト'のヘッダーにあるテキストとアイコンです。"
 
 #: app/models/theme.py:28
 msgid "Header Primary"
@@ -916,7 +898,7 @@ msgstr "境界線"
 
 #: app/models/theme.py:31
 msgid "The background color of panels and some borders."
-msgstr "パネルと罫線の背景色"
+msgstr "パネルや一部のボーダーの背景色です。"
 
 #: app/models/theme.py:31
 msgid "Highlight"
@@ -924,7 +906,7 @@ msgstr "ハイライト"
 
 #: app/models/theme.py:33
 msgid "The border color of warning dialogs."
-msgstr "警告ダイアログの罫線色"
+msgstr "警告ダイアログのボーダーカラー。"
 
 #: app/models/theme.py:33
 msgid "Dialog Warning"
@@ -932,7 +914,7 @@ msgstr "警告ダイアログ"
 
 #: app/models/theme.py:35
 msgid "The background color of failed notifications."
-msgstr "失敗通知の背景色"
+msgstr "失敗した通知の背景色です。"
 
 #: app/models/theme.py:35
 msgid "Failed"
@@ -940,7 +922,7 @@ msgstr "失敗"
 
 #: app/models/theme.py:36
 msgid "The background color of success notifications."
-msgstr "成功通知の背景色"
+msgstr "成功通知の背景色です。"
 
 #: app/models/theme.py:36
 msgid "Success"
@@ -959,9 +941,8 @@ msgid "500 Internal Server Error"
 msgstr "500　内部サーバエラー"
 
 #: app/templates/app/500.html:6
-#, fuzzy
 msgid "Something happened. The server logs contain more information."
-msgstr "事案が発生。サーバーのログに詳細な情報があります。"
+msgstr "何かが起こりました。サーバーのログに詳細な情報があります。"
 
 #: app/templates/app/about.html:94
 #, python-format
@@ -1076,12 +1057,10 @@ msgstr ""
 "ユーザー <strong>%(username)s</strong>の新しいパスワードを入力してください。"
 
 #: app/templates/app/admin/base_site.html:3
-#, fuzzy
 msgid "Django site admin"
 msgstr "Djangoサイト管理者"
 
 #: app/templates/app/admin/base_site.html:6
-#, fuzzy
 msgid "Django administration"
 msgstr "Djangoの管理"
 
@@ -1099,7 +1078,6 @@ msgstr "履歴"
 #: app/templates/app/admin/change_form.html:35
 #: app/templates/app/admin/edit_inline/stacked.html:14
 #: app/templates/app/admin/edit_inline/tabular.html:36
-#, fuzzy
 msgid "View on site"
 msgstr "サイト内の表示"
 
@@ -1116,17 +1094,15 @@ msgid "Manage Plugins"
 msgstr "プラグインの管理"
 
 #: app/templates/app/admin/change_list_results.html:17
-#, fuzzy
 msgid "Remove from sorting"
 msgstr "並べ替えから削除"
 
 #: app/templates/app/admin/change_list_results.html:18
-#, fuzzy, python-format
+#, python-format
 msgid "Sorting priority: %(priority_number)s"
 msgstr "並べ替えの優先順位: %(priority_number)s"
 
 #: app/templates/app/admin/change_list_results.html:19
-#, fuzzy
 msgid "Toggle sorting"
 msgstr "並べ替えを切り替える"
 
@@ -1148,7 +1124,7 @@ msgstr ""
 "は以下の種類のオブジェクトを削除する権限がありません。"
 
 #: app/templates/app/admin/delete_confirmation.html:30
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
 "following protected related objects:"
@@ -1176,7 +1152,6 @@ msgstr "はい、大丈夫です"
 
 #: app/templates/app/admin/delete_confirmation.html:47
 #: app/templates/app/admin/delete_selected_confirmation.html:50
-#, fuzzy
 msgid "No, take me back"
 msgstr "いいえ、戻ります"
 
@@ -1195,7 +1170,7 @@ msgstr ""
 "ありません'。"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:29
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Deleting the selected %(objects_name)s would require deleting the following "
 "protected related objects:"
@@ -1229,7 +1204,7 @@ msgid "Summary"
 msgstr "要約"
 
 #: app/templates/app/admin/index.html:20
-#, fuzzy, python-format
+#, python-format
 msgid "Models in the %(name)s application"
 msgstr "%(name)s アプリケーション内のモデル"
 
@@ -1259,7 +1234,6 @@ msgid "Unknown content"
 msgstr "不明なコンテンツ"
 
 #: app/templates/app/admin/invalid_setup.html:12
-#, fuzzy
 msgid ""
 "Something's wrong with your database installation. Make sure the appropriate "
 "database tables have been created, and make sure the database is readable by "
@@ -1346,7 +1320,6 @@ msgid "Save as new"
 msgstr "新規保存"
 
 #: app/templates/app/admin/submit_line.html:9
-#, fuzzy
 msgid "Save and add another"
 msgstr "保存して別のファイルを追加"
 
@@ -1435,8 +1408,6 @@ msgid "Download and Replace Translation Files"
 msgstr "翻訳ファイルをダウンロードして置換えます"
 
 #: app/templates/app/dev_tools.html:27
-#, fuzzy
-#| msgid "Current Locale:"
 msgid "Set locale:"
 msgstr "ロケールの設定："
 
@@ -1510,12 +1481,10 @@ msgid "Engine Version"
 msgstr "エンジンバージョン"
 
 #: app/templates/app/processing_node.html:31 nodeodm/models.py:25
-#, fuzzy
 msgid "Queue Count"
 msgstr "キューの数"
 
 #: app/templates/app/processing_node.html:35
-#, fuzzy
 msgid "Max Images Limit"
 msgstr "最大画像数の制限"
 
@@ -1533,7 +1502,6 @@ msgid "ago"
 msgstr "前"
 
 #: app/templates/app/processing_node.html:47
-#, fuzzy
 msgid "Options (JSON)"
 msgstr "オプション(JSON)"
 
@@ -1609,7 +1577,6 @@ msgid "Create editable short links when sharing task URLs"
 msgstr "タスクURLの共有時に編集可能なショートリンクを作成"
 
 #: app/views/app.py:44
-#, fuzzy
 msgid "First Project"
 msgstr "最初のプロジェクト"
 
@@ -1630,7 +1597,6 @@ msgid "Cannot find locale/ folder in .zip archive"
 msgstr ".zipアーカイブにロケール/フォルダが見つかりません"
 
 #: app/views/dev.py:71
-#, fuzzy
 msgid "Translation files reloaded!"
 msgstr "翻訳ファイルがリロードされました！"
 
@@ -1812,7 +1778,6 @@ msgid ""
 msgstr "認証に使用するトークン。ノードが認証を持っていない場合は、このフィールドを空白にすることができます。"
 
 #: nodeodm/models.py:28
-#, fuzzy
 msgid "Max Images"
 msgstr "最大画像"
 
