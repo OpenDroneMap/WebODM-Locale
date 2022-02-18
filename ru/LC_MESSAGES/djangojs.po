@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 17:15+0000\n"
-"PO-Revision-Date: 2021-11-21 19:52+0000\n"
-"Last-Translator: Artem <Localizer_in_Russian@protonmail.com>\n"
+"PO-Revision-Date: 2022-02-18 20:40+0000\n"
+"Last-Translator: Александр Ващенко <asspirine02@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/webodm/react-ui/"
 "ru/>\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: app/static/app/js/Console.jsx:135
 #, python-format
@@ -124,10 +124,8 @@ msgid "Camera Parameters"
 msgstr "Параметры камеры"
 
 #: app/static/app/js/classes/AssetDownloads.js:56
-#, fuzzy
-#| msgid "Cameras"
 msgid "Camera Shots"
-msgstr "Камеры"
+msgstr "Снимки с камеры"
 
 #: app/static/app/js/classes/AssetDownloads.js:57
 #, fuzzy
@@ -271,11 +269,11 @@ msgstr "Не удается завершить операцию."
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:150
 msgid "Read/Write"
-msgstr ""
+msgstr "Чтение/Запись"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:151
 msgid "Read"
-msgstr ""
+msgstr "Читать"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:152
 msgid "No Access"
@@ -404,7 +402,7 @@ msgid ""
 "panel."
 msgstr ""
 "Системные пресеты могут быть удалены только пользователем с достаточным "
-"количество прав из панели Администрирования"
+"количество прав из панели Администрирования."
 
 #: app/static/app/js/components/EditTaskForm.jsx:473
 #, python-format
@@ -484,16 +482,12 @@ msgid "Close"
 msgstr "Закрыть"
 
 #: app/static/app/js/components/ExportAssetDialog.jsx:38
-#, fuzzy
-#| msgid "Loading…"
 msgid "Downloading…"
 msgstr "Загрузка…"
 
 #: app/static/app/js/components/ExportAssetDialog.jsx:39
-#, fuzzy
-#| msgid "Download Image"
 msgid "Download"
-msgstr "Скачать изображение"
+msgstr "Скачать"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:150
 #: app/static/app/js/components/ImportTaskPanel.jsx:138
@@ -558,7 +552,7 @@ msgstr "Изображение отсутствует"
 
 #: app/static/app/js/components/GCPPopup.jsx:175
 msgid "Horizontal error:"
-msgstr "Горизонтальная (2D) ошибка"
+msgstr "Горизонтальная (2D) ошибка:"
 
 #: app/static/app/js/components/GCPPopup.jsx:175
 #: app/static/app/js/components/GCPPopup.jsx:178
@@ -567,7 +561,7 @@ msgstr "(метров)"
 
 #: app/static/app/js/components/GCPPopup.jsx:178
 msgid "Vertical error:"
-msgstr "Вертикальная (H) ошибка"
+msgstr "Вертикальная (H) ошибка:"
 
 #: app/static/app/js/components/Histogram.jsx:293
 msgid "Min:"
@@ -616,7 +610,7 @@ msgid ""
 "Download Assets %(arrow)s All Assets."
 msgstr ""
 "Вы можете импортировать .zip файлы которые были экспортированы из "
-"существующих задач через Скачать Наборы %(arrow)s Все Наборы"
+"существующих задач через Скачать Наборы %(arrow)s Все Наборы."
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:167
 msgid "Upload a File"
@@ -714,7 +708,7 @@ msgstr "Добавьте GeoJSON (.json) или ShapeFile(.zip) перекрыт
 
 #: app/static/app/js/components/Map.jsx:503
 msgid "Error: cannot load assets list."
-msgstr "Ошибка: невозможно загрузить данные"
+msgstr "Ошибка: невозможно загрузить данные."
 
 #: app/static/app/js/components/Map.jsx:574
 msgid "Opacity:"
@@ -755,7 +749,7 @@ msgstr "Вы уверены что хотите отменить задачу?"
 #: app/static/app/js/components/NewTaskPanel.jsx:131
 #, python-format
 msgid "%(count)s files selected. Please check these additional options:"
-msgstr "%(count)s файлов выбрано. Пожалуйста проверьте дополнительные опции"
+msgstr "%(count)s файлов выбрано. Пожалуйста проверьте дополнительные опции:"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:144
 msgid "Resize Images"
@@ -914,6 +908,8 @@ msgstr ""
 msgid ""
 "The min-num-features task option is set too low, try increasing it by 25%"
 msgstr ""
+"Параметр задачи min-num-features установлен слишком низко, попробуйте "
+"увеличить его на 25%"
 
 #: app/static/app/js/components/TaskListItem.jsx:265
 msgid "here"
@@ -928,10 +924,10 @@ msgid ""
 "images. See %(link)s for more information."
 msgstr ""
 "Возможно ваш компьютер слишком устарел. WebODM требуется компьютер с 64-"
-"разр. ЦП с поддержкой наборов инструкций MMX, SSE, SSE2, SSE3 и SSSE3 или "
-"выше. Так же вы можете запустить WebODM если вы компилируете с помощью "
-"докера ваши собственные изображения. Пройдите по ссылку %(link)s для "
-"получения более полной информации"
+"разрядным ЦП с поддержкой наборов инструкций MMX, SSE, SSE2, SSE3 и SSSE3 "
+"или выше. Так же вы можете запустить WebODM если вы компилируете с помощью "
+"докера ваши собственные изображения. Пройдите по ссылке %(link)s для "
+"получения более полной информации."
 
 #: app/static/app/js/components/TaskListItem.jsx:268
 msgid "this page"
@@ -962,7 +958,7 @@ msgstr "Не удается перезапустить задачу."
 
 #: app/static/app/js/components/TaskListItem.jsx:380
 msgid "Cannot restart task from (stage)s."
-msgstr "Невозможно перезапустить задачу из(stage)s"
+msgstr "Невозможно перезапустить задачу из(stage)s."
 
 #: app/static/app/js/components/TaskListItem.jsx:406
 #, python-format
@@ -971,7 +967,7 @@ msgstr "Задача #%(number)s"
 
 #: app/static/app/js/components/TaskListItem.jsx:410
 msgid "Uploading images to processing node"
-msgstr "Загрузка изображений..."
+msgstr "Загрузка изображений на обработку"
 
 #: app/static/app/js/components/TaskListItem.jsx:412
 msgid "Waiting for a node..."
@@ -1091,6 +1087,13 @@ msgid ""
 "%(open_a_topic)s on our community forum, making sure to include a copy of "
 "your task's output. Our awesome contributors will try to help you!"
 msgstr ""
+"\"Процесс завершен с кодом 1\" означает, что часть обработки завершилась "
+"неудачно. Иногда это проблема с набором данных, иногда ее можно решить, "
+"изменив параметры задачи, а иногда это может быть ошибка! Если вам нужна "
+"помощь, загрузите свои изображения где-нибудь вроде %(link1)s или %(link2)s "
+"и %(open_a_topic)s на наш форум сообщества, обязательно включив копию "
+"результатов вашей задачи. Наши замечательные участники постараются вам "
+"помочь!"
 
 #: app/static/app/js/components/TaskListItem.jsx:644
 msgid "Set a processing node"
@@ -1126,6 +1129,10 @@ msgid ""
 "This flag is useful if you have high precision GPS measurements. If there "
 "are no GCPs, this flag does nothing. Default: %(default)s"
 msgstr ""
+"Используйте данные GPS exif изображений для реконструкции, даже если "
+"присутствуют GCPS. Этот флаг полезен, если у вас есть высокоточные измерения "
+"GPS. Если нет GCPS, этот флаг ничего не сделает. Значение по умолчанию: "
+"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:4
 #, python-format
@@ -1143,12 +1150,18 @@ msgid ""
 "orthophoto and do not need a full 3D model, turn on this option. Default: "
 "%(default)s"
 msgstr ""
+"Пропускает плотную реконструкцию и генерацию 3D-модели. Он генерирует "
+"ортофото непосредственно из разреженной реконструкции. Если вам просто нужна "
+"ортофотография и вам не нужна полная 3D-модель, включите эту опцию. Значение "
+"по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:6
 #, python-format
 msgid ""
 "Export the georeferenced point cloud in CSV format. Default: %(default)s"
 msgstr ""
+"Экспортируйте облако точек с географической привязкой в формате CSV. "
+"Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:7
 #, python-format
@@ -1156,6 +1169,8 @@ msgid ""
 "Set this parameter if you want to generate a PNG rendering of the "
 "orthophoto. Default: %(default)s"
 msgstr ""
+"Установите этот параметр, если вы хотите сгенерировать ортофото в формате "
+"PNG. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:8
 #, python-format
@@ -1195,6 +1210,9 @@ msgid ""
 "Skip generation of a full 3D model. This can save time if you only need 2D "
 "results such as orthophotos and DEMs. Default: %(default)s"
 msgstr ""
+"Пропустить генерацию полной 3D-модели. Это может сэкономить время, если вам "
+"нужны только 2D-результаты, такие как ортофотоснимки и DEMS. Значение по "
+"умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:14
 #, python-format
@@ -1228,6 +1246,12 @@ msgid ""
 "reconstruction of areas with little overlap or insufficient features. More "
 "features also slow down processing. Default: %(default)s"
 msgstr ""
+"Минимальное количество объектов для извлечения на одно изображение. "
+"Дополнительные функции могут быть полезны для поиска большего количества "
+"совпадений между изображениями, потенциально позволяя реконструировать "
+"области с небольшим перекрытием или недостаточным количеством объектов. "
+"Дополнительные функции также замедляют обработку. Значение по умолчанию: "
+"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:18
 #, python-format
@@ -1236,6 +1260,10 @@ msgid ""
 "simple morphological filter. Check the --dem* and --smrf* parameters for "
 "finer tuning. Default: %(default)s"
 msgstr ""
+"Используйте этот тег для построения DTM (Цифровая модель местности, только "
+"наземная) с использованием простого морфологического фильтра. Проверьте "
+"параметры --dem* и --smurf* для более точной настройки. Значение по "
+"умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:19
 #, python-format
@@ -1292,6 +1320,9 @@ msgid ""
 "consistent depthmaps. This increases processing time, but can improve "
 "results in urban scenes. Default: %(default)s"
 msgstr ""
+"Повысить точность облака точек, вычисляя геометрически согласованные карты "
+"глубины. Это увеличивает время обработки, но может улучшить результаты в "
+"городских сценах. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:26
 #, python-format
@@ -1339,6 +1370,9 @@ msgid ""
 "images for each band. If the images have been postprocessed and are already "
 "aligned, use this option. Default: %(default)s"
 msgstr ""
+"При обработке многоспектральных наборов данных ODM автоматически выравнивает "
+"изображения для каждой полосы. Если изображения были обработаны и уже "
+"выровнены, используйте этот параметр. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:32
 #, python-format
@@ -1370,6 +1404,10 @@ msgid ""
 "of the reconstruction. This can help remove far away background artifacts "
 "(sky, background landscapes, etc.). See also --boundary. Default: %(default)s"
 msgstr ""
+"Автоматически установите границу, используя места съемки с камеры, чтобы "
+"ограничить область реконструкции. Это может помочь удалить далекие фоновые "
+"артефакты (небо, фоновые пейзажи и т.д.). Смотрите также --граница. Значение "
+"по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:36
 msgid ""
@@ -1384,6 +1422,9 @@ msgid ""
 "option is a bit faster and provides similar results in planar areas. "
 "Default: %(default)s"
 msgstr ""
+"Использовать полную 3D-сетку для вычисления ортофото вместо сетки 2.5D. Этот "
+"вариант немного быстрее и обеспечивает аналогичные результаты в плоских "
+"областях. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:38
 #, python-format
@@ -1427,6 +1468,10 @@ msgid ""
 "the number of images that each cluster should have on average. Default: "
 "%(default)s"
 msgstr ""
+"Среднее количество изображений на подмодель. При разделении большого набора "
+"данных на более мелкие подмодели изображения группируются в кластеры. Это "
+"значение определяет количество изображений, которое в среднем должно быть в "
+"каждом кластере. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:43
 #, python-format
@@ -1449,6 +1494,16 @@ msgid ""
 "via a downwelling light sensor (DLS) taking in consideration the angle of "
 "the sun. Can be one of: %(choices)s. Default: %(default)s"
 msgstr ""
+"Установите радиометрическую калибровку для выполнения на изображениях. При "
+"обработке многоспектральных и тепловых изображений вы должны установить эту "
+"опцию для получения значений коэффициента отражения / температуры (в "
+"противном случае вы получите значения цифровых чисел). [камера] применяет "
+"уровень черного, виньетирование, усиление градиента строк / компенсацию "
+"экспозиции (если найдены соответствующие теги EXIF) и вычисляет значения "
+"абсолютной температуры. [камера + солнце] является экспериментальным, "
+"применяет все поправки [камеры], плюс компенсирует спектральное излучение, "
+"зарегистрированное с помощью датчика освещенности (DLS) с учетом угла "
+"солнца. Может быть одним из: %(choices)s. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:45
 #, python-format
@@ -1465,6 +1520,8 @@ msgstr ""
 msgid ""
 "Permanently delete all previous results and rerun the processing pipeline."
 msgstr ""
+"Окончательно удалить все предыдущие результаты и перезапустить конвейер "
+"обработки."
 
 #: app/static/app/js/translations/odm_autogenerated.js:48
 #, python-format
@@ -1477,6 +1534,7 @@ msgstr ""
 #, python-format
 msgid "Skip the blending of colors near seams. Default: %(default)s"
 msgstr ""
+"Пропустить смешивание цветов вблизи швов. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:50
 #, python-format
@@ -1490,7 +1548,7 @@ msgstr ""
 #: app/static/app/js/translations/odm_autogenerated.js:51
 #, python-format
 msgid "Print debug messages. Default: %(default)s"
-msgstr ""
+msgstr "Печать отладочных сообщений. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:52
 #, python-format
@@ -1498,6 +1556,8 @@ msgid ""
 "Name of dataset (i.e subfolder name within project folder). Default: "
 "%(default)s"
 msgstr ""
+"Имя набора данных (т.е. имя вложенной папки в папке проекта). Значение по "
+"умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:53
 #, python-format
@@ -1507,6 +1567,10 @@ msgid ""
 "type from the images metadata. Can be one of: %(choices)s. Default: "
 "%(default)s"
 msgstr ""
+"Установить тип проекции камеры. Установка значения вручную может помочь "
+"улучшить геометрическое искажение. По умолчанию приложение пытается "
+"определить тип объектива из метаданных изображений. Может быть одним из: "
+"%(choices)s. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:54
 #, python-format
@@ -1514,12 +1578,16 @@ msgid ""
 "Set the compression to use for orthophotos. Can be one of: %(choices)s. "
 "Default: %(default)s"
 msgstr ""
+"Установить сжатие, которое будет использоваться для ортофотоснимков. Может "
+"быть одним из: %(choices)s. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:55
 #, python-format
 msgid ""
 "Export the georeferenced point cloud in LAS format. Default: %(default)s"
 msgstr ""
+"Экспортировать облако точек с географической привязкой в формате LAS. "
+"Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:56
 #, python-format
@@ -1536,6 +1604,9 @@ msgid ""
 "but requires more memory and takes longer. Can be one of: %(choices)s. "
 "Default: %(default)s"
 msgstr ""
+"Установить качество извлечения объектов. Более высокое качество обеспечивает "
+"лучшие функции, но требует больше памяти и занимает больше времени. Может "
+"быть одним из: %(choices)s. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:58
 #, python-format
@@ -1549,6 +1620,8 @@ msgid ""
 "Skip generation of PDF report. This can save time if you don't need a "
 "report. Default: %(default)s"
 msgstr ""
+"Пропустить генерацию отчета в формате PDF. Это может сэкономить время, если "
+"вам не нужен отчет. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:60
 #, python-format
@@ -1561,6 +1634,8 @@ msgstr ""
 #, python-format
 msgid "Generates a benchmark file with runtime info. Default: %(default)s"
 msgstr ""
+"Создает файл с информацией о времени выполнения. Значение по умолчанию: "
+"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:62
 #, python-format
@@ -1582,6 +1657,10 @@ msgid ""
 "into tiles. Turn this on if your machine doesn't have much RAM and/or you've "
 "set --pc-quality to high or ultra. Experimental. Default: %(default)s"
 msgstr ""
+"Уменьшить использование памяти, необходимой для объединения карт глубины, "
+"разбив большие сцены на плитки. Включите это, если на вашем компьютере "
+"недостаточно оперативной памяти и / или вы установили --pc-quality на "
+"высокое или ультра. Экспериментальный. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:65
 #, python-format
@@ -1628,6 +1707,11 @@ msgid ""
 "increases processing time roughly by a factor of 4x.Can be one of: "
 "%(choices)s. Default: %(default)s"
 msgstr ""
+"Установить качество облака точек. Более высокое качество создает лучшие, "
+"более плотные облака точек, но требует больше памяти и занимает больше "
+"времени. Каждый шаг повышения качества увеличивает время обработки примерно "
+"в 4 раза. Может быть одним из: %(choices)s. Значение по умолчанию: "
+"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:71
 #, python-format
@@ -1640,6 +1724,8 @@ msgstr ""
 #, python-format
 msgid "Print additional messages to the console. Default: %(default)s"
 msgstr ""
+"Выводить дополнительные сообщения на консоль. Значение по умолчанию: "
+"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:73
 #, python-format
@@ -1668,6 +1754,10 @@ msgid ""
 "as a JSON string representing the contents of a cameras.json file. Default: "
 "%(default)s"
 msgstr ""
+"Использовать параметры камеры, вычисленные из другого набора данных, вместо "
+"их вычисления. Может быть указан либо как путь к файлу cameras.json, либо "
+"как строка JSON, представляющая содержимое файла cameras.json. Значение по "
+"умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:76
 #, python-format
@@ -1693,6 +1783,9 @@ msgid ""
 "can control the behavior of this option by tweaking the --dem-* parameters. "
 "Default: %(default)s"
 msgstr ""
+"Классифицировать выходные данные облака точек с помощью простого "
+"морфологического фильтра. Вы можете управлять поведением этой опции, "
+"настраивая параметры --dem-*. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:79
 #, python-format
@@ -1702,12 +1795,16 @@ msgid ""
 "the cluster. This is done to ensure that neighboring submodels overlap. "
 "Default: %(default)s"
 msgstr ""
+"Радиус перекрытия между подмоделями. После группировки изображений в "
+"кластеры изображения, расположенные ближе этого радиуса к кластеру, "
+"добавляются в кластер. Это делается для того, чтобы соседние подмодели "
+"перекрывались. Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:80
 #, python-format
 msgid "The maximum vertex count of the output mesh. Default: %(default)s"
 msgstr ""
-"Максимальное количество вершин меша для для вывода. Стандартное значение: "
+"Максимальное количество вершин меша для вывода. Стандартное значение: "
 "%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:81
@@ -1726,6 +1823,11 @@ msgid ""
 "datasets to be processed on machines that don't have sufficient disk space "
 "available. Default: %(default)s"
 msgstr ""
+"Удалить тяжелые промежуточные файлы, чтобы оптимизировать использование "
+"дискового пространства. Это влияет на возможность перезапуска конвейера с "
+"промежуточной стадии, но позволяет обрабатывать наборы данных на "
+"компьютерах, на которых недостаточно свободного места на диске. Значение по "
+"умолчанию: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:83
 #, python-format
@@ -1741,6 +1843,10 @@ msgid ""
 "a progressive morphological filter. Check the --dem* parameters for finer "
 "tuning. Default: %(default)s"
 msgstr ""
+"Используйте этот тег для построения DSM (Цифровая модель поверхности, земля +"
+" объекты) с использованием прогрессивного морфологического фильтра. "
+"Проверьте параметры --dem* для более точной настройки. Значение по умолчанию:"
+" %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:85
 #, python-format
@@ -1757,6 +1863,8 @@ msgid ""
 "Set this parameter if you want to generate a Google Earth (KMZ) rendering of "
 "the orthophoto. Default: %(default)s"
 msgstr ""
+"Установите этот параметр, если вы хотите создать рендеринг ортофотоснимка в "
+"Google Earth (KMZ). Значение по умолчанию: %(default)s"
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:3
 msgid "Compute volume, area and length measurements on Leaflet"
@@ -1765,33 +1873,37 @@ msgstr ""
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:4
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:5
 msgid "A plugin to create GCP files from images"
-msgstr ""
+msgstr "Плагин для создания файлов GCP из изображений"
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:6
 msgid ""
 "A plugin to add a button for quickly opening OpenStreetMap's iD editor and "
 "setup a TMS basemap."
 msgstr ""
+"Плагин для добавления кнопки быстрого открытия редактора Openstreetmap ID и "
+"настройки базовой карты TMS."
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:7
 msgid "A plugin to upload orthophotos to OpenAerialMap"
-msgstr ""
+msgstr "Плагин для загрузки ортофотоснимков в OpenAerialMap"
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:8
 msgid "Display program version, memory and disk space usage statistics"
 msgstr ""
+"Отображение версии программы, статистики использования памяти и дискового "
+"пространства"
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:9
 msgid "Sync accounts from webodm.net"
-msgstr ""
+msgstr "Синхронизировать учетные записи с webodm.net"
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:10
 msgid "Add a fullscreen button to the 2D map view"
-msgstr ""
+msgstr "Добавление полноэкранной кнопки для просмотра 2D-карты"
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:11
 msgid "Compute, preview and export contours from DEMs"
-msgstr ""
+msgstr "Вычисление, предварительный просмотр и экспорт контуров из DEMs"
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:12
 msgid "Calculate and draw an elevation map based on a task's DEMs"
@@ -1803,7 +1915,7 @@ msgstr ""
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:14
 msgid "Import images from external sources directly"
-msgstr ""
+msgstr "Прямой импорт изображений из внешних источников"
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:15
 msgid "Detect changes between two different tasks in the same project."
@@ -1827,7 +1939,7 @@ msgstr "Измерения"
 
 #: app/static/app/js/translations/potree_autogenerated.js:7
 msgid "Clipping"
-msgstr ""
+msgstr "Обрезка"
 
 #: app/static/app/js/translations/potree_autogenerated.js:8
 msgid "Annotations"
@@ -1860,7 +1972,7 @@ msgstr ""
 
 #: app/static/app/js/translations/potree_autogenerated.js:15
 msgid "Angle measurement"
-msgstr ""
+msgstr "Измерение угла"
 
 #: app/static/app/js/translations/potree_autogenerated.js:16
 msgid "Point measurement"
@@ -1876,7 +1988,7 @@ msgstr "Измерение высоты"
 
 #: app/static/app/js/translations/potree_autogenerated.js:19
 msgid "Circle measurement"
-msgstr ""
+msgstr "Измерение окружности"
 
 #: app/static/app/js/translations/potree_autogenerated.js:20
 msgid "Area measurement"
@@ -1921,7 +2033,7 @@ msgstr ""
 
 #: app/static/app/js/translations/potree_autogenerated.js:30
 msgid "Remove all measurements"
-msgstr ""
+msgstr "Удалить все измерения"
 
 #: app/static/app/js/translations/potree_autogenerated.js:31
 msgid "Left view"
@@ -1949,11 +2061,11 @@ msgstr "Вид снизу"
 
 #: app/static/app/js/translations/potree_autogenerated.js:37
 msgid "Full extent"
-msgstr ""
+msgstr "Полностью"
 
 #: app/static/app/js/translations/potree_autogenerated.js:38
 msgid "Orbit control"
-msgstr ""
+msgstr "Управление орбитой"
 
 #: app/static/app/js/translations/potree_autogenerated.js:39
 msgid "Fly control"
@@ -2010,7 +2122,7 @@ msgstr "Непрозрачность"
 
 #: app/static/app/js/translations/potree_autogenerated.js:52
 msgid "Field of view"
-msgstr ""
+msgstr "Обзор"
 
 #: app/static/app/js/translations/potree_autogenerated.js:53
 msgid "Point sizing"
@@ -2018,11 +2130,11 @@ msgstr ""
 
 #: app/static/app/js/translations/potree_autogenerated.js:55
 msgid "Elevation range"
-msgstr ""
+msgstr "Диапазон высот"
 
 #: app/static/app/js/translations/potree_autogenerated.js:56
 msgid "Scalar range"
-msgstr ""
+msgstr "Скалярный диапазон"
 
 #: app/static/app/js/translations/potree_autogenerated.js:57
 msgid "Quality"
@@ -2038,15 +2150,15 @@ msgstr "Радиус"
 
 #: app/static/app/js/translations/potree_autogenerated.js:60
 msgid "Strength"
-msgstr ""
+msgstr "Сила"
 
 #: app/static/app/js/translations/potree_autogenerated.js:63
 msgid "Min node size"
-msgstr ""
+msgstr "Минимальный размер узла"
 
 #: app/static/app/js/translations/potree_autogenerated.js:64
 msgid "Clip mode"
-msgstr ""
+msgstr "Режим обрезки"
 
 #: app/static/app/js/translations/potree_autogenerated.js:65
 msgid "Speed"
@@ -2062,15 +2174,15 @@ msgstr ""
 
 #: app/static/app/js/translations/potree_autogenerated.js:68
 msgid "Box"
-msgstr ""
+msgstr "Коробка"
 
 #: app/static/app/js/translations/potree_autogenerated.js:69
 msgid "Length unit"
-msgstr ""
+msgstr "Единица длины"
 
 #: app/static/app/js/translations/potree_autogenerated.js:70
 msgid "Lock view"
-msgstr ""
+msgstr "Заблокировать вид"
 
 #: app/static/app/js/translations/potree_autogenerated.js:71
 #: app/static/app/js/translations/potree_autogenerated.js:88
@@ -2087,11 +2199,11 @@ msgstr ""
 
 #: app/static/app/js/translations/potree_autogenerated.js:74
 msgid "show volume"
-msgstr ""
+msgstr "показать объем"
 
 #: app/static/app/js/translations/potree_autogenerated.js:75
 msgid "show in 3D"
-msgstr ""
+msgstr "показать в 3D"
 
 #: app/static/app/js/translations/potree_autogenerated.js:76
 msgid "show on map"
@@ -2099,23 +2211,23 @@ msgstr "показать на карте"
 
 #: app/static/app/js/translations/potree_autogenerated.js:77
 msgid "Number of Points"
-msgstr ""
+msgstr "Количество точек"
 
 #: app/static/app/js/translations/potree_autogenerated.js:79
 msgid "Save LAS(3D)"
-msgstr ""
+msgstr "Сохранить LAS(3D)"
 
 #: app/static/app/js/translations/potree_autogenerated.js:80
 msgid "Save CSV(2D)"
-msgstr ""
+msgstr "Сохранить CSV(2D)"
 
 #: app/static/app/js/translations/potree_autogenerated.js:81
 msgid "Camera Position"
-msgstr ""
+msgstr "Положение камеры"
 
 #: app/static/app/js/translations/potree_autogenerated.js:82
 msgid "Camera Target"
-msgstr ""
+msgstr "Цель камеры"
 
 #: app/static/app/js/translations/potree_autogenerated.js:83
 msgid "Return Number"
@@ -2123,7 +2235,7 @@ msgstr ""
 
 #: app/static/app/js/translations/potree_autogenerated.js:84
 msgid "Number of Returns"
-msgstr ""
+msgstr "Количество возвратов"
 
 #: app/static/app/js/translations/potree_autogenerated.js:85
 msgid "min"
@@ -2135,18 +2247,20 @@ msgstr "макс"
 
 #: app/static/app/js/translations/potree_autogenerated.js:87
 msgid "GPS Time"
-msgstr ""
+msgstr "Время GPS"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:57
 msgid ""
 "No DSM or DTM is available. To export contours, make sure to process a task "
 "with either the --dsm or --dtm option checked."
 msgstr ""
+"DSM или DTM недоступны. Чтобы экспортировать контуры, обязательно "
+"обработайте задачу с установленным параметром --dsm или --dtm."
 
 #: coreplugins/contours/public/ContoursPanel.jsx:61
 msgid ""
 "Cannot retrieve information for task. Are you are connected to the internet?"
-msgstr ""
+msgstr "Не удается получить информацию о задаче. Вы подключены к Интернету?"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:131
 msgid "Elevation:"
@@ -2162,7 +2276,7 @@ msgstr ""
 
 #: coreplugins/contours/public/ContoursPanel.jsx:229
 msgid "Aggressive"
-msgstr ""
+msgstr "Агрессивный"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:242
 msgid "Interval:"
@@ -2186,7 +2300,7 @@ msgstr "Слой:"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:269
 msgid "Simplify:"
-msgstr ""
+msgstr "Упростить:"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:314
 msgid "Preview"
@@ -2203,7 +2317,7 @@ msgstr "Контуры"
 #: coreplugins/editshortlinks/public/SLControls.jsx:154
 #: coreplugins/shortlinks/public/SLCheckbox.jsx:69
 msgid "Short Link"
-msgstr ""
+msgstr "Короткая ссылка"
 
 #: coreplugins/editshortlinks/public/SLControls.jsx:178
 msgid "Suffix"
@@ -2211,15 +2325,16 @@ msgstr "Суффикс"
 
 #: coreplugins/editshortlinks/public/SLControls.jsx:191
 msgid "Delete Short Link"
-msgstr ""
+msgstr "Удалить короткую ссылку"
 
 #: coreplugins/lightning/public/CostEstimateItem.jsx:103
 msgid "Cannot retrieve estimate. Try again later."
-msgstr ""
+msgstr "Не удалось получить оценку. Попробуйте еще раз позже."
 
 #: coreplugins/lightning/public/CostEstimateItem.jsx:106
 msgid "Cannot retrieve estimate. Check parameters or try again later."
 msgstr ""
+"Не удается получить оценку. Проверьте параметры или повторите попытку позже."
 
 #: coreplugins/lightning/public/CostEstimateItem.jsx:139
 msgid "Credits Estimate"
@@ -2227,23 +2342,27 @@ msgstr ""
 
 #: coreplugins/lightning/public/Dashboard.jsx:39
 msgid "Loading dashboard..."
-msgstr ""
+msgstr "Загрузка панели управления..."
 
 #: coreplugins/lightning/public/Dashboard.jsx:48
 msgid ""
 "Cannot load lightning dashboard. Are you running the latest version of "
 "WebODM?"
 msgstr ""
+"Не удается загрузить панель управления lightning. Вы используете последнюю "
+"версию WebODM?"
 
 #: coreplugins/lightning/public/Dashboard.jsx:52
 msgid ""
 "Cannot load lightning dashboard. Please make sure you are connected to the "
 "internet, or try again in an hour."
 msgstr ""
+"Не удалось загрузить панель управления lightning. Пожалуйста, убедитесь, что "
+"вы подключены к Интернету, или повторите попытку через час."
 
 #: coreplugins/lightning/public/Dashboard.jsx:75
 msgid "Cannot sync nodes. Are you connected to the internet?"
-msgstr ""
+msgstr "Не удалось синхронизировать узлы. Вы подключены к Интернету?"
 
 #: coreplugins/lightning/public/Dashboard.jsx:83
 msgid "Logging out…"
@@ -2264,7 +2383,7 @@ msgstr "Неограниченно"
 
 #: coreplugins/lightning/public/Dashboard.jsx:130
 msgid "Balance:"
-msgstr ""
+msgstr "Баланс:"
 
 #: coreplugins/lightning/public/Dashboard.jsx:131
 msgid "Buy Credits"
@@ -2280,11 +2399,11 @@ msgstr "Привет,"
 
 #: coreplugins/lightning/public/Dashboard.jsx:138
 msgid "Synced Nodes"
-msgstr ""
+msgstr "Синхронизированные узлы"
 
 #: coreplugins/lightning/public/Dashboard.jsx:146
 msgid "Resync"
-msgstr ""
+msgstr "Повторная синхронизация"
 
 #: coreplugins/lightning/public/Dashboard.jsx:153
 msgid "Dashboard"
@@ -2303,10 +2422,12 @@ msgid ""
 "Cannot login. Please make sure you are connected to the internet, or try "
 "again in an hour."
 msgstr ""
+"Не удается войти в систему. Пожалуйста, убедитесь, что вы подключены к "
+"Интернету, или повторите попытку через час."
 
 #: coreplugins/lightning/public/Login.jsx:90
 msgid "E-mail Address"
-msgstr ""
+msgstr "Адрес электронной почты"
 
 #: coreplugins/lightning/public/Login.jsx:97
 msgid "Password"
@@ -2314,7 +2435,7 @@ msgstr "Пароль"
 
 #: coreplugins/lightning/public/Login.jsx:104
 msgid "Don't have an account?"
-msgstr ""
+msgstr "У вас нет учетной записи?"
 
 #: coreplugins/lightning/public/Login.jsx:105
 msgid "Forgot password?"
@@ -2322,7 +2443,7 @@ msgstr "Забыли пароль?"
 
 #: coreplugins/lightning/public/Login.jsx:110
 msgid "Login and Sync"
-msgstr ""
+msgstr "Вход в систему и синхронизация"
 
 #: coreplugins/lightning/public/app.jsx:39
 msgid "Lightning Network"
@@ -2333,6 +2454,9 @@ msgid ""
 "Lightning is a service that allows you to quickly process small and large "
 "datasets using high performance servers in the cloud."
 msgstr ""
+"Lightning - это сервис, который позволяет быстро обрабатывать небольшие и "
+"большие наборы данных с использованием высокопроизводительных серверов в "
+"облаке."
 
 #: coreplugins/lightning/public/app.jsx:41
 msgid "register"
@@ -2345,11 +2469,14 @@ msgid ""
 "automatically setup a new processing node. If you don't have an account, you "
 "can %(register)s for free."
 msgstr ""
+"Ниже вы можете ввести свои учетные данные %(link)s для синхронизации вашей "
+"учетной записи и автоматической настройки нового узла обработки. Если у вас "
+"нет учетной записи, вы можете %(register)s бесплатно."
 
 #: coreplugins/measure/public/MeasurePopup.jsx:105
 #, python-format
 msgid "Invalid response: %(error)s"
-msgstr ""
+msgstr "Неверный ответ: %(error)s"
 
 #: coreplugins/measure/public/MeasurePopup.jsx:143
 msgid "Perimeter:"
@@ -2379,11 +2506,11 @@ msgstr "Экспорт в GeoJSON"
 
 #: coreplugins/measure/public/app.jsx:18
 msgid "Measure volume, area and length"
-msgstr ""
+msgstr "Измерение объема, площади и длины"
 
 #: coreplugins/measure/public/app.jsx:19
 msgid "Measurement"
-msgstr ""
+msgstr "Измерение"
 
 #: coreplugins/measure/public/app.jsx:20
 msgid "Measure"
@@ -2391,19 +2518,19 @@ msgstr ""
 
 #: coreplugins/measure/public/app.jsx:21
 msgid "Create a new measurement"
-msgstr ""
+msgstr "Создать новое измерение"
 
 #: coreplugins/measure/public/app.jsx:22
 msgid "Start creating a measurement by adding points to the map"
-msgstr ""
+msgstr "Начать измерение, добавив точки на карту"
 
 #: coreplugins/measure/public/app.jsx:23
 msgid "Finish measurement"
-msgstr ""
+msgstr "Завершение измерения"
 
 #: coreplugins/measure/public/app.jsx:24
 msgid "Last point"
-msgstr ""
+msgstr "Последняя точка"
 
 #: coreplugins/measure/public/app.jsx:25
 msgid "Area"
@@ -2415,15 +2542,15 @@ msgstr "Периметр"
 
 #: coreplugins/measure/public/app.jsx:27
 msgid "Point location"
-msgstr ""
+msgstr "Местоположение точки"
 
 #: coreplugins/measure/public/app.jsx:28
 msgid "Linear measurement"
-msgstr ""
+msgstr "Линейное измерение"
 
 #: coreplugins/measure/public/app.jsx:29
 msgid "Path distance"
-msgstr ""
+msgstr "Длина пути"
 
 #: coreplugins/measure/public/app.jsx:30
 msgid "Center on this area"
@@ -2463,19 +2590,19 @@ msgstr "Мили"
 
 #: coreplugins/measure/public/app.jsx:41
 msgid "Sq Feet"
-msgstr ""
+msgstr "Кв. Фут"
 
 #: coreplugins/measure/public/app.jsx:42
 msgid "Sq Meters"
-msgstr ""
+msgstr "Квадратных Метров"
 
 #: coreplugins/measure/public/app.jsx:43
 msgid "Sq Miles"
-msgstr ""
+msgstr "Квадратных Миль"
 
 #: coreplugins/measure/public/app.jsx:55
 msgid "Export Measurements"
-msgstr ""
+msgstr "Экспорт измерения"
 
 #~ msgid "Orthophoto (GeoTIFF)"
 #~ msgstr "Ортофото (GeoTIFF)"
