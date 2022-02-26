@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 17:15+0000\n"
-"PO-Revision-Date: 2022-02-26 15:20+0000\n"
+"PO-Revision-Date: 2022-02-26 16:14+0000\n"
 "Last-Translator: Александр Ващенко <asspirine02@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/webodm/webodm/ru/"
 ">\n"
@@ -332,12 +332,12 @@ msgstr ""
 #: app/api/tiler.py:498 app/api/tiler.py:500
 #, python-format
 msgid "Unsupported format: %(value)s"
-msgstr ""
+msgstr "Неподдерживаемый формат: %(value)s"
 
 #: app/api/tiler.py:519
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr ""
+msgstr "Недопустимый код EPSG: %(value)s"
 
 #: app/api/tiler.py:522
 msgid "Both formula and bands parameters are required"
@@ -346,7 +346,7 @@ msgstr ""
 #: app/api/tiler.py:542
 #, python-format
 msgid "Invalid rescale value: %(value)s"
-msgstr ""
+msgstr "Недопустимое значение масштабирования: %(value)s"
 
 #: app/api/tiler.py:550
 #, python-format
@@ -783,7 +783,7 @@ msgstr ""
 
 #: app/models/task.py:265
 msgid "Partial"
-msgstr ""
+msgstr "Частичный"
 
 #: app/models/task.py:266
 msgid ""
@@ -797,7 +797,7 @@ msgstr ""
 
 #: app/models/task.py:267
 msgid "EPSG code of the dataset (if georeferenced)"
-msgstr ""
+msgstr "Код EPSG набора данных (при наличии географической привязки)"
 
 #: app/models/task.py:271
 msgid "Tasks"
@@ -925,7 +925,7 @@ msgstr "Цвет границ Уведомлений об осторожност
 
 #: app/models/theme.py:33
 msgid "Dialog Warning"
-msgstr ""
+msgstr "Диалоговое предупреждение"
 
 #: app/models/theme.py:35
 msgid "The background color of failed notifications."
@@ -1014,10 +1014,12 @@ msgid ""
 "There's been an error. It's been reported to the site administrators via "
 "email and should be fixed shortly. Thanks for your patience."
 msgstr ""
+"Произошла ошибка. Об этом было сообщено администраторам сайта по электронной "
+"почте и должно быть исправлено в ближайшее время. Спасибо за ваше терпение."
 
 #: app/templates/app/admin/actions.html:4
 msgid "Run the selected action"
-msgstr ""
+msgstr "Выполнить выбранное действие"
 
 #: app/templates/app/admin/actions.html:4
 msgid "Go"
@@ -1041,6 +1043,8 @@ msgid ""
 "First, enter a username and password. Then, you'll be able to edit more user "
 "options."
 msgstr ""
+"Сначала введите имя пользователя и пароль. Затем вы сможете редактировать "
+"дополнительные параметры пользователя."
 
 #: app/templates/app/admin/auth/user/add_form.html:8
 msgid "Enter a username and password."
@@ -1056,19 +1060,19 @@ msgstr "Изменить пароль"
 #: app/templates/app/admin/change_list.html:58
 #: app/templates/app/admin/login.html:21
 msgid "Please correct the error below."
-msgstr ""
+msgstr "Пожалуйста, исправьте приведенную ниже ошибку."
 
 #: app/templates/app/admin/auth/user/change_password.html:27
 #: app/templates/app/admin/change_form.html:47
 #: app/templates/app/admin/change_list.html:58
 #: app/templates/app/admin/login.html:21
 msgid "Please correct the errors below."
-msgstr ""
+msgstr "Пожалуйста, исправьте приведенные ниже ошибки."
 
 #: app/templates/app/admin/auth/user/change_password.html:31
 #, python-format
 msgid "Enter a new password for the user <strong>%(username)s</strong>."
-msgstr ""
+msgstr "Введите новый пароль для пользователя <strong>%(username)s</strong>."
 
 #: app/templates/app/admin/base_site.html:3
 msgid "Django site admin"
@@ -1141,6 +1145,8 @@ msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
 "following protected related objects:"
 msgstr ""
+"Удаление %(object_name)s '%(escaped_object)s' потребует удаления следующих "
+"защищенных связанных объектов:"
 
 #: app/templates/app/admin/delete_confirmation.html:37
 #, python-format
@@ -1148,6 +1154,8 @@ msgid ""
 "Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
 "All of the following related items will be deleted:"
 msgstr ""
+"Вы уверены, что хотите удалить %(object_name)s \"%(escaped_object)s\"? Все "
+"следующие связанные элементы будут удалены:"
 
 #: app/templates/app/admin/delete_confirmation.html:39
 #: app/templates/app/admin/delete_selected_confirmation.html:38
@@ -1162,7 +1170,7 @@ msgstr "Да, я уверен"
 #: app/templates/app/admin/delete_confirmation.html:47
 #: app/templates/app/admin/delete_selected_confirmation.html:50
 msgid "No, take me back"
-msgstr ""
+msgstr "Нет, вернуться назад"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:16
 msgid "Delete multiple objects"
@@ -1175,6 +1183,9 @@ msgid ""
 "objects, but your account doesn't have permission to delete the following "
 "types of objects:"
 msgstr ""
+"Удаление выбранных %(objects_name)s приведет к удалению связанных объектов, "
+"но у вашей учетной записи нет разрешения на удаление следующих типов "
+"объектов:"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:29
 #, python-format
@@ -1288,7 +1299,7 @@ msgstr "Сохранить"
 
 #: app/templates/app/admin/popup_response.html:3
 msgid "Popup closing..."
-msgstr ""
+msgstr "Всплывающее окно закрывается..."
 
 #: app/templates/app/admin/related_widget_wrapper.html:8
 #, python-format
@@ -1361,6 +1372,8 @@ msgid ""
 "To create a map, press the \"%(upload_images)s\" button, or drag and drop "
 "some images into a project."
 msgstr ""
+"Чтобы создать карту, нажмите кнопку \"%(upload_images)s\" или перетащите "
+"несколько изображений в проект."
 
 #: app/templates/app/dashboard.html:34
 msgid "You need at least 5 images"
@@ -1369,12 +1382,12 @@ msgstr "Необходимо как минимум 5 изображений"
 #: app/templates/app/dashboard.html:35
 #, python-format
 msgid "Images must overlap by 65%% or more"
-msgstr ""
+msgstr "Изображения должны перекрываться на 65%% или более"
 
 #: app/templates/app/dashboard.html:36
 #, python-format
 msgid "For great 3D, images must overlap by 83%%"
-msgstr ""
+msgstr "Для получения хорошего 3D изображения должны перекрываться на 83%%"
 
 #: app/templates/app/dashboard.html:37
 #, python-format
@@ -1401,14 +1414,16 @@ msgid ""
 "To change locale, modify your browser's locale settings, then refresh the "
 "page, or use the set locale button below."
 msgstr ""
+"Чтобы изменить язык, измените настройки языка вашего браузера, затем "
+"обновите страницу или воспользуйтесь кнопкой \"установить язык\" ниже."
 
 #: app/templates/app/dev_tools.html:18
 msgid "Translation Files (.zip):"
-msgstr ""
+msgstr "Файлы перевода (.zip):"
 
 #: app/templates/app/dev_tools.html:22
 msgid "Download and Replace Translation Files"
-msgstr ""
+msgstr "Загрузка и замена файлов перевода"
 
 #: app/templates/app/dev_tools.html:27
 msgid "Set locale:"
@@ -1594,7 +1609,7 @@ msgstr "Карта"
 
 #: app/views/app.py:82
 msgid "3D Model Display"
-msgstr ""
+msgstr "Отображение 3D-модели"
 
 #: app/views/app.py:149
 msgid "Welcome"
@@ -1602,7 +1617,7 @@ msgstr "Добро пожаловать"
 
 #: app/views/dev.py:59
 msgid "Cannot find locale/ folder in .zip archive"
-msgstr ""
+msgstr "Не удается найти язык / папку в zip-архиве"
 
 #: app/views/dev.py:71
 msgid "Translation files reloaded!"
@@ -1685,7 +1700,7 @@ msgstr "Всего"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
 msgid "Note!"
-msgstr "Заметки!"
+msgstr "Примечание!"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
 #, python-format
@@ -1706,10 +1721,12 @@ msgid ""
 "Short URLs can only include letters, numbers, underscore and dash characters "
 "(A-Z, 0-9, _, -)."
 msgstr ""
+"Короткие URL-адреса могут содержать только буквы, цифры, символы "
+"подчеркивания и тире (A-Z, 0-9, _, -)."
 
 #: coreplugins/editshortlinks/api.py:63
 msgid "This short URL is already taken."
-msgstr ""
+msgstr "Этот короткий URL-адрес уже занят."
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
 msgid "Lightning Network"
@@ -1721,6 +1738,9 @@ msgid ""
 "Edit, from the options make sure to check \"dsm\", then press Restart --> "
 "From DEM."
 msgstr ""
+"Модель поверхности недоступна. На панели инструментов выберите эту задачу, "
+"нажмите Редактировать, в настройках обязательно включите параметр \"dsm\", "
+"затем нажмите Перезагрузить --> Из DEM."
 
 #: coreplugins/posm-gcpi/plugin.py:8
 msgid "GCP Interface"
@@ -1758,7 +1778,7 @@ msgstr ""
 
 #: nodeodm/models.py:26
 msgid "Available Options"
-msgstr ""
+msgstr "Доступные Опции"
 
 #: nodeodm/models.py:26
 msgid "Description of the options that can be used for processing"
