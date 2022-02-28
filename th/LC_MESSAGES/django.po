@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 17:15+0000\n"
+"POT-Creation-Date: 2022-02-28 19:29+0000\n"
 "PO-Revision-Date: 2021-10-05 15:03+0000\n"
 "Last-Translator: Sitthichai Jinamoy <sjinamoy@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/webodm/webodm/th/>\n"
@@ -347,11 +347,15 @@ msgstr ""
 msgid "Invalid hillshade value: %(value)s"
 msgstr ""
 
+#: app/api/tiler.py:561
+msgid "Cannot use epsg on non-georeferenced dataset"
+msgstr ""
+
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
 msgstr "งานภาพนี้เป็นของ"
 
-#: app/models/image_upload.py:10 app/models/task.py:270
+#: app/models/image_upload.py:10 app/models/task.py:271
 msgid "Task"
 msgstr "งาน"
 
@@ -376,7 +380,7 @@ msgid "Plugin name"
 msgstr "ชื่อปลั๊กอิน"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:230 app/models/theme.py:16
+#: app/models/task.py:231 app/models/theme.py:16
 msgid "Name"
 msgstr "ชื่อ"
 
@@ -452,15 +456,15 @@ msgstr "สัญลักษณ์ที่ใช้อธิบายที่
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr "ตัวเลือกที่กำหนดที่ตั้งไว้ก่อนหน้านี้ (รูปแบบเดียวกับในตัวเลือกของงาน)"
 
-#: app/models/preset.py:11 app/models/task.py:236
+#: app/models/preset.py:11 app/models/task.py:237
 msgid "Options"
 msgstr "ตัวเลือก"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:245
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:246
 msgid "Creation date"
 msgstr "วันที่สร้าง"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:245
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:246
 msgid "Created at"
 msgstr "สร้างที่"
 
@@ -507,12 +511,12 @@ msgstr ""
 msgid "Deleting"
 msgstr "กำลังลบ"
 
-#: app/models/project.py:61 app/models/task.py:412
+#: app/models/project.py:61 app/models/task.py:413
 #, python-format
 msgid "Copy of %(task)s"
 msgstr ""
 
-#: app/models/project.py:84 app/models/task.py:229
+#: app/models/project.py:84 app/models/task.py:230
 msgid "Project"
 msgstr "โครงการ"
 
@@ -569,109 +573,109 @@ msgstr "แอปพลิเคชัน"
 msgid "Settings"
 msgstr "การตั้งค่า"
 
-#: app/models/task.py:226
+#: app/models/task.py:227
 msgid "Id"
 msgstr "ไอดี"
 
-#: app/models/task.py:228
+#: app/models/task.py:229
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "ตัวระบุของงาน (ตามที่ส่งคืนโดย NodeODM API)"
 
-#: app/models/task.py:228
+#: app/models/task.py:229
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:229
+#: app/models/task.py:230
 msgid "Project that this task belongs to"
 msgstr "โครงการที่งานนี้เป็นของ"
 
-#: app/models/task.py:230
+#: app/models/task.py:231
 msgid "A label for the task"
 msgstr "สัญลักษณ์สำหรับงาน"
 
-#: app/models/task.py:231
+#: app/models/task.py:232
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr "จำนวนมิลลิวินาทีที่ผ่านไปตั้งแต่เริ่มต้นงานนี้ (-1 บ่งชี้ว่าไม่มีข้อมูล)"
 
-#: app/models/task.py:231
+#: app/models/task.py:232
 msgid "Processing Time"
 msgstr "ระยะเวลาดำเนินการ"
 
-#: app/models/task.py:232
+#: app/models/task.py:233
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr "โหนดการประมวลผลที่กำหนดให้กับงานนี้ (หรือเป็นโมฆะหากยังไม่ได้เชื่อมโยงงานนี้)"
 
-#: app/models/task.py:232 app/views/app.py:115 nodeodm/models.py:34
+#: app/models/task.py:233 app/views/app.py:115 nodeodm/models.py:34
 msgid "Processing Node"
 msgstr "Processing Node"
 
-#: app/models/task.py:233
+#: app/models/task.py:234
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr "แฟล็กที่ระบุว่างานนี้ควรถูกกำหนดให้โหนดประมวลผลโดยอัตโนมัติหรือไม่"
 
-#: app/models/task.py:233
+#: app/models/task.py:234
 msgid "Auto Processing Node"
 msgstr "โหนดประมวลผลอัตโนมัติ"
 
-#: app/models/task.py:234
+#: app/models/task.py:235
 msgid "Current status of the task"
 msgstr "สถานะปัจจุบันของงาน"
 
-#: app/models/task.py:234
+#: app/models/task.py:235
 msgid "Status"
 msgstr "สถานะ"
 
-#: app/models/task.py:235
+#: app/models/task.py:236
 msgid "The last processing error received"
 msgstr "ได้รับข้อผิดพลาดในการประมวลผลล่าสุด"
 
-#: app/models/task.py:235
+#: app/models/task.py:236
 msgid "Last Error"
 msgstr "ข้อผิดพลาดล่าสุด"
 
-#: app/models/task.py:236
+#: app/models/task.py:237
 msgid "Options that are being used to process this task"
 msgstr "ตัวเลือกที่ใช้ในการประมวลผลงานนี้"
 
-#: app/models/task.py:237
+#: app/models/task.py:238
 msgid "List of available assets to download"
 msgstr "รายการทรัพย์สินที่มีให้ดาวน์โหลด"
 
-#: app/models/task.py:237
+#: app/models/task.py:238
 msgid "Available Assets"
 msgstr "ทรัพย์สินที่มีอยู่"
 
-#: app/models/task.py:238
+#: app/models/task.py:239
 msgid "Console output of the processing node"
 msgstr "ผลผลิตคอนโซลของโหนดการประมวลผล"
 
-#: app/models/task.py:238
+#: app/models/task.py:239
 msgid "Console Output"
 msgstr "ผลผลิตคอนโซล"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "Extent of the orthophoto"
 msgstr "ขอบเขตของออร์โธโฟโต้"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "Orthophoto Extent"
 msgstr "ขอบเขตออร์โธโฟโต้"
 
-#: app/models/task.py:241
+#: app/models/task.py:242
 msgid "DSM Extent"
 msgstr "ขอบเขต DSM"
 
-#: app/models/task.py:242
+#: app/models/task.py:243
 msgid "DTM Extent"
 msgstr "ขอบเขต DTM"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -679,19 +683,19 @@ msgstr ""
 "การดำเนินการที่ร้องขอให้ดำเนินการกับงาน "
 "การดำเนินการที่เลือกจะดำเนินการโดยผู้ปฏิบัติงานในการทำซ้ำครั้งต่อไป"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Pending Action"
 msgstr "อยู่ระหว่างดำเนินการ"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "A flag indicating whether this task is available to the public"
 msgstr "A flag ที่ระบุว่างานนี้เปิดเผยต่อสาธารณะหรือไม่"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "Public"
 msgstr "สาธารณะ"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -700,111 +704,111 @@ msgstr ""
 "เมื่อตั้งค่าเป็นค่าที่แตกต่างจาก -1 "
 "แสดงว่ารูปภาพสำหรับงานนี้จะถูกปรับขนาดเป็นขนาดที่ระบุก่อนการดำเนินการ"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Resize To"
 msgstr "ปรับขนาดเป็น"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr "ค่าระหว่าง 0 ถึง 1 ระบุความคืบหน้าในการอัปโหลดไฟล์ของงานนี้ไปยังโหนดการประมวลผล"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid "Upload Progress"
 msgstr "ความคืบหน้าในการอัปโหลด"
 
-#: app/models/task.py:256
+#: app/models/task.py:257
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr "ค่าระหว่าง 0 ถึง 1 ระบุความคืบหน้าของการปรับขนาดภาพของงานนี้"
 
-#: app/models/task.py:257
+#: app/models/task.py:258
 msgid "Resize Progress"
 msgstr "ความคืบหน้าในการปรับขนาด"
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr "ค่าระหว่าง 0 ถึง 1 ระบุความคืบหน้าในการทำงาน (โดยประมาณ) ของงานนี้"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid "Running Progress"
 msgstr "ความคืบหน้าในการทำงาน"
 
-#: app/models/task.py:263
+#: app/models/task.py:264
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "URL งานนี้นำเข้าจาก (สำหรับงานที่นำเข้าเท่านั้น)"
 
-#: app/models/task.py:263
+#: app/models/task.py:264
 msgid "Import URL"
 msgstr "นำเข้า URL"
 
-#: app/models/task.py:264
+#: app/models/task.py:265
 msgid "Number of images associated with this task"
 msgstr "จำนวนรูปภาพที่เกี่ยวข้องกับงานนี้"
 
-#: app/models/task.py:264
+#: app/models/task.py:265
 msgid "Images Count"
 msgstr "จำนวนภาพ"
 
-#: app/models/task.py:265
+#: app/models/task.py:266
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr "แฟล็กที่ระบุว่าขณะนี้งานนี้กำลังรอข้อมูลหรือไฟล์ที่จะอัปโหลดก่อนที่จะถูกพิจารณาสำหรับการประมวลผล"
 
-#: app/models/task.py:265
+#: app/models/task.py:266
 msgid "Partial"
 msgstr "บางส่วน"
 
-#: app/models/task.py:266
+#: app/models/task.py:267
 #, fuzzy
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr "ความต่อเนื่องของข้อมูลภาพ potree ใช้ในการบันทึก/โหลด การวัดและมุมมองกล้อง"
 
-#: app/models/task.py:266
+#: app/models/task.py:267
 msgid "Potree Scene"
 msgstr "ภาพ Potree"
 
-#: app/models/task.py:267
+#: app/models/task.py:268
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr ""
 
-#: app/models/task.py:271
+#: app/models/task.py:272
 msgid "Tasks"
 msgstr "งาน"
 
-#: app/models/task.py:280
+#: app/models/task.py:281
 msgid "unnamed"
 msgstr "ไม่มีชื่อ"
 
-#: app/models/task.py:491
+#: app/models/task.py:492
 msgid "Importing assets..."
 msgstr "กำลังนำเข้าเนื้อหา..."
 
-#: app/models/task.py:543 app/models/task.py:811
+#: app/models/task.py:544 app/models/task.py:812
 msgid "Invalid zip file"
 msgstr "ไฟล์ zip ไม่ถูกต้อง"
 
-#: app/models/task.py:637
+#: app/models/task.py:638
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "ข้อผิดพลาดในการเชื่อมต่อ: %(error)s"
 
-#: app/models/task.py:717
+#: app/models/task.py:718
 msgid "Cannot restart a task that has no processing node"
 msgstr "ไม่สามารถรีสตาร์ทงานที่ไม่มีโหนดการประมวลผล"
 
-#: app/models/task.py:872
+#: app/models/task.py:873
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "ไม่รองรับ SRS %(code)s โปรดตรวจสอบให้แน่ใจว่าคุณได้เลือก SRS ที่รองรับ"
 
-#: app/models/task.py:884
+#: app/models/task.py:885
 msgid "Done!"
 msgstr "เสร็จ!"
 
@@ -1509,51 +1513,52 @@ msgstr "แก้ไข"
 msgid "Uh oh! Could you please check the errors below?"
 msgstr "กรุณาตรวจสอบข้อผิดพลาดด้านล่าง"
 
+#: app/templates/app/welcome.html:228
+msgid ""
+"Before we get started, we need to create an administrator account for you:"
+msgstr ""
+
 #: app/templates/app/welcome.html:237
 msgid "Create Account"
 msgstr "สร้างบัญชี"
 
 #: app/translations/plugin_manifest_autogenerated.py:4
-msgid "Upload and tile ODM assets with Cesium ion."
-msgstr "อัปโหลดและจัดกลุ่ม ODM assets กับ Cesium ion"
-
-#: app/translations/plugin_manifest_autogenerated.py:5
 msgid "Detect changes between two different tasks in the same project."
 msgstr "ตรวจจับการเปลี่ยนแปลงระหว่างงานสองงานที่แตกต่างกันในโปรเจคเดียวกัน"
 
-#: app/translations/plugin_manifest_autogenerated.py:6
+#: app/translations/plugin_manifest_autogenerated.py:5
 msgid "Import images from external sources directly"
 msgstr "นำเข้ารูปภาพจากแหล่งภายนอกโดยตรง"
 
-#: app/translations/plugin_manifest_autogenerated.py:7
+#: app/translations/plugin_manifest_autogenerated.py:6
 msgid "Compute, preview and export contours from DEMs"
 msgstr "คำนวณ, แสดงตัวอย่าง และส่งออกเส้นคอนทัวร์จาก DEMs"
 
-#: app/translations/plugin_manifest_autogenerated.py:8
+#: app/translations/plugin_manifest_autogenerated.py:7
 msgid "Display program version, memory and disk space usage statistics"
 msgstr "แสดงเวอร์ชันของโปรแกรม, สถิติการใช้หน่วยความจำและพื้นที่ดิสก์"
 
-#: app/translations/plugin_manifest_autogenerated.py:9
+#: app/translations/plugin_manifest_autogenerated.py:8
 msgid "Calculate and draw an elevation map based on a task's DEMs"
 msgstr "คำนวณและวาดแผนที่ระดับความสูงตาม DEM ของงาน"
 
-#: app/translations/plugin_manifest_autogenerated.py:10
+#: app/translations/plugin_manifest_autogenerated.py:9
 msgid "Add a fullscreen button to the 2D map view"
 msgstr "เพิ่มปุ่มเต็มหน้าจอในมุมมองแผนที่ 2 มิติ"
 
-#: app/translations/plugin_manifest_autogenerated.py:11
+#: app/translations/plugin_manifest_autogenerated.py:10
 msgid "Sync accounts from webodm.net"
 msgstr "เชื่อมบัญชีจาก webodm.net"
 
-#: app/translations/plugin_manifest_autogenerated.py:12
+#: app/translations/plugin_manifest_autogenerated.py:11
 msgid "Compute volume, area and length measurements on Leaflet"
 msgstr "คำนวณปริมาตร, พื้นที่ และความยาวใน Leaflet"
 
-#: app/translations/plugin_manifest_autogenerated.py:13
+#: app/translations/plugin_manifest_autogenerated.py:12
 msgid "A plugin to upload orthophotos to OpenAerialMap"
 msgstr "ปลั๊กอินสำหรับอัปโหลด orthophotos ไปยัง OpenAerialMap"
 
-#: app/translations/plugin_manifest_autogenerated.py:14
+#: app/translations/plugin_manifest_autogenerated.py:13
 msgid ""
 "A plugin to add a button for quickly opening OpenStreetMap's iD editor and "
 "setup a TMS basemap."
@@ -1561,19 +1566,23 @@ msgstr ""
 "ปลั๊กอินสำหรับเพิ่มปุ่มเพื่อเปิดตัวแก้ไข iD ของ OpenStreetMap อย่างรวดเร็ว และตั้งค่าแผนที่ฐาน "
 "TMS"
 
+#: app/translations/plugin_manifest_autogenerated.py:14
 #: app/translations/plugin_manifest_autogenerated.py:15
-#: app/translations/plugin_manifest_autogenerated.py:16
 msgid "A plugin to create GCP files from images"
 msgstr "ปลั๊กอินสำหรับสร้างไฟล์ GCP จากรูปภาพ"
 
-#: app/translations/plugin_manifest_autogenerated.py:17
+#: app/translations/plugin_manifest_autogenerated.py:16
 msgid "Create short links when sharing task URLs"
 msgstr "สร้างลิงก์สั้น ๆ เมื่อแชร์ URL ของงาน"
 
-#: app/translations/plugin_manifest_autogenerated.py:18
+#: app/translations/plugin_manifest_autogenerated.py:17
 #, fuzzy
 msgid "Create editable short links when sharing task URLs"
 msgstr "สร้างลิงก์สั้น ๆ เมื่อแชร์ URL ของงาน"
+
+#: app/translations/plugin_manifest_autogenerated.py:18
+msgid "Integrate WebODM with DroneDB: import images and share results"
+msgstr ""
 
 #: app/views/app.py:44
 msgid "First Project"
@@ -1602,10 +1611,6 @@ msgstr "โหลดไฟล์การแปลซ้ำ"
 #: app/views/dev.py:75
 msgid "Invalid action"
 msgstr "การกระทำที่ไม่ถูกต้อง"
-
-#: coreplugins/cesiumion/api_views.py:159
-msgid "No matching enum type."
-msgstr "ประเภทของ enum ไม่ตรงกัน"
 
 #: coreplugins/contours/api.py:16
 msgid "No DSM layer is available."
@@ -1795,6 +1800,12 @@ msgstr "ป้ายทางเลือกสำหรับโหนดนี
 #: nodeodm/models.py:31
 msgid "Engine used by the node."
 msgstr "เครื่องยนต์ที่ใช้โดยโหนด"
+
+#~ msgid "Upload and tile ODM assets with Cesium ion."
+#~ msgstr "อัปโหลดและจัดกลุ่ม ODM assets กับ Cesium ion"
+
+#~ msgid "No matching enum type."
+#~ msgstr "ประเภทของ enum ไม่ตรงกัน"
 
 #~ msgid ""
 #~ "Excess Green Index emphasizes the greenness of leafy crops such as "

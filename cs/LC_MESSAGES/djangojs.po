@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 17:15+0000\n"
+"POT-Creation-Date: 2022-02-28 19:29+0000\n"
 "PO-Revision-Date: 2022-01-12 22:55+0000\n"
 "Last-Translator: Jiří Podhorecký <j.podhorecky@volny.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/webodm/react-ui/cs/"
@@ -90,7 +90,7 @@ msgstr "Zobrazit model"
 msgid "Show Cameras"
 msgstr "Zobrazit kamery"
 
-#: app/static/app/js/ModelView.jsx:668
+#: app/static/app/js/ModelView.jsx:671
 msgid "Loading textured model..."
 msgstr "Načítání texturovaného modelu..."
 
@@ -254,7 +254,7 @@ msgstr "Není správně zazipovaný shapefile: %(file)s"
 msgid "Not a proper JSON file: %(file)s"
 msgstr "Není správný soubor JSON: %(file)s"
 
-#: app/static/app/js/components/AssetDownloadButtons.jsx:53
+#: app/static/app/js/components/AssetDownloadButtons.jsx:56
 msgid "Download Assets"
 msgstr "Stažení assetů"
 
@@ -364,7 +364,7 @@ msgstr "Nelze načíst seznam předvoleb. Jste připojeni k internetu?"
 
 #: app/static/app/js/components/EditTaskForm.jsx:225
 #: app/static/app/js/components/EditTaskForm.jsx:384
-#: app/static/app/js/components/ExportAssetPanel.jsx:183
+#: app/static/app/js/components/ExportAssetPanel.jsx:185
 #: app/static/app/js/components/Map.jsx:400
 #: coreplugins/contours/public/ContoursPanel.jsx:246
 #: coreplugins/contours/public/ContoursPanel.jsx:273
@@ -413,13 +413,13 @@ msgstr "Znovu"
 #: app/static/app/js/components/EditTaskForm.jsx:531
 #: app/static/app/js/components/ProjectListItem.jsx:551
 #: app/static/app/js/components/TaskListItem.jsx:455
-#: app/static/app/js/components/TaskListItem.jsx:683
+#: app/static/app/js/components/TaskListItem.jsx:685
 #: coreplugins/editshortlinks/public/SLControls.jsx:162
 msgid "Edit"
 msgstr "Upravit"
 
 #: app/static/app/js/components/EditTaskForm.jsx:537
-#: app/static/app/js/components/TaskListItem.jsx:689
+#: app/static/app/js/components/TaskListItem.jsx:691
 msgid "Duplicate"
 msgstr "Duplikovat"
 
@@ -433,7 +433,7 @@ msgstr "Uložit"
 #: app/static/app/js/components/EditTaskForm.jsx:545
 #: app/static/app/js/components/FormDialog.jsx:166
 #: app/static/app/js/components/TaskListItem.jsx:483
-#: app/static/app/js/components/TaskListItem.jsx:699
+#: app/static/app/js/components/TaskListItem.jsx:701
 #: coreplugins/measure/public/app.jsx:34
 msgid "Delete"
 msgstr "Smazat"
@@ -459,7 +459,7 @@ msgstr "Nepodařilo se aktualizovat informace o úloze. Zkuste to znovu."
 #: app/static/app/js/components/FormDialog.jsx:193
 #: app/static/app/js/components/NewTaskPanel.jsx:185
 #: app/static/app/js/components/TaskListItem.jsx:464
-#: app/static/app/js/components/TaskListItem.jsx:678
+#: app/static/app/js/components/TaskListItem.jsx:680
 #: coreplugins/measure/public/app.jsx:33
 msgid "Cancel"
 msgstr "Zrušit"
@@ -481,7 +481,7 @@ msgstr "Stahování…"
 msgid "Download"
 msgstr "Stáhnout"
 
-#: app/static/app/js/components/ExportAssetPanel.jsx:150
+#: app/static/app/js/components/ExportAssetPanel.jsx:152
 #: app/static/app/js/components/ImportTaskPanel.jsx:138
 #: app/static/app/js/components/LayersControlLayer.jsx:250
 #: app/static/app/js/components/ProjectList.jsx:56
@@ -489,30 +489,30 @@ msgstr "Stáhnout"
 msgid "Invalid JSON response: %(error)s"
 msgstr "Neplatná odpověď JSON: %(error)s"
 
-#: app/static/app/js/components/ExportAssetPanel.jsx:177
+#: app/static/app/js/components/ExportAssetPanel.jsx:179
 #: coreplugins/contours/public/ContoursPanel.jsx:287
 msgid "Projection:"
 msgstr "Projekce:"
 
-#: app/static/app/js/components/ExportAssetPanel.jsx:181
+#: app/static/app/js/components/ExportAssetPanel.jsx:183
 #: coreplugins/contours/public/ContoursPanel.jsx:290
 msgid "Lat/Lon"
 msgstr "Zem. šířka / délka"
 
-#: app/static/app/js/components/ExportAssetPanel.jsx:182
+#: app/static/app/js/components/ExportAssetPanel.jsx:184
 #: coreplugins/contours/public/ContoursPanel.jsx:291
 msgid "Web Mercator"
 msgstr "Web Mercator"
 
-#: app/static/app/js/components/ExportAssetPanel.jsx:200
+#: app/static/app/js/components/ExportAssetPanel.jsx:202
 msgid "Format:"
 msgstr "Formát:"
 
-#: app/static/app/js/components/ExportAssetPanel.jsx:209
+#: app/static/app/js/components/ExportAssetPanel.jsx:211
 msgid "Export:"
 msgstr "Export:"
 
-#: app/static/app/js/components/ExportAssetPanel.jsx:214
+#: app/static/app/js/components/ExportAssetPanel.jsx:216
 msgid "Exporting..."
 msgstr "Exportování..."
 
@@ -955,7 +955,9 @@ msgid "Task #%(number)s"
 msgstr "Úloha č. %(number)s"
 
 #: app/static/app/js/components/TaskListItem.jsx:410
-msgid "Uploading images to processing node"
+#, fuzzy
+#| msgid "Uploading images to processing node"
+msgid "Sending images to processing node"
 msgstr "Nahrávání obrázků do uzlu pro zpracování"
 
 #: app/static/app/js/components/TaskListItem.jsx:412
@@ -967,7 +969,7 @@ msgid "View 3D Model"
 msgstr "Zobrazit 3D model"
 
 #: app/static/app/js/components/TaskListItem.jsx:464
-#: app/static/app/js/components/TaskListItem.jsx:678
+#: app/static/app/js/components/TaskListItem.jsx:680
 msgid "Cannot cancel task."
 msgstr "Nelze zrušit úlohu."
 
@@ -976,7 +978,7 @@ msgid "Restart"
 msgstr "Restart"
 
 #: app/static/app/js/components/TaskListItem.jsx:484
-#: app/static/app/js/components/TaskListItem.jsx:700
+#: app/static/app/js/components/TaskListItem.jsx:702
 msgid ""
 "All information related to this task, including images, maps and models will "
 "be deleted. Continue?"
@@ -985,56 +987,56 @@ msgstr ""
 "budou smazány. Pokračovat?"
 
 #: app/static/app/js/components/TaskListItem.jsx:485
-#: app/static/app/js/components/TaskListItem.jsx:701
+#: app/static/app/js/components/TaskListItem.jsx:703
 msgid "Cannot delete task."
 msgstr "Nelze odstranit úlohu."
 
-#: app/static/app/js/components/TaskListItem.jsx:536
-msgid "Task Output:"
-msgstr "Výstup úkolu:"
-
-#: app/static/app/js/components/TaskListItem.jsx:539
-msgid "On"
-msgstr "Na"
-
-#: app/static/app/js/components/TaskListItem.jsx:540
-msgid "Off"
-msgstr "Vypnuto"
-
-#: app/static/app/js/components/TaskListItem.jsx:548
+#: app/static/app/js/components/TaskListItem.jsx:538
 msgid "Created on:"
 msgstr "Vytvořeno dne:"
 
-#: app/static/app/js/components/TaskListItem.jsx:551
+#: app/static/app/js/components/TaskListItem.jsx:542
 msgid "Processing Node:"
 msgstr "Zpracovatelský uzel:"
 
-#: app/static/app/js/components/TaskListItem.jsx:551
+#: app/static/app/js/components/TaskListItem.jsx:543
 msgid "auto"
 msgstr "auto"
 
-#: app/static/app/js/components/TaskListItem.jsx:551
+#: app/static/app/js/components/TaskListItem.jsx:543
 msgid "manual"
 msgstr "manuálně"
 
-#: app/static/app/js/components/TaskListItem.jsx:555
+#: app/static/app/js/components/TaskListItem.jsx:547
 msgid "Options:"
 msgstr "Možnosti:"
 
-#: app/static/app/js/components/TaskListItem.jsx:561
+#: app/static/app/js/components/TaskListItem.jsx:552
 msgid "Average GSD:"
 msgstr "Průměrné GSD:"
 
-#: app/static/app/js/components/TaskListItem.jsx:565
+#: app/static/app/js/components/TaskListItem.jsx:557
 #: coreplugins/measure/public/MeasurePopup.jsx:142
 msgid "Area:"
 msgstr "Oblast:"
 
-#: app/static/app/js/components/TaskListItem.jsx:569
+#: app/static/app/js/components/TaskListItem.jsx:562
 msgid "Reconstructed Points:"
 msgstr "Rekonstruované body:"
 
-#: app/static/app/js/components/TaskListItem.jsx:587
+#: app/static/app/js/components/TaskListItem.jsx:566
+msgid "Task Output:"
+msgstr "Výstup úkolu:"
+
+#: app/static/app/js/components/TaskListItem.jsx:568
+msgid "On"
+msgstr "Na"
+
+#: app/static/app/js/components/TaskListItem.jsx:569
+msgid "Off"
+msgstr "Vypnuto"
+
+#: app/static/app/js/components/TaskListItem.jsx:589
 msgid ""
 "An orthophoto could not be generated. To generate one, make sure GPS "
 "information is embedded in the EXIF tags of your images, or use a Ground "
@@ -1044,15 +1046,15 @@ msgstr ""
 "jsou informace GPS vloženy do značek EXIF vašich snímků, nebo použijte "
 "soubor GCP (Ground Control Points)."
 
-#: app/static/app/js/components/TaskListItem.jsx:590
+#: app/static/app/js/components/TaskListItem.jsx:592
 msgid "enough RAM allocated"
 msgstr "dostatek přidělené paměti RAM"
 
-#: app/static/app/js/components/TaskListItem.jsx:590
+#: app/static/app/js/components/TaskListItem.jsx:592
 msgid "cloud processing node"
 msgstr "cloudový zpracovatelský uzel"
 
-#: app/static/app/js/components/TaskListItem.jsx:590
+#: app/static/app/js/components/TaskListItem.jsx:592
 #, python-format
 msgid ""
 "It looks like your processing node ran out of memory. If you are using "
@@ -1067,11 +1069,11 @@ msgstr ""
 "nebo snižte parametr max-concurrency z možností úlohy. Můžete také zkusit "
 "použít %(cloudlink)s."
 
-#: app/static/app/js/components/TaskListItem.jsx:597
+#: app/static/app/js/components/TaskListItem.jsx:599
 msgid "open a topic"
 msgstr "otevřít téma"
 
-#: app/static/app/js/components/TaskListItem.jsx:597
+#: app/static/app/js/components/TaskListItem.jsx:599
 #, python-format
 msgid ""
 "\"Process exited with code 1\" means that part of the processing failed. "
@@ -1088,15 +1090,15 @@ msgstr ""
 "nezapomeňte přiložit kopii výstupu úlohy. Naši úžasní přispěvatelé se vám "
 "pokusí pomoci!"
 
-#: app/static/app/js/components/TaskListItem.jsx:644
+#: app/static/app/js/components/TaskListItem.jsx:646
 msgid "Set a processing node"
 msgstr "Nastavení zpracovatelského uzlu"
 
-#: app/static/app/js/components/TaskListItem.jsx:649
+#: app/static/app/js/components/TaskListItem.jsx:651
 msgid "Waiting for image upload..."
 msgstr "Čekání na nahrání obrázku..."
 
-#: app/static/app/js/components/TaskListItem.jsx:688
+#: app/static/app/js/components/TaskListItem.jsx:690
 msgid "Move"
 msgstr "Přesunout"
 
@@ -1118,47 +1120,55 @@ msgstr "%(count)s úspěšně nahraných souborů"
 #: app/static/app/js/translations/odm_autogenerated.js:3
 #, python-format
 msgid ""
-"Use images' GPS exif data for reconstruction, even if there are GCPs present."
-"This flag is useful if you have high precision GPS measurements. If there "
-"are no GCPs, this flag does nothing. Default: %(default)s"
+"Legacy option (use --pc-quality instead). Controls the density of the point "
+"cloud by setting the resolution of the depthmap images. Higher values take "
+"longer to compute but produce denser point clouds. Default: %(default)s"
 msgstr ""
-"Použijte data GPS exif snímků pro rekonstrukci, i když jsou přítomny "
-"GCP.Tento příznak je užitečný, pokud máte vysoce přesná měření GPS. Pokud "
-"nejsou k dispozici žádné GCP, tento příznak nic neudělá. Výchozí hodnota: "
-"%(default)s"
+"Starší volba (místo ní použijte --pc-quality). Řídí hustotu mračna bodů "
+"nastavením rozlišení obrázků hloubkové mapy. Vyšší hodnoty vyžadují delší "
+"výpočet, ale vytvářejí hustší mračna bodů. Výchozí hodnota: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:4
 #, python-format
 msgid ""
-"Perform ground rectification on the point cloud. This means that wrongly "
-"classified ground points will be re-classified and gaps will be filled. "
-"Useful for generating DTMs. Default: %(default)s"
+"Radius of the overlap between submodels. After grouping images into "
+"clusters, images that are closer than this radius to a cluster are added to "
+"the cluster. This is done to ensure that neighboring submodels overlap. "
+"Default: %(default)s"
 msgstr ""
-"Proveďte rektifikaci země na mračnu bodů. To znamená, že chybně "
-"klasifikované pozemní body budou překlasifikovány a mezery budou doplněny. "
-"Užitečné pro generování DTM. Výchozí hodnota: %(default)s"
+"Poloměr překrytí dílčích modelů. Po seskupení snímků do shluků se do shluku "
+"přidají snímky, které jsou blíže než tento poloměr. Tím se zajistí, aby se "
+"sousední submodely překrývaly. Výchozí hodnota: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:5
 #, python-format
 msgid ""
-"Skips dense reconstruction and 3D model generation. It generates an "
-"orthophoto directly from the sparse reconstruction. If you just need an "
-"orthophoto and do not need a full 3D model, turn on this option. Default: "
-"%(default)s"
+"Set feature extraction quality. Higher quality generates better features, "
+"but requires more memory and takes longer. Can be one of: %(choices)s. "
+"Default: %(default)s"
 msgstr ""
-"Přeskočí hustou rekonstrukci a generování 3D modelu. Generuje ortofoto přímo "
-"z řídké rekonstrukce. Pokud potřebujete pouze ortofoto a nepotřebujete "
-"kompletní 3D model, zapněte tuto možnost. Výchozí hodnota: %(default)s"
+"Nastavení kvality extrakce prvků. Vyšší kvalita generuje lepší rysy, ale "
+"vyžaduje více paměti a trvá déle. Může to být jedna z následujících "
+"možností: %(choices)s. Výchozí hodnota: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:6
 #, python-format
 msgid ""
-"Export the georeferenced point cloud in CSV format. Default: %(default)s"
+"Legacy option (use --feature-quality instead). Resizes images by the largest "
+"side for feature extraction purposes only. Set to -1 to disable. This does "
+"not affect the final orthophoto resolution quality and will not resize the "
+"original images. Default: %(default)s"
 msgstr ""
-"Export georeferencovaného mračna bodů ve formátu CSV. Výchozí hodnota: "
-"%(default)s"
+"Starší volba (místo ní použijte --feature-quality). Změní velikost obrázků "
+"podle největší strany pouze pro účely extrakce prvků. Pro vypnutí nastavte "
+"hodnotu -1. Nemá vliv na kvalitu konečného rozlišení ortofota a nezmění "
+"velikost původních snímků. Výchozí hodnota: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:7
+msgid "Displays version number and exits. "
+msgstr "Zobrazí číslo verze a ukončí se. "
+
+#: app/static/app/js/translations/odm_autogenerated.js:8
 #, python-format
 msgid ""
 "Set this parameter if you want to generate a PNG rendering of the "
@@ -1167,24 +1177,7 @@ msgstr ""
 "Tento parametr nastavte, pokud chcete vygenerovat vykreslení ortofota ve "
 "formátu PNG. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:8
-#, python-format
-msgid ""
-"Export the georeferenced point cloud in Entwine Point Tile (EPT) format. "
-"Default: %(default)s"
-msgstr ""
-"Export georeferencovaného mračna bodů ve formátu Entwine Point Tile (EPT). "
-"Výchozí hodnota: %(default)s"
-
 #: app/static/app/js/translations/odm_autogenerated.js:9
-#, python-format
-msgid ""
-"Keep faces in the mesh that are not seen in any camera. Default:  %(default)s"
-msgstr ""
-"Zachovejte v síti plochy, které nejsou vidět v žádné kameře. Výchozí hodnota:"
-" %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:10
 #, python-format
 msgid ""
 "Generate static tiles for orthophotos and DEMs that are suitable for viewers "
@@ -1193,158 +1186,7 @@ msgstr ""
 "Generování statických dlaždic pro ortofotomapy a DEM, které jsou vhodné pro "
 "prohlížeče jako Leaflet nebo OpenLayers. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:11
-#, python-format
-msgid ""
-"The maximum number of processes to use in various processes. Peak memory "
-"requirement is ~1GB per thread and 2 megapixel image resolution. Default: "
-"%(default)s"
-msgstr ""
-"Maximální počet procesů, které se mají použít v různých procesech. Maximální "
-"paměťová náročnost je ~1 GB na vlákno a rozlišení obrazu 2 megapixely. "
-"Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:12
-msgid "Displays version number and exits. "
-msgstr "Zobrazí číslo verze a ukončí se. "
-
-#: app/static/app/js/translations/odm_autogenerated.js:13
-#, python-format
-msgid ""
-"Skip generation of a full 3D model. This can save time if you only need 2D "
-"results such as orthophotos and DEMs. Default: %(default)s"
-msgstr ""
-"Vynechání generování úplného 3D modelu. To může ušetřit čas, pokud "
-"potřebujete pouze 2D výsledky, jako jsou ortofotomapy a DEM. Výchozí hodnota:"
-" %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:14
-#, python-format
-msgid ""
-"Distance threshold in meters to find pre-matching images based on GPS exif "
-"data. Set both matcher-neighbors and this to 0 to skip pre-matching. "
-"Default: %(default)s"
-msgstr ""
-"Prahová hodnota vzdálenosti v metrech pro vyhledání předem shodných snímků "
-"na základě údajů GPS exif. Chcete-li vynechat předběžné porovnávání, "
-"nastavte obě hodnoty matcher-neighbors a this na 0. Výchozí hodnota: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:15
-#, python-format
-msgid ""
-"Run local bundle adjustment for every image added to the reconstruction and "
-"a global adjustment every 100 images. Speeds up reconstruction for very "
-"large datasets. Default: %(default)s"
-msgstr ""
-"Proveďte místní úpravu svazku pro každý snímek přidaný do rekonstrukce a "
-"globální úpravu každých 100 snímků. Zrychluje rekonstrukci u velmi "
-"rozsáhlých souborů dat. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:16
-#, python-format
-msgid ""
-"Filters the point cloud by removing points that deviate more than N standard "
-"deviations from the local mean. Set to 0 to disable filtering. Default: "
-"%(default)s"
-msgstr ""
-"Filtruje mračno bodů odstraněním bodů, které se odchylují od místního "
-"průměru o více než N standardních odchylek. Nastavením na 0 filtrování "
-"vypnete. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:17
-#, python-format
-msgid ""
-"Minimum number of features to extract per image. More features can be useful "
-"for finding more matches between images, potentially allowing the "
-"reconstruction of areas with little overlap or insufficient features. More "
-"features also slow down processing. Default: %(default)s"
-msgstr ""
-"Minimální počet prvků, které se mají extrahovat na jeden obrázek. Více prvků "
-"může být užitečné pro nalezení většího počtu shod mezi snímky, což může "
-"umožnit rekonstrukci oblastí s malým překrytím nebo nedostatečným počtem "
-"rysů. Více prvků také zpomaluje zpracování. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:18
-#, python-format
-msgid ""
-"Use this tag to build a DTM (Digital Terrain Model, ground only) using a "
-"simple morphological filter. Check the --dem* and --smrf* parameters for "
-"finer tuning. Default: %(default)s"
-msgstr ""
-"Pomocí této značky lze vytvořit DTM (digitální model terénu, pouze pozemní) "
-"pomocí jednoduchého morfologického filtru. Pro jemnější nastavení "
-"zkontrolujte parametry --dem* a --smrf*. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:19
-#, python-format
-msgid ""
-"Simple Morphological Filter elevation threshold parameter (meters). Default: "
-"%(default)s"
-msgstr ""
-"Parametr prahové výšky jednoduchého morfologického filtru (v metrech). "
-"Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:20
-#, python-format
-msgid ""
-"Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag of "
-"Words. FLANN is slower, but more stable. BOW is faster, but can sometimes "
-"miss valid matches. Can be one of: %(choices)s. Default: %(default)s"
-msgstr ""
-"Algoritmus Matcher, Rychlá knihovna pro přibližné nejbližší sousedy nebo Bag "
-"of Words. FLANN je pomalejší, ale stabilnější. BOW je rychlejší, ale někdy "
-"může vynechat platné shody. Může to být jedna z následujících možností: "
-"%(choices)s. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:21
-#, python-format
-msgid ""
-"Create Cloud-Optimized GeoTIFFs instead of normal GeoTIFFs. Default: "
-"%(default)s"
-msgstr ""
-"Vytváření GeoTIFFů optimalizovaných pro cloud místo běžných GeoTIFFů. "
-"Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:22
-#, python-format
-msgid ""
-"Path to the file containing the ground control points used for "
-"georeferencing. The file needs to use the following format: EPSG:<code> or <"
-"+proj definition>geo_x geo_y geo_z im_x im_y image_name [gcp_name] [extra1] "
-"[extra2]Default: %(default)s"
-msgstr ""
-"Cesta k souboru obsahujícímu body pozemní kontroly používané pro "
-"georeferencování. Soubor musí používat následující formát: EPSG:<code> nebo "
-"<+proj definition>geo_x geo_y geo_z im_x im_y image_name [gcp_name] [extra1] "
-"[extra2] Výchozí: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:23
-#, python-format
-msgid ""
-"Use this tag if you have a GCP File but want to use the EXIF information for "
-"georeferencing instead. Default: %(default)s"
-msgstr ""
-"Tuto značku použijte, pokud máte soubor GCP, ale chcete místo něj použít "
-"informace EXIF pro georeferencování. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:24
-#, python-format
-msgid ""
-"Number of steps used to fill areas with gaps. Set to 0 to disable gap "
-"filling. Starting with a radius equal to the output resolution, N different "
-"DEMs are generated with progressively bigger radius using the inverse "
-"distance weighted (IDW) algorithm and merged together. Remaining gaps are "
-"then merged using nearest neighbor interpolation. Default: %(default)s"
-msgstr ""
-"Počet kroků použitých k vyplnění oblastí s mezerami. Nastavením na 0 se "
-"vyplňování mezer zakáže. Počínaje poloměrem rovným výstupnímu rozlišení se "
-"pomocí algoritmu IDW (inverse distance weighted) vytvoří N různých DEM s "
-"postupně se zvětšujícím poloměrem a sloučí se dohromady. Zbývající mezery se "
-"pak sloučí pomocí interpolace nejbližšího souseda. Výchozí hodnota: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:25
+#: app/static/app/js/translations/odm_autogenerated.js:10
 #, python-format
 msgid ""
 "Improve the accuracy of the point cloud by computing geometrically "
@@ -1355,20 +1197,7 @@ msgstr ""
 "hloubkových map. To prodlužuje dobu zpracování, ale může zlepšit výsledky v "
 "městských scénách. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:26
-#, python-format
-msgid ""
-"Number of nearest images to pre-match based on GPS exif data. Set to 0 to "
-"skip pre-matching. Neighbors works together with Distance parameter, set "
-"both to 0 to not use pre-matching. Default: %(default)s"
-msgstr ""
-"Počet nejbližších snímků před porovnáním na základě údajů GPS exif. "
-"Nastavením na hodnotu 0 se předběžné porovnávání vynechá. Parametr Neighbors "
-"funguje společně s parametrem Distance (Vzdálenost), pokud chcete nepoužívat "
-"předřazené porovnávání, nastavte obě hodnoty na 0. Výchozí hodnota: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:27
+#: app/static/app/js/translations/odm_autogenerated.js:11
 #, python-format
 msgid ""
 "Decimate the points before generating the DEM. 1 is no decimation (full "
@@ -1379,39 +1208,135 @@ msgstr ""
 "kvalita). 100 decimuje ~99%% bodů. Užitečné pro urychlení generování "
 "výsledků DEM ve velmi rozsáhlých souborech dat. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:28
+#: app/static/app/js/translations/odm_autogenerated.js:12
 #, python-format
 msgid ""
-"Orthophoto resolution in cm / pixel. Note that this value is capped by a "
-"ground sampling distance (GSD) estimate. To remove the cap, check --ignore-"
-"gsd also. Default: %(default)s"
+"Skip generation of a full 3D model. This can save time if you only need 2D "
+"results such as orthophotos and DEMs. Default: %(default)s"
 msgstr ""
-"Rozlišení ortofota v cm / pixel. Všimněte si, že tato hodnota je omezena "
-"odhadem vzdálenosti vzorkování od země (GSD). Chcete-li tento limit "
-"odstranit, zaškrtněte také --ignore-gsd. Výchozí hodnota: %(default)s"
+"Vynechání generování úplného 3D modelu. To může ušetřit čas, pokud "
+"potřebujete pouze 2D výsledky, jako jsou ortofotomapy a DEM. Výchozí "
+"hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:29
+#: app/static/app/js/translations/odm_autogenerated.js:13
+#, python-format
+msgid ""
+"Export the georeferenced point cloud in CSV format. Default: %(default)s"
+msgstr ""
+"Export georeferencovaného mračna bodů ve formátu CSV. Výchozí hodnota: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:14
+#, python-format
+msgid ""
+"Simple Morphological Filter elevation scalar parameter. Default: %(default)s"
+msgstr ""
+"Jednoduchý morfologický filtr skalární parametr výšky. Výchozí hodnota: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:15
+#, python-format
+msgid ""
+"Use images' GPS exif data for reconstruction, even if there are GCPs present."
+"This flag is useful if you have high precision GPS measurements. If there "
+"are no GCPs, this flag does nothing. Default: %(default)s"
+msgstr ""
+"Použijte data GPS exif snímků pro rekonstrukci, i když jsou přítomny GCP."
+"Tento příznak je užitečný, pokud máte vysoce přesná měření GPS. Pokud nejsou "
+"k dispozici žádné GCP, tento příznak nic neudělá. Výchozí hodnota: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:16
+#, python-format
+msgid ""
+"Set point cloud quality. Higher quality generates better, denser point "
+"clouds, but requires more memory and takes longer. Each step up in quality "
+"increases processing time roughly by a factor of 4x.Can be one of: "
+"%(choices)s. Default: %(default)s"
+msgstr ""
+"Kvalita mraku nastavených bodů. Vyšší kvalita generuje lepší a hustší mračna "
+"bodů, ale vyžaduje více paměti a trvá déle. Každé zvýšení kvality zvyšuje "
+"dobu zpracování zhruba 4x. může být jedna z následujících hodnot: "
+"%(choices)s. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:17
+#, python-format
+msgid ""
+"The maximum number of processes to use in various processes. Peak memory "
+"requirement is ~1GB per thread and 2 megapixel image resolution. Default: "
+"%(default)s"
+msgstr ""
+"Maximální počet procesů, které se mají použít v různých procesech. Maximální "
+"paměťová náročnost je ~1 GB na vlákno a rozlišení obrazu 2 megapixely. "
+"Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:18
+#, python-format
+msgid ""
+"URL to a ClusterODM instance for distributing a split-merge workflow on "
+"multiple nodes in parallel. Default: %(default)s"
+msgstr ""
+"URL na instanci ClusterODM pro distribuci pracovního postupu rozdělení a "
+"sloučení na více uzlů paralelně. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:19
+#, python-format
+msgid ""
+"End processing at this stage. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"V této fázi zpracování ukončete. Může to být jedna z následujících možností: "
+"%(choices)s. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:20
 #, python-format
 msgid ""
 "Choose what to merge in the merge step in a split dataset. By default all "
 "available outputs are merged. Options: %(choices)s. Default: %(default)s"
 msgstr ""
 "Výběr toho, co se má sloučit v kroku sloučení v rozdělené sadě dat. Ve "
-"výchozím nastavení se sloučí všechny dostupné výstupy. Možnosti: %(choices)"
-"s. Výchozí hodnota: %(default)s"
+"výchozím nastavení se sloučí všechny dostupné výstupy. Možnosti: "
+"%(choices)s. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:30
+#: app/static/app/js/translations/odm_autogenerated.js:21
 #, python-format
 msgid ""
-"GeoJSON polygon limiting the area of the reconstruction. Can be specified "
-"either as path to a GeoJSON file or as a JSON string representing the "
-"contents of a GeoJSON file. Default: %(default)s"
+"Classify the point cloud outputs using a Simple Morphological Filter. You "
+"can control the behavior of this option by tweaking the --dem-* parameters. "
+"Default: %(default)s"
 msgstr ""
-"GeoJSON polygon omezující oblast rekonstrukce. Lze zadat buď jako cestu k "
-"souboru GeoJSON, nebo jako řetězec JSON reprezentující obsah souboru "
-"GeoJSON. Výchozí hodnota: %(default)s"
+"Klasifikace výstupů mračna bodů pomocí jednoduchého morfologického filtru. "
+"Chování této možnosti můžete ovlivnit úpravou parametrů --dem-*. Výchozí "
+"hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:31
+#: app/static/app/js/translations/odm_autogenerated.js:22
+#, python-format
+msgid ""
+"Use this tag to build a DSM (Digital Surface Model, ground + objects) using "
+"a progressive morphological filter. Check the --dem* parameters for finer "
+"tuning. Default: %(default)s"
+msgstr ""
+"Tato značka slouží k vytvoření DSM (digitálního modelu povrchu, země + "
+"objekty) pomocí progresivního morfologického filtru. Pro jemnější nastavení "
+"zkontrolujte parametry --dem*. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:23
+msgid ""
+"Permanently delete all previous results and rerun the processing pipeline."
+msgstr ""
+"Trvale odstraní všechny předchozí výsledky a znovu spustí zpracovatelský "
+"řetězec."
+
+#: app/static/app/js/translations/odm_autogenerated.js:24
+#, python-format
+msgid ""
+"Skip normalization of colors across all images. Useful when processing "
+"radiometric data. Default: %(default)s"
+msgstr ""
+"Přeskočení normalizace barev ve všech snímcích. Užitečné při zpracování "
+"radiometrických dat. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:25
 #, python-format
 msgid ""
 "When processing multispectral datasets, ODM will automatically align the "
@@ -1422,16 +1347,37 @@ msgstr ""
 "pro každé pásmo. Pokud byly snímky dodatečně zpracovány a jsou již "
 "vyrovnány, použijte tuto možnost. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:32
+#: app/static/app/js/translations/odm_autogenerated.js:26
 #, python-format
 msgid ""
-"Simple Morphological Filter window radius parameter (meters). Default: "
+"Export the georeferenced point cloud in LAS format. Default: %(default)s"
+msgstr ""
+"Export georeferencovaného mračna bodů ve formátu LAS. Výchozí hodnota: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:27
+#, python-format
+msgid ""
+"Build orthophoto overviews for faster display in programs such as QGIS. "
+"Default: %(default)s"
+msgstr ""
+"Vytvářejte přehledy ortofotomap pro rychlejší zobrazení v programech, jako "
+"je QGIS. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:28
+#, python-format
+msgid ""
+"Filters the point cloud by keeping only a single point around a radius N (in "
+"meters). This can be useful to limit the output resolution of the point "
+"cloud and remove duplicate points. Set to 0 to disable sampling. Default: "
 "%(default)s"
 msgstr ""
-"Parametr poloměru okna jednoduchého morfologického filtru (v metrech). "
+"Filtruje mračno bodů tak, že ponechá pouze jeden bod v okolí poloměru N (v "
+"metrech). To může být užitečné pro omezení výstupního rozlišení mračna bodů "
+"a odstranění duplicitních bodů. Nastavením na hodnotu 0 vzorkování zakážete. "
 "Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:33
+#: app/static/app/js/translations/odm_autogenerated.js:29
 #, python-format
 msgid ""
 "Computes an euclidean raster map for each DEM. The map reports the distance "
@@ -1444,96 +1390,7 @@ msgstr ""
 "užitečné pro izolaci oblastí, které byly vyplněny. Výchozí hodnota: "
 "%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:34
-#, python-format
-msgid ""
-"Type of photometric outlier removal method. Can be one of: %(choices)s. "
-"Default: %(default)s"
-msgstr ""
-"Typ metody odstranění fotometrických odchylek. Může to být jedna z "
-"následujících možností: %(choices)s. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:35
-#, python-format
-msgid ""
-"Automatically set a boundary using camera shot locations to limit the area "
-"of the reconstruction. This can help remove far away background artifacts "
-"(sky, background landscapes, etc.). See also --boundary. Default: %(default)s"
-msgstr ""
-"Automatické nastavení hranice pomocí míst záběrů kamery pro omezení oblasti "
-"rekonstrukce. To může pomoci odstranit vzdálené artefakty pozadí (obloha, "
-"krajina v pozadí atd.). Viz také příkaz --boundary. Výchozí hodnota: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:36
-msgid ""
-"Path to the project folder. Your project folder should contain subfolders "
-"for each dataset. Each dataset should have an \"images\" folder."
-msgstr ""
-"Cesta ke složce projektu. Složka projektu by měla obsahovat podsložky pro "
-"jednotlivé datové sady. Každá datová sada by měla mít složku \"images\"."
-
-#: app/static/app/js/translations/odm_autogenerated.js:37
-#, python-format
-msgid ""
-"Use a full 3D mesh to compute the orthophoto instead of a 2.5D mesh. This "
-"option is a bit faster and provides similar results in planar areas. "
-"Default: %(default)s"
-msgstr ""
-"K výpočtu ortofota použijte místo 2,5D sítě úplnou 3D síť. Tato možnost je o "
-"něco rychlejší a poskytuje podobné výsledky v rovinných oblastech. Výchozí "
-"hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:38
-#, python-format
-msgid ""
-"Set a value in meters for the GPS Dilution of Precision (DOP) information "
-"for all images. If your images are tagged with high precision GPS "
-"information (RTK), this value will be automatically set accordingly. You can "
-"use this option to manually set it in case the reconstruction fails. "
-"Lowering this option can sometimes help control bowling-effects over large "
-"areas. Default: %(default)s"
-msgstr ""
-"Nastavení hodnoty v metrech pro informace o zředění přesnosti GPS (DOP) pro "
-"všechny snímky. Pokud jsou snímky označeny informacemi GPS s vysokou "
-"přesností (RTK), bude tato hodnota nastavena automaticky. Pomocí této "
-"možnosti ji můžete nastavit ručně v případě, že rekonstrukce selže. Snížení "
-"této možnosti může někdy pomoci kontrolovat bowling-efekty na velkých "
-"plochách. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:39
-msgid "Copy output results to this folder after processing."
-msgstr "Po zpracování zkopírujte výstupní výsledky do této složky."
-
-#: app/static/app/js/translations/odm_autogenerated.js:40
-#, python-format
-msgid ""
-"Path to the image geolocation file containing the camera center coordinates "
-"used for georeferencing. Note that omega/phi/kappa are currently not "
-"supported (you can set them to 0). The file needs to use the following "
-"format: EPSG:<code> or <+proj definition>image_name geo_x geo_y geo_z [omega "
-"(degrees)] [phi (degrees)] [kappa (degrees)] [horz accuracy (meters)] [vert "
-"accuracy (meters)]Default: %(default)s"
-msgstr ""
-"Cesta k souboru geolokace snímku obsahujícího souřadnice středu kamery "
-"použité pro georeferencování. Všimněte si, že omega/phi/kappa aktuálně "
-"nejsou podporovány (můžete je nastavit na 0). Soubor musí používat "
-"následující formát: EPSG:<code> nebo <+proj definition>image_name geo_x "
-"geo_y geo_z [omega (stupně)] [phi (stupně)] [kappa (stupně)] [horz accuracy "
-"(metry)] [vert accuracy (metry)]Výchozí: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:41
-#, python-format
-msgid ""
-"Generates a polygon around the cropping area that cuts the orthophoto around "
-"the edges of features. This polygon can be useful for stitching seamless "
-"mosaics with multiple overlapping orthophotos. Default: %(default)s"
-msgstr ""
-"Generuje polygon kolem oblasti ořezu, který ořízne ortofoto kolem okrajů "
-"prvků. Tento polygon může být užitečný pro sešívání bezešvých mozaik s více "
-"překrývajícími se ortofotomapami. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:42
+#: app/static/app/js/translations/odm_autogenerated.js:30
 #, python-format
 msgid ""
 "Average number of images per submodel. When splitting a large dataset into "
@@ -1546,7 +1403,45 @@ msgstr ""
 "počet snímků, které by měl každý shluk v průměru obsahovat. Výchozí hodnota: "
 "%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:43
+#: app/static/app/js/translations/odm_autogenerated.js:31
+msgid "Copy output results to this folder after processing."
+msgstr "Po zpracování zkopírujte výstupní výsledky do této složky."
+
+#: app/static/app/js/translations/odm_autogenerated.js:32
+#, python-format
+msgid ""
+"Run local bundle adjustment for every image added to the reconstruction and "
+"a global adjustment every 100 images. Speeds up reconstruction for very "
+"large datasets. Default: %(default)s"
+msgstr ""
+"Proveďte místní úpravu svazku pro každý snímek přidaný do rekonstrukce a "
+"globální úpravu každých 100 snímků. Zrychluje rekonstrukci u velmi "
+"rozsáhlých souborů dat. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:33
+#, python-format
+msgid ""
+"Turn off camera parameter optimization during bundle adjustment. This can be "
+"sometimes useful for improving results that exhibit doming/bowling or when "
+"images are taken with a rolling shutter camera. Default: %(default)s"
+msgstr ""
+"Vypnutí optimalizace parametrů fotoaparátu během nastavení svazku. To může "
+"být někdy užitečné pro zlepšení výsledků, které vykazují zkreslení "
+"objektivu, nebo když jsou snímky pořízeny fotoaparátem s pomalou závěrkou. "
+"Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:34
+#, python-format
+msgid ""
+"Automatically crop image outputs by creating a smooth buffer around the "
+"dataset boundaries, shrinked by N meters. Use 0 to disable cropping. "
+"Default: %(default)s"
+msgstr ""
+"Automatické oříznutí výstupů snímků vytvořením ochranné zóny kolem hranic "
+"datové sady zmenšené o N metrů. Chcete-li ořezávání zakázat, použijte "
+"hodnotu 0. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:35
 #, python-format
 msgid ""
 "When processing multispectral datasets, you can specify the name of the "
@@ -1557,7 +1452,92 @@ msgstr ""
 "pásma, které bude použito pro rekonstrukci. Doporučujeme vybrat pásmo, které "
 "má ostré detaily a je zaostřené. Výchozí hodnota: %(default)s"
 
+#: app/static/app/js/translations/odm_autogenerated.js:36
+#, python-format
+msgid "The maximum vertex count of the output mesh. Default: %(default)s"
+msgstr "Maximální počet vrcholů výstupní sítě. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:37
+#, python-format
+msgid ""
+"Create Cloud-Optimized GeoTIFFs instead of normal GeoTIFFs. Default: "
+"%(default)s"
+msgstr ""
+"Vytváření GeoTIFFů optimalizovaných pro cloud místo běžných GeoTIFFů. "
+"Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:38
+msgid "show this help message and exit"
+msgstr "zobrazit tuto nápovědu a ukončit"
+
+#: app/static/app/js/translations/odm_autogenerated.js:39
+#, fuzzy, python-format
+#| msgid ""
+#| "Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag "
+#| "of Words. FLANN is slower, but more stable. BOW is faster, but can "
+#| "sometimes miss valid matches. Can be one of: %(choices)s. Default: "
+#| "%(default)s"
+msgid ""
+"Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag of "
+"Words. FLANN is slower, but more stable. BOW is faster, but can sometimes "
+"miss valid matches. BRUTEFORCE is very slow but robust.Can be one of: "
+"%(choices)s. Default: %(default)s"
+msgstr ""
+"Algoritmus Matcher, Rychlá knihovna pro přibližné nejbližší sousedy nebo Bag "
+"of Words. FLANN je pomalejší, ale stabilnější. BOW je rychlejší, ale někdy "
+"může vynechat platné shody. Může to být jedna z následujících možností: "
+"%(choices)s. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:40
+#, python-format
+msgid "Set this parameter if you want a striped GeoTIFF. Default: %(default)s"
+msgstr ""
+"Tento parametr nastavte, pokud chcete mít GeoTIFF s pruhy. Výchozí hodnota: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:41
+#, python-format
+msgid ""
+"Use a full 3D mesh to compute the orthophoto instead of a 2.5D mesh. This "
+"option is a bit faster and provides similar results in planar areas. "
+"Default: %(default)s"
+msgstr ""
+"K výpočtu ortofota použijte místo 2,5D sítě úplnou 3D síť. Tato možnost je o "
+"něco rychlejší a poskytuje podobné výsledky v rovinných oblastech. Výchozí "
+"hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:42
+#, python-format
+msgid ""
+"Path to the file containing the ground control points used for "
+"georeferencing. The file needs to use the following format: EPSG:<code> or <"
+"+proj definition>geo_x geo_y geo_z im_x im_y image_name [gcp_name] [extra1] "
+"[extra2]Default: %(default)s"
+msgstr ""
+"Cesta k souboru obsahujícímu body pozemní kontroly používané pro "
+"georeferencování. Soubor musí používat následující formát: EPSG:<code> nebo <"
+"+proj definition>geo_x geo_y geo_z im_x im_y image_name [gcp_name] [extra1] "
+"[extra2] Výchozí: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:43
+#, python-format
+msgid ""
+"Type of photometric outlier removal method. Can be one of: %(choices)s. "
+"Default: %(default)s"
+msgstr ""
+"Typ metody odstranění fotometrických odchylek. Může to být jedna z "
+"následujících možností: %(choices)s. Výchozí hodnota: %(default)s"
+
 #: app/static/app/js/translations/odm_autogenerated.js:44
+#, python-format
+msgid ""
+"Set this parameter if you want to generate a Google Earth (KMZ) rendering of "
+"the orthophoto. Default: %(default)s"
+msgstr ""
+"Tento parametr nastavte, pokud chcete vygenerovat vykreslení ortofotomapy v "
+"aplikaci Google Earth (KMZ). Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:45
 #, python-format
 msgid ""
 "Set the radiometric calibration to perform on images. When processing "
@@ -1581,184 +1561,24 @@ msgstr ""
 "(DLS) s ohledem na úhel dopadu slunce. Může to být jedna z následujících "
 "možností: %(choices)s. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:45
+#: app/static/app/js/translations/odm_autogenerated.js:46
 #, python-format
 msgid ""
-"Rerun this stage only and stop. Can be one of: %(choices)s. Default: "
+"Simple Morphological Filter window radius parameter (meters). Default: "
 "%(default)s"
 msgstr ""
-"Znovu spusťte pouze tuto fázi a zastavte. Může to být jedna z následujících "
-"možností: %(choices)s. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:46
-msgid "show this help message and exit"
-msgstr "zobrazit tuto nápovědu a ukončit"
+"Parametr poloměru okna jednoduchého morfologického filtru (v metrech). "
+"Výchozí hodnota: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:47
-msgid ""
-"Permanently delete all previous results and rerun the processing pipeline."
-msgstr ""
-"Trvale odstraní všechny předchozí výsledky a znovu spustí zpracovatelský "
-"řetězec."
-
-#: app/static/app/js/translations/odm_autogenerated.js:48
 #, python-format
 msgid ""
-"Octree depth used in the mesh reconstruction, increase to get more vertices, "
-"recommended values are 8-12. Default: %(default)s"
+"Keep faces in the mesh that are not seen in any camera. Default:  %(default)s"
 msgstr ""
-"Hloubka osmistěnu použitá při rekonstrukci sítě, zvyšte ji, abyste získali "
-"více vrcholů, doporučené hodnoty jsou 8-12. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:49
-#, python-format
-msgid "Skip the blending of colors near seams. Default: %(default)s"
-msgstr "Přeskočte prolínání barev v blízkosti švů. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:50
-#, python-format
-msgid ""
-"Legacy option (use --feature-quality instead). Resizes images by the largest "
-"side for feature extraction purposes only. Set to -1 to disable. This does "
-"not affect the final orthophoto resolution quality and will not resize the "
-"original images. Default: %(default)s"
-msgstr ""
-"Starší volba (místo ní použijte --feature-quality). Změní velikost obrázků "
-"podle největší strany pouze pro účely extrakce prvků. Pro vypnutí nastavte "
-"hodnotu -1. Nemá vliv na kvalitu konečného rozlišení ortofota a nezmění "
-"velikost původních snímků. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:51
-#, python-format
-msgid "Print debug messages. Default: %(default)s"
-msgstr "Tisk ladicích zpráv. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:52
-#, python-format
-msgid ""
-"Name of dataset (i.e subfolder name within project folder). Default: "
-"%(default)s"
-msgstr ""
-"Název datové sady (tj. název podsložky ve složce projektu). Výchozí hodnota: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:53
-#, python-format
-msgid ""
-"Set a camera projection type. Manually setting a value can help improve "
-"geometric undistortion. By default the application tries to determine a lens "
-"type from the images metadata. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-"Nastavení typu projekce kamery. Ruční nastavení hodnoty může pomoci zlepšit "
-"geometrické nezkreslení. Ve výchozím nastavení se aplikace snaží určit typ "
-"objektivu z metadat snímků. Může to být jedna z následujících možností: "
-"%(choices)s. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:54
-#, python-format
-msgid ""
-"Set the compression to use for orthophotos. Can be one of: %(choices)s. "
-"Default: %(default)s"
-msgstr ""
-"Nastavení komprese, která se má použít pro ortofotomapy. Může to být jedna z "
-"následujících možností: %(choices)s. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:55
-#, python-format
-msgid ""
-"Export the georeferenced point cloud in LAS format. Default: %(default)s"
-msgstr ""
-"Export georeferencovaného mračna bodů ve formátu LAS. Výchozí hodnota: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:56
-#, python-format
-msgid ""
-"When texturing the 3D mesh, for each triangle, choose to prioritize images "
-"with sharp features (gmi) or those that cover the largest area (area). "
-"Default: %(default)s"
-msgstr ""
-"Při texturování 3D sítě můžete pro každý trojúhelník upřednostnit snímky s "
-"ostrými rysy (gmi) nebo ty, které pokrývají největší plochu (area). Výchozí "
+"Zachovejte v síti plochy, které nejsou vidět v žádné kameře. Výchozí "
 "hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:57
-#, python-format
-msgid ""
-"Set feature extraction quality. Higher quality generates better features, "
-"but requires more memory and takes longer. Can be one of: %(choices)s. "
-"Default: %(default)s"
-msgstr ""
-"Nastavení kvality extrakce prvků. Vyšší kvalita generuje lepší rysy, ale "
-"vyžaduje více paměti a trvá déle. Může to být jedna z následujících možností:"
-" %(choices)s. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:58
-#, python-format
-msgid ""
-"Simple Morphological Filter elevation scalar parameter. Default: %(default)s"
-msgstr ""
-"Jednoduchý morfologický filtr skalární parametr výšky. Výchozí hodnota: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:59
-#, python-format
-msgid ""
-"Skip generation of PDF report. This can save time if you don't need a "
-"report. Default: %(default)s"
-msgstr ""
-"Přeskočit generování zprávy PDF. To může ušetřit čas, pokud zprávu "
-"nepotřebujete. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:60
-#, python-format
-msgid ""
-"Turn on gamma tone mapping or none for no tone mapping. Can be one of "
-"%(choices)s. Default: %(default)s "
-msgstr ""
-"Zapněte mapování tónů gama nebo žádné pro žádné mapování tónů. Může to být "
-"jedna z %(choices)s. Výchozí hodnota: %(default)s "
-
-#: app/static/app/js/translations/odm_autogenerated.js:61
-#, python-format
-msgid "Generates a benchmark file with runtime info. Default: %(default)s"
-msgstr ""
-"Vygeneruje referenční soubor s informacemi o běhu. Výchozí hodnota: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:62
-#, python-format
-msgid ""
-"Turn off camera parameter optimization during bundle adjustment. This can be "
-"sometimes useful for improving results that exhibit doming/bowling or when "
-"images are taken with a rolling shutter camera. Default: %(default)s"
-msgstr ""
-"Vypnutí optimalizace parametrů fotoaparátu během nastavení svazku. To může "
-"být někdy užitečné pro zlepšení výsledků, které vykazují zkreslení "
-"objektivu, nebo když jsou snímky pořízeny fotoaparátem s pomalou závěrkou. "
-"Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:63
-#, python-format
-msgid "Set this parameter if you want a striped GeoTIFF. Default: %(default)s"
-msgstr ""
-"Tento parametr nastavte, pokud chcete mít GeoTIFF s pruhy. Výchozí hodnota: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:64
-#, python-format
-msgid ""
-"Reduce the memory usage needed for depthmap fusion by splitting large scenes "
-"into tiles. Turn this on if your machine doesn't have much RAM and/or you've "
-"set --pc-quality to high or ultra. Experimental. Default: %(default)s"
-msgstr ""
-"Snížení spotřeby paměti potřebné pro fúzi hloubkových map rozdělením velkých "
-"scén na dlaždice. Tuto funkci zapněte, pokud váš počítač nemá mnoho paměti "
-"RAM a/nebo jste nastavili --pc-quality na high nebo ultra. Experimentální. "
-"Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:65
+#: app/static/app/js/translations/odm_autogenerated.js:48
 #, python-format
 msgid ""
 "DSM/DTM resolution in cm / pixel. Note that this value is capped by a ground "
@@ -1769,72 +1589,60 @@ msgstr ""
 "odhadem vzdálenosti vzorkování od země (GSD). Chcete-li tento limit "
 "odstranit, zaškrtněte také --ignore-gsd. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:66
+#: app/static/app/js/translations/odm_autogenerated.js:49
 #, python-format
 msgid ""
-"Build orthophoto overviews for faster display in programs such as QGIS. "
-"Default: %(default)s"
-msgstr ""
-"Vytvářejte přehledy ortofotomap pro rychlejší zobrazení v programech, jako "
-"je QGIS. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:67
-#, python-format
-msgid ""
-"Automatically crop image outputs by creating a smooth buffer around the "
-"dataset boundaries, shrinked by N meters. Use 0 to disable cropping. "
-"Default: %(default)s"
-msgstr ""
-"Automatické oříznutí výstupů snímků vytvořením ochranné zóny kolem hranic "
-"datové sady zmenšené o N metrů. Chcete-li ořezávání zakázat, použijte "
-"hodnotu 0. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:68
-#, python-format
-msgid ""
-"URL to a ClusterODM instance for distributing a split-merge workflow on "
-"multiple nodes in parallel. Default: %(default)s"
-msgstr ""
-"URL na instanci ClusterODM pro distribuci pracovního postupu rozdělení a "
-"sloučení na více uzlů paralelně. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:69
-#, python-format
-msgid ""
-"Simple Morphological Filter slope parameter (rise over run). Default: "
+"Filters the point cloud by removing points that deviate more than N standard "
+"deviations from the local mean. Set to 0 to disable filtering. Default: "
 "%(default)s"
 msgstr ""
-"Parametr sklonu jednoduchého morfologického filtru (nárůst nad průběhem). "
-"Výchozí hodnota: %(default)s"
+"Filtruje mračno bodů odstraněním bodů, které se odchylují od místního "
+"průměru o více než N standardních odchylek. Nastavením na 0 filtrování "
+"vypnete. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:70
-#, python-format
+#: app/static/app/js/translations/odm_autogenerated.js:50
+#, fuzzy, python-format
+#| msgid ""
+#| "Choose the algorithm for extracting keypoints and computing descriptors. "
+#| "Can be one of: %(choices)s. Default: %(default)s"
 msgid ""
-"Set point cloud quality. Higher quality generates better, denser point "
-"clouds, but requires more memory and takes longer. Each step up in quality "
-"increases processing time roughly by a factor of 4x.Can be one of: "
-"%(choices)s. Default: %(default)s"
-msgstr ""
-"Kvalita mraku nastavených bodů. Vyšší kvalita generuje lepší a hustší mračna "
-"bodů, ale vyžaduje více paměti a trvá déle. Každé zvýšení kvality zvyšuje "
-"dobu zpracování zhruba 4x. může být jedna z následujících hodnot: %(choices)"
-"s. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:71
-#, python-format
-msgid ""
-"Choose the algorithm for extracting keypoints and computing descriptors. Can "
-"be one of: %(choices)s. Default: %(default)s"
+"Choose the structure from motion algorithm. For aerial datasets, if camera "
+"GPS positions and angles are available, triangulation can generate better "
+"results. Can be one of: %(choices)s. Default: %(default)s"
 msgstr ""
 "Zvolte algoritmus pro extrakci klíčových bodů a výpočet deskriptorů. Může to "
 "být jedna z následujících možností: %(choices)s. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:72
+#: app/static/app/js/translations/odm_autogenerated.js:51
 #, python-format
-msgid "Print additional messages to the console. Default: %(default)s"
-msgstr "Tisk dalších zpráv do konzoly. Výchozí hodnota: %(default)s"
+msgid ""
+"Generates a polygon around the cropping area that cuts the orthophoto around "
+"the edges of features. This polygon can be useful for stitching seamless "
+"mosaics with multiple overlapping orthophotos. Default: %(default)s"
+msgstr ""
+"Generuje polygon kolem oblasti ořezu, který ořízne ortofoto kolem okrajů "
+"prvků. Tento polygon může být užitečný pro sešívání bezešvých mozaik s více "
+"překrývajícími se ortofotomapami. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:73
+#: app/static/app/js/translations/odm_autogenerated.js:52
+#, python-format
+msgid ""
+"Use this tag if you have a GCP File but want to use the EXIF information for "
+"georeferencing instead. Default: %(default)s"
+msgstr ""
+"Tuto značku použijte, pokud máte soubor GCP, ale chcete místo něj použít "
+"informace EXIF pro georeferencování. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:53
+#, python-format
+msgid ""
+"Rerun this stage only and stop. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"Znovu spusťte pouze tuto fázi a zastavte. Může to být jedna z následujících "
+"možností: %(choices)s. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:54
 #, python-format
 msgid ""
 "Ignore Ground Sampling Distance (GSD). GSD caps the maximum resolution of "
@@ -1849,87 +1657,84 @@ msgstr ""
 "GSD je odhad, může její ignorování někdy vést k mírně lepší kvalitě "
 "obrazových výstupů. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:74
+#: app/static/app/js/translations/odm_autogenerated.js:55
 #, python-format
 msgid ""
-"End processing at this stage. Can be one of: %(choices)s. Default: "
+"Reduce the memory usage needed for depthmap fusion by splitting large scenes "
+"into tiles. Turn this on if your machine doesn't have much RAM and/or you've "
+"set --pc-quality to high or ultra. Experimental. Default: %(default)s"
+msgstr ""
+"Snížení spotřeby paměti potřebné pro fúzi hloubkových map rozdělením velkých "
+"scén na dlaždice. Tuto funkci zapněte, pokud váš počítač nemá mnoho paměti "
+"RAM a/nebo jste nastavili --pc-quality na high nebo ultra. Experimentální. "
+"Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:56
+#, python-format
+msgid ""
+"Use this tag to build a DTM (Digital Terrain Model, ground only) using a "
+"simple morphological filter. Check the --dem* and --smrf* parameters for "
+"finer tuning. Default: %(default)s"
+msgstr ""
+"Pomocí této značky lze vytvořit DTM (digitální model terénu, pouze pozemní) "
+"pomocí jednoduchého morfologického filtru. Pro jemnější nastavení "
+"zkontrolujte parametry --dem* a --smrf*. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:57
+#, python-format
+msgid "Print additional messages to the console. Default: %(default)s"
+msgstr "Tisk dalších zpráv do konzoly. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:58
+msgid ""
+"Path to the project folder. Your project folder should contain subfolders "
+"for each dataset. Each dataset should have an \"images\" folder."
+msgstr ""
+"Cesta ke složce projektu. Složka projektu by měla obsahovat podsložky pro "
+"jednotlivé datové sady. Každá datová sada by měla mít složku \"images\"."
+
+#: app/static/app/js/translations/odm_autogenerated.js:59
+#, python-format
+msgid "Print debug messages. Default: %(default)s"
+msgstr "Tisk ladicích zpráv. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:60
+#, fuzzy, python-format
+#| msgid ""
+#| "Skip generation of PDF report. This can save time if you don't need a "
+#| "report. Default: %(default)s"
+msgid ""
+"Skip generation of the orthophoto. This can save time if you only need 3D "
+"results or DEMs. Default: %(default)s"
+msgstr ""
+"Přeskočit generování zprávy PDF. To může ušetřit čas, pokud zprávu "
+"nepotřebujete. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:61
+#, python-format
+msgid ""
+"Name of dataset (i.e subfolder name within project folder). Default: "
 "%(default)s"
 msgstr ""
-"V této fázi zpracování ukončete. Může to být jedna z následujících možností: "
-"%(choices)s. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:75
-#, python-format
-msgid ""
-"Use the camera parameters computed from another dataset instead of "
-"calculating them. Can be specified either as path to a cameras.json file or "
-"as a JSON string representing the contents of a cameras.json file. Default: "
+"Název datové sady (tj. název podsložky ve složce projektu). Výchozí hodnota: "
 "%(default)s"
-msgstr ""
-"Místo výpočtu parametrů fotoaparátu použijte parametry vypočtené z jiné sady "
-"dat. Lze zadat buď jako cestu k souboru cameras.json, nebo jako řetězec JSON "
-"reprezentující obsah souboru cameras.json. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:76
+#: app/static/app/js/translations/odm_autogenerated.js:62
 #, python-format
 msgid ""
-"Legacy option (use --pc-quality instead). Controls the density of the point "
-"cloud by setting the resolution of the depthmap images. Higher values take "
-"longer to compute but produce denser point clouds. Default: %(default)s"
-msgstr ""
-"Starší volba (místo ní použijte --pc-quality). Řídí hustotu mračna bodů "
-"nastavením rozlišení obrázků hloubkové mapy. Vyšší hodnoty vyžadují delší "
-"výpočet, ale vytvářejí hustší mračna bodů. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:77
-#, python-format
-msgid ""
-"Skip normalization of colors across all images. Useful when processing "
-"radiometric data. Default: %(default)s"
-msgstr ""
-"Přeskočení normalizace barev ve všech snímcích. Užitečné při zpracování "
-"radiometrických dat. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:78
-#, python-format
-msgid ""
-"Classify the point cloud outputs using a Simple Morphological Filter. You "
-"can control the behavior of this option by tweaking the --dem-* parameters. "
+"Set the compression to use for orthophotos. Can be one of: %(choices)s. "
 "Default: %(default)s"
 msgstr ""
-"Klasifikace výstupů mračna bodů pomocí jednoduchého morfologického filtru. "
-"Chování této možnosti můžete ovlivnit úpravou parametrů --dem-*. Výchozí "
-"hodnota: %(default)s"
+"Nastavení komprese, která se má použít pro ortofotomapy. Může to být jedna z "
+"následujících možností: %(choices)s. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:79
+#: app/static/app/js/translations/odm_autogenerated.js:63
 #, python-format
-msgid ""
-"Radius of the overlap between submodels. After grouping images into "
-"clusters, images that are closer than this radius to a cluster are added to "
-"the cluster. This is done to ensure that neighboring submodels overlap. "
-"Default: %(default)s"
+msgid "Skip the blending of colors near seams. Default: %(default)s"
 msgstr ""
-"Poloměr překrytí dílčích modelů. Po seskupení snímků do shluků se do shluku "
-"přidají snímky, které jsou blíže než tento poloměr. Tím se zajistí, aby se "
-"sousední submodely překrývaly. Výchozí hodnota: %(default)s"
+"Přeskočte prolínání barev v blízkosti švů. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:80
-#, python-format
-msgid "The maximum vertex count of the output mesh. Default: %(default)s"
-msgstr "Maximální počet vrcholů výstupní sítě. Výchozí hodnota: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:81
-#, python-format
-msgid ""
-"Path to the image groups file that controls how images should be split into "
-"groups. The file needs to use the following format: image_name "
-"group_nameDefault: %(default)s"
-msgstr ""
-"Cesta k souboru skupin obrázků, který určuje, jak mají být obrázky rozděleny "
-"do skupin. Soubor musí mít následující formát: image_name group_nameDefault: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:82
+#: app/static/app/js/translations/odm_autogenerated.js:64
 #, python-format
 msgid ""
 "Delete heavy intermediate files to optimize disk space usage. This affects "
@@ -1942,7 +1747,102 @@ msgstr ""
 "zpracovávat datové soubory na počítačích, které nemají k dispozici dostatek "
 "místa na disku. Výchozí hodnota: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:83
+#: app/static/app/js/translations/odm_autogenerated.js:65
+#, python-format
+msgid ""
+"Octree depth used in the mesh reconstruction, increase to get more vertices, "
+"recommended values are 8-12. Default: %(default)s"
+msgstr ""
+"Hloubka osmistěnu použitá při rekonstrukci sítě, zvyšte ji, abyste získali "
+"více vrcholů, doporučené hodnoty jsou 8-12. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:66
+#, python-format
+msgid ""
+"Simple Morphological Filter slope parameter (rise over run). Default: "
+"%(default)s"
+msgstr ""
+"Parametr sklonu jednoduchého morfologického filtru (nárůst nad průběhem). "
+"Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:67
+#, python-format
+msgid ""
+"Turn on gamma tone mapping or none for no tone mapping. Can be one of "
+"%(choices)s. Default: %(default)s "
+msgstr ""
+"Zapněte mapování tónů gama nebo žádné pro žádné mapování tónů. Může to být "
+"jedna z %(choices)s. Výchozí hodnota: %(default)s "
+
+#: app/static/app/js/translations/odm_autogenerated.js:68
+#, python-format
+msgid ""
+"Simple Morphological Filter elevation threshold parameter (meters). Default: "
+"%(default)s"
+msgstr ""
+"Parametr prahové výšky jednoduchého morfologického filtru (v metrech). "
+"Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:69
+#, python-format
+msgid ""
+"Orthophoto resolution in cm / pixel. Note that this value is capped by a "
+"ground sampling distance (GSD) estimate. To remove the cap, check --ignore-"
+"gsd also. Default: %(default)s"
+msgstr ""
+"Rozlišení ortofota v cm / pixel. Všimněte si, že tato hodnota je omezena "
+"odhadem vzdálenosti vzorkování od země (GSD). Chcete-li tento limit "
+"odstranit, zaškrtněte také --ignore-gsd. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:70
+#, python-format
+msgid "Generates a benchmark file with runtime info. Default: %(default)s"
+msgstr ""
+"Vygeneruje referenční soubor s informacemi o běhu. Výchozí hodnota: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:71
+#, python-format
+msgid ""
+"Set a value in meters for the GPS Dilution of Precision (DOP) information "
+"for all images. If your images are tagged with high precision GPS "
+"information (RTK), this value will be automatically set accordingly. You can "
+"use this option to manually set it in case the reconstruction fails. "
+"Lowering this option can sometimes help control bowling-effects over large "
+"areas. Default: %(default)s"
+msgstr ""
+"Nastavení hodnoty v metrech pro informace o zředění přesnosti GPS (DOP) pro "
+"všechny snímky. Pokud jsou snímky označeny informacemi GPS s vysokou "
+"přesností (RTK), bude tato hodnota nastavena automaticky. Pomocí této "
+"možnosti ji můžete nastavit ručně v případě, že rekonstrukce selže. Snížení "
+"této možnosti může někdy pomoci kontrolovat bowling-efekty na velkých "
+"plochách. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:72
+#, python-format
+msgid ""
+"Automatically set a boundary using camera shot locations to limit the area "
+"of the reconstruction. This can help remove far away background artifacts "
+"(sky, background landscapes, etc.). See also --boundary. Default: %(default)s"
+msgstr ""
+"Automatické nastavení hranice pomocí míst záběrů kamery pro omezení oblasti "
+"rekonstrukce. To může pomoci odstranit vzdálené artefakty pozadí (obloha, "
+"krajina v pozadí atd.). Viz také příkaz --boundary. Výchozí hodnota: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:73
+#, python-format
+msgid ""
+"Skips dense reconstruction and 3D model generation. It generates an "
+"orthophoto directly from the sparse reconstruction. If you just need an "
+"orthophoto and do not need a full 3D model, turn on this option. Default: "
+"%(default)s"
+msgstr ""
+"Přeskočí hustou rekonstrukci a generování 3D modelu. Generuje ortofoto přímo "
+"z řídké rekonstrukce. Pokud potřebujete pouze ortofoto a nepotřebujete "
+"kompletní 3D model, zapněte tuto možnost. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:74
 #, python-format
 msgid ""
 "Rerun processing from this stage. Can be one of: %(choices)s. Default: "
@@ -1951,38 +1851,163 @@ msgstr ""
 "Znovu spusťte zpracování od této fáze. Může to být jedna z následujících "
 "možností: %(choices)s. Výchozí hodnota: %(default)s"
 
+#: app/static/app/js/translations/odm_autogenerated.js:75
+#, python-format
+msgid ""
+"Set a camera projection type. Manually setting a value can help improve "
+"geometric undistortion. By default the application tries to determine a lens "
+"type from the images metadata. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"Nastavení typu projekce kamery. Ruční nastavení hodnoty může pomoci zlepšit "
+"geometrické nezkreslení. Ve výchozím nastavení se aplikace snaží určit typ "
+"objektivu z metadat snímků. Může to být jedna z následujících možností: "
+"%(choices)s. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:76
+#, python-format
+msgid ""
+"Path to the image groups file that controls how images should be split into "
+"groups. The file needs to use the following format: image_name "
+"group_nameDefault: %(default)s"
+msgstr ""
+"Cesta k souboru skupin obrázků, který určuje, jak mají být obrázky rozděleny "
+"do skupin. Soubor musí mít následující formát: image_name group_nameDefault: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:77
+#, python-format
+msgid ""
+"Use the camera parameters computed from another dataset instead of "
+"calculating them. Can be specified either as path to a cameras.json file or "
+"as a JSON string representing the contents of a cameras.json file. Default: "
+"%(default)s"
+msgstr ""
+"Místo výpočtu parametrů fotoaparátu použijte parametry vypočtené z jiné sady "
+"dat. Lze zadat buď jako cestu k souboru cameras.json, nebo jako řetězec JSON "
+"reprezentující obsah souboru cameras.json. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:78
+#, python-format
+msgid ""
+"Minimum number of features to extract per image. More features can be useful "
+"for finding more matches between images, potentially allowing the "
+"reconstruction of areas with little overlap or insufficient features. More "
+"features also slow down processing. Default: %(default)s"
+msgstr ""
+"Minimální počet prvků, které se mají extrahovat na jeden obrázek. Více prvků "
+"může být užitečné pro nalezení většího počtu shod mezi snímky, což může "
+"umožnit rekonstrukci oblastí s malým překrytím nebo nedostatečným počtem "
+"rysů. Více prvků také zpomaluje zpracování. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:79
+#, python-format
+msgid ""
+"Choose the algorithm for extracting keypoints and computing descriptors. Can "
+"be one of: %(choices)s. Default: %(default)s"
+msgstr ""
+"Zvolte algoritmus pro extrakci klíčových bodů a výpočet deskriptorů. Může to "
+"být jedna z následujících možností: %(choices)s. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:80
+#, python-format
+msgid ""
+"Skip generation of PDF report. This can save time if you don't need a "
+"report. Default: %(default)s"
+msgstr ""
+"Přeskočit generování zprávy PDF. To může ušetřit čas, pokud zprávu "
+"nepotřebujete. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:81
+#, python-format
+msgid ""
+"Perform ground rectification on the point cloud. This means that wrongly "
+"classified ground points will be re-classified and gaps will be filled. "
+"Useful for generating DTMs. Default: %(default)s"
+msgstr ""
+"Proveďte rektifikaci země na mračnu bodů. To znamená, že chybně "
+"klasifikované pozemní body budou překlasifikovány a mezery budou doplněny. "
+"Užitečné pro generování DTM. Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:82
+#, fuzzy, python-format
+#| msgid ""
+#| "Number of nearest images to pre-match based on GPS exif data. Set to 0 to "
+#| "skip pre-matching. Neighbors works together with Distance parameter, set "
+#| "both to 0 to not use pre-matching. Default: %(default)s"
+msgid ""
+"Number of nearest images to pre-match based on GPS exif data. Set to 0 to "
+"skip pre-matching. Default: %(default)s"
+msgstr ""
+"Počet nejbližších snímků před porovnáním na základě údajů GPS exif. "
+"Nastavením na hodnotu 0 se předběžné porovnávání vynechá. Parametr Neighbors "
+"funguje společně s parametrem Distance (Vzdálenost), pokud chcete nepoužívat "
+"předřazené porovnávání, nastavte obě hodnoty na 0. Výchozí hodnota: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:83
+#, python-format
+msgid ""
+"GeoJSON polygon limiting the area of the reconstruction. Can be specified "
+"either as path to a GeoJSON file or as a JSON string representing the "
+"contents of a GeoJSON file. Default: %(default)s"
+msgstr ""
+"GeoJSON polygon omezující oblast rekonstrukce. Lze zadat buď jako cestu k "
+"souboru GeoJSON, nebo jako řetězec JSON reprezentující obsah souboru "
+"GeoJSON. Výchozí hodnota: %(default)s"
+
 #: app/static/app/js/translations/odm_autogenerated.js:84
 #, python-format
 msgid ""
-"Use this tag to build a DSM (Digital Surface Model, ground + objects) using "
-"a progressive morphological filter. Check the --dem* parameters for finer "
-"tuning. Default: %(default)s"
+"When texturing the 3D mesh, for each triangle, choose to prioritize images "
+"with sharp features (gmi) or those that cover the largest area (area). "
+"Default: %(default)s"
 msgstr ""
-"Tato značka slouží k vytvoření DSM (digitálního modelu povrchu, země + "
-"objekty) pomocí progresivního morfologického filtru. Pro jemnější nastavení "
-"zkontrolujte parametry --dem*. Výchozí hodnota: %(default)s"
+"Při texturování 3D sítě můžete pro každý trojúhelník upřednostnit snímky s "
+"ostrými rysy (gmi) nebo ty, které pokrývají největší plochu (area). Výchozí "
+"hodnota: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:85
 #, python-format
 msgid ""
-"Filters the point cloud by keeping only a single point around a radius N (in "
-"meters). This can be useful to limit the output resolution of the point "
-"cloud and remove duplicate points. Set to 0 to disable sampling. Default: "
-"%(default)s"
+"Number of steps used to fill areas with gaps. Set to 0 to disable gap "
+"filling. Starting with a radius equal to the output resolution, N different "
+"DEMs are generated with progressively bigger radius using the inverse "
+"distance weighted (IDW) algorithm and merged together. Remaining gaps are "
+"then merged using nearest neighbor interpolation. Default: %(default)s"
 msgstr ""
-"Filtruje mračno bodů tak, že ponechá pouze jeden bod v okolí poloměru N (v "
-"metrech). To může být užitečné pro omezení výstupního rozlišení mračna bodů "
-"a odstranění duplicitních bodů. Nastavením na hodnotu 0 vzorkování zakážete. "
-"Výchozí hodnota: %(default)s"
+"Počet kroků použitých k vyplnění oblastí s mezerami. Nastavením na 0 se "
+"vyplňování mezer zakáže. Počínaje poloměrem rovným výstupnímu rozlišení se "
+"pomocí algoritmu IDW (inverse distance weighted) vytvoří N různých DEM s "
+"postupně se zvětšujícím poloměrem a sloučí se dohromady. Zbývající mezery se "
+"pak sloučí pomocí interpolace nejbližšího souseda. Výchozí hodnota: "
+"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:86
 #, python-format
 msgid ""
-"Set this parameter if you want to generate a Google Earth (KMZ) rendering of "
-"the orthophoto. Default: %(default)s"
+"Export the georeferenced point cloud in Entwine Point Tile (EPT) format. "
+"Default: %(default)s"
 msgstr ""
-"Tento parametr nastavte, pokud chcete vygenerovat vykreslení ortofotomapy v "
-"aplikaci Google Earth (KMZ). Výchozí hodnota: %(default)s"
+"Export georeferencovaného mračna bodů ve formátu Entwine Point Tile (EPT). "
+"Výchozí hodnota: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:87
+#, python-format
+msgid ""
+"Path to the image geolocation file containing the camera center coordinates "
+"used for georeferencing. Note that omega/phi/kappa are currently not "
+"supported (you can set them to 0). The file needs to use the following "
+"format: EPSG:<code> or <+proj definition>image_name geo_x geo_y geo_z [omega "
+"(degrees)] [phi (degrees)] [kappa (degrees)] [horz accuracy (meters)] [vert "
+"accuracy (meters)]Default: %(default)s"
+msgstr ""
+"Cesta k souboru geolokace snímku obsahujícího souřadnice středu kamery "
+"použité pro georeferencování. Všimněte si, že omega/phi/kappa aktuálně "
+"nejsou podporovány (můžete je nastavit na 0). Soubor musí používat "
+"následující formát: EPSG:<code> nebo <+proj definition>image_name geo_x "
+"geo_y geo_z [omega (stupně)] [phi (stupně)] [kappa (stupně)] [horz accuracy "
+"(metry)] [vert accuracy (metry)]Výchozí: %(default)s"
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:3
 msgid "Compute volume, area and length measurements on Leaflet"
@@ -2718,3 +2743,14 @@ msgstr "čtvereční míle"
 #: coreplugins/measure/public/app.jsx:55
 msgid "Export Measurements"
 msgstr "Export měření"
+
+#, python-format
+#~ msgid ""
+#~ "Distance threshold in meters to find pre-matching images based on GPS "
+#~ "exif data. Set both matcher-neighbors and this to 0 to skip pre-matching. "
+#~ "Default: %(default)s"
+#~ msgstr ""
+#~ "Prahová hodnota vzdálenosti v metrech pro vyhledání předem shodných "
+#~ "snímků na základě údajů GPS exif. Chcete-li vynechat předběžné "
+#~ "porovnávání, nastavte obě hodnoty matcher-neighbors a this na 0. Výchozí "
+#~ "hodnota: %(default)s"

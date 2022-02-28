@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 17:15+0000\n"
+"POT-Creation-Date: 2022-02-28 19:29+0000\n"
 "PO-Revision-Date: 2021-11-22 02:33+0000\n"
 "Last-Translator: ZhiPengYu <719525852@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -142,7 +142,8 @@ msgstr ""
 msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
-msgstr "可见NDVI是RGB传感器的非标准化指数，使用从柑橘、葡萄和甘蔗作物数据得出的常数。"
+msgstr ""
+"可见NDVI是RGB传感器的非标准化指数，使用从柑橘、葡萄和甘蔗作物数据得出的常数。"
 
 #: app/api/formulas.py:28
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
@@ -159,7 +160,9 @@ msgstr "过量绿色指数（仅源自RGB）强调了马铃薯等多叶作物的
 msgid ""
 "Triangular Greenness Index (derived from only the RGB bands) performs "
 "similarly to EXG but with improvements over certain environments."
-msgstr "Triangular Greenness Index（仅源自RGB波段）的性能与EXG类似，但在某些环境下更有效。"
+msgstr ""
+"Triangular Greenness Index（仅源自RGB波段）的性能与EXG类似，但在某些环境下更"
+"有效。"
 
 #: app/api/formulas.py:41
 msgid ""
@@ -332,11 +335,15 @@ msgstr "无效的重缩放值：%(value)s"
 msgid "Invalid hillshade value: %(value)s"
 msgstr "无效的山体阴影值：%(value)s"
 
+#: app/api/tiler.py:561
+msgid "Cannot use epsg on non-georeferenced dataset"
+msgstr ""
+
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
 msgstr "此图像所属的任务"
 
-#: app/models/image_upload.py:10 app/models/task.py:270
+#: app/models/image_upload.py:10 app/models/task.py:271
 msgid "Task"
 msgstr "任务"
 
@@ -361,7 +368,7 @@ msgid "Plugin name"
 msgstr "插件名称"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:230 app/models/theme.py:16
+#: app/models/task.py:231 app/models/theme.py:16
 msgid "Name"
 msgstr "名字"
 
@@ -437,15 +444,15 @@ msgstr "用于描述预设的标签"
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr "定义此预设的选项（与任务选项中的格式相同）。"
 
-#: app/models/preset.py:11 app/models/task.py:236
+#: app/models/preset.py:11 app/models/task.py:237
 msgid "Options"
 msgstr "选项"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:245
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:246
 msgid "Creation date"
 msgstr "创建时间"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:245
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:246
 msgid "Created at"
 msgstr "创建于"
 
@@ -492,12 +499,12 @@ msgstr ""
 msgid "Deleting"
 msgstr "删除中"
 
-#: app/models/project.py:61 app/models/task.py:412
+#: app/models/project.py:61 app/models/task.py:413
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "复制于%(task)s"
 
-#: app/models/project.py:84 app/models/task.py:229
+#: app/models/project.py:84 app/models/task.py:230
 msgid "Project"
 msgstr "新建项目"
 
@@ -554,237 +561,239 @@ msgstr "应用"
 msgid "Settings"
 msgstr "设置"
 
-#: app/models/task.py:226
+#: app/models/task.py:227
 msgid "Id"
 msgstr "ID"
 
-#: app/models/task.py:228
+#: app/models/task.py:229
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "任务的标识符（由NodeODM api返回）"
 
-#: app/models/task.py:228
+#: app/models/task.py:229
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:229
+#: app/models/task.py:230
 msgid "Project that this task belongs to"
 msgstr "此任务所属的项目"
 
-#: app/models/task.py:230
+#: app/models/task.py:231
 msgid "A label for the task"
 msgstr "任务的标签"
 
-#: app/models/task.py:231
+#: app/models/task.py:232
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr "自此任务开始以来消耗的毫秒数（-1表示没有可用信息）"
 
-#: app/models/task.py:231
+#: app/models/task.py:232
 msgid "Processing Time"
 msgstr "生产时间"
 
-#: app/models/task.py:232
+#: app/models/task.py:233
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr "分配给此任务的处理节点（如果此任务尚未关联，则为null）"
 
-#: app/models/task.py:232 app/views/app.py:115 nodeodm/models.py:34
+#: app/models/task.py:233 app/views/app.py:115 nodeodm/models.py:34
 msgid "Processing Node"
 msgstr "处理节点"
 
-#: app/models/task.py:233
+#: app/models/task.py:234
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr "指示是否应自动为该任务分配处理节点的标志"
 
-#: app/models/task.py:233
+#: app/models/task.py:234
 msgid "Auto Processing Node"
 msgstr "自动处理结点"
 
-#: app/models/task.py:234
+#: app/models/task.py:235
 msgid "Current status of the task"
 msgstr "任务当前状态"
 
-#: app/models/task.py:234
+#: app/models/task.py:235
 msgid "Status"
 msgstr "状态"
 
-#: app/models/task.py:235
+#: app/models/task.py:236
 msgid "The last processing error received"
 msgstr "接收到的最后一个处理错误"
 
-#: app/models/task.py:235
+#: app/models/task.py:236
 msgid "Last Error"
 msgstr "最新错误"
 
-#: app/models/task.py:236
+#: app/models/task.py:237
 msgid "Options that are being used to process this task"
 msgstr "该任务已使用过的选项"
 
-#: app/models/task.py:237
+#: app/models/task.py:238
 msgid "List of available assets to download"
 msgstr "可下载的资源列表"
 
-#: app/models/task.py:237
+#: app/models/task.py:238
 msgid "Available Assets"
 msgstr "资源列表"
 
-#: app/models/task.py:238
+#: app/models/task.py:239
 msgid "Console output of the processing node"
 msgstr "处理节点的控制台输出"
 
-#: app/models/task.py:238
+#: app/models/task.py:239
 msgid "Console Output"
 msgstr "控制台输出"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "Extent of the orthophoto"
 msgstr "正射影像的范围"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "Orthophoto Extent"
 msgstr "正射影像的范围"
 
-#: app/models/task.py:241
+#: app/models/task.py:242
 msgid "DSM Extent"
 msgstr "DSM范围"
 
-#: app/models/task.py:242
+#: app/models/task.py:243
 msgid "DTM Extent"
 msgstr "DTM的范围"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
 msgstr "要求对任务执行的行动。所选的行动将由工作者在下次迭代时执行。"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Pending Action"
 msgstr "挂起的动作"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "A flag indicating whether this task is available to the public"
 msgstr "指示此任务是否可公开的标志"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "Public"
 msgstr "公共"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
 "processing."
-msgstr "当设置为不同于-1的值时，表示此任务的图像在处理之前已经/即将调整为此处指定的大小。"
+msgstr ""
+"当设置为不同于-1的值时，表示此任务的图像在处理之前已经/即将调整为此处指定的大"
+"小。"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Resize To"
 msgstr "调整大小至"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr "介于0和1之间的值，表示该任务的文件上传到处理节点的进度。"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid "Upload Progress"
 msgstr "上传进度"
 
-#: app/models/task.py:256
+#: app/models/task.py:257
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr "值介于0和1之间，指示此任务图像的调整大小进度"
 
-#: app/models/task.py:257
+#: app/models/task.py:258
 msgid "Resize Progress"
 msgstr "调整进度"
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr "表示该任务的进展状况（预想）的0到1的值"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid "Running Progress"
 msgstr "执行进度"
 
-#: app/models/task.py:263
+#: app/models/task.py:264
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "导入此任务的URL（仅适用于导入的任务）"
 
-#: app/models/task.py:263
+#: app/models/task.py:264
 msgid "Import URL"
 msgstr "导入URL"
 
-#: app/models/task.py:264
+#: app/models/task.py:265
 msgid "Number of images associated with this task"
 msgstr "与此任务关联的图像数"
 
-#: app/models/task.py:264
+#: app/models/task.py:265
 msgid "Images Count"
 msgstr "图片总数"
 
-#: app/models/task.py:265
+#: app/models/task.py:266
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr "指示此任务当前是否正在等待信息或文件上载，然后再考虑执行的标志。"
 
-#: app/models/task.py:265
+#: app/models/task.py:266
 msgid "Partial"
 msgstr "部分"
 
-#: app/models/task.py:266
+#: app/models/task.py:267
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr "用于保存/读取测量结果和相机视角的连续potree scene信息"
 
-#: app/models/task.py:266
+#: app/models/task.py:267
 msgid "Potree Scene"
 msgstr "Potree 场景"
 
-#: app/models/task.py:267
+#: app/models/task.py:268
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "数据集的EPSG代码（地理参考）"
 
-#: app/models/task.py:271
+#: app/models/task.py:272
 msgid "Tasks"
 msgstr "任务"
 
-#: app/models/task.py:280
+#: app/models/task.py:281
 msgid "unnamed"
 msgstr "未命名"
 
-#: app/models/task.py:491
+#: app/models/task.py:492
 msgid "Importing assets..."
 msgstr "正在导入资源…"
 
-#: app/models/task.py:543 app/models/task.py:811
+#: app/models/task.py:544 app/models/task.py:812
 msgid "Invalid zip file"
 msgstr "无效的zip文件"
 
-#: app/models/task.py:637
+#: app/models/task.py:638
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "连接错误：%(error)s"
 
-#: app/models/task.py:717
+#: app/models/task.py:718
 msgid "Cannot restart a task that has no processing node"
 msgstr "无法重新启动没有处理节点的任务"
 
-#: app/models/task.py:872
+#: app/models/task.py:873
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "不支持的SRS%(code)s。请确保您选择了受支持的SRS。"
 
-#: app/models/task.py:884
+#: app/models/task.py:885
 msgid "Done!"
 msgstr "完成了！"
 
@@ -921,9 +930,9 @@ msgid ""
 "option) any later version. See %(link_start)sthe GNU Affero General Public "
 "License%(link_end)s for more details."
 msgstr ""
-"这个程序是免费软件：根据Free Software Foundation公布的the GNU Affero General Public "
-"License的版本3或者（任意）最新版本，可以进行再发和改变。请确认GNU Affero General Public "
-"License%(link_start)s，详细信息是%(link_end)s。"
+"这个程序是免费软件：根据Free Software Foundation公布的the GNU Affero General "
+"Public License的版本3或者（任意）最新版本，可以进行再发和改变。请确认GNU "
+"Affero General Public License%(link_start)s，详细信息是%(link_end)s。"
 
 #: app/templates/app/admin/404.html:4 app/templates/app/admin/404.html:8
 msgid "Page not found"
@@ -1082,21 +1091,25 @@ msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
 "related objects, but your account doesn't have permission to delete the "
 "following types of objects:"
-msgstr "删除%(object_name)s'%(escaped_object)s' 将导致删除相关对象，但您的帐户无权删除以下类型的对象："
+msgstr ""
+"删除%(object_name)s'%(escaped_object)s' 将导致删除相关对象，但您的帐户无权删"
+"除以下类型的对象："
 
 #: app/templates/app/admin/delete_confirmation.html:30
 #, python-format
 msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
 "following protected related objects:"
-msgstr "删除%(object_name)s“%(escaped_object)s”将需要删除以下受保护的相关对象："
+msgstr ""
+"删除%(object_name)s“%(escaped_object)s”将需要删除以下受保护的相关对象："
 
 #: app/templates/app/admin/delete_confirmation.html:37
 #, python-format
 msgid ""
 "Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
 "All of the following related items will be deleted:"
-msgstr "你确定要删除%(object_name)s “%(escaped_object)s”？将删除以下所有相关项目："
+msgstr ""
+"你确定要删除%(object_name)s “%(escaped_object)s”？将删除以下所有相关项目："
 
 #: app/templates/app/admin/delete_confirmation.html:39
 #: app/templates/app/admin/delete_selected_confirmation.html:38
@@ -1123,7 +1136,9 @@ msgid ""
 "Deleting the selected %(objects_name)s would result in deleting related "
 "objects, but your account doesn't have permission to delete the following "
 "types of objects:"
-msgstr "删除选定的%(objects_name)s将导致删除相关对象，但您的帐户无权删除以下类型的对象："
+msgstr ""
+"删除选定的%(objects_name)s将导致删除相关对象，但您的帐户无权删除以下类型的对"
+"象："
 
 #: app/templates/app/admin/delete_selected_confirmation.html:29
 #, python-format
@@ -1194,14 +1209,16 @@ msgid ""
 "Something's wrong with your database installation. Make sure the appropriate "
 "database tables have been created, and make sure the database is readable by "
 "the appropriate user."
-msgstr "数据库安装有问题。确保已创建适当的数据库表，并确保适当的用户可以读取数据库。"
+msgstr ""
+"数据库安装有问题。确保已创建适当的数据库表，并确保适当的用户可以读取数据库。"
 
 #: app/templates/app/admin/login.html:37
 #, python-format
 msgid ""
 "You are authenticated as %(username)s, but are not authorized to access this "
 "page. Would you like to login to a different account?"
-msgstr "您已通过%(username)s的身份验证，但无权访问此页面。是否要登录到其他帐户？"
+msgstr ""
+"您已通过%(username)s的身份验证，但无权访问此页面。是否要登录到其他帐户？"
 
 #: app/templates/app/admin/login.html:57
 msgid "Forgotten your password or username?"
@@ -1297,8 +1314,8 @@ msgid ""
 "running an instance of %(nodeodm_link)s or some other software implementing "
 "this %(api_link)s."
 msgstr ""
-"首先，“%(add_processing_node)s”。处理节点是运行%(nodeodm_link)s的实例或实现该%(api_link)s的某个其他软"
-"件的计算机。"
+"首先，“%(add_processing_node)s”。处理节点是运行%(nodeodm_link)s的实例或实现"
+"该%(api_link)s的某个其他软件的计算机。"
 
 #: app/templates/app/dashboard.html:28
 msgid "Select Images and GCP"
@@ -1349,7 +1366,9 @@ msgstr "当前语言："
 msgid ""
 "To change locale, modify your browser's locale settings, then refresh the "
 "page, or use the set locale button below."
-msgstr "要更改区域设置，请修改浏览器的区域设置，然后刷新页面，或使用下面的“设置区域设置”按钮。"
+msgstr ""
+"要更改区域设置，请修改浏览器的区域设置，然后刷新页面，或使用下面的“设置区域设"
+"置”按钮。"
 
 #: app/templates/app/dev_tools.html:18
 msgid "Translation Files (.zip):"
@@ -1465,68 +1484,74 @@ msgstr "编辑"
 msgid "Uh oh! Could you please check the errors below?"
 msgstr "哦！你能检查一下下面的错误吗？"
 
+#: app/templates/app/welcome.html:228
+msgid ""
+"Before we get started, we need to create an administrator account for you:"
+msgstr ""
+
 #: app/templates/app/welcome.html:237
 msgid "Create Account"
 msgstr "创建帐户"
 
 #: app/translations/plugin_manifest_autogenerated.py:4
-msgid "Upload and tile ODM assets with Cesium ion."
-msgstr ""
-
-#: app/translations/plugin_manifest_autogenerated.py:5
 msgid "Detect changes between two different tasks in the same project."
 msgstr "检测同一项目中两个不同任务之间的更改。"
 
-#: app/translations/plugin_manifest_autogenerated.py:6
+#: app/translations/plugin_manifest_autogenerated.py:5
 msgid "Import images from external sources directly"
 msgstr "外部源导入图像"
 
-#: app/translations/plugin_manifest_autogenerated.py:7
+#: app/translations/plugin_manifest_autogenerated.py:6
 msgid "Compute, preview and export contours from DEMs"
 msgstr "从DEM计算、预览和导出等高线"
 
-#: app/translations/plugin_manifest_autogenerated.py:8
+#: app/translations/plugin_manifest_autogenerated.py:7
 msgid "Display program version, memory and disk space usage statistics"
 msgstr "显示程序版本、内存和磁盘空间使用统计信息"
 
-#: app/translations/plugin_manifest_autogenerated.py:9
+#: app/translations/plugin_manifest_autogenerated.py:8
 msgid "Calculate and draw an elevation map based on a task's DEMs"
 msgstr "基于任务的DEM计算并绘制高程地图"
 
-#: app/translations/plugin_manifest_autogenerated.py:10
+#: app/translations/plugin_manifest_autogenerated.py:9
 msgid "Add a fullscreen button to the 2D map view"
 msgstr "向2D地图视图添加全屏按钮"
 
-#: app/translations/plugin_manifest_autogenerated.py:11
+#: app/translations/plugin_manifest_autogenerated.py:10
 msgid "Sync accounts from webodm.net"
 msgstr "从webodm.net同步帐户"
 
-#: app/translations/plugin_manifest_autogenerated.py:12
+#: app/translations/plugin_manifest_autogenerated.py:11
 msgid "Compute volume, area and length measurements on Leaflet"
 msgstr "计算传单上的体积、面积和长度测量值"
 
-#: app/translations/plugin_manifest_autogenerated.py:13
+#: app/translations/plugin_manifest_autogenerated.py:12
 msgid "A plugin to upload orthophotos to OpenAerialMap"
 msgstr "将正射影像上传至OpenAerialMap的插件"
 
-#: app/translations/plugin_manifest_autogenerated.py:14
+#: app/translations/plugin_manifest_autogenerated.py:13
 msgid ""
 "A plugin to add a button for quickly opening OpenStreetMap's iD editor and "
 "setup a TMS basemap."
-msgstr "快速打开OpenStreet Map的iD编辑器，添加可以设置TMS背景地图的按钮的插件。"
+msgstr ""
+"快速打开OpenStreet Map的iD编辑器，添加可以设置TMS背景地图的按钮的插件。"
 
+#: app/translations/plugin_manifest_autogenerated.py:14
 #: app/translations/plugin_manifest_autogenerated.py:15
-#: app/translations/plugin_manifest_autogenerated.py:16
 msgid "A plugin to create GCP files from images"
 msgstr "从图像创建GCP文件的插件"
 
-#: app/translations/plugin_manifest_autogenerated.py:17
+#: app/translations/plugin_manifest_autogenerated.py:16
 msgid "Create short links when sharing task URLs"
 msgstr "共享任务URL时创建短链接"
 
-#: app/translations/plugin_manifest_autogenerated.py:18
+#: app/translations/plugin_manifest_autogenerated.py:17
 msgid "Create editable short links when sharing task URLs"
 msgstr "共享任务URL时创建可编辑的短链接"
+
+#: app/translations/plugin_manifest_autogenerated.py:18
+msgid "Integrate WebODM with DroneDB: import images and share results"
+msgstr ""
 
 #: app/views/app.py:44
 msgid "First Project"
@@ -1555,10 +1580,6 @@ msgstr "翻译文件重新加载！"
 #: app/views/dev.py:75
 msgid "Invalid action"
 msgstr "无效动作"
-
-#: coreplugins/cesiumion/api_views.py:159
-msgid "No matching enum type."
-msgstr "没有匹配的枚举类型。"
 
 #: coreplugins/contours/api.py:16
 msgid "No DSM layer is available."
@@ -1666,7 +1687,9 @@ msgid ""
 "No surface model available. From the Dashboard, select this task, press "
 "Edit, from the options make sure to check \"dsm\", then press Restart --> "
 "From DEM."
-msgstr "没有可用的曲面模型。从仪表板中选择此任务，按Edit，从选项中确保选中“dsm”，然后按Restart-->From DEM。"
+msgstr ""
+"没有可用的曲面模型。从仪表板中选择此任务，按Edit，从选项中确保选中“dsm”，然后"
+"按Restart-->From DEM。"
 
 #: coreplugins/posm-gcpi/plugin.py:8
 msgid "GCP Interface"
@@ -1683,8 +1706,9 @@ msgid ""
 "localhost. Find the IP address of your host machine by running ifconfig on "
 "Linux or by checking your network settings."
 msgstr ""
-"节点所在的主机名或IP地址（也有内部主机名的情况）。使用Docker时，绝对不是127..0."
-"1或localhost。请在Linux上执行ifconfig或检查网络设置，确认主机的IP地址。"
+"节点所在的主机名或IP地址（也有内部主机名的情况）。使用Docker时，绝对不是"
+"127..0.1或localhost。请在Linux上执行ifconfig或检查网络设置，确认主机的IP地"
+"址。"
 
 #: nodeodm/models.py:22
 msgid "Port that connects to the node's API"
@@ -1743,3 +1767,6 @@ msgstr "此节点的可选标签。设置后，将显示此标签，而不是主
 #: nodeodm/models.py:31
 msgid "Engine used by the node."
 msgstr "节点使用的引擎。"
+
+#~ msgid "No matching enum type."
+#~ msgstr "没有匹配的枚举类型。"
