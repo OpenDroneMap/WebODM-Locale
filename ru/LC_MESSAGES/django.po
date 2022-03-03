@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 19:29+0000\n"
-"PO-Revision-Date: 2022-03-03 17:37+0000\n"
+"PO-Revision-Date: 2022-03-04 20:55+0000\n"
 "Last-Translator: Александр Ващенко <sascha93rus@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/webodm/webodm/ru/"
 ">\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: app/admin.py:52
 msgid "Enter custom CSS"
@@ -300,7 +300,7 @@ msgstr "Недопустимый параметр границ"
 
 #: app/api/tiler.py:347 app/api/tiler.py:410
 msgid "Outside of bounds"
-msgstr ""
+msgstr "За пределами границ"
 
 #: app/api/tiler.py:358
 msgid "Invalid boundaries"
@@ -308,11 +308,11 @@ msgstr ""
 
 #: app/api/tiler.py:416 app/api/tiler.py:513
 msgid "Not a valid color_map value"
-msgstr ""
+msgstr "Недопустимое значение color_map"
 
 #: app/api/tiler.py:422
 msgid "Invalid rescale value"
-msgstr ""
+msgstr "Недопустимое значение масштабирования"
 
 #: app/api/tiler.py:431
 #, fuzzy
@@ -356,6 +356,7 @@ msgstr ""
 #: app/api/tiler.py:561
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr ""
+"Невозможно использовать epsg для набора данных без географической привязки"
 
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
@@ -869,11 +870,11 @@ msgstr "Третичный"
 
 #: app/models/theme.py:23
 msgid "Primary button color."
-msgstr ""
+msgstr "Основной цвет кнопки."
 
 #: app/models/theme.py:23
 msgid "Button Primary"
-msgstr ""
+msgstr "Основная кнопка"
 
 #: app/models/theme.py:24
 msgid "Default button color."
@@ -897,15 +898,15 @@ msgstr "Фоновый цвет заголовка сайта."
 
 #: app/models/theme.py:27
 msgid "Header Background"
-msgstr ""
+msgstr "Фон заголовка"
 
 #: app/models/theme.py:28
 msgid "Text and icons in the site's header."
-msgstr "Текст и лого хэдера."
+msgstr "Текст и значки в заголовке сайта."
 
 #: app/models/theme.py:28
 msgid "Header Primary"
-msgstr ""
+msgstr "Основной заголовок"
 
 #: app/models/theme.py:30
 msgid "The color of most borders."
@@ -1031,7 +1032,7 @@ msgstr "Поехали"
 
 #: app/templates/app/admin/actions.html:10
 msgid "Click here to select the objects across all pages"
-msgstr ""
+msgstr "Нажмите здесь, чтобы выбрать объекты на всех страницах"
 
 #: app/templates/app/admin/actions.html:10
 #, python-format
@@ -1101,7 +1102,7 @@ msgstr "История"
 #: app/templates/app/admin/edit_inline/stacked.html:14
 #: app/templates/app/admin/edit_inline/tabular.html:36
 msgid "View on site"
-msgstr ""
+msgstr "Посмотреть на сайте"
 
 #: app/templates/app/admin/change_list.html:69
 msgid "Filter"
@@ -1122,11 +1123,11 @@ msgstr ""
 #: app/templates/app/admin/change_list_results.html:18
 #, python-format
 msgid "Sorting priority: %(priority_number)s"
-msgstr ""
+msgstr "Приоритет сортировки: %(priority_number)s"
 
 #: app/templates/app/admin/change_list_results.html:19
 msgid "Toggle sorting"
-msgstr ""
+msgstr "Переключить сортировку"
 
 #: app/templates/app/admin/delete_confirmation.html:17
 #: app/templates/app/admin/related_widget_wrapper.html:23
@@ -1142,6 +1143,9 @@ msgid ""
 "related objects, but your account doesn't have permission to delete the "
 "following types of objects:"
 msgstr ""
+"Удаление %(object_name)s '%(escaped_object)s' приведет к удалению связанных "
+"объектов, но у вашей учетной записи нет разрешения на удаление следующих "
+"типов объектов:"
 
 #: app/templates/app/admin/delete_confirmation.html:30
 #, python-format
@@ -1197,6 +1201,8 @@ msgid ""
 "Deleting the selected %(objects_name)s would require deleting the following "
 "protected related objects:"
 msgstr ""
+"Удаление выбранных %(objects_name)s потребует удаления следующих защищенных "
+"связанных объектов:"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:36
 #, python-format
@@ -1204,6 +1210,8 @@ msgid ""
 "Are you sure you want to delete the selected %(objects_name)s? All of the "
 "following objects and their related items will be deleted:"
 msgstr ""
+"Вы уверены, что хотите удалить выбранные %(objects_name)s? Все следующие "
+"объекты и связанные с ними элементы будут удалены:"
 
 #: app/templates/app/admin/edit_inline/stacked.html:12
 #: app/templates/app/admin/edit_inline/tabular.html:34
@@ -1237,7 +1245,7 @@ msgstr "Добавить"
 
 #: app/templates/app/admin/index.html:47
 msgid "You don't have permission to edit anything."
-msgstr ""
+msgstr "У вас нет разрешения что-либо редактировать."
 
 #: app/templates/app/admin/index.html:55
 msgid "Recent actions"
@@ -1261,6 +1269,9 @@ msgid ""
 "database tables have been created, and make sure the database is readable by "
 "the appropriate user."
 msgstr ""
+"Что-то не так с вашей установкой базы данных. Убедитесь, что созданы "
+"соответствующие таблицы базы данных, и убедитесь, что база данных доступна "
+"для чтения соответствующему пользователю."
 
 #: app/templates/app/admin/login.html:37
 #, python-format
@@ -1268,6 +1279,8 @@ msgid ""
 "You are authenticated as %(username)s, but are not authorized to access this "
 "page. Would you like to login to a different account?"
 msgstr ""
+"Вы прошли аутентификацию как %(username)s, но не авторизованы для доступа к "
+"этой странице. Хотите войти в другую учетную запись?"
 
 #: app/templates/app/admin/login.html:57
 msgid "Forgotten your password or username?"
@@ -1413,7 +1426,7 @@ msgstr "Закрыть"
 
 #: app/templates/app/dev_tools.html:14
 msgid "Current Locale:"
-msgstr ""
+msgstr "Текущий язык:"
 
 #: app/templates/app/dev_tools.html:15
 msgid ""
@@ -1441,7 +1454,7 @@ msgstr "Применить"
 
 #: app/templates/app/dev_tools.html:33
 msgid "Executing… do not refresh the page! This could take a while."
-msgstr ""
+msgstr "Запуск... не обновляйте страницу! Это может занять некоторое время."
 
 #: app/templates/app/logged_in_base.html:15
 #, python-format
@@ -1458,11 +1471,11 @@ msgstr "Панель управления"
 
 #: app/templates/app/logged_in_base.html:59 nodeodm/models.py:35
 msgid "Processing Nodes"
-msgstr ""
+msgstr "Обрабатывающие Узлы"
 
 #: app/templates/app/logged_in_base.html:69
 msgid "Add New"
-msgstr ""
+msgstr "Добавить новый"
 
 #: app/templates/app/logged_in_base.html:79
 msgid "Administration"
@@ -1502,15 +1515,15 @@ msgstr "Ядро"
 
 #: app/templates/app/processing_node.html:27 nodeodm/models.py:29
 msgid "Engine Version"
-msgstr ""
+msgstr "Версия движка"
 
 #: app/templates/app/processing_node.html:31 nodeodm/models.py:25
 msgid "Queue Count"
-msgstr ""
+msgstr "Количество очередей"
 
 #: app/templates/app/processing_node.html:35
 msgid "Max Images Limit"
-msgstr ""
+msgstr "Максимальный лимит изображений"
 
 #: app/templates/app/processing_node.html:39 nodeodm/models.py:30
 msgid "Label"
@@ -1518,7 +1531,7 @@ msgstr "Метка"
 
 #: app/templates/app/processing_node.html:43 nodeodm/models.py:24
 msgid "Last Refreshed"
-msgstr ""
+msgstr "Последнее обновление"
 
 #: app/templates/app/processing_node.html:44
 msgctxt "5 minutes ago"
@@ -1527,7 +1540,7 @@ msgstr "назад"
 
 #: app/templates/app/processing_node.html:47
 msgid "Options (JSON)"
-msgstr ""
+msgstr "Параметры (JSON)"
 
 #: app/templates/app/processing_node.html:53
 msgid "Edit"
@@ -1535,12 +1548,14 @@ msgstr "Редактировать"
 
 #: app/templates/app/welcome.html:224
 msgid "Uh oh! Could you please check the errors below?"
-msgstr ""
+msgstr "Ой-ой! Не могли бы вы, пожалуйста, проверить приведенные ниже ошибки?"
 
 #: app/templates/app/welcome.html:228
 msgid ""
 "Before we get started, we need to create an administrator account for you:"
 msgstr ""
+"Прежде чем мы начнем, нам нужно создать для вас учетную запись "
+"администратора:"
 
 #: app/templates/app/welcome.html:237
 msgid "Create Account"
@@ -1632,11 +1647,11 @@ msgstr "Не удается найти язык / папку в zip-архиве
 
 #: app/views/dev.py:71
 msgid "Translation files reloaded!"
-msgstr ""
+msgstr "Файлы перевода перезагружены!"
 
 #: app/views/dev.py:75
 msgid "Invalid action"
-msgstr ""
+msgstr "Недопустимое действие"
 
 #: coreplugins/contours/api.py:16
 msgid "No DSM layer is available."
@@ -1759,7 +1774,7 @@ msgstr "Интерфейс GCP"
 
 #: nodeodm/apps.py:8
 msgid "Node Management"
-msgstr ""
+msgstr "Управление узлами"
 
 #: nodeodm/models.py:21
 msgid ""
@@ -1768,24 +1783,30 @@ msgid ""
 "localhost. Find the IP address of your host machine by running ifconfig on "
 "Linux or by checking your network settings."
 msgstr ""
+"Имя хоста или IP-адрес, на котором расположен узел (также может быть "
+"внутренним именем хоста). Если вы используете Docker, это никогда не будет "
+"127.0.0.1 или localhost. Найдите IP-адрес вашего хост-компьютера, запустив "
+"ifconfig в Linux или проверив настройки сети."
 
 #: nodeodm/models.py:22
 msgid "Port that connects to the node's API"
-msgstr ""
+msgstr "Порт, который подключается к API узла"
 
 #: nodeodm/models.py:23
 msgid "API version used by the node"
-msgstr ""
+msgstr "Версия API, используемая узлом"
 
 #: nodeodm/models.py:24
 msgid "When was the information about this node last retrieved?"
-msgstr ""
+msgstr "Когда в последний раз была получена информация об этом узле?"
 
 #: nodeodm/models.py:25
 msgid ""
 "Number of tasks currently being processed by this node (as reported by the "
 "node itself)"
 msgstr ""
+"Количество задач, обрабатываемых в данный момент этим узлом (как сообщает "
+"сам узел)"
 
 #: nodeodm/models.py:26
 msgid "Available Options"
@@ -1793,7 +1814,7 @@ msgstr "Доступные Опции"
 
 #: nodeodm/models.py:26
 msgid "Description of the options that can be used for processing"
-msgstr ""
+msgstr "Описание опций, которые могут быть использованы для обработки"
 
 #: nodeodm/models.py:27
 msgid "Token"
@@ -1804,6 +1825,8 @@ msgid ""
 "Token to use for authentication. If the node doesn't have authentication, "
 "you can leave this field blank."
 msgstr ""
+"Токен, используемый для аутентификации. Если у узла нет аутентификации, вы "
+"можете оставить это поле пустым."
 
 #: nodeodm/models.py:28
 msgid "Max Images"
@@ -1811,21 +1834,23 @@ msgstr ""
 
 #: nodeodm/models.py:28
 msgid "Maximum number of images accepted by this node."
-msgstr ""
+msgstr "Максимальное количество изображений, принимаемых этим узлом."
 
 #: nodeodm/models.py:29
 msgid "Engine version used by the node."
-msgstr ""
+msgstr "Версия движка, используемая узлом."
 
 #: nodeodm/models.py:30
 msgid ""
 "Optional label for this node. When set, this label will be shown instead of "
 "the hostname:port name."
 msgstr ""
+"Необязательная метка для этого узла. При установке эта метка будет "
+"отображаться вместо имя хоста:имя порта."
 
 #: nodeodm/models.py:31
 msgid "Engine used by the node."
-msgstr ""
+msgstr "Движок, используемый узлом."
 
 #~ msgid "Upload and tile ODM assets with Cesium ion."
 #~ msgstr "Загружайте и размещайте ресурсы ODM с помощью Cesium ion."
