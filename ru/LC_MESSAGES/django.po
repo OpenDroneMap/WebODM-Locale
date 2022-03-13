@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 19:29+0000\n"
-"PO-Revision-Date: 2022-03-06 13:57+0000\n"
-"Last-Translator: Александр Ващенко <sascha93rus@gmail.com>\n"
+"PO-Revision-Date: 2022-03-14 09:58+0000\n"
+"Last-Translator: Александр Ващенко <asspirine02@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/webodm/webodm/ru/"
 ">\n"
 "Language: ru\n"
@@ -81,7 +81,7 @@ msgstr "Автор"
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr ""
-"Требуется перезагрузка. Пожалуйста перезапустите WebODM чтобы активировать "
+"Требуется перезагрузка. Пожалуйста, перезапустите WebODM чтобы активировать "
 "%(plugin)s"
 
 #: app/admin.py:146
@@ -93,7 +93,7 @@ msgstr "Невозможно активировать плагин %(plugin)s: %
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr ""
-"Требуется перезагрузка. Пожалуйста перезапустите WebODM для полной "
+"Требуется перезагрузка. Пожалуйста, перезапустите WebODM для полной "
 "дезактивации %(plugin)s"
 
 #: app/admin.py:156
@@ -532,7 +532,7 @@ msgid ""
 "can be deleted."
 msgstr ""
 "Помечен ли этот проект для удаления? Проекты у которых есть действующие "
-"задачи должны быть завершены перед тем как вы сможете удалить их."
+"задачи должны быть завершены перед тем, как вы сможете удалить их."
 
 #: app/models/project.py:27
 msgid "Deleting"
@@ -606,7 +606,7 @@ msgstr "ID"
 
 #: app/models/task.py:229
 msgid "Identifier of the task (as returned by NodeODM API)"
-msgstr "Идентификатор вашей задачи ( так же как и в NodeODM API)"
+msgstr "Идентификатор вашей задачи (так же как и в NodeODM API)"
 
 #: app/models/task.py:229
 msgid "UUID"
@@ -625,8 +625,8 @@ msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr ""
-"Количество мили секунд, которое прошло с момента начала задачи ( -1 "
-"обозначает что нет информации доступной для отображения)"
+"Количество миллисекунд, которое прошло с момента начала задачи (-1 означает, "
+"что нет информации доступной для отображения)"
 
 #: app/models/task.py:232
 msgid "Processing Time"
@@ -636,11 +636,11 @@ msgstr "Время обработки"
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
-msgstr "Ядро назначенное для этой задачи (или null если ядро не назначено)"
+msgstr "Узел, назначенный для этой задачи (или null, если узел не назначен)"
 
 #: app/models/task.py:233 app/views/app.py:115 nodeodm/models.py:34
 msgid "Processing Node"
-msgstr "Ядро"
+msgstr "Узел"
 
 #: app/models/task.py:234
 msgid ""
@@ -648,11 +648,11 @@ msgid ""
 "processing node"
 msgstr ""
 "Флаг, указывающий на то - следует ли этой задаче автоматически назначать "
-"узел(ядро) обработки"
+"узел обработки"
 
 #: app/models/task.py:234
 msgid "Auto Processing Node"
-msgstr ""
+msgstr "Узел автоматической обработки"
 
 #: app/models/task.py:235
 msgid "Current status of the task"
@@ -692,19 +692,19 @@ msgstr "Вывод в консоль"
 
 #: app/models/task.py:241
 msgid "Extent of the orthophoto"
-msgstr "Размер ортофотоплана"
+msgstr "Масштаб ортофотоплана"
 
 #: app/models/task.py:241
 msgid "Orthophoto Extent"
-msgstr "Размер ортофотоплана"
+msgstr "Масштаб ортофотоплана"
 
 #: app/models/task.py:242
 msgid "DSM Extent"
-msgstr ""
+msgstr "Масштаб DSM"
 
 #: app/models/task.py:243
 msgid "DTM Extent"
-msgstr ""
+msgstr "Масштаб DTM"
 
 #: app/models/task.py:247
 msgid ""
@@ -716,7 +716,7 @@ msgstr ""
 
 #: app/models/task.py:247
 msgid "Pending Action"
-msgstr ""
+msgstr "Ожидаемые действия"
 
 #: app/models/task.py:249
 msgid "A flag indicating whether this task is available to the public"
@@ -786,7 +786,7 @@ msgstr "Импортировать по ссылке"
 
 #: app/models/task.py:265
 msgid "Number of images associated with this task"
-msgstr "Количество изображений относящихся к этой задачи"
+msgstr "Количество изображений, относящихся к этой задачи"
 
 #: app/models/task.py:265
 msgid "Images Count"
@@ -809,6 +809,8 @@ msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
+"Сериализованная информация о сцене potree, используемая для сохранения / "
+"загрузки измерений и угла обзора камеры"
 
 #: app/models/task.py:267
 msgid "Potree Scene"
@@ -847,7 +849,7 @@ msgstr "Невозможно перезапустить задачу так ка
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
-"Неподдерживаемый SRS %(code)s. Пожалуйста убедитесь что выбрали "
+"Неподдерживаемый SRS %(code)s. Пожалуйста, убедитесь, что выбрали "
 "поддерживаемый SRS файл."
 
 #: app/models/task.py:885
@@ -860,7 +862,7 @@ msgstr "Название темы"
 
 #: app/models/theme.py:19
 msgid "Most text, icons, and borders."
-msgstr "Текст, лого, и границы."
+msgstr "Текст, лого и границы."
 
 #: app/models/theme.py:19
 msgid "Primary"
@@ -936,7 +938,7 @@ msgstr "Цвет границ панели управления и некото�
 
 #: app/models/theme.py:31
 msgid "Highlight"
-msgstr ""
+msgstr "Выделение"
 
 #: app/models/theme.py:33
 msgid "The border color of warning dialogs."
@@ -968,7 +970,7 @@ msgstr "404 Страница не найдена"
 
 #: app/templates/app/404.html:7
 msgid "Are you sure the address is correct?"
-msgstr "Вы уверены в том что введенный вами адрес правильный?"
+msgstr "Вы уверены, что введенный вами адрес правильный?"
 
 #: app/templates/app/500.html:5
 msgid "500 Internal Server Error"
@@ -1055,7 +1057,7 @@ msgstr "Выбрать все %(total_count)s %(module_name)s"
 
 #: app/templates/app/admin/actions.html:12
 msgid "Clear selection"
-msgstr ""
+msgstr "Очистить выбор"
 
 #: app/templates/app/admin/auth/user/add_form.html:6
 msgid ""
@@ -1132,7 +1134,7 @@ msgstr "Управление плагинами"
 
 #: app/templates/app/admin/change_list_results.html:17
 msgid "Remove from sorting"
-msgstr ""
+msgstr "Удалить из сортировки"
 
 #: app/templates/app/admin/change_list_results.html:18
 #, python-format
@@ -1372,7 +1374,7 @@ msgstr "Сохранить как новый"
 
 #: app/templates/app/admin/submit_line.html:9
 msgid "Save and add another"
-msgstr ""
+msgstr "Сохранить и добавить еще один"
 
 #: app/templates/app/admin/submit_line.html:10
 msgid "Save and continue editing"
@@ -1385,7 +1387,7 @@ msgstr "Добро пожаловать!"
 
 #: app/templates/app/dashboard.html:16
 msgid "Add a Processing Node"
-msgstr ""
+msgstr "Добавление узла обработки"
 
 #: app/templates/app/dashboard.html:19
 #, python-format
@@ -1397,7 +1399,7 @@ msgstr ""
 
 #: app/templates/app/dashboard.html:28
 msgid "Select Images and GCP"
-msgstr "Выберите изображения и контрольные точки"
+msgstr "Выбрать изображения и контрольные точки"
 
 #: app/templates/app/dashboard.html:30
 #, python-format
@@ -1462,7 +1464,7 @@ msgstr "Загрузка и замена файлов перевода"
 
 #: app/templates/app/dev_tools.html:27
 msgid "Set locale:"
-msgstr ""
+msgstr "Установить язык:"
 
 #: app/templates/app/dev_tools.html:29
 msgid "Apply"
@@ -1784,7 +1786,7 @@ msgid ""
 "Edit, from the options make sure to check \"dsm\", then press Restart --> "
 "From DEM."
 msgstr ""
-"Модель поверхности недоступна. На панели инструментов выберите эту задачу, "
+"Модель поверхности недоступна. На панели управления выберите эту задачу, "
 "нажмите Редактировать, в настройках обязательно включите параметр \"dsm\", "
 "затем нажмите Перезагрузить --> Из DEM."
 
