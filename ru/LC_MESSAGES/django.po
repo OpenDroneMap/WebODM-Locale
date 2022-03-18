@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 19:29+0000\n"
-"PO-Revision-Date: 2022-03-14 09:58+0000\n"
+"PO-Revision-Date: 2022-03-22 07:58+0000\n"
 "Last-Translator: Александр Ващенко <asspirine02@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/webodm/webodm/ru/"
 ">\n"
@@ -81,7 +81,7 @@ msgstr "Автор"
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr ""
-"Требуется перезагрузка. Пожалуйста, перезапустите WebODM чтобы активировать "
+"Требуется перезагрузка. Пожалуйста, перезапустите WebODM, чтобы активировать "
 "%(plugin)s"
 
 #: app/admin.py:146
@@ -135,8 +135,8 @@ msgstr "Действия"
 msgid ""
 "Normalized Difference Vegetation Index shows the amount of green vegetation."
 msgstr ""
-"Нормализованый Индекс Разницы Озеленения показывает количество зеленых "
-"насаждений."
+"Нормализованный разностный вегетационный индекс (NDVI) показывает количество "
+"зеленой растительности."
 
 #: app/api/formulas.py:20
 msgid ""
@@ -159,7 +159,7 @@ msgstr ""
 #: app/api/formulas.py:28
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
 msgstr ""
-"Визуальный индекс атмосферного сопротивления показывает площади "
+"Визуальный индекс атмосферного сопротивления (VARI) показывает площади "
 "растительности."
 
 #: app/api/formulas.py:33
@@ -205,9 +205,8 @@ msgid ""
 "Soil Adjusted Vegetation Index is similar to NDVI but attempts to remove the "
 "effects of soil areas using an adjustment factor (0.5)."
 msgstr ""
-"Индекс растительности с поправкой на почву аналогичен NDVI, но пытается "
-"устранить влияние почвенных зон с использованием корректирующего "
-"коэффициента (0,5)."
+"Почвенный вегетационный индекс (SAVI) аналогичен NDVI, но пытается устранить "
+"влияние почвенных зон с использованием корректирующего коэффициента (0,5)."
 
 #: app/api/formulas.py:62
 msgid ""
@@ -230,13 +229,16 @@ msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
 msgstr ""
+"Перенормированный дифференциальный индекс растительности (RDVI) использует "
+"разницу между ближним ИК-излучением и красным, и NDVI для отображения "
+"областей здоровой растительности."
 
 #: app/api/formulas.py:74
 msgid ""
 "Transformed Difference Vegetation Index highlights vegetation cover in urban "
 "environments."
 msgstr ""
-"Преобразованный дифференциальный индекс растительности подчеркивает "
+"Преобразованный дифференциальный индекс растительности (TDVI) подчеркивает "
 "растительный покров в городской среде."
 
 #: app/api/formulas.py:78
@@ -327,14 +329,13 @@ msgid "Invalid rescale value"
 msgstr "Недопустимое значение масштабирования"
 
 #: app/api/tiler.py:431
-#, fuzzy
-#| msgid "Invalid zip file"
 msgid "Invalid hillshade value"
-msgstr "Неверный zip файл"
+msgstr "Недопустимое значение затенения"
 
 #: app/api/tiler.py:434
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
+"Не удается вычислить оттенок затенения без высоты (найдено несколько полос)"
 
 #: app/api/tiler.py:451
 msgid ""
@@ -365,7 +366,7 @@ msgstr "Недопустимое значение масштабирования
 #: app/api/tiler.py:550
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
-msgstr ""
+msgstr "Недопустимое значение затенения: %(value)s"
 
 #: app/api/tiler.py:561
 msgid "Cannot use epsg on non-georeferenced dataset"
@@ -423,7 +424,7 @@ msgstr "Плагины"
 
 #: app/models/plugin_datum.py:7
 msgid "Setting key"
-msgstr ""
+msgstr "Настройка ключа"
 
 #: app/models/plugin_datum.py:7
 msgid "Key"
@@ -465,7 +466,7 @@ msgstr "Данные плагинов"
 
 #: app/models/preset.py:9
 msgid "The person who owns this preset"
-msgstr "Пользователь которому принадлежит этот пресет"
+msgstr "Пользователь, которому принадлежит этот пресет"
 
 #: app/models/preset.py:9 app/models/project.py:23
 msgid "Owner"
@@ -531,8 +532,8 @@ msgid ""
 "running tasks need to wait for tasks to be properly cleaned up before they "
 "can be deleted."
 msgstr ""
-"Помечен ли этот проект для удаления? Проекты у которых есть действующие "
-"задачи должны быть завершены перед тем, как вы сможете удалить их."
+"Помечен ли этот проект для удаления? Проекты, у которых есть действующие "
+"задачи, должны быть завершены перед тем, как вы сможете удалить их."
 
 #: app/models/project.py:27
 msgid "Deleting"
@@ -809,7 +810,7 @@ msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
-"Сериализованная информация о сцене potree, используемая для сохранения / "
+"Сериализованная информация о сцене potree, используемая для сохранения/"
 "загрузки измерений и угла обзора камеры"
 
 #: app/models/task.py:267
@@ -979,7 +980,7 @@ msgstr "500 Внутренняя ошибка сервера"
 #: app/templates/app/500.html:6
 msgid "Something happened. The server logs contain more information."
 msgstr ""
-"Что то пошло не так. Просмотрите лог сервера для получения более подробной "
+"Что-то пошло не так. Просмотрите лог сервера для получения более подробной "
 "информации."
 
 #: app/templates/app/about.html:94
@@ -1097,11 +1098,11 @@ msgstr "Введите новый пароль для пользователя <
 
 #: app/templates/app/admin/base_site.html:3
 msgid "Django site admin"
-msgstr ""
+msgstr "Администратор сайта Django"
 
 #: app/templates/app/admin/base_site.html:6
 msgid "Django administration"
-msgstr ""
+msgstr "Администрирование Django"
 
 #: app/templates/app/admin/change_form.html:21
 #: app/templates/app/admin/change_list.html:49
@@ -1243,7 +1244,7 @@ msgstr "Удалить?"
 #: app/templates/app/admin/filter.html:2
 #, python-format
 msgid " By %(filter_title)s "
-msgstr ""
+msgstr " По %(filter_title)s "
 
 #: app/templates/app/admin/includes/object_delete_summary.html:2
 msgid "Summary"
@@ -1252,7 +1253,7 @@ msgstr "Итого"
 #: app/templates/app/admin/index.html:20
 #, python-format
 msgid "Models in the %(name)s application"
-msgstr ""
+msgstr "Модели в %(name)s приложении"
 
 #: app/templates/app/admin/index.html:31
 #: app/templates/app/admin/related_widget_wrapper.html:16
@@ -1273,11 +1274,11 @@ msgstr "Мои действия"
 
 #: app/templates/app/admin/index.html:60
 msgid "None available"
-msgstr ""
+msgstr "Нет доступных"
 
 #: app/templates/app/admin/index.html:74
 msgid "Unknown content"
-msgstr ""
+msgstr "Неизвестный контент"
 
 #: app/templates/app/admin/invalid_setup.html:12
 msgid ""
@@ -1286,8 +1287,8 @@ msgid ""
 "the appropriate user."
 msgstr ""
 "Что-то не так с вашей установкой базы данных. Убедитесь, что созданы "
-"соответствующие таблицы базы данных, и убедитесь, что база данных доступна "
-"для чтения соответствующему пользователю."
+"соответствующие таблицы базы данных, а также, что база данных доступна для "
+"чтения соответствующему пользователю."
 
 #: app/templates/app/admin/login.html:37
 #, python-format
@@ -1339,17 +1340,17 @@ msgstr "Всплывающее окно закрывается..."
 #: app/templates/app/admin/related_widget_wrapper.html:8
 #, python-format
 msgid "Change selected %(model)s"
-msgstr ""
+msgstr "Изменить выбранную %(model)s"
 
 #: app/templates/app/admin/related_widget_wrapper.html:15
 #, python-format
 msgid "Add another %(model)s"
-msgstr ""
+msgstr "Добавить еще одну %(model)s"
 
 #: app/templates/app/admin/related_widget_wrapper.html:22
 #, python-format
 msgid "Delete selected %(model)s"
-msgstr ""
+msgstr "Удалить выбранную %(model)s"
 
 #: app/templates/app/admin/search_form.html:7
 msgid "Search"
@@ -1396,6 +1397,9 @@ msgid ""
 "running an instance of %(nodeodm_link)s or some other software implementing "
 "this %(api_link)s."
 msgstr ""
+"Чтобы начать, \"%(add_processing_node)s\". Узел обработки - это компьютер, "
+"на котором запущен экземпляр %(nodeodm_link)s или какое-либо другое "
+"программное обеспечение, реализующее этот %(api_link)s."
 
 #: app/templates/app/dashboard.html:28
 msgid "Select Images and GCP"
@@ -1582,7 +1586,7 @@ msgstr "Создать аккаунт"
 #: app/translations/plugin_manifest_autogenerated.py:4
 msgid "Detect changes between two different tasks in the same project."
 msgstr ""
-"Обнаруживать изменения между двумя разными задачами в одном и том же проекте."
+"Обнаруживает изменения между двумя разными задачами в одном и том же проекте."
 
 #: app/translations/plugin_manifest_autogenerated.py:5
 msgid "Import images from external sources directly"
@@ -1852,7 +1856,7 @@ msgstr ""
 
 #: nodeodm/models.py:28
 msgid "Max Images"
-msgstr ""
+msgstr "Максимум изображений"
 
 #: nodeodm/models.py:28
 msgid "Maximum number of images accepted by this node."
