@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 19:29+0000\n"
-"PO-Revision-Date: 2021-04-15 08:37+0000\n"
-"Last-Translator: Jarosław Okińczyc <okinczyc@gmail.com>\n"
+"PO-Revision-Date: 2022-03-22 07:58+0000\n"
+"Last-Translator: BanSeb <banaszek.sebastian@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/webodm/react-ui/"
 "pl/>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.6-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: app/static/app/js/Console.jsx:135
 #, python-format
@@ -73,11 +73,11 @@ msgstr "Model terenu"
 
 #: app/static/app/js/ModelView.jsx:36
 msgid "Cannot set initial camera view"
-msgstr ""
+msgstr "Nie można ustawić początkowego widoku kamery"
 
 #: app/static/app/js/ModelView.jsx:61
 msgid "set initial camera view"
-msgstr ""
+msgstr "ustaw początkowy widok kamery"
 
 #: app/static/app/js/ModelView.jsx:82
 #, fuzzy
@@ -134,16 +134,12 @@ msgid "Camera Shots"
 msgstr "(Aparaty)"
 
 #: app/static/app/js/classes/AssetDownloads.js:57
-#, fuzzy
-#| msgid "Camera Shots (GeoJSON)"
 msgid "Ground Control Points"
-msgstr "Zdjęcia (GeoJSON)"
+msgstr "Naziemne punkty kontrolne"
 
 #: app/static/app/js/classes/AssetDownloads.js:58
-#, fuzzy
-#| msgid "Quality"
 msgid "Quality Report"
-msgstr "Jakość"
+msgstr "Raport jakości"
 
 #: app/static/app/js/classes/AssetDownloads.js:63
 msgid "All Assets"
@@ -159,7 +155,7 @@ msgstr "Satelita ESRI"
 
 #: app/static/app/js/classes/Basemaps.js:26
 msgid "OSM Mapnik"
-msgstr "Mapnik OSM"
+msgstr "OSM Atlas"
 
 #: app/static/app/js/classes/PendingActions.js:11
 msgid "Canceling..."
@@ -195,10 +191,8 @@ msgid "Multi View Stereo"
 msgstr ""
 
 #: app/static/app/js/classes/PipelineSteps.js:22
-#, fuzzy
-#| msgid "Point sizing"
 msgid "Point Filtering"
-msgstr "Zmiana rozmiaru punktu"
+msgstr "Filtrowanie punktowe"
 
 #: app/static/app/js/classes/PipelineSteps.js:27
 msgid "Meshing"
@@ -222,7 +216,7 @@ msgstr "Raport"
 
 #: app/static/app/js/classes/PipelineSteps.js:57
 msgid "Postprocess"
-msgstr ""
+msgstr "Proces przetwarzania"
 
 #: app/static/app/js/classes/ResizeModes.js:4
 msgid "No"
@@ -237,10 +231,8 @@ msgid "Queued"
 msgstr "Zakojejkowane"
 
 #: app/static/app/js/classes/StatusCodes.js:15
-#, fuzzy
-#| msgid "Processing Node"
 msgid "Processing"
-msgstr "Węzeł przetwarzania"
+msgstr "Przetwarzanie"
 
 #: app/static/app/js/classes/StatusCodes.js:19
 msgid "Failed"
@@ -274,30 +266,28 @@ msgid "Download Assets"
 msgstr "Pobierz zasoby"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:49
-#, fuzzy
-#| msgid "Cannot complete operation."
 msgid "Cannot load permissions."
-msgstr "Nie można dokończyć operacji."
+msgstr "Nie można wczytać uprawnień."
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:150
 msgid "Read/Write"
-msgstr ""
+msgstr "Odczyt/zapis"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:151
 msgid "Read"
-msgstr ""
+msgstr "Odczyt"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:152
 msgid "No Access"
-msgstr ""
+msgstr "Brak dostępu"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:225
 msgid "Username"
-msgstr ""
+msgstr "Nazwa użytkownika"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:248
 msgid "Permissions"
-msgstr ""
+msgstr "Uprawnienia"
 
 #: app/static/app/js/components/EditPresetDialog.jsx:110
 #: app/static/app/js/components/EditTaskForm.jsx:523
@@ -497,16 +487,12 @@ msgid "Close"
 msgstr "Zamknij"
 
 #: app/static/app/js/components/ExportAssetDialog.jsx:38
-#, fuzzy
-#| msgid "Loading…"
 msgid "Downloading…"
-msgstr "Ładowanie…"
+msgstr "Pobieranie…"
 
 #: app/static/app/js/components/ExportAssetDialog.jsx:39
-#, fuzzy
-#| msgid "Download Image"
 msgid "Download"
-msgstr "Pobierz obraz"
+msgstr "Pobierz"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:152
 #: app/static/app/js/components/ImportTaskPanel.jsx:138
@@ -524,12 +510,12 @@ msgstr "Projekcja:"
 #: app/static/app/js/components/ExportAssetPanel.jsx:183
 #: coreplugins/contours/public/ContoursPanel.jsx:290
 msgid "Lat/Lon"
-msgstr ""
+msgstr "Szerokość/długość geograficzna"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:184
 #: coreplugins/contours/public/ContoursPanel.jsx:291
 msgid "Web Mercator"
-msgstr ""
+msgstr "Web Mercator"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:202
 #, fuzzy
@@ -542,10 +528,8 @@ msgid "Export:"
 msgstr "Eksport:"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:216
-#, fuzzy
-#| msgid "Importing..."
 msgid "Exporting..."
-msgstr "Importowanie..."
+msgstr "Eksportowanie..."
 
 #: app/static/app/js/components/FormDialog.jsx:10
 msgid "Title"
@@ -575,18 +559,16 @@ msgstr "Brak obrazu"
 
 #: app/static/app/js/components/GCPPopup.jsx:175
 msgid "Horizontal error:"
-msgstr ""
+msgstr "Błąd poziomy:"
 
 #: app/static/app/js/components/GCPPopup.jsx:175
 #: app/static/app/js/components/GCPPopup.jsx:178
-#, fuzzy
-#| msgid "meters"
 msgid "(meters)"
-msgstr "metry"
+msgstr "(metry)"
 
 #: app/static/app/js/components/GCPPopup.jsx:178
 msgid "Vertical error:"
-msgstr ""
+msgstr "Błąd pionowy:"
 
 #: app/static/app/js/components/Histogram.jsx:293
 msgid "Min:"
@@ -749,7 +731,7 @@ msgstr "Wczytywanie..."
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:9
 msgid "Move Task"
-msgstr ""
+msgstr "Przenieś zadanie"
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:10
 #: app/static/app/js/components/ProjectListItem.jsx:485
@@ -769,10 +751,8 @@ msgid "Could not load projects list: %(error)s"
 msgstr "Nie można załadować listy projektów: %(error)s"
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:88
-#, fuzzy
-#| msgid "Add Project"
 msgid "Project"
-msgstr "Dodaj projekt"
+msgstr "Projekt"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:83
 msgid "Are you sure you want to cancel?"
@@ -802,7 +782,7 @@ msgstr "Rozpocznij przetwarzanie"
 #: app/static/app/js/components/ProcessingNodeOption.jsx:140
 #: app/static/app/js/translations/potree_autogenerated.js:62
 msgid "Enable"
-msgstr "Dostępny"
+msgstr "Włącz"
 
 #: app/static/app/js/components/ProcessingNodeOption.jsx:149
 msgid "Click to import a .JSON file"
@@ -973,7 +953,7 @@ msgstr ""
 #: app/static/app/js/components/TaskListItem.jsx:310
 #, python-format
 msgid "From %(stage)s"
-msgstr ""
+msgstr "Od %(stage)s"
 
 #: app/static/app/js/components/TaskListItem.jsx:322
 msgid "Resume Processing"
@@ -993,8 +973,6 @@ msgid "Task #%(number)s"
 msgstr "Zadanie #%(number)s"
 
 #: app/static/app/js/components/TaskListItem.jsx:410
-#, fuzzy
-#| msgid "Uploading images to processing node"
 msgid "Sending images to processing node"
 msgstr "Przesyłanie obrazów do węzła przetwarzania"
 
@@ -1043,7 +1021,7 @@ msgstr ""
 
 #: app/static/app/js/components/TaskListItem.jsx:543
 msgid "manual"
-msgstr ""
+msgstr "podręcznik"
 
 #: app/static/app/js/components/TaskListItem.jsx:547
 msgid "Options:"
@@ -1051,7 +1029,7 @@ msgstr "Opcje:"
 
 #: app/static/app/js/components/TaskListItem.jsx:552
 msgid "Average GSD:"
-msgstr ""
+msgstr "Średnie GSD:"
 
 #: app/static/app/js/components/TaskListItem.jsx:557
 #: coreplugins/measure/public/MeasurePopup.jsx:142
@@ -1060,7 +1038,7 @@ msgstr "Obszar:"
 
 #: app/static/app/js/components/TaskListItem.jsx:562
 msgid "Reconstructed Points:"
-msgstr ""
+msgstr "Punkty zrekonstruowane:"
 
 #: app/static/app/js/components/TaskListItem.jsx:566
 msgid "Task Output:"
@@ -1444,7 +1422,7 @@ msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:31
 msgid "Copy output results to this folder after processing."
-msgstr ""
+msgstr "Po przetworzeniu skopiuj wyniki wyjściowe do tego folderu."
 
 #: app/static/app/js/translations/odm_autogenerated.js:32
 #, python-format
@@ -1499,15 +1477,13 @@ msgstr ""
 "Maksymalna liczba wierzchołków siatki wyjściowej. Domyślnie: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:37
-#, fuzzy, python-format
-#| msgid ""
-#| "Set this parameter if you want a striped GeoTIFF. Default: %(default)s"
+#, python-format
 msgid ""
 "Create Cloud-Optimized GeoTIFFs instead of normal GeoTIFFs. Default: "
 "%(default)s"
 msgstr ""
-"Ustaw ten parametr, jeśli chcesz uzyskać GeoTIFF w paskach. Default: "
-"%(default)s"
+"Zamiast normalnych, twórz GeoTIFFy zoptymalizowane pod kątem chmury. Wartość "
+"domyślna: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:38
 msgid "show this help message and exit"
@@ -2525,7 +2501,7 @@ msgstr "Kontury"
 #: coreplugins/editshortlinks/public/SLControls.jsx:154
 #: coreplugins/shortlinks/public/SLCheckbox.jsx:69
 msgid "Short Link"
-msgstr ""
+msgstr "Krótki link"
 
 #: coreplugins/editshortlinks/public/SLControls.jsx:178
 msgid "Suffix"
@@ -2533,7 +2509,7 @@ msgstr ""
 
 #: coreplugins/editshortlinks/public/SLControls.jsx:191
 msgid "Delete Short Link"
-msgstr ""
+msgstr "Usuń krótki link"
 
 #: coreplugins/lightning/public/CostEstimateItem.jsx:103
 msgid "Cannot retrieve estimate. Try again later."
