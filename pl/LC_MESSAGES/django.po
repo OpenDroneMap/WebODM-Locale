@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 19:29+0000\n"
-"PO-Revision-Date: 2021-04-15 08:37+0000\n"
-"Last-Translator: Jarosław Okińczyc <okinczyc@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/webodm/webodm/pl/"
-">\n"
+"PO-Revision-Date: 2022-03-22 07:58+0000\n"
+"Last-Translator: BanSeb <banaszek.sebastian@gmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/webodm/webodm/pl/>"
+"\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.6-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: app/admin.py:52
 msgid "Enter custom CSS"
@@ -81,51 +81,51 @@ msgstr "Autor"
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr ""
+"Wymagane jest ponowne uruchomienie. Uruchom ponownie WebODM, aby włączyć "
+"%(plugin)s"
 
 #: app/admin.py:146
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Nie można włączyć wtyczki %(plugin)s: %(message)s"
 
 #: app/admin.py:154
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr ""
+"Wymagane jest ponowne uruchomienie. Uruchom ponownie WebODM, aby całkowicie "
+"wyłączyć %(plugin)s"
 
 #: app/admin.py:156
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Nie można wyłączyć wtyczki%(plugin)s: %(message)s"
 
 #: app/admin.py:164
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Nie można usunąć wtyczki %(plugin)s: %(message)s"
 
 #: app/admin.py:208
 msgid "Plugin added successfully"
-msgstr ""
+msgstr "Wtyczka dodana pomyślnie"
 
 #: app/admin.py:210
 #, python-format
 msgid "Cannot load plugin: %(message)s"
-msgstr ""
+msgstr "Nie można załadować wtyczki: %(message)s"
 
 #: app/admin.py:216
-#, fuzzy
-#| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload a zip file"
-msgstr "Musisz przesłać co najmniej 2 obrazy przed zatwierdzeniem"
+msgstr "Musisz przesłać plik zip"
 
 #: app/admin.py:230
 msgid "Disable"
-msgstr ""
+msgstr "Wyłącz"
 
 #: app/admin.py:233
-#, fuzzy
-#| msgid "Enabled"
 msgid "Enable"
-msgstr "Włączone"
+msgstr "Włącz"
 
 #: app/admin.py:238
 msgid "Actions"
@@ -150,22 +150,21 @@ msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
 msgstr ""
+"Widoczny NDVI to nieznormalizowany indeks dla czujników RGB wykorzystujący "
+"stałe pochodzące z danych dotyczących upraw cytrusów, winogron i trzciny "
+"cukrowej."
 
 #: app/api/formulas.py:28
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
 msgstr "Visual Atmospheric Resistance Index wskazuje obszary wegetacji."
 
 #: app/api/formulas.py:33
-#, fuzzy
-#| msgid ""
-#| "Excess Green Index emphasizes the greenness of leafy crops such as "
-#| "potatoes."
 msgid ""
 "Excess Green Index (derived from only the RGB bands) emphasizes the "
 "greenness of leafy crops such as potatoes."
 msgstr ""
-"Współczynnik nadmiernej zieloności (Excess Green Index) podkreśla zieloność "
-"roślin liściastych, takich jak ziemniaki."
+"Współczynnik nadmiernej zieloności pochodzący tylko z pasm RGB (Excess Green "
+"Index) podkreśla zieloność roślin liściastych, takich jak ziemniaki."
 
 #: app/api/formulas.py:37
 msgid ""
@@ -267,17 +266,15 @@ msgstr ""
 
 #: app/api/projects.py:67
 msgid "Cannot duplicate project"
-msgstr ""
+msgstr "Nie można powielić projektu"
 
 #: app/api/projects.py:134
 msgid "Invalid user in permissions list"
-msgstr ""
+msgstr "Nieprawidłowy użytkownik na liście uprawnień"
 
 #: app/api/projects.py:136
-#, fuzzy
-#| msgid "Invalid action"
 msgid "Invalid permissions"
-msgstr "Nieprawidłowe działanie"
+msgstr "Nieprawidłowe uprawnienia"
 
 #: app/api/tasks.py:183
 msgid "You need to upload at least 2 images before commit"
@@ -289,7 +286,7 @@ msgstr "Nie załadowano żadnych plików"
 
 #: app/api/tasks.py:234
 msgid "Cannot duplicate task"
-msgstr ""
+msgstr "Nie można powielić zadania"
 
 #: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
@@ -314,25 +311,23 @@ msgstr "Nie można utworzyć zadania. Podaj adres URL lub prześlij 1 plik."
 
 #: app/api/tiler.py:311
 msgid "Invalid boundaries parameter"
-msgstr ""
+msgstr "Nieprawidłowy parametr granic"
 
 #: app/api/tiler.py:347 app/api/tiler.py:410
 msgid "Outside of bounds"
-msgstr ""
+msgstr "Poza granicami"
 
 #: app/api/tiler.py:358
-#, fuzzy
-#| msgid "Invalid action"
 msgid "Invalid boundaries"
-msgstr "Nieprawidłowe działanie"
+msgstr "Nieprawidłowe granice"
 
 #: app/api/tiler.py:416 app/api/tiler.py:513
 msgid "Not a valid color_map value"
-msgstr ""
+msgstr "Nieprawidłowa wartość color_map"
 
 #: app/api/tiler.py:422
 msgid "Invalid rescale value"
-msgstr ""
+msgstr "Nieprawidłowa wartość przeskalowania"
 
 #: app/api/tiler.py:431
 #, fuzzy
@@ -352,12 +347,12 @@ msgstr ""
 #: app/api/tiler.py:498 app/api/tiler.py:500
 #, python-format
 msgid "Unsupported format: %(value)s"
-msgstr ""
+msgstr "Nieobsługiwany format: %(value)s"
 
 #: app/api/tiler.py:519
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr ""
+msgstr "Nieprawidłowy kod EPSG: %(value)s"
 
 #: app/api/tiler.py:522
 msgid "Both formula and bands parameters are required"
@@ -366,7 +361,7 @@ msgstr ""
 #: app/api/tiler.py:542
 #, python-format
 msgid "Invalid rescale value: %(value)s"
-msgstr ""
+msgstr "Nieprawidłowa wartość przeskalowania: %(value)s"
 
 #: app/api/tiler.py:550
 #, python-format
@@ -375,7 +370,7 @@ msgstr ""
 
 #: app/api/tiler.py:561
 msgid "Cannot use epsg on non-georeferenced dataset"
-msgstr ""
+msgstr "Nie można używać EPSG w zbiorze danych bez georeferencji"
 
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
@@ -547,7 +542,7 @@ msgstr "Usuwanie"
 #: app/models/project.py:61 app/models/task.py:413
 #, python-format
 msgid "Copy of %(task)s"
-msgstr ""
+msgstr "Kopia %(task)s"
 
 #: app/models/project.py:84 app/models/task.py:230
 msgid "Project"
@@ -820,11 +815,11 @@ msgstr ""
 
 #: app/models/task.py:267
 msgid "Potree Scene"
-msgstr ""
+msgstr "Widok Potree"
 
 #: app/models/task.py:268
 msgid "EPSG code of the dataset (if georeferenced)"
-msgstr ""
+msgstr "Kod EPSG zbioru danych (jeśli jest georeferencyjny)"
 
 #: app/models/task.py:272
 msgid "Tasks"
@@ -1453,16 +1448,13 @@ msgid "Current Locale:"
 msgstr "Bieżące ustawienia regionalne:"
 
 #: app/templates/app/dev_tools.html:15
-#, fuzzy
-#| msgid ""
-#| "To change locale, modify your browser's locale settings, then refresh the "
-#| "page."
 msgid ""
 "To change locale, modify your browser's locale settings, then refresh the "
 "page, or use the set locale button below."
 msgstr ""
 "Aby zmienić ustawienia regionalne, zmień ustawienia regionalne przeglądarki, "
-"a następnie odśwież stronę."
+"następnie odśwież stronę lub użyj przycisku zmiany ustawień regionalnych "
+"poniżej."
 
 #: app/templates/app/dev_tools.html:18
 msgid "Translation Files (.zip):"
@@ -1473,14 +1465,12 @@ msgid "Download and Replace Translation Files"
 msgstr "Pobierz i zamień pliki tłumaczenia"
 
 #: app/templates/app/dev_tools.html:27
-#, fuzzy
-#| msgid "Current Locale:"
 msgid "Set locale:"
-msgstr "Bieżące ustawienia regionalne:"
+msgstr "Ustawienia regionalne:"
 
 #: app/templates/app/dev_tools.html:29
 msgid "Apply"
-msgstr ""
+msgstr "Zastosuj"
 
 #: app/templates/app/dev_tools.html:33
 msgid "Executing… do not refresh the page! This could take a while."
@@ -1583,7 +1573,7 @@ msgstr "Uh oh! Czy mógłbyś sprawdzić poniższe błędy?"
 #: app/templates/app/welcome.html:228
 msgid ""
 "Before we get started, we need to create an administrator account for you:"
-msgstr ""
+msgstr "Zanim zaczniemy, musimy utworzyć dla Ciebie konto administratora:"
 
 #: app/templates/app/welcome.html:237
 msgid "Create Account"
@@ -1642,15 +1632,15 @@ msgstr "Plugin do tworzenia plików GCP z obrazów"
 
 #: app/translations/plugin_manifest_autogenerated.py:16
 msgid "Create short links when sharing task URLs"
-msgstr ""
+msgstr "Twórz krótkie linki podczas udostępniania adresów URL zadań"
 
 #: app/translations/plugin_manifest_autogenerated.py:17
 msgid "Create editable short links when sharing task URLs"
-msgstr ""
+msgstr "Twórz edytowalne krótkie linki podczas udostępniania adresów URL zadań"
 
 #: app/translations/plugin_manifest_autogenerated.py:18
 msgid "Integrate WebODM with DroneDB: import images and share results"
-msgstr ""
+msgstr "Zintegruj WebODM z DroneDB: importuj obrazy i udostępniaj wyniki"
 
 #: app/views/app.py:44
 msgid "First Project"
@@ -1773,10 +1763,12 @@ msgid ""
 "Short URLs can only include letters, numbers, underscore and dash characters "
 "(A-Z, 0-9, _, -)."
 msgstr ""
+"Krótkie adresy URL mogą zawierać tylko litery, cyfry, znaki podkreślenia i "
+"myślnika (A-Z, 0-9, _, -)."
 
 #: coreplugins/editshortlinks/api.py:63
 msgid "This short URL is already taken."
-msgstr ""
+msgstr "Ten krótki adres URL jest już zajęty."
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
 msgid "Lightning Network"
