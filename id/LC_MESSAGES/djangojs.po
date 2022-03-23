@@ -8,21 +8,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 19:29+0000\n"
-"PO-Revision-Date: 2022-01-08 22:43+0000\n"
-"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/webodm/react-"
-"ui/id/>\n"
+"PO-Revision-Date: 2022-03-24 05:57+0000\n"
+"Last-Translator: another account <1f9d4f92h4jo35@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/webodm/"
+"react-ui/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: app/static/app/js/Console.jsx:135
 #, python-format
 msgid "output truncated at %(count)s lines"
-msgstr ""
+msgstr "hasil informasi di %(count)s cacat"
 
 #: app/static/app/js/Console.jsx:147 app/static/app/js/Console.jsx:155
 #: app/static/app/js/Console.jsx:165
@@ -128,7 +128,7 @@ msgstr "Potret Kamera"
 
 #: app/static/app/js/classes/AssetDownloads.js:57
 msgid "Ground Control Points"
-msgstr "Ground Control Points"
+msgstr "Titik Kontrol Darat"
 
 #: app/static/app/js/classes/AssetDownloads.js:58
 msgid "Quality Report"
@@ -140,11 +140,11 @@ msgstr "Semua Aset"
 
 #: app/static/app/js/classes/Basemaps.js:9
 msgid "Google Maps Hybrid"
-msgstr "Google Maps Hybrid"
+msgstr "Hibrida Google Maps"
 
 #: app/static/app/js/classes/Basemaps.js:17
 msgid "ESRI Satellite"
-msgstr "ESRI Satellite"
+msgstr "Satelit ESRI"
 
 #: app/static/app/js/classes/Basemaps.js:26
 msgid "OSM Mapnik"
@@ -177,7 +177,7 @@ msgstr "Memuat Dataset"
 
 #: app/static/app/js/classes/PipelineSteps.js:12
 msgid "Structure From Motion"
-msgstr "Structure From Motion"
+msgstr "Struktur Dari Gerak"
 
 #: app/static/app/js/classes/PipelineSteps.js:17
 msgid "Multi View Stereo"
@@ -351,6 +351,12 @@ msgid ""
 "are bringing a node back online, it will take about 30 seconds for WebODM to "
 "recognize it."
 msgstr ""
+"Pastikan bahwa setidaknya satu node pemprosesan dapat dijangkau dan Anda "
+"telah memberikan izin yang cukup kepada pengguna saat ini untuk melihat node "
+"pemprosesan (dengan membuka Administrasi -- Node Pemprosesan -- Pilih Node --"
+" Object Izin Tambahkan Pengguna/Grup dan check BISA MELIHAT NODE PEMPROSESAN)"
+". kalau Anda akan membawa sebuah node kemali online, itu akan memakan waktu "
+"sekitar 30 detik untuk WebODM untuk mengenali itu."
 
 #: app/static/app/js/components/EditTaskForm.jsx:216
 msgid "Could not load list of presets. Are you connected to the internet?"
@@ -492,12 +498,12 @@ msgstr "Proyeksi:"
 #: app/static/app/js/components/ExportAssetPanel.jsx:183
 #: coreplugins/contours/public/ContoursPanel.jsx:290
 msgid "Lat/Lon"
-msgstr ""
+msgstr "Panjang/Lebar"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:184
 #: coreplugins/contours/public/ContoursPanel.jsx:291
 msgid "Web Mercator"
-msgstr "Web Mercator"
+msgstr "Mercator Web"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:202
 msgid "Format:"
@@ -565,6 +571,7 @@ msgstr "Unduh Gambar"
 #: app/static/app/js/components/ImportTaskPanel.jsx:63
 msgid "Cannot upload file. Check your internet connection and try again."
 msgstr ""
+"Tidak dapat mengunggah file. Periksa koneksi internet Anda dan coba lagi."
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:91
 #: coreplugins/editshortlinks/public/SLControls.jsx:44
@@ -576,19 +583,19 @@ msgstr ""
 #: coreplugins/shortlinks/public/SLCheckbox.jsx:50
 #, python-format
 msgid "Invalid response from server: %(error)s"
-msgstr ""
+msgstr "Tanggapan tidak valid dari server: %(error)s"
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:94
 msgid "An error occured while uploading the file. Please try again."
-msgstr ""
+msgstr "Terjadi kesalahan saat mengunggah file. Silakan coba lagi."
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:142
 msgid "Cannot import from URL. Check your internet connection."
-msgstr ""
+msgstr "Tidak dapat mengimpor dari URL. Periksa koneksi internet Anda."
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:159
 msgid "Import Existing Assets"
-msgstr ""
+msgstr "Import Aset yang Ada"
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:160
 #, python-format
@@ -596,14 +603,16 @@ msgid ""
 "You can import .zip files that have been exported from existing tasks via "
 "Download Assets %(arrow)s All Assets."
 msgstr ""
+"Anda dapat mengimpor file .zip yang telah diekspor dari tugas yang ada "
+"melalui Aset Unduhan %(arrow)s Semua Aset."
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:167
 msgid "Upload a File"
-msgstr ""
+msgstr "Unggah File"
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:175
 msgid "Import From URL"
-msgstr ""
+msgstr "Impor Dari URL"
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:184
 #: app/static/app/js/components/ProjectListItem.jsx:514
@@ -628,39 +637,39 @@ msgstr "Warna:"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:324
 msgid "Shading:"
-msgstr ""
+msgstr "Mengarsir:"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:327
 #: app/static/app/js/components/Map.jsx:401
 msgid "None"
-msgstr ""
+msgstr "Tidak Ada"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:328
 #: coreplugins/contours/public/ContoursPanel.jsx:228
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:329
 msgid "Extruded"
-msgstr ""
+msgstr "Tersemperit"
 
 #: app/static/app/js/components/LayersControlPanel.jsx:26
 #: app/static/app/js/components/NewTaskPanel.jsx:187
 #: coreplugins/contours/public/ContoursPanel.jsx:236
 msgid "Loading…"
-msgstr ""
+msgstr "Memuat…"
 
 #: app/static/app/js/components/LayersControlPanel.jsx:44
 msgid "Layers"
-msgstr ""
+msgstr "Lapisan"
 
 #: app/static/app/js/components/Map.jsx:89
 msgid "DSM"
-msgstr ""
+msgstr "DSM"
 
 #: app/static/app/js/components/Map.jsx:91
 msgid "DTM"
-msgstr ""
+msgstr "DTM"
 
 #: app/static/app/js/components/Map.jsx:261
 msgid "(Cameras)"
@@ -672,94 +681,90 @@ msgstr ""
 
 #: app/static/app/js/components/Map.jsx:382
 msgid "Enter a tile URL template. Valid coordinates are:"
-msgstr ""
+msgstr "Masukkan template URL. Koordinat yang valid adalah:"
 
 #: app/static/app/js/components/Map.jsx:383
 #, python-brace-format
 msgid "{z}, {x}, {y} for Z/X/Y tile scheme"
-msgstr ""
+msgstr "{z}, {x}, {y} untuk skema ubin Z/X/Y"
 
 #: app/static/app/js/components/Map.jsx:384
 msgid "{-y} for flipped TMS-style Y coordinates"
-msgstr ""
+msgstr "{-y} untuk koordinat Y gaya TMS terbalik"
 
 #: app/static/app/js/components/Map.jsx:386
 msgid "Example:"
-msgstr ""
+msgstr "Contoh:"
 
 #: app/static/app/js/components/Map.jsx:452
 msgid "Add a temporary GeoJSON (.json) or ShapeFile (.zip) overlay"
-msgstr ""
+msgstr "Tambahkan hamparan GeoJSON (.json) atau ShapeFile (.zip) sementara"
 
 #: app/static/app/js/components/Map.jsx:503
 msgid "Error: cannot load assets list."
-msgstr ""
+msgstr "Kesalahan: tidak dapat memuat daftar aset."
 
 #: app/static/app/js/components/Map.jsx:574
 msgid "Opacity:"
-msgstr ""
+msgstr "Opasitas:"
 
 #: app/static/app/js/components/Map.jsx:578
 #: app/static/app/js/components/TaskList.jsx:82
 msgid "Loading..."
-msgstr ""
+msgstr "Memuat..."
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:9
 msgid "Move Task"
-msgstr ""
+msgstr "Pindahkan Tugas"
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:10
 #: app/static/app/js/components/ProjectListItem.jsx:485
 msgid "Save Changes"
-msgstr ""
+msgstr "Simpan perubahan"
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:11
-#, fuzzy
-#| msgid "Importing..."
 msgid "Moving..."
-msgstr "Mengimpor..."
+msgstr "Bergerak..."
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:54
 #: app/static/app/js/components/ProjectList.jsx:63
 #, python-format
 msgid "Could not load projects list: %(error)s"
-msgstr ""
+msgstr "Tidak dapat memuat daftar projek %(error)s"
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:88
-#, fuzzy
-#| msgid "New Project"
 msgid "Project"
-msgstr "Proyek baru"
+msgstr "Proyek"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:83
 msgid "Are you sure you want to cancel?"
-msgstr ""
+msgstr "Anda yakin ingin membatalkan?"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:131
 #, python-format
 msgid "%(count)s files selected. Please check these additional options:"
-msgstr ""
+msgstr "%(count)s file dipilih. Harap periksa opsi tambahan ini:"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:144
 msgid "Resize Images"
-msgstr ""
+msgstr "Ubah Ukuran Gambar"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:168
 msgid "px"
-msgstr ""
+msgstr "px"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:189
 msgid "Review"
-msgstr ""
+msgstr "Tinjauan"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:189
 msgid "Start Processing"
-msgstr ""
+msgstr "Mulai Memproses"
 
 #: app/static/app/js/components/ProcessingNodeOption.jsx:140
 #: app/static/app/js/translations/potree_autogenerated.js:62
 msgid "Enable"
-msgstr ""
+msgstr "diaktifkan"
 
 #: app/static/app/js/components/ProcessingNodeOption.jsx:149
 msgid "Click to import a .JSON file"
@@ -935,10 +940,8 @@ msgid "Task #%(number)s"
 msgstr ""
 
 #: app/static/app/js/components/TaskListItem.jsx:410
-#, fuzzy
-#| msgid "There are no usable processing nodes."
 msgid "Sending images to processing node"
-msgstr "Tidak ada node pemrosesan yang dapat digunakan."
+msgstr "Mengirim gambar ke node pemrosesan"
 
 #: app/static/app/js/components/TaskListItem.jsx:412
 msgid "Waiting for a node..."
