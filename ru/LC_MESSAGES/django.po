@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 19:29+0000\n"
-"PO-Revision-Date: 2022-03-22 07:58+0000\n"
-"Last-Translator: Александр Ващенко <asspirine02@yandex.ru>\n"
+"PO-Revision-Date: 2022-04-01 23:12+0000\n"
+"Last-Translator: Александр Ващенко <sascha93rus@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/webodm/webodm/ru/"
 ">\n"
 "Language: ru\n"
@@ -30,7 +30,7 @@ msgstr "CSS"
 
 #: app/admin.py:56
 msgid "HTML that will be displayed above site header"
-msgstr "HTML код, который будет показан выше \"шапки\" (хидера) сайта"
+msgstr "HTML код, который будет показан выше \"шапки\" сайта"
 
 #: app/admin.py:57 app/models/theme.py:39
 msgid "HTML (before header)"
@@ -38,7 +38,7 @@ msgstr "HTML (перед заголовком)"
 
 #: app/admin.py:60
 msgid "HTML that will be displayed after site header"
-msgstr "HTML код, который будет показан под \"шапкой\" (хидером) сайта"
+msgstr "HTML код, который будет показан под \"шапкой\" сайта"
 
 #: app/admin.py:61 app/models/theme.py:40
 msgid "HTML (after header)"
@@ -93,8 +93,8 @@ msgstr "Невозможно активировать плагин %(plugin)s: %
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr ""
-"Требуется перезагрузка. Пожалуйста, перезапустите WebODM для полной "
-"дезактивации %(plugin)s"
+"Требуется перезагрузка. Пожалуйста, перезапустите WebODM, чтобы полностью "
+"отключить %(plugin)s"
 
 #: app/admin.py:156
 #, python-format
@@ -615,7 +615,7 @@ msgstr "UUID"
 
 #: app/models/task.py:230
 msgid "Project that this task belongs to"
-msgstr "Проект к которому принадлежит эта задача"
+msgstr "Проект, к которому принадлежит эта задача"
 
 #: app/models/task.py:231
 msgid "A label for the task"
@@ -641,7 +641,7 @@ msgstr "Узел, назначенный для этой задачи (или nu
 
 #: app/models/task.py:233 app/views/app.py:115 nodeodm/models.py:34
 msgid "Processing Node"
-msgstr "Узел"
+msgstr "Узел обработки"
 
 #: app/models/task.py:234
 msgid ""
@@ -673,7 +673,7 @@ msgstr "Последняя ошибка"
 
 #: app/models/task.py:237
 msgid "Options that are being used to process this task"
-msgstr "Опции которые будут использованы при выполнении этой задачи"
+msgstr "Опции, которые будут использованы при выполнении этой задачи"
 
 #: app/models/task.py:238
 msgid "List of available assets to download"
@@ -993,11 +993,11 @@ msgid ""
 "License%(link_end)s for more details."
 msgstr ""
 "Это бесплатное ПО: вы можете распространять и/или изменять и модифицировать "
-"в соответствии с соглашениями GNU Affero General Public License которое "
-"опубликовано Free Software Foundation, так же это относится к версии 3 "
-"этой , или(на ваш выбор) любой другой. Пройдите по ссылке %(link_start)s GNU "
-"Affero General Public License %(link_end)s для получения более подробной "
-"информации."
+"в соответствии с соглашениями GNU Affero General Public License, которое "
+"опубликовано Free Software Foundation, либо версией 3 лицензии, либо (по "
+"вашему выбору) любой более поздней версией. Пройдите по ссылке %(link_start)"
+"s GNU Affero General Public License %(link_end)s для получения более "
+"подробной информации."
 
 #: app/templates/app/admin/404.html:4 app/templates/app/admin/404.html:8
 msgid "Page not found"
@@ -1426,7 +1426,7 @@ msgstr "Изображения должны перекрываться на 65%%
 #: app/templates/app/dashboard.html:36
 #, python-format
 msgid "For great 3D, images must overlap by 83%%"
-msgstr "Для получения хорошего 3D изображения должны перекрываться на 83%%"
+msgstr "Для получения хорошего 3D, изображения должны перекрываться на 83%%"
 
 #: app/templates/app/dashboard.html:37
 #, python-format
@@ -1760,7 +1760,7 @@ msgid ""
 msgstr ""
 "Эти значения могут относиться к среде виртуализации, в которой запущено "
 "приложение, не обязательно к значениям вашего компьютера. Смотрите "
-"инструкции для %(win_link)s и %(mac_link)s для изменения этих значений в "
+"инструкции %(win_link)s и %(mac_link)s для изменения этих значений в "
 "настройках Docker."
 
 #: coreplugins/diagnostic/templates/diagnostic.html:47
@@ -1872,7 +1872,7 @@ msgid ""
 "the hostname:port name."
 msgstr ""
 "Необязательная метка для этого узла. При установке эта метка будет "
-"отображаться вместо имя хоста:имя порта."
+"отображаться вместо \"хост:порт\"."
 
 #: nodeodm/models.py:31
 msgid "Engine used by the node."
