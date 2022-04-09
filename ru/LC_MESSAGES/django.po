@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 19:29+0000\n"
-"PO-Revision-Date: 2022-04-09 16:08+0000\n"
+"PO-Revision-Date: 2022-04-09 19:08+0000\n"
 "Last-Translator: Александр Ващенко <asspirine02@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/webodm/webodm/ru/"
 ">\n"
@@ -175,7 +175,7 @@ msgid ""
 "Triangular Greenness Index (derived from only the RGB bands) performs "
 "similarly to EXG but with improvements over certain environments."
 msgstr ""
-"Треугольный индекс зеленого цвета (полученный только из диапазона RGB) "
+"Triangular Greenness Index (TGI) (полученный только из диапазона RGB) "
 "работает аналогично EXG, но с уточнением в определенных средах."
 
 #: app/api/formulas.py:41
@@ -200,7 +200,9 @@ msgstr ""
 #: app/api/formulas.py:54
 msgid ""
 "Green Ratio Vegetation Index is sensitive to photosynthetic rates in forests."
-msgstr "GRVI индекс очень чувствителен к скорости фотосинтеза в лесах."
+msgstr ""
+"Green Ratio Vegetation Index (GRVI) очень чувствителен к скорости "
+"фотосинтеза в лесах."
 
 #: app/api/formulas.py:58
 msgid ""
@@ -248,8 +250,8 @@ msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
 msgstr ""
-"Оптимизированный индекс растительности с поправкой на почву основан на "
-"индексе SAVI, но, как правило, лучше работает в районах с небольшим "
+"Оптимизированный индекс растительности с поправкой на почву (OSAVI) основан "
+"на индексе SAVI, но, как правило, лучше работает в районах с небольшим "
 "количеством растительности, где видна почва."
 
 #: app/api/formulas.py:82
@@ -630,7 +632,7 @@ msgid ""
 "indicates that no information is available)"
 msgstr ""
 "Количество миллисекунд, которое прошло с момента начала задачи (-1 означает, "
-"что нет информации доступной для отображения)"
+"что информация недоступна)"
 
 #: app/models/task.py:232
 msgid "Processing Time"
@@ -946,7 +948,7 @@ msgstr "Выделение"
 
 #: app/models/theme.py:33
 msgid "The border color of warning dialogs."
-msgstr "Цвет границ Уведомлений об осторожности."
+msgstr "Цвет границы диалоговых окон с предупреждениями."
 
 #: app/models/theme.py:33
 msgid "Dialog Warning"
@@ -1040,7 +1042,8 @@ msgid ""
 "email and should be fixed shortly. Thanks for your patience."
 msgstr ""
 "Произошла ошибка. Об этом было сообщено администраторам сайта по электронной "
-"почте и должно быть исправлено в ближайшее время. Спасибо за ваше терпение."
+"почте, и это должно быть исправлено в ближайшее время. Спасибо за ваше "
+"терпение."
 
 #: app/templates/app/admin/actions.html:4
 msgid "Run the selected action"
@@ -1536,7 +1539,7 @@ msgstr "Версия API"
 
 #: app/templates/app/processing_node.html:23 nodeodm/models.py:31
 msgid "Engine"
-msgstr "Ядро"
+msgstr "Движок"
 
 #: app/templates/app/processing_node.html:27 nodeodm/models.py:29
 msgid "Engine Version"
@@ -1672,7 +1675,7 @@ msgstr "Добро пожаловать"
 
 #: app/views/dev.py:59
 msgid "Cannot find locale/ folder in .zip archive"
-msgstr "Не удается найти язык / папку в zip-архиве"
+msgstr "Не удалось найти язык/папку в zip-архиве"
 
 #: app/views/dev.py:71
 msgid "Translation files reloaded!"
@@ -1723,7 +1726,7 @@ msgstr "Используется"
 #: coreplugins/diagnostic/templates/diagnostic.html:16
 msgctxt "Megabytes of storage space"
 msgid "Total"
-msgstr "Итого"
+msgstr "Всего"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:20
 msgctxt "Computer memory (RAM)"
@@ -1839,7 +1842,7 @@ msgstr ""
 
 #: nodeodm/models.py:26
 msgid "Available Options"
-msgstr "Доступные Опции"
+msgstr "Доступные опции"
 
 #: nodeodm/models.py:26
 msgid "Description of the options that can be used for processing"
@@ -1875,7 +1878,7 @@ msgid ""
 "the hostname:port name."
 msgstr ""
 "Необязательная метка для этого узла. При установке эта метка будет "
-"отображаться вместо \"хост:порт\"."
+"отображаться вместо хост:порт."
 
 #: nodeodm/models.py:31
 msgid "Engine used by the node."
