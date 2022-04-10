@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 19:29+0000\n"
-"PO-Revision-Date: 2022-01-17 17:53+0000\n"
-"Last-Translator: pvitt <pvitt@posteo.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/webodm/webodm/de/"
-">\n"
+"PO-Revision-Date: 2022-04-11 17:12+0000\n"
+"Last-Translator: Kenny Kropp <kenny@bitgr.id>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/webodm/webodm/de/>"
+"\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: app/admin.py:52
 msgid "Enter custom CSS"
@@ -1699,63 +1699,74 @@ msgstr "GCP Schnittstelle"
 
 #: nodeodm/apps.py:8
 msgid "Node Management"
-msgstr ""
+msgstr "Knotenverwaltung"
 
 #: nodeodm/models.py:21
+#, fuzzy
 msgid ""
 "Hostname or IP address where the node is located (can be an internal "
 "hostname as well). If you are using Docker, this is never 127.0.0.1 or "
 "localhost. Find the IP address of your host machine by running ifconfig on "
 "Linux or by checking your network settings."
 msgstr ""
+"Hostname oder IP-Adresse, unter der sich der Knoten befindet (kann auch ein "
+"interner Hostname sein). Wenn Sie Docker verwenden, ist dies niemals "
+"127.0.0.1 oder localhost. Ermitteln Sie die IP-Adresse Ihres Host-Rechners, "
+"indem Sie ifconfig unter Linux ausführen oder Ihre Netzwerkeinstellungen "
+"überprüfen."
 
 #: nodeodm/models.py:22
 msgid "Port that connects to the node's API"
-msgstr ""
+msgstr "Port, der eine Verbindung zur API des Knotens herstellt"
 
 #: nodeodm/models.py:23
 msgid "API version used by the node"
-msgstr ""
+msgstr "Vom Knoten verwendete API-Version"
 
 #: nodeodm/models.py:24
 msgid "When was the information about this node last retrieved?"
-msgstr ""
+msgstr "Wann wurden die Informationen über diesen Knoten zuletzt abgerufen?"
 
 #: nodeodm/models.py:25
 msgid ""
 "Number of tasks currently being processed by this node (as reported by the "
 "node itself)"
 msgstr ""
+"Anzahl der Aufgaben, die derzeit von diesem Knoten bearbeitet werden (wie "
+"vom Knoten selbst gemeldet)"
 
 #: nodeodm/models.py:26
 msgid "Available Options"
-msgstr ""
+msgstr "Verfügbare Optionen"
 
 #: nodeodm/models.py:26
 msgid "Description of the options that can be used for processing"
 msgstr ""
+"Beschreibung der Optionen, die für die Verarbeitung verwendet werden können"
 
 #: nodeodm/models.py:27
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 #: nodeodm/models.py:27
 msgid ""
 "Token to use for authentication. If the node doesn't have authentication, "
 "you can leave this field blank."
 msgstr ""
+"Token zur Authentifizierung. Wenn der Knoten nicht über eine "
+"Authentifizierung verfügt, können Sie dieses Feld leer lassen."
 
 #: nodeodm/models.py:28
 msgid "Max Images"
-msgstr "Max Bilder"
+msgstr "Max. Bilder"
 
 #: nodeodm/models.py:28
 msgid "Maximum number of images accepted by this node."
-msgstr ""
+msgstr "Maximale Anzahl von Bildern, die von diesem Knoten akzeptiert werden."
 
 #: nodeodm/models.py:29
 msgid "Engine version used by the node."
-msgstr ""
+msgstr "Vom Knoten verwendete Engine-Version."
 
 #: nodeodm/models.py:30
 msgid ""
@@ -1765,7 +1776,7 @@ msgstr ""
 
 #: nodeodm/models.py:31
 msgid "Engine used by the node."
-msgstr ""
+msgstr "Vom Knoten verwendete Engine."
 
 #~ msgid "Upload and tile ODM assets with Cesium ion."
 #~ msgstr "Laden Sie ODM-Assets mit Cesium ion hoch und kacheln Sie diese."
