@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-18 20:03+0000\n"
-"PO-Revision-Date: 2022-06-27 20:41+0000\n"
+"PO-Revision-Date: 2022-06-27 20:58+0000\n"
 "Last-Translator: SilWar74 <silwar1974@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/webodm/webodm/"
 "hu/>\n"
@@ -151,6 +151,8 @@ msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
 msgstr ""
+"A Visible NDVI egy nem normalizált index az RGB érzékelők számára, amely a "
+"citrusfélék, a szőlő és a cukornád terméséből származó állandókat használja."
 
 #: app/api/formulas.py:28
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
@@ -169,6 +171,8 @@ msgid ""
 "Triangular Greenness Index (derived from only the RGB bands) performs "
 "similarly to EXG but with improvements over certain environments."
 msgstr ""
+"Triangular Greenness Index (csak az RGB sávokból származik) az EXG-hez "
+"hasonlóan teljesít, de bizonyos környezetekben jobb eredményt hozhat."
 
 #: app/api/formulas.py:41
 msgid ""
@@ -209,6 +213,8 @@ msgid ""
 "Modified Non-Linear Index improves the Non-Linear Index algorithm to account "
 "for soil areas."
 msgstr ""
+"A Módosított nem-lineáris index javítja a \"Non-linear Index\" algoritmust, "
+"hogy figyelembe vegye a talajterületeket."
 
 #: app/api/formulas.py:66
 msgid ""
@@ -251,14 +257,16 @@ msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
 msgstr ""
+"Az Enhanced Vegetation Index hasznos azokon a területeken, ahol az NDVI "
+"telítődhet, mivel kék hullámhosszokat használ a talajjelek korrigálására."
 
 #: app/api/projects.py:67
 msgid "Cannot duplicate project"
-msgstr ""
+msgstr "A projekt nem duplikálható"
 
 #: app/api/projects.py:134
 msgid "Invalid user in permissions list"
-msgstr ""
+msgstr "Érvénytelen felhasználó az engedélyezési listán"
 
 #: app/api/projects.py:136
 msgid "Invalid permissions"
@@ -274,7 +282,7 @@ msgstr "Nincs feltöltött fájl"
 
 #: app/api/tasks.py:234
 msgid "Cannot duplicate task"
-msgstr ""
+msgstr "A feladat nem duplikálható"
 
 #: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
@@ -301,11 +309,11 @@ msgstr ""
 
 #: app/api/tiler.py:311
 msgid "Invalid boundaries parameter"
-msgstr ""
+msgstr "Érvénytelen határok paraméter"
 
 #: app/api/tiler.py:347 app/api/tiler.py:410
 msgid "Outside of bounds"
-msgstr ""
+msgstr "Határokon kívül esik"
 
 #: app/api/tiler.py:358
 msgid "Invalid boundaries"
@@ -313,11 +321,11 @@ msgstr "Érvénytelen határok"
 
 #: app/api/tiler.py:416 app/api/tiler.py:513
 msgid "Not a valid color_map value"
-msgstr ""
+msgstr "Érvénytelen color_map érték"
 
 #: app/api/tiler.py:422
 msgid "Invalid rescale value"
-msgstr ""
+msgstr "Érvénytelen átskálázási érték"
 
 #: app/api/tiler.py:431
 msgid "Invalid hillshade value"
@@ -326,39 +334,43 @@ msgstr "Érvénytelen dombárnyék érték"
 #: app/api/tiler.py:434
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
+"Nem lehet kiszámítani a nem magassági raszter domborzatát (több sáv "
+"található)"
 
 #: app/api/tiler.py:451
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
+"A területet nem lehet feldolgozni: az intenzitású kép megadva, de nem lettek "
+"kiszámítva RGB adatok."
 
 #: app/api/tiler.py:498 app/api/tiler.py:500
 #, python-format
 msgid "Unsupported format: %(value)s"
-msgstr ""
+msgstr "Nem támogatott formátum: %(value)s"
 
 #: app/api/tiler.py:519
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr ""
+msgstr "Érvénytelen EPSG-kód: %(value)s"
 
 #: app/api/tiler.py:522
 msgid "Both formula and bands parameters are required"
-msgstr ""
+msgstr "Mind a képlet, mind a sávok paraméterei kötelezőek"
 
 #: app/api/tiler.py:542
 #, python-format
 msgid "Invalid rescale value: %(value)s"
-msgstr ""
+msgstr "Érvénytelen átskálázási érték: %(value)s"
 
 #: app/api/tiler.py:550
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
-msgstr ""
+msgstr "Érvénytelen dombárnyék érték: %(value)s"
 
 #: app/api/tiler.py:561
 msgid "Cannot use epsg on non-georeferenced dataset"
-msgstr ""
+msgstr "Nem használható az epsg nem georeferált adatkészleten"
 
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
@@ -519,6 +531,9 @@ msgid ""
 "running tasks need to wait for tasks to be properly cleaned up before they "
 "can be deleted."
 msgstr ""
+"Megjelölte-e ezt a projektet törlésre. A futó feladatokkal rendelkező "
+"projekteknek meg kell várniuk a feladatok megfelelő tisztítását, mielőtt "
+"törölni lehetne őket."
 
 #: app/models/project.py:27
 msgid "Deleting"
@@ -527,7 +542,7 @@ msgstr "Törlés"
 #: app/models/project.py:61 app/models/task.py:421
 #, python-format
 msgid "Copy of %(task)s"
-msgstr ""
+msgstr "%(task)s másolata"
 
 #: app/models/project.py:84 app/models/task.py:238
 msgid "Project"
@@ -794,14 +809,16 @@ msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
+"A mérések és a kamera látószögének mentésére/betöltésére használt, soros "
+"potree jelenetinformációk"
 
 #: app/models/task.py:275
 msgid "Potree Scene"
-msgstr ""
+msgstr "Potree jelenet"
 
 #: app/models/task.py:276
 msgid "EPSG code of the dataset (if georeferenced)"
-msgstr ""
+msgstr "Az adatkészlet EPSG-kódja (ha van földrajzi hivatkozás)"
 
 #: app/models/task.py:280
 msgid "Tasks"
@@ -1214,7 +1231,7 @@ msgstr ""
 #: app/templates/app/admin/index.html:37
 #: app/templates/app/admin/related_widget_wrapper.html:9
 msgid "Change"
-msgstr ""
+msgstr "Változtat"
 
 #: app/templates/app/admin/edit_inline/tabular.html:20
 msgid "Delete?"
@@ -1223,7 +1240,7 @@ msgstr "Törli?"
 #: app/templates/app/admin/filter.html:2
 #, python-format
 msgid " By %(filter_title)s "
-msgstr ""
+msgstr " %(filter_title)s szerint "
 
 #: app/templates/app/admin/includes/object_delete_summary.html:2
 msgid "Summary"
@@ -1299,6 +1316,8 @@ msgid ""
 "This object doesn't have a change history. It probably wasn't added via this "
 "admin site."
 msgstr ""
+"Ennek az objektumnak nincs változástörténete. Valószínűleg nem ezen a "
+"rendszergazdai webhelyen keresztül adták hozzá."
 
 #: app/templates/app/admin/pagination.html:10
 #: app/templates/app/admin/search_form.html:9
@@ -1312,12 +1331,12 @@ msgstr "Mentés"
 
 #: app/templates/app/admin/popup_response.html:3
 msgid "Popup closing..."
-msgstr ""
+msgstr "Felugró ablak bezárása..."
 
 #: app/templates/app/admin/related_widget_wrapper.html:8
 #, python-format
 msgid "Change selected %(model)s"
-msgstr ""
+msgstr "A kiválasztott %(model)s módosítása"
 
 #: app/templates/app/admin/related_widget_wrapper.html:15
 #, python-format
