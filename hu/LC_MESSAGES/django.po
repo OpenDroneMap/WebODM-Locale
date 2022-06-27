@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-18 20:03+0000\n"
-"PO-Revision-Date: 2022-06-27 19:38+0000\n"
+"PO-Revision-Date: 2022-06-27 20:41+0000\n"
 "Last-Translator: SilWar74 <silwar1974@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/webodm/webodm/"
 "hu/>\n"
@@ -80,49 +80,50 @@ msgstr "Szerző"
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr ""
+"Újraindítás szükséges. A %(plugin)s engedélyezéséhez indítsa újra a WebODM-et"
 
 #: app/admin.py:146
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "A %(plugin)s bővítmény nem engedélyezhető: %(message)s"
 
 #: app/admin.py:154
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr ""
+"Újraindítás szükséges. A %(plugin)s bővítmény eljes letiltáshoz indítsa újra "
+"a WebODM-et"
 
 #: app/admin.py:156
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "A %(plugin)s bővítmény nem tiltható le: %(message)s"
 
 #: app/admin.py:164
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "A %(plugin)s bővítmény nem törölhető: %(message)s"
 
 #: app/admin.py:208
 msgid "Plugin added successfully"
-msgstr ""
+msgstr "Bővítmény sikeresen hozzáadva"
 
 #: app/admin.py:210
 #, python-format
 msgid "Cannot load plugin: %(message)s"
-msgstr ""
+msgstr "Nem lehet betölteni a bővítményt: %(message)s"
 
 #: app/admin.py:216
-#, fuzzy
-#| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload a zip file"
-msgstr "Legalább két képet szükséges feltölteni a jóváhagyás előtt"
+msgstr "zip fájlt kell feltöltened"
 
 #: app/admin.py:230
 msgid "Disable"
-msgstr ""
+msgstr "Letiltás"
 
 #: app/admin.py:233
 msgid "Enable"
-msgstr "Engedélyez"
+msgstr "Engedélyezés"
 
 #: app/admin.py:238
 msgid "Actions"
@@ -156,16 +157,12 @@ msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
 msgstr "A Visual Atmospheric Resistance index a növényzet területeit mutatja."
 
 #: app/api/formulas.py:33
-#, fuzzy
-#| msgid ""
-#| "Excess Green Index emphasizes the greenness of leafy crops such as "
-#| "potatoes."
 msgid ""
 "Excess Green Index (derived from only the RGB bands) emphasizes the "
 "greenness of leafy crops such as potatoes."
 msgstr ""
-"Az Excess Green index a leveles növények, például a burgonya zöldségét "
-"hangsúlyozza."
+"Az Excess Green index (csak az RGB sávokból származik) a leveles növények, "
+"zöld színét hangsúlyozza."
 
 #: app/api/formulas.py:37
 msgid ""
@@ -264,10 +261,8 @@ msgid "Invalid user in permissions list"
 msgstr ""
 
 #: app/api/projects.py:136
-#, fuzzy
-#| msgid "Invalid action"
 msgid "Invalid permissions"
-msgstr "Hibás művelet"
+msgstr "Érvénytelen engedélyek (nincs jogosultságod)"
 
 #: app/api/tasks.py:183
 msgid "You need to upload at least 2 images before commit"
@@ -313,10 +308,8 @@ msgid "Outside of bounds"
 msgstr ""
 
 #: app/api/tiler.py:358
-#, fuzzy
-#| msgid "Invalid action"
 msgid "Invalid boundaries"
-msgstr "Hibás művelet"
+msgstr "Érvénytelen határok"
 
 #: app/api/tiler.py:416 app/api/tiler.py:513
 msgid "Not a valid color_map value"
@@ -327,10 +320,8 @@ msgid "Invalid rescale value"
 msgstr ""
 
 #: app/api/tiler.py:431
-#, fuzzy
-#| msgid "Invalid zip file"
 msgid "Invalid hillshade value"
-msgstr "Hibás zip fájl"
+msgstr "Érvénytelen dombárnyék érték"
 
 #: app/api/tiler.py:434
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
@@ -419,7 +410,6 @@ msgid "Plugins"
 msgstr "Bővítmények"
 
 #: app/models/plugin_datum.py:7
-#, fuzzy
 msgid "Setting key"
 msgstr "Beállító kulcs"
 
@@ -442,7 +432,6 @@ msgid "Integer value"
 msgstr "Egész érték"
 
 #: app/models/plugin_datum.py:10
-#, fuzzy
 msgid "Float value"
 msgstr "Lebegőpontos érték"
 
@@ -710,7 +699,7 @@ msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
 msgstr ""
-"A feladaton végrehajtandó kiválasztott  művelet. A kiválasztott művelet a "
+"A feladaton végrehajtandó kiválasztott művelet. A kiválasztott művelet a "
 "feldolgozó a következő iterációban hajtja végre."
 
 #: app/models/task.py:255
@@ -745,7 +734,7 @@ msgid ""
 "the processing node"
 msgstr ""
 "§ és 1 közötti érték , mely a feladathoz tartozó fájlok feldolgozási ponthoz "
-"feltöltésének előrehaladását jelzi."
+"feltöltésének előrehaladását jelzi"
 
 #: app/models/task.py:262
 msgid "Upload Progress"
@@ -985,9 +974,9 @@ msgid ""
 msgstr ""
 "Ez a program szabad szoftver: továbbadhatja és/vagy módosíthatja a GNU "
 "Affero General Public License feltételei szerint, ahogy a Szabad Szoftver "
-"Alapítvány publikálta, a licenc 3  vagy választása szerint bármelyik későbbi "
-"verziója szerint. Lásd a %(link_start)sa GNU Affero General Public License"
-"%(link_end)s a további részletekért."
+"Alapítvány publikálta, a licenc 3 vagy választása szerint bármelyik későbbi "
+"verziója szerint. Lásd a %(link_start)sa GNU Affero General Public "
+"License%(link_end)s a további részletekért."
 
 #: app/templates/app/admin/404.html:4 app/templates/app/admin/404.html:8
 msgid "Page not found"
@@ -1349,7 +1338,7 @@ msgstr "Keresés"
 msgid "%(counter)s result"
 msgid_plural "%(counter)s results"
 msgstr[0] "%(counter)s eredmény"
-msgstr[1] "%(counter)s eredmény"
+msgstr[1] "%(counter)s eredmények"
 
 #: app/templates/app/admin/search_form.html:9
 #, python-format
@@ -1403,10 +1392,9 @@ msgid "You need at least 5 images, but 16-32 is typically the minimum."
 msgstr ""
 
 #: app/templates/app/dashboard.html:35
-#, fuzzy, python-format
-#| msgid "Images must overlap by 65%% or more"
+#, python-format
 msgid "Images must overlap by 65%% or more. Aim for 70-72%%"
-msgstr "A képek között 65%%-os vagy nagyobb átfedés kell"
+msgstr "A képek között 65%%-os vagy nagyobb átfedés kell. Cél a 70-72%%"
 
 #: app/templates/app/dashboard.html:36
 #, python-format
@@ -1436,16 +1424,12 @@ msgid "Current Locale:"
 msgstr "Aktuális hely:"
 
 #: app/templates/app/dev_tools.html:15
-#, fuzzy
-#| msgid ""
-#| "To change locale, modify your browser's locale settings, then refresh the "
-#| "page."
 msgid ""
 "To change locale, modify your browser's locale settings, then refresh the "
 "page, or use the set locale button below."
 msgstr ""
 "Az aktuális hely módosításához módosítsa a böngészője helyi beállításait és "
-"frissítse az oldalt."
+"frissítse az oldalt, vagy használja a lenti nyelvi beállítás gombot."
 
 #: app/templates/app/dev_tools.html:18
 msgid "Translation Files (.zip):"
@@ -1456,10 +1440,8 @@ msgid "Download and Replace Translation Files"
 msgstr "Fordítási fájlok letöltése és lecserélése"
 
 #: app/templates/app/dev_tools.html:27
-#, fuzzy
-#| msgid "Current Locale:"
 msgid "Set locale:"
-msgstr "Aktuális hely:"
+msgstr "Állítsa be a nyelvet:"
 
 #: app/templates/app/dev_tools.html:29
 msgid "Apply"
