@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-18 20:03+0000\n"
-"PO-Revision-Date: 2021-08-30 13:35+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2022-09-27 19:53+0000\n"
+"Last-Translator: Kuriakin Toscan <khtoscan@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/webodm/webodm/"
 "pt/>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: app/admin.py:52
 msgid "Enter custom CSS"
@@ -149,6 +149,8 @@ msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
 msgstr ""
+"NDVI visível é um índice não normalizado para sensores RGB usando constantes "
+"derivadas para dados de plantações de citrus, videiras e cana de açucar."
 
 #: app/api/formulas.py:28
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
@@ -156,22 +158,20 @@ msgstr ""
 "O Índice de Resistência Atmosférica Visual (VARI) indica áreas de vegetação."
 
 #: app/api/formulas.py:33
-#, fuzzy
-#| msgid ""
-#| "Excess Green Index emphasizes the greenness of leafy crops such as "
-#| "potatoes."
 msgid ""
 "Excess Green Index (derived from only the RGB bands) emphasizes the "
 "greenness of leafy crops such as potatoes."
 msgstr ""
-"O Índice de Excesso de Verde (ExG) enfatiza o verde de safras folhosas, como "
-"batatas."
+"O Índice de Excesso de Verde (derivado apenas das bandas RGB) enfatiza o "
+"verde de safras folhosas, como batatas."
 
 #: app/api/formulas.py:37
 msgid ""
 "Triangular Greenness Index (derived from only the RGB bands) performs "
 "similarly to EXG but with improvements over certain environments."
 msgstr ""
+"Índice Triangular de Verdor (derivado apenas das bandas RGB) performa "
+"semelhante ao EXG mas com vantagens em certos ambientes."
 
 #: app/api/formulas.py:41
 msgid ""
@@ -266,17 +266,15 @@ msgstr ""
 
 #: app/api/projects.py:67
 msgid "Cannot duplicate project"
-msgstr ""
+msgstr "Não é possível duplicar o projeto"
 
 #: app/api/projects.py:134
 msgid "Invalid user in permissions list"
-msgstr ""
+msgstr "Usuário inválido na lista de permissões"
 
 #: app/api/projects.py:136
-#, fuzzy
-#| msgid "Invalid action"
 msgid "Invalid permissions"
-msgstr "Ação Inválida"
+msgstr "Permissões inválida"
 
 #: app/api/tasks.py:183
 msgid "You need to upload at least 2 images before commit"
@@ -288,7 +286,7 @@ msgstr "Nenhum ficheiro enviado"
 
 #: app/api/tasks.py:234
 msgid "Cannot duplicate task"
-msgstr ""
+msgstr "Não é possível duplicar a tarefa"
 
 #: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
@@ -314,59 +312,62 @@ msgstr ""
 
 #: app/api/tiler.py:311
 msgid "Invalid boundaries parameter"
-msgstr ""
+msgstr "Parâmetros de limites inválidos"
 
 #: app/api/tiler.py:347 app/api/tiler.py:410
 msgid "Outside of bounds"
-msgstr ""
+msgstr "Fora dos limites"
 
 #: app/api/tiler.py:358
-#, fuzzy
-#| msgid "Invalid action"
 msgid "Invalid boundaries"
-msgstr "Ação Inválida"
+msgstr "Limites inválidos"
 
 #: app/api/tiler.py:416 app/api/tiler.py:513
 msgid "Not a valid color_map value"
-msgstr ""
+msgstr "Valor de color_map inválido"
 
 #: app/api/tiler.py:422
 msgid "Invalid rescale value"
-msgstr ""
+msgstr "Valor de reescala inválido"
 
 #: app/api/tiler.py:431
-#, fuzzy
-#| msgid "Invalid zip file"
 msgid "Invalid hillshade value"
-msgstr "Ficheiro zip inválido"
+msgstr "Valor de sombreado inválido"
 
 #: app/api/tiler.py:434
+#, fuzzy
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
+"Não é possível computar o sombreado de um raster de não elevação (míltiplas "
+"bandas encontradas)"
 
 #: app/api/tiler.py:451
+#, fuzzy
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
+"Impossível processar o tile: imagem de intensidade fornecida, mas nenhum "
+"dado RGB foi calculado."
 
 #: app/api/tiler.py:498 app/api/tiler.py:500
 #, python-format
 msgid "Unsupported format: %(value)s"
-msgstr ""
+msgstr "Formato não suportado:%(value)s"
 
 #: app/api/tiler.py:519
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr ""
+msgstr "Código EPSG Inválido: %(value)s"
 
 #: app/api/tiler.py:522
+#, fuzzy
 msgid "Both formula and bands parameters are required"
-msgstr ""
+msgstr "Parâmetros de bandas e fórmulas são requiridos"
 
 #: app/api/tiler.py:542
 #, python-format
 msgid "Invalid rescale value: %(value)s"
-msgstr ""
+msgstr "Valor de reescala inválido: %(value)s"
 
 #: app/api/tiler.py:550
 #, python-format
