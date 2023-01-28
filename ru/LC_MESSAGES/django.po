@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-18 20:03+0000\n"
+"POT-Creation-Date: 2023-01-28 16:59+0000\n"
 "PO-Revision-Date: 2022-06-20 10:16+0000\n"
 "Last-Translator: Александр Ващенко <sascha93rus@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/webodm/webodm/ru/"
@@ -20,39 +20,39 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.13.1-dev\n"
 
-#: app/admin.py:52
+#: app/admin.py:61
 msgid "Enter custom CSS"
 msgstr "Введите свой CSS"
 
-#: app/admin.py:53 app/models/theme.py:38
+#: app/admin.py:62 app/models/theme.py:38
 msgid "CSS"
 msgstr "CSS"
 
-#: app/admin.py:56
+#: app/admin.py:65
 msgid "HTML that will be displayed above site header"
 msgstr "HTML код, который будет показан выше \"шапки\" сайта"
 
-#: app/admin.py:57 app/models/theme.py:39
+#: app/admin.py:66 app/models/theme.py:39
 msgid "HTML (before header)"
 msgstr "HTML (перед заголовком)"
 
-#: app/admin.py:60
+#: app/admin.py:69
 msgid "HTML that will be displayed after site header"
 msgstr "HTML код, который будет показан под \"шапкой\" сайта"
 
-#: app/admin.py:61 app/models/theme.py:40
+#: app/admin.py:70 app/models/theme.py:40
 msgid "HTML (after header)"
 msgstr "HTML (после заголовка)"
 
-#: app/admin.py:64
+#: app/admin.py:73
 msgid "HTML that will be displayed after the body tag"
 msgstr "HTML, который будет отображаться после тега body"
 
-#: app/admin.py:65 app/models/theme.py:41
+#: app/admin.py:74 app/models/theme.py:41
 msgid "HTML (after body)"
 msgstr "HTML (после тега body)"
 
-#: app/admin.py:68
+#: app/admin.py:78
 #, python-brace-format
 msgid ""
 "HTML that will be displayed in the footer. You can also use the special tags "
@@ -61,84 +61,114 @@ msgstr ""
 "HTML, который будет показан в футере. Вы также можете использовать "
 "специальные теги по типу {ORGANIZATION} и {YEAR}."
 
-#: app/admin.py:69 app/models/theme.py:42
+#: app/admin.py:79 app/models/theme.py:42
 msgid "HTML (footer)"
 msgstr "HTML (нижний колонтитул)"
 
-#: app/admin.py:100 app/models/project.py:25
+#: app/admin.py:111 app/models/project.py:25
 msgid "Description"
 msgstr "Описание"
 
-#: app/admin.py:106
+#: app/admin.py:117
 msgid "Version"
 msgstr "Версия"
 
-#: app/admin.py:112
+#: app/admin.py:123
 msgid "Author"
 msgstr "Автор"
 
-#: app/admin.py:144
+#: app/admin.py:155
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr ""
 "Требуется перезагрузка. Пожалуйста, перезапустите WebODM, чтобы активировать "
 "%(plugin)s"
 
-#: app/admin.py:146
+#: app/admin.py:158
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
 msgstr "Невозможно активировать плагин %(plugin)s: %(message)s"
 
-#: app/admin.py:154
+#: app/admin.py:167
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr ""
 "Требуется перезагрузка. Пожалуйста, перезапустите WebODM, чтобы полностью "
 "отключить %(plugin)s"
 
-#: app/admin.py:156
+#: app/admin.py:170
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
 msgstr "Невозможно выключить плагин %(plugin)s: %(message)s"
 
-#: app/admin.py:164
+#: app/admin.py:179
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
 msgstr "Невозможно удалить плагин %(plugin)s: %(message)s"
 
-#: app/admin.py:208
+#: app/admin.py:227
 msgid "Plugin added successfully"
 msgstr "Плагин успешно добавлен"
 
-#: app/admin.py:210
+#: app/admin.py:229
 #, python-format
 msgid "Cannot load plugin: %(message)s"
 msgstr "Невозможно удалить плагин: %(message)s"
 
-#: app/admin.py:216
+#: app/admin.py:235
 msgid "You need to upload a zip file"
 msgstr "Необходимо загрузить .zip файл"
 
-#: app/admin.py:230
+#: app/admin.py:249
 msgid "Disable"
 msgstr "Отключить"
 
-#: app/admin.py:233
+#: app/admin.py:252
 msgid "Enable"
 msgstr "Включить"
 
-#: app/admin.py:238
+#: app/admin.py:257
 msgid "Actions"
 msgstr "Действия"
 
-#: app/api/formulas.py:12 app/api/formulas.py:16
+#: app/api/formulas.py:12 app/api/formulas.py:32
 msgid ""
 "Normalized Difference Vegetation Index shows the amount of green vegetation."
 msgstr ""
 "Нормализованный относительный вегетационный индекс (NDVI) показывает "
 "количество зеленой растительности."
 
-#: app/api/formulas.py:20
+#: app/api/formulas.py:17
+msgid ""
+"Normalized difference yellowness index (NDYI), best model variability in "
+"relative yield potential in Canola."
+msgstr ""
+
+#: app/api/formulas.py:22
+#, fuzzy
+#| msgid ""
+#| "Normalized Difference Vegetation Index shows the amount of green "
+#| "vegetation."
+msgid ""
+"Normalized Difference Red Edge Index shows the amount of green vegetation of "
+"permanent or later stage crops."
+msgstr ""
+"Нормализованный относительный вегетационный индекс (NDVI) показывает "
+"количество зеленой растительности."
+
+#: app/api/formulas.py:27
+#, fuzzy
+#| msgid ""
+#| "Normalized Difference Vegetation Index shows the amount of green "
+#| "vegetation."
+msgid ""
+"Normalized Difference Water Index shows the amount of water content in water "
+"bodies."
+msgstr ""
+"Нормализованный относительный вегетационный индекс (NDVI) показывает "
+"количество зеленой растительности."
+
+#: app/api/formulas.py:37
 msgid ""
 "Enhanced Normalized Difference Vegetation Index is like NDVI, but uses Blue "
 "and Green bands instead of only Red to isolate plant health."
@@ -147,7 +177,7 @@ msgstr ""
 "на NDVI, но использует синие и зеленые диапазоны вместо только красных, "
 "чтобы изолировать здоровье растений."
 
-#: app/api/formulas.py:24
+#: app/api/formulas.py:41
 msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
@@ -156,13 +186,13 @@ msgstr ""
 "константы, полученные из данных о посевах цитрусовых, винограда и сахарного "
 "тростника."
 
-#: app/api/formulas.py:28
+#: app/api/formulas.py:45
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
 msgstr ""
 "Визуальный индекс атмосферного сопротивления (VARI) показывает площади "
 "растительности."
 
-#: app/api/formulas.py:33
+#: app/api/formulas.py:50
 msgid ""
 "Excess Green Index (derived from only the RGB bands) emphasizes the "
 "greenness of leafy crops such as potatoes."
@@ -170,7 +200,7 @@ msgstr ""
 "Добавочный индекс зеленого цвета (полученный только из диапазонов RGB) "
 "подчеркивает зелень листовых культур, таких как картофель."
 
-#: app/api/formulas.py:37
+#: app/api/formulas.py:54
 msgid ""
 "Triangular Greenness Index (derived from only the RGB bands) performs "
 "similarly to EXG but with improvements over certain environments."
@@ -178,18 +208,18 @@ msgstr ""
 "Triangular Greenness Index (TGI) (полученный только из диапазона RGB) "
 "работает аналогично EXG, но с уточнением в определенных средах."
 
-#: app/api/formulas.py:41
+#: app/api/formulas.py:58
 msgid ""
 "Burn Area Index hightlights burned land in the red to near-infrared spectrum."
 msgstr ""
 "Burn Area Index (BAI) высвечивает выжженную землю в красном и ближнем "
 "инфракрасном спектре."
 
-#: app/api/formulas.py:45
+#: app/api/formulas.py:62
 msgid "Green Leaf Index shows greens leaves and stems."
 msgstr "Green Leaf Index (GLI) отображает зелень, листья и стебли."
 
-#: app/api/formulas.py:50
+#: app/api/formulas.py:67
 msgid ""
 "Green Normalized Difference Vegetation Index is similar to NDVI, but "
 "measures the green spectrum instead of red."
@@ -197,14 +227,14 @@ msgstr ""
 "Зеленый нормализованный относительный вегетационный индекс (GNDVI) похож на "
 "NDVI, но измеряет растительность в зеленом спектре вместо красного."
 
-#: app/api/formulas.py:54
+#: app/api/formulas.py:72
 msgid ""
 "Green Ratio Vegetation Index is sensitive to photosynthetic rates in forests."
 msgstr ""
 "Green Ratio Vegetation Index (GRVI) очень чувствителен к скорости "
 "фотосинтеза в лесах."
 
-#: app/api/formulas.py:58
+#: app/api/formulas.py:76
 msgid ""
 "Soil Adjusted Vegetation Index is similar to NDVI but attempts to remove the "
 "effects of soil areas using an adjustment factor (0.5)."
@@ -212,7 +242,7 @@ msgstr ""
 "Почвенный вегетационный индекс (SAVI) аналогичен NDVI, но пытается устранить "
 "влияние почвенных зон с использованием корректирующего коэффициента (0,5)."
 
-#: app/api/formulas.py:62
+#: app/api/formulas.py:80
 msgid ""
 "Modified Non-Linear Index improves the Non-Linear Index algorithm to account "
 "for soil areas."
@@ -220,7 +250,7 @@ msgstr ""
 "Модифицированный нелинейный индекс улучшает алгоритм нелинейного индекса для "
 "учета земельных участков."
 
-#: app/api/formulas.py:66
+#: app/api/formulas.py:84
 msgid ""
 "Modified Simple Ratio is an improvement of the Simple Ratio (SR) index to be "
 "more sensitive to vegetation."
@@ -228,7 +258,7 @@ msgstr ""
 "Modified Simple Ratio (MSR) – это улучшение индекса Simple Ratio (SR), "
 "которое делает его более чувствительным к растительности."
 
-#: app/api/formulas.py:70
+#: app/api/formulas.py:88
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
@@ -237,7 +267,7 @@ msgstr ""
 "разницу между ближним ИК-излучением и красным, а также NDVI для отображения "
 "областей здоровой растительности."
 
-#: app/api/formulas.py:74
+#: app/api/formulas.py:92
 msgid ""
 "Transformed Difference Vegetation Index highlights vegetation cover in urban "
 "environments."
@@ -245,7 +275,7 @@ msgstr ""
 "Преобразованный относительный индекс растительности (TDVI) подчеркивает "
 "растительный покров в городской среде."
 
-#: app/api/formulas.py:78
+#: app/api/formulas.py:96
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
@@ -254,12 +284,12 @@ msgstr ""
 "на SAVI, но, как правило, лучше работает в районах с небольшим количеством "
 "растительности, где видна почва."
 
-#: app/api/formulas.py:82
+#: app/api/formulas.py:100
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
 msgstr ""
 "Leaf Area Index (LAI) оценивает площадь листвы и прогнозирует урожайность."
 
-#: app/api/formulas.py:87
+#: app/api/formulas.py:105
 msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
@@ -267,6 +297,14 @@ msgstr ""
 "Усовершенствованный вегетационный индекс (EVI) полезен в районах, где NDVI "
 "может быть насыщенным, за счет использования синих длин волн для коррекции "
 "признаков почвы."
+
+#: app/api/formulas.py:110
+msgid "Thermal temperature in Celsius degrees."
+msgstr ""
+
+#: app/api/formulas.py:114
+msgid "Thermal temperature in Centikelvin degrees."
+msgstr ""
 
 #: app/api/projects.py:67
 msgid "Cannot duplicate project"
@@ -313,67 +351,73 @@ msgstr "Невозможно создать задачу, требуется з�
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "Невозможно создать задачу, укажите URL-адрес или загрузите 1 файл."
 
-#: app/api/tiler.py:311
+#: app/api/tiler.py:284
 msgid "Invalid boundaries parameter"
 msgstr "Недопустимый параметр границ"
 
-#: app/api/tiler.py:347 app/api/tiler.py:410
+#: app/api/tiler.py:301
+#, fuzzy
+#| msgid "Invalid boundaries parameter"
+msgid "Invalid tile size parameter"
+msgstr "Недопустимый параметр границ"
+
+#: app/api/tiler.py:331 app/api/tiler.py:403
 msgid "Outside of bounds"
 msgstr "За пределами границ"
 
-#: app/api/tiler.py:358
+#: app/api/tiler.py:341
 msgid "Invalid boundaries"
 msgstr "Недопустимые границы"
 
-#: app/api/tiler.py:416 app/api/tiler.py:513
+#: app/api/tiler.py:409 app/api/tiler.py:528
 msgid "Not a valid color_map value"
 msgstr "Недопустимое значение color_map"
 
-#: app/api/tiler.py:422
+#: app/api/tiler.py:415
 msgid "Invalid rescale value"
 msgstr "Недопустимое значение масштабирования"
 
-#: app/api/tiler.py:431
+#: app/api/tiler.py:437
 msgid "Invalid hillshade value"
 msgstr "Недопустимое значение затенения"
 
-#: app/api/tiler.py:434
+#: app/api/tiler.py:440
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 "Не удается вычислить оттенок затенения без высоты (найдено несколько полос)"
 
-#: app/api/tiler.py:451
+#: app/api/tiler.py:464
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 "Не удается обработать плитку: предоставлено изображение интенсивности, но "
 "данные RGB не были вычислены."
 
-#: app/api/tiler.py:498 app/api/tiler.py:500
+#: app/api/tiler.py:513 app/api/tiler.py:515
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "Неподдерживаемый формат: %(value)s"
 
-#: app/api/tiler.py:519
+#: app/api/tiler.py:534
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "Недопустимый код EPSG: %(value)s"
 
-#: app/api/tiler.py:522
+#: app/api/tiler.py:537
 msgid "Both formula and bands parameters are required"
 msgstr "Требуются как формула, так и параметры диапазонов"
 
-#: app/api/tiler.py:542
+#: app/api/tiler.py:557
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "Недопустимое значение масштабирования: %(value)s"
 
-#: app/api/tiler.py:550
+#: app/api/tiler.py:565
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "Недопустимое значение затенения: %(value)s"
 
-#: app/api/tiler.py:561
+#: app/api/tiler.py:576
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr ""
 "Невозможно использовать epsg для набора данных без географической привязки"
@@ -382,7 +426,7 @@ msgstr ""
 msgid "Task this image belongs to"
 msgstr "Задача, которой принадлежит это изображение"
 
-#: app/models/image_upload.py:10 app/models/task.py:279
+#: app/models/image_upload.py:10 app/models/task.py:281
 msgid "Task"
 msgstr "Задача"
 
@@ -407,7 +451,7 @@ msgid "Plugin name"
 msgstr "Название плагина"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:239 app/models/theme.py:16
+#: app/models/task.py:241 app/models/theme.py:16
 msgid "Name"
 msgstr "Имя"
 
@@ -487,15 +531,15 @@ msgstr ""
 "Параметры, определяющие этот пресет (тот же формат, что и в параметрах "
 "задачи)."
 
-#: app/models/preset.py:11 app/models/task.py:245
+#: app/models/preset.py:11 app/models/task.py:247
 msgid "Options"
 msgstr "Опции"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:254
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:256
 msgid "Creation date"
 msgstr "Дата создания"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:254
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:256
 msgid "Created at"
 msgstr "Создано в"
 
@@ -544,12 +588,12 @@ msgstr ""
 msgid "Deleting"
 msgstr "Удаление"
 
-#: app/models/project.py:61 app/models/task.py:421
+#: app/models/project.py:61 app/models/task.py:423
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "Копия %(task)s"
 
-#: app/models/project.py:84 app/models/task.py:238
+#: app/models/project.py:84 app/models/task.py:240
 msgid "Project"
 msgstr "Проект"
 
@@ -606,27 +650,27 @@ msgstr "Приложение"
 msgid "Settings"
 msgstr "Настройки"
 
-#: app/models/task.py:235
+#: app/models/task.py:237
 msgid "Id"
 msgstr "ID"
 
-#: app/models/task.py:237
+#: app/models/task.py:239
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "Идентификатор вашей задачи (так же, как и в NodeODM API)"
 
-#: app/models/task.py:237
+#: app/models/task.py:239
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:238
+#: app/models/task.py:240
 msgid "Project that this task belongs to"
 msgstr "Проект, к которому принадлежит эта задача"
 
-#: app/models/task.py:239
+#: app/models/task.py:241
 msgid "A label for the task"
 msgstr "Пометка для задачи"
 
-#: app/models/task.py:240
+#: app/models/task.py:242
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -634,22 +678,22 @@ msgstr ""
 "Количество миллисекунд, которое прошло с момента начала задачи (-1 означает, "
 "что информация недоступна)"
 
-#: app/models/task.py:240
+#: app/models/task.py:242
 msgid "Processing Time"
 msgstr "Время обработки"
 
-#: app/models/task.py:241
+#: app/models/task.py:243
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr ""
 "Узел обработки, назначенный для этой задачи (или null, если узел не назначен)"
 
-#: app/models/task.py:241 app/views/app.py:115 nodeodm/models.py:34
+#: app/models/task.py:243 app/views/app.py:115 nodeodm/models.py:34
 msgid "Processing Node"
 msgstr "Узел обработки"
 
-#: app/models/task.py:242
+#: app/models/task.py:244
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
@@ -657,63 +701,63 @@ msgstr ""
 "Флаг, указывающий, следует ли этой задаче автоматически назначать узел "
 "обработки"
 
-#: app/models/task.py:242
+#: app/models/task.py:244
 msgid "Auto Processing Node"
 msgstr "Узел автоматической обработки"
 
-#: app/models/task.py:243
+#: app/models/task.py:245
 msgid "Current status of the task"
 msgstr "Текущий статус выполнения задачи"
 
-#: app/models/task.py:243
+#: app/models/task.py:245
 msgid "Status"
 msgstr "Статус"
 
-#: app/models/task.py:244
+#: app/models/task.py:246
 msgid "The last processing error received"
 msgstr "Последняя полученная ошибка обработки"
 
-#: app/models/task.py:244
+#: app/models/task.py:246
 msgid "Last Error"
 msgstr "Последняя ошибка"
 
-#: app/models/task.py:245
+#: app/models/task.py:247
 msgid "Options that are being used to process this task"
 msgstr "Опции, которые будут использованы при выполнении этой задачи"
 
-#: app/models/task.py:246
+#: app/models/task.py:248
 msgid "List of available assets to download"
 msgstr "Список доступных наборов данных для скачивания"
 
-#: app/models/task.py:246
+#: app/models/task.py:248
 msgid "Available Assets"
 msgstr "Доступные наборы данных"
 
-#: app/models/task.py:247
+#: app/models/task.py:249
 msgid "Console output of the processing node"
 msgstr "Вывод в командную строку обрабатывающего узла"
 
-#: app/models/task.py:247
+#: app/models/task.py:249
 msgid "Console Output"
 msgstr "Вывод в консоль"
 
-#: app/models/task.py:249
+#: app/models/task.py:251
 msgid "Extent of the orthophoto"
 msgstr "Масштаб ортофотоплана"
 
-#: app/models/task.py:249
+#: app/models/task.py:251
 msgid "Orthophoto Extent"
 msgstr "Масштаб ортофотоплана"
 
-#: app/models/task.py:250
+#: app/models/task.py:252
 msgid "DSM Extent"
 msgstr "Масштаб DSM"
 
-#: app/models/task.py:251
+#: app/models/task.py:253
 msgid "DTM Extent"
 msgstr "Масштаб DTM"
 
-#: app/models/task.py:255
+#: app/models/task.py:257
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -721,19 +765,19 @@ msgstr ""
 "Запрошенное действие, которое нужно выполнить для задачи. Выбранное действие "
 "исполнитель выполнит на следующей итерации."
 
-#: app/models/task.py:255
+#: app/models/task.py:257
 msgid "Pending Action"
 msgstr "Ожидаемые действия"
 
-#: app/models/task.py:257
+#: app/models/task.py:259
 msgid "A flag indicating whether this task is available to the public"
 msgstr "Флаг, указывающий, является ли эта задача доступной в общем доступе"
 
-#: app/models/task.py:257
+#: app/models/task.py:259
 msgid "Public"
 msgstr "Публичный"
 
-#: app/models/task.py:258
+#: app/models/task.py:260
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -743,11 +787,11 @@ msgstr ""
 "изображения для этой задачи были или будут изменены до размера, указанного "
 "здесь, перед обработкой."
 
-#: app/models/task.py:258
+#: app/models/task.py:260
 msgid "Resize To"
 msgstr "Изменить размер до"
 
-#: app/models/task.py:261
+#: app/models/task.py:263
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
@@ -755,51 +799,51 @@ msgstr ""
 "Значение от 0 до 1, указывают на ход загрузки файлов этой задачи на узел "
 "обработки"
 
-#: app/models/task.py:262
+#: app/models/task.py:264
 msgid "Upload Progress"
 msgstr "Текущий статус загрузки"
 
-#: app/models/task.py:265
+#: app/models/task.py:267
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
 "Значение от 0 до 1, указывают на степень изменения размера изображений этой "
 "задачи"
 
-#: app/models/task.py:266
+#: app/models/task.py:268
 msgid "Resize Progress"
 msgstr "Прогресс изменения размера"
 
-#: app/models/task.py:269
+#: app/models/task.py:271
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr ""
 "Значение от 0 до 1, указывают на выполнение (статус) выполнения этой задачи"
 
-#: app/models/task.py:270
+#: app/models/task.py:272
 msgid "Running Progress"
 msgstr "Общий статус выполнения"
 
-#: app/models/task.py:272
+#: app/models/task.py:274
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr ""
 "Ссылка на то, откуда была импортирована задача (только для импортированных "
 "задач)"
 
-#: app/models/task.py:272
+#: app/models/task.py:274
 msgid "Import URL"
 msgstr "Импортировать по ссылке"
 
-#: app/models/task.py:273
+#: app/models/task.py:275
 msgid "Number of images associated with this task"
 msgstr "Количество изображений, относящихся к этой задачи"
 
-#: app/models/task.py:273
+#: app/models/task.py:275
 msgid "Images Count"
 msgstr "Количество изображений"
 
-#: app/models/task.py:274
+#: app/models/task.py:276
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
@@ -807,11 +851,11 @@ msgstr ""
 "Флаг, указывающий, ожидает ли эта задача в настоящее время загрузки "
 "информации или файлов, прежде чем будет допущена для обработки."
 
-#: app/models/task.py:274
+#: app/models/task.py:276
 msgid "Partial"
 msgstr "Частичный"
 
-#: app/models/task.py:275
+#: app/models/task.py:277
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
@@ -819,47 +863,47 @@ msgstr ""
 "Сериализованная информация о сцене potree, используемая для сохранения/"
 "загрузки измерений и угла обзора камеры"
 
-#: app/models/task.py:275
+#: app/models/task.py:277
 msgid "Potree Scene"
 msgstr "Сцена Potree"
 
-#: app/models/task.py:276
+#: app/models/task.py:278
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "Код EPSG набора данных (при наличии географической привязки)"
 
-#: app/models/task.py:280
+#: app/models/task.py:282
 msgid "Tasks"
 msgstr "Задачи"
 
-#: app/models/task.py:289
+#: app/models/task.py:291
 msgid "unnamed"
 msgstr "безымянный"
 
-#: app/models/task.py:500
+#: app/models/task.py:504
 msgid "Importing assets..."
 msgstr "Импортирование наборов данных..."
 
-#: app/models/task.py:552 app/models/task.py:820
+#: app/models/task.py:556 app/models/task.py:824
 msgid "Invalid zip file"
 msgstr "Неверный zip файл"
 
-#: app/models/task.py:646
+#: app/models/task.py:650
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Ошибка соединения: %(error)s"
 
-#: app/models/task.py:726
+#: app/models/task.py:730
 msgid "Cannot restart a task that has no processing node"
 msgstr "Невозможно перезапустить задачу, у которой нет узла обработки"
 
-#: app/models/task.py:881
+#: app/models/task.py:885
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "Неподдерживаемый SRS %(code)s. Пожалуйста, убедитесь, что выбрали "
 "поддерживаемый SRS файл."
 
-#: app/models/task.py:893
+#: app/models/task.py:897
 msgid "Done!"
 msgstr "Готово!"
 

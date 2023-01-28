@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-18 20:03+0000\n"
+"POT-Creation-Date: 2023-01-28 16:59+0000\n"
 "PO-Revision-Date: 2022-02-02 13:20+0000\n"
 "Last-Translator: Rumi Kuribayashi <rumikr02005@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/webodm/webodm/"
@@ -19,39 +19,39 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.11-dev\n"
 
-#: app/admin.py:52
+#: app/admin.py:61
 msgid "Enter custom CSS"
 msgstr "カスタムスタイルシートを入力"
 
-#: app/admin.py:53 app/models/theme.py:38
+#: app/admin.py:62 app/models/theme.py:38
 msgid "CSS"
 msgstr "スタイルシート"
 
-#: app/admin.py:56
+#: app/admin.py:65
 msgid "HTML that will be displayed above site header"
 msgstr "サイトのヘッダー上部に表示されるHTML"
 
-#: app/admin.py:57 app/models/theme.py:39
+#: app/admin.py:66 app/models/theme.py:39
 msgid "HTML (before header)"
 msgstr "HTML (ヘッダー前)"
 
-#: app/admin.py:60
+#: app/admin.py:69
 msgid "HTML that will be displayed after site header"
 msgstr "サイトのヘッダー後に表示されるHTML"
 
-#: app/admin.py:61 app/models/theme.py:40
+#: app/admin.py:70 app/models/theme.py:40
 msgid "HTML (after header)"
 msgstr "HTML (ヘッダー後)"
 
-#: app/admin.py:64
+#: app/admin.py:73
 msgid "HTML that will be displayed after the body tag"
 msgstr "bodyタグの後に表示されるHTML"
 
-#: app/admin.py:65 app/models/theme.py:41
+#: app/admin.py:74 app/models/theme.py:41
 msgid "HTML (after body)"
 msgstr "HTML (body後)"
 
-#: app/admin.py:68
+#: app/admin.py:78
 #, python-brace-format
 msgid ""
 "HTML that will be displayed in the footer. You can also use the special tags "
@@ -60,81 +60,107 @@ msgstr ""
 "フッターに表示されるHTML。{ORGANIZATION} や {YEAR}のような特別なタグも使用可"
 "能です。"
 
-#: app/admin.py:69 app/models/theme.py:42
+#: app/admin.py:79 app/models/theme.py:42
 msgid "HTML (footer)"
 msgstr "HTML (フッター)"
 
-#: app/admin.py:100 app/models/project.py:25
+#: app/admin.py:111 app/models/project.py:25
 msgid "Description"
 msgstr "説明"
 
-#: app/admin.py:106
+#: app/admin.py:117
 msgid "Version"
 msgstr "バージョン"
 
-#: app/admin.py:112
+#: app/admin.py:123
 msgid "Author"
 msgstr "作者"
 
-#: app/admin.py:144
+#: app/admin.py:155
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr ""
 "再起動が必要です。%(plugin)sを有効にするためにWebODMを再起動してください"
 
-#: app/admin.py:146
+#: app/admin.py:158
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
 msgstr "%(plugin)sプラグインを有効化できません: %(message)s"
 
-#: app/admin.py:154
+#: app/admin.py:167
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr ""
 "再起動が必要です。%(plugin)sプラグインを完全に無効化するためにWebODMを再起動"
 "してください"
 
-#: app/admin.py:156
+#: app/admin.py:170
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
 msgstr "%(plugin)sプラグインを無効化できません: %(message)s"
 
-#: app/admin.py:164
+#: app/admin.py:179
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
 msgstr "%(plugin)sプラグインを削除できません: %(message)s"
 
-#: app/admin.py:208
+#: app/admin.py:227
 msgid "Plugin added successfully"
 msgstr "プラグインの追加に成功"
 
-#: app/admin.py:210
+#: app/admin.py:229
 #, python-format
 msgid "Cannot load plugin: %(message)s"
 msgstr "プラグインを読み込めません: %(message)s"
 
-#: app/admin.py:216
+#: app/admin.py:235
 msgid "You need to upload a zip file"
 msgstr "zipファイルのアップロードが必要です"
 
-#: app/admin.py:230
+#: app/admin.py:249
 msgid "Disable"
 msgstr "無効"
 
-#: app/admin.py:233
+#: app/admin.py:252
 msgid "Enable"
 msgstr "有効"
 
-#: app/admin.py:238
+#: app/admin.py:257
 msgid "Actions"
 msgstr "行動"
 
-#: app/api/formulas.py:12 app/api/formulas.py:16
+#: app/api/formulas.py:12 app/api/formulas.py:32
 msgid ""
 "Normalized Difference Vegetation Index shows the amount of green vegetation."
 msgstr "正規化植生指標(NDVI)は植生の量を示します。"
 
-#: app/api/formulas.py:20
+#: app/api/formulas.py:17
+msgid ""
+"Normalized difference yellowness index (NDYI), best model variability in "
+"relative yield potential in Canola."
+msgstr ""
+
+#: app/api/formulas.py:22
+#, fuzzy
+#| msgid ""
+#| "Normalized Difference Vegetation Index shows the amount of green "
+#| "vegetation."
+msgid ""
+"Normalized Difference Red Edge Index shows the amount of green vegetation of "
+"permanent or later stage crops."
+msgstr "正規化植生指標(NDVI)は植生の量を示します。"
+
+#: app/api/formulas.py:27
+#, fuzzy
+#| msgid ""
+#| "Normalized Difference Vegetation Index shows the amount of green "
+#| "vegetation."
+msgid ""
+"Normalized Difference Water Index shows the amount of water content in water "
+"bodies."
+msgstr "正規化植生指標(NDVI)は植生の量を示します。"
+
+#: app/api/formulas.py:37
 msgid ""
 "Enhanced Normalized Difference Vegetation Index is like NDVI, but uses Blue "
 "and Green bands instead of only Red to isolate plant health."
@@ -142,7 +168,7 @@ msgstr ""
 "強化された正規化植生指数(ENDVI)はNDVIに似ていますが、孤立した植物の健全度を図"
 "るために赤色だけではなく青色と緑色域を使用します。"
 
-#: app/api/formulas.py:24
+#: app/api/formulas.py:41
 msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
@@ -150,11 +176,11 @@ msgstr ""
 "可視光NDVIは、RGBセンサー用の正規化されていない指標で、柑橘類、ブドウ、サトウ"
 "キビの作物データから得られた定数を使用しています。"
 
-#: app/api/formulas.py:28
+#: app/api/formulas.py:45
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
 msgstr "Visual Atmospheric Resistance Index は植生の範囲を示します。"
 
-#: app/api/formulas.py:33
+#: app/api/formulas.py:50
 msgid ""
 "Excess Green Index (derived from only the RGB bands) emphasizes the "
 "greenness of leafy crops such as potatoes."
@@ -162,7 +188,7 @@ msgstr ""
 "Excess Green Index (RGBバンドからのみ派生) はジャガイモのような作物の葉の緑を"
 "強調します。"
 
-#: app/api/formulas.py:37
+#: app/api/formulas.py:54
 msgid ""
 "Triangular Greenness Index (derived from only the RGB bands) performs "
 "similarly to EXG but with improvements over certain environments."
@@ -170,28 +196,28 @@ msgstr ""
 "Triangular Greenness Index (RGBバンドからのみ派生) はEXGに似ていますが、ある"
 "種の環境下ではより効果的です。"
 
-#: app/api/formulas.py:41
+#: app/api/formulas.py:58
 msgid ""
 "Burn Area Index hightlights burned land in the red to near-infrared spectrum."
 msgstr "Burn Area Index は赤色から近赤外線スペクトルで焼け跡を強調します。"
 
-#: app/api/formulas.py:45
+#: app/api/formulas.py:62
 msgid "Green Leaf Index shows greens leaves and stems."
 msgstr "Green Leaf Index は緑の葉と茎を表します。"
 
-#: app/api/formulas.py:50
+#: app/api/formulas.py:67
 msgid ""
 "Green Normalized Difference Vegetation Index is similar to NDVI, but "
 "measures the green spectrum instead of red."
 msgstr ""
 "緑正規化植生指数は正規化植生に似ていますが、赤色ではなく緑色域を測定します。"
 
-#: app/api/formulas.py:54
+#: app/api/formulas.py:72
 msgid ""
 "Green Ratio Vegetation Index is sensitive to photosynthetic rates in forests."
 msgstr "Green Ratio Vegetation Index は森林での光合成率に鋭敏です。"
 
-#: app/api/formulas.py:58
+#: app/api/formulas.py:76
 msgid ""
 "Soil Adjusted Vegetation Index is similar to NDVI but attempts to remove the "
 "effects of soil areas using an adjustment factor (0.5)."
@@ -199,7 +225,7 @@ msgstr ""
 "Soil Adjusted Vegetation Index は NDVI に似ていますが、adjustment factor "
 "(0.5)を用いることで土壌の影響を取り除きます。"
 
-#: app/api/formulas.py:62
+#: app/api/formulas.py:80
 msgid ""
 "Modified Non-Linear Index improves the Non-Linear Index algorithm to account "
 "for soil areas."
@@ -207,7 +233,7 @@ msgstr ""
 "Modified Non-Linear Index は 土壌範囲を計算するNon-Linear インデックスアルゴ"
 "リズムを改善します。"
 
-#: app/api/formulas.py:66
+#: app/api/formulas.py:84
 msgid ""
 "Modified Simple Ratio is an improvement of the Simple Ratio (SR) index to be "
 "more sensitive to vegetation."
@@ -215,7 +241,7 @@ msgstr ""
 "Modified Simple Ratio は Simple Ratio (SR) index の改良版であり、植生に対しよ"
 "り感受性があります。"
 
-#: app/api/formulas.py:70
+#: app/api/formulas.py:88
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
@@ -223,14 +249,14 @@ msgstr ""
 "再正規化植生指数は近赤外線と赤色光の間の差異を用い、NDVIに加えて健全な植生の"
 "範囲を示します。"
 
-#: app/api/formulas.py:74
+#: app/api/formulas.py:92
 msgid ""
 "Transformed Difference Vegetation Index highlights vegetation cover in urban "
 "environments."
 msgstr ""
 "Transformed Difference Vegetation Index は都市環境での植生被覆を強調します。"
 
-#: app/api/formulas.py:78
+#: app/api/formulas.py:96
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
@@ -238,17 +264,25 @@ msgstr ""
 "Optimized Soil Adjusted Vegetation Index is はSAVIがベースですが、土壌が露出"
 "し植生がほとんどない場所で有効です。"
 
-#: app/api/formulas.py:82
+#: app/api/formulas.py:100
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
 msgstr "Leaf Area Index は葉の面積を推定し、作物の収穫量を予測します。"
 
-#: app/api/formulas.py:87
+#: app/api/formulas.py:105
 msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
 msgstr ""
 "Enhanced Vegetation Index は青色の波長を用いて土壌の信号を正確にとらえるの"
 "で、NDVIが飽和する場所で有益です。"
+
+#: app/api/formulas.py:110
+msgid "Thermal temperature in Celsius degrees."
+msgstr ""
+
+#: app/api/formulas.py:114
+msgid "Thermal temperature in Centikelvin degrees."
+msgstr ""
 
 #: app/api/projects.py:67
 msgid "Cannot duplicate project"
@@ -297,67 +331,73 @@ msgstr ""
 "タスクが作成できないので、URLを特定するかファイルを一つアップロードしてくださ"
 "い。"
 
-#: app/api/tiler.py:311
+#: app/api/tiler.py:284
 msgid "Invalid boundaries parameter"
 msgstr "無効な境界線パラメータ"
 
-#: app/api/tiler.py:347 app/api/tiler.py:410
+#: app/api/tiler.py:301
+#, fuzzy
+#| msgid "Invalid boundaries parameter"
+msgid "Invalid tile size parameter"
+msgstr "無効な境界線パラメータ"
+
+#: app/api/tiler.py:331 app/api/tiler.py:403
 msgid "Outside of bounds"
 msgstr "境界線の外側"
 
-#: app/api/tiler.py:358
+#: app/api/tiler.py:341
 msgid "Invalid boundaries"
 msgstr "無効な境界線"
 
-#: app/api/tiler.py:416 app/api/tiler.py:513
+#: app/api/tiler.py:409 app/api/tiler.py:528
 msgid "Not a valid color_map value"
 msgstr "有効なcolor_mapの値ではない"
 
-#: app/api/tiler.py:422
+#: app/api/tiler.py:415
 msgid "Invalid rescale value"
 msgstr "無効な再スケール値"
 
-#: app/api/tiler.py:431
+#: app/api/tiler.py:437
 msgid "Invalid hillshade value"
 msgstr "無効な陰影起伏値"
 
-#: app/api/tiler.py:434
+#: app/api/tiler.py:440
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 "非標高ラスターの陰影起伏を計算できません（複数のバンドが見つかりました）"
 
-#: app/api/tiler.py:451
+#: app/api/tiler.py:464
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 "タイルを処理できません：強度画像は提供されましたが、RGBデータは計算されません"
 "でした。"
 
-#: app/api/tiler.py:498 app/api/tiler.py:500
+#: app/api/tiler.py:513 app/api/tiler.py:515
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "サポートされていない形式：%(value)s"
 
-#: app/api/tiler.py:519
+#: app/api/tiler.py:534
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "無効な EPSG コード: %(value)s"
 
-#: app/api/tiler.py:522
+#: app/api/tiler.py:537
 msgid "Both formula and bands parameters are required"
 msgstr "数式とバンドの両方のパラメータが必要です"
 
-#: app/api/tiler.py:542
+#: app/api/tiler.py:557
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "無効な再スケール値：%(value)s"
 
-#: app/api/tiler.py:550
+#: app/api/tiler.py:565
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "無効な陰影起伏値：%(value)s"
 
-#: app/api/tiler.py:561
+#: app/api/tiler.py:576
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr ""
 
@@ -365,7 +405,7 @@ msgstr ""
 msgid "Task this image belongs to"
 msgstr "この画像が属するタスク"
 
-#: app/models/image_upload.py:10 app/models/task.py:279
+#: app/models/image_upload.py:10 app/models/task.py:281
 msgid "Task"
 msgstr "タスク"
 
@@ -390,7 +430,7 @@ msgid "Plugin name"
 msgstr "プラグイン名"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:239 app/models/theme.py:16
+#: app/models/task.py:241 app/models/theme.py:16
 msgid "Name"
 msgstr "名称"
 
@@ -467,15 +507,15 @@ msgid "Options that define this preset (same format as in a Task's options)."
 msgstr ""
 "このプリセットを定義するオプション(タスクオプションと同様のフォーマット)。"
 
-#: app/models/preset.py:11 app/models/task.py:245
+#: app/models/preset.py:11 app/models/task.py:247
 msgid "Options"
 msgstr "設定"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:254
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:256
 msgid "Creation date"
 msgstr "作成日"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:254
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:256
 msgid "Created at"
 msgstr "作成者"
 
@@ -524,12 +564,12 @@ msgstr ""
 msgid "Deleting"
 msgstr "削除しています"
 
-#: app/models/project.py:61 app/models/task.py:421
+#: app/models/project.py:61 app/models/task.py:423
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "%(task)sをコピー"
 
-#: app/models/project.py:84 app/models/task.py:238
+#: app/models/project.py:84 app/models/task.py:240
 msgid "Project"
 msgstr "プロジェクト"
 
@@ -586,37 +626,37 @@ msgstr "アプリケーション"
 msgid "Settings"
 msgstr "設定"
 
-#: app/models/task.py:235
+#: app/models/task.py:237
 msgid "Id"
 msgstr "ID"
 
-#: app/models/task.py:237
+#: app/models/task.py:239
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "タスクの識別子 (NodeODM APIの戻り値と同様)"
 
-#: app/models/task.py:237
+#: app/models/task.py:239
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:238
+#: app/models/task.py:240
 msgid "Project that this task belongs to"
 msgstr "このタスクが属するプロジェクト"
 
-#: app/models/task.py:239
+#: app/models/task.py:241
 msgid "A label for the task"
 msgstr "タスクのラベル"
 
-#: app/models/task.py:240
+#: app/models/task.py:242
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr "タスク開始から経過したミリ秒 (-1 は利用可能な情報が無いことを示します)"
 
-#: app/models/task.py:240
+#: app/models/task.py:242
 msgid "Processing Time"
 msgstr "処理時間"
 
-#: app/models/task.py:241
+#: app/models/task.py:243
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -624,73 +664,73 @@ msgstr ""
 "このタスクに割り当てられたプロセシングノード（このタスクがまだ関連付けられて"
 "いない場合はnull）"
 
-#: app/models/task.py:241 app/views/app.py:115 nodeodm/models.py:34
+#: app/models/task.py:243 app/views/app.py:115 nodeodm/models.py:34
 msgid "Processing Node"
 msgstr "処理中のノード"
 
-#: app/models/task.py:242
+#: app/models/task.py:244
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr "このタスクをプロセシングノードに自動で割り当てる必要があるか示すフラグ"
 
-#: app/models/task.py:242
+#: app/models/task.py:244
 msgid "Auto Processing Node"
 msgstr "自動処理中のノード"
 
-#: app/models/task.py:243
+#: app/models/task.py:245
 msgid "Current status of the task"
 msgstr "タスクの現在の状態"
 
-#: app/models/task.py:243
+#: app/models/task.py:245
 msgid "Status"
 msgstr "状態"
 
-#: app/models/task.py:244
+#: app/models/task.py:246
 msgid "The last processing error received"
 msgstr "最後に受け取った処理エラー"
 
-#: app/models/task.py:244
+#: app/models/task.py:246
 msgid "Last Error"
 msgstr "最新のエラー"
 
-#: app/models/task.py:245
+#: app/models/task.py:247
 msgid "Options that are being used to process this task"
 msgstr "このタスク処理に使われているオプション"
 
-#: app/models/task.py:246
+#: app/models/task.py:248
 msgid "List of available assets to download"
 msgstr "ダウンロード可能なアセットのリスト"
 
-#: app/models/task.py:246
+#: app/models/task.py:248
 msgid "Available Assets"
 msgstr "使用可能なアセット"
 
-#: app/models/task.py:247
+#: app/models/task.py:249
 msgid "Console output of the processing node"
 msgstr "処理中のノードのコンソール出力"
 
-#: app/models/task.py:247
+#: app/models/task.py:249
 msgid "Console Output"
 msgstr "コンソール出力"
 
-#: app/models/task.py:249
+#: app/models/task.py:251
 msgid "Extent of the orthophoto"
 msgstr "オルソフォトの範囲"
 
-#: app/models/task.py:249
+#: app/models/task.py:251
 msgid "Orthophoto Extent"
 msgstr "オルソフォト範囲"
 
-#: app/models/task.py:250
+#: app/models/task.py:252
 msgid "DSM Extent"
 msgstr "DSM(数値表層モデル)範囲"
 
-#: app/models/task.py:251
+#: app/models/task.py:253
 msgid "DTM Extent"
 msgstr "DTM(数値地形モデル)範囲"
 
-#: app/models/task.py:255
+#: app/models/task.py:257
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -698,19 +738,19 @@ msgstr ""
 "このタスクで実行をリクエストされたアクション。選択されたアクションは次回反復"
 "時に実行されます。"
 
-#: app/models/task.py:255
+#: app/models/task.py:257
 msgid "Pending Action"
 msgstr "保留中の動作"
 
-#: app/models/task.py:257
+#: app/models/task.py:259
 msgid "A flag indicating whether this task is available to the public"
 msgstr "このタスクが公開可能か示すフラグ"
 
-#: app/models/task.py:257
+#: app/models/task.py:259
 msgid "Public"
 msgstr "公開"
 
-#: app/models/task.py:258
+#: app/models/task.py:260
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -719,11 +759,11 @@ msgstr ""
 "-1とは違う値を設定した時に、このタスクの画像は処理開始前にここで指定したサイ"
 "ズにリサイズされました / されます。"
 
-#: app/models/task.py:258
+#: app/models/task.py:260
 msgid "Resize To"
 msgstr "リサイズ"
 
-#: app/models/task.py:261
+#: app/models/task.py:263
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
@@ -731,46 +771,46 @@ msgstr ""
 "0から1の値はタスクファイルのプロセシングノードへのアップロード進捗状況を示し"
 "ます"
 
-#: app/models/task.py:262
+#: app/models/task.py:264
 msgid "Upload Progress"
 msgstr "アップロード進行状況:"
 
-#: app/models/task.py:265
+#: app/models/task.py:267
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr "タスク画像のリサイズ進行状況を示す0から1の値"
 
-#: app/models/task.py:266
+#: app/models/task.py:268
 msgid "Resize Progress"
 msgstr "リサイズ進行状況"
 
-#: app/models/task.py:269
+#: app/models/task.py:271
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr "このタスクの進行状況（予想）を示す0から1の値"
 
-#: app/models/task.py:270
+#: app/models/task.py:272
 msgid "Running Progress"
 msgstr "実行中の処理"
 
-#: app/models/task.py:272
+#: app/models/task.py:274
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "このタスクのインポート元のURL（インポートのみ）"
 
-#: app/models/task.py:272
+#: app/models/task.py:274
 msgid "Import URL"
 msgstr "URLインポート"
 
-#: app/models/task.py:273
+#: app/models/task.py:275
 msgid "Number of images associated with this task"
 msgstr "このタスクに関連する画像の数"
 
-#: app/models/task.py:273
+#: app/models/task.py:275
 msgid "Images Count"
 msgstr "画像のカウント数"
 
-#: app/models/task.py:274
+#: app/models/task.py:276
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
@@ -778,58 +818,58 @@ msgstr ""
 "このタスクが処理実行前に情報またはファイルのアップロードを現在待機中であるか"
 "表示するフラグ."
 
-#: app/models/task.py:274
+#: app/models/task.py:276
 msgid "Partial"
 msgstr "部分"
 
-#: app/models/task.py:275
+#: app/models/task.py:277
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
 "測定結果やカメラビュー角度の保存/読込に使用される連続したpotree sceneの情報"
 
-#: app/models/task.py:275
+#: app/models/task.py:277
 msgid "Potree Scene"
 msgstr "Potreeシーン"
 
-#: app/models/task.py:276
+#: app/models/task.py:278
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "データセットのEPSGコード（地理参照されている場合）"
 
-#: app/models/task.py:280
+#: app/models/task.py:282
 msgid "Tasks"
 msgstr "タスク"
 
-#: app/models/task.py:289
+#: app/models/task.py:291
 msgid "unnamed"
 msgstr "名称未設定"
 
-#: app/models/task.py:500
+#: app/models/task.py:504
 msgid "Importing assets..."
 msgstr "アセットをインポート中..."
 
-#: app/models/task.py:552 app/models/task.py:820
+#: app/models/task.py:556 app/models/task.py:824
 msgid "Invalid zip file"
 msgstr "無効なzipファイル"
 
-#: app/models/task.py:646
+#: app/models/task.py:650
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "接続エラー：%(error)s"
 
-#: app/models/task.py:726
+#: app/models/task.py:730
 msgid "Cannot restart a task that has no processing node"
 msgstr "処理中のノードがないので再始動できませんでした"
 
-#: app/models/task.py:881
+#: app/models/task.py:885
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "サポートされていないSRSです %(code)s. サポートされているSRSを選択したか確認し"
 "てください."
 
-#: app/models/task.py:893
+#: app/models/task.py:897
 msgid "Done!"
 msgstr "完了！"
 

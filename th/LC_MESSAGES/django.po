@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-18 20:03+0000\n"
+"POT-Creation-Date: 2023-01-28 16:59+0000\n"
 "PO-Revision-Date: 2022-05-15 17:17+0000\n"
 "Last-Translator: Chingchai Humhong <chingchai.h@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/webodm/webodm/th/>\n"
@@ -18,117 +18,143 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.13-dev\n"
 
-#: app/admin.py:52
+#: app/admin.py:61
 msgid "Enter custom CSS"
 msgstr "ป้อน CSS ที่กำหนดเอง"
 
-#: app/admin.py:53 app/models/theme.py:38
+#: app/admin.py:62 app/models/theme.py:38
 msgid "CSS"
 msgstr "CSS"
 
-#: app/admin.py:56
+#: app/admin.py:65
 msgid "HTML that will be displayed above site header"
 msgstr "HTML ที่จะแสดงเหนือส่วนหัวของเว็บไซต์"
 
-#: app/admin.py:57 app/models/theme.py:39
+#: app/admin.py:66 app/models/theme.py:39
 msgid "HTML (before header)"
 msgstr "HTML (ก่อนส่วนหัว)"
 
-#: app/admin.py:60
+#: app/admin.py:69
 msgid "HTML that will be displayed after site header"
 msgstr "HTML ที่จะแสดงหลังส่วนหัวของเว็บไซต์"
 
-#: app/admin.py:61 app/models/theme.py:40
+#: app/admin.py:70 app/models/theme.py:40
 msgid "HTML (after header)"
 msgstr "HTML (หลังส่วนหัว)"
 
-#: app/admin.py:64
+#: app/admin.py:73
 msgid "HTML that will be displayed after the body tag"
 msgstr "HTML ที่จะแสดงหลังแท็ก body"
 
-#: app/admin.py:65 app/models/theme.py:41
+#: app/admin.py:74 app/models/theme.py:41
 msgid "HTML (after body)"
 msgstr "HTML (หลังเนื้อหา)"
 
-#: app/admin.py:68
+#: app/admin.py:78
 #, python-brace-format
 msgid ""
 "HTML that will be displayed in the footer. You can also use the special tags "
 "such as {ORGANIZATION} and {YEAR}."
 msgstr "HTML ที่จะแสดงในส่วนท้าย คุณยังสามารถใช้แท็กพิเศษ เช่น {ORGANIZATION} และ {YEAR}"
 
-#: app/admin.py:69 app/models/theme.py:42
+#: app/admin.py:79 app/models/theme.py:42
 msgid "HTML (footer)"
 msgstr "HTML (ส่วนท้าย)"
 
-#: app/admin.py:100 app/models/project.py:25
+#: app/admin.py:111 app/models/project.py:25
 msgid "Description"
 msgstr "คำอธิบาย"
 
-#: app/admin.py:106
+#: app/admin.py:117
 msgid "Version"
 msgstr "เวอร์ชัน"
 
-#: app/admin.py:112
+#: app/admin.py:123
 msgid "Author"
 msgstr "ผู้เขียน"
 
-#: app/admin.py:144
+#: app/admin.py:155
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr "จำเป็นต้องรีสตาร์ท โปรดรีสตาร์ท WebODM เพื่อเปิดใช้งาน %(plugin)s"
 
-#: app/admin.py:146
+#: app/admin.py:158
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
 msgstr "ไม่สามารถเปิดใช้งานปลั๊กอิน %(plugin)s: %(message)s"
 
-#: app/admin.py:154
+#: app/admin.py:167
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr "จำเป็นต้องรีสตาร์ท โปรดรีสตาร์ท WebODM เพื่อปิดการใช้งาน %(plugin)s . อย่างสมบูรณ์"
 
-#: app/admin.py:156
+#: app/admin.py:170
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
 msgstr "ไม่สามารถปิดการใช้งานปลั๊กอิน %(plugin)s: %(message)s"
 
-#: app/admin.py:164
+#: app/admin.py:179
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
 msgstr "ไม่สามารถลบปลั๊กอิน %(plugin)s: %(message)s"
 
-#: app/admin.py:208
+#: app/admin.py:227
 msgid "Plugin added successfully"
 msgstr "เพิ่มปลั๊กอินเรียบร้อยแล้ว"
 
-#: app/admin.py:210
+#: app/admin.py:229
 #, python-format
 msgid "Cannot load plugin: %(message)s"
 msgstr "ไม่สามารถโหลดปลั๊กอิน: %(message)s"
 
-#: app/admin.py:216
+#: app/admin.py:235
 msgid "You need to upload a zip file"
 msgstr "คุณต้องอัปโหลดไฟล์ zip"
 
-#: app/admin.py:230
+#: app/admin.py:249
 msgid "Disable"
 msgstr "ปิดการใช้งาน"
 
-#: app/admin.py:233
+#: app/admin.py:252
 msgid "Enable"
 msgstr "เปิดใช้งาน"
 
-#: app/admin.py:238
+#: app/admin.py:257
 msgid "Actions"
 msgstr "การกระทำ"
 
-#: app/api/formulas.py:12 app/api/formulas.py:16
+#: app/api/formulas.py:12 app/api/formulas.py:32
 msgid ""
 "Normalized Difference Vegetation Index shows the amount of green vegetation."
 msgstr "ดัชนีความแตกต่างพืชพรรณแบบนอมัลไลซ์แสดงปริมาณพืชพรรณสีเขียว"
 
-#: app/api/formulas.py:20
+#: app/api/formulas.py:17
+msgid ""
+"Normalized difference yellowness index (NDYI), best model variability in "
+"relative yield potential in Canola."
+msgstr ""
+
+#: app/api/formulas.py:22
+#, fuzzy
+#| msgid ""
+#| "Normalized Difference Vegetation Index shows the amount of green "
+#| "vegetation."
+msgid ""
+"Normalized Difference Red Edge Index shows the amount of green vegetation of "
+"permanent or later stage crops."
+msgstr "ดัชนีความแตกต่างพืชพรรณแบบนอมัลไลซ์แสดงปริมาณพืชพรรณสีเขียว"
+
+#: app/api/formulas.py:27
+#, fuzzy
+#| msgid ""
+#| "Normalized Difference Vegetation Index shows the amount of green "
+#| "vegetation."
+msgid ""
+"Normalized Difference Water Index shows the amount of water content in water "
+"bodies."
+msgstr "ดัชนีความแตกต่างพืชพรรณแบบนอมัลไลซ์แสดงปริมาณพืชพรรณสีเขียว"
+
+#: app/api/formulas.py:37
 msgid ""
 "Enhanced Normalized Difference Vegetation Index is like NDVI, but uses Blue "
 "and Green bands instead of only Red to isolate plant health."
@@ -136,7 +162,7 @@ msgstr ""
 "Enhanced Normalized Difference Vegetation Index นั้นเหมือนกับ NDVI "
 "แต่ใช้แถบสีน้ำเงินและสีเขียวแทนสีแดงเพื่อแยกสุขภาพของพืช"
 
-#: app/api/formulas.py:24
+#: app/api/formulas.py:41
 msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
@@ -144,33 +170,33 @@ msgstr ""
 "Visible NDVI เป็นดัชนีผลต่างพืชพรรณแบบไม่นอมัลไลซ์สำหรับเซ็นเซอร์ RGB "
 "โดยใช้ค่าคงที่ของข้อมูลพืชผลจากส้ม องุ่น และอ้อย"
 
-#: app/api/formulas.py:28
+#: app/api/formulas.py:45
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
 msgstr "ดัชนีความต้านทานบรรยากาศภาพแสดงพื้นที่ของพืช"
 
-#: app/api/formulas.py:33
+#: app/api/formulas.py:50
 #, fuzzy
 msgid ""
 "Excess Green Index (derived from only the RGB bands) emphasizes the "
 "greenness of leafy crops such as potatoes."
 msgstr "ดัชนีสีเขียวส่วนเกินเน้นความเขียวของพืชใบเช่นมันฝรั่ง"
 
-#: app/api/formulas.py:37
+#: app/api/formulas.py:54
 msgid ""
 "Triangular Greenness Index (derived from only the RGB bands) performs "
 "similarly to EXG but with improvements over certain environments."
 msgstr ""
 
-#: app/api/formulas.py:41
+#: app/api/formulas.py:58
 msgid ""
 "Burn Area Index hightlights burned land in the red to near-infrared spectrum."
 msgstr "ไฮไลท์ดัชนีพื้นที่การเผา เผาพื้นที่เป็นสีแดงถึงสเปกตรัมใกล้อินฟราเรด"
 
-#: app/api/formulas.py:45
+#: app/api/formulas.py:62
 msgid "Green Leaf Index shows greens leaves and stems."
 msgstr "Green Leaf Index แสดงใบและลำต้นสีเขียว"
 
-#: app/api/formulas.py:50
+#: app/api/formulas.py:67
 msgid ""
 "Green Normalized Difference Vegetation Index is similar to NDVI, but "
 "measures the green spectrum instead of red."
@@ -178,12 +204,12 @@ msgstr ""
 "Green Normalized Difference Vegetation Index คล้ายกับ NDVI "
 "แต่วัดสเปกตรัมสีเขียวแทนที่จะเป็นสีแดง"
 
-#: app/api/formulas.py:54
+#: app/api/formulas.py:72
 msgid ""
 "Green Ratio Vegetation Index is sensitive to photosynthetic rates in forests."
 msgstr "Green Ratio Vegetation Index มีความไวต่ออัตราการสังเคราะห์แสงในป่า"
 
-#: app/api/formulas.py:58
+#: app/api/formulas.py:76
 msgid ""
 "Soil Adjusted Vegetation Index is similar to NDVI but attempts to remove the "
 "effects of soil areas using an adjustment factor (0.5)."
@@ -191,21 +217,21 @@ msgstr ""
 "Soil Adjusted Vegetation Index คล้ายกับ NDVI "
 "แต่พยายามขจัดผลกระทบของพื้นที่ดินโดยใช้ปัจจัยการปรับ (0.5)"
 
-#: app/api/formulas.py:62
+#: app/api/formulas.py:80
 msgid ""
 "Modified Non-Linear Index improves the Non-Linear Index algorithm to account "
 "for soil areas."
 msgstr ""
 "Modified Non-Linear Index ปรับปรุงอัลกอริธึม Non-Linear Index เพื่อพิจารณาพื้นที่ดิน"
 
-#: app/api/formulas.py:66
+#: app/api/formulas.py:84
 msgid ""
 "Modified Simple Ratio is an improvement of the Simple Ratio (SR) index to be "
 "more sensitive to vegetation."
 msgstr ""
 "Modified Simple Ratio คือการปรับปรุงดัชนี Simple Ratio (SR) ให้มีความไวต่อพืชมากขึ้น"
 
-#: app/api/formulas.py:70
+#: app/api/formulas.py:88
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
@@ -213,7 +239,7 @@ msgstr ""
 "Renormalized Difference Vegetation Index ใช้ความแตกต่างระหว่างใกล้ IR และสีแดง "
 "บวก NDVI เพื่อแสดงพื้นที่ของพืชที่มีสุขภาพดี"
 
-#: app/api/formulas.py:74
+#: app/api/formulas.py:92
 msgid ""
 "Transformed Difference Vegetation Index highlights vegetation cover in urban "
 "environments."
@@ -221,7 +247,7 @@ msgstr ""
 "Transformed Difference Vegetation Index "
 "เน้นให้เห็นถึงพืชพรรณที่ปกคลุมในสภาพแวดล้อมในเมือง"
 
-#: app/api/formulas.py:78
+#: app/api/formulas.py:96
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
@@ -229,17 +255,25 @@ msgstr ""
 "ดัชนีพืชผักที่ปรับปรุงแล้วของดินที่ปรับให้เหมาะสมนั้นอิงตาม SAVI "
 "แต่มีแนวโน้มที่จะทำงานได้ดีขึ้นในพื้นที่ที่มีพืชพันธุ์น้อยซึ่งมองเห็นดินได้"
 
-#: app/api/formulas.py:82
+#: app/api/formulas.py:100
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
 msgstr "Leaf Area Index ประมาณการพื้นที่ใบและคาดการณ์ผลผลิตพืชผล"
 
-#: app/api/formulas.py:87
+#: app/api/formulas.py:105
 msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
 msgstr ""
 "Enhanced Vegetation Index มีประโยชน์ในพื้นที่ที่ NDVI อาจอิ่มตัว "
 "โดยใช้ความยาวคลื่นสีน้ำเงินเพื่อแก้ไขสัญญาณดิน"
+
+#: app/api/formulas.py:110
+msgid "Thermal temperature in Celsius degrees."
+msgstr ""
+
+#: app/api/formulas.py:114
+msgid "Thermal temperature in Centikelvin degrees."
+msgstr ""
 
 #: app/api/projects.py:67
 msgid "Cannot duplicate project"
@@ -288,68 +322,74 @@ msgstr "สร้างงานไม่ได้ คุณต้องอั�
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "สร้างงานไม่ได้ ระบุ URL หรืออัปโหลด 1 ไฟล์"
 
-#: app/api/tiler.py:311
+#: app/api/tiler.py:284
 msgid "Invalid boundaries parameter"
 msgstr ""
 
-#: app/api/tiler.py:347 app/api/tiler.py:410
+#: app/api/tiler.py:301
+#, fuzzy
+#| msgid "Invalid zip file"
+msgid "Invalid tile size parameter"
+msgstr "ไฟล์ zip ไม่ถูกต้อง"
+
+#: app/api/tiler.py:331 app/api/tiler.py:403
 msgid "Outside of bounds"
 msgstr ""
 
-#: app/api/tiler.py:358
+#: app/api/tiler.py:341
 #, fuzzy
 #| msgid "Invalid action"
 msgid "Invalid boundaries"
 msgstr "การกระทำที่ไม่ถูกต้อง"
 
-#: app/api/tiler.py:416 app/api/tiler.py:513
+#: app/api/tiler.py:409 app/api/tiler.py:528
 msgid "Not a valid color_map value"
 msgstr ""
 
-#: app/api/tiler.py:422
+#: app/api/tiler.py:415
 msgid "Invalid rescale value"
 msgstr ""
 
-#: app/api/tiler.py:431
+#: app/api/tiler.py:437
 #, fuzzy
 #| msgid "Invalid zip file"
 msgid "Invalid hillshade value"
 msgstr "ไฟล์ zip ไม่ถูกต้อง"
 
-#: app/api/tiler.py:434
+#: app/api/tiler.py:440
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 
-#: app/api/tiler.py:451
+#: app/api/tiler.py:464
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 
-#: app/api/tiler.py:498 app/api/tiler.py:500
+#: app/api/tiler.py:513 app/api/tiler.py:515
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:519
+#: app/api/tiler.py:534
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:522
+#: app/api/tiler.py:537
 msgid "Both formula and bands parameters are required"
 msgstr ""
 
-#: app/api/tiler.py:542
+#: app/api/tiler.py:557
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:550
+#: app/api/tiler.py:565
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:561
+#: app/api/tiler.py:576
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr ""
 
@@ -357,7 +397,7 @@ msgstr ""
 msgid "Task this image belongs to"
 msgstr "งานภาพนี้เป็นของ"
 
-#: app/models/image_upload.py:10 app/models/task.py:279
+#: app/models/image_upload.py:10 app/models/task.py:281
 msgid "Task"
 msgstr "งาน"
 
@@ -382,7 +422,7 @@ msgid "Plugin name"
 msgstr "ชื่อปลั๊กอิน"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:239 app/models/theme.py:16
+#: app/models/task.py:241 app/models/theme.py:16
 msgid "Name"
 msgstr "ชื่อ"
 
@@ -458,15 +498,15 @@ msgstr "สัญลักษณ์ที่ใช้อธิบายที่
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr "ตัวเลือกที่กำหนดที่ตั้งไว้ก่อนหน้านี้ (รูปแบบเดียวกับในตัวเลือกของงาน)"
 
-#: app/models/preset.py:11 app/models/task.py:245
+#: app/models/preset.py:11 app/models/task.py:247
 msgid "Options"
 msgstr "ตัวเลือก"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:254
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:256
 msgid "Creation date"
 msgstr "วันที่สร้าง"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:254
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:256
 msgid "Created at"
 msgstr "สร้างที่"
 
@@ -513,12 +553,12 @@ msgstr ""
 msgid "Deleting"
 msgstr "กำลังลบ"
 
-#: app/models/project.py:61 app/models/task.py:421
+#: app/models/project.py:61 app/models/task.py:423
 #, python-format
 msgid "Copy of %(task)s"
 msgstr ""
 
-#: app/models/project.py:84 app/models/task.py:238
+#: app/models/project.py:84 app/models/task.py:240
 msgid "Project"
 msgstr "โครงการ"
 
@@ -575,109 +615,109 @@ msgstr "แอปพลิเคชัน"
 msgid "Settings"
 msgstr "การตั้งค่า"
 
-#: app/models/task.py:235
+#: app/models/task.py:237
 msgid "Id"
 msgstr "ไอดี"
 
-#: app/models/task.py:237
+#: app/models/task.py:239
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "ตัวระบุของงาน (ตามที่ส่งคืนโดย NodeODM API)"
 
-#: app/models/task.py:237
+#: app/models/task.py:239
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:238
+#: app/models/task.py:240
 msgid "Project that this task belongs to"
 msgstr "โครงการที่งานนี้เป็นของ"
 
-#: app/models/task.py:239
+#: app/models/task.py:241
 msgid "A label for the task"
 msgstr "สัญลักษณ์สำหรับงาน"
 
-#: app/models/task.py:240
+#: app/models/task.py:242
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr "จำนวนมิลลิวินาทีที่ผ่านไปตั้งแต่เริ่มต้นงานนี้ (-1 บ่งชี้ว่าไม่มีข้อมูล)"
 
-#: app/models/task.py:240
+#: app/models/task.py:242
 msgid "Processing Time"
 msgstr "ระยะเวลาดำเนินการ"
 
-#: app/models/task.py:241
+#: app/models/task.py:243
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr "โหนดการประมวลผลที่กำหนดให้กับงานนี้ (หรือเป็นโมฆะหากยังไม่ได้เชื่อมโยงงานนี้)"
 
-#: app/models/task.py:241 app/views/app.py:115 nodeodm/models.py:34
+#: app/models/task.py:243 app/views/app.py:115 nodeodm/models.py:34
 msgid "Processing Node"
 msgstr "Processing Node"
 
-#: app/models/task.py:242
+#: app/models/task.py:244
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr "แฟล็กที่ระบุว่างานนี้ควรถูกกำหนดให้โหนดประมวลผลโดยอัตโนมัติหรือไม่"
 
-#: app/models/task.py:242
+#: app/models/task.py:244
 msgid "Auto Processing Node"
 msgstr "โหนดประมวลผลอัตโนมัติ"
 
-#: app/models/task.py:243
+#: app/models/task.py:245
 msgid "Current status of the task"
 msgstr "สถานะปัจจุบันของงาน"
 
-#: app/models/task.py:243
+#: app/models/task.py:245
 msgid "Status"
 msgstr "สถานะ"
 
-#: app/models/task.py:244
+#: app/models/task.py:246
 msgid "The last processing error received"
 msgstr "ได้รับข้อผิดพลาดในการประมวลผลล่าสุด"
 
-#: app/models/task.py:244
+#: app/models/task.py:246
 msgid "Last Error"
 msgstr "ข้อผิดพลาดล่าสุด"
 
-#: app/models/task.py:245
+#: app/models/task.py:247
 msgid "Options that are being used to process this task"
 msgstr "ตัวเลือกที่ใช้ในการประมวลผลงานนี้"
 
-#: app/models/task.py:246
+#: app/models/task.py:248
 msgid "List of available assets to download"
 msgstr "รายการทรัพย์สินที่มีให้ดาวน์โหลด"
 
-#: app/models/task.py:246
+#: app/models/task.py:248
 msgid "Available Assets"
 msgstr "ทรัพย์สินที่มีอยู่"
 
-#: app/models/task.py:247
+#: app/models/task.py:249
 msgid "Console output of the processing node"
 msgstr "ผลผลิตคอนโซลของโหนดการประมวลผล"
 
-#: app/models/task.py:247
+#: app/models/task.py:249
 msgid "Console Output"
 msgstr "ผลผลิตคอนโซล"
 
-#: app/models/task.py:249
+#: app/models/task.py:251
 msgid "Extent of the orthophoto"
 msgstr "ขอบเขตของออร์โธโฟโต้"
 
-#: app/models/task.py:249
+#: app/models/task.py:251
 msgid "Orthophoto Extent"
 msgstr "ขอบเขตออร์โธโฟโต้"
 
-#: app/models/task.py:250
+#: app/models/task.py:252
 msgid "DSM Extent"
 msgstr "ขอบเขต DSM"
 
-#: app/models/task.py:251
+#: app/models/task.py:253
 msgid "DTM Extent"
 msgstr "ขอบเขต DTM"
 
-#: app/models/task.py:255
+#: app/models/task.py:257
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -685,19 +725,19 @@ msgstr ""
 "การดำเนินการที่ร้องขอให้ดำเนินการกับงาน "
 "การดำเนินการที่เลือกจะดำเนินการโดยผู้ปฏิบัติงานในการทำซ้ำครั้งต่อไป"
 
-#: app/models/task.py:255
+#: app/models/task.py:257
 msgid "Pending Action"
 msgstr "อยู่ระหว่างดำเนินการ"
 
-#: app/models/task.py:257
+#: app/models/task.py:259
 msgid "A flag indicating whether this task is available to the public"
 msgstr "A flag ที่ระบุว่างานนี้เปิดเผยต่อสาธารณะหรือไม่"
 
-#: app/models/task.py:257
+#: app/models/task.py:259
 msgid "Public"
 msgstr "สาธารณะ"
 
-#: app/models/task.py:258
+#: app/models/task.py:260
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -706,111 +746,111 @@ msgstr ""
 "เมื่อตั้งค่าเป็นค่าที่แตกต่างจาก -1 "
 "แสดงว่ารูปภาพสำหรับงานนี้จะถูกปรับขนาดเป็นขนาดที่ระบุก่อนการดำเนินการ"
 
-#: app/models/task.py:258
+#: app/models/task.py:260
 msgid "Resize To"
 msgstr "ปรับขนาดเป็น"
 
-#: app/models/task.py:261
+#: app/models/task.py:263
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr "ค่าระหว่าง 0 ถึง 1 ระบุความคืบหน้าในการอัปโหลดไฟล์ของงานนี้ไปยังโหนดการประมวลผล"
 
-#: app/models/task.py:262
+#: app/models/task.py:264
 msgid "Upload Progress"
 msgstr "ความคืบหน้าในการอัปโหลด"
 
-#: app/models/task.py:265
+#: app/models/task.py:267
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr "ค่าระหว่าง 0 ถึง 1 ระบุความคืบหน้าของการปรับขนาดภาพของงานนี้"
 
-#: app/models/task.py:266
+#: app/models/task.py:268
 msgid "Resize Progress"
 msgstr "ความคืบหน้าในการปรับขนาด"
 
-#: app/models/task.py:269
+#: app/models/task.py:271
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr "ค่าระหว่าง 0 ถึง 1 ระบุความคืบหน้าในการทำงาน (โดยประมาณ) ของงานนี้"
 
-#: app/models/task.py:270
+#: app/models/task.py:272
 msgid "Running Progress"
 msgstr "ความคืบหน้าในการทำงาน"
 
-#: app/models/task.py:272
+#: app/models/task.py:274
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "URL งานนี้นำเข้าจาก (สำหรับงานที่นำเข้าเท่านั้น)"
 
-#: app/models/task.py:272
+#: app/models/task.py:274
 msgid "Import URL"
 msgstr "นำเข้า URL"
 
-#: app/models/task.py:273
+#: app/models/task.py:275
 msgid "Number of images associated with this task"
 msgstr "จำนวนรูปภาพที่เกี่ยวข้องกับงานนี้"
 
-#: app/models/task.py:273
+#: app/models/task.py:275
 msgid "Images Count"
 msgstr "จำนวนภาพ"
 
-#: app/models/task.py:274
+#: app/models/task.py:276
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr "แฟล็กที่ระบุว่าขณะนี้งานนี้กำลังรอข้อมูลหรือไฟล์ที่จะอัปโหลดก่อนที่จะถูกพิจารณาสำหรับการประมวลผล"
 
-#: app/models/task.py:274
+#: app/models/task.py:276
 msgid "Partial"
 msgstr "บางส่วน"
 
-#: app/models/task.py:275
+#: app/models/task.py:277
 #, fuzzy
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr "ความต่อเนื่องของข้อมูลภาพ potree ใช้ในการบันทึก/โหลด การวัดและมุมมองกล้อง"
 
-#: app/models/task.py:275
+#: app/models/task.py:277
 msgid "Potree Scene"
 msgstr "ภาพ Potree"
 
-#: app/models/task.py:276
+#: app/models/task.py:278
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr ""
 
-#: app/models/task.py:280
+#: app/models/task.py:282
 msgid "Tasks"
 msgstr "งาน"
 
-#: app/models/task.py:289
+#: app/models/task.py:291
 msgid "unnamed"
 msgstr "ไม่มีชื่อ"
 
-#: app/models/task.py:500
+#: app/models/task.py:504
 msgid "Importing assets..."
 msgstr "กำลังนำเข้าเนื้อหา..."
 
-#: app/models/task.py:552 app/models/task.py:820
+#: app/models/task.py:556 app/models/task.py:824
 msgid "Invalid zip file"
 msgstr "ไฟล์ zip ไม่ถูกต้อง"
 
-#: app/models/task.py:646
+#: app/models/task.py:650
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "ข้อผิดพลาดในการเชื่อมต่อ: %(error)s"
 
-#: app/models/task.py:726
+#: app/models/task.py:730
 msgid "Cannot restart a task that has no processing node"
 msgstr "ไม่สามารถรีสตาร์ทงานที่ไม่มีโหนดการประมวลผล"
 
-#: app/models/task.py:881
+#: app/models/task.py:885
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "ไม่รองรับ SRS %(code)s โปรดตรวจสอบให้แน่ใจว่าคุณได้เลือก SRS ที่รองรับ"
 
-#: app/models/task.py:893
+#: app/models/task.py:897
 msgid "Done!"
 msgstr "เสร็จ!"
 
