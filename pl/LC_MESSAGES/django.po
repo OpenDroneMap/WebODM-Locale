@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-28 16:59+0000\n"
+"POT-Creation-Date: 2023-03-14 19:37+0000\n"
 "PO-Revision-Date: 2022-03-22 07:58+0000\n"
 "Last-Translator: BanSeb <banaszek.sebastian@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/webodm/webodm/pl/"
@@ -291,55 +291,61 @@ msgstr ""
 "sygnałów gleby."
 
 #: app/api/formulas.py:110
+msgid ""
+"Atmospherically Resistant Vegetation Index. Useful when working with imagery "
+"for regions with high atmospheric aerosol content."
+msgstr ""
+
+#: app/api/formulas.py:115
 msgid "Thermal temperature in Celsius degrees."
 msgstr ""
 
-#: app/api/formulas.py:114
+#: app/api/formulas.py:119
 msgid "Thermal temperature in Centikelvin degrees."
 msgstr ""
 
-#: app/api/projects.py:67
+#: app/api/projects.py:118
 msgid "Cannot duplicate project"
 msgstr "Nie można powielić projektu"
 
-#: app/api/projects.py:134
+#: app/api/projects.py:186
 msgid "Invalid user in permissions list"
 msgstr "Nieprawidłowy użytkownik na liście uprawnień"
 
-#: app/api/projects.py:136
+#: app/api/projects.py:188
 msgid "Invalid permissions"
 msgstr "Nieprawidłowe uprawnienia"
 
-#: app/api/tasks.py:183
+#: app/api/tasks.py:185
 msgid "You need to upload at least 2 images before commit"
 msgstr "Musisz przesłać co najmniej 2 obrazy przed zatwierdzeniem"
 
-#: app/api/tasks.py:205
+#: app/api/tasks.py:207
 msgid "No files uploaded"
 msgstr "Nie załadowano żadnych plików"
 
-#: app/api/tasks.py:234
+#: app/api/tasks.py:236
 msgid "Cannot duplicate task"
 msgstr "Nie można powielić zadania"
 
-#: app/api/tasks.py:251
+#: app/api/tasks.py:253
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Nie można utworzyć zadania, potrzebne są co najmniej dwa zdjęcia"
 
-#: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
-#: app/api/tasks.py:401
+#: app/api/tasks.py:373 app/api/tasks.py:376 app/api/tasks.py:400
+#: app/api/tasks.py:403
 msgid "Asset does not exist"
 msgstr "Zasób nie istnieje"
 
-#: app/api/tasks.py:417
+#: app/api/tasks.py:419
 msgid "Imported Task"
 msgstr "Zaimportowane zadanie"
 
-#: app/api/tasks.py:420
+#: app/api/tasks.py:422
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Nie można utworzyć zadania, musisz przesłać 1 plik"
 
-#: app/api/tasks.py:423
+#: app/api/tasks.py:425
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "Nie można utworzyć zadania. Podaj adres URL lub prześlij 1 plik."
 
@@ -416,7 +422,7 @@ msgstr "Nie można używać EPSG w zbiorze danych bez georeferencji"
 msgid "Task this image belongs to"
 msgstr "Zadanie do którego należy ten obraz"
 
-#: app/models/image_upload.py:10 app/models/task.py:281
+#: app/models/image_upload.py:10 app/models/task.py:282
 msgid "Task"
 msgstr "Zadanie"
 
@@ -579,16 +585,26 @@ msgstr ""
 msgid "Deleting"
 msgstr "Usuwanie"
 
-#: app/models/project.py:61 app/models/task.py:423
+#: app/models/project.py:28
+#, fuzzy
+#| msgid "Projects"
+msgid "Project tags"
+msgstr "Projekty"
+
+#: app/models/project.py:28 app/models/task.py:279
+msgid "Tags"
+msgstr ""
+
+#: app/models/project.py:62 app/models/task.py:426
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "Kopia %(task)s"
 
-#: app/models/project.py:84 app/models/task.py:240
+#: app/models/project.py:85 app/models/task.py:240
 msgid "Project"
 msgstr "Projekt"
 
-#: app/models/project.py:85
+#: app/models/project.py:86
 msgid "Projects"
 msgstr "Projekty"
 
@@ -861,37 +877,43 @@ msgstr "Widok Potree"
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "Kod EPSG zbioru danych (jeśli jest georeferencyjny)"
 
-#: app/models/task.py:282
+#: app/models/task.py:279
+#, fuzzy
+#| msgid "Tasks"
+msgid "Task tags"
+msgstr "Zadania"
+
+#: app/models/task.py:283
 msgid "Tasks"
 msgstr "Zadania"
 
-#: app/models/task.py:291
+#: app/models/task.py:292
 msgid "unnamed"
 msgstr "Nienazwany"
 
-#: app/models/task.py:504
+#: app/models/task.py:507
 msgid "Importing assets..."
 msgstr "Importowanie zasobów ..."
 
-#: app/models/task.py:556 app/models/task.py:824
+#: app/models/task.py:559 app/models/task.py:827
 msgid "Invalid zip file"
 msgstr "Nieprawidłowy plik zip"
 
-#: app/models/task.py:650
+#: app/models/task.py:653
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Błąd połączenia: %(error)s"
 
-#: app/models/task.py:730
+#: app/models/task.py:733
 msgid "Cannot restart a task that has no processing node"
 msgstr "Nie można zrestartować zadania, które nie ma węzła przetwarzania"
 
-#: app/models/task.py:885
+#: app/models/task.py:888
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "Nieobsługiwany SRS %(code)s. Upewnij się, że wybrałeś obsługiwany SRS."
 
-#: app/models/task.py:897
+#: app/models/task.py:900
 msgid "Done!"
 msgstr "Gotowe!"
 
@@ -1783,12 +1805,17 @@ msgid "Note!"
 msgstr "Komentarz!"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| "These values might be relative to the virtualization environment in which "
+#| "the application is running, not necessarily the values of the your "
+#| "machine. See instructions for %(win_link)s and %(mac_link)s for changing "
+#| "these values in a Docker setup."
 msgid ""
 "These values might be relative to the virtualization environment in which "
 "the application is running, not necessarily the values of the your machine. "
-"See instructions for %(win_link)s and %(mac_link)s for changing these values "
-"in a Docker setup."
+"See instructions for %(win_hyperv_link)s, %(win_wsl2_link)s, and "
+"%(mac_link)s for changing these values in a Docker setup."
 msgstr ""
 "Wartości ten mogą odnosić się do środowiska wirtualizacji, w którym pracuje "
 "aplikacja, a nie maszyny. Zobacz instrukcje %(win_link)s i %(mac_link)s aby "

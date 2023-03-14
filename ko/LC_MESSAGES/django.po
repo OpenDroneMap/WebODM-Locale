@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-28 16:59+0000\n"
+"POT-Creation-Date: 2023-03-14 19:37+0000\n"
 "PO-Revision-Date: 2022-07-16 15:15+0000\n"
 "Last-Translator: Park Jeongyong <kladess@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/webodm/webodm/ko/"
@@ -281,55 +281,61 @@ msgstr ""
 "될 수있는 지역에서 유용합니다."
 
 #: app/api/formulas.py:110
+msgid ""
+"Atmospherically Resistant Vegetation Index. Useful when working with imagery "
+"for regions with high atmospheric aerosol content."
+msgstr ""
+
+#: app/api/formulas.py:115
 msgid "Thermal temperature in Celsius degrees."
 msgstr ""
 
-#: app/api/formulas.py:114
+#: app/api/formulas.py:119
 msgid "Thermal temperature in Centikelvin degrees."
 msgstr ""
 
-#: app/api/projects.py:67
+#: app/api/projects.py:118
 msgid "Cannot duplicate project"
 msgstr "프로젝트를 복제할 수 없습니다"
 
-#: app/api/projects.py:134
+#: app/api/projects.py:186
 msgid "Invalid user in permissions list"
 msgstr "사용 권한 목록에서 잘못된 사용자"
 
-#: app/api/projects.py:136
+#: app/api/projects.py:188
 msgid "Invalid permissions"
 msgstr "잘못된 권한"
 
-#: app/api/tasks.py:183
+#: app/api/tasks.py:185
 msgid "You need to upload at least 2 images before commit"
 msgstr "결정하기 전에 최소 2장 의 이미지들을 업로드 하여야 합니다"
 
-#: app/api/tasks.py:205
+#: app/api/tasks.py:207
 msgid "No files uploaded"
 msgstr "업로드된 파일이 없습니다"
 
-#: app/api/tasks.py:234
+#: app/api/tasks.py:236
 msgid "Cannot duplicate task"
 msgstr "작업을 복제할 수 없습니다"
 
-#: app/api/tasks.py:251
+#: app/api/tasks.py:253
 msgid "Cannot create task, you need at least 2 images"
 msgstr "작업을 생성할 수 없습니다, 최소 2장 이상의 이미지가 필요합니다"
 
-#: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
-#: app/api/tasks.py:401
+#: app/api/tasks.py:373 app/api/tasks.py:376 app/api/tasks.py:400
+#: app/api/tasks.py:403
 msgid "Asset does not exist"
 msgstr "애셋이 존재하지 않습니다"
 
-#: app/api/tasks.py:417
+#: app/api/tasks.py:419
 msgid "Imported Task"
 msgstr "불러온 작업"
 
-#: app/api/tasks.py:420
+#: app/api/tasks.py:422
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "작업을 생성할 수 없습니다, 1개의 파일을 업로드 해야합니다"
 
-#: app/api/tasks.py:423
+#: app/api/tasks.py:425
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 "작업을 생성할 수 없습니다, URL을 지정하거나 1개의 파일을 업로드 하세요."
@@ -407,7 +413,7 @@ msgstr "지리 참조되지 않은 데이터 세트에서 epsg를 사용할 수 
 msgid "Task this image belongs to"
 msgstr "이 이미지가 속한 작업"
 
-#: app/models/image_upload.py:10 app/models/task.py:281
+#: app/models/image_upload.py:10 app/models/task.py:282
 msgid "Task"
 msgstr "작업"
 
@@ -565,16 +571,26 @@ msgstr ""
 msgid "Deleting"
 msgstr "삭제 중"
 
-#: app/models/project.py:61 app/models/task.py:423
+#: app/models/project.py:28
+#, fuzzy
+#| msgid "Projects"
+msgid "Project tags"
+msgstr "프로젝트"
+
+#: app/models/project.py:28 app/models/task.py:279
+msgid "Tags"
+msgstr ""
+
+#: app/models/project.py:62 app/models/task.py:426
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "%(task)s 사본"
 
-#: app/models/project.py:84 app/models/task.py:240
+#: app/models/project.py:85 app/models/task.py:240
 msgid "Project"
 msgstr "프로젝트"
 
-#: app/models/project.py:85
+#: app/models/project.py:86
 msgid "Projects"
 msgstr "프로젝트"
 
@@ -837,37 +853,43 @@ msgstr "Potree 장면"
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "데이터세트의 EPSG 코드(지리참조된 경우)"
 
-#: app/models/task.py:282
+#: app/models/task.py:279
+#, fuzzy
+#| msgid "Tasks"
+msgid "Task tags"
+msgstr "작업"
+
+#: app/models/task.py:283
 msgid "Tasks"
 msgstr "작업"
 
-#: app/models/task.py:291
+#: app/models/task.py:292
 msgid "unnamed"
 msgstr "이름 없음"
 
-#: app/models/task.py:504
+#: app/models/task.py:507
 msgid "Importing assets..."
 msgstr "자산 가져 오는 중 ..."
 
-#: app/models/task.py:556 app/models/task.py:824
+#: app/models/task.py:559 app/models/task.py:827
 msgid "Invalid zip file"
 msgstr "잘못된 zip 파일"
 
-#: app/models/task.py:650
+#: app/models/task.py:653
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "연결 오류 : %(error)s"
 
-#: app/models/task.py:730
+#: app/models/task.py:733
 msgid "Cannot restart a task that has no processing node"
 msgstr "처리 노드가없는 작업을 다시 시작할 수 없습니다"
 
-#: app/models/task.py:885
+#: app/models/task.py:888
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "지원되지 않는 SRS %(code)s. 지원되는 SRS를 선택했는지 확인하십시오."
 
-#: app/models/task.py:897
+#: app/models/task.py:900
 msgid "Done!"
 msgstr "완료!"
 
@@ -1745,12 +1767,17 @@ msgid "Note!"
 msgstr "주의!"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| "These values might be relative to the virtualization environment in which "
+#| "the application is running, not necessarily the values of the your "
+#| "machine. See instructions for %(win_link)s and %(mac_link)s for changing "
+#| "these values in a Docker setup."
 msgid ""
 "These values might be relative to the virtualization environment in which "
 "the application is running, not necessarily the values of the your machine. "
-"See instructions for %(win_link)s and %(mac_link)s for changing these values "
-"in a Docker setup."
+"See instructions for %(win_hyperv_link)s, %(win_wsl2_link)s, and "
+"%(mac_link)s for changing these values in a Docker setup."
 msgstr ""
 "이러한 값은 응용 프로그램이 실행되는 가상화 환경과 관련이 있을 수 있으며 반드"
 "시 컴퓨터의 값일 필요는 없습니다. Docker 설정에서 이러한 값을 변경하려면 "

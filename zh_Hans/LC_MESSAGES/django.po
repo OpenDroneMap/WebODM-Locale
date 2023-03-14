@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-28 16:59+0000\n"
+"POT-Creation-Date: 2023-03-14 19:37+0000\n"
 "PO-Revision-Date: 2023-01-02 13:54+0000\n"
 "Last-Translator: SharonZhou <zhou2000515@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -256,55 +256,61 @@ msgstr ""
 "通过使用蓝色波长校正土壤信号，增强植被指数在NDVI可能饱和的地区非常有用。"
 
 #: app/api/formulas.py:110
+msgid ""
+"Atmospherically Resistant Vegetation Index. Useful when working with imagery "
+"for regions with high atmospheric aerosol content."
+msgstr ""
+
+#: app/api/formulas.py:115
 msgid "Thermal temperature in Celsius degrees."
 msgstr ""
 
-#: app/api/formulas.py:114
+#: app/api/formulas.py:119
 msgid "Thermal temperature in Centikelvin degrees."
 msgstr ""
 
-#: app/api/projects.py:67
+#: app/api/projects.py:118
 msgid "Cannot duplicate project"
 msgstr "无法复制项目"
 
-#: app/api/projects.py:134
+#: app/api/projects.py:186
 msgid "Invalid user in permissions list"
 msgstr "权限列表中的用户无效"
 
-#: app/api/projects.py:136
+#: app/api/projects.py:188
 msgid "Invalid permissions"
 msgstr "无效权限"
 
-#: app/api/tasks.py:183
+#: app/api/tasks.py:185
 msgid "You need to upload at least 2 images before commit"
 msgstr "提交前，您需要上传至少2张图像"
 
-#: app/api/tasks.py:205
+#: app/api/tasks.py:207
 msgid "No files uploaded"
 msgstr "没有文件可上传"
 
-#: app/api/tasks.py:234
+#: app/api/tasks.py:236
 msgid "Cannot duplicate task"
 msgstr "无法复制任务"
 
-#: app/api/tasks.py:251
+#: app/api/tasks.py:253
 msgid "Cannot create task, you need at least 2 images"
 msgstr "无法创建任务，您至少需要2个图像"
 
-#: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
-#: app/api/tasks.py:401
+#: app/api/tasks.py:373 app/api/tasks.py:376 app/api/tasks.py:400
+#: app/api/tasks.py:403
 msgid "Asset does not exist"
 msgstr "资源不存在"
 
-#: app/api/tasks.py:417
+#: app/api/tasks.py:419
 msgid "Imported Task"
 msgstr "导入的任务"
 
-#: app/api/tasks.py:420
+#: app/api/tasks.py:422
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "无法创建任务，你需要上传1个文件"
 
-#: app/api/tasks.py:423
+#: app/api/tasks.py:425
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "无法创建任务，请指定URL或上载1个文件。"
 
@@ -379,7 +385,7 @@ msgstr "不能在非地理坐标的数据集上使用epsg"
 msgid "Task this image belongs to"
 msgstr "此图像所属的任务"
 
-#: app/models/image_upload.py:10 app/models/task.py:281
+#: app/models/image_upload.py:10 app/models/task.py:282
 msgid "Task"
 msgstr "任务"
 
@@ -535,16 +541,26 @@ msgstr ""
 msgid "Deleting"
 msgstr "删除中"
 
-#: app/models/project.py:61 app/models/task.py:423
+#: app/models/project.py:28
+#, fuzzy
+#| msgid "Projects"
+msgid "Project tags"
+msgstr "项目"
+
+#: app/models/project.py:28 app/models/task.py:279
+msgid "Tags"
+msgstr ""
+
+#: app/models/project.py:62 app/models/task.py:426
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "复制于%(task)s"
 
-#: app/models/project.py:84 app/models/task.py:240
+#: app/models/project.py:85 app/models/task.py:240
 msgid "Project"
 msgstr "新建项目"
 
-#: app/models/project.py:85
+#: app/models/project.py:86
 msgid "Projects"
 msgstr "项目"
 
@@ -799,37 +815,43 @@ msgstr "Potree 场景"
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "数据集的EPSG代码（地理参考）"
 
-#: app/models/task.py:282
+#: app/models/task.py:279
+#, fuzzy
+#| msgid "Tasks"
+msgid "Task tags"
+msgstr "任务"
+
+#: app/models/task.py:283
 msgid "Tasks"
 msgstr "任务"
 
-#: app/models/task.py:291
+#: app/models/task.py:292
 msgid "unnamed"
 msgstr "未命名"
 
-#: app/models/task.py:504
+#: app/models/task.py:507
 msgid "Importing assets..."
 msgstr "正在导入资源…"
 
-#: app/models/task.py:556 app/models/task.py:824
+#: app/models/task.py:559 app/models/task.py:827
 msgid "Invalid zip file"
 msgstr "无效的zip文件"
 
-#: app/models/task.py:650
+#: app/models/task.py:653
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "连接错误：%(error)s"
 
-#: app/models/task.py:730
+#: app/models/task.py:733
 msgid "Cannot restart a task that has no processing node"
 msgstr "无法重新启动没有处理节点的任务"
 
-#: app/models/task.py:885
+#: app/models/task.py:888
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "不支持的SRS%(code)s。请确保您选择了受支持的SRS。"
 
-#: app/models/task.py:897
+#: app/models/task.py:900
 msgid "Done!"
 msgstr "完成了！"
 
@@ -1688,12 +1710,17 @@ msgid "Note!"
 msgstr "注意！"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| "These values might be relative to the virtualization environment in which "
+#| "the application is running, not necessarily the values of the your "
+#| "machine. See instructions for %(win_link)s and %(mac_link)s for changing "
+#| "these values in a Docker setup."
 msgid ""
 "These values might be relative to the virtualization environment in which "
 "the application is running, not necessarily the values of the your machine. "
-"See instructions for %(win_link)s and %(mac_link)s for changing these values "
-"in a Docker setup."
+"See instructions for %(win_hyperv_link)s, %(win_wsl2_link)s, and "
+"%(mac_link)s for changing these values in a Docker setup."
 msgstr ""
 "这些值可能与运行应用程序的虚拟化环境相关，而不一定与机器的值相关。请参阅在"
 "Docker设置中更改这些值的%(win_link)s和%(mac_link)s说明。"

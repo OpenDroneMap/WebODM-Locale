@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-28 16:59+0000\n"
+"POT-Creation-Date: 2023-03-14 19:37+0000\n"
 "PO-Revision-Date: 2022-02-02 13:20+0000\n"
 "Last-Translator: Rumi Kuribayashi <rumikr02005@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/webodm/webodm/"
@@ -277,55 +277,61 @@ msgstr ""
 "で、NDVIが飽和する場所で有益です。"
 
 #: app/api/formulas.py:110
+msgid ""
+"Atmospherically Resistant Vegetation Index. Useful when working with imagery "
+"for regions with high atmospheric aerosol content."
+msgstr ""
+
+#: app/api/formulas.py:115
 msgid "Thermal temperature in Celsius degrees."
 msgstr ""
 
-#: app/api/formulas.py:114
+#: app/api/formulas.py:119
 msgid "Thermal temperature in Centikelvin degrees."
 msgstr ""
 
-#: app/api/projects.py:67
+#: app/api/projects.py:118
 msgid "Cannot duplicate project"
 msgstr "プロジェクトを複製できません"
 
-#: app/api/projects.py:134
+#: app/api/projects.py:186
 msgid "Invalid user in permissions list"
 msgstr "権限リストの無効なユーザー"
 
-#: app/api/projects.py:136
+#: app/api/projects.py:188
 msgid "Invalid permissions"
 msgstr "無効な権限"
 
-#: app/api/tasks.py:183
+#: app/api/tasks.py:185
 msgid "You need to upload at least 2 images before commit"
 msgstr "実行前に少なくとも２つの画像をアップロードする必要があります"
 
-#: app/api/tasks.py:205
+#: app/api/tasks.py:207
 msgid "No files uploaded"
 msgstr "ファイルがアップロードされていません"
 
-#: app/api/tasks.py:234
+#: app/api/tasks.py:236
 msgid "Cannot duplicate task"
 msgstr "タスクを複製できません"
 
-#: app/api/tasks.py:251
+#: app/api/tasks.py:253
 msgid "Cannot create task, you need at least 2 images"
 msgstr "タスクが作成できないので、少なくとも2つの画像が必要です"
 
-#: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
-#: app/api/tasks.py:401
+#: app/api/tasks.py:373 app/api/tasks.py:376 app/api/tasks.py:400
+#: app/api/tasks.py:403
 msgid "Asset does not exist"
 msgstr "アセットが存在しません"
 
-#: app/api/tasks.py:417
+#: app/api/tasks.py:419
 msgid "Imported Task"
 msgstr "インポート済みタスク"
 
-#: app/api/tasks.py:420
+#: app/api/tasks.py:422
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "タスクが作成できないので、1つのファイルのアップロードが必要です"
 
-#: app/api/tasks.py:423
+#: app/api/tasks.py:425
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 "タスクが作成できないので、URLを特定するかファイルを一つアップロードしてくださ"
@@ -405,7 +411,7 @@ msgstr ""
 msgid "Task this image belongs to"
 msgstr "この画像が属するタスク"
 
-#: app/models/image_upload.py:10 app/models/task.py:281
+#: app/models/image_upload.py:10 app/models/task.py:282
 msgid "Task"
 msgstr "タスク"
 
@@ -564,16 +570,26 @@ msgstr ""
 msgid "Deleting"
 msgstr "削除しています"
 
-#: app/models/project.py:61 app/models/task.py:423
+#: app/models/project.py:28
+#, fuzzy
+#| msgid "Projects"
+msgid "Project tags"
+msgstr "プロジェクト"
+
+#: app/models/project.py:28 app/models/task.py:279
+msgid "Tags"
+msgstr ""
+
+#: app/models/project.py:62 app/models/task.py:426
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "%(task)sをコピー"
 
-#: app/models/project.py:84 app/models/task.py:240
+#: app/models/project.py:85 app/models/task.py:240
 msgid "Project"
 msgstr "プロジェクト"
 
-#: app/models/project.py:85
+#: app/models/project.py:86
 msgid "Projects"
 msgstr "プロジェクト"
 
@@ -837,39 +853,45 @@ msgstr "Potreeシーン"
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "データセットのEPSGコード（地理参照されている場合）"
 
-#: app/models/task.py:282
+#: app/models/task.py:279
+#, fuzzy
+#| msgid "Tasks"
+msgid "Task tags"
+msgstr "タスク"
+
+#: app/models/task.py:283
 msgid "Tasks"
 msgstr "タスク"
 
-#: app/models/task.py:291
+#: app/models/task.py:292
 msgid "unnamed"
 msgstr "名称未設定"
 
-#: app/models/task.py:504
+#: app/models/task.py:507
 msgid "Importing assets..."
 msgstr "アセットをインポート中..."
 
-#: app/models/task.py:556 app/models/task.py:824
+#: app/models/task.py:559 app/models/task.py:827
 msgid "Invalid zip file"
 msgstr "無効なzipファイル"
 
-#: app/models/task.py:650
+#: app/models/task.py:653
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "接続エラー：%(error)s"
 
-#: app/models/task.py:730
+#: app/models/task.py:733
 msgid "Cannot restart a task that has no processing node"
 msgstr "処理中のノードがないので再始動できませんでした"
 
-#: app/models/task.py:885
+#: app/models/task.py:888
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "サポートされていないSRSです %(code)s. サポートされているSRSを選択したか確認し"
 "てください."
 
-#: app/models/task.py:897
+#: app/models/task.py:900
 msgid "Done!"
 msgstr "完了！"
 
@@ -1753,12 +1775,17 @@ msgid "Note!"
 msgstr "注意！"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| "These values might be relative to the virtualization environment in which "
+#| "the application is running, not necessarily the values of the your "
+#| "machine. See instructions for %(win_link)s and %(mac_link)s for changing "
+#| "these values in a Docker setup."
 msgid ""
 "These values might be relative to the virtualization environment in which "
 "the application is running, not necessarily the values of the your machine. "
-"See instructions for %(win_link)s and %(mac_link)s for changing these values "
-"in a Docker setup."
+"See instructions for %(win_hyperv_link)s, %(win_wsl2_link)s, and "
+"%(mac_link)s for changing these values in a Docker setup."
 msgstr ""
 "この値は必ずしもあなたのマシンによるものではなく、アプリケーションが動作して"
 "いる仮想化環境に関係している可能性があります。Dockerセットアップでこの値を変"

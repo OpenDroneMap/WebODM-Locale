@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-28 16:59+0000\n"
+"POT-Creation-Date: 2023-03-14 19:37+0000\n"
 "PO-Revision-Date: 2023-01-31 18:52+0000\n"
 "Last-Translator: Александр Ващенко <sascha93rus@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/webodm/webodm/ru/"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.16-dev\n"
 
 #: app/admin.py:61
@@ -294,55 +294,61 @@ msgstr ""
 "признаков почвы."
 
 #: app/api/formulas.py:110
+msgid ""
+"Atmospherically Resistant Vegetation Index. Useful when working with imagery "
+"for regions with high atmospheric aerosol content."
+msgstr ""
+
+#: app/api/formulas.py:115
 msgid "Thermal temperature in Celsius degrees."
 msgstr "Тепловая температура в градусах Цельсия."
 
-#: app/api/formulas.py:114
+#: app/api/formulas.py:119
 msgid "Thermal temperature in Centikelvin degrees."
 msgstr "Тепловая температура в градусах Сантикельвина."
 
-#: app/api/projects.py:67
+#: app/api/projects.py:118
 msgid "Cannot duplicate project"
 msgstr "Невозможно продублировать проект"
 
-#: app/api/projects.py:134
+#: app/api/projects.py:186
 msgid "Invalid user in permissions list"
 msgstr "Недопустимый пользователь в списке разрешений"
 
-#: app/api/projects.py:136
+#: app/api/projects.py:188
 msgid "Invalid permissions"
 msgstr "Недопустимые разрешения"
 
-#: app/api/tasks.py:183
+#: app/api/tasks.py:185
 msgid "You need to upload at least 2 images before commit"
 msgstr "Вы должны загрузить минимум 2 изображения, перед тем как продолжить"
 
-#: app/api/tasks.py:205
+#: app/api/tasks.py:207
 msgid "No files uploaded"
 msgstr "Нет загруженных файлов"
 
-#: app/api/tasks.py:234
+#: app/api/tasks.py:236
 msgid "Cannot duplicate task"
 msgstr "Невозможно продублировать задачу"
 
-#: app/api/tasks.py:251
+#: app/api/tasks.py:253
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Невозможно создать задачу, требуется минимум 2 изображения"
 
-#: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
-#: app/api/tasks.py:401
+#: app/api/tasks.py:373 app/api/tasks.py:376 app/api/tasks.py:400
+#: app/api/tasks.py:403
 msgid "Asset does not exist"
 msgstr "Набор данных отсутствует"
 
-#: app/api/tasks.py:417
+#: app/api/tasks.py:419
 msgid "Imported Task"
 msgstr "Импортированная задача"
 
-#: app/api/tasks.py:420
+#: app/api/tasks.py:422
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Невозможно создать задачу, требуется загрузить минимум 1 файл"
 
-#: app/api/tasks.py:423
+#: app/api/tasks.py:425
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "Невозможно создать задачу, укажите URL-адрес или загрузите 1 файл."
 
@@ -419,7 +425,7 @@ msgstr ""
 msgid "Task this image belongs to"
 msgstr "Задача, которой принадлежит это изображение"
 
-#: app/models/image_upload.py:10 app/models/task.py:281
+#: app/models/image_upload.py:10 app/models/task.py:282
 msgid "Task"
 msgstr "Задача"
 
@@ -581,16 +587,26 @@ msgstr ""
 msgid "Deleting"
 msgstr "Удаление"
 
-#: app/models/project.py:61 app/models/task.py:423
+#: app/models/project.py:28
+#, fuzzy
+#| msgid "Projects"
+msgid "Project tags"
+msgstr "Проекты"
+
+#: app/models/project.py:28 app/models/task.py:279
+msgid "Tags"
+msgstr ""
+
+#: app/models/project.py:62 app/models/task.py:426
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "Копия %(task)s"
 
-#: app/models/project.py:84 app/models/task.py:240
+#: app/models/project.py:85 app/models/task.py:240
 msgid "Project"
 msgstr "Проект"
 
-#: app/models/project.py:85
+#: app/models/project.py:86
 msgid "Projects"
 msgstr "Проекты"
 
@@ -864,39 +880,45 @@ msgstr "Сцена Potree"
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "Код EPSG набора данных (при наличии географической привязки)"
 
-#: app/models/task.py:282
+#: app/models/task.py:279
+#, fuzzy
+#| msgid "Tasks"
+msgid "Task tags"
+msgstr "Задачи"
+
+#: app/models/task.py:283
 msgid "Tasks"
 msgstr "Задачи"
 
-#: app/models/task.py:291
+#: app/models/task.py:292
 msgid "unnamed"
 msgstr "безымянный"
 
-#: app/models/task.py:504
+#: app/models/task.py:507
 msgid "Importing assets..."
 msgstr "Импортирование наборов данных..."
 
-#: app/models/task.py:556 app/models/task.py:824
+#: app/models/task.py:559 app/models/task.py:827
 msgid "Invalid zip file"
 msgstr "Неверный zip файл"
 
-#: app/models/task.py:650
+#: app/models/task.py:653
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Ошибка соединения: %(error)s"
 
-#: app/models/task.py:730
+#: app/models/task.py:733
 msgid "Cannot restart a task that has no processing node"
 msgstr "Невозможно перезапустить задачу, у которой нет узла обработки"
 
-#: app/models/task.py:885
+#: app/models/task.py:888
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "Неподдерживаемый SRS %(code)s. Пожалуйста, убедитесь, что выбрали "
 "поддерживаемый SRS файл."
 
-#: app/models/task.py:897
+#: app/models/task.py:900
 msgid "Done!"
 msgstr "Готово!"
 
@@ -1796,12 +1818,17 @@ msgid "Note!"
 msgstr "Примечание!"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| "These values might be relative to the virtualization environment in which "
+#| "the application is running, not necessarily the values of the your "
+#| "machine. See instructions for %(win_link)s and %(mac_link)s for changing "
+#| "these values in a Docker setup."
 msgid ""
 "These values might be relative to the virtualization environment in which "
 "the application is running, not necessarily the values of the your machine. "
-"See instructions for %(win_link)s and %(mac_link)s for changing these values "
-"in a Docker setup."
+"See instructions for %(win_hyperv_link)s, %(win_wsl2_link)s, and "
+"%(mac_link)s for changing these values in a Docker setup."
 msgstr ""
 "Эти значения могут относиться к среде виртуализации, в которой запущено "
 "приложение, не обязательно к значениям вашего компьютера. Смотрите "
