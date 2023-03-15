@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-14 19:37+0000\n"
-"PO-Revision-Date: 2023-01-31 18:52+0000\n"
+"PO-Revision-Date: 2023-03-16 13:41+0000\n"
 "Last-Translator: Александр Ващенко <sascha93rus@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/webodm/webodm/ru/"
 ">\n"
@@ -16,9 +16,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: app/admin.py:61
 msgid "Enter custom CSS"
@@ -298,6 +298,8 @@ msgid ""
 "Atmospherically Resistant Vegetation Index. Useful when working with imagery "
 "for regions with high atmospheric aerosol content."
 msgstr ""
+"Вегетационный индекс устойчивый ко влиянию атмосферы (ARVI). Полезно при "
+"работе со снимками для регионов с высоким содержанием атмосферного аэрозоля."
 
 #: app/api/formulas.py:115
 msgid "Thermal temperature in Celsius degrees."
@@ -588,14 +590,12 @@ msgid "Deleting"
 msgstr "Удаление"
 
 #: app/models/project.py:28
-#, fuzzy
-#| msgid "Projects"
 msgid "Project tags"
-msgstr "Проекты"
+msgstr "Теги проекта"
 
 #: app/models/project.py:28 app/models/task.py:279
 msgid "Tags"
-msgstr ""
+msgstr "Теги"
 
 #: app/models/project.py:62 app/models/task.py:426
 #, python-format
@@ -881,10 +881,8 @@ msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "Код EPSG набора данных (при наличии географической привязки)"
 
 #: app/models/task.py:279
-#, fuzzy
-#| msgid "Tasks"
 msgid "Task tags"
-msgstr "Задачи"
+msgstr "Теги задач"
 
 #: app/models/task.py:283
 msgid "Tasks"
@@ -1818,12 +1816,7 @@ msgid "Note!"
 msgstr "Примечание!"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
-#, fuzzy, python-format
-#| msgid ""
-#| "These values might be relative to the virtualization environment in which "
-#| "the application is running, not necessarily the values of the your "
-#| "machine. See instructions for %(win_link)s and %(mac_link)s for changing "
-#| "these values in a Docker setup."
+#, python-format
 msgid ""
 "These values might be relative to the virtualization environment in which "
 "the application is running, not necessarily the values of the your machine. "
@@ -1832,8 +1825,8 @@ msgid ""
 msgstr ""
 "Эти значения могут относиться к среде виртуализации, в которой запущено "
 "приложение, не обязательно к значениям вашего компьютера. Смотрите "
-"инструкции %(win_link)s и %(mac_link)s для изменения этих значений в "
-"настройках Docker."
+"инструкции %(win_hyperv_link)s, %(win_wsl2_link)s и %(mac_link)s для "
+"изменения этих значений в настройках Docker."
 
 #: coreplugins/diagnostic/templates/diagnostic.html:47
 #: coreplugins/diagnostic/templates/diagnostic.html:82
