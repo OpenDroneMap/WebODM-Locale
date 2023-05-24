@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-23 14:21+0000\n"
-"PO-Revision-Date: 2023-04-08 06:20+0000\n"
-"Last-Translator: Carlos Grohmann <carlos.grohmann@gmail.com>\n"
+"PO-Revision-Date: 2023-05-25 14:50+0000\n"
+"Last-Translator: Cairo Adolfo <cairoadolfo@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "webodm/webodm/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: app/admin.py:61
 msgid "Enter custom CSS"
@@ -293,14 +293,16 @@ msgid ""
 "Atmospherically Resistant Vegetation Index. Useful when working with imagery "
 "for regions with high atmospheric aerosol content."
 msgstr ""
+"Índice de Vegetação Atmosférica Resistente. Útil ao trabalhar com imagens "
+"para regiões com alto teor de aerossóis atmosféricos."
 
 #: app/api/formulas.py:115
 msgid "Thermal temperature in Celsius degrees."
-msgstr ""
+msgstr "Temperatura térmica em graus Celsius."
 
 #: app/api/formulas.py:119
 msgid "Thermal temperature in Centikelvin degrees."
-msgstr ""
+msgstr "Temperatura térmica em graus Centi Kelvin."
 
 #: app/api/projects.py:125
 msgid "Cannot duplicate project"
@@ -353,8 +355,6 @@ msgid "Invalid boundaries parameter"
 msgstr "Parâmetros dos limites inválidos"
 
 #: app/api/tiler.py:301
-#, fuzzy
-#| msgid "Invalid boundaries parameter"
 msgid "Invalid tile size parameter"
 msgstr "Parâmetros dos limites inválidos"
 
@@ -381,39 +381,43 @@ msgstr "Valor de sombreamento inválido"
 #: app/api/tiler.py:440
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
+"Não é possível calcular sombreamento de raster sem elevação (várias bandas "
+"encontradas)"
 
 #: app/api/tiler.py:464
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
+"Não é possível processar o bloco: imagem de intensidade fornecida, mas "
+"nenhum dado RGB foi computado."
 
 #: app/api/tiler.py:513 app/api/tiler.py:515
 #, python-format
 msgid "Unsupported format: %(value)s"
-msgstr ""
+msgstr "Formato não suportado: %(value)s"
 
 #: app/api/tiler.py:534
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr ""
+msgstr "Código EPSG inválido: %(value)s"
 
 #: app/api/tiler.py:537
 msgid "Both formula and bands parameters are required"
-msgstr ""
+msgstr "Os parâmetros da fórmula e das bandas são obrigatórios"
 
 #: app/api/tiler.py:557
 #, python-format
 msgid "Invalid rescale value: %(value)s"
-msgstr ""
+msgstr "Valor de redimensionamento inválido: %(value)s"
 
 #: app/api/tiler.py:565
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
-msgstr ""
+msgstr "Valor de sombreamento inválido: %(value)s"
 
 #: app/api/tiler.py:576
 msgid "Cannot use epsg on non-georeferenced dataset"
-msgstr ""
+msgstr "Não é possível usar epsg no conjunto de dados não georreferenciado"
 
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
@@ -594,7 +598,7 @@ msgstr "Tags (marcações)"
 #: app/models/project.py:62 app/models/task.py:426
 #, python-format
 msgid "Copy of %(task)s"
-msgstr ""
+msgstr "Copiar os %(task)s"
 
 #: app/models/project.py:87 app/models/task.py:240
 msgid "Project"
@@ -863,14 +867,16 @@ msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
+"Informações serializadas da cena potree usadas para salvar/carregar medições "
+"e ângulo de visão da câmera"
 
 #: app/models/task.py:277
 msgid "Potree Scene"
-msgstr ""
+msgstr "Cena de Potree"
 
 #: app/models/task.py:278
 msgid "EPSG code of the dataset (if georeferenced)"
-msgstr ""
+msgstr "Código EPSG do conjunto de dados (se georreferenciado)"
 
 #: app/models/task.py:279
 #, fuzzy
@@ -1456,7 +1462,7 @@ msgstr ""
 
 #: app/templates/app/dashboard.html:28
 msgid "Select Images and GCP"
-msgstr "Selecionar imagens e GCPs"
+msgstr "Selecionar imagens e Ponto de Controle"
 
 #: app/templates/app/dashboard.html:30
 #, python-format
@@ -1469,13 +1475,12 @@ msgstr ""
 
 #: app/templates/app/dashboard.html:34
 msgid "You need at least 5 images, but 16-32 is typically the minimum."
-msgstr ""
+msgstr "Você precisa de pelo menos 5 imagens, mas 16-32 normalmente é o mínimo."
 
 #: app/templates/app/dashboard.html:35
-#, fuzzy, python-format
-#| msgid "Images must overlap by 65%% or more"
+#, python-format
 msgid "Images must overlap by 65%% or more. Aim for 70-72%%"
-msgstr "As imagens precisam de sobreposição de 65%% ou mais"
+msgstr "As imagens devem se sobrepor em 65%% ou mais. Apontar para 70-72%%"
 
 #: app/templates/app/dashboard.html:36
 #, python-format
@@ -1488,8 +1493,8 @@ msgid ""
 "A %(link_start)sGCP File%(link_end)s is optional, but can increase "
 "georeferencing accuracy"
 msgstr ""
-"Um arquivo %(link_start)s de GCPs %(link_end)s é opcional, mas pode aumentar "
-"a precisão do georreferenciamento"
+"Um arquivo %(link_start)s de Ponto de Controle %(link_end)s é opcional, mas "
+"pode aumentar a precisão do georreferenciamento"
 
 #: app/templates/app/dev_tools.html:6 app/templates/app/logged_in_base.html:110
 #: app/views/dev.py:78
@@ -1630,6 +1635,7 @@ msgstr "Você poderia verificar os erros abaixo?"
 msgid ""
 "Before we get started, we need to create an administrator account for you:"
 msgstr ""
+"Antes de começarmos, precisamos criar uma conta de administrador para você:"
 
 #: app/templates/app/welcome.html:237
 msgid "Create Account"
@@ -1687,15 +1693,15 @@ msgstr "Um plugin para criar arquivos de GCP a partir de imagens"
 
 #: app/translations/plugin_manifest_autogenerated.py:16
 msgid "Create short links when sharing task URLs"
-msgstr ""
+msgstr "Crie links curtos ao compartilhar URLs de tarefas"
 
 #: app/translations/plugin_manifest_autogenerated.py:17
 msgid "Create editable short links when sharing task URLs"
-msgstr ""
+msgstr "Crie links curtos editáveis ao compartilhar URLs de tarefas"
 
 #: app/translations/plugin_manifest_autogenerated.py:18
 msgid "Integrate WebODM with DroneDB: import images and share results"
-msgstr ""
+msgstr "Integre WebODM com DroneDB: importe imagens e compartilhe resultados"
 
 #: app/views/app.py:44
 msgid "First Project"
@@ -1798,12 +1804,7 @@ msgid "Note!"
 msgstr "Nota!"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
-#, fuzzy, python-format
-#| msgid ""
-#| "These values might be relative to the virtualization environment in which "
-#| "the application is running, not necessarily the values of the your "
-#| "machine. See instructions for %(win_link)s and %(mac_link)s for changing "
-#| "these values in a Docker setup."
+#, python-format
 msgid ""
 "These values might be relative to the virtualization environment in which "
 "the application is running, not necessarily the values of the your machine. "
@@ -1812,8 +1813,8 @@ msgid ""
 msgstr ""
 "Esses valores podem ser relativos ao ambiente de virtualização no qual o "
 "aplicativo está sendo executado, não necessariamente os valores de sua "
-"máquina. Consulte as instruções para %(win_link)s e %(mac_link)s para "
-"alterar esses valores em uma configuração do Docker."
+"máquina. Consulte as instruções para %(win_hyperv_link)s, %(win_wsl2_link)s "
+"e %(mac_link)s para alterar esses valores em uma configuração do Docker."
 
 #: coreplugins/diagnostic/templates/diagnostic.html:47
 #: coreplugins/diagnostic/templates/diagnostic.html:82
@@ -1825,10 +1826,12 @@ msgid ""
 "Short URLs can only include letters, numbers, underscore and dash characters "
 "(A-Z, 0-9, _, -)."
 msgstr ""
+"Os URLs curtos podem incluir apenas letras, números, sublinhados e traços (A-"
+"Z, 0-9, _, -)."
 
 #: coreplugins/editshortlinks/api.py:63
 msgid "This short URL is already taken."
-msgstr ""
+msgstr "Este URL curto já foi usado."
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
 msgid "Lightning Network"
@@ -1846,7 +1849,7 @@ msgstr ""
 
 #: coreplugins/posm-gcpi/plugin.py:9
 msgid "GCP Interface"
-msgstr "Interface de GCPs"
+msgstr "Interface de Ponto de Controle"
 
 #: nodeodm/apps.py:8
 msgid "Node Management"
