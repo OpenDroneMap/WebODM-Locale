@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-23 14:21+0000\n"
+"POT-Creation-Date: 2023-05-29 23:42+0000\n"
 "PO-Revision-Date: 2023-03-28 07:13+0000\n"
 "Last-Translator: Jiří Podhorecký <j.podhorecky@volny.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/webodm/webodm/cs/>"
-"\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/webodm/webodm/cs/"
+">\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,39 +19,39 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.17-dev\n"
 
-#: app/admin.py:61
+#: app/admin.py:62
 msgid "Enter custom CSS"
 msgstr "Zadejte vlastní CSS"
 
-#: app/admin.py:62 app/models/theme.py:38
+#: app/admin.py:63 app/models/theme.py:38
 msgid "CSS"
 msgstr "CSS"
 
-#: app/admin.py:65
+#: app/admin.py:66
 msgid "HTML that will be displayed above site header"
 msgstr "HTML, které se zobrazí nad záhlavím webu"
 
-#: app/admin.py:66 app/models/theme.py:39
+#: app/admin.py:67 app/models/theme.py:39
 msgid "HTML (before header)"
 msgstr "HTML (před záhlavím)"
 
-#: app/admin.py:69
+#: app/admin.py:70
 msgid "HTML that will be displayed after site header"
 msgstr "HTML, které se zobrazí za záhlavím webu"
 
-#: app/admin.py:70 app/models/theme.py:40
+#: app/admin.py:71 app/models/theme.py:40
 msgid "HTML (after header)"
 msgstr "HTML (za záhlavím)"
 
-#: app/admin.py:73
+#: app/admin.py:74
 msgid "HTML that will be displayed after the body tag"
 msgstr "HTML, které se zobrazí za značkou body"
 
-#: app/admin.py:74 app/models/theme.py:41
+#: app/admin.py:75 app/models/theme.py:41
 msgid "HTML (after body)"
 msgstr "HTML (za body)"
 
-#: app/admin.py:78
+#: app/admin.py:79
 #, python-brace-format
 msgid ""
 "HTML that will be displayed in the footer. You can also use the special tags "
@@ -60,71 +60,71 @@ msgstr ""
 "HTML, které se zobrazí v zápatí. Můžete také použít speciální značky, "
 "například {ORGANIZATION} a {YEAR}."
 
-#: app/admin.py:79 app/models/theme.py:42
+#: app/admin.py:80 app/models/theme.py:42
 msgid "HTML (footer)"
 msgstr "HTML (zápatí)"
 
-#: app/admin.py:111 app/models/project.py:25
+#: app/admin.py:112 app/models/project.py:25
 msgid "Description"
 msgstr "Popis"
 
-#: app/admin.py:117
+#: app/admin.py:118
 msgid "Version"
 msgstr "Verze"
 
-#: app/admin.py:123
+#: app/admin.py:124
 msgid "Author"
 msgstr "Autor"
 
-#: app/admin.py:155
+#: app/admin.py:156
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr ""
 "Nutný restart. Restartujte prosím WebODM, abyste mohli povolit %(plugin)s"
 
-#: app/admin.py:158
+#: app/admin.py:159
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
 msgstr "Nelze povolit zásuvný modul %(plugin)s: %(message)s"
 
-#: app/admin.py:167
+#: app/admin.py:168
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr ""
 "Nutný restart. Restartujte prosím WebODM, abyste zcela zakázali %(plugin)s"
 
-#: app/admin.py:170
+#: app/admin.py:171
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
 msgstr "Nelze zakázat zásuvný modul %(plugin)s: %(message)s"
 
-#: app/admin.py:179
+#: app/admin.py:180
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
 msgstr "Nelze odstranit zásuvný modul %(plugin)s: %(message)s"
 
-#: app/admin.py:227
+#: app/admin.py:228
 msgid "Plugin added successfully"
 msgstr "Plugin byl úspěšně přidán"
 
-#: app/admin.py:229
+#: app/admin.py:230
 #, python-format
 msgid "Cannot load plugin: %(message)s"
 msgstr "Nelze načíst zásuvný modul: %(message)s"
 
-#: app/admin.py:235
+#: app/admin.py:236
 msgid "You need to upload a zip file"
 msgstr "Musíte nahrát soubor zip"
 
-#: app/admin.py:249
+#: app/admin.py:250
 msgid "Disable"
 msgstr "Vypnout"
 
-#: app/admin.py:252
+#: app/admin.py:253
 msgid "Enable"
 msgstr "Zapnout"
 
-#: app/admin.py:257
+#: app/admin.py:258
 msgid "Actions"
 msgstr "Akce"
 
@@ -178,6 +178,10 @@ msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
 msgstr "Vizuální index atmosférického odporu zobrazuje plochy vegetace."
 
 #: app/api/formulas.py:50
+msgid "Modified Photochemical Reflectance Index"
+msgstr ""
+
+#: app/api/formulas.py:55
 msgid ""
 "Excess Green Index (derived from only the RGB bands) emphasizes the "
 "greenness of leafy crops such as potatoes."
@@ -185,7 +189,7 @@ msgstr ""
 "Index nadměrné zeleně (odvozený pouze z pásem RGB) zdůrazňuje zelenou barvu "
 "listnatých plodin, jako jsou brambory."
 
-#: app/api/formulas.py:54
+#: app/api/formulas.py:59
 msgid ""
 "Triangular Greenness Index (derived from only the RGB bands) performs "
 "similarly to EXG but with improvements over certain environments."
@@ -193,18 +197,18 @@ msgstr ""
 "Trojúhelníkový index zeleně (odvozený pouze z pásem RGB) funguje podobně "
 "jako EXG, ale s vylepšením v určitých prostředích."
 
-#: app/api/formulas.py:58
+#: app/api/formulas.py:63
 msgid ""
 "Burn Area Index hightlights burned land in the red to near-infrared spectrum."
 msgstr ""
 "Burn Area Index zvýrazňuje spálenou půdu v červeném až blízkém infračerveném "
 "spektru."
 
-#: app/api/formulas.py:62
+#: app/api/formulas.py:67
 msgid "Green Leaf Index shows greens leaves and stems."
 msgstr "Index zelených listů zobrazuje zelené listy a stonky."
 
-#: app/api/formulas.py:67
+#: app/api/formulas.py:72
 msgid ""
 "Green Normalized Difference Vegetation Index is similar to NDVI, but "
 "measures the green spectrum instead of red."
@@ -212,13 +216,13 @@ msgstr ""
 "Zelený normalizovaný rozdílový vegetační index je podobný indexu NDVI, ale "
 "měří zelené spektrum namísto červeného."
 
-#: app/api/formulas.py:72
+#: app/api/formulas.py:77
 msgid ""
 "Green Ratio Vegetation Index is sensitive to photosynthetic rates in forests."
 msgstr ""
 "Vegetační index zeleného poměru je citlivý na míru fotosyntézy v lesích."
 
-#: app/api/formulas.py:76
+#: app/api/formulas.py:81
 msgid ""
 "Soil Adjusted Vegetation Index is similar to NDVI but attempts to remove the "
 "effects of soil areas using an adjustment factor (0.5)."
@@ -226,7 +230,7 @@ msgstr ""
 "Půdně upravený vegetační index je podobný indexu NDVI, ale snaží se "
 "odstranit vliv půdních ploch pomocí korekčního faktoru (0,5)."
 
-#: app/api/formulas.py:80
+#: app/api/formulas.py:85
 msgid ""
 "Modified Non-Linear Index improves the Non-Linear Index algorithm to account "
 "for soil areas."
@@ -234,7 +238,7 @@ msgstr ""
 "Modifikovaný nelineární index vylepšuje algoritmus nelineárního indexu tak, "
 "aby zohledňoval plochy půdy."
 
-#: app/api/formulas.py:84
+#: app/api/formulas.py:89
 msgid ""
 "Modified Simple Ratio is an improvement of the Simple Ratio (SR) index to be "
 "more sensitive to vegetation."
@@ -242,7 +246,7 @@ msgstr ""
 "Modifikovaný jednoduchý poměr je vylepšený index jednoduchého poměru (SR), "
 "který je citlivější na vegetaci."
 
-#: app/api/formulas.py:88
+#: app/api/formulas.py:93
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
@@ -250,7 +254,7 @@ msgstr ""
 "Renormalizovaný diferenční vegetační index využívá rozdíl mezi blízkou a "
 "červenou barvou a index NDVI k zobrazení oblastí se zdravou vegetací."
 
-#: app/api/formulas.py:92
+#: app/api/formulas.py:97
 msgid ""
 "Transformed Difference Vegetation Index highlights vegetation cover in urban "
 "environments."
@@ -258,7 +262,7 @@ msgstr ""
 "Transformovaný diferenční vegetační index zvýrazňuje vegetační pokryv v "
 "městském prostředí."
 
-#: app/api/formulas.py:96
+#: app/api/formulas.py:101
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
@@ -267,12 +271,12 @@ msgstr ""
 "má tendenci fungovat lépe v oblastech s malou vegetací, kde je půda "
 "viditelná."
 
-#: app/api/formulas.py:100
+#: app/api/formulas.py:105
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
 msgstr ""
 "Index listové plochy odhaduje plochy olistění a předpovídá výnosy plodin."
 
-#: app/api/formulas.py:105
+#: app/api/formulas.py:110
 msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
@@ -280,7 +284,7 @@ msgstr ""
 "Rozšířený vegetační index je užitečný v oblastech, kde může být NDVI "
 "nasycený, protože využívá modré vlnové délky ke korekci půdních signálů."
 
-#: app/api/formulas.py:110
+#: app/api/formulas.py:115
 msgid ""
 "Atmospherically Resistant Vegetation Index. Useful when working with imagery "
 "for regions with high atmospheric aerosol content."
@@ -288,12 +292,16 @@ msgstr ""
 "Index atmosféricky odolné vegetace. Užitečné při práci se snímky pro oblasti "
 "s vysokým obsahem atmosférického aerosolu."
 
-#: app/api/formulas.py:115
-msgid "Thermal temperature in Celsius degrees."
+#: app/api/formulas.py:120
+#, fuzzy
+#| msgid "Thermal temperature in Celsius degrees."
+msgid "Temperature in Celsius degrees."
 msgstr "Teplota ve stupních Celsia."
 
-#: app/api/formulas.py:119
-msgid "Thermal temperature in Centikelvin degrees."
+#: app/api/formulas.py:124
+#, fuzzy
+#| msgid "Thermal temperature in Centikelvin degrees."
+msgid "Temperature in Centikelvin degrees."
 msgstr "Teplota v centikelvinech."
 
 #: app/api/projects.py:125
@@ -309,35 +317,37 @@ msgid "Invalid permissions"
 msgstr "Neplatná oprávnění"
 
 #: app/api/tasks.py:185
-msgid "You need to upload at least 2 images before commit"
+#, fuzzy
+#| msgid "You need to upload at least 2 images before commit"
+msgid "You need to upload at least 1 file before commit"
 msgstr "Před odevzdáním je třeba nahrát alespoň 2 obrázky"
 
 #: app/api/tasks.py:207
 msgid "No files uploaded"
 msgstr "Nebyly nahrány žádné soubory"
 
-#: app/api/tasks.py:236
+#: app/api/tasks.py:233
 msgid "Cannot duplicate task"
 msgstr "Nelze duplikovat úlohu"
 
-#: app/api/tasks.py:253
+#: app/api/tasks.py:250
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Nelze vytvořit úlohu, potřebujete alespoň 2 obrázky"
 
-#: app/api/tasks.py:373 app/api/tasks.py:376 app/api/tasks.py:400
-#: app/api/tasks.py:403
+#: app/api/tasks.py:369 app/api/tasks.py:372 app/api/tasks.py:396
+#: app/api/tasks.py:399
 msgid "Asset does not exist"
 msgstr "Asset neexistuje"
 
-#: app/api/tasks.py:419
+#: app/api/tasks.py:415
 msgid "Imported Task"
 msgstr "Importovaná úloha"
 
-#: app/api/tasks.py:422
+#: app/api/tasks.py:418
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Nelze vytvořit úlohu, je třeba nahrát 1 soubor"
 
-#: app/api/tasks.py:425
+#: app/api/tasks.py:421
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "Nelze vytvořit úlohu, zadejte adresu URL nebo nahrajte 1 soubor."
 
@@ -410,36 +420,12 @@ msgstr "Neplatná hodnota hillshade: %(value)s"
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr "Nelze použít epsg na negeoreferencované datové sadě"
 
-#: app/models/image_upload.py:10
-msgid "Task this image belongs to"
-msgstr "K tomuto snímku patří i úloha"
-
-#: app/models/image_upload.py:10 app/models/task.py:282
-msgid "Task"
-msgstr "Úloha"
-
-#: app/models/image_upload.py:11
-msgid "File uploaded by a user"
-msgstr "Soubor nahraný uživatelem"
-
-#: app/models/image_upload.py:11
-msgid "Image"
-msgstr "Obrázek"
-
-#: app/models/image_upload.py:20
-msgid "Image Upload"
-msgstr "Nahrání obrázku"
-
-#: app/models/image_upload.py:21
-msgid "Image Uploads"
-msgstr "Nahrání obrázků"
-
 #: app/models/plugin.py:5
 msgid "Plugin name"
 msgstr "Název zásuvného modulu"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:241 app/models/theme.py:16
+#: app/models/task.py:242 app/models/theme.py:16
 msgid "Name"
 msgstr "Název"
 
@@ -517,15 +503,15 @@ msgid "Options that define this preset (same format as in a Task's options)."
 msgstr ""
 "Možnosti definující tuto předvolbu (stejný formát jako v možnostech úlohy)."
 
-#: app/models/preset.py:11 app/models/task.py:247
+#: app/models/preset.py:11 app/models/task.py:248
 msgid "Options"
 msgstr "Možnosti"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:256
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:257
 msgid "Creation date"
 msgstr "Datum vytvoření"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:256
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:257
 msgid "Created at"
 msgstr "Vytvořeno v"
 
@@ -579,20 +565,20 @@ msgstr "Odstranění"
 msgid "Project tags"
 msgstr "Štítky projektu"
 
-#: app/models/project.py:28 app/models/task.py:279
+#: app/models/project.py:28 app/models/task.py:280
 msgid "Tags"
 msgstr "Štítky"
 
-#: app/models/project.py:62 app/models/task.py:426
+#: app/models/project.py:65 app/models/task.py:419
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "Kopie %(task)s"
 
-#: app/models/project.py:87 app/models/task.py:240
+#: app/models/project.py:90 app/models/task.py:241
 msgid "Project"
 msgstr "Projekt"
 
-#: app/models/project.py:88
+#: app/models/project.py:91
 msgid "Projects"
 msgstr "Projekty"
 
@@ -645,27 +631,27 @@ msgstr "Aplikace"
 msgid "Settings"
 msgstr "Nastavení"
 
-#: app/models/task.py:237
+#: app/models/task.py:238
 msgid "Id"
 msgstr "Id"
 
-#: app/models/task.py:239
+#: app/models/task.py:240
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "Identifikátor úlohy (vrácený rozhraním NodeODM API)"
 
-#: app/models/task.py:239
+#: app/models/task.py:240
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "Project that this task belongs to"
 msgstr "Projekt, ke kterému tento úkol patří"
 
-#: app/models/task.py:241
+#: app/models/task.py:242
 msgid "A label for the task"
 msgstr "Označení úkolu"
 
-#: app/models/task.py:242
+#: app/models/task.py:243
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -673,11 +659,11 @@ msgstr ""
 "Počet milisekund, které uplynuly od začátku této úlohy (-1 znamená, že "
 "nejsou k dispozici žádné informace)"
 
-#: app/models/task.py:242
+#: app/models/task.py:243
 msgid "Processing Time"
 msgstr "Čas zpracování"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -685,11 +671,11 @@ msgstr ""
 "Zpracovatelský uzel přiřazený této úloze (nebo null, pokud tato úloha ještě "
 "nebyla přiřazena)"
 
-#: app/models/task.py:243 app/views/app.py:115 nodeodm/models.py:34
+#: app/models/task.py:244 app/views/app.py:115 nodeodm/models.py:34
 msgid "Processing Node"
 msgstr "Zpracovatelský uzel"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
@@ -697,63 +683,63 @@ msgstr ""
 "Příznak určující, zda má být této úloze automaticky přiřazen zpracovatelský "
 "uzel"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid "Auto Processing Node"
 msgstr "Uzel automatického zpracování"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid "Current status of the task"
 msgstr "Aktuální stav úkolu"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid "Status"
 msgstr "Status"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "The last processing error received"
 msgstr "Poslední přijatá chyba zpracování"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Last Error"
 msgstr "Poslední chyba"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "Options that are being used to process this task"
 msgstr "Možnosti, které se používají pro zpracování této úlohy"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "List of available assets to download"
 msgstr "Seznam dostupných prostředků ke stažení"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "Available Assets"
 msgstr "Dostupné prostředky"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Console output of the processing node"
 msgstr "Výstup konzoly zpracovatelského uzlu"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Console Output"
 msgstr "Výstup konzoly"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid "Extent of the orthophoto"
 msgstr "Rozsah ortofotomapy"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid "Orthophoto Extent"
 msgstr "Rozsah ortofotomapy"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid "DSM Extent"
 msgstr "Rozsah DSM"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid "DTM Extent"
 msgstr "Rozsah DTM"
 
-#: app/models/task.py:257
+#: app/models/task.py:258
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -761,19 +747,19 @@ msgstr ""
 "Požadovaná akce, která má být provedena v rámci úlohy. Vybranou akci provede "
 "pracovník při příští iteraci."
 
-#: app/models/task.py:257
+#: app/models/task.py:258
 msgid "Pending Action"
 msgstr "Očekávaná akce"
 
-#: app/models/task.py:259
+#: app/models/task.py:260
 msgid "A flag indicating whether this task is available to the public"
 msgstr "Příznak označující, zda je tato úloha dostupná veřejnosti"
 
-#: app/models/task.py:259
+#: app/models/task.py:260
 msgid "Public"
 msgstr "Veřejné"
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -782,11 +768,11 @@ msgstr ""
 "Je-li nastavena na jinou hodnotu než -1, znamená to, že obrázky pro tuto "
 "úlohu byly / budou před zpracováním zmenšeny na zde zadanou velikost."
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 msgid "Resize To"
 msgstr "Změnit velikost na"
 
-#: app/models/task.py:263
+#: app/models/task.py:264
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
@@ -794,47 +780,47 @@ msgstr ""
 "Hodnota mezi 0 a 1 udávající průběh nahrávání souborů této úlohy do "
 "zpracovatelského uzlu"
 
-#: app/models/task.py:264
+#: app/models/task.py:265
 msgid "Upload Progress"
 msgstr "Pokrok při nahrávání"
 
-#: app/models/task.py:267
+#: app/models/task.py:268
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr "Hodnota mezi 0 a 1 udávající průběh změny velikosti obrázků této úlohy"
 
-#: app/models/task.py:268
+#: app/models/task.py:269
 msgid "Resize Progress"
 msgstr "Průběh změny velikosti"
 
-#: app/models/task.py:271
+#: app/models/task.py:272
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr "Hodnota mezi 0 a 1 udávající průběh (odhadovaný) této úlohy"
 
-#: app/models/task.py:272
+#: app/models/task.py:273
 msgid "Running Progress"
 msgstr "Pokrok při běhu"
 
-#: app/models/task.py:274
+#: app/models/task.py:275
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr ""
 "Adresa URL, ze které je úloha importována (pouze pro importované úlohy)"
 
-#: app/models/task.py:274
+#: app/models/task.py:275
 msgid "Import URL"
 msgstr "Import URL"
 
-#: app/models/task.py:275
+#: app/models/task.py:276
 msgid "Number of images associated with this task"
 msgstr "Počet snímků spojených s tímto úkolem"
 
-#: app/models/task.py:275
+#: app/models/task.py:276
 msgid "Images Count"
 msgstr "Počet obrázků"
 
-#: app/models/task.py:276
+#: app/models/task.py:277
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
@@ -842,11 +828,11 @@ msgstr ""
 "Příznak označující, zda tato úloha v současné době čeká na odeslání "
 "informací nebo souborů, než bude zváženo její zpracování."
 
-#: app/models/task.py:276
+#: app/models/task.py:277
 msgid "Partial"
 msgstr "Částečně"
 
-#: app/models/task.py:277
+#: app/models/task.py:278
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
@@ -854,50 +840,66 @@ msgstr ""
 "Serializované informace o scéně potree sloužící k uložení/nahrání měření a "
 "úhlu pohledu kamery"
 
-#: app/models/task.py:277
+#: app/models/task.py:278
 msgid "Potree Scene"
 msgstr "Scéna Potree"
 
-#: app/models/task.py:278
+#: app/models/task.py:279
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "Kód EPSG datové sady (pokud je georeferencovaná)"
 
-#: app/models/task.py:279
+#: app/models/task.py:280
 msgid "Task tags"
 msgstr "Štítky úkolů"
 
-#: app/models/task.py:283
+#: app/models/task.py:281
+#, fuzzy
+#| msgid "Extent of the orthophoto"
+msgid "List of orthophoto bands"
+msgstr "Rozsah ortofotomapy"
+
+#: app/models/task.py:281
+#, fuzzy
+#| msgid "Orthophoto Extent"
+msgid "Orthophoto Bands"
+msgstr "Rozsah ortofotomapy"
+
+#: app/models/task.py:284
+msgid "Task"
+msgstr "Úloha"
+
+#: app/models/task.py:285
 msgid "Tasks"
 msgstr "Úkoly"
 
-#: app/models/task.py:292
+#: app/models/task.py:294
 msgid "unnamed"
 msgstr "nejmenovaný"
 
-#: app/models/task.py:507
+#: app/models/task.py:490
 msgid "Importing assets..."
 msgstr "Importování assetu..."
 
-#: app/models/task.py:559 app/models/task.py:827
+#: app/models/task.py:542 app/models/task.py:811
 msgid "Invalid zip file"
 msgstr "Chybný soubor zip"
 
-#: app/models/task.py:653
+#: app/models/task.py:637
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Chyba spojení: %(error)s"
 
-#: app/models/task.py:733
+#: app/models/task.py:717
 msgid "Cannot restart a task that has no processing node"
 msgstr "Nelze restartovat úlohu, která nemá žádný zpracovatelský uzel"
 
-#: app/models/task.py:888
+#: app/models/task.py:877
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "Nepodporovaný SRS %(code)s. Ujistěte se, že jste vybrali podporovaný SRS."
 
-#: app/models/task.py:900
+#: app/models/task.py:890
 msgid "Done!"
 msgstr "Dokončeno!"
 
@@ -1634,30 +1636,26 @@ msgid "Compute, preview and export contours from DEMs"
 msgstr "Výpočet, náhled a export obrysů z DEM"
 
 #: app/translations/plugin_manifest_autogenerated.py:7
-msgid "Display program version, memory and disk space usage statistics"
-msgstr "Zobrazení statistik verze programu, využití paměti a místa na disku"
-
-#: app/translations/plugin_manifest_autogenerated.py:8
 msgid "Calculate and draw an elevation map based on a task's DEMs"
 msgstr "Výpočet a vykreslení výškové mapy na základě DEM úlohy"
 
-#: app/translations/plugin_manifest_autogenerated.py:9
+#: app/translations/plugin_manifest_autogenerated.py:8
 msgid "Add a fullscreen button to the 2D map view"
 msgstr "Přidání tlačítka pro zobrazení na celou obrazovku do zobrazení 2D mapy"
 
-#: app/translations/plugin_manifest_autogenerated.py:10
+#: app/translations/plugin_manifest_autogenerated.py:9
 msgid "Sync accounts from webodm.net"
 msgstr "Synchronizace účtů z webodm.net"
 
-#: app/translations/plugin_manifest_autogenerated.py:11
+#: app/translations/plugin_manifest_autogenerated.py:10
 msgid "Compute volume, area and length measurements on Leaflet"
 msgstr "Výpočet objemu, plochy a délky na Leaflet"
 
-#: app/translations/plugin_manifest_autogenerated.py:12
+#: app/translations/plugin_manifest_autogenerated.py:11
 msgid "A plugin to upload orthophotos to OpenAerialMap"
 msgstr "Zásuvný modul pro nahrávání ortofotomap do OpenAerialMap"
 
-#: app/translations/plugin_manifest_autogenerated.py:13
+#: app/translations/plugin_manifest_autogenerated.py:12
 msgid ""
 "A plugin to add a button for quickly opening OpenStreetMap's iD editor and "
 "setup a TMS basemap."
@@ -1665,22 +1663,32 @@ msgstr ""
 "Zásuvný modul pro přidání tlačítka pro rychlé otevření iD editoru "
 "OpenStreetMap a nastavení podkladu TMS."
 
+#: app/translations/plugin_manifest_autogenerated.py:13
 #: app/translations/plugin_manifest_autogenerated.py:14
-#: app/translations/plugin_manifest_autogenerated.py:15
 msgid "A plugin to create GCP files from images"
 msgstr "Zásuvný modul pro vytváření souborů GCP z obrázků"
 
-#: app/translations/plugin_manifest_autogenerated.py:16
+#: app/translations/plugin_manifest_autogenerated.py:15
 msgid "Create short links when sharing task URLs"
 msgstr "Vytváření krátkých odkazů při sdílení URL úloh"
 
-#: app/translations/plugin_manifest_autogenerated.py:17
+#: app/translations/plugin_manifest_autogenerated.py:16
 msgid "Create editable short links when sharing task URLs"
 msgstr "Vytváření upravitelných krátkých odkazů při sdílení URL úloh"
 
-#: app/translations/plugin_manifest_autogenerated.py:18
+#: app/translations/plugin_manifest_autogenerated.py:17
 msgid "Integrate WebODM with DroneDB: import images and share results"
 msgstr "Integrace WebODM s DroneDB: import snímků a sdílení výsledků"
+
+#: app/translations/plugin_manifest_autogenerated.py:18
+msgid ""
+"Get notified when a task has finished processing, has been removed or has "
+"failed"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:19
+msgid "Display program version, memory and disk space usage statistics"
+msgstr "Zobrazení statistik verze programu, využití paměti a místa na disku"
 
 #: app/views/app.py:44
 msgid "First Project"
@@ -1829,6 +1837,14 @@ msgstr ""
 msgid "GCP Interface"
 msgstr "Rozhraní GCP"
 
+#: coreplugins/tasknotification/plugin.py:84
+msgid "Task Notification"
+msgstr ""
+
+#: coreplugins/tasknotification/templates/index.html:5
+msgid "Tasks Notification"
+msgstr ""
+
 #: nodeodm/apps.py:8
 msgid "Node Management"
 msgstr "Správa uzlů"
@@ -1908,6 +1924,21 @@ msgstr ""
 #: nodeodm/models.py:31
 msgid "Engine used by the node."
 msgstr "Engine používaný uzlem."
+
+#~ msgid "Task this image belongs to"
+#~ msgstr "K tomuto snímku patří i úloha"
+
+#~ msgid "File uploaded by a user"
+#~ msgstr "Soubor nahraný uživatelem"
+
+#~ msgid "Image"
+#~ msgstr "Obrázek"
+
+#~ msgid "Image Upload"
+#~ msgstr "Nahrání obrázku"
+
+#~ msgid "Image Uploads"
+#~ msgstr "Nahrání obrázků"
 
 #~ msgid "You need at least 5 images"
 #~ msgstr "Potřebujete alespoň 5 obrázků"
