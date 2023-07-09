@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 17:15+0000\n"
-"PO-Revision-Date: 2023-03-22 15:45+0000\n"
-"Last-Translator: Viktor Kryvda <ivic4u@gmail.com>\n"
+"PO-Revision-Date: 2023-07-10 16:50+0000\n"
+"Last-Translator: Andriy Tymchenko <silpol@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/webodm/webodm/"
 "uk/>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: app/admin.py:52
 msgid "Enter custom CSS"
@@ -213,52 +213,67 @@ msgid ""
 "Modified Non-Linear Index improves the Non-Linear Index algorithm to account "
 "for soil areas."
 msgstr ""
+"Модифікований нелінійний індекс покращує алгоритм нелінійного індексу для "
+"врахування площ ґрунту."
 
 #: app/api/formulas.py:66
 msgid ""
 "Modified Simple Ratio is an improvement of the Simple Ratio (SR) index to be "
 "more sensitive to vegetation."
 msgstr ""
+"Модифіковане просте відношення - це покращення індексу простого відношення "
+"(SR), щоб бути більш чутливим до рослинності."
 
 #: app/api/formulas.py:70
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
 msgstr ""
+"Перенормований різницевий вегетаційний індекс використовує різницю між "
+"ближнім інфрачервоним та червоним кольорами, а також NDVI, щоб показати "
+"ділянки здорової рослинності."
 
 #: app/api/formulas.py:74
 msgid ""
 "Transformed Difference Vegetation Index highlights vegetation cover in urban "
 "environments."
 msgstr ""
+"Трансформований індекс різниці рослинності підкреслює рослинний покрив у "
+"міському середовищі."
 
 #: app/api/formulas.py:78
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
 msgstr ""
+"Оптимізований індекс рослинності з поправкою на ґрунт базується на індексі "
+"SAVI, але, як правило, краще працює на ділянках з невеликою кількістю "
+"рослинності, де видно ґрунт."
 
 #: app/api/formulas.py:82
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
-msgstr ""
+msgstr "Індекс площі листя оцінює площу листя та прогнозує врожайність культур."
 
 #: app/api/formulas.py:87
 msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
 msgstr ""
+"Розширений індекс рослинності корисний на ділянках, де NDVI може "
+"перенасичуватися, завдяки використанню синіх хвиль для корекції сигналів "
+"ґрунту."
 
 #: app/api/projects.py:67
 msgid "Cannot duplicate project"
-msgstr ""
+msgstr "Неможливо дублювати проект"
 
 #: app/api/projects.py:134
 msgid "Invalid user in permissions list"
-msgstr ""
+msgstr "Неправильний користувач у списку дозволів"
 
 #: app/api/projects.py:136
 msgid "Invalid permissions"
-msgstr ""
+msgstr "Недійсні дозволи"
 
 #: app/api/tasks.py:183
 msgid "You need to upload at least 2 images before commit"
@@ -266,11 +281,11 @@ msgstr ""
 
 #: app/api/tasks.py:205
 msgid "No files uploaded"
-msgstr ""
+msgstr "Файли не завантажено"
 
 #: app/api/tasks.py:234
 msgid "Cannot duplicate task"
-msgstr ""
+msgstr "Неможливо дублювати завдання"
 
 #: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
@@ -283,15 +298,15 @@ msgstr ""
 
 #: app/api/tasks.py:417
 msgid "Imported Task"
-msgstr ""
+msgstr "Імпортоване завдання"
 
 #: app/api/tasks.py:420
 msgid "Cannot create task, you need to upload 1 file"
-msgstr ""
+msgstr "Неможливо створити завдання, потрібно завантажити 1 файл"
 
 #: app/api/tasks.py:423
 msgid "Cannot create task, either specify a URL or upload 1 file."
-msgstr ""
+msgstr "Неможливо створити завдання, або вкажіть URL, або завантажте 1 файл."
 
 #: app/api/tiler.py:311
 msgid "Invalid boundaries parameter"
@@ -299,42 +314,46 @@ msgstr ""
 
 #: app/api/tiler.py:347 app/api/tiler.py:410
 msgid "Outside of bounds"
-msgstr ""
+msgstr "Поза межами"
 
 #: app/api/tiler.py:358
 msgid "Invalid boundaries"
-msgstr ""
+msgstr "Недійсні межі"
 
 #: app/api/tiler.py:416 app/api/tiler.py:513
 msgid "Not a valid color_map value"
-msgstr ""
+msgstr "Недійсне значення color_map"
 
 #: app/api/tiler.py:422
 msgid "Invalid rescale value"
-msgstr ""
+msgstr "Неправильне значення масштабування"
 
 #: app/api/tiler.py:431
 msgid "Invalid hillshade value"
-msgstr ""
+msgstr "Невірне значення тіні від пагорба"
 
 #: app/api/tiler.py:434
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
+"Не вдається обчислити тінь від пагорба для растра без висот (знайдено "
+"декілька смуг)"
 
 #: app/api/tiler.py:451
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
+"Неможливо обробити плитку: надано зображення інтенсивності, але не обчислено "
+"дані RGB."
 
 #: app/api/tiler.py:498 app/api/tiler.py:500
 #, python-format
 msgid "Unsupported format: %(value)s"
-msgstr ""
+msgstr "Непідтримуваний формат: %(value)s"
 
 #: app/api/tiler.py:519
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr ""
+msgstr "Невірний код EPSG: %(value)s"
 
 #: app/api/tiler.py:522
 msgid "Both formula and bands parameters are required"
@@ -343,12 +362,12 @@ msgstr ""
 #: app/api/tiler.py:542
 #, python-format
 msgid "Invalid rescale value: %(value)s"
-msgstr ""
+msgstr "Неправильне значення масштабування: %(value)s"
 
 #: app/api/tiler.py:550
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
-msgstr ""
+msgstr "Невірне значення тіні від пагорба: %(value)s"
 
 #: app/models/image_upload.py:10
 msgid "Task this image belongs to"
