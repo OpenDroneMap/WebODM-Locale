@@ -320,36 +320,37 @@ msgstr "Utente non valido nell'elenco delle autorizzazioni"
 msgid "Invalid permissions"
 msgstr "Permessi non validi"
 
-#: app/api/tasks.py:184
+#: app/api/tasks.py:184 app/api/tasks.py:185
 msgid "You need to upload at least 1 file before commit"
 msgstr "Devi caricare almeno 1 file prima di confermare"
 
-#: app/api/tasks.py:207
+#: app/api/tasks.py:207 app/api/tasks.py:208
 msgid "No files uploaded"
 msgstr "Nessun file caricato"
 
-#: app/api/tasks.py:233
+#: app/api/tasks.py:233 app/api/tasks.py:234
 msgid "Cannot duplicate task"
 msgstr "Impossibile duplicare l'attività"
 
-#: app/api/tasks.py:250
+#: app/api/tasks.py:250 app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Non è possibile creare l'attività, richieste almeno 2 immagini"
 
 #: app/api/tasks.py:369 app/api/tasks.py:372 app/api/tasks.py:396
-#: app/api/tasks.py:399
+#: app/api/tasks.py:399 app/api/tasks.py:370 app/api/tasks.py:373
+#: app/api/tasks.py:397 app/api/tasks.py:400
 msgid "Asset does not exist"
 msgstr "La risorsa non esiste"
 
-#: app/api/tasks.py:415
+#: app/api/tasks.py:415 app/api/tasks.py:416
 msgid "Imported Task"
 msgstr "Attività importata"
 
-#: app/api/tasks.py:418
+#: app/api/tasks.py:418 app/api/tasks.py:419
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Impossibile creare l'attività, devi caricare almeno 1 file"
 
-#: app/api/tasks.py:421
+#: app/api/tasks.py:421 app/api/tasks.py:422
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "Impossibile creare l'attività, indicare un URL oppure caricare 1 file."
 
@@ -427,7 +428,7 @@ msgid "Plugin name"
 msgstr "Nome Plugin"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:243 app/models/theme.py:16
+#: app/models/task.py:243 app/models/theme.py:16 app/models/task.py:242
 msgid "Name"
 msgstr "Nome"
 
@@ -507,7 +508,7 @@ msgstr ""
 "Opzioni che definiscono questa impostazione predefinita (lo stesso formato "
 "delle opzioni delle Attività)."
 
-#: app/models/preset.py:11 app/models/task.py:249
+#: app/models/preset.py:11 app/models/task.py:249 app/models/task.py:248
 msgid "Options"
 msgstr "Opzioni"
 
@@ -581,12 +582,12 @@ msgstr "Tag progetti"
 msgid "Tags"
 msgstr "Tag"
 
-#: app/models/project.py:65 app/models/task.py:428
+#: app/models/project.py:65 app/models/task.py:428 app/models/task.py:420
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "Copia di %(task)s"
 
-#: app/models/project.py:90 app/models/task.py:242
+#: app/models/project.py:90 app/models/task.py:242 app/models/task.py:241
 msgid "Project"
 msgstr "Progetto"
 
@@ -643,27 +644,27 @@ msgstr "Applicazione"
 msgid "Settings"
 msgstr "Impostazioni"
 
-#: app/models/task.py:239
+#: app/models/task.py:239 app/models/task.py:238
 msgid "Id"
 msgstr "Id"
 
-#: app/models/task.py:241
+#: app/models/task.py:241 app/models/task.py:240
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "Identificatore dell'Attività (come ritornato da NodeODM API)"
 
-#: app/models/task.py:241
+#: app/models/task.py:241 app/models/task.py:240
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:242
+#: app/models/task.py:242 app/models/task.py:241
 msgid "Project that this task belongs to"
 msgstr "Progetto al quale appartiene questa Attività"
 
-#: app/models/task.py:243
+#: app/models/task.py:243 app/models/task.py:242
 msgid "A label for the task"
 msgstr "Etichetta per l'Attività"
 
-#: app/models/task.py:244
+#: app/models/task.py:244 app/models/task.py:243
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -671,11 +672,11 @@ msgstr ""
 "Numero di millisecondi trascorsi dall'inizio di questa Attività (-1 indica "
 "che non sono disponibili informazioni)"
 
-#: app/models/task.py:244
+#: app/models/task.py:244 app/models/task.py:243
 msgid "Processing Time"
 msgstr "Tempo di elaborazione"
 
-#: app/models/task.py:245
+#: app/models/task.py:245 app/models/task.py:244
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -684,10 +685,11 @@ msgstr ""
 "non è stata ancora associata)"
 
 #: app/models/task.py:245 app/views/app.py:116 nodeodm/models.py:36
+#: app/models/task.py:244
 msgid "Processing Node"
 msgstr "Nodo elaborazione"
 
-#: app/models/task.py:246
+#: app/models/task.py:246 app/models/task.py:245
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
@@ -695,35 +697,35 @@ msgstr ""
 "Flag che indica se questa Attività deve essere assegnata automaticamente ad "
 "un nodo di elaborazione"
 
-#: app/models/task.py:246
+#: app/models/task.py:246 app/models/task.py:245
 msgid "Auto Processing Node"
 msgstr "Nodo di Elaborazione automatico"
 
-#: app/models/task.py:247
+#: app/models/task.py:247 app/models/task.py:246
 msgid "Current status of the task"
 msgstr "Stato attuale dell'Attività"
 
-#: app/models/task.py:247
+#: app/models/task.py:247 app/models/task.py:246
 msgid "Status"
 msgstr "Stato"
 
-#: app/models/task.py:248
+#: app/models/task.py:248 app/models/task.py:247
 msgid "The last processing error received"
 msgstr "Ultimo errore di elaborazione ricevuto"
 
-#: app/models/task.py:248
+#: app/models/task.py:248 app/models/task.py:247
 msgid "Last Error"
 msgstr "Ultimo errore"
 
-#: app/models/task.py:249
+#: app/models/task.py:249 app/models/task.py:248
 msgid "Options that are being used to process this task"
 msgstr "Opzioni utilizzate per elaborare questa Attività"
 
-#: app/models/task.py:250
+#: app/models/task.py:250 app/models/task.py:249
 msgid "List of available assets to download"
 msgstr "Lista di risorse disponibili da scaricare"
 
-#: app/models/task.py:250
+#: app/models/task.py:250 app/models/task.py:249
 msgid "Available Assets"
 msgstr "Risorse disponibili"
 
@@ -886,34 +888,35 @@ msgstr "Attività"
 msgid "Tasks"
 msgstr "Attività"
 
-#: app/models/task.py:297
+#: app/models/task.py:297 app/models/task.py:295
 msgid "unnamed"
 msgstr "senza nome"
 
-#: app/models/task.py:501
+#: app/models/task.py:501 app/models/task.py:493
 msgid "Importing assets..."
 msgstr "Importazione risorse..."
 
-#: app/models/task.py:553 app/models/task.py:822
+#: app/models/task.py:553 app/models/task.py:822 app/models/task.py:545
+#: app/models/task.py:814
 msgid "Invalid zip file"
 msgstr "File zip non valido"
 
-#: app/models/task.py:648
+#: app/models/task.py:648 app/models/task.py:640
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Errore di connessione: %(error)s"
 
-#: app/models/task.py:728
+#: app/models/task.py:728 app/models/task.py:720
 msgid "Cannot restart a task that has no processing node"
 msgstr "Impossibile riavviare una Attività che non ha un nodo di elaborazione"
 
-#: app/models/task.py:888
+#: app/models/task.py:888 app/models/task.py:880
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "SRS non supportato %(code)s. Assicurati di aver scelto un SRS supportato."
 
-#: app/models/task.py:902
+#: app/models/task.py:902 app/models/task.py:894
 msgid "Done!"
 msgstr "Fatto!"
 
@@ -1441,7 +1444,7 @@ msgid "Save and continue editing"
 msgstr "Salva e continua a modificare"
 
 #: app/templates/app/dashboard.html:18 app/templates/app/dashboard.html:31
-#: app/templates/app/welcome.html:227
+#: app/templates/app/welcome.html:227 app/templates/app/dashboard.html:30
 msgid "Welcome!"
 msgstr "Benvenuto!"
 
@@ -1460,11 +1463,11 @@ msgstr ""
 "che elabora un'istanza di %(nodeodm_link)s o qualche altro software che "
 "implementa queste API %(api_link)s."
 
-#: app/templates/app/dashboard.html:32
+#: app/templates/app/dashboard.html:32 app/templates/app/dashboard.html:31
 msgid "Select Images and GCP"
 msgstr "Seleziona Immagini e GCP"
 
-#: app/templates/app/dashboard.html:34
+#: app/templates/app/dashboard.html:34 app/templates/app/dashboard.html:33
 #, python-format
 msgid ""
 "To create a map, press the \"%(upload_images)s\" button, or drag and drop "
@@ -1473,22 +1476,22 @@ msgstr ""
 "Per creare una mappa, premi il pulsante \"%(upload_images)s\" o trascina "
 "delle immagini in un progetto."
 
-#: app/templates/app/dashboard.html:38
+#: app/templates/app/dashboard.html:38 app/templates/app/dashboard.html:37
 msgid "You need at least 5 images, but 16-32 is typically the minimum."
 msgstr "Sono necessarie almeno 5 immagini, ma in genere 16-32 è il minimo."
 
-#: app/templates/app/dashboard.html:39
+#: app/templates/app/dashboard.html:39 app/templates/app/dashboard.html:38
 #, python-format
 msgid "Images must overlap by 65%% or more. Aim for 70-72%%"
 msgstr "Le immagini devono sovrapporsi di 65%% o più. Punta al 70-72%%"
 
-#: app/templates/app/dashboard.html:40
+#: app/templates/app/dashboard.html:40 app/templates/app/dashboard.html:39
 #, python-format
 msgid "For great 3D, images must overlap by 83%%"
 msgstr ""
 "Per un migliore 3D, le immagini devono essere sovrapposte almeno per l'83%%"
 
-#: app/templates/app/dashboard.html:41
+#: app/templates/app/dashboard.html:41 app/templates/app/dashboard.html:40
 #, python-format
 msgid ""
 "A %(link_start)sGCP File%(link_end)s is optional, but can increase "
@@ -1634,13 +1637,16 @@ msgstr "Opzioni (JSON)"
 msgid "Edit"
 msgstr "Modifica"
 
-#: app/templates/app/quota.html:9
+#: app/templates/app/quota.html:8
 #, python-format
 msgid ""
 "The disk quota is being exceeded (%(used)s of %(total)s used). The most "
 "recent tasks will be automatically deleted %(when)s, until usage falls below "
 "%(total)s."
 msgstr ""
+"La quota di disco è stata superata (%(used)s di %(total)s usati). Le "
+"attività più recenti verranno automaticamente eliminate %(when)s, fino a "
+"quando l'utilizzo non si sarà abbassato sotto i %(total)s."
 
 #: app/templates/app/quota.html:14
 #, python-format
@@ -1921,7 +1927,6 @@ msgstr ""
 
 #: coreplugins/projects-charts/templates/index.html:69
 #, fuzzy
-#| msgid "Projects"
 msgid "Projects by month"
 msgstr "Progetti"
 
@@ -2019,11 +2024,13 @@ msgstr ""
 msgid "Engine used by the node."
 msgstr "Motore usato dal nodo."
 
-#~ msgid "Console output of the processing node"
-#~ msgstr "Output della console del nodo di elaborazione"
+#: app/models/task.py:250
+msgid "Console output of the processing node"
+msgstr "Output della console del nodo di elaborazione"
 
-#~ msgid "Console Output"
-#~ msgstr "Output della Console"
+#: app/models/task.py:250
+msgid "Console Output"
+msgstr "Output della Console"
 
 #~ msgid "Task this image belongs to"
 #~ msgstr "Attività a cui appartiene questa immagine"
