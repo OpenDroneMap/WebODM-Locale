@@ -325,36 +325,37 @@ msgstr "Недопустимый пользователь в списке раз
 msgid "Invalid permissions"
 msgstr "Недопустимые разрешения"
 
-#: app/api/tasks.py:184
+#: app/api/tasks.py:184 app/api/tasks.py:185
 msgid "You need to upload at least 1 file before commit"
 msgstr "Вы должны загрузить минимум 1 файл перед тем, как продолжить"
 
-#: app/api/tasks.py:207
+#: app/api/tasks.py:207 app/api/tasks.py:208
 msgid "No files uploaded"
 msgstr "Нет загруженных файлов"
 
-#: app/api/tasks.py:233
+#: app/api/tasks.py:233 app/api/tasks.py:234
 msgid "Cannot duplicate task"
 msgstr "Невозможно продублировать задачу"
 
-#: app/api/tasks.py:250
+#: app/api/tasks.py:250 app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Невозможно создать задачу, требуется минимум 2 изображения"
 
 #: app/api/tasks.py:369 app/api/tasks.py:372 app/api/tasks.py:396
-#: app/api/tasks.py:399
+#: app/api/tasks.py:399 app/api/tasks.py:370 app/api/tasks.py:373
+#: app/api/tasks.py:397 app/api/tasks.py:400
 msgid "Asset does not exist"
 msgstr "Набор данных отсутствует"
 
-#: app/api/tasks.py:415
+#: app/api/tasks.py:415 app/api/tasks.py:416
 msgid "Imported Task"
 msgstr "Импортированная задача"
 
-#: app/api/tasks.py:418
+#: app/api/tasks.py:418 app/api/tasks.py:419
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Невозможно создать задачу, требуется загрузить минимум 1 файл"
 
-#: app/api/tasks.py:421
+#: app/api/tasks.py:421 app/api/tasks.py:422
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "Невозможно создать задачу, укажите URL-адрес или загрузите 1 файл."
 
@@ -432,7 +433,7 @@ msgid "Plugin name"
 msgstr "Название плагина"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:243 app/models/theme.py:16
+#: app/models/task.py:243 app/models/theme.py:16 app/models/task.py:242
 msgid "Name"
 msgstr "Имя"
 
@@ -512,7 +513,7 @@ msgstr ""
 "Параметры, определяющие этот пресет (тот же формат, что и в параметрах "
 "задачи)."
 
-#: app/models/preset.py:11 app/models/task.py:249
+#: app/models/preset.py:11 app/models/task.py:249 app/models/task.py:248
 msgid "Options"
 msgstr "Опции"
 
@@ -546,11 +547,11 @@ msgstr "Пресеты"
 
 #: app/models/profile.py:15
 msgid "Maximum disk quota in megabytes"
-msgstr ""
+msgstr "Максимальная дисковая квота в мегабайтах"
 
 #: app/models/profile.py:15
 msgid "Quota"
-msgstr ""
+msgstr "Квота"
 
 #: app/models/project.py:23
 msgid "The person who created the project"
@@ -585,12 +586,12 @@ msgstr "Теги проекта"
 msgid "Tags"
 msgstr "Теги"
 
-#: app/models/project.py:65 app/models/task.py:428
+#: app/models/project.py:65 app/models/task.py:428 app/models/task.py:420
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "Копия %(task)s"
 
-#: app/models/project.py:90 app/models/task.py:242
+#: app/models/project.py:90 app/models/task.py:242 app/models/task.py:241
 msgid "Project"
 msgstr "Проект"
 
@@ -647,27 +648,27 @@ msgstr "Приложение"
 msgid "Settings"
 msgstr "Настройки"
 
-#: app/models/task.py:239
+#: app/models/task.py:239 app/models/task.py:238
 msgid "Id"
 msgstr "ID"
 
-#: app/models/task.py:241
+#: app/models/task.py:241 app/models/task.py:240
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "Идентификатор вашей задачи (так же, как и в NodeODM API)"
 
-#: app/models/task.py:241
+#: app/models/task.py:241 app/models/task.py:240
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:242
+#: app/models/task.py:242 app/models/task.py:241
 msgid "Project that this task belongs to"
 msgstr "Проект, к которому принадлежит эта задача"
 
-#: app/models/task.py:243
+#: app/models/task.py:243 app/models/task.py:242
 msgid "A label for the task"
 msgstr "Пометка для задачи"
 
-#: app/models/task.py:244
+#: app/models/task.py:244 app/models/task.py:243
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -675,11 +676,11 @@ msgstr ""
 "Количество миллисекунд, которое прошло с момента начала задачи (-1 означает, "
 "что информация недоступна)"
 
-#: app/models/task.py:244
+#: app/models/task.py:244 app/models/task.py:243
 msgid "Processing Time"
 msgstr "Время обработки"
 
-#: app/models/task.py:245
+#: app/models/task.py:245 app/models/task.py:244
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -687,10 +688,11 @@ msgstr ""
 "Узел обработки, назначенный для этой задачи (или null, если узел не назначен)"
 
 #: app/models/task.py:245 app/views/app.py:116 nodeodm/models.py:36
+#: app/models/task.py:244
 msgid "Processing Node"
 msgstr "Узел обработки"
 
-#: app/models/task.py:246
+#: app/models/task.py:246 app/models/task.py:245
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
@@ -698,35 +700,35 @@ msgstr ""
 "Флаг, указывающий, следует ли этой задаче автоматически назначать узел "
 "обработки"
 
-#: app/models/task.py:246
+#: app/models/task.py:246 app/models/task.py:245
 msgid "Auto Processing Node"
 msgstr "Узел автоматической обработки"
 
-#: app/models/task.py:247
+#: app/models/task.py:247 app/models/task.py:246
 msgid "Current status of the task"
 msgstr "Текущий статус выполнения задачи"
 
-#: app/models/task.py:247
+#: app/models/task.py:247 app/models/task.py:246
 msgid "Status"
 msgstr "Статус"
 
-#: app/models/task.py:248
+#: app/models/task.py:248 app/models/task.py:247
 msgid "The last processing error received"
 msgstr "Последняя полученная ошибка обработки"
 
-#: app/models/task.py:248
+#: app/models/task.py:248 app/models/task.py:247
 msgid "Last Error"
 msgstr "Последняя ошибка"
 
-#: app/models/task.py:249
+#: app/models/task.py:249 app/models/task.py:248
 msgid "Options that are being used to process this task"
 msgstr "Опции, которые будут использованы при выполнении этой задачи"
 
-#: app/models/task.py:250
+#: app/models/task.py:250 app/models/task.py:249
 msgid "List of available assets to download"
 msgstr "Список доступных наборов данных для скачивания"
 
-#: app/models/task.py:250
+#: app/models/task.py:250 app/models/task.py:249
 msgid "Available Assets"
 msgstr "Доступные наборы данных"
 
@@ -866,7 +868,6 @@ msgstr "Теги задач"
 
 #: app/models/task.py:281
 #, fuzzy
-#| msgid "Extent of the orthophoto"
 msgid "List of orthophoto bands"
 msgstr "Масштаб ортофотоплана"
 
@@ -876,11 +877,11 @@ msgstr "Масштаб полосы"
 
 #: app/models/task.py:282
 msgid "Size of the task on disk in megabytes"
-msgstr ""
+msgstr "Размер задачи на диске в мегабайтах"
 
 #: app/models/task.py:282
 msgid "Size"
-msgstr ""
+msgstr "Размер"
 
 #: app/models/task.py:285
 msgid "Task"
@@ -890,35 +891,36 @@ msgstr "Задача"
 msgid "Tasks"
 msgstr "Задачи"
 
-#: app/models/task.py:297
+#: app/models/task.py:297 app/models/task.py:295
 msgid "unnamed"
 msgstr "безымянный"
 
-#: app/models/task.py:501
+#: app/models/task.py:501 app/models/task.py:493
 msgid "Importing assets..."
 msgstr "Импортирование наборов данных..."
 
-#: app/models/task.py:553 app/models/task.py:822
+#: app/models/task.py:553 app/models/task.py:822 app/models/task.py:545
+#: app/models/task.py:814
 msgid "Invalid zip file"
 msgstr "Неверный zip файл"
 
-#: app/models/task.py:648
+#: app/models/task.py:648 app/models/task.py:640
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Ошибка соединения: %(error)s"
 
-#: app/models/task.py:728
+#: app/models/task.py:728 app/models/task.py:720
 msgid "Cannot restart a task that has no processing node"
 msgstr "Невозможно перезапустить задачу, у которой нет узла обработки"
 
-#: app/models/task.py:888
+#: app/models/task.py:888 app/models/task.py:880
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "Неподдерживаемый SRS %(code)s. Пожалуйста, убедитесь, что выбрали "
 "поддерживаемый SRS файл."
 
-#: app/models/task.py:902
+#: app/models/task.py:902 app/models/task.py:894
 msgid "Done!"
 msgstr "Готово!"
 
@@ -1448,7 +1450,7 @@ msgid "Save and continue editing"
 msgstr "Сохранить и продолжить редактирование"
 
 #: app/templates/app/dashboard.html:18 app/templates/app/dashboard.html:31
-#: app/templates/app/welcome.html:227
+#: app/templates/app/welcome.html:227 app/templates/app/dashboard.html:30
 msgid "Welcome!"
 msgstr "Добро пожаловать!"
 
@@ -1467,11 +1469,11 @@ msgstr ""
 "на котором запущен экземпляр %(nodeodm_link)s или какое-либо другое "
 "программное обеспечение, реализующее этот %(api_link)s."
 
-#: app/templates/app/dashboard.html:32
+#: app/templates/app/dashboard.html:32 app/templates/app/dashboard.html:31
 msgid "Select Images and GCP"
 msgstr "Выбрать изображения и контрольные точки"
 
-#: app/templates/app/dashboard.html:34
+#: app/templates/app/dashboard.html:34 app/templates/app/dashboard.html:33
 #, python-format
 msgid ""
 "To create a map, press the \"%(upload_images)s\" button, or drag and drop "
@@ -1480,22 +1482,22 @@ msgstr ""
 "Чтобы создать карту, нажмите кнопку \"%(upload_images)s\" или перетащите "
 "несколько изображений в проект."
 
-#: app/templates/app/dashboard.html:38
+#: app/templates/app/dashboard.html:38 app/templates/app/dashboard.html:37
 msgid "You need at least 5 images, but 16-32 is typically the minimum."
 msgstr "Вам нужно как минимум 5 изображений, но обычно минимум 16-32."
 
-#: app/templates/app/dashboard.html:39
+#: app/templates/app/dashboard.html:39 app/templates/app/dashboard.html:38
 #, python-format
 msgid "Images must overlap by 65%% or more. Aim for 70-72%%"
 msgstr ""
 "Изображения должны перекрываться на 65%% или более. Стремитесь к 70-72%%"
 
-#: app/templates/app/dashboard.html:40
+#: app/templates/app/dashboard.html:40 app/templates/app/dashboard.html:39
 #, python-format
 msgid "For great 3D, images must overlap by 83%%"
 msgstr "Для получения хорошего 3D, изображения должны перекрываться на 83%%"
 
-#: app/templates/app/dashboard.html:41
+#: app/templates/app/dashboard.html:41 app/templates/app/dashboard.html:40
 #, python-format
 msgid ""
 "A %(link_start)sGCP File%(link_end)s is optional, but can increase "
@@ -1553,7 +1555,7 @@ msgstr "Привет, %(user)s!"
 #: app/templates/app/logged_in_base.html:30
 #, python-format
 msgid "%(used)s of %(total)s used"
-msgstr ""
+msgstr "%(used)s из %(total)s использовано"
 
 #: app/templates/app/logged_in_base.html:43
 msgid "Logout"
@@ -1640,13 +1642,16 @@ msgstr "Параметры (JSON)"
 msgid "Edit"
 msgstr "Редактировать"
 
-#: app/templates/app/quota.html:9
+#: app/templates/app/quota.html:8
 #, python-format
 msgid ""
 "The disk quota is being exceeded (%(used)s of %(total)s used). The most "
 "recent tasks will be automatically deleted %(when)s, until usage falls below "
 "%(total)s."
 msgstr ""
+"Превышена дисковая квота (%(used)s из %(total)s использовано). Самые "
+"последние задачи будут автоматически удалены %(when)s, пока использование не "
+"упадет ниже %(total)s."
 
 #: app/templates/app/quota.html:14
 #, python-format
@@ -1754,7 +1759,7 @@ msgstr "Плагин для создания файлов GCP из изобра�
 
 #: app/translations/plugin_manifest_autogenerated.py:17
 msgid "A plugin to show charts of projects and tasks"
-msgstr ""
+msgstr "Плагин для отображения графиков проектов и задач"
 
 #: app/translations/plugin_manifest_autogenerated.py:18
 msgid "Create short links when sharing task URLs"
@@ -1921,21 +1926,19 @@ msgstr ""
 
 #: coreplugins/projects-charts/templates/index.html:11
 msgid "Year"
-msgstr ""
+msgstr "Год"
 
 #: coreplugins/projects-charts/templates/index.html:23
 msgid "Next"
-msgstr ""
+msgstr "Следующий"
 
 #: coreplugins/projects-charts/templates/index.html:69
-#, fuzzy
-#| msgid "Projects"
 msgid "Projects by month"
-msgstr "Проекты"
+msgstr "Проекты по месяцам"
 
 #: coreplugins/projects-charts/templates/index.html:111
 msgid "Tasks by month"
-msgstr ""
+msgstr "Задачи по месяцам"
 
 #: coreplugins/tasknotification/plugin.py:84
 msgid "Task Notification"
@@ -2025,11 +2028,13 @@ msgstr ""
 msgid "Engine used by the node."
 msgstr "Движок, используемый узлом."
 
-#~ msgid "Console output of the processing node"
-#~ msgstr "Вывод в командную строку обрабатывающего узла"
+#: app/models/task.py:250
+msgid "Console output of the processing node"
+msgstr "Вывод в командную строку обрабатывающего узла"
 
-#~ msgid "Console Output"
-#~ msgstr "Вывод в консоль"
+#: app/models/task.py:250
+msgid "Console Output"
+msgstr "Вывод в консоль"
 
 #~ msgid "Task this image belongs to"
 #~ msgstr "Задача, которой принадлежит это изображение"
