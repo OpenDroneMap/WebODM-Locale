@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 17:36+0000\n"
+"POT-Creation-Date: 2023-09-12 15:38+0000\n"
 "PO-Revision-Date: 2023-07-24 20:04+0000\n"
 "Last-Translator: Cairo Adolfo <cairoadolfo2011@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/webodm/webodm/"
@@ -320,36 +320,36 @@ msgstr "Usuário inválido na lista de permissões"
 msgid "Invalid permissions"
 msgstr "Permissões inválida"
 
-#: app/api/tasks.py:185
+#: app/api/tasks.py:184
 msgid "You need to upload at least 1 file before commit"
 msgstr "Precisa fazer upload de pelo menos 1 arquivo antes de confirmar"
 
-#: app/api/tasks.py:208
+#: app/api/tasks.py:207
 msgid "No files uploaded"
 msgstr "Nenhum ficheiro enviado"
 
-#: app/api/tasks.py:234
+#: app/api/tasks.py:233
 msgid "Cannot duplicate task"
 msgstr "Não é possível duplicar a tarefa"
 
-#: app/api/tasks.py:251
+#: app/api/tasks.py:250
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Não é possível criar tarefa, precisa de ao menos 2 imagens"
 
-#: app/api/tasks.py:370 app/api/tasks.py:373 app/api/tasks.py:397
-#: app/api/tasks.py:400
+#: app/api/tasks.py:369 app/api/tasks.py:372 app/api/tasks.py:396
+#: app/api/tasks.py:399
 msgid "Asset does not exist"
 msgstr "Recurso não existe"
 
-#: app/api/tasks.py:416
+#: app/api/tasks.py:415
 msgid "Imported Task"
 msgstr "Tarefa importada"
 
-#: app/api/tasks.py:419
+#: app/api/tasks.py:418
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Não é possível criar tarefa, precisa enviar 1 ficheiro"
 
-#: app/api/tasks.py:422
+#: app/api/tasks.py:421
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 "Não é possível criar uma tarefa, ou especifique a URL ou carregue 1 ficheiro."
@@ -428,7 +428,7 @@ msgid "Plugin name"
 msgstr "Nome do plugin"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:242 app/models/theme.py:16
+#: app/models/task.py:243 app/models/theme.py:16
 msgid "Name"
 msgstr "Nome"
 
@@ -507,7 +507,7 @@ msgid "Options that define this preset (same format as in a Task's options)."
 msgstr ""
 "Opções que definem este preset (mesmo formato que numa opção de Tarefa)."
 
-#: app/models/preset.py:11 app/models/task.py:248
+#: app/models/preset.py:11 app/models/task.py:249
 msgid "Options"
 msgstr "Opções"
 
@@ -581,12 +581,12 @@ msgstr "Projetos Tags"
 msgid "Tags"
 msgstr "Tags"
 
-#: app/models/project.py:65 app/models/task.py:420
+#: app/models/project.py:65 app/models/task.py:428
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "Cópia de %(task)s"
 
-#: app/models/project.py:90 app/models/task.py:241
+#: app/models/project.py:90 app/models/task.py:242
 msgid "Project"
 msgstr "Projeto"
 
@@ -643,27 +643,27 @@ msgstr "Aplicação"
 msgid "Settings"
 msgstr "Configurações"
 
-#: app/models/task.py:238
+#: app/models/task.py:239
 msgid "Id"
 msgstr "Identidade (ID)"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "Identificador da tarefa (tal como retornado pela API NodeODM)"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:241
+#: app/models/task.py:242
 msgid "Project that this task belongs to"
 msgstr "Projeto ao qual esta tarefa pertence"
 
-#: app/models/task.py:242
+#: app/models/task.py:243
 msgid "A label for the task"
 msgstr "Um rótulo para a tarefa"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -671,11 +671,11 @@ msgstr ""
 "Quantidade de milissegundos passados desde o início da tarefa (-1 indica que "
 "não há informação disponível)"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid "Processing Time"
 msgstr "Tempo de processamento"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -683,11 +683,11 @@ msgstr ""
 "Nó de processamento designado para esta tarefa (ou nulo se esta tarefa ainda "
 "não foi associada)"
 
-#: app/models/task.py:244 app/views/app.py:116 nodeodm/models.py:36
+#: app/models/task.py:245 app/views/app.py:116 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "Nó de processamento"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
@@ -695,45 +695,37 @@ msgstr ""
 "Um sinal (flag) que indica se esta tarefa deveria ser designada "
 "automaticamente a um nó de processamento"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid "Auto Processing Node"
 msgstr "Nó de procesamento automático"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Current status of the task"
 msgstr "Status atual da tarefa"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Status"
 msgstr "Status"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "The last processing error received"
 msgstr "O último erro de processamento recebido"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "Last Error"
 msgstr "Último Erro"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "Options that are being used to process this task"
 msgstr "Opções que estão a ser usadas para processar esta tarefa"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "List of available assets to download"
 msgstr "Lista de recursos disponíveis para download"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Available Assets"
 msgstr "Recursos Disponíveis"
-
-#: app/models/task.py:250
-msgid "Console output of the processing node"
-msgstr "Saída do console do nó de processamento"
-
-#: app/models/task.py:250
-msgid "Console Output"
-msgstr "Saída do Console"
 
 #: app/models/task.py:252
 msgid "Extent of the orthophoto"
@@ -892,35 +884,35 @@ msgstr "Tarefa"
 msgid "Tasks"
 msgstr "Tarefas"
 
-#: app/models/task.py:295
+#: app/models/task.py:297
 msgid "unnamed"
 msgstr "sem nome"
 
-#: app/models/task.py:493
+#: app/models/task.py:501
 msgid "Importing assets..."
 msgstr "Importando recursos ..."
 
-#: app/models/task.py:545 app/models/task.py:814
+#: app/models/task.py:553 app/models/task.py:822
 msgid "Invalid zip file"
 msgstr "Ficheiro zip inválido"
 
-#: app/models/task.py:640
+#: app/models/task.py:648
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Erro de conexão: %(error)s"
 
-#: app/models/task.py:720
+#: app/models/task.py:728
 msgid "Cannot restart a task that has no processing node"
 msgstr "Não é possível reiniciar uma tarefa que não possui nó de processamento"
 
-#: app/models/task.py:880
+#: app/models/task.py:888
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "SRS não suportado %(code)s. Por favor ceertifique-se que escolheu um SRS "
 "suportado."
 
-#: app/models/task.py:894
+#: app/models/task.py:902
 msgid "Done!"
 msgstr "Pronto!"
 
@@ -1445,7 +1437,7 @@ msgstr "Gravar e adicionar outro"
 msgid "Save and continue editing"
 msgstr "Gravar e continuar editar"
 
-#: app/templates/app/dashboard.html:18 app/templates/app/dashboard.html:30
+#: app/templates/app/dashboard.html:18 app/templates/app/dashboard.html:31
 #: app/templates/app/welcome.html:227
 msgid "Welcome!"
 msgstr "Bem-vindo!"
@@ -1465,11 +1457,11 @@ msgstr ""
 "computador a executar uma instância de %(nodeodm_link)s ou algum outro "
 "software a implementar este %(api_link)s."
 
-#: app/templates/app/dashboard.html:31
+#: app/templates/app/dashboard.html:32
 msgid "Select Images and GCP"
 msgstr "Selecionar imagens e GCPs"
 
-#: app/templates/app/dashboard.html:33
+#: app/templates/app/dashboard.html:34
 #, python-format
 msgid ""
 "To create a map, press the \"%(upload_images)s\" button, or drag and drop "
@@ -1478,22 +1470,22 @@ msgstr ""
 "Para criar um mapa, pressione o botão \"%(upload_images)s\" ou arraste e "
 "solte algumas imagens num projeto."
 
-#: app/templates/app/dashboard.html:37
+#: app/templates/app/dashboard.html:38
 msgid "You need at least 5 images, but 16-32 is typically the minimum."
 msgstr ""
 "Você precisa de pelo menos 5 imagens, mas 16-32 normalmente é o mínimo."
 
-#: app/templates/app/dashboard.html:38
+#: app/templates/app/dashboard.html:39
 #, python-format
 msgid "Images must overlap by 65%% or more. Aim for 70-72%%"
 msgstr "As imagens devem se sobrepor em 65%% ou mais. Apontar para 70-72%%"
 
-#: app/templates/app/dashboard.html:39
+#: app/templates/app/dashboard.html:40
 #, python-format
 msgid "For great 3D, images must overlap by 83%%"
 msgstr "Para 3D ótimo, as imagens precisam de sobreposição de 83%%"
 
-#: app/templates/app/dashboard.html:40
+#: app/templates/app/dashboard.html:41
 #, python-format
 msgid ""
 "A %(link_start)sGCP File%(link_end)s is optional, but can increase "
@@ -1638,12 +1630,19 @@ msgstr "Opções (JSON)"
 msgid "Edit"
 msgstr "Editar"
 
-#: app/templates/app/quota.html:8
+#: app/templates/app/quota.html:9
 #, python-format
 msgid ""
 "The disk quota is being exceeded (%(used)s of %(total)s used). The most "
 "recent tasks will be automatically deleted %(when)s, until usage falls below "
 "%(total)s."
+msgstr ""
+
+#: app/templates/app/quota.html:14
+#, python-format
+msgid ""
+"Your account does not have a storage quota. Any new task will be "
+"automatically deleted %(when)s"
 msgstr ""
 
 #: app/templates/app/welcome.html:224
@@ -2009,6 +2008,12 @@ msgstr ""
 #: nodeodm/models.py:33
 msgid "Engine used by the node."
 msgstr "Engine utilizada pelo nó."
+
+#~ msgid "Console output of the processing node"
+#~ msgstr "Saída do console do nó de processamento"
+
+#~ msgid "Console Output"
+#~ msgstr "Saída do Console"
 
 #~ msgid "Task this image belongs to"
 #~ msgstr "Tarefa à qual esta imagem pertence"

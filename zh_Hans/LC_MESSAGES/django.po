@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 17:36+0000\n"
+"POT-Creation-Date: 2023-09-12 15:38+0000\n"
 "PO-Revision-Date: 2023-08-22 03:36+0000\n"
 "Last-Translator: yoda <tianjiachengxu@126.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -285,36 +285,36 @@ msgstr "权限列表中的用户无效"
 msgid "Invalid permissions"
 msgstr "无效权限"
 
-#: app/api/tasks.py:185
+#: app/api/tasks.py:184
 msgid "You need to upload at least 1 file before commit"
 msgstr "提交前至少需要上传1个文件"
 
-#: app/api/tasks.py:208
+#: app/api/tasks.py:207
 msgid "No files uploaded"
 msgstr "没有文件可上传"
 
-#: app/api/tasks.py:234
+#: app/api/tasks.py:233
 msgid "Cannot duplicate task"
 msgstr "无法复制任务"
 
-#: app/api/tasks.py:251
+#: app/api/tasks.py:250
 msgid "Cannot create task, you need at least 2 images"
 msgstr "无法创建任务，您至少需要2个图像"
 
-#: app/api/tasks.py:370 app/api/tasks.py:373 app/api/tasks.py:397
-#: app/api/tasks.py:400
+#: app/api/tasks.py:369 app/api/tasks.py:372 app/api/tasks.py:396
+#: app/api/tasks.py:399
 msgid "Asset does not exist"
 msgstr "资源不存在"
 
-#: app/api/tasks.py:416
+#: app/api/tasks.py:415
 msgid "Imported Task"
 msgstr "导入的任务"
 
-#: app/api/tasks.py:419
+#: app/api/tasks.py:418
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "无法创建任务，你需要上传1个文件"
 
-#: app/api/tasks.py:422
+#: app/api/tasks.py:421
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "无法创建任务，请指定URL或上载1个文件。"
 
@@ -388,7 +388,7 @@ msgid "Plugin name"
 msgstr "插件名称"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:242 app/models/theme.py:16
+#: app/models/task.py:243 app/models/theme.py:16
 msgid "Name"
 msgstr "名字"
 
@@ -464,7 +464,7 @@ msgstr "用于描述预设的标签"
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr "定义此预设的选项（与任务选项中的格式相同）。"
 
-#: app/models/preset.py:11 app/models/task.py:248
+#: app/models/preset.py:11 app/models/task.py:249
 msgid "Options"
 msgstr "选项"
 
@@ -535,12 +535,12 @@ msgstr "项目标签"
 msgid "Tags"
 msgstr "标签"
 
-#: app/models/project.py:65 app/models/task.py:420
+#: app/models/project.py:65 app/models/task.py:428
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "复制于%(task)s"
 
-#: app/models/project.py:90 app/models/task.py:241
+#: app/models/project.py:90 app/models/task.py:242
 msgid "Project"
 msgstr "新建项目"
 
@@ -597,91 +597,83 @@ msgstr "应用"
 msgid "Settings"
 msgstr "设置"
 
-#: app/models/task.py:238
+#: app/models/task.py:239
 msgid "Id"
 msgstr "ID"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "任务的标识符（由NodeODM api返回）"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:241
+#: app/models/task.py:242
 msgid "Project that this task belongs to"
 msgstr "此任务所属的项目"
 
-#: app/models/task.py:242
+#: app/models/task.py:243
 msgid "A label for the task"
 msgstr "任务的标签"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr "自此任务开始以来消耗的毫秒数（-1表示没有可用信息）"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid "Processing Time"
 msgstr "生产时间"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr "分配给此任务的处理节点（如果此任务尚未关联，则为null）"
 
-#: app/models/task.py:244 app/views/app.py:116 nodeodm/models.py:36
+#: app/models/task.py:245 app/views/app.py:116 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "处理节点"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr "指示是否应自动为该任务分配处理节点的标志"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid "Auto Processing Node"
 msgstr "自动处理结点"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Current status of the task"
 msgstr "任务当前状态"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Status"
 msgstr "状态"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "The last processing error received"
 msgstr "接收到的最后一个处理错误"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "Last Error"
 msgstr "最新错误"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "Options that are being used to process this task"
 msgstr "该任务已使用过的选项"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "List of available assets to download"
 msgstr "可下载的资源列表"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Available Assets"
 msgstr "资源列表"
-
-#: app/models/task.py:250
-msgid "Console output of the processing node"
-msgstr "处理节点的控制台输出"
-
-#: app/models/task.py:250
-msgid "Console Output"
-msgstr "控制台输出"
 
 #: app/models/task.py:252
 msgid "Extent of the orthophoto"
@@ -827,33 +819,33 @@ msgstr "任务"
 msgid "Tasks"
 msgstr "任务"
 
-#: app/models/task.py:295
+#: app/models/task.py:297
 msgid "unnamed"
 msgstr "未命名"
 
-#: app/models/task.py:493
+#: app/models/task.py:501
 msgid "Importing assets..."
 msgstr "正在导入资源…"
 
-#: app/models/task.py:545 app/models/task.py:814
+#: app/models/task.py:553 app/models/task.py:822
 msgid "Invalid zip file"
 msgstr "无效的zip文件"
 
-#: app/models/task.py:640
+#: app/models/task.py:648
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "连接错误：%(error)s"
 
-#: app/models/task.py:720
+#: app/models/task.py:728
 msgid "Cannot restart a task that has no processing node"
 msgstr "无法重新启动没有处理节点的任务"
 
-#: app/models/task.py:880
+#: app/models/task.py:888
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "不支持的SRS%(code)s。请确保您选择了受支持的SRS。"
 
-#: app/models/task.py:894
+#: app/models/task.py:902
 msgid "Done!"
 msgstr "完成了！"
 
@@ -1357,7 +1349,7 @@ msgstr "保存并新增"
 msgid "Save and continue editing"
 msgstr "保存并继续编辑"
 
-#: app/templates/app/dashboard.html:18 app/templates/app/dashboard.html:30
+#: app/templates/app/dashboard.html:18 app/templates/app/dashboard.html:31
 #: app/templates/app/welcome.html:227
 msgid "Welcome!"
 msgstr "欢迎！"
@@ -1376,32 +1368,32 @@ msgstr ""
 "首先，“%(add_processing_node)s”。处理节点是运行%(nodeodm_link)s的实例或实现"
 "该%(api_link)s的某个其他软件的计算机。"
 
-#: app/templates/app/dashboard.html:31
+#: app/templates/app/dashboard.html:32
 msgid "Select Images and GCP"
 msgstr "选择图片和GCP"
 
-#: app/templates/app/dashboard.html:33
+#: app/templates/app/dashboard.html:34
 #, python-format
 msgid ""
 "To create a map, press the \"%(upload_images)s\" button, or drag and drop "
 "some images into a project."
 msgstr "要创建地图，请按“%(upload_images)s”按钮，或将一些图像拖放到项目中。"
 
-#: app/templates/app/dashboard.html:37
+#: app/templates/app/dashboard.html:38
 msgid "You need at least 5 images, but 16-32 is typically the minimum."
 msgstr "你至少需要5张图片，但16-32张通常是最低限度。"
 
-#: app/templates/app/dashboard.html:38
+#: app/templates/app/dashboard.html:39
 #, python-format
 msgid "Images must overlap by 65%% or more. Aim for 70-72%%"
 msgstr "图像必须有65%%及以上的重叠部分。争取能达到70-72%%"
 
-#: app/templates/app/dashboard.html:39
+#: app/templates/app/dashboard.html:40
 #, python-format
 msgid "For great 3D, images must overlap by 83%%"
 msgstr "对于精密的3D模型，图像必须重叠83%%"
 
-#: app/templates/app/dashboard.html:40
+#: app/templates/app/dashboard.html:41
 #, python-format
 msgid ""
 "A %(link_start)sGCP File%(link_end)s is optional, but can increase "
@@ -1544,12 +1536,19 @@ msgstr "选项（JSON）"
 msgid "Edit"
 msgstr "编辑"
 
-#: app/templates/app/quota.html:8
+#: app/templates/app/quota.html:9
 #, python-format
 msgid ""
 "The disk quota is being exceeded (%(used)s of %(total)s used). The most "
 "recent tasks will be automatically deleted %(when)s, until usage falls below "
 "%(total)s."
+msgstr ""
+
+#: app/templates/app/quota.html:14
+#, python-format
+msgid ""
+"Your account does not have a storage quota. Any new task will be "
+"automatically deleted %(when)s"
 msgstr ""
 
 #: app/templates/app/welcome.html:224
@@ -1899,6 +1898,12 @@ msgstr "此节点的可选标签。设置后，将显示此标签，而不是主
 #: nodeodm/models.py:33
 msgid "Engine used by the node."
 msgstr "节点使用的引擎。"
+
+#~ msgid "Console output of the processing node"
+#~ msgstr "处理节点的控制台输出"
+
+#~ msgid "Console Output"
+#~ msgstr "控制台输出"
 
 #~ msgid "Task this image belongs to"
 #~ msgstr "此图像所属的任务"

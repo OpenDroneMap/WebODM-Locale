@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 17:36+0000\n"
+"POT-Creation-Date: 2023-09-12 15:38+0000\n"
 "PO-Revision-Date: 2022-05-15 17:17+0000\n"
 "Last-Translator: Chingchai Humhong <chingchai.h@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/webodm/webodm/th/>\n"
@@ -299,38 +299,38 @@ msgstr ""
 msgid "Invalid permissions"
 msgstr "การกระทำที่ไม่ถูกต้อง"
 
-#: app/api/tasks.py:185
+#: app/api/tasks.py:184
 #, fuzzy
 #| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload at least 1 file before commit"
 msgstr "คุณต้องอัปโหลดรูปภาพอย่างน้อย 2 รูปก่อนส่ง"
 
-#: app/api/tasks.py:208
+#: app/api/tasks.py:207
 msgid "No files uploaded"
 msgstr "ไม่มีไฟล์อัปโหลด"
 
-#: app/api/tasks.py:234
+#: app/api/tasks.py:233
 msgid "Cannot duplicate task"
 msgstr ""
 
-#: app/api/tasks.py:251
+#: app/api/tasks.py:250
 msgid "Cannot create task, you need at least 2 images"
 msgstr "สร้างงานไม่ได้ คุณต้องมีรูปภาพอย่างน้อย 2 รูป"
 
-#: app/api/tasks.py:370 app/api/tasks.py:373 app/api/tasks.py:397
-#: app/api/tasks.py:400
+#: app/api/tasks.py:369 app/api/tasks.py:372 app/api/tasks.py:396
+#: app/api/tasks.py:399
 msgid "Asset does not exist"
 msgstr "ไม่มีเนื้อหา"
 
-#: app/api/tasks.py:416
+#: app/api/tasks.py:415
 msgid "Imported Task"
 msgstr "งานที่นำเข้า"
 
-#: app/api/tasks.py:419
+#: app/api/tasks.py:418
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "สร้างงานไม่ได้ คุณต้องอัปโหลด 1 ไฟล์"
 
-#: app/api/tasks.py:422
+#: app/api/tasks.py:421
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "สร้างงานไม่ได้ ระบุ URL หรืออัปโหลด 1 ไฟล์"
 
@@ -410,7 +410,7 @@ msgid "Plugin name"
 msgstr "ชื่อปลั๊กอิน"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:242 app/models/theme.py:16
+#: app/models/task.py:243 app/models/theme.py:16
 msgid "Name"
 msgstr "ชื่อ"
 
@@ -486,7 +486,7 @@ msgstr "สัญลักษณ์ที่ใช้อธิบายที่
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr "ตัวเลือกที่กำหนดที่ตั้งไว้ก่อนหน้านี้ (รูปแบบเดียวกับในตัวเลือกของงาน)"
 
-#: app/models/preset.py:11 app/models/task.py:248
+#: app/models/preset.py:11 app/models/task.py:249
 msgid "Options"
 msgstr "ตัวเลือก"
 
@@ -559,12 +559,12 @@ msgstr "โครงการ"
 msgid "Tags"
 msgstr ""
 
-#: app/models/project.py:65 app/models/task.py:420
+#: app/models/project.py:65 app/models/task.py:428
 #, python-format
 msgid "Copy of %(task)s"
 msgstr ""
 
-#: app/models/project.py:90 app/models/task.py:241
+#: app/models/project.py:90 app/models/task.py:242
 msgid "Project"
 msgstr "โครงการ"
 
@@ -621,91 +621,83 @@ msgstr "แอปพลิเคชัน"
 msgid "Settings"
 msgstr "การตั้งค่า"
 
-#: app/models/task.py:238
+#: app/models/task.py:239
 msgid "Id"
 msgstr "ไอดี"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "ตัวระบุของงาน (ตามที่ส่งคืนโดย NodeODM API)"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:241
+#: app/models/task.py:242
 msgid "Project that this task belongs to"
 msgstr "โครงการที่งานนี้เป็นของ"
 
-#: app/models/task.py:242
+#: app/models/task.py:243
 msgid "A label for the task"
 msgstr "สัญลักษณ์สำหรับงาน"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr "จำนวนมิลลิวินาทีที่ผ่านไปตั้งแต่เริ่มต้นงานนี้ (-1 บ่งชี้ว่าไม่มีข้อมูล)"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid "Processing Time"
 msgstr "ระยะเวลาดำเนินการ"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr "โหนดการประมวลผลที่กำหนดให้กับงานนี้ (หรือเป็นโมฆะหากยังไม่ได้เชื่อมโยงงานนี้)"
 
-#: app/models/task.py:244 app/views/app.py:116 nodeodm/models.py:36
+#: app/models/task.py:245 app/views/app.py:116 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "Processing Node"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr "แฟล็กที่ระบุว่างานนี้ควรถูกกำหนดให้โหนดประมวลผลโดยอัตโนมัติหรือไม่"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid "Auto Processing Node"
 msgstr "โหนดประมวลผลอัตโนมัติ"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Current status of the task"
 msgstr "สถานะปัจจุบันของงาน"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Status"
 msgstr "สถานะ"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "The last processing error received"
 msgstr "ได้รับข้อผิดพลาดในการประมวลผลล่าสุด"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "Last Error"
 msgstr "ข้อผิดพลาดล่าสุด"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "Options that are being used to process this task"
 msgstr "ตัวเลือกที่ใช้ในการประมวลผลงานนี้"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "List of available assets to download"
 msgstr "รายการทรัพย์สินที่มีให้ดาวน์โหลด"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Available Assets"
 msgstr "ทรัพย์สินที่มีอยู่"
-
-#: app/models/task.py:250
-msgid "Console output of the processing node"
-msgstr "ผลผลิตคอนโซลของโหนดการประมวลผล"
-
-#: app/models/task.py:250
-msgid "Console Output"
-msgstr "ผลผลิตคอนโซล"
 
 #: app/models/task.py:252
 msgid "Extent of the orthophoto"
@@ -860,33 +852,33 @@ msgstr "งาน"
 msgid "Tasks"
 msgstr "งาน"
 
-#: app/models/task.py:295
+#: app/models/task.py:297
 msgid "unnamed"
 msgstr "ไม่มีชื่อ"
 
-#: app/models/task.py:493
+#: app/models/task.py:501
 msgid "Importing assets..."
 msgstr "กำลังนำเข้าเนื้อหา..."
 
-#: app/models/task.py:545 app/models/task.py:814
+#: app/models/task.py:553 app/models/task.py:822
 msgid "Invalid zip file"
 msgstr "ไฟล์ zip ไม่ถูกต้อง"
 
-#: app/models/task.py:640
+#: app/models/task.py:648
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "ข้อผิดพลาดในการเชื่อมต่อ: %(error)s"
 
-#: app/models/task.py:720
+#: app/models/task.py:728
 msgid "Cannot restart a task that has no processing node"
 msgstr "ไม่สามารถรีสตาร์ทงานที่ไม่มีโหนดการประมวลผล"
 
-#: app/models/task.py:880
+#: app/models/task.py:888
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "ไม่รองรับ SRS %(code)s โปรดตรวจสอบให้แน่ใจว่าคุณได้เลือก SRS ที่รองรับ"
 
-#: app/models/task.py:894
+#: app/models/task.py:902
 msgid "Done!"
 msgstr "เสร็จ!"
 
@@ -1402,7 +1394,7 @@ msgstr "บันทึกและเพิ่มเติมอีก"
 msgid "Save and continue editing"
 msgstr "บันทึกและแก้ไขต่อ"
 
-#: app/templates/app/dashboard.html:18 app/templates/app/dashboard.html:30
+#: app/templates/app/dashboard.html:18 app/templates/app/dashboard.html:31
 #: app/templates/app/welcome.html:227
 msgid "Welcome!"
 msgstr "ยินดีต้อนรับ!"
@@ -1421,11 +1413,11 @@ msgstr ""
 "ในการเริ่มต้นใช้งาน \"%(add_processing_node)s\" โหนดการประมวลผลคือคอมพิวเตอร์ที่ใช้งาน "
 "ตัวอย่างเช่น %(nodeodm_link)s หรือซอฟต์แวร์อื่นๆ ที่ใช้ %(api_link)s"
 
-#: app/templates/app/dashboard.html:31
+#: app/templates/app/dashboard.html:32
 msgid "Select Images and GCP"
 msgstr "เลือกรูปภาพและ GCP"
 
-#: app/templates/app/dashboard.html:33
+#: app/templates/app/dashboard.html:34
 #, python-format
 msgid ""
 "To create a map, press the \"%(upload_images)s\" button, or drag and drop "
@@ -1433,22 +1425,22 @@ msgid ""
 msgstr ""
 "ในการสร้างแผนที่ ให้กดปุ่ม \"%(upload_images)s\" หรือลากและวางภาพบางส่วนลงใน Project"
 
-#: app/templates/app/dashboard.html:37
+#: app/templates/app/dashboard.html:38
 msgid "You need at least 5 images, but 16-32 is typically the minimum."
 msgstr ""
 
-#: app/templates/app/dashboard.html:38
+#: app/templates/app/dashboard.html:39
 #, fuzzy, python-format
 #| msgid "Images must overlap by 65%% or more"
 msgid "Images must overlap by 65%% or more. Aim for 70-72%%"
 msgstr "รูปภาพต้องทับซ้อนกันตั้งแต่ 65%% ขึ้นไป"
 
-#: app/templates/app/dashboard.html:39
+#: app/templates/app/dashboard.html:40
 #, python-format
 msgid "For great 3D, images must overlap by 83%%"
 msgstr "สำหรับ 3D รูปภาพต้องทับซ้อนกัน 83%%"
 
-#: app/templates/app/dashboard.html:40
+#: app/templates/app/dashboard.html:41
 #, python-format
 msgid ""
 "A %(link_start)sGCP File%(link_end)s is optional, but can increase "
@@ -1593,12 +1585,19 @@ msgstr "ตัวเลือก (JSON)"
 msgid "Edit"
 msgstr "แก้ไข"
 
-#: app/templates/app/quota.html:8
+#: app/templates/app/quota.html:9
 #, python-format
 msgid ""
 "The disk quota is being exceeded (%(used)s of %(total)s used). The most "
 "recent tasks will be automatically deleted %(when)s, until usage falls below "
 "%(total)s."
+msgstr ""
+
+#: app/templates/app/quota.html:14
+#, python-format
+msgid ""
+"Your account does not have a storage quota. Any new task will be "
+"automatically deleted %(when)s"
 msgstr ""
 
 #: app/templates/app/welcome.html:224
@@ -1956,6 +1955,12 @@ msgstr "ป้ายทางเลือกสำหรับโหนดนี
 #: nodeodm/models.py:33
 msgid "Engine used by the node."
 msgstr "เครื่องยนต์ที่ใช้โดยโหนด"
+
+#~ msgid "Console output of the processing node"
+#~ msgstr "ผลผลิตคอนโซลของโหนดการประมวลผล"
+
+#~ msgid "Console Output"
+#~ msgstr "ผลผลิตคอนโซล"
 
 #~ msgid "Task this image belongs to"
 #~ msgstr "งานภาพนี้เป็นของ"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 17:36+0000\n"
+"POT-Creation-Date: 2023-09-12 15:38+0000\n"
 "PO-Revision-Date: 2023-09-02 09:17+0000\n"
 "Last-Translator: Jiří Podhorecký <j.podhorecky@volny.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/webodm/webodm/cs/"
@@ -312,36 +312,36 @@ msgstr "Neplatný uživatel v seznamu oprávnění"
 msgid "Invalid permissions"
 msgstr "Neplatná oprávnění"
 
-#: app/api/tasks.py:185
+#: app/api/tasks.py:184
 msgid "You need to upload at least 1 file before commit"
 msgstr "Před odevzdáním je třeba nahrát alespoň 1 soubor"
 
-#: app/api/tasks.py:208
+#: app/api/tasks.py:207
 msgid "No files uploaded"
 msgstr "Nebyly nahrány žádné soubory"
 
-#: app/api/tasks.py:234
+#: app/api/tasks.py:233
 msgid "Cannot duplicate task"
 msgstr "Nelze duplikovat úlohu"
 
-#: app/api/tasks.py:251
+#: app/api/tasks.py:250
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Nelze vytvořit úlohu, potřebujete alespoň 2 obrázky"
 
-#: app/api/tasks.py:370 app/api/tasks.py:373 app/api/tasks.py:397
-#: app/api/tasks.py:400
+#: app/api/tasks.py:369 app/api/tasks.py:372 app/api/tasks.py:396
+#: app/api/tasks.py:399
 msgid "Asset does not exist"
 msgstr "Asset neexistuje"
 
-#: app/api/tasks.py:416
+#: app/api/tasks.py:415
 msgid "Imported Task"
 msgstr "Importovaná úloha"
 
-#: app/api/tasks.py:419
+#: app/api/tasks.py:418
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Nelze vytvořit úlohu, je třeba nahrát 1 soubor"
 
-#: app/api/tasks.py:422
+#: app/api/tasks.py:421
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "Nelze vytvořit úlohu, zadejte adresu URL nebo nahrajte 1 soubor."
 
@@ -419,7 +419,7 @@ msgid "Plugin name"
 msgstr "Název zásuvného modulu"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:242 app/models/theme.py:16
+#: app/models/task.py:243 app/models/theme.py:16
 msgid "Name"
 msgstr "Název"
 
@@ -497,7 +497,7 @@ msgid "Options that define this preset (same format as in a Task's options)."
 msgstr ""
 "Možnosti definující tuto předvolbu (stejný formát jako v možnostech úlohy)."
 
-#: app/models/preset.py:11 app/models/task.py:248
+#: app/models/preset.py:11 app/models/task.py:249
 msgid "Options"
 msgstr "Možnosti"
 
@@ -571,12 +571,12 @@ msgstr "Štítky projektu"
 msgid "Tags"
 msgstr "Štítky"
 
-#: app/models/project.py:65 app/models/task.py:420
+#: app/models/project.py:65 app/models/task.py:428
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "Kopie %(task)s"
 
-#: app/models/project.py:90 app/models/task.py:241
+#: app/models/project.py:90 app/models/task.py:242
 msgid "Project"
 msgstr "Projekt"
 
@@ -633,27 +633,27 @@ msgstr "Aplikace"
 msgid "Settings"
 msgstr "Nastavení"
 
-#: app/models/task.py:238
+#: app/models/task.py:239
 msgid "Id"
 msgstr "Id"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "Identifikátor úlohy (vrácený rozhraním NodeODM API)"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:241
+#: app/models/task.py:242
 msgid "Project that this task belongs to"
 msgstr "Projekt, ke kterému tento úkol patří"
 
-#: app/models/task.py:242
+#: app/models/task.py:243
 msgid "A label for the task"
 msgstr "Označení úkolu"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -661,11 +661,11 @@ msgstr ""
 "Počet milisekund, které uplynuly od začátku této úlohy (-1 znamená, že "
 "nejsou k dispozici žádné informace)"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid "Processing Time"
 msgstr "Čas zpracování"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -673,11 +673,11 @@ msgstr ""
 "Zpracovatelský uzel přiřazený této úloze (nebo null, pokud tato úloha ještě "
 "nebyla přiřazena)"
 
-#: app/models/task.py:244 app/views/app.py:116 nodeodm/models.py:36
+#: app/models/task.py:245 app/views/app.py:116 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "Zpracovatelský uzel"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
@@ -685,45 +685,37 @@ msgstr ""
 "Příznak určující, zda má být této úloze automaticky přiřazen zpracovatelský "
 "uzel"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid "Auto Processing Node"
 msgstr "Uzel automatického zpracování"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Current status of the task"
 msgstr "Aktuální stav úkolu"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Status"
 msgstr "Status"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "The last processing error received"
 msgstr "Poslední přijatá chyba zpracování"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "Last Error"
 msgstr "Poslední chyba"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "Options that are being used to process this task"
 msgstr "Možnosti, které se používají pro zpracování této úlohy"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "List of available assets to download"
 msgstr "Seznam dostupných prostředků ke stažení"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Available Assets"
 msgstr "Dostupné prostředky"
-
-#: app/models/task.py:250
-msgid "Console output of the processing node"
-msgstr "Výstup konzoly zpracovatelského uzlu"
-
-#: app/models/task.py:250
-msgid "Console Output"
-msgstr "Výstup konzoly"
 
 #: app/models/task.py:252
 msgid "Extent of the orthophoto"
@@ -878,34 +870,34 @@ msgstr "Úloha"
 msgid "Tasks"
 msgstr "Úkoly"
 
-#: app/models/task.py:295
+#: app/models/task.py:297
 msgid "unnamed"
 msgstr "nejmenovaný"
 
-#: app/models/task.py:493
+#: app/models/task.py:501
 msgid "Importing assets..."
 msgstr "Importování assetu..."
 
-#: app/models/task.py:545 app/models/task.py:814
+#: app/models/task.py:553 app/models/task.py:822
 msgid "Invalid zip file"
 msgstr "Chybný soubor zip"
 
-#: app/models/task.py:640
+#: app/models/task.py:648
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Chyba spojení: %(error)s"
 
-#: app/models/task.py:720
+#: app/models/task.py:728
 msgid "Cannot restart a task that has no processing node"
 msgstr "Nelze restartovat úlohu, která nemá žádný zpracovatelský uzel"
 
-#: app/models/task.py:880
+#: app/models/task.py:888
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "Nepodporovaný SRS %(code)s. Ujistěte se, že jste vybrali podporovaný SRS."
 
-#: app/models/task.py:894
+#: app/models/task.py:902
 msgid "Done!"
 msgstr "Dokončeno!"
 
@@ -1429,7 +1421,7 @@ msgstr "Uložit a přidat další"
 msgid "Save and continue editing"
 msgstr "Uložit a pokračovat v úpravách"
 
-#: app/templates/app/dashboard.html:18 app/templates/app/dashboard.html:30
+#: app/templates/app/dashboard.html:18 app/templates/app/dashboard.html:31
 #: app/templates/app/welcome.html:227
 msgid "Welcome!"
 msgstr "Vítejte!"
@@ -1449,11 +1441,11 @@ msgstr ""
 "počítač, na kterém běží instance %(nodeodm_link)s nebo nějaký jiný software "
 "implementující tento %(api_link)s."
 
-#: app/templates/app/dashboard.html:31
+#: app/templates/app/dashboard.html:32
 msgid "Select Images and GCP"
 msgstr "Vyberte snímky a GCP"
 
-#: app/templates/app/dashboard.html:33
+#: app/templates/app/dashboard.html:34
 #, python-format
 msgid ""
 "To create a map, press the \"%(upload_images)s\" button, or drag and drop "
@@ -1462,21 +1454,21 @@ msgstr ""
 "Chcete-li vytvořit mapu, stiskněte tlačítko \"%(upload_images)s\" nebo "
 "přetáhněte některé obrázky do projektu."
 
-#: app/templates/app/dashboard.html:37
+#: app/templates/app/dashboard.html:38
 msgid "You need at least 5 images, but 16-32 is typically the minimum."
 msgstr "Potřebujete alespoň 5 snímků, ale 16-32 je obvykle minimum."
 
-#: app/templates/app/dashboard.html:38
+#: app/templates/app/dashboard.html:39
 #, python-format
 msgid "Images must overlap by 65%% or more. Aim for 70-72%%"
 msgstr "Snímky se musí překrývat z 65%% nebo více. Snažte se o 70-72%%"
 
-#: app/templates/app/dashboard.html:39
+#: app/templates/app/dashboard.html:40
 #, python-format
 msgid "For great 3D, images must overlap by 83%%"
 msgstr "Pro skvělé 3D se musí snímky překrývat o 83%%"
 
-#: app/templates/app/dashboard.html:40
+#: app/templates/app/dashboard.html:41
 #, python-format
 msgid ""
 "A %(link_start)sGCP File%(link_end)s is optional, but can increase "
@@ -1621,12 +1613,19 @@ msgstr "Možnosti (JSON)"
 msgid "Edit"
 msgstr "Upravit"
 
-#: app/templates/app/quota.html:8
+#: app/templates/app/quota.html:9
 #, python-format
 msgid ""
 "The disk quota is being exceeded (%(used)s of %(total)s used). The most "
 "recent tasks will be automatically deleted %(when)s, until usage falls below "
 "%(total)s."
+msgstr ""
+
+#: app/templates/app/quota.html:14
+#, python-format
+msgid ""
+"Your account does not have a storage quota. Any new task will be "
+"automatically deleted %(when)s"
 msgstr ""
 
 #: app/templates/app/welcome.html:224
@@ -1990,6 +1989,12 @@ msgstr ""
 #: nodeodm/models.py:33
 msgid "Engine used by the node."
 msgstr "Engine používaný uzlem."
+
+#~ msgid "Console output of the processing node"
+#~ msgstr "Výstup konzoly zpracovatelského uzlu"
+
+#~ msgid "Console Output"
+#~ msgstr "Výstup konzoly"
 
 #~ msgid "Task this image belongs to"
 #~ msgstr "K tomuto snímku patří i úloha"

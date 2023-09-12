@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 17:36+0000\n"
+"POT-Creation-Date: 2023-09-12 15:38+0000\n"
 "PO-Revision-Date: 2023-04-05 10:49+0000\n"
 "Last-Translator: Jarosław Okińczyc <okinczyc@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/webodm/webodm/pl/"
@@ -320,38 +320,38 @@ msgstr "Nieprawidłowy użytkownik na liście uprawnień"
 msgid "Invalid permissions"
 msgstr "Nieprawidłowe uprawnienia"
 
-#: app/api/tasks.py:185
+#: app/api/tasks.py:184
 #, fuzzy
 #| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload at least 1 file before commit"
 msgstr "Musisz przesłać co najmniej 2 obrazy przed zatwierdzeniem"
 
-#: app/api/tasks.py:208
+#: app/api/tasks.py:207
 msgid "No files uploaded"
 msgstr "Nie załadowano żadnych plików"
 
-#: app/api/tasks.py:234
+#: app/api/tasks.py:233
 msgid "Cannot duplicate task"
 msgstr "Nie można powielić zadania"
 
-#: app/api/tasks.py:251
+#: app/api/tasks.py:250
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Nie można utworzyć zadania, potrzebne są co najmniej dwa zdjęcia"
 
-#: app/api/tasks.py:370 app/api/tasks.py:373 app/api/tasks.py:397
-#: app/api/tasks.py:400
+#: app/api/tasks.py:369 app/api/tasks.py:372 app/api/tasks.py:396
+#: app/api/tasks.py:399
 msgid "Asset does not exist"
 msgstr "Zasób nie istnieje"
 
-#: app/api/tasks.py:416
+#: app/api/tasks.py:415
 msgid "Imported Task"
 msgstr "Zaimportowane zadanie"
 
-#: app/api/tasks.py:419
+#: app/api/tasks.py:418
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Nie można utworzyć zadania, musisz przesłać 1 plik"
 
-#: app/api/tasks.py:422
+#: app/api/tasks.py:421
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "Nie można utworzyć zadania. Podaj adres URL lub prześlij 1 plik."
 
@@ -429,7 +429,7 @@ msgid "Plugin name"
 msgstr "Nazwa wtyczki"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:242 app/models/theme.py:16
+#: app/models/task.py:243 app/models/theme.py:16
 msgid "Name"
 msgstr "Nazwa"
 
@@ -509,7 +509,7 @@ msgstr ""
 "Opcje, które definiują to ustawienie (format identyczny jak w opcjach "
 "zadania)."
 
-#: app/models/preset.py:11 app/models/task.py:248
+#: app/models/preset.py:11 app/models/task.py:249
 msgid "Options"
 msgstr "Opcje"
 
@@ -585,12 +585,12 @@ msgstr "Projekty"
 msgid "Tags"
 msgstr "Tagi"
 
-#: app/models/project.py:65 app/models/task.py:420
+#: app/models/project.py:65 app/models/task.py:428
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "Kopia %(task)s"
 
-#: app/models/project.py:90 app/models/task.py:241
+#: app/models/project.py:90 app/models/task.py:242
 msgid "Project"
 msgstr "Projekt"
 
@@ -647,27 +647,27 @@ msgstr "Aplikacja"
 msgid "Settings"
 msgstr "Ustawienia"
 
-#: app/models/task.py:238
+#: app/models/task.py:239
 msgid "Id"
 msgstr "Identyfikator"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "Identyfikator zadania (zwrócony przez NodeODM API)"
 
-#: app/models/task.py:240
+#: app/models/task.py:241
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:241
+#: app/models/task.py:242
 msgid "Project that this task belongs to"
 msgstr "Projekt, do którego należy to zadanie"
 
-#: app/models/task.py:242
+#: app/models/task.py:243
 msgid "A label for the task"
 msgstr "Etykieta zadania"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -675,11 +675,11 @@ msgstr ""
 "Liczba milisekund, które upłynęły od rozpoczęcia tego zadania (-1 oznacza "
 "brak informacji)"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid "Processing Time"
 msgstr "Czas przetwarzania"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -687,11 +687,11 @@ msgstr ""
 "Węzeł przetwarzania przypisany do tego zadania (lub null, jeśli to zadanie "
 "nie zostało jeszcze skojarzone)"
 
-#: app/models/task.py:244 app/views/app.py:116 nodeodm/models.py:36
+#: app/models/task.py:245 app/views/app.py:116 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "Węzeł przetwarzania"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
@@ -699,45 +699,37 @@ msgstr ""
 "Flaga wskazująca, czy to zadanie powinno zostać automatycznie przypisane do "
 "węzła przetwarzania"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid "Auto Processing Node"
 msgstr "Automatyczny węzeł przetwarzania"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Current status of the task"
 msgstr "Aktualny stan zadania"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Status"
 msgstr "Stan"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "The last processing error received"
 msgstr "Ostatni otrzymany błąd przetwarzania"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "Last Error"
 msgstr "Ostatni błąd"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "Options that are being used to process this task"
 msgstr "Opcje, które są używane do przetwarzania tego zadania"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "List of available assets to download"
 msgstr "Lista dostępnych zasobów do pobrania"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Available Assets"
 msgstr "Dostępne zasoby"
-
-#: app/models/task.py:250
-msgid "Console output of the processing node"
-msgstr "Wyjście konsoli węzła przetwarzania"
-
-#: app/models/task.py:250
-msgid "Console Output"
-msgstr "Wyjście konsoli"
 
 #: app/models/task.py:252
 msgid "Extent of the orthophoto"
@@ -901,33 +893,33 @@ msgstr "Zadanie"
 msgid "Tasks"
 msgstr "Zadania"
 
-#: app/models/task.py:295
+#: app/models/task.py:297
 msgid "unnamed"
 msgstr "Nienazwany"
 
-#: app/models/task.py:493
+#: app/models/task.py:501
 msgid "Importing assets..."
 msgstr "Importowanie zasobów ..."
 
-#: app/models/task.py:545 app/models/task.py:814
+#: app/models/task.py:553 app/models/task.py:822
 msgid "Invalid zip file"
 msgstr "Nieprawidłowy plik zip"
 
-#: app/models/task.py:640
+#: app/models/task.py:648
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Błąd połączenia: %(error)s"
 
-#: app/models/task.py:720
+#: app/models/task.py:728
 msgid "Cannot restart a task that has no processing node"
 msgstr "Nie można zrestartować zadania, które nie ma węzła przetwarzania"
 
-#: app/models/task.py:880
+#: app/models/task.py:888
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "Nieobsługiwany SRS %(code)s. Upewnij się, że wybrałeś obsługiwany SRS."
 
-#: app/models/task.py:894
+#: app/models/task.py:902
 msgid "Done!"
 msgstr "Gotowe!"
 
@@ -1454,7 +1446,7 @@ msgstr "Zapisz i dodaj kolejny"
 msgid "Save and continue editing"
 msgstr "Zapisz i kontynuuj edycję"
 
-#: app/templates/app/dashboard.html:18 app/templates/app/dashboard.html:30
+#: app/templates/app/dashboard.html:18 app/templates/app/dashboard.html:31
 #: app/templates/app/welcome.html:227
 msgid "Welcome!"
 msgstr "Witaj!"
@@ -1474,11 +1466,11 @@ msgstr ""
 "którym działa instancja %(nodeodm_link)s lub inne oprogramowanie "
 "implementujące to %(api_link)s."
 
-#: app/templates/app/dashboard.html:31
+#: app/templates/app/dashboard.html:32
 msgid "Select Images and GCP"
 msgstr "Zaznacz obrazy i GCP"
 
-#: app/templates/app/dashboard.html:33
+#: app/templates/app/dashboard.html:34
 #, python-format
 msgid ""
 "To create a map, press the \"%(upload_images)s\" button, or drag and drop "
@@ -1487,22 +1479,22 @@ msgstr ""
 "Aby utworzyć mapę, naciśnij przycisk „%(upload_images)s” lub przeciągnij i "
 "upuść kilka obrazów do projektu."
 
-#: app/templates/app/dashboard.html:37
+#: app/templates/app/dashboard.html:38
 msgid "You need at least 5 images, but 16-32 is typically the minimum."
 msgstr ""
 
-#: app/templates/app/dashboard.html:38
+#: app/templates/app/dashboard.html:39
 #, fuzzy, python-format
 #| msgid "Images must overlap by 65%% or more"
 msgid "Images must overlap by 65%% or more. Aim for 70-72%%"
 msgstr "Obrazy muszą zachodzić na siebie o 65%% lub więcej"
 
-#: app/templates/app/dashboard.html:39
+#: app/templates/app/dashboard.html:40
 #, python-format
 msgid "For great 3D, images must overlap by 83%%"
 msgstr "Aby uzyskać wspaniały model 3D, obrazy muszą nakładać się w 83 %%"
 
-#: app/templates/app/dashboard.html:40
+#: app/templates/app/dashboard.html:41
 #, python-format
 msgid ""
 "A %(link_start)sGCP File%(link_end)s is optional, but can increase "
@@ -1648,12 +1640,19 @@ msgstr "Opcje (JSON)"
 msgid "Edit"
 msgstr "Edytuj"
 
-#: app/templates/app/quota.html:8
+#: app/templates/app/quota.html:9
 #, python-format
 msgid ""
 "The disk quota is being exceeded (%(used)s of %(total)s used). The most "
 "recent tasks will be automatically deleted %(when)s, until usage falls below "
 "%(total)s."
+msgstr ""
+
+#: app/templates/app/quota.html:14
+#, python-format
+msgid ""
+"Your account does not have a storage quota. Any new task will be "
+"automatically deleted %(when)s"
 msgstr ""
 
 #: app/templates/app/welcome.html:224
@@ -2021,6 +2020,12 @@ msgstr ""
 #: nodeodm/models.py:33
 msgid "Engine used by the node."
 msgstr "Silnik używany przez węzeł."
+
+#~ msgid "Console output of the processing node"
+#~ msgstr "Wyjście konsoli węzła przetwarzania"
+
+#~ msgid "Console Output"
+#~ msgstr "Wyjście konsoli"
 
 #~ msgid "Task this image belongs to"
 #~ msgstr "Zadanie do którego należy ten obraz"
