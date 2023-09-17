@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 17:48+0000\n"
-"PO-Revision-Date: 2023-07-20 14:02+0000\n"
+"PO-Revision-Date: 2023-09-18 13:01+0000\n"
 "Last-Translator: upa <madeinupa@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/webodm/webodm/it/"
 ">\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: app/admin.py:65
 msgid "Enter custom CSS"
@@ -505,7 +505,7 @@ msgstr "Un'etichetta usata per descrivere l'impostazione predefinita"
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr ""
 "Opzioni che definiscono questa impostazione predefinita (lo stesso formato "
-"delle opzioni delle Attività)."
+"delle opzioni delle attività)."
 
 #: app/models/preset.py:11 app/models/task.py:249
 msgid "Options"
@@ -544,9 +544,8 @@ msgid "Maximum disk quota in megabytes"
 msgstr "Massimo spazio disco in megabytes"
 
 #: app/models/profile.py:15
-#, fuzzy
 msgid "Quota"
-msgstr "Spazio"
+msgstr "Quota"
 
 #: app/models/project.py:23
 msgid "The person who created the project"
@@ -566,8 +565,8 @@ msgid ""
 "running tasks need to wait for tasks to be properly cleaned up before they "
 "can be deleted."
 msgstr ""
-"Se questo progetto è segnato per la cancellazione. I progetti con Attività "
-"in esecuzione devono attendere che le Attività siano adeguatamente concluse "
+"Se questo progetto è segnato per la cancellazione. I progetti con attività "
+"in esecuzione devono attendere che le attività siano adeguatamente concluse "
 "prima di poter essere cancellati."
 
 #: app/models/project.py:27
@@ -650,7 +649,7 @@ msgstr "Id"
 
 #: app/models/task.py:241
 msgid "Identifier of the task (as returned by NodeODM API)"
-msgstr "Identificatore dell'Attività (come ritornato da NodeODM API)"
+msgstr "Identificatore dell'attività (come ritornato da NodeODM API)"
 
 #: app/models/task.py:241
 msgid "UUID"
@@ -658,18 +657,18 @@ msgstr "UUID"
 
 #: app/models/task.py:242
 msgid "Project that this task belongs to"
-msgstr "Progetto al quale appartiene questa Attività"
+msgstr "Progetto al quale appartiene questa attività"
 
 #: app/models/task.py:243
 msgid "A label for the task"
-msgstr "Etichetta per l'Attività"
+msgstr "Etichetta per l'attività"
 
 #: app/models/task.py:244
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr ""
-"Numero di millisecondi trascorsi dall'inizio di questa Attività (-1 indica "
+"Numero di millisecondi trascorsi dall'inizio di questa attività (-1 indica "
 "che non sono disponibili informazioni)"
 
 #: app/models/task.py:244
@@ -681,7 +680,7 @@ msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr ""
-"Nodo di elaborazione assegnato a questa Attività (o nullo se questa Attività "
+"Nodo di elaborazione assegnato a questa attività (o nullo se questa attività "
 "non è stata ancora associata)"
 
 #: app/models/task.py:245 app/views/app.py:116 nodeodm/models.py:36
@@ -693,7 +692,7 @@ msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr ""
-"Flag che indica se questa Attività deve essere assegnata automaticamente ad "
+"Flag che indica se questa attività deve essere assegnata automaticamente ad "
 "un nodo di elaborazione"
 
 #: app/models/task.py:246
@@ -702,7 +701,7 @@ msgstr "Nodo di Elaborazione automatico"
 
 #: app/models/task.py:247
 msgid "Current status of the task"
-msgstr "Stato attuale dell'Attività"
+msgstr "Stato attuale dell'attività"
 
 #: app/models/task.py:247
 msgid "Status"
@@ -718,7 +717,7 @@ msgstr "Ultimo errore"
 
 #: app/models/task.py:249
 msgid "Options that are being used to process this task"
-msgstr "Opzioni utilizzate per elaborare questa Attività"
+msgstr "Opzioni utilizzate per elaborare questa attività"
 
 #: app/models/task.py:250
 msgid "List of available assets to download"
@@ -749,7 +748,7 @@ msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
 msgstr ""
-"Un'azione richiesta da eseguire sull'Attività. L'azione selezionata verrà "
+"Un'azione richiesta da eseguire sull'attività. L'azione selezionata verrà "
 "eseguita dal processo worker alla successiva iterazione."
 
 #: app/models/task.py:258
@@ -758,7 +757,7 @@ msgstr "Azione in sospeso"
 
 #: app/models/task.py:260
 msgid "A flag indicating whether this task is available to the public"
-msgstr "Un flag che indica se questa Attività è disponibile al pubblico"
+msgstr "Un flag che indica se questa attività è disponibile al pubblico"
 
 #: app/models/task.py:260
 msgid "Public"
@@ -771,7 +770,7 @@ msgid ""
 "processing."
 msgstr ""
 "Se impostato su un valore diverso da -1, indica che le immagini per questa "
-"Attività sono state / saranno ridimensionate alla dimensione qui specificata "
+"attività sono state / saranno ridimensionate alla dimensione qui specificata "
 "prima dell'elaborazione."
 
 #: app/models/task.py:261
@@ -784,7 +783,7 @@ msgid ""
 "the processing node"
 msgstr ""
 "Valore compreso tra 0 e 1 che indica l'avanzamento del caricamento dei file "
-"di questa Attività sul nodo di elaborazione"
+"di questa attività sul nodo di elaborazione"
 
 #: app/models/task.py:265
 msgid "Upload Progress"
@@ -795,7 +794,7 @@ msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
 "Valore compreso tra 0 e 1 che indica l'avanzamento del ridimensionamento "
-"delle immagini di questa Attività"
+"delle immagini di questa attività"
 
 #: app/models/task.py:269
 msgid "Resize Progress"
@@ -807,7 +806,7 @@ msgid ""
 "task"
 msgstr ""
 "Valore compreso tra 0 e 1 che indica lo stato di avanzamento (stimato) di "
-"questa Attività"
+"questa attività"
 
 #: app/models/task.py:273
 msgid "Running Progress"
@@ -816,7 +815,7 @@ msgstr "Avanzamento esecuzione"
 #: app/models/task.py:275
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr ""
-"URL da cui viene importata questa Attività (solo per le Attività importate)"
+"URL da cui viene importata questa attività (solo per le attività importate)"
 
 #: app/models/task.py:275
 msgid "Import URL"
@@ -824,7 +823,7 @@ msgstr "URL di importazione"
 
 #: app/models/task.py:276
 msgid "Number of images associated with this task"
-msgstr "Numero di immagini associate a questa Attività"
+msgstr "Numero di immagini associate a questa attività"
 
 #: app/models/task.py:276
 msgid "Images Count"
@@ -835,7 +834,7 @@ msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr ""
-"Un flag che indica se questa Attività è attualmente in attesa del "
+"Un flag che indica se questa attività è attualmente in attesa del "
 "caricamento di informazioni o file prima di essere considerata pronta per "
 "l'elaborazione."
 
@@ -906,7 +905,7 @@ msgstr "Errore di connessione: %(error)s"
 
 #: app/models/task.py:728
 msgid "Cannot restart a task that has no processing node"
-msgstr "Impossibile riavviare una Attività che non ha un nodo di elaborazione"
+msgstr "Impossibile riavviare una attività che non ha un nodo di elaborazione"
 
 #: app/models/task.py:888
 #, python-format
@@ -1652,6 +1651,8 @@ msgid ""
 "Your account does not have a storage quota. Any new task will be "
 "automatically deleted %(when)s"
 msgstr ""
+"Il tuo account non ha uno spazio di archiviazione. Qualsiasi nuova attività "
+"verrà automaticamente cancellata %(when)s"
 
 #: app/templates/app/welcome.html:224
 msgid "Uh oh! Could you please check the errors below?"
@@ -1700,8 +1701,8 @@ msgstr "Calcola, mostra l'anteprima ed esporta i contorni da DEM"
 #: app/translations/plugin_manifest_autogenerated.py:7
 msgid "Display program version, memory and disk space usage statistics"
 msgstr ""
-"Mostra la versione del programma, le statistiche di utilizzo memora e spazio "
-"su disco"
+"Mostra la versione del programma, le statistiche di utilizzo memoria e "
+"spazio su disco"
 
 #: app/translations/plugin_manifest_autogenerated.py:8
 msgid "Integrate WebODM with DroneDB: import images and share results"
@@ -1730,7 +1731,7 @@ msgstr "Calcola il volume, l'area e le lunghezze con Leaflet"
 
 #: app/translations/plugin_manifest_autogenerated.py:14
 msgid "A plugin to upload orthophotos to OpenAerialMap"
-msgstr "Un plugin per caricare le orthophoto su OpenAerialMap"
+msgstr "Un plugin per caricare ortofoto su OpenAerialMap"
 
 #: app/translations/plugin_manifest_autogenerated.py:15
 msgid ""
@@ -1776,7 +1777,7 @@ msgstr "Vista Modello 3D"
 #: app/views/app.py:112
 #, python-format
 msgid "%(node)s seems to be offline."
-msgstr ""
+msgstr "%(node)s sembra offline."
 
 #: app/views/app.py:150
 msgid "Welcome"
