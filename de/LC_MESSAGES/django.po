@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 17:48+0000\n"
-"PO-Revision-Date: 2022-04-11 17:12+0000\n"
-"Last-Translator: Kenny Kropp <kenny@bitgr.id>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/webodm/webodm/de/"
-">\n"
+"PO-Revision-Date: 2023-10-01 22:01+0000\n"
+"Last-Translator: pvitt <pvitt@posteo.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/webodm/webodm/de/>"
+"\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: app/admin.py:65
 msgid "Enter custom CSS"
@@ -282,11 +282,11 @@ msgstr ""
 
 #: app/api/formulas.py:120
 msgid "Temperature in Celsius degrees."
-msgstr ""
+msgstr "Temperatur in Grad Celsius."
 
 #: app/api/formulas.py:124
 msgid "Temperature in Centikelvin degrees."
-msgstr ""
+msgstr "Temperatur in Hundertstel Grad Kelvin."
 
 #: app/api/projects.py:125
 msgid "Cannot duplicate project"
@@ -298,13 +298,11 @@ msgstr ""
 
 #: app/api/projects.py:195
 msgid "Invalid permissions"
-msgstr ""
+msgstr "Ungültige Berechtigungen"
 
 #: app/api/tasks.py:184
-#, fuzzy
-#| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload at least 1 file before commit"
-msgstr "Man benötigt mindestens 2 Bilder"
+msgstr "Sie müssen mindestens eine Datei hochladen"
 
 #: app/api/tasks.py:207
 msgid "No files uploaded"
@@ -330,10 +328,14 @@ msgstr "Importierte Aufgabe"
 #: app/api/tasks.py:418
 msgid "Cannot create task, you need to upload 1 file"
 msgstr ""
+"Aufgabe kann nicht erstellt werden, weil Sie mindestens eine Datei hochladen "
+"müssen"
 
 #: app/api/tasks.py:421
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
+"Aufgabe kann nicht erstellt werden. Geben Sie eine URL an oder laden Sie "
+"eine Datei hoch."
 
 #: app/api/tiler.py:284
 msgid "Invalid boundaries parameter"
@@ -375,12 +377,12 @@ msgstr ""
 #: app/api/tiler.py:513 app/api/tiler.py:515
 #, python-format
 msgid "Unsupported format: %(value)s"
-msgstr ""
+msgstr "Nicht unterstütztes Format: %(value)s"
 
 #: app/api/tiler.py:534
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr ""
+msgstr "Ungültiger EPSG Code: %(value)s"
 
 #: app/api/tiler.py:537
 msgid "Both formula and bands parameters are required"
@@ -431,23 +433,25 @@ msgstr ""
 
 #: app/models/plugin_datum.py:7
 msgid "Key"
-msgstr ""
+msgstr "Schlüssel"
 
 #: app/models/plugin_datum.py:8
 msgid "The user this setting belongs to. If NULL, the setting is global."
 msgstr ""
+"Der Benutzer, zu dem diese Einstellung gehört. Wenn NULL, ist die "
+"Einstellung global."
 
 #: app/models/plugin_datum.py:8 app/templates/app/admin/object_history.html:23
 msgid "User"
-msgstr ""
+msgstr "Benutzer"
 
 #: app/models/plugin_datum.py:9
 msgid "Integer value"
-msgstr ""
+msgstr "Ganzzahliger Wert"
 
 #: app/models/plugin_datum.py:10
 msgid "Float value"
-msgstr ""
+msgstr "Dezimalzahl"
 
 #: app/models/plugin_datum.py:11
 msgid "Bool value"
@@ -455,7 +459,7 @@ msgstr ""
 
 #: app/models/plugin_datum.py:12
 msgid "String value"
-msgstr ""
+msgstr "Alphanumerischer Wert"
 
 #: app/models/plugin_datum.py:13
 msgid "JSON value"
@@ -467,11 +471,11 @@ msgstr "Plugin Datum"
 
 #: app/models/preset.py:9
 msgid "The person who owns this preset"
-msgstr ""
+msgstr "Die Person, die diese Voreinstellung besitzt"
 
 #: app/models/preset.py:9 app/models/project.py:23
 msgid "Owner"
-msgstr ""
+msgstr "Besitzer"
 
 #: app/models/preset.py:10
 msgid "A label used to describe the preset"
@@ -487,7 +491,7 @@ msgstr "Optionen"
 
 #: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:257
 msgid "Creation date"
-msgstr ""
+msgstr "Erstellungsdatum"
 
 #: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:257
 msgid "Created at"
@@ -498,18 +502,20 @@ msgid ""
 "Whether this preset is available to every user in the system or just to its "
 "owner."
 msgstr ""
+"Ob diese Voreinstellung jedem Benutzer im System oder nur seinem Besitzer "
+"zur Verfügung steht."
 
 #: app/models/preset.py:14
 msgid "System"
-msgstr ""
+msgstr "System"
 
 #: app/models/preset.py:20
 msgid "Preset"
-msgstr ""
+msgstr "Voreinstellung"
 
 #: app/models/preset.py:21
 msgid "Presets"
-msgstr ""
+msgstr "Voreinstellungen"
 
 #: app/models/profile.py:15
 msgid "Maximum disk quota in megabytes"
@@ -521,7 +527,7 @@ msgstr ""
 
 #: app/models/project.py:23
 msgid "The person who created the project"
-msgstr ""
+msgstr "Die Person, die das Projekt erstellt hat"
 
 #: app/models/project.py:24
 msgid "A label used to describe the project"
@@ -529,7 +535,7 @@ msgstr ""
 
 #: app/models/project.py:25
 msgid "More in-depth description of the project"
-msgstr ""
+msgstr "Ausführliche Beschreibung des Projekts"
 
 #: app/models/project.py:27
 msgid ""
@@ -543,19 +549,17 @@ msgid "Deleting"
 msgstr "Löschen"
 
 #: app/models/project.py:28
-#, fuzzy
-#| msgid "Projects"
 msgid "Project tags"
-msgstr "Projekte"
+msgstr "Projekt-Tags"
 
 #: app/models/project.py:28 app/models/task.py:280
 msgid "Tags"
-msgstr ""
+msgstr "Tags"
 
 #: app/models/project.py:65 app/models/task.py:428
 #, python-format
 msgid "Copy of %(task)s"
-msgstr ""
+msgstr "Kopie von %(task)s"
 
 #: app/models/project.py:90 app/models/task.py:242
 msgid "Project"
@@ -567,7 +571,7 @@ msgstr "Projekte"
 
 #: app/models/setting.py:20
 msgid "The name of your application"
-msgstr ""
+msgstr "Der Name Ihrer Anwendung"
 
 #: app/models/setting.py:20
 msgid "App name"
@@ -575,19 +579,19 @@ msgstr ""
 
 #: app/models/setting.py:21
 msgid "A 512x512 logo of your application (.png or .jpeg)"
-msgstr ""
+msgstr "Ein 512x512 Logo Ihrer Anwendung (.png oder .jpeg)"
 
 #: app/models/setting.py:21
 msgid "App logo"
-msgstr ""
+msgstr "App-Logo"
 
 #: app/models/setting.py:31
 msgid "The name of your organization"
-msgstr ""
+msgstr "Der Name Ihrer Organisation"
 
 #: app/models/setting.py:31
 msgid "Organization name"
-msgstr ""
+msgstr "Organisationsname"
 
 #: app/models/setting.py:32
 msgid "The website URL of your organization"
@@ -595,7 +599,7 @@ msgstr ""
 
 #: app/models/setting.py:32
 msgid "Organization website"
-msgstr ""
+msgstr "Website der Organisation"
 
 #: app/models/setting.py:33 app/models/theme.py:48 app/models/theme.py:49
 #: app/templates/app/logged_in_base.html:119
@@ -612,11 +616,11 @@ msgstr "Anwendung"
 
 #: app/models/setting.py:76 app/models/setting.py:77
 msgid "Settings"
-msgstr ""
+msgstr "Einstellungen"
 
 #: app/models/task.py:239
 msgid "Id"
-msgstr ""
+msgstr "Id"
 
 #: app/models/task.py:241
 msgid "Identifier of the task (as returned by NodeODM API)"
@@ -624,11 +628,11 @@ msgstr ""
 
 #: app/models/task.py:241
 msgid "UUID"
-msgstr ""
+msgstr "UUID"
 
 #: app/models/task.py:242
 msgid "Project that this task belongs to"
-msgstr ""
+msgstr "Projekt, zu dem diese Aufgabe gehört"
 
 #: app/models/task.py:243
 msgid "A label for the task"
@@ -1122,7 +1126,7 @@ msgstr ""
 
 #: app/templates/app/admin/change_list.html:69
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 #: app/templates/app/admin/change_list_plugin.html:24
 msgid "Load Plugin (.zip)"
