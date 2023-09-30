@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-16 17:48+0000\n"
-"PO-Revision-Date: 2023-04-05 10:49+0000\n"
+"PO-Revision-Date: 2023-10-01 22:01+0000\n"
 "Last-Translator: Jarosław Okińczyc <okinczyc@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/webodm/webodm/pl/"
-">\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/webodm/webodm/pl/>"
+"\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: app/admin.py:65
 msgid "Enter custom CSS"
@@ -134,33 +134,30 @@ msgstr "Akcje"
 #: app/api/formulas.py:12 app/api/formulas.py:32
 msgid ""
 "Normalized Difference Vegetation Index shows the amount of green vegetation."
-msgstr "Indeks NDVI wskazuje z wegetacją."
+msgstr "Indeks NDVI pokazuje ilość zielonej roślinności."
 
 #: app/api/formulas.py:17
 msgid ""
 "Normalized difference yellowness index (NDYI), best model variability in "
 "relative yield potential in Canola."
 msgstr ""
+"Znormalizowany różnicowy wskaźnik żółtości (NDYI), najlepszy model "
+"zmienności względnego potencjału plonowania rzepaku."
 
 #: app/api/formulas.py:22
-#, fuzzy
-#| msgid ""
-#| "Normalized Difference Vegetation Index shows the amount of green "
-#| "vegetation."
 msgid ""
 "Normalized Difference Red Edge Index shows the amount of green vegetation of "
 "permanent or later stage crops."
-msgstr "Indeks NDVI wskazuje z wegetacją."
+msgstr ""
+"Normalized Difference Red Edge Index (znormalizowany różnicowy wskaźnik "
+"czerwonej krawędzi) (NDRE) pokazuje ilość zielonej roślinności w uprawach "
+"trwałych lub w późniejszym stadium wegetacji."
 
 #: app/api/formulas.py:27
-#, fuzzy
-#| msgid ""
-#| "Normalized Difference Vegetation Index shows the amount of green "
-#| "vegetation."
 msgid ""
 "Normalized Difference Water Index shows the amount of water content in water "
 "bodies."
-msgstr "Indeks NDVI wskazuje z wegetacją."
+msgstr "Indeks NDVI wskazuje zawartość wody w roślinach."
 
 #: app/api/formulas.py:37
 msgid ""
@@ -186,7 +183,7 @@ msgstr "Visual Atmospheric Resistance Index wskazuje obszary wegetacji."
 
 #: app/api/formulas.py:50
 msgid "Modified Photochemical Reflectance Index"
-msgstr ""
+msgstr "Zmodyfikowany współczynnik odbicia fotochemicznego (MPRI)"
 
 #: app/api/formulas.py:55
 msgid ""
@@ -201,6 +198,8 @@ msgid ""
 "Triangular Greenness Index (derived from only the RGB bands) performs "
 "similarly to EXG but with improvements over certain environments."
 msgstr ""
+"Triangular Greenness Index (TGI) (pochodzący wyłącznie z pasm RGB), działa "
+"podobnie do EXG, ale z ulepszeniami w niektórych środowiskach."
 
 #: app/api/formulas.py:63
 msgid ""
@@ -299,14 +298,17 @@ msgid ""
 "Atmospherically Resistant Vegetation Index. Useful when working with imagery "
 "for regions with high atmospheric aerosol content."
 msgstr ""
+"Wskaźnik roślinności odporny na warunki atmosferyczne (ARVI). Przydatne "
+"podczas pracy ze zdjęciami regionów o dużej zawartości aerozolu "
+"atmosferycznego."
 
 #: app/api/formulas.py:120
 msgid "Temperature in Celsius degrees."
-msgstr ""
+msgstr "Temperatura w stopniach Celsjusza."
 
 #: app/api/formulas.py:124
 msgid "Temperature in Centikelvin degrees."
-msgstr ""
+msgstr "Temperatura w stopniach Kelwina (centykelwinach)."
 
 #: app/api/projects.py:125
 msgid "Cannot duplicate project"
@@ -321,10 +323,8 @@ msgid "Invalid permissions"
 msgstr "Nieprawidłowe uprawnienia"
 
 #: app/api/tasks.py:184
-#, fuzzy
-#| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload at least 1 file before commit"
-msgstr "Musisz przesłać co najmniej 2 obrazy przed zatwierdzeniem"
+msgstr "Musisz przesłać co najmniej 1 plik przed zatwierdzeniem"
 
 #: app/api/tasks.py:207
 msgid "No files uploaded"
@@ -360,10 +360,8 @@ msgid "Invalid boundaries parameter"
 msgstr "Nieprawidłowy parametr granic"
 
 #: app/api/tiler.py:301
-#, fuzzy
-#| msgid "Invalid boundaries parameter"
 msgid "Invalid tile size parameter"
-msgstr "Nieprawidłowy parametr granic"
+msgstr "Nieprawidłowy parametr rozmiaru płytki"
 
 #: app/api/tiler.py:331 app/api/tiler.py:403
 msgid "Outside of bounds"
@@ -382,19 +380,21 @@ msgid "Invalid rescale value"
 msgstr "Nieprawidłowa wartość przeskalowania"
 
 #: app/api/tiler.py:437
-#, fuzzy
-#| msgid "Invalid zip file"
 msgid "Invalid hillshade value"
-msgstr "Nieprawidłowy plik zip"
+msgstr "Nieprawidłowa wartość cieniowania (hillshade)"
 
 #: app/api/tiler.py:440
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
+"Nie można obliczyć cieniowania w rastrze bez wskazanej wysokości (znaleziono "
+"wiele pasm)"
 
 #: app/api/tiler.py:464
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
+"Nie można przetworzyć kafelka: dostarczono obraz intensywności, ale nie "
+"obliczono danych RGB."
 
 #: app/api/tiler.py:513 app/api/tiler.py:515
 #, python-format
@@ -408,7 +408,7 @@ msgstr "Nieprawidłowy kod EPSG: %(value)s"
 
 #: app/api/tiler.py:537
 msgid "Both formula and bands parameters are required"
-msgstr ""
+msgstr "Wymaga parametrów formuły i zakresu"
 
 #: app/api/tiler.py:557
 #, python-format
@@ -418,7 +418,7 @@ msgstr "Nieprawidłowa wartość przeskalowania: %(value)s"
 #: app/api/tiler.py:565
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
-msgstr ""
+msgstr "Nieprawidłowa wartość zacienienia: %(value)s"
 
 #: app/api/tiler.py:576
 msgid "Cannot use epsg on non-georeferenced dataset"
@@ -543,11 +543,11 @@ msgstr "Zapisane ustawienia"
 
 #: app/models/profile.py:15
 msgid "Maximum disk quota in megabytes"
-msgstr ""
+msgstr "Maksymalny rozmiar przydziału dysku w megabajtach"
 
 #: app/models/profile.py:15
 msgid "Quota"
-msgstr ""
+msgstr "Przydział"
 
 #: app/models/project.py:23
 msgid "The person who created the project"
@@ -576,10 +576,8 @@ msgid "Deleting"
 msgstr "Usuwanie"
 
 #: app/models/project.py:28
-#, fuzzy
-#| msgid "Projects"
 msgid "Project tags"
-msgstr "Projekty"
+msgstr "Znaczniki projektu (tagi)"
 
 #: app/models/project.py:28 app/models/task.py:280
 msgid "Tags"
@@ -850,6 +848,8 @@ msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
+"Serializowane informacje o scenie POTREE używane do zapisywania/wczytywania "
+"pomiarów i kąta widzenia kamery"
 
 #: app/models/task.py:278
 msgid "Potree Scene"
@@ -860,30 +860,24 @@ msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "Kod EPSG zbioru danych (jeśli jest georeferencyjny)"
 
 #: app/models/task.py:280
-#, fuzzy
-#| msgid "Tasks"
 msgid "Task tags"
-msgstr "Zadania"
+msgstr "Znaczniki zadania (tagi)"
 
 #: app/models/task.py:281
-#, fuzzy
-#| msgid "Extent of the orthophoto"
 msgid "List of orthophoto bands"
-msgstr "Zakres ortofotomapy"
+msgstr "Lista pasm ortofotograficznych"
 
 #: app/models/task.py:281
-#, fuzzy
-#| msgid "Orthophoto Extent"
 msgid "Orthophoto Bands"
-msgstr "Zakres ortofotomapy"
+msgstr "Pasma ortofotografii"
 
 #: app/models/task.py:282
 msgid "Size of the task on disk in megabytes"
-msgstr ""
+msgstr "Rozmiar zadania na dysku w megabajtach"
 
 #: app/models/task.py:282
 msgid "Size"
-msgstr ""
+msgstr "Rozmiar"
 
 #: app/models/task.py:285
 msgid "Task"
@@ -1481,13 +1475,12 @@ msgstr ""
 
 #: app/templates/app/dashboard.html:38
 msgid "You need at least 5 images, but 16-32 is typically the minimum."
-msgstr ""
+msgstr "Potrzebujesz co najmniej 5 obrazów, ale zazwyczaj 16–32 to minimum."
 
 #: app/templates/app/dashboard.html:39
-#, fuzzy, python-format
-#| msgid "Images must overlap by 65%% or more"
+#, python-format
 msgid "Images must overlap by 65%% or more. Aim for 70-72%%"
-msgstr "Obrazy muszą zachodzić na siebie o 65%% lub więcej"
+msgstr "Obrazy muszą nakładać się na siebie w co najmniej 65%%. Celuj w 70-72%%"
 
 #: app/templates/app/dashboard.html:40
 #, python-format
@@ -1553,7 +1546,7 @@ msgstr "Cześć, %(user)s!"
 #: app/templates/app/logged_in_base.html:30
 #, python-format
 msgid "%(used)s of %(total)s used"
-msgstr ""
+msgstr "używane %(used)s z %(total)s"
 
 #: app/templates/app/logged_in_base.html:43
 msgid "Logout"
@@ -1647,6 +1640,9 @@ msgid ""
 "recent tasks will be automatically deleted %(when)s, until usage falls below "
 "%(total)s."
 msgstr ""
+"Limit dysku został przekroczony (wykorzystanych %(used)s z %(total)s). "
+"Najnowsze zadania zostaną automatycznie usunięte %(when)s, dopóki "
+"wykorzystanie nie spadnie poniżej %(total)s."
 
 #: app/templates/app/quota.html:14
 #, python-format
@@ -1654,6 +1650,8 @@ msgid ""
 "Your account does not have a storage quota. Any new task will be "
 "automatically deleted %(when)s"
 msgstr ""
+"Twoje konto nie ma limitu miejsca. Każde nowe zadanie zostanie automatycznie "
+"usunięte %(when)s"
 
 #: app/templates/app/welcome.html:224
 msgid "Uh oh! Could you please check the errors below?"
@@ -1671,21 +1669,21 @@ msgstr "Utwórz konto"
 #: app/templatetags/settings.py:49
 #, python-format
 msgid "in %(num)s days"
-msgstr ""
+msgstr "w %(num)s dni"
 
 #: app/templatetags/settings.py:51
 #, python-format
 msgid "in %(num)s hours"
-msgstr ""
+msgstr "w %(num)s godziny"
 
 #: app/templatetags/settings.py:53
 #, python-format
 msgid "in %(num)s minutes"
-msgstr ""
+msgstr "w %(num)s minuty"
 
 #: app/templatetags/settings.py:55
 msgid "very soon"
-msgstr ""
+msgstr "bardzo niedługo"
 
 #: app/translations/plugin_manifest_autogenerated.py:4
 msgid "Detect changes between two different tasks in the same project."
@@ -1748,7 +1746,7 @@ msgstr "Plugin do tworzenia plików GCP z obrazów"
 
 #: app/translations/plugin_manifest_autogenerated.py:17
 msgid "A plugin to show charts of projects and tasks"
-msgstr ""
+msgstr "Wtyczka wyświetlająca wykresy projektów i zadań"
 
 #: app/translations/plugin_manifest_autogenerated.py:18
 msgid "Create short links when sharing task URLs"
@@ -1759,6 +1757,8 @@ msgid ""
 "Get notified when a task has finished processing, has been removed or has "
 "failed"
 msgstr ""
+"Otrzymuj powiadomienia, gdy zadanie zakończy przetwarzanie, zostanie "
+"usunięte lub zakończy się niepowodzeniem"
 
 #: app/views/app.py:45
 msgid "First Project"
@@ -1775,7 +1775,7 @@ msgstr "Wyświetlanie modelu 3D"
 #: app/views/app.py:112
 #, python-format
 msgid "%(node)s seems to be offline."
-msgstr ""
+msgstr "%(node)s wygląda na offline."
 
 #: app/views/app.py:150
 msgid "Welcome"
@@ -1865,12 +1865,7 @@ msgid "Note!"
 msgstr "Komentarz!"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
-#, fuzzy, python-format
-#| msgid ""
-#| "These values might be relative to the virtualization environment in which "
-#| "the application is running, not necessarily the values of the your "
-#| "machine. See instructions for %(win_link)s and %(mac_link)s for changing "
-#| "these values in a Docker setup."
+#, python-format
 msgid ""
 "These values might be relative to the virtualization environment in which "
 "the application is running, not necessarily the values of the your machine. "
@@ -1878,8 +1873,8 @@ msgid ""
 "%(mac_link)s for changing these values in a Docker setup."
 msgstr ""
 "Wartości ten mogą odnosić się do środowiska wirtualizacji, w którym pracuje "
-"aplikacja, a nie maszyny. Zobacz instrukcje %(win_link)s i %(mac_link)s aby "
-"zmienić je w instalacji Dockera."
+"aplikacja, a nie maszyny. Zobacz instrukcje %(win_hyperv_link)s, "
+"%(win_wsl2_link)s i %(mac_link)s aby zmienić je w instalacji Dockera."
 
 #: coreplugins/diagnostic/templates/diagnostic.html:47
 #: coreplugins/diagnostic/templates/diagnostic.html:82
@@ -1918,33 +1913,31 @@ msgstr "Interfejs GCP"
 
 #: coreplugins/projects-charts/plugin.py:55
 msgid "Charts"
-msgstr ""
+msgstr "Wykresy"
 
 #: coreplugins/projects-charts/templates/index.html:11
 msgid "Year"
-msgstr ""
+msgstr "Rok"
 
 #: coreplugins/projects-charts/templates/index.html:23
 msgid "Next"
-msgstr ""
+msgstr "Następny"
 
 #: coreplugins/projects-charts/templates/index.html:69
-#, fuzzy
-#| msgid "Projects"
 msgid "Projects by month"
-msgstr "Projekty"
+msgstr "Projekty miesiącami"
 
 #: coreplugins/projects-charts/templates/index.html:111
 msgid "Tasks by month"
-msgstr ""
+msgstr "Zadania miesiącami"
 
 #: coreplugins/tasknotification/plugin.py:84
 msgid "Task Notification"
-msgstr ""
+msgstr "Powiadomienie o zadaniu"
 
 #: coreplugins/tasknotification/templates/index.html:5
 msgid "Tasks Notification"
-msgstr ""
+msgstr "Powiadomienie o zadaniach"
 
 #: nodeodm/apps.py:8
 msgid "Node Management"
