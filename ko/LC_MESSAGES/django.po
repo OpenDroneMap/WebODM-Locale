@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-16 17:48+0000\n"
+"POT-Creation-Date: 2023-10-03 19:30+0000\n"
 "PO-Revision-Date: 2022-07-16 15:15+0000\n"
 "Last-Translator: Park Jeongyong <kladess@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/webodm/webodm/ko/"
@@ -310,108 +310,108 @@ msgstr "사용 권한 목록에서 잘못된 사용자"
 msgid "Invalid permissions"
 msgstr "잘못된 권한"
 
-#: app/api/tasks.py:184
+#: app/api/tasks.py:186
 #, fuzzy
 #| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload at least 1 file before commit"
 msgstr "결정하기 전에 최소 2장 의 이미지들을 업로드 하여야 합니다"
 
-#: app/api/tasks.py:207
+#: app/api/tasks.py:209
 msgid "No files uploaded"
 msgstr "업로드된 파일이 없습니다"
 
-#: app/api/tasks.py:233
+#: app/api/tasks.py:235
 msgid "Cannot duplicate task"
 msgstr "작업을 복제할 수 없습니다"
 
-#: app/api/tasks.py:250
+#: app/api/tasks.py:252
 msgid "Cannot create task, you need at least 2 images"
 msgstr "작업을 생성할 수 없습니다, 최소 2장 이상의 이미지가 필요합니다"
 
-#: app/api/tasks.py:369 app/api/tasks.py:372 app/api/tasks.py:396
-#: app/api/tasks.py:399
+#: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
+#: app/api/tasks.py:401
 msgid "Asset does not exist"
 msgstr "애셋이 존재하지 않습니다"
 
-#: app/api/tasks.py:415
+#: app/api/tasks.py:417
 msgid "Imported Task"
 msgstr "불러온 작업"
 
-#: app/api/tasks.py:418
+#: app/api/tasks.py:420
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "작업을 생성할 수 없습니다, 1개의 파일을 업로드 해야합니다"
 
-#: app/api/tasks.py:421
+#: app/api/tasks.py:423
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 "작업을 생성할 수 없습니다, URL을 지정하거나 1개의 파일을 업로드 하세요."
 
-#: app/api/tiler.py:284
+#: app/api/tiler.py:305
 msgid "Invalid boundaries parameter"
 msgstr "잘못된 경계 매개변수"
 
-#: app/api/tiler.py:301
+#: app/api/tiler.py:324
 #, fuzzy
 #| msgid "Invalid boundaries parameter"
 msgid "Invalid tile size parameter"
 msgstr "잘못된 경계 매개변수"
 
-#: app/api/tiler.py:331 app/api/tiler.py:403
+#: app/api/tiler.py:354 app/api/tiler.py:426
 msgid "Outside of bounds"
 msgstr "범위를 벗어남"
 
-#: app/api/tiler.py:341
+#: app/api/tiler.py:364
 msgid "Invalid boundaries"
 msgstr "잘못된 경계"
 
-#: app/api/tiler.py:409 app/api/tiler.py:528
+#: app/api/tiler.py:432 app/api/tiler.py:551
 msgid "Not a valid color_map value"
 msgstr "유효한 color_map 값이 아닙니다"
 
-#: app/api/tiler.py:415
+#: app/api/tiler.py:438
 msgid "Invalid rescale value"
 msgstr "잘못된 재조정 값"
 
-#: app/api/tiler.py:437
+#: app/api/tiler.py:460
 msgid "Invalid hillshade value"
 msgstr "잘못된 hillshade 값"
 
-#: app/api/tiler.py:440
+#: app/api/tiler.py:463
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr "고도가 없는 래스터의 색조를 계산할 수 없습니다(여러 대역 발견)"
 
-#: app/api/tiler.py:464
+#: app/api/tiler.py:487
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 "타일을 처리할 수 없음: 강도 이미지가 제공되었지만 RGB 데이터가 계산되지 않았"
 "습니다."
 
-#: app/api/tiler.py:513 app/api/tiler.py:515
+#: app/api/tiler.py:536 app/api/tiler.py:538
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "지원되지 않는 형식: %(value)s"
 
-#: app/api/tiler.py:534
+#: app/api/tiler.py:557
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "잘못된 EPSG 코드: %(value)s"
 
-#: app/api/tiler.py:537
+#: app/api/tiler.py:560
 msgid "Both formula and bands parameters are required"
 msgstr "공식 및 대역 매개변수가 모두 필요합니다"
 
-#: app/api/tiler.py:557
+#: app/api/tiler.py:580
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "잘못된 재조정 값: %(value)s"
 
-#: app/api/tiler.py:565
+#: app/api/tiler.py:588
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "잘못된 힐쉐이드 값: %(value)s"
 
-#: app/api/tiler.py:576
+#: app/api/tiler.py:599
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr "지리 참조되지 않은 데이터 세트에서 epsg를 사용할 수 없습니다"
 
@@ -1755,15 +1755,15 @@ msgstr "번역 파일이 다시로드되었습니다!"
 msgid "Invalid action"
 msgstr "잘못된 작업"
 
-#: coreplugins/contours/api.py:16
+#: coreplugins/contours/api.py:86
 msgid "No DSM layer is available."
 msgstr "사용 가능한 DSM 레이어가 없습니다."
 
-#: coreplugins/contours/api.py:18
+#: coreplugins/contours/api.py:88
 msgid "No DTM layer is available."
 msgstr "DTM 레이어를 사용할 수 없습니다."
 
-#: coreplugins/contours/api.py:60
+#: coreplugins/contours/api.py:118
 msgid "Could not generate contour file. This might be a bug."
 msgstr "등고선 파일을 생성할 수 없습니다. 이것은 버그일 수 있습니다."
 
