@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 17:15+0000\n"
-"PO-Revision-Date: 2023-11-03 20:35+0000\n"
+"PO-Revision-Date: 2023-11-05 22:35+0000\n"
 "Last-Translator: Liudmyla Dzhuma <ldzhuma@sfa.org.ua>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/webodm/webodm/"
 "uk/>\n"
@@ -289,12 +289,12 @@ msgstr "Неможливо дублювати завдання"
 
 #: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
-msgstr ""
+msgstr "Неможливо створити завдання, потрібно принаймні 2 зображення"
 
 #: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
 #: app/api/tasks.py:401
 msgid "Asset does not exist"
-msgstr ""
+msgstr "Актив не існує"
 
 #: app/api/tasks.py:417
 msgid "Imported Task"
@@ -310,7 +310,7 @@ msgstr "Неможливо створити завдання, або вкажі�
 
 #: app/api/tiler.py:311
 msgid "Invalid boundaries parameter"
-msgstr ""
+msgstr "Недійсний параметр меж"
 
 #: app/api/tiler.py:347 app/api/tiler.py:410
 msgid "Outside of bounds"
@@ -357,7 +357,7 @@ msgstr "Невірний код EPSG: %(value)s"
 
 #: app/api/tiler.py:522
 msgid "Both formula and bands parameters are required"
-msgstr ""
+msgstr "Потрібні як параметри формули, так і діапазонів"
 
 #: app/api/tiler.py:542
 #, python-format
@@ -375,7 +375,7 @@ msgstr ""
 
 #: app/models/image_upload.py:10 app/models/task.py:270
 msgid "Task"
-msgstr ""
+msgstr "Завдання"
 
 #: app/models/image_upload.py:11
 msgid "File uploaded by a user"
@@ -395,7 +395,7 @@ msgstr ""
 
 #: app/models/plugin.py:5
 msgid "Plugin name"
-msgstr ""
+msgstr "Назва плагіна"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
 #: app/models/task.py:230 app/models/theme.py:16
@@ -404,7 +404,7 @@ msgstr "Назва"
 
 #: app/models/plugin.py:6
 msgid "Whether this plugin is turned on."
-msgstr ""
+msgstr "Чи цей плагін увімкнений."
 
 #: app/models/plugin.py:6
 msgid "Enabled"
@@ -416,63 +416,66 @@ msgstr ""
 
 #: app/models/plugin.py:21 app/templates/app/logged_in_base.html:98
 msgid "Plugins"
-msgstr ""
+msgstr "Плагіни"
 
 #: app/models/plugin_datum.py:7
 msgid "Setting key"
-msgstr ""
+msgstr "Ключ налаштування"
 
 #: app/models/plugin_datum.py:7
 msgid "Key"
-msgstr ""
+msgstr "Ключ"
 
 #: app/models/plugin_datum.py:8
 msgid "The user this setting belongs to. If NULL, the setting is global."
 msgstr ""
+"Користувач, якому належить це налаштування. Якщо NULL, параметр є глобальним."
 
 #: app/models/plugin_datum.py:8 app/templates/app/admin/object_history.html:23
 msgid "User"
-msgstr ""
+msgstr "Користувач"
 
 #: app/models/plugin_datum.py:9
 msgid "Integer value"
-msgstr ""
+msgstr "Ціле число"
 
 #: app/models/plugin_datum.py:10
 msgid "Float value"
-msgstr ""
+msgstr "Плаваюче значення"
 
 #: app/models/plugin_datum.py:11
 msgid "Bool value"
-msgstr ""
+msgstr "Логічне значення"
 
 #: app/models/plugin_datum.py:12
 msgid "String value"
-msgstr ""
+msgstr "Рядкове значення"
 
 #: app/models/plugin_datum.py:13
 msgid "JSON value"
-msgstr ""
+msgstr "Значення JSON"
 
 #: app/models/plugin_datum.py:19 app/models/plugin_datum.py:20
 msgid "Plugin Datum"
-msgstr ""
+msgstr "Вихідний код плагіна"
 
 #: app/models/preset.py:9
 msgid "The person who owns this preset"
-msgstr ""
+msgstr "Особа, яка володіє цим preset"
 
 #: app/models/preset.py:9 app/models/project.py:23
 msgid "Owner"
-msgstr ""
+msgstr "Власник"
 
 #: app/models/preset.py:10
 msgid "A label used to describe the preset"
-msgstr ""
+msgstr "Мітка, яка використовується для опису preset"
 
 #: app/models/preset.py:11
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr ""
+"Параметри, які визначають цей preset (той самий формат, що й у параметрах "
+"завдання)."
 
 #: app/models/preset.py:11 app/models/task.py:236
 msgid "Options"
@@ -480,41 +483,44 @@ msgstr "Налаштування"
 
 #: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:245
 msgid "Creation date"
-msgstr ""
+msgstr "Дата створення"
 
 #: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:245
 msgid "Created at"
-msgstr ""
+msgstr "Створено в"
 
 #: app/models/preset.py:14
 msgid ""
 "Whether this preset is available to every user in the system or just to its "
 "owner."
 msgstr ""
+"Чи доступний цей preset кожному користувачеві системи чи лише її власнику."
 
 #: app/models/preset.py:14
 msgid "System"
-msgstr ""
+msgstr "Система"
 
 #: app/models/preset.py:20
+#, fuzzy
 msgid "Preset"
-msgstr ""
+msgstr "'Preset'"
 
 #: app/models/preset.py:21
+#, fuzzy
 msgid "Presets"
-msgstr ""
+msgstr "'Presets'"
 
 #: app/models/project.py:23
 msgid "The person who created the project"
-msgstr ""
+msgstr "Особа, яка створила проєкт"
 
 #: app/models/project.py:24
 msgid "A label used to describe the project"
-msgstr ""
+msgstr "Мітка, яка використовується для опису проєкту"
 
 #: app/models/project.py:25
 msgid "More in-depth description of the project"
-msgstr ""
+msgstr "Більш детальний опис проєкту"
 
 #: app/models/project.py:27
 msgid ""
@@ -522,15 +528,18 @@ msgid ""
 "running tasks need to wait for tasks to be properly cleaned up before they "
 "can be deleted."
 msgstr ""
+"Чи позначено цей проєкт для видалення. Проєкти, які мають запущені завдання, "
+"повинні дочекатися належного очищення завдань, перш ніж їх можна буде "
+"видалити."
 
 #: app/models/project.py:27
 msgid "Deleting"
-msgstr ""
+msgstr "Видалення"
 
 #: app/models/project.py:61 app/models/task.py:412
-#, python-format
+#, fuzzy, python-format
 msgid "Copy of %(task)s"
-msgstr ""
+msgstr "Копія %(task)s"
 
 #: app/models/project.py:84 app/models/task.py:229
 msgid "Project"
@@ -538,11 +547,11 @@ msgstr "Проєкт"
 
 #: app/models/project.py:85
 msgid "Projects"
-msgstr ""
+msgstr "Проєкти"
 
 #: app/models/setting.py:20
 msgid "The name of your application"
-msgstr ""
+msgstr "Назва вашого додатку"
 
 #: app/models/setting.py:20
 msgid "App name"
