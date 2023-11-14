@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-03 19:30+0000\n"
+"POT-Creation-Date: 2023-11-14 22:56+0000\n"
 "PO-Revision-Date: 2023-08-22 03:36+0000\n"
 "Last-Translator: yoda <tianjiachengxu@126.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -184,80 +184,74 @@ msgstr "过量绿色指数（仅源自RGB）强调了马铃薯等多叶作物的
 
 #: app/api/formulas.py:59
 msgid ""
-"Triangular Greenness Index (derived from only the RGB bands) performs "
-"similarly to EXG but with improvements over certain environments."
-msgstr "三角绿度指数（仅源自RGB波段）的性能与EXG类似，但在某些环境下更有效。"
-
-#: app/api/formulas.py:63
-msgid ""
 "Burn Area Index hightlights burned land in the red to near-infrared spectrum."
 msgstr "燃烧面积指数以红色到近红外光谱高亮燃烧区域。"
 
-#: app/api/formulas.py:67
+#: app/api/formulas.py:63
 msgid "Green Leaf Index shows greens leaves and stems."
 msgstr "绿叶指数显示绿色的叶子和茎。"
 
-#: app/api/formulas.py:72
+#: app/api/formulas.py:68
 msgid ""
 "Green Normalized Difference Vegetation Index is similar to NDVI, but "
 "measures the green spectrum instead of red."
 msgstr "绿色归一化差异植被指数与NDVI相似，但测量的是绿色光谱，而不是红色光谱。"
 
-#: app/api/formulas.py:77
+#: app/api/formulas.py:73
 msgid ""
 "Green Ratio Vegetation Index is sensitive to photosynthetic rates in forests."
 msgstr "森林绿比植被指数对光合速率敏感。"
 
-#: app/api/formulas.py:81
+#: app/api/formulas.py:77
 msgid ""
 "Soil Adjusted Vegetation Index is similar to NDVI but attempts to remove the "
 "effects of soil areas using an adjustment factor (0.5)."
 msgstr ""
 "土壤调整植被指数与NDVI相似，但试图使用调整因子（0.5）消除对土壤面积的影响。"
 
-#: app/api/formulas.py:85
+#: app/api/formulas.py:81
 msgid ""
 "Modified Non-Linear Index improves the Non-Linear Index algorithm to account "
 "for soil areas."
 msgstr "改进的非线性指数改进了非线性指数算法，以计算土壤面积。"
 
-#: app/api/formulas.py:89
+#: app/api/formulas.py:85
 msgid ""
 "Modified Simple Ratio is an improvement of the Simple Ratio (SR) index to be "
 "more sensitive to vegetation."
 msgstr "修正简单比是简单比（SR）指数的改进，对植被更敏感。"
 
-#: app/api/formulas.py:93
+#: app/api/formulas.py:89
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
 msgstr ""
 "重正化差异植被指数使用近红外和红色之间的差异，加上NDVI来显示健康植被的区域。"
 
-#: app/api/formulas.py:97
+#: app/api/formulas.py:93
 msgid ""
 "Transformed Difference Vegetation Index highlights vegetation cover in urban "
 "environments."
 msgstr "转换后的差异植被指数突出了城市环境中的植被覆盖。"
 
-#: app/api/formulas.py:101
+#: app/api/formulas.py:97
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
 msgstr "优化的土壤调整植被指数基于SAVI，但在土壤可见的植被较少的地区效果更好。"
 
-#: app/api/formulas.py:105
+#: app/api/formulas.py:101
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
 msgstr "叶面积指数估计叶面积并预测作物产量。"
 
-#: app/api/formulas.py:110
+#: app/api/formulas.py:106
 msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
 msgstr ""
 "通过使用蓝色波长校正土壤信号，增强植被指数在NDVI可能饱和的地区非常有用。"
 
-#: app/api/formulas.py:115
+#: app/api/formulas.py:111
 msgid ""
 "Atmospherically Resistant Vegetation Index. Useful when working with imagery "
 "for regions with high atmospheric aerosol content."
@@ -265,11 +259,11 @@ msgstr ""
 "大气抗干扰植被指数（Atmospherically Resistant Vegetation Index，简称ARVI）。"
 "在处理大气气溶胶含量较高的地区的图像时具有一定的实用性。"
 
-#: app/api/formulas.py:120
+#: app/api/formulas.py:116
 msgid "Temperature in Celsius degrees."
 msgstr "摄氏度的温度。"
 
-#: app/api/formulas.py:124
+#: app/api/formulas.py:120
 msgid "Temperature in Centikelvin degrees."
 msgstr "以开尔文（Centikelvin）为单位的温度。"
 
@@ -369,17 +363,17 @@ msgstr "无效的EPSG代码：%(value)s"
 msgid "Both formula and bands parameters are required"
 msgstr "公式和标注栏参数都是必需的"
 
-#: app/api/tiler.py:580
+#: app/api/tiler.py:583
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "无效的重缩放值：%(value)s"
 
-#: app/api/tiler.py:588
+#: app/api/tiler.py:591
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "无效的山体阴影值：%(value)s"
 
-#: app/api/tiler.py:599
+#: app/api/tiler.py:602
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr "不能在非地理坐标的数据集上使用epsg"
 
@@ -388,7 +382,7 @@ msgid "Plugin name"
 msgstr "插件名称"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:243 app/models/theme.py:16
+#: app/models/task.py:244 app/models/theme.py:16
 msgid "Name"
 msgstr "名字"
 
@@ -464,15 +458,15 @@ msgstr "用于描述预设的标签"
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr "定义此预设的选项（与任务选项中的格式相同）。"
 
-#: app/models/preset.py:11 app/models/task.py:249
+#: app/models/preset.py:11 app/models/task.py:250
 msgid "Options"
 msgstr "选项"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:257
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:258
 msgid "Creation date"
 msgstr "创建时间"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:257
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:258
 msgid "Created at"
 msgstr "创建于"
 
@@ -531,16 +525,16 @@ msgstr "删除中"
 msgid "Project tags"
 msgstr "项目标签"
 
-#: app/models/project.py:28 app/models/task.py:280
+#: app/models/project.py:28 app/models/task.py:281
 msgid "Tags"
 msgstr "标签"
 
-#: app/models/project.py:65 app/models/task.py:428
+#: app/models/project.py:65 app/models/task.py:429
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "复制于%(task)s"
 
-#: app/models/project.py:90 app/models/task.py:242
+#: app/models/project.py:90 app/models/task.py:243
 msgid "Project"
 msgstr "新建项目"
 
@@ -597,119 +591,119 @@ msgstr "应用"
 msgid "Settings"
 msgstr "设置"
 
-#: app/models/task.py:239
+#: app/models/task.py:240
 msgid "Id"
 msgstr "ID"
 
-#: app/models/task.py:241
+#: app/models/task.py:242
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "任务的标识符（由NodeODM api返回）"
 
-#: app/models/task.py:241
+#: app/models/task.py:242
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:242
+#: app/models/task.py:243
 msgid "Project that this task belongs to"
 msgstr "此任务所属的项目"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid "A label for the task"
 msgstr "任务的标签"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr "自此任务开始以来消耗的毫秒数（-1表示没有可用信息）"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid "Processing Time"
 msgstr "生产时间"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr "分配给此任务的处理节点（如果此任务尚未关联，则为null）"
 
-#: app/models/task.py:245 app/views/app.py:116 nodeodm/models.py:36
+#: app/models/task.py:246 app/views/app.py:116 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "处理节点"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr "指示是否应自动为该任务分配处理节点的标志"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Auto Processing Node"
 msgstr "自动处理结点"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "Current status of the task"
 msgstr "任务当前状态"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "Status"
 msgstr "状态"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "The last processing error received"
 msgstr "接收到的最后一个处理错误"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "Last Error"
 msgstr "最新错误"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Options that are being used to process this task"
 msgstr "该任务已使用过的选项"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "List of available assets to download"
 msgstr "可下载的资源列表"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "Available Assets"
 msgstr "资源列表"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid "Extent of the orthophoto"
 msgstr "正射影像的范围"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid "Orthophoto Extent"
 msgstr "正射影像的范围"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid "DSM Extent"
 msgstr "DSM范围"
 
-#: app/models/task.py:254
+#: app/models/task.py:255
 msgid "DTM Extent"
 msgstr "DTM的范围"
 
-#: app/models/task.py:258
+#: app/models/task.py:259
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
 msgstr "要求对任务执行的行动。所选的行动将由工作者在下次迭代时执行。"
 
-#: app/models/task.py:258
+#: app/models/task.py:259
 msgid "Pending Action"
 msgstr "挂起的动作"
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 msgid "A flag indicating whether this task is available to the public"
 msgstr "指示此任务是否可公开的标志"
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 msgid "Public"
 msgstr "公共"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -718,134 +712,134 @@ msgstr ""
 "当设置为不同于-1的值时，表示此任务的图像在处理之前已经/即将调整为此处指定的大"
 "小。"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid "Resize To"
 msgstr "调整大小至"
 
-#: app/models/task.py:264
+#: app/models/task.py:265
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr "介于0和1之间的值，表示该任务的文件上传到处理节点的进度"
 
-#: app/models/task.py:265
+#: app/models/task.py:266
 msgid "Upload Progress"
 msgstr "上传进度"
 
-#: app/models/task.py:268
+#: app/models/task.py:269
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr "值介于0和1之间，指示此任务图像的调整大小进度"
 
-#: app/models/task.py:269
+#: app/models/task.py:270
 msgid "Resize Progress"
 msgstr "调整进度"
 
-#: app/models/task.py:272
+#: app/models/task.py:273
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr "表示该任务的进展状况（预想）的0到1的值"
 
-#: app/models/task.py:273
+#: app/models/task.py:274
 msgid "Running Progress"
 msgstr "执行进度"
 
-#: app/models/task.py:275
+#: app/models/task.py:276
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "导入此任务的URL（仅适用于导入的任务）"
 
-#: app/models/task.py:275
+#: app/models/task.py:276
 msgid "Import URL"
 msgstr "导入URL"
 
-#: app/models/task.py:276
+#: app/models/task.py:277
 msgid "Number of images associated with this task"
 msgstr "与此任务关联的图像数"
 
-#: app/models/task.py:276
+#: app/models/task.py:277
 msgid "Images Count"
 msgstr "图片总数"
 
-#: app/models/task.py:277
+#: app/models/task.py:278
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr "指示此任务当前是否正在等待信息或文件上载，然后再考虑执行的标志。"
 
-#: app/models/task.py:277
+#: app/models/task.py:278
 msgid "Partial"
 msgstr "部分"
 
-#: app/models/task.py:278
+#: app/models/task.py:279
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr "用于保存/读取测量结果和相机视角的连续potree scene信息"
 
-#: app/models/task.py:278
+#: app/models/task.py:279
 msgid "Potree Scene"
 msgstr "Potree 场景"
 
-#: app/models/task.py:279
+#: app/models/task.py:280
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "数据集的EPSG代码（地理参考）"
 
-#: app/models/task.py:280
+#: app/models/task.py:281
 msgid "Task tags"
 msgstr "任务标签"
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid "List of orthophoto bands"
 msgstr "正射影像波段列表"
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid "Orthophoto Bands"
 msgstr "正射影像波段"
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid "Size of the task on disk in megabytes"
 msgstr ""
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid "Size"
 msgstr ""
 
-#: app/models/task.py:285
+#: app/models/task.py:286
 msgid "Task"
 msgstr "任务"
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 msgid "Tasks"
 msgstr "任务"
 
-#: app/models/task.py:297
+#: app/models/task.py:298
 msgid "unnamed"
 msgstr "未命名"
 
-#: app/models/task.py:501
+#: app/models/task.py:502
 msgid "Importing assets..."
 msgstr "正在导入资源…"
 
-#: app/models/task.py:553 app/models/task.py:822
+#: app/models/task.py:554 app/models/task.py:823
 msgid "Invalid zip file"
 msgstr "无效的zip文件"
 
-#: app/models/task.py:648
+#: app/models/task.py:649
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "连接错误：%(error)s"
 
-#: app/models/task.py:728
+#: app/models/task.py:729
 msgid "Cannot restart a task that has no processing node"
 msgstr "无法重新启动没有处理节点的任务"
 
-#: app/models/task.py:888
+#: app/models/task.py:889
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "不支持的SRS%(code)s。请确保您选择了受支持的SRS。"
 
-#: app/models/task.py:902
+#: app/models/task.py:903
 msgid "Done!"
 msgstr "完成了！"
 
@@ -1564,90 +1558,82 @@ msgstr "在我们开始之前，我们需要为你创建一个管理员账户：
 msgid "Create Account"
 msgstr "创建帐户"
 
-#: app/templatetags/settings.py:49
+#: app/templatetags/settings.py:57
 #, python-format
 msgid "in %(num)s days"
 msgstr ""
 
-#: app/templatetags/settings.py:51
+#: app/templatetags/settings.py:59
 #, python-format
 msgid "in %(num)s hours"
 msgstr ""
 
-#: app/templatetags/settings.py:53
+#: app/templatetags/settings.py:61
 #, python-format
 msgid "in %(num)s minutes"
 msgstr ""
 
-#: app/templatetags/settings.py:55
+#: app/templatetags/settings.py:63
 msgid "very soon"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:4
-msgid "Detect changes between two different tasks in the same project."
-msgstr "检测同一项目中两个不同任务之间的更改。"
-
-#: app/translations/plugin_manifest_autogenerated.py:5
 msgid "Import images from external sources directly"
 msgstr "外部源导入图像"
 
-#: app/translations/plugin_manifest_autogenerated.py:6
+#: app/translations/plugin_manifest_autogenerated.py:5
 msgid "Compute, preview and export contours from DEMs"
 msgstr "从DEM计算、预览和导出等高线"
 
-#: app/translations/plugin_manifest_autogenerated.py:7
+#: app/translations/plugin_manifest_autogenerated.py:6
 msgid "Display program version, memory and disk space usage statistics"
 msgstr "显示程序版本、内存和磁盘空间使用统计信息"
 
-#: app/translations/plugin_manifest_autogenerated.py:8
+#: app/translations/plugin_manifest_autogenerated.py:7
 msgid "Integrate WebODM with DroneDB: import images and share results"
 msgstr "将WebODM与DroneDB整合：导入图像并分享结果"
 
-#: app/translations/plugin_manifest_autogenerated.py:9
+#: app/translations/plugin_manifest_autogenerated.py:8
 msgid "Create editable short links when sharing task URLs"
 msgstr "共享任务URL时创建可编辑的短链接"
 
-#: app/translations/plugin_manifest_autogenerated.py:10
-msgid "Calculate and draw an elevation map based on a task's DEMs"
-msgstr "基于任务的DEM计算并绘制高程地图"
-
-#: app/translations/plugin_manifest_autogenerated.py:11
+#: app/translations/plugin_manifest_autogenerated.py:9
 msgid "Add a fullscreen button to the 2D map view"
 msgstr "向2D地图视图添加全屏按钮"
 
-#: app/translations/plugin_manifest_autogenerated.py:12
+#: app/translations/plugin_manifest_autogenerated.py:10
 msgid "Sync accounts from webodm.net"
 msgstr "从webodm.net同步帐户"
 
-#: app/translations/plugin_manifest_autogenerated.py:13
+#: app/translations/plugin_manifest_autogenerated.py:11
 msgid "Compute volume, area and length measurements on Leaflet"
 msgstr "计算传单上的体积、面积和长度测量值"
 
-#: app/translations/plugin_manifest_autogenerated.py:14
+#: app/translations/plugin_manifest_autogenerated.py:12
 msgid "A plugin to upload orthophotos to OpenAerialMap"
 msgstr "将正射影像上传至OpenAerialMap的插件"
 
-#: app/translations/plugin_manifest_autogenerated.py:15
+#: app/translations/plugin_manifest_autogenerated.py:13
 msgid ""
 "A plugin to add a button for quickly opening OpenStreetMap's iD editor and "
 "setup a TMS basemap."
 msgstr ""
 "快速打开OpenStreet Map的iD编辑器，添加可以设置TMS背景地图的按钮的插件。"
 
-#: app/translations/plugin_manifest_autogenerated.py:16
-#: app/translations/plugin_manifest_autogenerated.py:20
+#: app/translations/plugin_manifest_autogenerated.py:14
+#: app/translations/plugin_manifest_autogenerated.py:18
 msgid "A plugin to create GCP files from images"
 msgstr "从图像创建GCP文件的插件"
 
-#: app/translations/plugin_manifest_autogenerated.py:17
+#: app/translations/plugin_manifest_autogenerated.py:15
 msgid "A plugin to show charts of projects and tasks"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:18
+#: app/translations/plugin_manifest_autogenerated.py:16
 msgid "Create short links when sharing task URLs"
 msgstr "共享任务URL时创建短链接"
 
-#: app/translations/plugin_manifest_autogenerated.py:19
+#: app/translations/plugin_manifest_autogenerated.py:17
 msgid ""
 "Get notified when a task has finished processing, has been removed or has "
 "failed"
@@ -1788,7 +1774,7 @@ msgstr "此短URL已被占用。"
 msgid "Lightning Network"
 msgstr "网络服务"
 
-#: coreplugins/measure/api.py:27
+#: coreplugins/measure/api.py:21
 msgid ""
 "No surface model available. From the Dashboard, select this task, press "
 "Edit, from the options make sure to check \"dsm\", then press Restart --> "
@@ -1903,6 +1889,18 @@ msgstr "此节点的可选标签。设置后，将显示此标签，而不是主
 #: nodeodm/models.py:33
 msgid "Engine used by the node."
 msgstr "节点使用的引擎。"
+
+#~ msgid ""
+#~ "Triangular Greenness Index (derived from only the RGB bands) performs "
+#~ "similarly to EXG but with improvements over certain environments."
+#~ msgstr ""
+#~ "三角绿度指数（仅源自RGB波段）的性能与EXG类似，但在某些环境下更有效。"
+
+#~ msgid "Detect changes between two different tasks in the same project."
+#~ msgstr "检测同一项目中两个不同任务之间的更改。"
+
+#~ msgid "Calculate and draw an elevation map based on a task's DEMs"
+#~ msgstr "基于任务的DEM计算并绘制高程地图"
 
 #~ msgid "Console output of the processing node"
 #~ msgstr "处理节点的控制台输出"

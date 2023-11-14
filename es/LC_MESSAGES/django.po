@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-03 19:30+0000\n"
+"POT-Creation-Date: 2023-11-14 22:56+0000\n"
 "PO-Revision-Date: 2023-09-24 12:00+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/webodm/webodm/es/"
@@ -195,24 +195,16 @@ msgstr ""
 
 #: app/api/formulas.py:59
 msgid ""
-"Triangular Greenness Index (derived from only the RGB bands) performs "
-"similarly to EXG but with improvements over certain environments."
-msgstr ""
-"El índice de verdor triangular (derivado sólo de las bandas RGB) se comporta "
-"de forma similar al EXG, pero con mejoras en determinados entornos."
-
-#: app/api/formulas.py:63
-msgid ""
 "Burn Area Index hightlights burned land in the red to near-infrared spectrum."
 msgstr ""
 "El Índice de Área BAI Quemada destaca la tierra quemada en el espectro del "
 "rojo al infrarrojo cercano."
 
-#: app/api/formulas.py:67
+#: app/api/formulas.py:63
 msgid "Green Leaf Index shows greens leaves and stems."
 msgstr "El Índice de Hoja Verde GLI muestra las hojas y tallos verdes."
 
-#: app/api/formulas.py:72
+#: app/api/formulas.py:68
 msgid ""
 "Green Normalized Difference Vegetation Index is similar to NDVI, but "
 "measures the green spectrum instead of red."
@@ -220,14 +212,14 @@ msgstr ""
 "El Índice de Vegetación de Diferencia Normalizada Verde es similar a NDVI, "
 "pero mide el espectro verde en lugar del rojo."
 
-#: app/api/formulas.py:77
+#: app/api/formulas.py:73
 msgid ""
 "Green Ratio Vegetation Index is sensitive to photosynthetic rates in forests."
 msgstr ""
 "El índice de vegetación de proporción verde es sensible a las tasas de "
 "fotosíntesis en los bosques."
 
-#: app/api/formulas.py:81
+#: app/api/formulas.py:77
 msgid ""
 "Soil Adjusted Vegetation Index is similar to NDVI but attempts to remove the "
 "effects of soil areas using an adjustment factor (0.5)."
@@ -235,7 +227,7 @@ msgstr ""
 "El índice de vegetación ajustado del suelo es similar al NDVI pero intenta "
 "eliminar los efectos de las áreas de suelo usando un factor de ajuste (0.5)."
 
-#: app/api/formulas.py:85
+#: app/api/formulas.py:81
 msgid ""
 "Modified Non-Linear Index improves the Non-Linear Index algorithm to account "
 "for soil areas."
@@ -243,7 +235,7 @@ msgstr ""
 "El índice no lineal modificado mejora el algoritmo del índice no lineal para "
 "tener en cuenta las áreas del suelo."
 
-#: app/api/formulas.py:89
+#: app/api/formulas.py:85
 msgid ""
 "Modified Simple Ratio is an improvement of the Simple Ratio (SR) index to be "
 "more sensitive to vegetation."
@@ -251,7 +243,7 @@ msgstr ""
 "Razón simple modificada es una mejora del índice de razón simple (SR) para "
 "ser más sensible a la vegetación."
 
-#: app/api/formulas.py:93
+#: app/api/formulas.py:89
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
@@ -260,7 +252,7 @@ msgstr ""
 "el infrarrojo cercano y el rojo, más el NDVI para mostrar áreas de "
 "vegetación saludable."
 
-#: app/api/formulas.py:97
+#: app/api/formulas.py:93
 msgid ""
 "Transformed Difference Vegetation Index highlights vegetation cover in urban "
 "environments."
@@ -268,7 +260,7 @@ msgstr ""
 "El índice de vegetación de diferencia transformada destaca la cobertura "
 "vegetal en entornos urbanos."
 
-#: app/api/formulas.py:101
+#: app/api/formulas.py:97
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
@@ -277,13 +269,13 @@ msgstr ""
 "tiende a funcionar mejor en áreas con poca vegetación donde el suelo es "
 "visible."
 
-#: app/api/formulas.py:105
+#: app/api/formulas.py:101
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
 msgstr ""
 "El índice de área foliar estima las áreas de follaje y predice el "
 "rendimiento de los cultivos."
 
-#: app/api/formulas.py:110
+#: app/api/formulas.py:106
 msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
@@ -292,7 +284,7 @@ msgstr ""
 "saturarse, al usar longitudes de onda azules para corregir las señales del "
 "suelo."
 
-#: app/api/formulas.py:115
+#: app/api/formulas.py:111
 msgid ""
 "Atmospherically Resistant Vegetation Index. Useful when working with imagery "
 "for regions with high atmospheric aerosol content."
@@ -300,11 +292,11 @@ msgstr ""
 "Índice de Vegetación Atmosféricamente Resistente. Útil cuando se trabaja con "
 "imágenes de regiones con alto contenido de aerosoles atmosféricos."
 
-#: app/api/formulas.py:120
+#: app/api/formulas.py:116
 msgid "Temperature in Celsius degrees."
 msgstr "Temperatura en grados Celsius."
 
-#: app/api/formulas.py:124
+#: app/api/formulas.py:120
 msgid "Temperature in Centikelvin degrees."
 msgstr "Temperatura en grados centikelvin."
 
@@ -408,17 +400,17 @@ msgstr "Código EPSG no válido: %(value)s"
 msgid "Both formula and bands parameters are required"
 msgstr "Se requieren parámetros tanto de fórmula como de bandas"
 
-#: app/api/tiler.py:580
+#: app/api/tiler.py:583
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "Valor de cambio de escala no válido: %(value)s"
 
-#: app/api/tiler.py:588
+#: app/api/tiler.py:591
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "Valor de sombreado no válido: %(value)s"
 
-#: app/api/tiler.py:599
+#: app/api/tiler.py:602
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr "No se puede usar epsg en un conjunto de datos no georreferenciado"
 
@@ -427,7 +419,7 @@ msgid "Plugin name"
 msgstr "Nombre del complemento"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:243 app/models/theme.py:16
+#: app/models/task.py:244 app/models/theme.py:16
 msgid "Name"
 msgstr "Nombre"
 
@@ -507,15 +499,15 @@ msgstr ""
 "Opciones que definen esta preconfiguración (mismo formato que en las "
 "opciones para Tarea)."
 
-#: app/models/preset.py:11 app/models/task.py:249
+#: app/models/preset.py:11 app/models/task.py:250
 msgid "Options"
 msgstr "Opciones"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:257
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:258
 msgid "Creation date"
 msgstr "Fecha de creación"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:257
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:258
 msgid "Created at"
 msgstr "Creado en"
 
@@ -577,16 +569,16 @@ msgstr "Eliminando"
 msgid "Project tags"
 msgstr "Etiquetas del proyecto"
 
-#: app/models/project.py:28 app/models/task.py:280
+#: app/models/project.py:28 app/models/task.py:281
 msgid "Tags"
 msgstr "Etiquetas"
 
-#: app/models/project.py:65 app/models/task.py:428
+#: app/models/project.py:65 app/models/task.py:429
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "Copia de %(task)s"
 
-#: app/models/project.py:90 app/models/task.py:242
+#: app/models/project.py:90 app/models/task.py:243
 msgid "Project"
 msgstr "Proyectos"
 
@@ -643,27 +635,27 @@ msgstr "Aplicación"
 msgid "Settings"
 msgstr "Configuraciones"
 
-#: app/models/task.py:239
+#: app/models/task.py:240
 msgid "Id"
 msgstr "Id"
 
-#: app/models/task.py:241
+#: app/models/task.py:242
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "Identificador de la tarea (como lo devuelve la API de NodeODM)"
 
-#: app/models/task.py:241
+#: app/models/task.py:242
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:242
+#: app/models/task.py:243
 msgid "Project that this task belongs to"
 msgstr "Proyecto al que pertenece esta tarea"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid "A label for the task"
 msgstr "Una etiqueta para la tarea"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -671,11 +663,11 @@ msgstr ""
 "Número de milisegundos transcurridos desde el inicio de esta tarea (-1 "
 "indica que no hay información disponible)"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid "Processing Time"
 msgstr "Tiempo de procesamiento"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -683,11 +675,11 @@ msgstr ""
 "Nodo de procesamiento asignado a esta tarea (o nulo si esta tarea aún no se "
 "ha asociado)"
 
-#: app/models/task.py:245 app/views/app.py:116 nodeodm/models.py:36
+#: app/models/task.py:246 app/views/app.py:116 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "Nodo de procesamiento"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
@@ -695,55 +687,55 @@ msgstr ""
 "Una etiqueta que indica si a esta tarea se le debe asignar un nodo de "
 "procesamiento automáticamente"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Auto Processing Node"
 msgstr "Nodo de Procesamiento Automático"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "Current status of the task"
 msgstr "Estado actual de la tarea"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "Status"
 msgstr "Estado"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "The last processing error received"
 msgstr "El último error de procesamiento recibido"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "Last Error"
 msgstr "Último error"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Options that are being used to process this task"
 msgstr "Opciones que se utilizan para procesar esta tarea"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "List of available assets to download"
 msgstr "Lista de los objetos disponibles para su descarga"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "Available Assets"
 msgstr "Objetos Disponibles"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid "Extent of the orthophoto"
 msgstr "Extensión de la ortofoto"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid "Orthophoto Extent"
 msgstr "Extensión de la ortofoto"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid "DSM Extent"
 msgstr "Extensión del DSM"
 
-#: app/models/task.py:254
+#: app/models/task.py:255
 msgid "DTM Extent"
 msgstr "Extensión del DTM"
 
-#: app/models/task.py:258
+#: app/models/task.py:259
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -751,19 +743,19 @@ msgstr ""
 "Una acción solicitada que se realizará en la tarea. El trabajador realizará "
 "la acción seleccionada en la siguiente iteración."
 
-#: app/models/task.py:258
+#: app/models/task.py:259
 msgid "Pending Action"
 msgstr "Operación Pendiente"
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 msgid "A flag indicating whether this task is available to the public"
 msgstr "Una bandera que indica si esta tarea está disponible para el público"
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 msgid "Public"
 msgstr "Público"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -773,11 +765,11 @@ msgstr ""
 "para esta tarea se han redimensionado/cambiarán al tamaño especificado aquí "
 "antes del procesamiento."
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid "Resize To"
 msgstr "Cambiar tamaño a"
 
-#: app/models/task.py:264
+#: app/models/task.py:265
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
@@ -785,22 +777,22 @@ msgstr ""
 "Valor entre 0 y 1 que indica el progreso de carga de los archivos de esta "
 "tarea al nodo de procesamiento"
 
-#: app/models/task.py:265
+#: app/models/task.py:266
 msgid "Upload Progress"
 msgstr "Progreso de subida"
 
-#: app/models/task.py:268
+#: app/models/task.py:269
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
 "Valor entre 0 y 1 que indica el progreso de cambio de tamaño de las imágenes "
 "de esta tarea"
 
-#: app/models/task.py:269
+#: app/models/task.py:270
 msgid "Resize Progress"
 msgstr "Progreso del redimensionamiento"
 
-#: app/models/task.py:272
+#: app/models/task.py:273
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
@@ -808,27 +800,27 @@ msgstr ""
 "Valor entre 0 y 1 que indica el progreso de ejecución (estimado) de esta "
 "tarea"
 
-#: app/models/task.py:273
+#: app/models/task.py:274
 msgid "Running Progress"
 msgstr "Progreso en ejecución"
 
-#: app/models/task.py:275
+#: app/models/task.py:276
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "URL desde la que se importa esta tarea (solo para tareas importadas)"
 
-#: app/models/task.py:275
+#: app/models/task.py:276
 msgid "Import URL"
 msgstr "Importar URL"
 
-#: app/models/task.py:276
+#: app/models/task.py:277
 msgid "Number of images associated with this task"
 msgstr "Número de imágenes asociadas a esta tarea"
 
-#: app/models/task.py:276
+#: app/models/task.py:277
 msgid "Images Count"
 msgstr "Recuento de imágenes"
 
-#: app/models/task.py:277
+#: app/models/task.py:278
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
@@ -836,11 +828,11 @@ msgstr ""
 "Una bandera que indica si esta tarea está esperando que se cargue "
 "información o archivos antes de ser considerada para su procesamiento."
 
-#: app/models/task.py:277
+#: app/models/task.py:278
 msgid "Partial"
 msgstr "Parcial"
 
-#: app/models/task.py:278
+#: app/models/task.py:279
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
@@ -848,69 +840,69 @@ msgstr ""
 "Información de la escena del potree serializada que se utiliza para guardar/"
 "cargar las mediciones y el ángulo de visión de la cámara"
 
-#: app/models/task.py:278
+#: app/models/task.py:279
 msgid "Potree Scene"
 msgstr "Escena potree"
 
-#: app/models/task.py:279
+#: app/models/task.py:280
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "Código EPSG del conjunto de datos (si está georreferenciado)"
 
-#: app/models/task.py:280
+#: app/models/task.py:281
 msgid "Task tags"
 msgstr "Etiquetas de las tareas"
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid "List of orthophoto bands"
 msgstr "Lista de bandas de ortofotos"
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid "Orthophoto Bands"
 msgstr "Bandas de ortofotos"
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid "Size of the task on disk in megabytes"
 msgstr "Tamaño de la tarea en el disco en megabytes"
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid "Size"
 msgstr "Tamaño"
 
-#: app/models/task.py:285
+#: app/models/task.py:286
 msgid "Task"
 msgstr "Tarea"
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 msgid "Tasks"
 msgstr "Tareas"
 
-#: app/models/task.py:297
+#: app/models/task.py:298
 msgid "unnamed"
 msgstr "Sin nombre"
 
-#: app/models/task.py:501
+#: app/models/task.py:502
 msgid "Importing assets..."
 msgstr "Importando objetos..."
 
-#: app/models/task.py:553 app/models/task.py:822
+#: app/models/task.py:554 app/models/task.py:823
 msgid "Invalid zip file"
 msgstr "Archivo zip no valido"
 
-#: app/models/task.py:648
+#: app/models/task.py:649
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Error de conexión: %(error)s"
 
-#: app/models/task.py:728
+#: app/models/task.py:729
 msgid "Cannot restart a task that has no processing node"
 msgstr "No se puede reiniciar una tarea que no tiene un nodo de procesamiento"
 
-#: app/models/task.py:888
+#: app/models/task.py:889
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "SRS %(code)s no admitidos. Asegúrese de elegir un SRS compatible."
 
-#: app/models/task.py:902
+#: app/models/task.py:903
 msgid "Done!"
 msgstr "¡Completado!"
 
@@ -1664,72 +1656,64 @@ msgstr ""
 msgid "Create Account"
 msgstr "Crear cuenta"
 
-#: app/templatetags/settings.py:49
+#: app/templatetags/settings.py:57
 #, python-format
 msgid "in %(num)s days"
 msgstr "en %(num)s días"
 
-#: app/templatetags/settings.py:51
+#: app/templatetags/settings.py:59
 #, python-format
 msgid "in %(num)s hours"
 msgstr "en %(num)s horas"
 
-#: app/templatetags/settings.py:53
+#: app/templatetags/settings.py:61
 #, python-format
 msgid "in %(num)s minutes"
 msgstr "en %(num)s minutos"
 
-#: app/templatetags/settings.py:55
+#: app/templatetags/settings.py:63
 msgid "very soon"
 msgstr "muy pronto"
 
 #: app/translations/plugin_manifest_autogenerated.py:4
-msgid "Detect changes between two different tasks in the same project."
-msgstr "Detectar cambios entre dos tareas diferentes en el mismo proyecto."
-
-#: app/translations/plugin_manifest_autogenerated.py:5
 msgid "Import images from external sources directly"
 msgstr "Importar imágenes directamente de fuentes externas"
 
-#: app/translations/plugin_manifest_autogenerated.py:6
+#: app/translations/plugin_manifest_autogenerated.py:5
 msgid "Compute, preview and export contours from DEMs"
 msgstr "Calcular, previsualizar y exportar contornos desde DEMs"
 
-#: app/translations/plugin_manifest_autogenerated.py:7
+#: app/translations/plugin_manifest_autogenerated.py:6
 msgid "Display program version, memory and disk space usage statistics"
 msgstr ""
 "Muestra la versión del programa, la memoria y las estadísticas de uso del "
 "espacio en disco"
 
-#: app/translations/plugin_manifest_autogenerated.py:8
+#: app/translations/plugin_manifest_autogenerated.py:7
 msgid "Integrate WebODM with DroneDB: import images and share results"
 msgstr "Integre WebODM con DroneDB: importe imágenes y comparta resultados"
 
-#: app/translations/plugin_manifest_autogenerated.py:9
+#: app/translations/plugin_manifest_autogenerated.py:8
 msgid "Create editable short links when sharing task URLs"
 msgstr "Crear enlaces cortos editables al compartir las URL de las tareas"
 
-#: app/translations/plugin_manifest_autogenerated.py:10
-msgid "Calculate and draw an elevation map based on a task's DEMs"
-msgstr "Calcule y dibuje un mapa de elevación basado en los DEM de una tarea"
-
-#: app/translations/plugin_manifest_autogenerated.py:11
+#: app/translations/plugin_manifest_autogenerated.py:9
 msgid "Add a fullscreen button to the 2D map view"
 msgstr "Agregar un botón de pantalla completa a la vista de mapa 2D"
 
-#: app/translations/plugin_manifest_autogenerated.py:12
+#: app/translations/plugin_manifest_autogenerated.py:10
 msgid "Sync accounts from webodm.net"
 msgstr "Sincronizar cuentas de webodm.net"
 
-#: app/translations/plugin_manifest_autogenerated.py:13
+#: app/translations/plugin_manifest_autogenerated.py:11
 msgid "Compute volume, area and length measurements on Leaflet"
 msgstr "Calcule las medidas de volumen, área y longitud en el Leaflet"
 
-#: app/translations/plugin_manifest_autogenerated.py:14
+#: app/translations/plugin_manifest_autogenerated.py:12
 msgid "A plugin to upload orthophotos to OpenAerialMap"
 msgstr "Un complemento para subir ortofotos a OpenAerialMap"
 
-#: app/translations/plugin_manifest_autogenerated.py:15
+#: app/translations/plugin_manifest_autogenerated.py:13
 msgid ""
 "A plugin to add a button for quickly opening OpenStreetMap's iD editor and "
 "setup a TMS basemap."
@@ -1737,20 +1721,20 @@ msgstr ""
 "Un complemento para agregar un botón para abrir rápidamente el editor iD de "
 "OpenStreetMap y configurar un mapa base TMS."
 
-#: app/translations/plugin_manifest_autogenerated.py:16
-#: app/translations/plugin_manifest_autogenerated.py:20
+#: app/translations/plugin_manifest_autogenerated.py:14
+#: app/translations/plugin_manifest_autogenerated.py:18
 msgid "A plugin to create GCP files from images"
 msgstr "Un complemento para crear archivos GCP a partir de imágenes"
 
-#: app/translations/plugin_manifest_autogenerated.py:17
+#: app/translations/plugin_manifest_autogenerated.py:15
 msgid "A plugin to show charts of projects and tasks"
 msgstr "Un plugin para mostrar los gráficos de los proyectos y las tareas"
 
-#: app/translations/plugin_manifest_autogenerated.py:18
+#: app/translations/plugin_manifest_autogenerated.py:16
 msgid "Create short links when sharing task URLs"
 msgstr "Cree enlaces cortos al compartir URL de tareas"
 
-#: app/translations/plugin_manifest_autogenerated.py:19
+#: app/translations/plugin_manifest_autogenerated.py:17
 msgid ""
 "Get notified when a task has finished processing, has been removed or has "
 "failed"
@@ -1896,7 +1880,7 @@ msgstr "Esta URL corta ya está ocupada."
 msgid "Lightning Network"
 msgstr "Red Lightning"
 
-#: coreplugins/measure/api.py:27
+#: coreplugins/measure/api.py:21
 msgid ""
 "No surface model available. From the Dashboard, select this task, press "
 "Edit, from the options make sure to check \"dsm\", then press Restart --> "
@@ -2018,6 +2002,21 @@ msgstr ""
 #: nodeodm/models.py:33
 msgid "Engine used by the node."
 msgstr "Motor utilizado por el nodo."
+
+#~ msgid ""
+#~ "Triangular Greenness Index (derived from only the RGB bands) performs "
+#~ "similarly to EXG but with improvements over certain environments."
+#~ msgstr ""
+#~ "El índice de verdor triangular (derivado sólo de las bandas RGB) se "
+#~ "comporta de forma similar al EXG, pero con mejoras en determinados "
+#~ "entornos."
+
+#~ msgid "Detect changes between two different tasks in the same project."
+#~ msgstr "Detectar cambios entre dos tareas diferentes en el mismo proyecto."
+
+#~ msgid "Calculate and draw an elevation map based on a task's DEMs"
+#~ msgstr ""
+#~ "Calcule y dibuje un mapa de elevación basado en los DEM de una tarea"
 
 #~ msgid "Console output of the processing node"
 #~ msgstr "Salida de consola del nodo de procesamiento"
