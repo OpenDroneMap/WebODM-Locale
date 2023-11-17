@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-14 22:56+0000\n"
-"PO-Revision-Date: 2023-10-01 22:02+0000\n"
-"Last-Translator: Jarosław Okińczyc <okinczyc@gmail.com>\n"
+"PO-Revision-Date: 2023-11-18 10:04+0000\n"
+"Last-Translator: Marcin Sołoguba <marsol@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/webodm/react-ui/"
 "pl/>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.2\n"
 
 #: app/static/app/js/Console.jsx:135
 #, python-format
@@ -659,20 +659,22 @@ msgstr "Algorytm:"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:301
 msgid "Bands:"
-msgstr ""
+msgstr "Kanały:"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:306
 msgid "Automatic"
-msgstr ""
+msgstr "Automatycznie"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:310
 #, python-format
 msgid "Not every band for %(name)s could be automatically identified."
-msgstr ""
+msgstr "Nie każdy kanał dla %(name)s mógł być automatycznie rozpoznany."
 
 #: app/static/app/js/components/LayersControlLayer.jsx:310
 msgid "Your sensor might not have the proper bands for using this algorithm."
 msgstr ""
+"Twój sensor może nie mieć odpowiedniego zestawu kanałów dla użycia tego "
+"algorytmu."
 
 #: app/static/app/js/components/LayersControlLayer.jsx:317
 msgid "Color:"
@@ -1117,7 +1119,7 @@ msgstr "Węzeł przetwarzania:"
 
 #: app/static/app/js/components/TaskListItem.jsx:554
 msgid "auto"
-msgstr "Automatycznie"
+msgstr "automat"
 
 #: app/static/app/js/components/TaskListItem.jsx:554
 msgid "manual"
@@ -1190,11 +1192,7 @@ msgstr ""
 "concurrency w opcjach zadania. Możesz także spróbować użyć %(cloudlink)s."
 
 #: app/static/app/js/components/TaskListItem.jsx:615
-#, fuzzy, python-format
-#| msgid ""
-#| "\"Process exited with code 1\" means that part of the processing failed. "
-#| "Sometimes it's a problem with the dataset, sometimes it can be solved by "
-#| "tweaking the Task Options. Check the documentation at %(link)"
+#, python-format
 msgid ""
 "\"Process exited with code 1\" means that part of the processing failed. "
 "Sometimes it's a problem with the dataset, sometimes it can be solved by "
@@ -1202,7 +1200,7 @@ msgid ""
 msgstr ""
 "„Zakończono proces z kodem 1” oznacza, że część przetwarzania nie powiodła "
 "się. Czasami jest to problem ze zbiorem danych, czasami można go rozwiązać, "
-"dostosowując opcje zadania. Sprawdź dokumentację w %(link)"
+"dostosowując opcje zadania. Sprawdź dokumentację w %(link)s"
 
 #: app/static/app/js/components/TaskListItem.jsx:662
 msgid "Set a processing node"
@@ -2805,28 +2803,24 @@ msgid "Invalid response: %(error)s"
 msgstr "Nieprawidłowa odpowiedź: %(error)s"
 
 #: coreplugins/measure/public/MeasurePopup.jsx:171
-#, fuzzy
-#| msgid "Language"
 msgid "Triangulate"
-msgstr "Język"
+msgstr "Trianguluj"
 
 #: coreplugins/measure/public/MeasurePopup.jsx:172
 msgid "Plane"
-msgstr ""
+msgstr "Płaszczyzna"
 
 #: coreplugins/measure/public/MeasurePopup.jsx:173
-#, fuzzy
-#| msgid "Average GSD:"
 msgid "Average"
-msgstr "Średnie GSD:"
+msgstr "Średnia"
 
 #: coreplugins/measure/public/MeasurePopup.jsx:174
 msgid "Highest"
-msgstr ""
+msgstr "Najwyższe"
 
 #: coreplugins/measure/public/MeasurePopup.jsx:175
 msgid "Lowest"
-msgstr ""
+msgstr "Najniższe"
 
 #: coreplugins/measure/public/MeasurePopup.jsx:179
 msgid "Perimeter:"
@@ -2852,7 +2846,7 @@ msgstr "Stopy sześcienne"
 
 #: coreplugins/measure/public/MeasurePopup.jsx:184
 msgid "Base surface:"
-msgstr ""
+msgstr "Powierzchnia bazowa:"
 
 #: coreplugins/measure/public/MeasurePopup.jsx:194
 msgid "Export to GeoJSON"
