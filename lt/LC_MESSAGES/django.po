@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-14 22:56+0000\n"
-"PO-Revision-Date: 2022-03-03 17:37+0000\n"
-"Last-Translator: Paul <paulius@infoera.lt>\n"
+"PO-Revision-Date: 2023-11-21 07:09+0000\n"
+"Last-Translator: Tomas Straupis <tomasstraupis@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/webodm/webodm/"
 "lt/>\n"
 "Language: lt\n"
@@ -19,39 +19,39 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 4.11.1-dev\n"
+"X-Generator: Weblate 5.2\n"
 
 #: app/admin.py:65
 msgid "Enter custom CSS"
-msgstr ""
+msgstr "Įveskite savo CSS"
 
 #: app/admin.py:66 app/models/theme.py:38
 msgid "CSS"
-msgstr ""
+msgstr "CSS"
 
 #: app/admin.py:69
 msgid "HTML that will be displayed above site header"
-msgstr ""
+msgstr "Virš svetainės antraštės rodomas HTML"
 
 #: app/admin.py:70 app/models/theme.py:39
 msgid "HTML (before header)"
-msgstr ""
+msgstr "HTML (iki antraštės)"
 
 #: app/admin.py:73
 msgid "HTML that will be displayed after site header"
-msgstr ""
+msgstr "Po svetainės antraštės rodomas HTML"
 
 #: app/admin.py:74 app/models/theme.py:40
 msgid "HTML (after header)"
-msgstr ""
+msgstr "HTML (po antraštės)"
 
 #: app/admin.py:77
 msgid "HTML that will be displayed after the body tag"
-msgstr ""
+msgstr "Po body žymos rodomas HTML"
 
 #: app/admin.py:78 app/models/theme.py:41
 msgid "HTML (after body)"
-msgstr ""
+msgstr "HTML (po body)"
 
 #: app/admin.py:82
 #, python-brace-format
@@ -59,10 +59,12 @@ msgid ""
 "HTML that will be displayed in the footer. You can also use the special tags "
 "such as {ORGANIZATION} and {YEAR}."
 msgstr ""
+"Poraštėje rodomas HTML. Taipogi galite naudoti specialias žymas, tokias kaip "
+"{ORGANIZATION} ir {YEAR}."
 
 #: app/admin.py:83 app/models/theme.py:42
 msgid "HTML (footer)"
-msgstr ""
+msgstr "HTML (poraštė)"
 
 #: app/admin.py:115 app/models/project.py:25
 msgid "Description"
@@ -80,43 +82,47 @@ msgstr "Autorius"
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr ""
+"Reikia paleisti iš naujo. Prašome iš naujo paleisti WebODM, kad įjungtumėte "
+"%(plugin)s"
 
 #: app/admin.py:162
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Nepavyksta įjungti priedo %(plugin)s: %(message)s"
 
 #: app/admin.py:171
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr ""
+"Reikia paleisti iš naujo. Prašome iš naujo paleisti WebODM, kad pilnai "
+"įjungtumėte %(plugin)s"
 
 #: app/admin.py:174
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Nepavyksta išjungti priedo %(plugin)s: %(message)s"
 
 #: app/admin.py:183
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
-msgstr ""
+msgstr "Nepavyksta ištrinti priedo %(plugin)s: %(message)s"
 
 #: app/admin.py:231
 msgid "Plugin added successfully"
-msgstr ""
+msgstr "Priedas sėkmingai pridėtas"
 
 #: app/admin.py:233
 #, python-format
 msgid "Cannot load plugin: %(message)s"
-msgstr ""
+msgstr "Nepavyksta įkelti priedo: %(message)s"
 
 #: app/admin.py:239
 msgid "You need to upload a zip file"
-msgstr ""
+msgstr "Jums reikia įkelti zip failą"
 
 #: app/admin.py:253
 msgid "Disable"
-msgstr ""
+msgstr "Išjungti"
 
 #: app/admin.py:256
 msgid "Enable"
@@ -130,18 +136,24 @@ msgstr "Veiksmai"
 msgid ""
 "Normalized Difference Vegetation Index shows the amount of green vegetation."
 msgstr ""
+"Normalizuotas skirtumo vegetacijos indeksas (NDVI) rodo žalios vegetacijos "
+"kiekį."
 
 #: app/api/formulas.py:17
 msgid ""
 "Normalized difference yellowness index (NDYI), best model variability in "
 "relative yield potential in Canola."
 msgstr ""
+"Normalizuotas skirtumo geltonumo indeksas (NDYI), geriausias modelis "
+"santykinio potencialaus rezultato Canoloje kintamumui."
 
 #: app/api/formulas.py:22
 msgid ""
 "Normalized Difference Red Edge Index shows the amount of green vegetation of "
 "permanent or later stage crops."
 msgstr ""
+"Normalizuotas skirtumo raudono krašto indeksas rodo pastovios ar vėlesnės "
+"pasėlių būsenos žalios vegetacijos kiekį."
 
 #: app/api/formulas.py:27
 msgid ""
@@ -167,7 +179,7 @@ msgstr ""
 
 #: app/api/formulas.py:50
 msgid "Modified Photochemical Reflectance Index"
-msgstr ""
+msgstr "Modifikuotas fotocheminio atspindžio indeksas"
 
 #: app/api/formulas.py:55
 msgid ""
@@ -182,7 +194,7 @@ msgstr ""
 
 #: app/api/formulas.py:63
 msgid "Green Leaf Index shows greens leaves and stems."
-msgstr ""
+msgstr "Žalių lapų indeksas rodo žalius lapus ir stiebus."
 
 #: app/api/formulas.py:68
 msgid ""
@@ -249,7 +261,7 @@ msgstr ""
 
 #: app/api/formulas.py:116
 msgid "Temperature in Celsius degrees."
-msgstr ""
+msgstr "Temperatūra Celcijaus laipsniais."
 
 #: app/api/formulas.py:120
 msgid "Temperature in Centikelvin degrees."
@@ -257,113 +269,117 @@ msgstr ""
 
 #: app/api/projects.py:125
 msgid "Cannot duplicate project"
-msgstr ""
+msgstr "Nepavyksta dubliuoti projekto"
 
 #: app/api/projects.py:193
 msgid "Invalid user in permissions list"
-msgstr ""
+msgstr "Netinkamas naudotojas leidimų sąraše"
 
 #: app/api/projects.py:195
 msgid "Invalid permissions"
-msgstr ""
+msgstr "Netinkamos teisės"
 
 #: app/api/tasks.py:186
 msgid "You need to upload at least 1 file before commit"
-msgstr ""
+msgstr "Jums reikia įkelti bent 1 failą prieš patvirtinant"
 
 #: app/api/tasks.py:209
 msgid "No files uploaded"
-msgstr ""
+msgstr "Neįkeltas nei vienas failas"
 
 #: app/api/tasks.py:235
 msgid "Cannot duplicate task"
-msgstr ""
+msgstr "Nepavyksta dubliuoti užduoties"
 
 #: app/api/tasks.py:252
 msgid "Cannot create task, you need at least 2 images"
-msgstr ""
+msgstr "Nepavyksta sukurti užduoties, jums reikia bent 2 nuotraukų"
 
 #: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
 #: app/api/tasks.py:401
 msgid "Asset does not exist"
-msgstr ""
+msgstr "Daiktas neegzistuoja"
 
 #: app/api/tasks.py:417
 msgid "Imported Task"
-msgstr ""
+msgstr "Importuota užduotis"
 
 #: app/api/tasks.py:420
 msgid "Cannot create task, you need to upload 1 file"
-msgstr ""
+msgstr "Nepavyksta sukurti užduoties, jums reikia įkelti 1 failą"
 
 #: app/api/tasks.py:423
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
+"Nepavyksta įkelti užduoties, arba nurodykite URL, arba įkelkite 1 failą."
 
 #: app/api/tiler.py:305
 msgid "Invalid boundaries parameter"
-msgstr ""
+msgstr "Netinkamas ribų parametras"
 
 #: app/api/tiler.py:324
 msgid "Invalid tile size parameter"
-msgstr ""
+msgstr "Netinkamas kaladėlės dydžio parametras"
 
 #: app/api/tiler.py:354 app/api/tiler.py:426
 msgid "Outside of bounds"
-msgstr ""
+msgstr "Už ribų"
 
 #: app/api/tiler.py:364
 msgid "Invalid boundaries"
-msgstr ""
+msgstr "Netinkamos ribos"
 
 #: app/api/tiler.py:432 app/api/tiler.py:551
 msgid "Not a valid color_map value"
-msgstr ""
+msgstr "Netinkama color_map reikšmė"
 
 #: app/api/tiler.py:438
 msgid "Invalid rescale value"
-msgstr ""
+msgstr "Netinkama rescale reikšmė"
 
 #: app/api/tiler.py:460
 msgid "Invalid hillshade value"
-msgstr ""
+msgstr "Netinkama hillshade reikšmė"
 
 #: app/api/tiler.py:463
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
+"Negalima paskaičiuoti šešėliavimo rastrui be aukščio (rastos kelios juostos)"
 
 #: app/api/tiler.py:487
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
+"Nepavyksta apdoroti kaladėlės: pateiktas intensyvumo paveikslas, bet RGB "
+"duomenys nepaskaičiuoti."
 
 #: app/api/tiler.py:536 app/api/tiler.py:538
 #, python-format
 msgid "Unsupported format: %(value)s"
-msgstr ""
+msgstr "Nepalaikomas formatas: %(value)s"
 
 #: app/api/tiler.py:557
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr ""
+msgstr "Netinkamas EPSG kodas: %(value)s"
 
 #: app/api/tiler.py:560
 msgid "Both formula and bands parameters are required"
-msgstr ""
+msgstr "Privalomas tiek formulės, tiek ir juostos parametras"
 
 #: app/api/tiler.py:583
 #, python-format
 msgid "Invalid rescale value: %(value)s"
-msgstr ""
+msgstr "Netinkama rescale reikšmė: %(value)s"
 
 #: app/api/tiler.py:591
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
-msgstr ""
+msgstr "Netinkama šešėliavimo reikšmė: %(value)s"
 
 #: app/api/tiler.py:602
 msgid "Cannot use epsg on non-georeferenced dataset"
-msgstr ""
+msgstr "Negalima naudoti epsg su nepririštu duomenų rinkiniu"
 
 #: app/models/plugin.py:5
 msgid "Plugin name"
@@ -376,7 +392,7 @@ msgstr "Vardas"
 
 #: app/models/plugin.py:6
 msgid "Whether this plugin is turned on."
-msgstr ""
+msgstr "Ar šis priedas įjungtas."
 
 #: app/models/plugin.py:6
 msgid "Enabled"
@@ -388,7 +404,7 @@ msgstr "Įskiepis"
 
 #: app/models/plugin.py:21 app/templates/app/logged_in_base.html:122
 msgid "Plugins"
-msgstr ""
+msgstr "Priedai"
 
 #: app/models/plugin_datum.py:7
 msgid "Setting key"
@@ -401,6 +417,8 @@ msgstr "Raktas"
 #: app/models/plugin_datum.py:8
 msgid "The user this setting belongs to. If NULL, the setting is global."
 msgstr ""
+"Naudotojas, kuriam priklauso šis nustatymas. Jei NULL, nustatymas yra "
+"globalus."
 
 #: app/models/plugin_datum.py:8 app/templates/app/admin/object_history.html:23
 msgid "User"
@@ -408,27 +426,27 @@ msgstr "Vartotojas"
 
 #: app/models/plugin_datum.py:9
 msgid "Integer value"
-msgstr ""
+msgstr "Sveiko skaičiaus reikšmė"
 
 #: app/models/plugin_datum.py:10
 msgid "Float value"
-msgstr ""
+msgstr "Trupmeninio skaičiaus reikšmė"
 
 #: app/models/plugin_datum.py:11
 msgid "Bool value"
-msgstr ""
+msgstr "Loginė reikšmė"
 
 #: app/models/plugin_datum.py:12
 msgid "String value"
-msgstr ""
+msgstr "Tekstinė reikšmė"
 
 #: app/models/plugin_datum.py:13
 msgid "JSON value"
-msgstr ""
+msgstr "JSON reikšmė"
 
 #: app/models/plugin_datum.py:19 app/models/plugin_datum.py:20
 msgid "Plugin Datum"
-msgstr ""
+msgstr "Priedo duomenys"
 
 #: app/models/preset.py:9
 msgid "The person who owns this preset"
@@ -456,7 +474,7 @@ msgstr "Sukūrimo data"
 
 #: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:258
 msgid "Created at"
-msgstr ""
+msgstr "Sukurta"
 
 #: app/models/preset.py:14
 msgid ""
@@ -478,23 +496,23 @@ msgstr ""
 
 #: app/models/profile.py:15
 msgid "Maximum disk quota in megabytes"
-msgstr ""
+msgstr "Maksimali disko vieta megabaitais"
 
 #: app/models/profile.py:15
 msgid "Quota"
-msgstr ""
+msgstr "Apribojimas"
 
 #: app/models/project.py:23
 msgid "The person who created the project"
-msgstr ""
+msgstr "Projektą sukūręs asmuo"
 
 #: app/models/project.py:24
 msgid "A label used to describe the project"
-msgstr ""
+msgstr "Projektą aprašanti etiketė"
 
 #: app/models/project.py:25
 msgid "More in-depth description of the project"
-msgstr ""
+msgstr "Detalesnis projekto aprašymas"
 
 #: app/models/project.py:27
 msgid ""
@@ -502,25 +520,26 @@ msgid ""
 "running tasks need to wait for tasks to be properly cleaned up before they "
 "can be deleted."
 msgstr ""
+"Ar šis projektas pažymėtas ištrynimui. Projektai, kurie turi vykdomų "
+"užduočių, turi palaukti, kol užduotys būs tinkamai išvalytos, prieš būdami "
+"ištrinami."
 
 #: app/models/project.py:27
 msgid "Deleting"
-msgstr ""
+msgstr "Trinama"
 
 #: app/models/project.py:28
-#, fuzzy
-#| msgid "Projects"
 msgid "Project tags"
-msgstr "Projektai"
+msgstr "Projekto žymos"
 
 #: app/models/project.py:28 app/models/task.py:281
 msgid "Tags"
-msgstr ""
+msgstr "Žymos"
 
 #: app/models/project.py:65 app/models/task.py:429
 #, python-format
 msgid "Copy of %(task)s"
-msgstr ""
+msgstr "%(task)s kopija"
 
 #: app/models/project.py:90 app/models/task.py:243
 msgid "Project"
@@ -532,23 +551,23 @@ msgstr "Projektai"
 
 #: app/models/setting.py:20
 msgid "The name of your application"
-msgstr ""
+msgstr "Jūsų aplikacijos pavadinimas"
 
 #: app/models/setting.py:20
 msgid "App name"
-msgstr ""
+msgstr "Aplikacijos pavadinimas"
 
 #: app/models/setting.py:21
 msgid "A 512x512 logo of your application (.png or .jpeg)"
-msgstr ""
+msgstr "Jūsų aplikacijos 512x512 logotipas (.png arba .jpeg)"
 
 #: app/models/setting.py:21
 msgid "App logo"
-msgstr ""
+msgstr "Aplikacijos logotipas"
 
 #: app/models/setting.py:31
 msgid "The name of your organization"
-msgstr ""
+msgstr "Jūsų organizacijos pavadinimas"
 
 #: app/models/setting.py:31
 msgid "Organization name"
@@ -556,11 +575,11 @@ msgstr "Organizacijos pavadinimas"
 
 #: app/models/setting.py:32
 msgid "The website URL of your organization"
-msgstr ""
+msgstr "Jūsų organizacijos svetainės URL"
 
 #: app/models/setting.py:32
 msgid "Organization website"
-msgstr ""
+msgstr "Organizacijos svetainė"
 
 #: app/models/setting.py:33 app/models/theme.py:48 app/models/theme.py:49
 #: app/templates/app/logged_in_base.html:119
@@ -569,11 +588,11 @@ msgstr "Tema"
 
 #: app/models/setting.py:34
 msgid "Active theme"
-msgstr ""
+msgstr "Aktyvi tema"
 
 #: app/models/setting.py:73 app/templates/app/logged_in_base.html:125
 msgid "Application"
-msgstr ""
+msgstr "Aplikacija"
 
 #: app/models/setting.py:76 app/models/setting.py:77
 msgid "Settings"
@@ -585,111 +604,117 @@ msgstr "Id"
 
 #: app/models/task.py:242
 msgid "Identifier of the task (as returned by NodeODM API)"
-msgstr ""
+msgstr "Užduoties identifikatorius (kaip jį grąžino NodeODM API)"
 
 #: app/models/task.py:242
 msgid "UUID"
-msgstr ""
+msgstr "UUID"
 
 #: app/models/task.py:243
 msgid "Project that this task belongs to"
-msgstr ""
+msgstr "Projektas, kuriam priklauso ši užduotis"
 
 #: app/models/task.py:244
 msgid "A label for the task"
-msgstr ""
+msgstr "Užduoties etiketė"
 
 #: app/models/task.py:245
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr ""
+"Skaičius milisekundžių, praėjusių nuo šios užduoties pradžios (-1 rodo, kad "
+"nėra informacijos)"
 
 #: app/models/task.py:245
 msgid "Processing Time"
-msgstr ""
+msgstr "Apdorojimo laikas"
 
 #: app/models/task.py:246
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr ""
+"Šiai užduočiai paskirtas apdorojimo mazgas (arba null, jei ši užduotis dar "
+"nesusieta)"
 
 #: app/models/task.py:246 app/views/app.py:116 nodeodm/models.py:36
 msgid "Processing Node"
-msgstr "Apdorojimo resursas"
+msgstr "Apdorojimo mazgas"
 
 #: app/models/task.py:247
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
-msgstr ""
+msgstr "Žyma, ar užduotis turėtų būti automatiškai priskirta apdorojimo mazgui"
 
 #: app/models/task.py:247
 msgid "Auto Processing Node"
-msgstr ""
+msgstr "Automatinis apdorojimo mazgas"
 
 #: app/models/task.py:248
 msgid "Current status of the task"
-msgstr ""
+msgstr "Dabartinė užduoties būsena"
 
 #: app/models/task.py:248
 msgid "Status"
-msgstr ""
+msgstr "Būsena"
 
 #: app/models/task.py:249
 msgid "The last processing error received"
-msgstr ""
+msgstr "Paskutinė gauta apdorojimo klaida"
 
 #: app/models/task.py:249
 msgid "Last Error"
-msgstr ""
+msgstr "Paskutinė klaida"
 
 #: app/models/task.py:250
 msgid "Options that are being used to process this task"
-msgstr ""
+msgstr "Šios užduoties apdorojimui naudojamos parinktys"
 
 #: app/models/task.py:251
 msgid "List of available assets to download"
-msgstr ""
+msgstr "Sąrašas daiktų, kuriuos galima atsisiųsti"
 
 #: app/models/task.py:251
 msgid "Available Assets"
-msgstr ""
+msgstr "Galimi daiktai"
 
 #: app/models/task.py:253
 msgid "Extent of the orthophoto"
-msgstr ""
+msgstr "Ortofoto apimtis"
 
 #: app/models/task.py:253
 msgid "Orthophoto Extent"
-msgstr ""
+msgstr "Ortofoto apimtis"
 
 #: app/models/task.py:254
 msgid "DSM Extent"
-msgstr ""
+msgstr "DSM apimtis"
 
 #: app/models/task.py:255
 msgid "DTM Extent"
-msgstr ""
+msgstr "DTM apimtis"
 
 #: app/models/task.py:259
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
 msgstr ""
+"Užduočiai paprašytas veiksmas. Darbuotojas vykdys parinktą veiksmą kitoje "
+"iteracijoje."
 
 #: app/models/task.py:259
 msgid "Pending Action"
-msgstr ""
+msgstr "Laukiamas veiksmas"
 
 #: app/models/task.py:261
 msgid "A flag indicating whether this task is available to the public"
-msgstr ""
+msgstr "Žyma ar ši užduotis prieinama viešai"
 
 #: app/models/task.py:261
 msgid "Public"
-msgstr ""
+msgstr "Viešas"
 
 #: app/models/task.py:262
 msgid ""
@@ -700,52 +725,55 @@ msgstr ""
 
 #: app/models/task.py:262
 msgid "Resize To"
-msgstr ""
+msgstr "Keisti dydį į"
 
 #: app/models/task.py:265
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr ""
+"Reikšmė tarp 0 ir 1, nurodanti šios užduoties failų siuntimo į apdorojimo "
+"mazgą eigą"
 
 #: app/models/task.py:266
 msgid "Upload Progress"
-msgstr ""
+msgstr "Įkėlimo eiga"
 
 #: app/models/task.py:269
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
+"Reikšmė tarp 0 ir 1, rodanti šios užduoties nuotraukų dydžio keitimo eigą"
 
 #: app/models/task.py:270
 msgid "Resize Progress"
-msgstr ""
+msgstr "Dydžio keitimo eiga"
 
 #: app/models/task.py:273
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
-msgstr ""
+msgstr "Reikšmė tarp 0 ir 1, rodanti šios užduoties vykdymo eigą (numatomą)"
 
 #: app/models/task.py:274
 msgid "Running Progress"
-msgstr ""
+msgstr "Vykdymo eiga"
 
 #: app/models/task.py:276
 msgid "URL this task is imported from (only for imported tasks)"
-msgstr ""
+msgstr "URL, iš kurio importuota ši užduotis (tik importuotoms užduotims)"
 
 #: app/models/task.py:276
 msgid "Import URL"
-msgstr ""
+msgstr "Importo URL"
 
 #: app/models/task.py:277
 msgid "Number of images associated with this task"
-msgstr ""
+msgstr "Su šia užduotimi susijusių nuotraukų skaičius"
 
 #: app/models/task.py:277
 msgid "Images Count"
-msgstr ""
+msgstr "Nuotraukų skaičius"
 
 #: app/models/task.py:278
 msgid ""
@@ -769,29 +797,27 @@ msgstr ""
 
 #: app/models/task.py:280
 msgid "EPSG code of the dataset (if georeferenced)"
-msgstr ""
+msgstr "Duomenų aibės EPSG kodas (jei pririštas)"
 
 #: app/models/task.py:281
-#, fuzzy
-#| msgid "Tasks"
 msgid "Task tags"
-msgstr "Užduotys"
+msgstr "Užduoties žymos"
 
 #: app/models/task.py:282
 msgid "List of orthophoto bands"
-msgstr ""
+msgstr "Ortofoto juostų sąrašas"
 
 #: app/models/task.py:282
 msgid "Orthophoto Bands"
-msgstr ""
+msgstr "Ortofoto juostos"
 
 #: app/models/task.py:283
 msgid "Size of the task on disk in megabytes"
-msgstr ""
+msgstr "Užduoties dydis diske megabaitais"
 
 #: app/models/task.py:283
 msgid "Size"
-msgstr ""
+msgstr "Dydis"
 
 #: app/models/task.py:286
 msgid "Task"
@@ -803,29 +829,30 @@ msgstr "Užduotys"
 
 #: app/models/task.py:298
 msgid "unnamed"
-msgstr ""
+msgstr "bevardis"
 
 #: app/models/task.py:502
 msgid "Importing assets..."
-msgstr ""
+msgstr "Importuojami daiktai..."
 
 #: app/models/task.py:554 app/models/task.py:823
 msgid "Invalid zip file"
-msgstr ""
+msgstr "Netinkamas zip failas"
 
 #: app/models/task.py:649
 #, python-format
 msgid "Connection error: %(error)s"
-msgstr ""
+msgstr "Jungties klaida: %(error)s"
 
 #: app/models/task.py:729
 msgid "Cannot restart a task that has no processing node"
-msgstr ""
+msgstr "Negalima iš naujo paleisti užduoties, kuri neturi apdorojimo mazgo"
 
 #: app/models/task.py:889
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
+"Nepalaikomas SRS %(code)s. Prašome įsitikinti, kad parinkote palaikomą SRS."
 
 #: app/models/task.py:903
 msgid "Done!"
@@ -833,11 +860,11 @@ msgstr "Atlikta!"
 
 #: app/models/theme.py:16
 msgid "Name of theme"
-msgstr ""
+msgstr "Temos pavadinimas"
 
 #: app/models/theme.py:19
 msgid "Most text, icons, and borders."
-msgstr ""
+msgstr "Dauguma tekstų, piktogramų ir ribų."
 
 #: app/models/theme.py:19
 msgid "Primary"
@@ -845,87 +872,87 @@ msgstr "Pirminis"
 
 #: app/models/theme.py:20
 msgid "The main background color, and text color of some buttons."
-msgstr ""
+msgstr "Pagrindinė fono spalva, kai kurių mygtukų teksto spalva."
 
 #: app/models/theme.py:20
 msgid "Secondary"
-msgstr ""
+msgstr "Antrinė"
 
 #: app/models/theme.py:21
 msgid "Navigation links."
-msgstr ""
+msgstr "Navigacijos nuorodos."
 
 #: app/models/theme.py:21
 msgid "Tertiary"
-msgstr ""
+msgstr "Tretinė"
 
 #: app/models/theme.py:23
 msgid "Primary button color."
-msgstr ""
+msgstr "Pirminė mygtukų spalva."
 
 #: app/models/theme.py:23
 msgid "Button Primary"
-msgstr ""
+msgstr "Mygtukas pirminis"
 
 #: app/models/theme.py:24
 msgid "Default button color."
-msgstr ""
+msgstr "Numatytoji mygtuko spalva."
 
 #: app/models/theme.py:24
 msgid "Button Default"
-msgstr ""
+msgstr "Mygtukas numatytasis"
 
 #: app/models/theme.py:25
 msgid "Delete button color."
-msgstr ""
+msgstr "Mygtuko trinti spalva."
 
 #: app/models/theme.py:25
 msgid "Button Danger"
-msgstr ""
+msgstr "Mygtukas pavojus"
 
 #: app/models/theme.py:27
 msgid "Background color of the site's header."
-msgstr ""
+msgstr "Fono spalva arba svetainės antraštė."
 
 #: app/models/theme.py:27
 msgid "Header Background"
-msgstr ""
+msgstr "Antraštės fonas"
 
 #: app/models/theme.py:28
 msgid "Text and icons in the site's header."
-msgstr ""
+msgstr "Svetainės antraštės tekstas ir piktogramos."
 
 #: app/models/theme.py:28
 msgid "Header Primary"
-msgstr ""
+msgstr "Antraštė pirminė"
 
 #: app/models/theme.py:30
 msgid "The color of most borders."
-msgstr ""
+msgstr "Daugumos rėmelių spalva."
 
 #: app/models/theme.py:30
 msgid "Border"
-msgstr ""
+msgstr "Riba"
 
 #: app/models/theme.py:31
 msgid "The background color of panels and some borders."
-msgstr ""
+msgstr "Skydelių ir kai kurių rėmelių fono spalva."
 
 #: app/models/theme.py:31
 msgid "Highlight"
-msgstr ""
+msgstr "Paryškinimas"
 
 #: app/models/theme.py:33
 msgid "The border color of warning dialogs."
-msgstr ""
+msgstr "Įspėjimo dialogų rėmelio spalva."
 
 #: app/models/theme.py:33
 msgid "Dialog Warning"
-msgstr ""
+msgstr "Dialogas Įspėjimas"
 
 #: app/models/theme.py:35
 msgid "The background color of failed notifications."
-msgstr ""
+msgstr "Nepavykusių pranešimų fono spalva."
 
 #: app/models/theme.py:35
 msgid "Failed"
@@ -933,11 +960,11 @@ msgstr "Nepavyko"
 
 #: app/models/theme.py:36
 msgid "The background color of success notifications."
-msgstr ""
+msgstr "Sėkmės pranešimų fono spalva."
 
 #: app/models/theme.py:36
 msgid "Success"
-msgstr ""
+msgstr "Sėkmė"
 
 #: app/templates/app/404.html:6
 msgid "404 Page Not Found"
@@ -945,15 +972,15 @@ msgstr "404 Puslapis nerastas"
 
 #: app/templates/app/404.html:7
 msgid "Are you sure the address is correct?"
-msgstr ""
+msgstr "Ar jūs įsitikinę, kad adresas teisingas?"
 
 #: app/templates/app/500.html:5
 msgid "500 Internal Server Error"
-msgstr ""
+msgstr "500 Vidinė serverio klaida"
 
 #: app/templates/app/500.html:6
 msgid "Something happened. The server logs contain more information."
-msgstr ""
+msgstr "Kažkas įvyko. Serverio žurnale yra daugiau informacijos."
 
 #: app/templates/app/about.html:94
 #, python-format
@@ -967,7 +994,7 @@ msgstr ""
 
 #: app/templates/app/admin/404.html:4 app/templates/app/admin/404.html:8
 msgid "Page not found"
-msgstr ""
+msgstr "Puslapis nerastas"
 
 #: app/templates/app/admin/404.html:10
 msgid "We're sorry, but the requested page could not be found."
@@ -1018,7 +1045,7 @@ msgstr ""
 #: app/templates/app/admin/actions.html:10
 #, python-format
 msgid "Select all %(total_count)s %(module_name)s"
-msgstr ""
+msgstr "Pažymėti visus %(total_count)s %(module_name)s"
 
 #: app/templates/app/admin/actions.html:12
 msgid "Clear selection"
@@ -1029,6 +1056,8 @@ msgid ""
 "First, enter a username and password. Then, you'll be able to edit more user "
 "options."
 msgstr ""
+"Visų pirma įveskite naudotojo vardą ir slaptažodį. Tada mes galėsime keisti "
+"daugiau naudotojo parinkčių."
 
 #: app/templates/app/admin/auth/user/add_form.html:8
 msgid "Enter a username and password."
@@ -1081,7 +1110,7 @@ msgstr "Istorija"
 #: app/templates/app/admin/edit_inline/stacked.html:14
 #: app/templates/app/admin/edit_inline/tabular.html:36
 msgid "View on site"
-msgstr ""
+msgstr "Žiūrėti svetainėje"
 
 #: app/templates/app/admin/change_list.html:69
 msgid "Filter"
@@ -1093,7 +1122,7 @@ msgstr ""
 
 #: app/templates/app/admin/change_list_plugin.html:28
 msgid "Manage Plugins"
-msgstr ""
+msgstr "Tvarkyti priedus"
 
 #: app/templates/app/admin/change_list_results.html:17
 msgid "Remove from sorting"
@@ -1201,7 +1230,7 @@ msgstr "Santrauka"
 #: app/templates/app/admin/index.html:20
 #, python-format
 msgid "Models in the %(name)s application"
-msgstr ""
+msgstr "Aplikacijos %(name)s modeliai"
 
 #: app/templates/app/admin/index.html:31
 #: app/templates/app/admin/related_widget_wrapper.html:16
@@ -1308,7 +1337,7 @@ msgstr[2] ""
 #: app/templates/app/admin/search_form.html:9
 #, python-format
 msgid "%(full_result_count)s total"
-msgstr ""
+msgstr "%(full_result_count)s iš viso"
 
 #: app/templates/app/admin/submit_line.html:8
 msgid "Save as new"
@@ -1316,7 +1345,7 @@ msgstr ""
 
 #: app/templates/app/admin/submit_line.html:9
 msgid "Save and add another"
-msgstr ""
+msgstr "Įrašyti ir pridėti kitą"
 
 #: app/templates/app/admin/submit_line.html:10
 msgid "Save and continue editing"
@@ -1329,7 +1358,7 @@ msgstr "Sveiki!"
 
 #: app/templates/app/dashboard.html:19
 msgid "Add a Processing Node"
-msgstr ""
+msgstr "Pridėti apdorojimo mazgą"
 
 #: app/templates/app/dashboard.html:22
 #, python-format
@@ -1413,12 +1442,12 @@ msgstr ""
 #: app/templates/app/logged_in_base.html:16
 #, python-format
 msgid "Hello, %(user)s!"
-msgstr ""
+msgstr "Labas, %(user)s!"
 
 #: app/templates/app/logged_in_base.html:30
 #, python-format
 msgid "%(used)s of %(total)s used"
-msgstr ""
+msgstr "%(used)s iš %(total)s panaudota"
 
 #: app/templates/app/logged_in_base.html:43
 msgid "Logout"
@@ -1426,11 +1455,11 @@ msgstr "Atsijungti"
 
 #: app/templates/app/logged_in_base.html:57 app/views/app.py:47
 msgid "Dashboard"
-msgstr ""
+msgstr "Švieslentė"
 
 #: app/templates/app/logged_in_base.html:83 nodeodm/models.py:37
 msgid "Processing Nodes"
-msgstr ""
+msgstr "Apdorojimo mazgai"
 
 #: app/templates/app/logged_in_base.html:93
 msgid "Add New"
@@ -1519,6 +1548,8 @@ msgid ""
 "Your account does not have a storage quota. Any new task will be "
 "automatically deleted %(when)s"
 msgstr ""
+"Jūsų paskyra neturi vietos apribojimo. Bet kokios naujos užduotys bus "
+"automatiškai ištrintos %(when)s"
 
 #: app/templates/app/welcome.html:224
 msgid "Uh oh! Could you please check the errors below?"
@@ -1615,7 +1646,7 @@ msgstr ""
 
 #: app/views/app.py:45
 msgid "First Project"
-msgstr ""
+msgstr "Pirmas projektas"
 
 #: app/views/app.py:55 app/views/public.py:27
 msgid "Map"
@@ -1664,11 +1695,11 @@ msgstr "Diagnostika"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:6
 msgid "Diagnostic Information"
-msgstr ""
+msgstr "Diagnostikos informacija"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:10
 msgid "Storage Space"
-msgstr ""
+msgstr "Saugyklos vieta"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:14
 #: coreplugins/diagnostic/templates/diagnostic.html:40
@@ -1682,12 +1713,12 @@ msgstr ""
 #: coreplugins/diagnostic/templates/diagnostic.html:45
 msgctxt "Megabytes of storage space"
 msgid "Used"
-msgstr ""
+msgstr "Panaudota"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:16
 msgctxt "Megabytes of storage space"
 msgid "Total"
-msgstr ""
+msgstr "Iš viso"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:20
 msgctxt "Computer memory (RAM)"
@@ -1706,12 +1737,12 @@ msgstr ""
 #: coreplugins/diagnostic/templates/diagnostic.html:80
 msgctxt "Megabytes of memory space"
 msgid "Used"
-msgstr ""
+msgstr "Panaudota"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:26
 msgctxt "Megabytes of memory space"
 msgid "Total"
-msgstr ""
+msgstr "Iš viso"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
 msgid "Note!"
@@ -1725,11 +1756,15 @@ msgid ""
 "See instructions for %(win_hyperv_link)s, %(win_wsl2_link)s, and "
 "%(mac_link)s for changing these values in a Docker setup."
 msgstr ""
+"Šios reikšmės gali būti priklausomos nuo virtualizacijos aplinkos, kurioje "
+"veikia aplikacija, nebūtinai reikšmės iš jūsų mašinos. Instrukcijas, kaip "
+"pakeisti šias reikšmes Docker nustatymuose rasite %(win_hyperv_link)s, "
+"%(win_wsl2_link)s, and %(mac_link)s."
 
 #: coreplugins/diagnostic/templates/diagnostic.html:47
 #: coreplugins/diagnostic/templates/diagnostic.html:82
 msgid "Disk Space"
-msgstr ""
+msgstr "Disko vieta"
 
 #: coreplugins/editshortlinks/api.py:59
 msgid ""
@@ -1743,7 +1778,7 @@ msgstr ""
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
 msgid "Lightning Network"
-msgstr ""
+msgstr "Lightning tinklas"
 
 #: coreplugins/measure/api.py:21
 msgid ""
@@ -1804,7 +1839,7 @@ msgstr ""
 
 #: nodeodm/models.py:25
 msgid "API version used by the node"
-msgstr ""
+msgstr "node naudojama API versija"
 
 #: nodeodm/models.py:26
 msgid "When was the information about this node last retrieved?"
@@ -1844,7 +1879,7 @@ msgstr ""
 
 #: nodeodm/models.py:31
 msgid "Engine version used by the node."
-msgstr ""
+msgstr "node naudojama variklio versija."
 
 #: nodeodm/models.py:32
 msgid ""
@@ -1854,4 +1889,4 @@ msgstr ""
 
 #: nodeodm/models.py:33
 msgid "Engine used by the node."
-msgstr ""
+msgstr "node naudojamas variklis."
