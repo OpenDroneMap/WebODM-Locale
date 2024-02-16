@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-14 22:56+0000\n"
-"PO-Revision-Date: 2024-02-15 16:02+0000\n"
+"PO-Revision-Date: 2024-02-17 05:02+0000\n"
 "Last-Translator: Mark de Haan <mark@aeret.nl>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/webodm/react-ui/nl/"
 ">\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.4\n"
 
 #: app/static/app/js/Console.jsx:135
 #, python-format
@@ -115,10 +115,8 @@ msgid "Surface Model (Tiles)"
 msgstr "Oppervlaktemodel (Tegels)"
 
 #: app/static/app/js/classes/AssetDownloads.js:53
-#, fuzzy
-#| msgid "Point Cloud (LAS)"
 msgid "Point Cloud"
-msgstr "Puntenwolk (LAS)"
+msgstr "Puntenwolk"
 
 #: app/static/app/js/classes/AssetDownloads.js:54
 #, fuzzy
@@ -470,7 +468,7 @@ msgstr "Verwijderen"
 #: app/static/app/js/components/EditTaskForm.jsx:585
 #: coreplugins/lightning/public/Dashboard.jsx:153
 msgid "Processing Node"
-msgstr ""
+msgstr "Verwerking node"
 
 #: app/static/app/js/components/EditTaskForm.jsx:595
 msgid "Options"
@@ -478,7 +476,7 @@ msgstr "Opties"
 
 #: app/static/app/js/components/EditTaskForm.jsx:619
 msgid "Loading processing nodes and presets..."
-msgstr ""
+msgstr "Laden van verwerking node en instellingen..."
 
 #: app/static/app/js/components/EditTaskPanel.jsx:56
 msgid "Could not update task information. Plese try again."
@@ -691,7 +689,7 @@ msgstr "Kleur:"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:329
 msgid "Shading:"
-msgstr ""
+msgstr "Schaduw:"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:332
 #: app/static/app/js/components/Map.jsx:438
@@ -705,7 +703,7 @@ msgstr "Normaal"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:334
 msgid "Extruded"
-msgstr ""
+msgstr "Geëxtrudeerd"
 
 #: app/static/app/js/components/LayersControlPanel.jsx:26
 #: app/static/app/js/components/NewTaskPanel.jsx:200
@@ -735,7 +733,7 @@ msgstr "(GCPs)"
 
 #: app/static/app/js/components/Map.jsx:418
 msgid "Enter a tile URL template. Valid coordinates are:"
-msgstr ""
+msgstr "Voeg een tile URL template toe. Geldige coördinaten zijn:"
 
 #: app/static/app/js/components/Map.jsx:419
 #, python-brace-format
@@ -744,7 +742,7 @@ msgstr "{z}, {x}, {y} voor Z/X/Y tile schema"
 
 #: app/static/app/js/components/Map.jsx:420
 msgid "{-y} for flipped TMS-style Y coordinates"
-msgstr ""
+msgstr "{-y} voor omgedraaide TSM-stijl Y coördinaat"
 
 #: app/static/app/js/components/Map.jsx:422
 msgid "Example:"
@@ -939,7 +937,7 @@ msgstr "Filter"
 
 #: app/static/app/js/components/ProjectListItem.jsx:707
 msgid "Clear"
-msgstr ""
+msgstr "Opschonen"
 
 #: app/static/app/js/components/ProjectListItem.jsx:722
 #: app/static/app/js/components/TaskListItem.jsx:453
@@ -1016,27 +1014,33 @@ msgid ""
 "It looks like there might be one of the following problems: %(problems)s You "
 "can read more about best practices for capturing good images %(link)s."
 msgstr ""
+"Het lijkt op een van de volgende problemen: %(problems)s Je kunt meer lezen "
+"over oefeningen voor het nemen van goede afbeeldingen op %(link)s."
 
 #: app/static/app/js/components/TaskListItem.jsx:265
 msgid "Not enough images"
-msgstr ""
+msgstr "Niet genoeg aantal afbeeldingen"
 
 #: app/static/app/js/components/TaskListItem.jsx:266
 msgid "Not enough overlap between images"
-msgstr ""
+msgstr "Niet genoeg overlap tussen afbeeldingen"
 
 #: app/static/app/js/components/TaskListItem.jsx:267
 msgid "Images might be too blurry (common with phone cameras)"
 msgstr ""
+"Sommige afbeeldingen zijn wellicht te wazig (gebruikelijk met smartphone "
+"camera's)"
 
 #: app/static/app/js/components/TaskListItem.jsx:268
 msgid ""
 "The min-num-features task option is set too low, try increasing it by 25%"
 msgstr ""
+"De min-num-features taak optie is te laag gezet, probeer deze te verhogen "
+"met 25%"
 
 #: app/static/app/js/components/TaskListItem.jsx:269
 msgid "here"
-msgstr ""
+msgstr "Hier"
 
 #: app/static/app/js/components/TaskListItem.jsx:272
 #, python-format
@@ -1046,10 +1050,14 @@ msgid ""
 "support or higher. You can still run WebODM if you compile your own docker "
 "images. See %(link)s for more information."
 msgstr ""
+"Het lijkt erop alsof de computer te oud is. WebODM heeft een computer nodig "
+"met een 64-bit CPU (processor) welke MMX, SSE, SSE2, SSE3 en SSSE3 "
+"ondersteund. Je kunt nog steeds WebODM gebruiken als je deze compiled in een "
+"eigen docker image. Zie %(link)s voor meer informatie."
 
 #: app/static/app/js/components/TaskListItem.jsx:272
 msgid "this page"
-msgstr ""
+msgstr "Deze pagina"
 
 #: app/static/app/js/components/TaskListItem.jsx:274
 msgid ""
@@ -1057,44 +1065,48 @@ msgid ""
 "This might indicate a corrupted installation. If you built OpenDroneMap, "
 "please check that all programs built without errors."
 msgstr ""
+"The verwerkingsnode mist een programma welke noodzakelijk is om de taak af "
+"te ronden. Dit kan wijzen op een corrupte installatie. Als je OpenDroneMap "
+"zelf hebt geïnstalleerd, controleer dat alle benodigde programma's zonder "
+"fout zijn geïnstalleerd."
 
 #: app/static/app/js/components/TaskListItem.jsx:315
 #, python-format
 msgid "From %(stage)s"
-msgstr ""
+msgstr "Van %(stage)s"
 
 #: app/static/app/js/components/TaskListItem.jsx:327
 msgid "Resume Processing"
-msgstr ""
+msgstr "Hervat verwerking"
 
 #: app/static/app/js/components/TaskListItem.jsx:343
 msgid "Cannot restart task."
-msgstr ""
+msgstr "Kan taak niet opnieuw starten."
 
 #: app/static/app/js/components/TaskListItem.jsx:385
 msgid "Cannot restart task from (stage)s."
-msgstr ""
+msgstr "Kan taak niet herstarten vanaf (stage)s."
 
 #: app/static/app/js/components/TaskListItem.jsx:421
 msgid "Sending images to processing node"
-msgstr ""
+msgstr "Afbeeldingen worden naar verwerkingsnode gestuurd"
 
 #: app/static/app/js/components/TaskListItem.jsx:423
 msgid "Waiting for a node..."
-msgstr ""
+msgstr "Wachtende op een node..."
 
 #: app/static/app/js/components/TaskListItem.jsx:460
 msgid "View 3D Model"
-msgstr ""
+msgstr "Bekijk 3D Model"
 
 #: app/static/app/js/components/TaskListItem.jsx:475
 #: app/static/app/js/components/TaskListItem.jsx:696
 msgid "Cannot cancel task."
-msgstr ""
+msgstr "Kan taak niet annuleren."
 
 #: app/static/app/js/components/TaskListItem.jsx:488
 msgid "Restart"
-msgstr ""
+msgstr "Herstarten"
 
 #: app/static/app/js/components/TaskListItem.jsx:495
 #: app/static/app/js/components/TaskListItem.jsx:718
@@ -1102,19 +1114,21 @@ msgid ""
 "All information related to this task, including images, maps and models will "
 "be deleted. Continue?"
 msgstr ""
+"Alle informatie aangaande deze taak, inclusief afbeeldingen, kaarten en "
+"modellen worden verwijderd. Wil je doorgaan?"
 
 #: app/static/app/js/components/TaskListItem.jsx:496
 #: app/static/app/js/components/TaskListItem.jsx:719
 msgid "Cannot delete task."
-msgstr ""
+msgstr "Kan taak niet verwijderen."
 
 #: app/static/app/js/components/TaskListItem.jsx:549
 msgid "Created on:"
-msgstr ""
+msgstr "Gecreëerd op:"
 
 #: app/static/app/js/components/TaskListItem.jsx:553
 msgid "Processing Node:"
-msgstr ""
+msgstr "Verwerking Node:"
 
 #: app/static/app/js/components/TaskListItem.jsx:554
 msgid "auto"
@@ -1126,36 +1140,36 @@ msgstr "handmatig"
 
 #: app/static/app/js/components/TaskListItem.jsx:558
 msgid "Options:"
-msgstr ""
+msgstr "Opties:"
 
 #: app/static/app/js/components/TaskListItem.jsx:563
 msgid "Average GSD:"
-msgstr ""
+msgstr "Gemiddelde GSD:"
 
 #: app/static/app/js/components/TaskListItem.jsx:568
 #: coreplugins/measure/public/MeasurePopup.jsx:178
 msgid "Area:"
-msgstr ""
+msgstr "Oppervlakte:"
 
 #: app/static/app/js/components/TaskListItem.jsx:573
 msgid "Reconstructed Points:"
-msgstr ""
+msgstr "Gereconstrueerde Punten:"
 
 #: app/static/app/js/components/TaskListItem.jsx:578
 msgid "Disk Usage:"
-msgstr ""
+msgstr "Schijf gebruik:"
 
 #: app/static/app/js/components/TaskListItem.jsx:582
 msgid "Task Output:"
-msgstr ""
+msgstr "Taak Opbrengst:"
 
 #: app/static/app/js/components/TaskListItem.jsx:584
 msgid "On"
-msgstr ""
+msgstr "Aan"
 
 #: app/static/app/js/components/TaskListItem.jsx:585
 msgid "Off"
-msgstr ""
+msgstr "Uit"
 
 #: app/static/app/js/components/TaskListItem.jsx:605
 msgid ""
@@ -1163,14 +1177,17 @@ msgid ""
 "information is embedded in the EXIF tags of your images, or use a Ground "
 "Control Points (GCP) file."
 msgstr ""
+"Er kon geen orthofoto worden gegenereerd. Om deze te genereren, zorg dat de "
+"GPS informatie in de EXIF tags van je afbeeldingen zit, of gebruik een "
+"Ground Control Points (GCP) bestand."
 
 #: app/static/app/js/components/TaskListItem.jsx:608
 msgid "enough RAM allocated"
-msgstr ""
+msgstr "Genoeg RAM toegewezen"
 
 #: app/static/app/js/components/TaskListItem.jsx:608
 msgid "cloud processing node"
-msgstr ""
+msgstr "Cloud verwerking node"
 
 #: app/static/app/js/components/TaskListItem.jsx:608
 #, python-format
@@ -1181,6 +1198,11 @@ msgid ""
 "images, make your images smaller, or reduce the max-concurrency parameter "
 "from the task's options. You can also try to use a %(cloudlink)s."
 msgstr ""
+"Het lijkt erop alsof je verwerking node niet genoeg geheugen heeft. Als je "
+"docker gebruikt, zorg dan dat je docker omgeving %(memlink)s heeft. Als "
+"alternatief zorg dat je genoeg fysiek RAM geheugen hebt, verklein het aantal "
+"afbeeldingen, verklein de afbeeldingen of reduceer de max-concurrency "
+"parameter van de taak opties. Je kunt ook kijken naar %(cloudlink)s."
 
 #: app/static/app/js/components/TaskListItem.jsx:615
 #, python-format
@@ -1189,33 +1211,37 @@ msgid ""
 "Sometimes it's a problem with the dataset, sometimes it can be solved by "
 "tweaking the Task Options. Check the documentation at %(link)s"
 msgstr ""
+"\"Process exited with code 1\" betekent dat een deel van het "
+"verwerkingsproces heeft gefaald. Soms is het een probleem met de dataset, "
+"soms kan het worden opgelost door parameters te tweaken vien de Taak Opties. "
+"Bekijk de documentatie op: %(link)s"
 
 #: app/static/app/js/components/TaskListItem.jsx:662
 msgid "Set a processing node"
-msgstr ""
+msgstr "Kies een verwerking node"
 
 #: app/static/app/js/components/TaskListItem.jsx:667
 msgid "Waiting for image upload..."
-msgstr ""
+msgstr "Wachten op afbeeldingen upload..."
 
 #: app/static/app/js/components/TaskListItem.jsx:706
 msgid "Move"
-msgstr ""
+msgstr "Verplaats"
 
 #: app/static/app/js/components/UploadProgressBar.jsx:20
 #, python-format
 msgid "remaining to upload: %(bytes)s"
-msgstr ""
+msgstr "Nog te uploaden: %(bytes)s"
 
 #: app/static/app/js/components/UploadProgressBar.jsx:26
 #, python-format
 msgid "%(count)s files %(remaining)s"
-msgstr ""
+msgstr "%(count)s bestanden %(remaining)s"
 
 #: app/static/app/js/components/UploadProgressBar.jsx:27
 #, python-format
 msgid "%(count)s files uploaded successfully"
-msgstr ""
+msgstr "%(count)s bestanden succesvol geupload"
 
 #: app/static/app/js/translations/odm_autogenerated.js:3
 #, python-format
@@ -1223,6 +1249,8 @@ msgid ""
 "DSM/DTM resolution in cm / pixel. Note that this value is capped by a ground "
 "sampling distance (GSD) estimate. Default: %(default)s"
 msgstr ""
+"DSM/DTM resolutie in cm / pixel. Deze waarde wordt bepaald door de ground "
+"sampling distance (GSD) schatting. Standaard: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:4
 #, python-format
@@ -1231,6 +1259,8 @@ msgid ""
 "outputs should be automatically aligned to. Experimental. Default: "
 "%(default)s"
 msgstr ""
+"Pad naar een GeoTIFF DEM of een LAS/LAZ puntenwolk waar de reconstructie "
+"output aan wordt uitgelijnd. Experimenteel. Standaard: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:5
 #, python-format
@@ -1243,7 +1273,7 @@ msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:6
 msgid "Copy output results to this folder after processing."
-msgstr ""
+msgstr "Kopieer verwerkte resultaten naar deze map na verwerking."
 
 #: app/static/app/js/translations/odm_autogenerated.js:7
 #, python-format
@@ -1261,7 +1291,7 @@ msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:9
 msgid "show this help message and exit"
-msgstr ""
+msgstr "Toon deze help boodschap en sluit af"
 
 #: app/static/app/js/translations/odm_autogenerated.js:10
 #, python-format
