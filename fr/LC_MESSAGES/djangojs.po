@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-14 22:56+0000\n"
-"PO-Revision-Date: 2024-02-17 05:02+0000\n"
+"PO-Revision-Date: 2024-02-17 14:53+0000\n"
 "Last-Translator: Gonzalo Bulnes Guilpain <gon.bulnes@fastmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/webodm/react-ui/"
 "fr/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: app/static/app/js/Console.jsx:135
 #, python-format
 msgid "output truncated at %(count)s lines"
-msgstr "sortie tronquée aux %(count)s dernières lignes"
+msgstr "sortie tronquée après %(count)s lignes"
 
 #: app/static/app/js/Console.jsx:147 app/static/app/js/Console.jsx:155
 #: app/static/app/js/Console.jsx:165
@@ -35,7 +35,7 @@ msgstr "Quitter le plein-écran"
 
 #: app/static/app/js/Console.jsx:162
 msgid "Download To File"
-msgstr "Télécharger vers Fichier"
+msgstr "Télécharger vers fichier"
 
 #: app/static/app/js/Dashboard.jsx:26
 msgid "Name field is required"
@@ -93,7 +93,7 @@ msgstr "Afficher les caméras"
 
 #: app/static/app/js/ModelView.jsx:731
 msgid "Loading textured model..."
-msgstr "Chargement du modèle de texture…"
+msgstr "Chargement du modèle texturé…"
 
 #: app/static/app/js/classes/AssetDownloads.js:47
 msgid "Orthophoto (MBTiles)"
@@ -105,11 +105,11 @@ msgstr "Orthophoto (Tuiles)"
 
 #: app/static/app/js/classes/AssetDownloads.js:50
 msgid "Terrain Model (Tiles)"
-msgstr "Modèle de terrain (tuiles)"
+msgstr "Modèle de terrain (Tuiles)"
 
 #: app/static/app/js/classes/AssetDownloads.js:52
 msgid "Surface Model (Tiles)"
-msgstr "Modèle de surface (tuiles)"
+msgstr "Modèle de surface (Tuiles)"
 
 #: app/static/app/js/classes/AssetDownloads.js:53
 msgid "Point Cloud"
@@ -121,17 +121,15 @@ msgstr "Nuage de points (Tuiles 3D)"
 
 #: app/static/app/js/classes/AssetDownloads.js:55
 msgid "Textured Model"
-msgstr "Modèle de texture"
+msgstr "Modèle texturé"
 
 #: app/static/app/js/classes/AssetDownloads.js:56
 msgid "Textured Model (3D Tiles)"
 msgstr "Modèle texturé (Tuiles 3D)"
 
 #: app/static/app/js/classes/AssetDownloads.js:57
-#, fuzzy
-#| msgid "Textured Model"
 msgid "Textured Model (glTF)"
-msgstr "Modèle de texture"
+msgstr "Modèle texturé (glTF)"
 
 #: app/static/app/js/classes/AssetDownloads.js:58
 msgid "Camera Parameters"
@@ -163,7 +161,7 @@ msgstr "Satellite ESRI"
 
 #: app/static/app/js/classes/Basemaps.js:26
 msgid "OSM Mapnik"
-msgstr "Mapnik OSM"
+msgstr "OSM Mapnik"
 
 #: app/static/app/js/classes/PendingActions.js:11
 msgid "Canceling..."
@@ -356,12 +354,12 @@ msgstr "Description (facultatif)"
 msgid ""
 "Could not load list of processing nodes. Are you connected to the internet?"
 msgstr ""
-"Impossible de charger la liste des nœuds de traitement. Êtes-vous connecté à "
-"Internet ?"
+"Impossible de charger la liste des nœuds de traitement. Êtes-vous connecté(e)"
+" à Internet ?"
 
 #: app/static/app/js/components/EditTaskForm.jsx:121
 msgid "We tried to reach:"
-msgstr "Nous essayons d'atteindre :"
+msgstr "Nous avons essayé d'atteindre :"
 
 #: app/static/app/js/components/EditTaskForm.jsx:122
 msgid "There are no usable processing nodes."
@@ -378,16 +376,16 @@ msgid ""
 msgstr ""
 "Vérifiez qu'au moins un nœud de traitement est joignable et que vous avez "
 "accordé à l'utilisateur courant les droits suffisants pour consulter les "
-"nœuds de traitement (en allant dans Administration -- Nœuds de Traitement -- "
-"Sélectionnez un Nœud -- Permissions -- Ajout Utilisateur/Groupe et cochez "
+"nœuds de traitement (en allant dans Administration -- Nœuds de traitement -- "
+"Sélectionnez un nœud -- Permissions -- Ajout utilisateur/groupe et cochez "
 "PEUT VISUALISER LE NŒUD DE TRAITEMENT). Si vous venez de remettre un nœud en "
 "ligne, WebODM prendra environ 30 secondes pour le reconnaître."
 
 #: app/static/app/js/components/EditTaskForm.jsx:221
 msgid "Could not load list of presets. Are you connected to the internet?"
 msgstr ""
-"Impossible de charger la liste des préréglages. Êtes-vous connecté à "
-"Internet ?"
+"Impossible de charger la liste des préréglages. Êtes-vous connecté(e) à "
+"Internet ?"
 
 #: app/static/app/js/components/EditTaskForm.jsx:230
 #: app/static/app/js/components/EditTaskForm.jsx:393
@@ -561,7 +559,7 @@ msgstr "Enregistrement…"
 #: app/static/app/js/components/FormDialog.jsx:14
 #: coreplugins/editshortlinks/public/SLControls.jsx:112
 msgid "Are you sure?"
-msgstr "Êtes-vous sûr ?"
+msgstr "Êtes-vous sûr(e) ?"
 
 #: app/static/app/js/components/FormDialog.jsx:130
 msgid "Could not apply changes"
@@ -605,7 +603,7 @@ msgstr "Télécharger l'image"
 #: app/static/app/js/components/ImportTaskPanel.jsx:64
 msgid "Cannot upload file. Check your internet connection and try again."
 msgstr ""
-"Impossible d'envoyer le fichier. Vérifiez votre connexion Internet et "
+"Impossible de téléverser le fichier. Vérifiez votre connexion Internet et "
 "continuez."
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:93
@@ -623,12 +621,13 @@ msgstr "Réponse du serveur invalide : %(error)s"
 #: app/static/app/js/components/ImportTaskPanel.jsx:96
 msgid "An error occured while uploading the file. Please try again."
 msgstr ""
-"Une erreur s'est produite lors de l'envoi du fichier. Veuillez réessayer."
+"Une erreur s'est produite lors du téléversement du fichier. Veuillez "
+"réessayer."
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:144
 msgid "Cannot import from URL. Check your internet connection."
 msgstr ""
-"Imporssible d'importer à partir de l'URL. Vérifiez votre connexion Internet."
+"Impossible d'importer à partir de l'URL. Vérifiez votre connexion Internet."
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:161
 msgid "Import Existing Assets"
@@ -646,7 +645,7 @@ msgstr ""
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:169
 msgid "Upload a File"
-msgstr "Envoyer un fichier"
+msgstr "Téléverser un fichier"
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:177
 msgid "Import From URL"
@@ -667,20 +666,23 @@ msgstr "Algorithme :"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:301
 msgid "Bands:"
-msgstr ""
+msgstr "Bandes :"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:306
 msgid "Automatic"
-msgstr ""
+msgstr "Automatique"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:310
 #, python-format
 msgid "Not every band for %(name)s could be automatically identified."
 msgstr ""
+"Pas toutes les bandes de %(name)s n'ont pu être automatiquement identifiées."
 
 #: app/static/app/js/components/LayersControlLayer.jsx:310
 msgid "Your sensor might not have the proper bands for using this algorithm."
 msgstr ""
+"Il est possible que votre capteur n'ait pas les bandes nécessaires pour "
+"utiliser cet algorithme."
 
 #: app/static/app/js/components/LayersControlLayer.jsx:317
 msgid "Color:"
@@ -805,6 +807,8 @@ msgid ""
 "Number of files selected exceeds the maximum of %(count)s allowed on this "
 "processing node."
 msgstr ""
+"Le nombre de fichers selectionnés dépasse le nombre maximum %(count)s qui "
+"est autorisé sur ce nœud de traitement."
 
 #: app/static/app/js/components/NewTaskPanel.jsx:157
 msgid "Resize Images"
@@ -824,10 +828,8 @@ msgstr "Lancer le traitement"
 
 #: app/static/app/js/components/Paginator.jsx:25
 #: app/static/app/js/components/ProjectListItem.jsx:51
-#, fuzzy
-#| msgid "Created on:"
 msgid "Created on"
-msgstr "Créé le :"
+msgstr "Créé le"
 
 #: app/static/app/js/components/Paginator.jsx:34
 #, fuzzy
@@ -835,9 +837,8 @@ msgid "Owner"
 msgstr "Propriétaire"
 
 #: app/static/app/js/components/Paginator.jsx:127
-#, fuzzy
 msgid "Search names or #tags"
-msgstr "Rechercher par noms ou par #etiquette"
+msgstr "Rechercher par nom ou par #etiquette"
 
 #: app/static/app/js/components/Paginator.jsx:138
 #: app/static/app/js/components/ProjectListItem.jsx:713
@@ -864,7 +865,7 @@ msgstr "Cliquer pour importer un fichier .JSON"
 
 #: app/static/app/js/components/ProcessingNodeOption.jsx:183
 msgid "Reset to default"
-msgstr "Remettre par défaut"
+msgstr "Rétablir valeur par défaut"
 
 #: app/static/app/js/components/ProjectListItem.jsx:214
 #, python-format
@@ -894,7 +895,7 @@ msgstr ""
 #: app/static/app/js/components/ProjectListItem.jsx:280
 #: app/static/app/js/components/ProjectListItem.jsx:414
 msgid "Cannot create new task. Please try again later."
-msgstr "Impossible de créer une nouvelle tâche. Merci de réessayer plus tard."
+msgstr "Impossible de créer une nouvelle tâche. Veuillez réessayer plus tard."
 
 #: app/static/app/js/components/ProjectListItem.jsx:287
 #, python-format
@@ -902,8 +903,8 @@ msgid ""
 "%(count)s files cannot be uploaded. As a reminder, only images (.jpg, .tif, ."
 "png) and GCP files (.txt) can be uploaded. Try again."
 msgstr ""
-"%(count)s fichiers ne peuvent pas être téléversés. Notez que seules les "
-"images (.jpg, .tif, .png) et les fichiers GCP (.txt) peuvent être "
+"%(count)s fichiers ne peuvent pas être téléversés. Notez que seules des "
+"images (.jpg, .tif, .png) et des fichiers GCP (.txt) peuvent être "
 "téléversés. Essayez à nouveau."
 
 #: app/static/app/js/components/ProjectListItem.jsx:601
@@ -912,15 +913,15 @@ msgid ""
 "permanently deleted. Are you sure you want to continue?"
 msgstr ""
 "Toutes les tâches, images et modèles associés à ce projet seront "
-"définitivement supprimés. Êtes-vous sûr de vouloir continuer ?"
+"définitivement supprimés. Êtes-vous sûr(e) de vouloir continuer ?"
 
 #: app/static/app/js/components/ProjectListItem.jsx:602
 msgid ""
 "This project was shared with you. It will not be deleted, but simply hidden "
 "from your dashboard. Continue?"
 msgstr ""
-"Ce projet a été partagé avec vous. Il ne sera pas effacé, simplement caché "
-"de votre tableau de bord (dashboard). Continuer ?"
+"Ce projet a été partagé avec vous. Il ne sera pas effacé, simplement retiré "
+"de votre tableau de bord. Continuer ?"
 
 #: app/static/app/js/components/ProjectListItem.jsx:613
 msgid "Edit Project"
@@ -932,18 +933,16 @@ msgstr "Sauvegarde des modifications..."
 
 #: app/static/app/js/components/ProjectListItem.jsx:640
 msgid "Select Images and GCP"
-msgstr "Sélectionner les images et le fichier GCP"
+msgstr "Sélectionner des images et fichiers GCP"
 
 #: app/static/app/js/components/ProjectListItem.jsx:674
 #, python-format
 msgid "%(count)s Tasks"
-msgstr "%(count)s Tâches"
+msgstr "%(count)s tâches"
 
 #: app/static/app/js/components/ProjectListItem.jsx:687
-#, fuzzy
-#| msgid "Filter:"
 msgid "Filter"
-msgstr "Filtre :"
+msgstr "Filtre"
 
 #: app/static/app/js/components/ProjectListItem.jsx:707
 msgid "Clear"
@@ -965,7 +964,7 @@ msgstr ""
 
 #: app/static/app/js/components/SharePopup.jsx:96
 msgid "Share This Task"
-msgstr "Partager cette Tâche"
+msgstr "Partager cette tâche"
 
 #: app/static/app/js/components/SharePopup.jsx:105
 msgid "QR"
@@ -1040,15 +1039,15 @@ msgstr "Pas assez de recouvrement entre les images"
 #: app/static/app/js/components/TaskListItem.jsx:267
 msgid "Images might be too blurry (common with phone cameras)"
 msgstr ""
-"Les images sont peut-être trop floues (fréquent avec les téléphones "
-"portables)"
+"Les images sont peut-être trop floues (fréquent avec les caméras de "
+"téléphone portable)"
 
 #: app/static/app/js/components/TaskListItem.jsx:268
 msgid ""
 "The min-num-features task option is set too low, try increasing it by 25%"
 msgstr ""
-"L'option de tâche min-num-features est trop faible, essayez de l'augmenter "
-"de 25%"
+"La valeur de l'option de tâche min-num-features est trop faible, essayez de "
+"l'augmenter de 25%"
 
 #: app/static/app/js/components/TaskListItem.jsx:269
 msgid "here"
@@ -1063,9 +1062,10 @@ msgid ""
 "images. See %(link)s for more information."
 msgstr ""
 "Il semblerait que cet ordinateur soit trop ancien. WebODM a besoin d'un "
-"ordinateur avec un processeur 64 bits qui supporte a minima les instructions "
-"MMX, SSE, SSE2, SSE3 et SSSE3. Vous pouvez cependant exécuter WebODM si vous "
-"compilez vos propres images Docker. Voir %(link)s pour plus d'informations."
+"ordinateur avec un processeur 64 bits qui supporte au minimum les "
+"instructions MMX, SSE, SSE2, SSE3 et SSSE3. Vous pouvez cependant exécuter "
+"WebODM si vous compilez vos propres images Docker. Voir %(link)s pour plus "
+"d'informations."
 
 #: app/static/app/js/components/TaskListItem.jsx:272
 msgid "this page"
@@ -1077,10 +1077,10 @@ msgid ""
 "This might indicate a corrupted installation. If you built OpenDroneMap, "
 "please check that all programs built without errors."
 msgstr ""
-"Un programme nécessaire pour terminer la tâche manque au nœud de calcul. "
+"Un programme nécessaire pour terminer la tâche manque au nœud de traitement. "
 "Cela indique probablement une installation corrompue. Si vous avez produit "
-"OpenDroneMap vous-mêmes, vérifiez que tous les binaires ont été produits "
-"sans erreur."
+"OpenDroneMap vous-même, vérifiez que tous les binaires ont été produits sans "
+"erreur."
 
 #: app/static/app/js/components/TaskListItem.jsx:315
 #, python-format
@@ -1101,7 +1101,7 @@ msgstr "Impossible de relancer la tâche à partir de %(stage)s."
 
 #: app/static/app/js/components/TaskListItem.jsx:421
 msgid "Sending images to processing node"
-msgstr "Transfert des images vers le nœud de calcul"
+msgstr "Transfert des images vers le nœud de traitement"
 
 #: app/static/app/js/components/TaskListItem.jsx:423
 msgid "Waiting for a node..."
@@ -1127,7 +1127,7 @@ msgid ""
 "be deleted. Continue?"
 msgstr ""
 "Toutes les données relatives à cette tâche, dont les images, cartes et "
-"modèles vont être supprimés. Continuer ?"
+"modèles vont être supprimées. Continuer ?"
 
 #: app/static/app/js/components/TaskListItem.jsx:496
 #: app/static/app/js/components/TaskListItem.jsx:719
@@ -1140,7 +1140,7 @@ msgstr "Créé le :"
 
 #: app/static/app/js/components/TaskListItem.jsx:553
 msgid "Processing Node:"
-msgstr "Nœud de calcul :"
+msgstr "Nœud de traitement :"
 
 #: app/static/app/js/components/TaskListItem.jsx:554
 msgid "auto"
@@ -1169,7 +1169,7 @@ msgstr "Points reconstruits :"
 
 #: app/static/app/js/components/TaskListItem.jsx:578
 msgid "Disk Usage:"
-msgstr ""
+msgstr "Utilisation du disque :"
 
 #: app/static/app/js/components/TaskListItem.jsx:582
 msgid "Task Output:"
@@ -1199,7 +1199,7 @@ msgstr "suffisemment de RAM allouée"
 
 #: app/static/app/js/components/TaskListItem.jsx:608
 msgid "cloud processing node"
-msgstr "nœud de calcul distant"
+msgstr "nœud de traitement distant"
 
 #: app/static/app/js/components/TaskListItem.jsx:608
 #, python-format
@@ -1210,7 +1210,7 @@ msgid ""
 "images, make your images smaller, or reduce the max-concurrency parameter "
 "from the task's options. You can also try to use a %(cloudlink)s."
 msgstr ""
-"Il semblerait que votre nœud de calcul ait manqué de mémoire. Si vous "
+"Il semblerait que votre nœud de traitement ait manqué de mémoire. Si vous "
 "utilisez Docker, vérifiez que votre environnement Docker ait %(memlink)s. "
 "Sinon, vérifiez que vous avez assez de RAM physique, réduisez le nombre "
 "d'images, rendez vos images plus petites, ou réduisez le paramètre max-"
@@ -1218,30 +1218,19 @@ msgstr ""
 "d'utiliser un %(cloudlink)s."
 
 #: app/static/app/js/components/TaskListItem.jsx:615
-#, fuzzy, python-format
-#| msgid ""
-#| "\"Process exited with code 1\" means that part of the processing failed. "
-#| "Sometimes it's a problem with the dataset, sometimes it can be solved by "
-#| "tweaking the Task Options and sometimes it might be a bug! If you need "
-#| "help, upload your images somewhere like %(link1)s or %(link2)s and "
-#| "%(open_a_topic)s on our community forum, making sure to include a copy of "
-#| "your task's output. Our awesome contributors will try to help you!"
+#, python-format
 msgid ""
 "\"Process exited with code 1\" means that part of the processing failed. "
 "Sometimes it's a problem with the dataset, sometimes it can be solved by "
 "tweaking the Task Options. Check the documentation at %(link)s"
 msgstr ""
-"\"Process exited with code 1\" signifie qu'une étape de calcul a échouée. "
-"Parfois, c'est un problème du jeu de données, parfois on peut le résoudre en "
-"ajustant les options de la tâche, parfois cela peut-être un bug ! Si vous "
-"avez besoin d'aide, téléversez vos images quelque-part sur %(link1)s ou "
-"%(link2)s et %(open_a_topic)s sur le forum de la communauté (en anglais), en "
-"vous assurant d'inclure une copie des traces de la tâche. Nos formidables "
-"contributeurs essayeront de vous aider !"
+"\"Process exited with code 1\" signifie qu'une étape de calcul a échoué. "
+"Parfois, c'est un problème du jeu de données, parfois peut être résolu en "
+"ajustant les options de la tâche. Voir la documentation : %(link)s"
 
 #: app/static/app/js/components/TaskListItem.jsx:662
 msgid "Set a processing node"
-msgstr "Sélectionnez un nœud de calcul"
+msgstr "Sélectionnez un nœud de traitement"
 
 #: app/static/app/js/components/TaskListItem.jsx:667
 msgid "Waiting for image upload..."
@@ -1272,6 +1261,9 @@ msgid ""
 "DSM/DTM resolution in cm / pixel. Note that this value is capped by a ground "
 "sampling distance (GSD) estimate. Default: %(default)s"
 msgstr ""
+"Résolution du MNS/MNT en cm / pixel. Veuillez noter que cette valeur est "
+"limitée par une estimation de la distance d'échantillonage au sol (GSD). "
+"Valeur par défaut : %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:4
 #, python-format
@@ -1431,7 +1423,7 @@ msgid ""
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:23
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Choose the structure from motion algorithm. For aerial datasets, if camera "
 "GPS positions and angles are available, triangulation can generate better "
@@ -1444,7 +1436,7 @@ msgstr ""
 "disponibles, une triangulation peut donner de meilleures résultats. Pour les "
 "scènes en planaire capturées à une altitude fixe avec des images de vue en "
 "nadir seulement, le mode \"planaire\" peut être nettement plus rapide. Peut "
-"être un des choix suivants : %(choices)s. Défaut: %(default)s"
+"être un des choix suivants : %(choices)s. Défaut : %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:24
 #, python-format
@@ -1499,13 +1491,13 @@ msgid ""
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:30
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Maximum number of frames to extract from video files for processing. Set to "
 "0 for no limit. Default: %(default)s"
 msgstr ""
-"Nombre maximum d'images (frame) à extraire depuis des vidéos pour exécuter "
-"le processus. Mettre 0 pour ne pas avoir de limite. Défaut: %(default)s"
+"Nombre maximum d'images (frames) à extraire depuis les fichiers vidéo pour "
+"traitement. Definez 0 pour ne pas fixer de limite. Défaut : %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:31
 #, fuzzy, python-format
@@ -1657,13 +1649,7 @@ msgid ""
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:47
-#, fuzzy, python-format
-#| msgid ""
-#| "Ignore Ground Sampling Distance (GSD). GSD caps the maximum resolution of "
-#| "image outputs and resizes images when necessary, resulting in faster "
-#| "processing and lower memory usage. Since GSD is an estimate, sometimes "
-#| "ignoring it can result in slightly better image output quality. Default: "
-#| "%(default)s"
+#, python-format
 msgid ""
 "Ignore Ground Sampling Distance (GSD).A memory and processor hungry change "
 "relative to the default behavior if set to true. Ordinarily, GSD estimates "
@@ -1673,11 +1659,13 @@ msgid ""
 "image output quality. Never set --ignore-gsd to true unless you are positive "
 "you need it, and even then: do not use it. Default: %(default)s"
 msgstr ""
-"Ignore la distance d'échantillonage sol (GSD - Ground Sampling Distance). "
-"GSD plafone la résolution maximum de l'image de sortie et redimensionne les "
-"images si nécessaire, ce qui accélère le traitement et réduit la "
-"consommation mémoire. Comme la GSD est estimée, l'ignorer produit parfois "
-"une bien meilleure qualité d'image de sortie. Par défaut : %(default)s"
+"Ignore la distance d'échantillonage au sol (GSD). La GSD impose une limite à "
+"la résolution maximum de l'image de sortie et redimensionne les images si "
+"nécessaire, ce qui accélère le traitement et réduit la consommation mémoire. "
+"Comme la GSD est estimée, l'ignorer produit parfois une image de sortie de "
+"marginalement meilleure qualité. N'utilizez jamais --ignore-gsd true à moins "
+"d'être certain(e) que c'est nécessaire, et même dans ce cas là, ne "
+"l'utilizez pas. Par défaut : %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:48
 #, python-format
@@ -1895,8 +1883,8 @@ msgid ""
 "Simple Morphological Filter elevation threshold parameter (meters). Default: "
 "%(default)s"
 msgstr ""
-"Paramétrage de seuil d'élévation du filtre morphologique simple (en mètre). "
-"Défaut: %(default)s"
+"Paramètre du seuil d'élévation du filtre morphologique simple (en mètres). "
+"Défaut : %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:72
 #, python-format
@@ -2086,7 +2074,7 @@ msgstr ""
 msgid ""
 "Export the georeferenced point cloud in CSV format. Default: %(default)s"
 msgstr ""
-"Exporter le nuage de points géo-référencé au format CSV. Défaut: %(default)s"
+"Exporter le nuage de points géo-référencé au format CSV. Défaut : %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:94
 #, python-format
@@ -2352,7 +2340,7 @@ msgstr "Opacité"
 
 #: app/static/app/js/translations/potree_autogenerated.js:52
 msgid "Field of view"
-msgstr ""
+msgstr "Champ de vision"
 
 #: app/static/app/js/translations/potree_autogenerated.js:53
 msgid "Point sizing"
@@ -2368,15 +2356,15 @@ msgstr ""
 
 #: app/static/app/js/translations/potree_autogenerated.js:57
 msgid "Quality"
-msgstr ""
+msgstr "Qualité"
 
 #: app/static/app/js/translations/potree_autogenerated.js:58
 msgid "Shape"
-msgstr ""
+msgstr "Forme"
 
 #: app/static/app/js/translations/potree_autogenerated.js:59
 msgid "Radius"
-msgstr ""
+msgstr "Rayon"
 
 #: app/static/app/js/translations/potree_autogenerated.js:60
 msgid "Strength"
@@ -2392,7 +2380,7 @@ msgstr ""
 
 #: app/static/app/js/translations/potree_autogenerated.js:65
 msgid "Speed"
-msgstr ""
+msgstr "Vitesse"
 
 #: app/static/app/js/translations/potree_autogenerated.js:66
 msgid "Sky"
@@ -2408,7 +2396,7 @@ msgstr ""
 
 #: app/static/app/js/translations/potree_autogenerated.js:69
 msgid "Length unit"
-msgstr ""
+msgstr "Unité de longueur"
 
 #: app/static/app/js/translations/potree_autogenerated.js:70
 msgid "Lock view"
@@ -2417,7 +2405,7 @@ msgstr ""
 #: app/static/app/js/translations/potree_autogenerated.js:71
 #: app/static/app/js/translations/potree_autogenerated.js:88
 msgid "Language"
-msgstr ""
+msgstr "Langue"
 
 #: app/static/app/js/translations/potree_autogenerated.js:72
 msgid "Backface Culling"
@@ -2441,7 +2429,7 @@ msgstr ""
 
 #: app/static/app/js/translations/potree_autogenerated.js:77
 msgid "Number of Points"
-msgstr ""
+msgstr "Nombre de points"
 
 #: app/static/app/js/translations/potree_autogenerated.js:79
 msgid "Save LAS(3D)"
@@ -2453,7 +2441,7 @@ msgstr ""
 
 #: app/static/app/js/translations/potree_autogenerated.js:81
 msgid "Camera Position"
-msgstr ""
+msgstr "Position de la caméra"
 
 #: app/static/app/js/translations/potree_autogenerated.js:82
 msgid "Camera Target"
@@ -2469,11 +2457,11 @@ msgstr ""
 
 #: app/static/app/js/translations/potree_autogenerated.js:85
 msgid "min"
-msgstr ""
+msgstr "min"
 
 #: app/static/app/js/translations/potree_autogenerated.js:86
 msgid "max"
-msgstr ""
+msgstr "max"
 
 #: app/static/app/js/translations/potree_autogenerated.js:87
 msgid "GPS Time"
@@ -2484,65 +2472,68 @@ msgid ""
 "No DSM or DTM is available. To export contours, make sure to process a task "
 "with either the --dsm or --dtm option checked."
 msgstr ""
+"Pas de MNS (DSM) ni de MNT (DTM) disponible. Pour exporter des contours, "
+"assurez-vous de traiter la tâche avec l'option --dsm ou l'option --dtm "
+"activée."
 
 #: coreplugins/contours/public/ContoursPanel.jsx:61
 msgid ""
 "Cannot retrieve information for task. Are you are connected to the internet?"
 msgstr ""
-"Impossible de récupérer les informations sur la tâche. Êtes-vous connecté à "
-"Internet ?"
+"Impossible de récupérer les informations sur la tâche. Êtes-vous connecté(e) "
+"à Internet ?"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:131
 msgid "Elevation:"
-msgstr ""
+msgstr "Hauteur :"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:131
 msgid "meters"
-msgstr ""
+msgstr "mètres"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:227
 msgid "Do not simplify"
-msgstr ""
+msgstr "Ne pas simplifier"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:229
 msgid "Aggressive"
-msgstr ""
+msgstr "Agressif"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:242
 msgid "Interval:"
-msgstr ""
+msgstr "Intervale :"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:245
 #: coreplugins/contours/public/ContoursPanel.jsx:254
 #: coreplugins/contours/public/ContoursPanel.jsx:272
 #: coreplugins/contours/public/ContoursPanel.jsx:281
 msgid "meter"
-msgstr ""
+msgstr "mètre"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:252
 #: coreplugins/contours/public/ContoursPanel.jsx:279
 msgid "Value:"
-msgstr ""
+msgstr "Valeur :"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:260
 msgid "Layer:"
-msgstr ""
+msgstr "Calque :"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:269
 msgid "Simplify:"
-msgstr ""
+msgstr "Simplifier :"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:314
 msgid "Preview"
-msgstr ""
+msgstr "Aperçu"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:319
 msgid "Export"
-msgstr ""
+msgstr "Exporter"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:352
 msgid "Contours"
-msgstr ""
+msgstr "Contours"
 
 #: coreplugins/editshortlinks/public/SLControls.jsx:154
 #: coreplugins/shortlinks/public/SLCheckbox.jsx:69
@@ -2551,7 +2542,7 @@ msgstr ""
 
 #: coreplugins/editshortlinks/public/SLControls.jsx:178
 msgid "Suffix"
-msgstr ""
+msgstr "Suffixe"
 
 #: coreplugins/editshortlinks/public/SLControls.jsx:191
 msgid "Delete Short Link"
@@ -2587,11 +2578,12 @@ msgstr ""
 
 #: coreplugins/lightning/public/Dashboard.jsx:75
 msgid "Cannot sync nodes. Are you connected to the internet?"
-msgstr "Impossible de synchroniser les nœuds. Êtes-vous connecté à Internet ?"
+msgstr ""
+"Impossible de synchroniser les nœuds. Êtes-vous connecté(e) à Internet ?"
 
 #: coreplugins/lightning/public/Dashboard.jsx:83
 msgid "Logging out…"
-msgstr ""
+msgstr "Déconnexion…"
 
 #: coreplugins/lightning/public/Dashboard.jsx:89
 #: coreplugins/lightning/public/Dashboard.jsx:94
@@ -2604,7 +2596,7 @@ msgstr ""
 
 #: coreplugins/lightning/public/Dashboard.jsx:117
 msgid "Unlimited"
-msgstr ""
+msgstr "Illimité"
 
 #: coreplugins/lightning/public/Dashboard.jsx:130
 msgid "Balance:"
@@ -2707,10 +2699,8 @@ msgid "Plane"
 msgstr ""
 
 #: coreplugins/measure/public/MeasurePopup.jsx:173
-#, fuzzy
-#| msgid "Average GSD:"
 msgid "Average"
-msgstr "GSD moyenne :"
+msgstr "Moyenne"
 
 #: coreplugins/measure/public/MeasurePopup.jsx:174
 msgid "Highest"
