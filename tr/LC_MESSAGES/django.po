@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-14 22:56+0000\n"
-"PO-Revision-Date: 2024-02-09 14:01+0000\n"
-"Last-Translator: \"GeoPilot “GeoPilot.XYZ” Havadan Haritalama\" <u."
-"kuzuoglu@gmail.com>\n"
+"PO-Revision-Date: 2024-02-21 15:02+0000\n"
+"Last-Translator: Yılmaz KORKMAZ <yilkork@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/webodm/webodm/tr/"
 ">\n"
 "Language: tr\n"
@@ -18,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: app/admin.py:65
 msgid "Enter custom CSS"
@@ -143,6 +142,8 @@ msgid ""
 "Normalized difference yellowness index (NDYI), best model variability in "
 "relative yield potential in Canola."
 msgstr ""
+"Normalleştirilmiş fark sarılık indeksi (NDYI), Kanola'da bağıl verim "
+"potansiyelindeki en iyi model değişkenliği."
 
 #: app/api/formulas.py:22
 #, fuzzy
@@ -182,6 +183,8 @@ msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
 msgstr ""
+"Görünür NDVI, narenciye, üzüm ve şeker kamışı mahsulü verilerinden türetilen "
+"sabitleri kullanan RGB sensörleri için normalleştirilmemiş bir endekstir."
 
 #: app/api/formulas.py:45
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
@@ -189,7 +192,7 @@ msgstr "Görsel Atmosferik Direnç Endeksi, bitki örtüsünün alanlarını gö
 
 #: app/api/formulas.py:50
 msgid "Modified Photochemical Reflectance Index"
-msgstr ""
+msgstr "Düzenlenmiş Fotokimyasal Yansıtma İndeksi"
 
 #: app/api/formulas.py:55
 msgid ""
@@ -247,6 +250,8 @@ msgid ""
 "Modified Simple Ratio is an improvement of the Simple Ratio (SR) index to be "
 "more sensitive to vegetation."
 msgstr ""
+"Düzenlenmiş Basit Oran, Basit Oran (SR) endeksinin bitki örtüsüne daha "
+"duyarlı olacak şekilde geliştirilmiş halidir."
 
 #: app/api/formulas.py:89
 msgid ""
@@ -293,6 +298,8 @@ msgid ""
 "Atmospherically Resistant Vegetation Index. Useful when working with imagery "
 "for regions with high atmospheric aerosol content."
 msgstr ""
+"Atmosferik Olarak Dayanıklı Bitki Örtüsü İndeksi. Yüksek atmosferik aerosol "
+"içeriğine sahip bölgeler için görüntülerle çalışırken kullanışlıdır."
 
 #: app/api/formulas.py:116
 msgid "Temperature in Celsius degrees."
@@ -351,11 +358,11 @@ msgstr "Görev oluşturulamıyor, bir URL belirtin veya 1 dosya yükleyin."
 
 #: app/api/tiler.py:305
 msgid "Invalid boundaries parameter"
-msgstr ""
+msgstr "Geçersiz sınırlar parametresi"
 
 #: app/api/tiler.py:324
 msgid "Invalid tile size parameter"
-msgstr ""
+msgstr "Geçersiz döşeme boyutu parametresi"
 
 #: app/api/tiler.py:354 app/api/tiler.py:426
 msgid "Outside of bounds"
@@ -371,48 +378,51 @@ msgstr "Geçerli bir color_map değeri değil"
 
 #: app/api/tiler.py:438
 msgid "Invalid rescale value"
-msgstr ""
+msgstr "Geçersiz yeniden ölçeklendirme değeri"
 
 #: app/api/tiler.py:460
 msgid "Invalid hillshade value"
-msgstr ""
+msgstr "Geçersiz tepe gölgesi değeri"
 
 #: app/api/tiler.py:463
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
+"Yükseltisiz taramanın tepe gölgesi hesaplanamıyor (birden fazla bant bulundu)"
 
 #: app/api/tiler.py:487
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
+"Döşeme işlenemiyor: yoğunluk görüntüsü sağlandı, ancak RGB verisi "
+"hesaplanmadı."
 
 #: app/api/tiler.py:536 app/api/tiler.py:538
 #, python-format
 msgid "Unsupported format: %(value)s"
-msgstr ""
+msgstr "Desteklenmeyen biçim: %(value)s"
 
 #: app/api/tiler.py:557
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr ""
+msgstr "Geçersiz EPSG kodu: %(value)s"
 
 #: app/api/tiler.py:560
 msgid "Both formula and bands parameters are required"
-msgstr ""
+msgstr "Hem formül hem de bant parametreleri gereklidir"
 
 #: app/api/tiler.py:583
 #, python-format
 msgid "Invalid rescale value: %(value)s"
-msgstr ""
+msgstr "Geçersiz yeniden ölçeklendirme değeri: %(value)s"
 
 #: app/api/tiler.py:591
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
-msgstr ""
+msgstr "Geçersiz tepe gölgesi değeri: %(value)s"
 
 #: app/api/tiler.py:602
 msgid "Cannot use epsg on non-georeferenced dataset"
-msgstr ""
+msgstr "Jeoreferanssız veri kümesinde epsg kullanılamıyor"
 
 #: app/models/plugin.py:5
 msgid "Plugin name"
@@ -449,7 +459,7 @@ msgstr "Anahtar"
 
 #: app/models/plugin_datum.py:8
 msgid "The user this setting belongs to. If NULL, the setting is global."
-msgstr ""
+msgstr "Bu ayarın ait olduğu kullanıcı. NULL ise ayar geneldir."
 
 #: app/models/plugin_datum.py:8 app/templates/app/admin/object_history.html:23
 msgid "User"
@@ -457,31 +467,31 @@ msgstr "Kullanıcı"
 
 #: app/models/plugin_datum.py:9
 msgid "Integer value"
-msgstr ""
+msgstr "Tamsayı değeri"
 
 #: app/models/plugin_datum.py:10
 msgid "Float value"
-msgstr ""
+msgstr "Ondalık değer"
 
 #: app/models/plugin_datum.py:11
 msgid "Bool value"
-msgstr ""
+msgstr "Mantıksal değer"
 
 #: app/models/plugin_datum.py:12
 msgid "String value"
-msgstr ""
+msgstr "Karakter dizisi değeri"
 
 #: app/models/plugin_datum.py:13
 msgid "JSON value"
-msgstr ""
+msgstr "JSON değeri"
 
 #: app/models/plugin_datum.py:19 app/models/plugin_datum.py:20
 msgid "Plugin Datum"
-msgstr ""
+msgstr "Eklenti verisi"
 
 #: app/models/preset.py:9
 msgid "The person who owns this preset"
-msgstr ""
+msgstr "Bu ön ayarın sahibi olan kişi"
 
 #: app/models/preset.py:9 app/models/project.py:23
 msgid "Owner"
@@ -489,11 +499,11 @@ msgstr "Sahibi"
 
 #: app/models/preset.py:10
 msgid "A label used to describe the preset"
-msgstr ""
+msgstr "Ön ayarı tanımlamak için kullanılan bir etiket"
 
 #: app/models/preset.py:11
 msgid "Options that define this preset (same format as in a Task's options)."
-msgstr ""
+msgstr "Bu ön ayarı tanımlayan seçenekler (Görev seçenekleriyle aynı formatta)."
 
 #: app/models/preset.py:11 app/models/task.py:250
 msgid "Options"
@@ -512,38 +522,40 @@ msgid ""
 "Whether this preset is available to every user in the system or just to its "
 "owner."
 msgstr ""
+"Bu ön ayarın sistemdeki her kullanıcı tarafından mı yoksa sadece sahibi "
+"tarafından mı kullanılabileceği."
 
 #: app/models/preset.py:14
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
 #: app/models/preset.py:20
 msgid "Preset"
-msgstr ""
+msgstr "Ön ayar"
 
 #: app/models/preset.py:21
 msgid "Presets"
-msgstr ""
+msgstr "Ön tanımlar"
 
 #: app/models/profile.py:15
 msgid "Maximum disk quota in megabytes"
-msgstr ""
+msgstr "Megabayt cinsinden maksimum disk kotası"
 
 #: app/models/profile.py:15
 msgid "Quota"
-msgstr ""
+msgstr "Kota"
 
 #: app/models/project.py:23
 msgid "The person who created the project"
-msgstr ""
+msgstr "Projeyi oluşturan kişi"
 
 #: app/models/project.py:24
 msgid "A label used to describe the project"
-msgstr ""
+msgstr "Projeyi tanımlamak için kullanılan bir etiket"
 
 #: app/models/project.py:25
 msgid "More in-depth description of the project"
-msgstr ""
+msgstr "Proje hakkında daha ayrıntılı açıklama"
 
 #: app/models/project.py:27
 msgid ""
@@ -551,6 +563,9 @@ msgid ""
 "running tasks need to wait for tasks to be properly cleaned up before they "
 "can be deleted."
 msgstr ""
+"Bu projenin silinmek üzere işaretlenip işaretlenmediği. Çalışan görevleri "
+"olan projelerin silinmeden önce görevlerin düzgün bir şekilde temizlenmesini "
+"beklemeleri gerekir."
 
 #: app/models/project.py:27
 msgid "Deleting"
