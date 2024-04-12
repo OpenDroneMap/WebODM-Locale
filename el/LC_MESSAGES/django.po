@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-14 22:56+0000\n"
-"PO-Revision-Date: 2024-04-12 22:01+0000\n"
+"PO-Revision-Date: 2024-04-13 17:20+0000\n"
 "Last-Translator: Athanasios Nektarios Karachalios Stagkas <nasos.karachalios."
-"stagas@gmail.com>\n"
+"stagkas@proton.me>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/webodm/webodm/el/>"
 "\n"
 "Language: el\n"
@@ -267,7 +267,6 @@ msgstr ""
 "αστικά περιβάλλοντα."
 
 #: app/api/formulas.py:97
-#, fuzzy
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
@@ -339,51 +338,55 @@ msgstr ""
 #: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
 #: app/api/tasks.py:401
 msgid "Asset does not exist"
-msgstr ""
+msgstr "Ο Πόρος δεν υπάρχει"
 
 #: app/api/tasks.py:417
 msgid "Imported Task"
-msgstr ""
+msgstr "Εισαγόμενη εργασία"
 
 #: app/api/tasks.py:420
 msgid "Cannot create task, you need to upload 1 file"
-msgstr ""
+msgstr "Δεν μπορείτε να δημιουργήσετε εργασία, πρέπει να ανεβάσετε 1 αρχείο"
 
 #: app/api/tasks.py:423
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
+"Δεν είναι δυνατή η δημιουργία εργασίας, είτε καθορίστε μια διεύθυνση URL "
+"είτε ανεβάστε 1 αρχείο."
 
 #: app/api/tiler.py:305
 msgid "Invalid boundaries parameter"
-msgstr ""
+msgstr "Μη έγκυρη παράμετρος ορίων"
 
 #: app/api/tiler.py:324
 msgid "Invalid tile size parameter"
-msgstr ""
+msgstr "Μη έγκυρη παράμετρος μεγέθους πλακιδίων"
 
 #: app/api/tiler.py:354 app/api/tiler.py:426
 msgid "Outside of bounds"
-msgstr ""
+msgstr "Εκτός ορίων"
 
 #: app/api/tiler.py:364
 msgid "Invalid boundaries"
-msgstr ""
+msgstr "Μη έγκυρα όρια"
 
 #: app/api/tiler.py:432 app/api/tiler.py:551
 msgid "Not a valid color_map value"
-msgstr ""
+msgstr "Μη έγκυρη τιμή color_map"
 
 #: app/api/tiler.py:438
 msgid "Invalid rescale value"
-msgstr ""
+msgstr "Μη έγκυρη τιμή αναπροσαρμογής κλίμακας"
 
 #: app/api/tiler.py:460
 msgid "Invalid hillshade value"
-msgstr ""
+msgstr "Μη έγκυρη τιμή σκίασης λόφου"
 
 #: app/api/tiler.py:463
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
+"Δεν είναι δυνατός ο υπολογισμός της σκιάς λόφου ενός μη υψομετρικού ράστερ ("
+"βρέθηκαν πολλαπλές ζώνες)"
 
 #: app/api/tiler.py:487
 msgid ""
@@ -398,7 +401,7 @@ msgid "Unsupported format: %(value)s"
 msgstr "Μη υποστηριζόμενη μορφή: %(value)s"
 
 #: app/api/tiler.py:557
-#, fuzzy, python-format
+#, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "Μη έγκυρος κωδικός EPSG: %(value)s"
 
@@ -417,7 +420,6 @@ msgid "Invalid hillshade value: %(value)s"
 msgstr "Μη έγκυρη τιμή σκίασης λόφου: %(value)s"
 
 #: app/api/tiler.py:602
-#, fuzzy
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr "Δεν είναι δυνατή η χρήση του epsg σε σύνολο δεδομένων χωρίς γεωαναφορά"
 
@@ -447,7 +449,6 @@ msgid "Plugins"
 msgstr "Πρόσθετα"
 
 #: app/models/plugin_datum.py:7
-#, fuzzy
 msgid "Setting key"
 msgstr "Κλειδί ρύθμισης"
 
@@ -486,7 +487,6 @@ msgid "JSON value"
 msgstr "Τιμή JSON"
 
 #: app/models/plugin_datum.py:19 app/models/plugin_datum.py:20
-#, fuzzy
 msgid "Plugin Datum"
 msgstr "Ημερομηνία πρόσθετου"
 
@@ -546,19 +546,19 @@ msgstr "Μέγιστη ποσόστωση δίσκου σε megabytes"
 
 #: app/models/profile.py:15
 msgid "Quota"
-msgstr ""
+msgstr "Ποσοστό"
 
 #: app/models/project.py:23
 msgid "The person who created the project"
-msgstr ""
+msgstr "Το άτομο που δημιούργησε το έργο"
 
 #: app/models/project.py:24
 msgid "A label used to describe the project"
-msgstr ""
+msgstr "Μια ετικέτα που χρησιμοποιείται για την περιγραφή του έργου"
 
 #: app/models/project.py:25
 msgid "More in-depth description of the project"
-msgstr ""
+msgstr "Λεπτομερέστερη περιγραφή του έργου"
 
 #: app/models/project.py:27
 msgid ""
@@ -566,192 +566,203 @@ msgid ""
 "running tasks need to wait for tasks to be properly cleaned up before they "
 "can be deleted."
 msgstr ""
+"Εάν αυτό το έργο έχει επισημανθεί για διαγραφή. Τα έργα που έχουν τρέχουσες "
+"εργασίες πρέπει να περιμένουν να καθαριστούν σωστά οι εργασίες πριν "
+"διαγραφούν."
 
 #: app/models/project.py:27
 msgid "Deleting"
-msgstr ""
+msgstr "Διαγραφή"
 
 #: app/models/project.py:28
 msgid "Project tags"
-msgstr ""
+msgstr "Ετικέτες έργου"
 
 #: app/models/project.py:28 app/models/task.py:281
 msgid "Tags"
-msgstr ""
+msgstr "Ετικέτες"
 
 #: app/models/project.py:65 app/models/task.py:429
 #, python-format
 msgid "Copy of %(task)s"
-msgstr ""
+msgstr "Αντίγραφο του/των %(task)s"
 
 #: app/models/project.py:90 app/models/task.py:243
 msgid "Project"
-msgstr ""
+msgstr "Έργο"
 
 #: app/models/project.py:91 coreplugins/projects-charts/templates/index.html:7
 msgid "Projects"
-msgstr ""
+msgstr "Έργα"
 
 #: app/models/setting.py:20
 msgid "The name of your application"
-msgstr ""
+msgstr "Το όνομα της εφαρμογής σας"
 
 #: app/models/setting.py:20
 msgid "App name"
-msgstr ""
+msgstr "Όνομα εφαρμογής"
 
 #: app/models/setting.py:21
 msgid "A 512x512 logo of your application (.png or .jpeg)"
-msgstr ""
+msgstr "Ένα λογότυπο 512x512 της εφαρμογής σας (.png ή .jpeg)"
 
 #: app/models/setting.py:21
 msgid "App logo"
-msgstr ""
+msgstr "Λογότυπο εφαρμογής"
 
 #: app/models/setting.py:31
 msgid "The name of your organization"
-msgstr ""
+msgstr "Το όνομα του οργανισμού σας"
 
 #: app/models/setting.py:31
 msgid "Organization name"
-msgstr ""
+msgstr "Όνομα οργανισμού"
 
 #: app/models/setting.py:32
 msgid "The website URL of your organization"
-msgstr ""
+msgstr "Η διεύθυνση URL της ιστοσελίδας του οργανισμού σας"
 
 #: app/models/setting.py:32
 msgid "Organization website"
-msgstr ""
+msgstr "Ιστοσελίδα Οργανισμού"
 
 #: app/models/setting.py:33 app/models/theme.py:48 app/models/theme.py:49
 #: app/templates/app/logged_in_base.html:119
 msgid "Theme"
-msgstr ""
+msgstr "Θέμα"
 
 #: app/models/setting.py:34
 msgid "Active theme"
-msgstr ""
+msgstr "Ενεργό θέμα"
 
 #: app/models/setting.py:73 app/templates/app/logged_in_base.html:125
 msgid "Application"
-msgstr ""
+msgstr "Εφαρμογή"
 
 #: app/models/setting.py:76 app/models/setting.py:77
 msgid "Settings"
-msgstr ""
+msgstr "Ρυθμίσεις"
 
 #: app/models/task.py:240
 msgid "Id"
-msgstr ""
+msgstr "Id"
 
 #: app/models/task.py:242
 msgid "Identifier of the task (as returned by NodeODM API)"
-msgstr ""
+msgstr "Αναγνωριστικό της εργασίας (όπως επιστρέφεται από το NodeODM API)"
 
 #: app/models/task.py:242
 msgid "UUID"
-msgstr ""
+msgstr "UUID"
 
 #: app/models/task.py:243
 msgid "Project that this task belongs to"
-msgstr ""
+msgstr "Έργο στο οποίο ανήκει αυτή η εργασία"
 
 #: app/models/task.py:244
 msgid "A label for the task"
-msgstr ""
+msgstr "Ετικέτα για την εργασία"
 
 #: app/models/task.py:245
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr ""
+"Αριθμός χιλιοστοδευτερολέπτων (milliseconds) που παρήλθαν από την έναρξη "
+"αυτής της εργασίας (το -1 υποδηλώνει ότι δεν υπάρχουν διαθέσιμες πληροφορίες)"
 
 #: app/models/task.py:245
 msgid "Processing Time"
-msgstr ""
+msgstr "Χρόνος επεξεργασίας"
 
 #: app/models/task.py:246
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr ""
+"Κόμβος επεξεργασίας που έχει ανατεθεί σε αυτήν την εργασία (ή μηδέν εάν η "
+"εργασία δεν έχει συσχετιστεί ακόμη)"
 
 #: app/models/task.py:246 app/views/app.py:116 nodeodm/models.py:36
 msgid "Processing Node"
-msgstr ""
+msgstr "Κόμβος επεξεργασίας"
 
 #: app/models/task.py:247
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr ""
+"Μια σημαία που υποδεικνύει εάν αυτή η εργασία θα πρέπει να εκχωρηθεί "
+"αυτόματα σε έναν κόμβο επεξεργασίας"
 
 #: app/models/task.py:247
 msgid "Auto Processing Node"
-msgstr ""
+msgstr "Κόμβος αυτόματης επεξεργασίας"
 
 #: app/models/task.py:248
 msgid "Current status of the task"
-msgstr ""
+msgstr "Τρέχουσα κατάσταση εργασίας"
 
 #: app/models/task.py:248
 msgid "Status"
-msgstr ""
+msgstr "Κατάσταση"
 
 #: app/models/task.py:249
 msgid "The last processing error received"
-msgstr ""
+msgstr "Το τελευταίο σφάλμα επεξεργασίας που ελήφθη"
 
 #: app/models/task.py:249
 msgid "Last Error"
-msgstr ""
+msgstr "Τελευταίο σφάλμα"
 
 #: app/models/task.py:250
 msgid "Options that are being used to process this task"
-msgstr ""
+msgstr "Επιλογές που χρησιμοποιούνται για την επεξεργασία αυτής της εργασίας"
 
 #: app/models/task.py:251
 msgid "List of available assets to download"
-msgstr ""
+msgstr "Κατάλογος των διαθέσιμων πόρων για λήψη"
 
 #: app/models/task.py:251
 msgid "Available Assets"
-msgstr ""
+msgstr "Διαθέσιμοι Πόροι"
 
 #: app/models/task.py:253
 msgid "Extent of the orthophoto"
-msgstr ""
+msgstr "Έκταση της ορθοφωτογραφίας"
 
 #: app/models/task.py:253
 msgid "Orthophoto Extent"
-msgstr ""
+msgstr "Έκταση ορθοφωτογραφίας"
 
 #: app/models/task.py:254
 msgid "DSM Extent"
-msgstr ""
+msgstr "Έκταση DSM"
 
 #: app/models/task.py:255
 msgid "DTM Extent"
-msgstr ""
+msgstr "Έκταση DTM"
 
 #: app/models/task.py:259
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
 msgstr ""
+"Μια ζητούμενη ενέργεια που πρέπει να εκτελεστεί στην εργασία. Η επιλεγμένη "
+"ενέργεια θα εκτελεστεί από τον εργαζόμενο στην επόμενη επανάληψη."
 
 #: app/models/task.py:259
 msgid "Pending Action"
-msgstr ""
+msgstr "Εκκρεμής ενέργεια"
 
 #: app/models/task.py:261
 msgid "A flag indicating whether this task is available to the public"
-msgstr ""
+msgstr "Σημαία που υποδεικνύει αν η εργασία αυτή είναι διαθέσιμη στο κοινό"
 
 #: app/models/task.py:261
 msgid "Public"
-msgstr ""
+msgstr "Δημόσια"
 
 #: app/models/task.py:262
 msgid ""
@@ -759,261 +770,280 @@ msgid ""
 "task have been / will be resized to the size specified here before "
 "processing."
 msgstr ""
+"Όταν ορίζεται σε τιμή διαφορετική από -1, υποδεικνύει ότι οι εικόνες για "
+"αυτή την εργασία έχουν αλλάξει/θα αλλάξουν μέγεθος στο μέγεθος που "
+"καθορίζεται εδώ πριν από την επεξεργασία."
 
 #: app/models/task.py:262
 msgid "Resize To"
-msgstr ""
+msgstr "Αλλαγή μεγέθους σε"
 
 #: app/models/task.py:265
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr ""
+"Τιμή μεταξύ 0 και 1 που δείχνει την πρόοδο μεταφόρτωσης των αρχείων αυτής "
+"της εργασίας στον κόμβο επεξεργασίας"
 
 #: app/models/task.py:266
 msgid "Upload Progress"
-msgstr ""
+msgstr "Φόρτωση προόδου"
 
 #: app/models/task.py:269
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
+"Τιμή μεταξύ 0 και 1 που δείχνει την πρόοδο αλλαγής μεγέθους των εικόνων "
+"αυτής της εργασίας"
 
 #: app/models/task.py:270
 msgid "Resize Progress"
-msgstr ""
+msgstr "Πρόοδος αλλαγής μεγέθους"
 
 #: app/models/task.py:273
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr ""
+"Τιμή μεταξύ 0 και 1 που δείχνει την πρόοδο εκτέλεσης (εκτιμώμενη) αυτής της "
+"εργασίας"
 
 #: app/models/task.py:274
 msgid "Running Progress"
-msgstr ""
+msgstr "Πρόοδος σε εξέλιξη"
 
 #: app/models/task.py:276
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr ""
+"URL από το οποίο εισάγεται αυτή η εργασία (μόνο για εισαγόμενες εργασίες)"
 
 #: app/models/task.py:276
 msgid "Import URL"
-msgstr ""
+msgstr "Εισαγωγή URL"
 
 #: app/models/task.py:277
 msgid "Number of images associated with this task"
-msgstr ""
+msgstr "Αριθμός εικόνων που σχετίζονται με αυτή την εργασία"
 
 #: app/models/task.py:277
 msgid "Images Count"
-msgstr ""
+msgstr "Μέτρηση εικόνων"
 
 #: app/models/task.py:278
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr ""
+"Μια σημαία που υποδεικνύει αν αυτή η εργασία περιμένει επί του παρόντος να "
+"μεταφορτωθούν πληροφορίες ή αρχεία πριν εξεταστεί για επεξεργασία."
 
 #: app/models/task.py:278
 msgid "Partial"
-msgstr ""
+msgstr "Μερική"
 
 #: app/models/task.py:279
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
+"Τμηματοποιημένες πληροφορίες σκηνής potree που χρησιμοποιούνται για την "
+"αποθήκευση/φόρτωση μετρήσεων και γωνίας προβολής της κάμερας"
 
 #: app/models/task.py:279
 msgid "Potree Scene"
-msgstr ""
+msgstr "Σκηνή Potree"
 
 #: app/models/task.py:280
 msgid "EPSG code of the dataset (if georeferenced)"
-msgstr ""
+msgstr "Κωδικός EPSG του συνόλου δεδομένων (εάν έχει γεωαναφορά)"
 
 #: app/models/task.py:281
 msgid "Task tags"
-msgstr ""
+msgstr "Ετικέτες εργασιών"
 
 #: app/models/task.py:282
 msgid "List of orthophoto bands"
-msgstr ""
+msgstr "Κατάλογος ζωνών ορθοφωτογραφιών"
 
 #: app/models/task.py:282
 msgid "Orthophoto Bands"
-msgstr ""
+msgstr "Ορθοφωτογραφικές ζώνες"
 
 #: app/models/task.py:283
 msgid "Size of the task on disk in megabytes"
-msgstr ""
+msgstr "Μέγεθος της εργασίας στο δίσκο σε megabytes"
 
 #: app/models/task.py:283
 msgid "Size"
-msgstr ""
+msgstr "Μέγεθος"
 
 #: app/models/task.py:286
 msgid "Task"
-msgstr ""
+msgstr "Εργασία"
 
 #: app/models/task.py:287
 msgid "Tasks"
-msgstr ""
+msgstr "Εργασίες"
 
 #: app/models/task.py:298
 msgid "unnamed"
-msgstr ""
+msgstr "ανώνυμο"
 
 #: app/models/task.py:502
 msgid "Importing assets..."
-msgstr ""
+msgstr "Εισαγωγή πόρων..."
 
 #: app/models/task.py:554 app/models/task.py:823
 msgid "Invalid zip file"
-msgstr ""
+msgstr "Μη έγκυρο αρχείο zip"
 
 #: app/models/task.py:649
 #, python-format
 msgid "Connection error: %(error)s"
-msgstr ""
+msgstr "Σφάλμα σύνδεσης: %(error)s"
 
 #: app/models/task.py:729
 msgid "Cannot restart a task that has no processing node"
 msgstr ""
+"Δεν είναι δυνατή η επανεκκίνηση μιας εργασίας που δεν έχει κόμβο επεξεργασίας"
 
 #: app/models/task.py:889
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
+"Μη υποστηριζόμενα SRS %(code)s. Βεβαιωθείτε ότι επιλέξατε ένα υποστηριζόμενο "
+"SRS."
 
 #: app/models/task.py:903
 msgid "Done!"
-msgstr ""
+msgstr "Έτοιμο!"
 
 #: app/models/theme.py:16
 msgid "Name of theme"
-msgstr ""
+msgstr "Όνομα θέματος"
 
 #: app/models/theme.py:19
 msgid "Most text, icons, and borders."
-msgstr ""
+msgstr "Τα περισσότερα κείμενα, εικονίδια και πλαίσια."
 
 #: app/models/theme.py:19
 msgid "Primary"
-msgstr ""
+msgstr "Πρωτογενές"
 
 #: app/models/theme.py:20
 msgid "The main background color, and text color of some buttons."
-msgstr ""
+msgstr "Το κύριο χρώμα φόντου και το χρώμα κειμένου ορισμένων κουμπιών."
 
 #: app/models/theme.py:20
 msgid "Secondary"
-msgstr ""
+msgstr "Δευτερεύον"
 
 #: app/models/theme.py:21
 msgid "Navigation links."
-msgstr ""
+msgstr "Σύνδεσμοι πλοήγησης."
 
 #: app/models/theme.py:21
 msgid "Tertiary"
-msgstr ""
+msgstr "Τριτογενές"
 
 #: app/models/theme.py:23
 msgid "Primary button color."
-msgstr ""
+msgstr "Πρωτεύον χρώμα κουμπιού."
 
 #: app/models/theme.py:23
 msgid "Button Primary"
-msgstr ""
+msgstr "Πρωτογενές κουμπί"
 
 #: app/models/theme.py:24
 msgid "Default button color."
-msgstr ""
+msgstr "Προεπιλεγμένο χρώμα κουμπιού."
 
 #: app/models/theme.py:24
 msgid "Button Default"
-msgstr ""
+msgstr "Προεπιλογή Κουμπιού"
 
 #: app/models/theme.py:25
 msgid "Delete button color."
-msgstr ""
+msgstr "Διαγραφή χρώματος κουμπιού."
 
 #: app/models/theme.py:25
 msgid "Button Danger"
-msgstr ""
+msgstr "Κουμπί Κίνδυνος"
 
 #: app/models/theme.py:27
 msgid "Background color of the site's header."
-msgstr ""
+msgstr "Χρώμα φόντου της επικεφαλίδας του ιστότοπου."
 
 #: app/models/theme.py:27
 msgid "Header Background"
-msgstr ""
+msgstr "Φόντο Επικεφαλίδας"
 
 #: app/models/theme.py:28
 msgid "Text and icons in the site's header."
-msgstr ""
+msgstr "Κείμενο και εικονίδια στην επικεφαλίδα του ιστότοπου."
 
 #: app/models/theme.py:28
 msgid "Header Primary"
-msgstr ""
+msgstr "Πρωτογενής Επικεφαλίδα"
 
 #: app/models/theme.py:30
 msgid "The color of most borders."
-msgstr ""
+msgstr "Το χρώμα των περισσότερων πλαισίων."
 
 #: app/models/theme.py:30
 msgid "Border"
-msgstr ""
+msgstr "Πλαίσιο"
 
 #: app/models/theme.py:31
 msgid "The background color of panels and some borders."
-msgstr ""
+msgstr "Το χρώμα φόντου των πάνελ και ορισμένων πλαισίων."
 
 #: app/models/theme.py:31
 msgid "Highlight"
-msgstr ""
+msgstr "Επισήμανση"
 
 #: app/models/theme.py:33
 msgid "The border color of warning dialogs."
-msgstr ""
+msgstr "Το χρώμα των πλαισίων των διαλόγων προειδοποίησης."
 
 #: app/models/theme.py:33
 msgid "Dialog Warning"
-msgstr ""
+msgstr "Διαλογος Προειδοποίησης"
 
 #: app/models/theme.py:35
 msgid "The background color of failed notifications."
-msgstr ""
+msgstr "Το χρώμα φόντου των αποτυχημένων ειδοποιήσεων."
 
 #: app/models/theme.py:35
 msgid "Failed"
-msgstr ""
+msgstr "Αποτυχημένο"
 
 #: app/models/theme.py:36
 msgid "The background color of success notifications."
-msgstr ""
+msgstr "Το χρώμα φόντου των ειδοποιήσεων επιτυχίας."
 
 #: app/models/theme.py:36
 msgid "Success"
-msgstr ""
+msgstr "Επιτυχία"
 
 #: app/templates/app/404.html:6
 msgid "404 Page Not Found"
-msgstr ""
+msgstr "404 Η σελίδα δεν βρέθηκε"
 
 #: app/templates/app/404.html:7
 msgid "Are you sure the address is correct?"
-msgstr ""
+msgstr "Είστε σίγουροι ότι η διεύθυνση είναι σωστή;"
 
 #: app/templates/app/500.html:5
 msgid "500 Internal Server Error"
-msgstr ""
+msgstr "500 Εσωτερικό σφάλμα διακομιστή"
 
 #: app/templates/app/500.html:6
 msgid "Something happened. The server logs contain more information."
 msgstr ""
+"Κάτι συνέβη. Τα αρχεία καταγραφής του διακομιστή περιέχουν περισσότερες "
+"πληροφορίες."
 
 #: app/templates/app/about.html:94
 #, python-format
@@ -1024,14 +1054,20 @@ msgid ""
 "option) any later version. See %(link_start)sthe GNU Affero General Public "
 "License%(link_end)s for more details."
 msgstr ""
+"Αυτό το πρόγραμμα είναι ελεύθερο λογισμικό: μπορείτε να το αναδιανείμετε ή/"
+"και να το τροποποιήσετε σύμφωνα με τους όρους της Γενικής Άδειας Δημόσιας "
+"Χρήσης GNU Affero, όπως δημοσιεύεται από το Ίδρυμα Ελεύθερου Λογισμικού, "
+"είτε την έκδοση 3 της Άδειας, είτε (κατ' επιλογή σας) οποιαδήποτε "
+"μεταγενέστερη έκδοση. Δείτε %(link_start)sthe GNU Affero General Public "
+"License%(link_end)s για περισσότερες λεπτομέρειες."
 
 #: app/templates/app/admin/404.html:4 app/templates/app/admin/404.html:8
 msgid "Page not found"
-msgstr ""
+msgstr "Η σελίδα δεν βρέθηκε"
 
 #: app/templates/app/admin/404.html:10
 msgid "We're sorry, but the requested page could not be found."
-msgstr ""
+msgstr "Λυπούμαστε, αλλά η ζητούμενη σελίδα δεν βρέθηκε."
 
 #: app/templates/app/admin/500.html:6 app/templates/app/admin/app_index.html:9
 #: app/templates/app/admin/auth/user/change_password.html:13
@@ -1043,137 +1079,143 @@ msgstr ""
 #: app/templates/app/admin/invalid_setup.html:6
 #: app/templates/app/admin/object_history.html:6
 msgid "Home"
-msgstr ""
+msgstr "Αρχική σελίδα"
 
 #: app/templates/app/admin/500.html:7
 msgid "Server error"
-msgstr ""
+msgstr "Σφάλμα διακομιστή"
 
 #: app/templates/app/admin/500.html:11
 msgid "Server error (500)"
-msgstr ""
+msgstr "Σφάλμα διακομιστή (500)"
 
 #: app/templates/app/admin/500.html:14
 msgid "Server Error (500)"
-msgstr ""
+msgstr "Σφάλμα διακομιστή (500)"
 
 #: app/templates/app/admin/500.html:15
 msgid ""
 "There's been an error. It's been reported to the site administrators via "
 "email and should be fixed shortly. Thanks for your patience."
 msgstr ""
+"Υπήρξε ένα σφάλμα. Έχει αναφερθεί στους διαχειριστές του ιστότοπου μέσω "
+"email και θα πρέπει να διορθωθεί σύντομα. Ευχαριστούμε για την υπομονή σας."
 
 #: app/templates/app/admin/actions.html:4
 msgid "Run the selected action"
-msgstr ""
+msgstr "Εκτέλεση της επιλεγμένης ενέργειας"
 
 #: app/templates/app/admin/actions.html:4
 msgid "Go"
-msgstr ""
+msgstr "Πήγαινε"
 
 #: app/templates/app/admin/actions.html:10
 msgid "Click here to select the objects across all pages"
-msgstr ""
+msgstr "Κάντε κλικ εδώ για να επιλέξετε τα αντικείμενα σε όλες τις σελίδες"
 
 #: app/templates/app/admin/actions.html:10
 #, python-format
 msgid "Select all %(total_count)s %(module_name)s"
-msgstr ""
+msgstr "Επιλέξτε όλα τα %(total_count)s %(module_name)s"
 
 #: app/templates/app/admin/actions.html:12
 msgid "Clear selection"
-msgstr ""
+msgstr "Εκκαθάριση επιλογής"
 
 #: app/templates/app/admin/auth/user/add_form.html:6
 msgid ""
 "First, enter a username and password. Then, you'll be able to edit more user "
 "options."
 msgstr ""
+"Αρχικά, εισάγετε ένα όνομα χρήστη και έναν κωδικό πρόσβασης. Στη συνέχεια, "
+"θα μπορέσετε να επεξεργαστείτε περισσότερες επιλογές χρήστη."
 
 #: app/templates/app/admin/auth/user/add_form.html:8
 msgid "Enter a username and password."
-msgstr ""
+msgstr "Εισάγετε ένα όνομα χρήστη και έναν κωδικό πρόσβασης."
 
 #: app/templates/app/admin/auth/user/change_password.html:17
 #: app/templates/app/admin/auth/user/change_password.html:54
 msgid "Change password"
-msgstr ""
+msgstr "Αλλαγή κωδικού πρόσβασης"
 
 #: app/templates/app/admin/auth/user/change_password.html:27
 #: app/templates/app/admin/change_form.html:47
 #: app/templates/app/admin/change_list.html:58
 #: app/templates/app/admin/login.html:21
 msgid "Please correct the error below."
-msgstr ""
+msgstr "Παρακαλώ διορθώστε το παρακάτω σφάλμα."
 
 #: app/templates/app/admin/auth/user/change_password.html:27
 #: app/templates/app/admin/change_form.html:47
 #: app/templates/app/admin/change_list.html:58
 #: app/templates/app/admin/login.html:21
 msgid "Please correct the errors below."
-msgstr ""
+msgstr "Παρακαλώ διορθώστε τα παρακάτω λάθη."
 
 #: app/templates/app/admin/auth/user/change_password.html:31
 #, python-format
 msgid "Enter a new password for the user <strong>%(username)s</strong>."
 msgstr ""
+"Εισάγετε έναν νέο κωδικό πρόσβασης για τον χρήστη "
+"<strong>%(username)s</strong>."
 
 #: app/templates/app/admin/base_site.html:3
 msgid "Django site admin"
-msgstr ""
+msgstr "Διαχειριστής ιστότοπου Django"
 
 #: app/templates/app/admin/base_site.html:6
 msgid "Django administration"
-msgstr ""
+msgstr "Διαχείριση Django"
 
 #: app/templates/app/admin/change_form.html:21
 #: app/templates/app/admin/change_list.html:49
 #, python-format
 msgid "Add %(name)s"
-msgstr ""
+msgstr "Προσθήκη %(name)s"
 
 #: app/templates/app/admin/change_form.html:33
 #: app/templates/app/admin/object_history.html:10
 msgid "History"
-msgstr ""
+msgstr "Ιστορικό"
 
 #: app/templates/app/admin/change_form.html:35
 #: app/templates/app/admin/edit_inline/stacked.html:14
 #: app/templates/app/admin/edit_inline/tabular.html:36
 msgid "View on site"
-msgstr ""
+msgstr "Προβολή στον ιστότοπο"
 
 #: app/templates/app/admin/change_list.html:69
 msgid "Filter"
-msgstr ""
+msgstr "Φίλτρο"
 
 #: app/templates/app/admin/change_list_plugin.html:24
 msgid "Load Plugin (.zip)"
-msgstr ""
+msgstr "Φόρτωση πρόσθετου (.zip)"
 
 #: app/templates/app/admin/change_list_plugin.html:28
 msgid "Manage Plugins"
-msgstr ""
+msgstr "Διαχείριση Πρόσθετων"
 
 #: app/templates/app/admin/change_list_results.html:17
 msgid "Remove from sorting"
-msgstr ""
+msgstr "Αφαίρεση από τη διαλογή"
 
 #: app/templates/app/admin/change_list_results.html:18
 #, python-format
 msgid "Sorting priority: %(priority_number)s"
-msgstr ""
+msgstr "Προτεραιότητα ταξινόμησης: %(priority_number)s"
 
 #: app/templates/app/admin/change_list_results.html:19
 msgid "Toggle sorting"
-msgstr ""
+msgstr "Εναλλαγή διαλογής"
 
 #: app/templates/app/admin/delete_confirmation.html:17
 #: app/templates/app/admin/related_widget_wrapper.html:23
 #: app/templates/app/admin/submit_line.html:6
 #: app/templates/app/processing_node.html:54
 msgid "Delete"
-msgstr ""
+msgstr "Διαγραφή"
 
 #: app/templates/app/admin/delete_confirmation.html:23
 #, python-format
@@ -1182,6 +1224,9 @@ msgid ""
 "related objects, but your account doesn't have permission to delete the "
 "following types of objects:"
 msgstr ""
+"Η διαγραφή των %(object_name)s '%(escaped_object)s' θα είχε ως αποτέλεσμα τη "
+"διαγραφή σχετικών αντικειμένων, αλλά ο λογαριασμός σας δεν έχει δικαίωμα "
+"διαγραφής των ακόλουθων τύπων αντικειμένων:"
 
 #: app/templates/app/admin/delete_confirmation.html:30
 #, python-format
@@ -1189,6 +1234,8 @@ msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
 "following protected related objects:"
 msgstr ""
+"Η διαγραφή των %(object_name)s \"%(escaped_object)s\" θα απαιτούσε τη "
+"διαγραφή των ακόλουθων σχετικών προστατευμένων αντικειμένων:"
 
 #: app/templates/app/admin/delete_confirmation.html:37
 #, python-format
@@ -1196,25 +1243,27 @@ msgid ""
 "Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
 "All of the following related items will be deleted:"
 msgstr ""
+"Είστε σίγουροι ότι θέλετε να διαγράψετε τα %(object_name)s \""
+"%(escaped_object)s\"; Θα διαγραφούν όλα τα ακόλουθα σχετικά αντικείμενα:"
 
 #: app/templates/app/admin/delete_confirmation.html:39
 #: app/templates/app/admin/delete_selected_confirmation.html:38
 msgid "Objects"
-msgstr ""
+msgstr "Αντικείμενα"
 
 #: app/templates/app/admin/delete_confirmation.html:46
 #: app/templates/app/admin/delete_selected_confirmation.html:49
 msgid "Yes, I'm sure"
-msgstr ""
+msgstr "Ναι, είμαι βέβαιος"
 
 #: app/templates/app/admin/delete_confirmation.html:47
 #: app/templates/app/admin/delete_selected_confirmation.html:50
 msgid "No, take me back"
-msgstr ""
+msgstr "Όχι, πήγαινέ με πίσω"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:16
 msgid "Delete multiple objects"
-msgstr ""
+msgstr "Διαγραφή πολλαπλών αντικειμένων"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:22
 #, python-format
@@ -1223,6 +1272,9 @@ msgid ""
 "objects, but your account doesn't have permission to delete the following "
 "types of objects:"
 msgstr ""
+"Η διαγραφή των επιλεγμένων %(objects_name)s θα είχε ως αποτέλεσμα τη "
+"διαγραφή σχετικών αντικειμένων, αλλά ο λογαριασμός σας δεν έχει δικαίωμα "
+"διαγραφής των ακόλουθων τύπων αντικειμένων:"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:29
 #, python-format
@@ -1230,6 +1282,8 @@ msgid ""
 "Deleting the selected %(objects_name)s would require deleting the following "
 "protected related objects:"
 msgstr ""
+"Η διαγραφή των επιλεγμένων %(objects_name)s θα απαιτούσε τη διαγραφή των "
+"ακόλουθων σχετικών προστατευμένων αντικειμένων:"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:36
 #, python-format
@@ -1237,56 +1291,58 @@ msgid ""
 "Are you sure you want to delete the selected %(objects_name)s? All of the "
 "following objects and their related items will be deleted:"
 msgstr ""
+"Είστε σίγουροι ότι θέλετε να διαγράψετε τα επιλεγμένα %(objects_name)s; Θα "
+"διαγραφούν όλα τα ακόλουθα αντικείμενα και τα σχετικά στοιχεία τους:"
 
 #: app/templates/app/admin/edit_inline/stacked.html:12
 #: app/templates/app/admin/edit_inline/tabular.html:34
 #: app/templates/app/admin/index.html:37
 #: app/templates/app/admin/related_widget_wrapper.html:9
 msgid "Change"
-msgstr ""
+msgstr "Αλλαγή"
 
 #: app/templates/app/admin/edit_inline/tabular.html:20
 msgid "Delete?"
-msgstr ""
+msgstr "Διαγραφή;"
 
 #: app/templates/app/admin/filter.html:2
 #, python-format
 msgid " By %(filter_title)s "
-msgstr ""
+msgstr " Κατά %(filter_title)s "
 
 #: app/templates/app/admin/includes/object_delete_summary.html:2
 msgid "Summary"
-msgstr ""
+msgstr "Σύνοψη"
 
 #: app/templates/app/admin/index.html:20
 #, python-format
 msgid "Models in the %(name)s application"
-msgstr ""
+msgstr "Μοντέλα στην εφαρμογή %(name)s"
 
 #: app/templates/app/admin/index.html:31
 #: app/templates/app/admin/related_widget_wrapper.html:16
 msgid "Add"
-msgstr ""
+msgstr "Προσθήκη"
 
 #: app/templates/app/admin/index.html:47
 msgid "You don't have permission to edit anything."
-msgstr ""
+msgstr "Δεν έχετε άδεια να επεξεργαστείτε κάτι."
 
 #: app/templates/app/admin/index.html:55
 msgid "Recent actions"
-msgstr ""
+msgstr "Πρόσφατες ενέργειες"
 
 #: app/templates/app/admin/index.html:56
 msgid "My actions"
-msgstr ""
+msgstr "Οι ενέργειές μου"
 
 #: app/templates/app/admin/index.html:60
 msgid "None available"
-msgstr ""
+msgstr "Καμία διαθέσιμη"
 
 #: app/templates/app/admin/index.html:74
 msgid "Unknown content"
-msgstr ""
+msgstr "Άγνωστο περιεχόμενο"
 
 #: app/templates/app/admin/invalid_setup.html:12
 msgid ""
@@ -1294,6 +1350,9 @@ msgid ""
 "database tables have been created, and make sure the database is readable by "
 "the appropriate user."
 msgstr ""
+"Κάτι δεν πάει καλά με την εγκατάσταση της βάσης δεδομένων σας. Βεβαιωθείτε "
+"ότι έχουν δημιουργηθεί οι κατάλληλοι πίνακες της βάσης δεδομένων και "
+"βεβαιωθείτε ότι η βάση δεδομένων είναι αναγνώσιμη από τον κατάλληλο χρήστη."
 
 #: app/templates/app/admin/login.html:37
 #, python-format
@@ -1301,94 +1360,99 @@ msgid ""
 "You are authenticated as %(username)s, but are not authorized to access this "
 "page. Would you like to login to a different account?"
 msgstr ""
+"Έχετε πιστοποιηθεί ως %(username)s, αλλά δεν είστε εξουσιοδοτημένοι να έχετε "
+"πρόσβαση σε αυτή τη σελίδα. Θα θέλατε να συνδεθείτε με διαφορετικό "
+"λογαριασμό;"
 
 #: app/templates/app/admin/login.html:57
 msgid "Forgotten your password or username?"
-msgstr ""
+msgstr "Ξεχάσατε τον κωδικό πρόσβασης ή το όνομα χρήστη σας;"
 
 #: app/templates/app/admin/login.html:61
 msgid "Log in"
-msgstr ""
+msgstr "Σύνδεση"
 
 #: app/templates/app/admin/object_history.html:22
 msgid "Date/time"
-msgstr ""
+msgstr "Ημερομηνία/ώρα"
 
 #: app/templates/app/admin/object_history.html:24
 msgid "Action"
-msgstr ""
+msgstr "Ενέργεια"
 
 #: app/templates/app/admin/object_history.html:38
 msgid ""
 "This object doesn't have a change history. It probably wasn't added via this "
 "admin site."
 msgstr ""
+"Αυτό το αντικείμενο δεν έχει ιστορικό αλλαγών. Πιθανώς δεν προστέθηκε μέσω "
+"αυτής της τοποθεσίας διαχείρισης."
 
 #: app/templates/app/admin/pagination.html:10
 #: app/templates/app/admin/search_form.html:9
 msgid "Show all"
-msgstr ""
+msgstr "Προβολή όλων"
 
 #: app/templates/app/admin/pagination.html:11
 #: app/templates/app/admin/submit_line.html:3
 msgid "Save"
-msgstr ""
+msgstr "Αποθήκευση"
 
 #: app/templates/app/admin/popup_response.html:3
 msgid "Popup closing..."
-msgstr ""
+msgstr "Κλείσιμο αναδυόμενου παραθύρου..."
 
 #: app/templates/app/admin/related_widget_wrapper.html:8
 #, python-format
 msgid "Change selected %(model)s"
-msgstr ""
+msgstr "Αλλαγή επιλεγμένων %(model)s"
 
 #: app/templates/app/admin/related_widget_wrapper.html:15
 #, python-format
 msgid "Add another %(model)s"
-msgstr ""
+msgstr "Προσθήκη άλλου %(model)s"
 
 #: app/templates/app/admin/related_widget_wrapper.html:22
 #, python-format
 msgid "Delete selected %(model)s"
-msgstr ""
+msgstr "Διαγραφή επιλεγμένων %(model)s"
 
 #: app/templates/app/admin/search_form.html:7
 msgid "Search"
-msgstr ""
+msgstr "Αναζήτηση"
 
 #: app/templates/app/admin/search_form.html:9
 #, python-format
 msgid "%(counter)s result"
 msgid_plural "%(counter)s results"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(counter)s αποτέλεσμα"
+msgstr[1] "%(counter)s αποτελέσματα"
 
 #: app/templates/app/admin/search_form.html:9
 #, python-format
 msgid "%(full_result_count)s total"
-msgstr ""
+msgstr "%(full_result_count)s συνολικά"
 
 #: app/templates/app/admin/submit_line.html:8
 msgid "Save as new"
-msgstr ""
+msgstr "Αποθήκευση εκ νέου"
 
 #: app/templates/app/admin/submit_line.html:9
 msgid "Save and add another"
-msgstr ""
+msgstr "Αποθήκευση και προσθήκη ενός άλλου"
 
 #: app/templates/app/admin/submit_line.html:10
 msgid "Save and continue editing"
-msgstr ""
+msgstr "Αποθήκευση και συνέχιση της επεξεργασίας"
 
 #: app/templates/app/dashboard.html:18 app/templates/app/dashboard.html:31
 #: app/templates/app/welcome.html:227
 msgid "Welcome!"
-msgstr ""
+msgstr "Καλώς ήρθατε!"
 
 #: app/templates/app/dashboard.html:19
 msgid "Add a Processing Node"
-msgstr ""
+msgstr "Προσθήκη κόμβου επεξεργασίας"
 
 #: app/templates/app/dashboard.html:22
 #, python-format
@@ -1397,10 +1461,13 @@ msgid ""
 "running an instance of %(nodeodm_link)s or some other software implementing "
 "this %(api_link)s."
 msgstr ""
+"Για να ξεκινήσετε, \"%(add_processing_node)s\". Ένας κόμβος επεξεργασίας "
+"είναι ένας υπολογιστής που εκτελεί μια περίπτωση του %(nodeodm_link)s ή "
+"κάποιο άλλο λογισμικό που υλοποιεί αυτό το %(api_link)s."
 
 #: app/templates/app/dashboard.html:32
 msgid "Select Images and GCP"
-msgstr ""
+msgstr "Επιλογή εικόνων και GCP"
 
 #: app/templates/app/dashboard.html:34
 #, python-format
@@ -1408,20 +1475,26 @@ msgid ""
 "To create a map, press the \"%(upload_images)s\" button, or drag and drop "
 "some images into a project."
 msgstr ""
+"Για να δημιουργήσετε έναν χάρτη, πατήστε το κουμπί \"%(upload_images)s\" ή "
+"σύρετε και αφήστε μερικές εικόνες σε ένα έργο."
 
 #: app/templates/app/dashboard.html:38
 msgid "You need at least 5 images, but 16-32 is typically the minimum."
-msgstr ""
+msgstr "Χρειάζεστε τουλάχιστον 5 εικόνες, αλλά 16-32 είναι συνήθως το ελάχιστο."
 
 #: app/templates/app/dashboard.html:39
 #, python-format
 msgid "Images must overlap by 65%% or more. Aim for 70-72%%"
 msgstr ""
+"Οι εικόνες πρέπει να επικαλύπτονται κατά 65%% ή περισσότερο. Στόχος είναι το "
+"70-72%%"
 
 #: app/templates/app/dashboard.html:40
 #, python-format
 msgid "For great 3D, images must overlap by 83%%"
 msgstr ""
+"Για μεγάλη τρισδιάστατη απεικόνιση 3D, οι εικόνες πρέπει να επικαλύπτονται "
+"κατά 83%%"
 
 #: app/templates/app/dashboard.html:41
 #, python-format
@@ -1429,140 +1502,145 @@ msgid ""
 "A %(link_start)sGCP File%(link_end)s is optional, but can increase "
 "georeferencing accuracy"
 msgstr ""
+"Ένα αρχείο %(link_start)sGCP File%(link_end)s είναι προαιρετικό, αλλά μπορεί "
+"να αυξήσει την ακρίβεια γεωαναφοράς"
 
 #: app/templates/app/dev_tools.html:6 app/templates/app/logged_in_base.html:134
 #: app/views/dev.py:78
 msgid "Developer Tools"
-msgstr ""
+msgstr "Εργαλεία Προγραμματιστή"
 
 #: app/templates/app/dev_tools.html:9
 msgid "Close"
-msgstr ""
+msgstr "Κλείσιμο"
 
 #: app/templates/app/dev_tools.html:14
 msgid "Current Locale:"
-msgstr ""
+msgstr "Τρέχουσα Γλώσσα:"
 
 #: app/templates/app/dev_tools.html:15
 msgid ""
 "To change locale, modify your browser's locale settings, then refresh the "
 "page, or use the set locale button below."
 msgstr ""
+"Για να αλλάξετε την τοπική γλώσσα, τροποποιήστε τις ρυθμίσεις τοπικής "
+"γλώσσας του προγράμματος περιήγησής σας και, στη συνέχεια, ανανεώστε τη "
+"σελίδα ή χρησιμοποιήστε το παρακάτω κουμπί καθορισμού τοπικής γλώσσας."
 
 #: app/templates/app/dev_tools.html:18
 msgid "Translation Files (.zip):"
-msgstr ""
+msgstr "Αρχεία μετάφρασης (.zip):"
 
 #: app/templates/app/dev_tools.html:22
 msgid "Download and Replace Translation Files"
-msgstr ""
+msgstr "Λήψη και αντικατάσταση αρχείων μετάφρασης"
 
 #: app/templates/app/dev_tools.html:27
 msgid "Set locale:"
-msgstr ""
+msgstr "Ορισμός τοπικής γλώσσας:"
 
 #: app/templates/app/dev_tools.html:29
 msgid "Apply"
-msgstr ""
+msgstr "Εφαρμογή"
 
 #: app/templates/app/dev_tools.html:33
 msgid "Executing… do not refresh the page! This could take a while."
-msgstr ""
+msgstr "Εκτέλεση... μην ανανεώνετε τη σελίδα! Αυτό μπορεί να διαρκέσει λίγο."
 
 #: app/templates/app/logged_in_base.html:16
 #, python-format
 msgid "Hello, %(user)s!"
-msgstr ""
+msgstr "Γεια σας, %(user)s!"
 
 #: app/templates/app/logged_in_base.html:30
 #, python-format
 msgid "%(used)s of %(total)s used"
-msgstr ""
+msgstr "%(used)s από %(total)s που χρησιμοποιήθηκαν"
 
 #: app/templates/app/logged_in_base.html:43
 msgid "Logout"
-msgstr ""
+msgstr "Αποσύνδεση"
 
 #: app/templates/app/logged_in_base.html:57 app/views/app.py:47
 msgid "Dashboard"
-msgstr ""
+msgstr "Ταμπλό"
 
 #: app/templates/app/logged_in_base.html:83 nodeodm/models.py:37
 msgid "Processing Nodes"
-msgstr ""
+msgstr "Κόμβοι επεξεργασίας"
 
 #: app/templates/app/logged_in_base.html:93
 msgid "Add New"
-msgstr ""
+msgstr "Προσθήκη νέου"
 
 #: app/templates/app/logged_in_base.html:103
 msgid "Administration"
-msgstr ""
+msgstr "Διαχείριση"
 
 #: app/templates/app/logged_in_base.html:108
 msgid "Accounts"
-msgstr ""
+msgstr "Λογαριασμοί"
 
 #: app/templates/app/logged_in_base.html:111
 msgid "Groups"
-msgstr ""
+msgstr "Ομάδες"
 
 #: app/templates/app/logged_in_base.html:116
 msgid "Brand"
-msgstr ""
+msgstr "Επωνυμία"
 
 #: app/templates/app/logged_in_base.html:138 app/views/app.py:106
 msgid "About"
-msgstr ""
+msgstr "Περί"
 
 #: app/templates/app/processing_node.html:11 nodeodm/models.py:23
 msgid "Hostname"
-msgstr ""
+msgstr "Όνομα κεντρικού υπολογιστή (Hostname)"
 
 #: app/templates/app/processing_node.html:15 nodeodm/models.py:24
 msgid "Port"
-msgstr ""
+msgstr "Θύρα"
 
 #: app/templates/app/processing_node.html:19 nodeodm/models.py:25
 msgid "API Version"
-msgstr ""
+msgstr "Έκδοση API"
 
 #: app/templates/app/processing_node.html:23 nodeodm/models.py:33
 msgid "Engine"
-msgstr ""
+msgstr "Μηχανή"
 
 #: app/templates/app/processing_node.html:27 nodeodm/models.py:31
 msgid "Engine Version"
-msgstr ""
+msgstr "Έκδοση Μηχανής"
 
 #: app/templates/app/processing_node.html:31 nodeodm/models.py:27
 msgid "Queue Count"
-msgstr ""
+msgstr "Καταμέτρηση Ουράς"
 
 #: app/templates/app/processing_node.html:35
 msgid "Max Images Limit"
-msgstr ""
+msgstr "Μέγιστο Όριο Έικόνων"
 
 #: app/templates/app/processing_node.html:39 nodeodm/models.py:32
 msgid "Label"
-msgstr ""
+msgstr "Σήμανση"
 
 #: app/templates/app/processing_node.html:43 nodeodm/models.py:26
 msgid "Last Refreshed"
-msgstr ""
+msgstr "Τελευταία ενημέρωση"
 
 #: app/templates/app/processing_node.html:44
 msgctxt "5 minutes ago"
 msgid "ago"
-msgstr ""
+msgstr "πριν"
 
 #: app/templates/app/processing_node.html:47
 msgid "Options (JSON)"
-msgstr ""
+msgstr "Ρυθμίσεις (JSON)"
 
 #: app/templates/app/processing_node.html:53
 msgid "Edit"
-msgstr ""
+msgstr "Επεξεργασία"
 
 #: app/templates/app/quota.html:9
 #, python-format
@@ -1571,6 +1649,9 @@ msgid ""
 "recent tasks will be automatically deleted %(when)s, until usage falls below "
 "%(total)s."
 msgstr ""
+"Η ποσόστωση του δίσκου έχει ξεπεραστεί (%(used)s από %(total)s used). Οι πιο "
+"πρόσφατες εργασίες θα διαγραφούν αυτόματα %(when)s, μέχρι η χρήση να πέσει "
+"κάτω από %(total)s."
 
 #: app/templates/app/quota.html:14
 #, python-format
@@ -1578,203 +1659,220 @@ msgid ""
 "Your account does not have a storage quota. Any new task will be "
 "automatically deleted %(when)s"
 msgstr ""
+"Ο λογαριασμός σας δεν έχει ποσόστωση αποθήκευσης. Κάθε νέα εργασία θα "
+"διαγραφεί αυτόματα %(when)s"
 
 #: app/templates/app/welcome.html:224
 msgid "Uh oh! Could you please check the errors below?"
-msgstr ""
+msgstr "Ω! Μπορείτε να ελέγξετε τα παρακάτω σφάλματα?"
 
 #: app/templates/app/welcome.html:228
 msgid ""
 "Before we get started, we need to create an administrator account for you:"
 msgstr ""
+"Πριν ξεκινήσουμε, πρέπει να δημιουργήσουμε έναν λογαριασμό διαχειριστή για "
+"εσάς:"
 
 #: app/templates/app/welcome.html:237
 msgid "Create Account"
-msgstr ""
+msgstr "Δημιουργία λογαριασμού"
 
 #: app/templatetags/settings.py:57
 #, python-format
 msgid "in %(num)s days"
-msgstr ""
+msgstr "σε %(num)s ημέρες"
 
 #: app/templatetags/settings.py:59
 #, python-format
 msgid "in %(num)s hours"
-msgstr ""
+msgstr "σε %(num)s ώρες"
 
 #: app/templatetags/settings.py:61
 #, python-format
 msgid "in %(num)s minutes"
-msgstr ""
+msgstr "σε %(num)s λεπτά"
 
 #: app/templatetags/settings.py:63
 msgid "very soon"
-msgstr ""
+msgstr "πολύ σύντομα"
 
 #: app/translations/plugin_manifest_autogenerated.py:4
 msgid "Import images from external sources directly"
-msgstr ""
+msgstr "Εισαγωγή εικόνων από εξωτερικές πηγές άμεσα"
 
 #: app/translations/plugin_manifest_autogenerated.py:5
 msgid "Compute, preview and export contours from DEMs"
-msgstr ""
+msgstr "Υπολογισμός, προεπισκόπηση και εξαγωγή περιγραμμάτων από DEMs"
 
 #: app/translations/plugin_manifest_autogenerated.py:6
 msgid "Display program version, memory and disk space usage statistics"
 msgstr ""
+"Εμφάνιση στατιστικών στοιχείων για την έκδοση του προγράμματος, τη μνήμη και "
+"τη χρήση του χώρου στο δίσκο"
 
 #: app/translations/plugin_manifest_autogenerated.py:7
 msgid "Integrate WebODM with DroneDB: import images and share results"
 msgstr ""
+"Ενσωμάτωση του WebODM με το DroneDB: εισαγωγή εικόνων και κοινή χρήση "
+"αποτελεσμάτων"
 
 #: app/translations/plugin_manifest_autogenerated.py:8
 msgid "Create editable short links when sharing task URLs"
 msgstr ""
+"Δημιουργία επεξεργάσιμων σύντομων συνδέσμων κατά την κοινή χρήση διευθύνσεων "
+"URL εργασιών"
 
 #: app/translations/plugin_manifest_autogenerated.py:9
 msgid "Add a fullscreen button to the 2D map view"
-msgstr ""
+msgstr "Προσθήκη ενός κουμπιού πλήρους οθόνης στην προβολή χάρτη 2D"
 
 #: app/translations/plugin_manifest_autogenerated.py:10
 msgid "Sync accounts from webodm.net"
-msgstr ""
+msgstr "Συγχρονισμός λογαριασμών από το webodm.net"
 
 #: app/translations/plugin_manifest_autogenerated.py:11
 msgid "Compute volume, area and length measurements on Leaflet"
-msgstr ""
+msgstr "Υπολογίστε μετρήσεις όγκου, εμβαδού και μήκους στο Leaflet"
 
 #: app/translations/plugin_manifest_autogenerated.py:12
 msgid "A plugin to upload orthophotos to OpenAerialMap"
-msgstr ""
+msgstr "Ένα πρόσθετο για να ανεβάσετε ορθοφωτογραφίες στο OpenAerialMap"
 
 #: app/translations/plugin_manifest_autogenerated.py:13
 msgid ""
 "A plugin to add a button for quickly opening OpenStreetMap's iD editor and "
 "setup a TMS basemap."
 msgstr ""
+"Ένα πρόσθετο για την προσθήκη ενός κουμπιού για το γρήγορο άνοιγμα του "
+"εργαλείου επεξεργασίας iD του OpenStreetMap και τη ρύθμιση ενός βασικού "
+"χάρτη TMS."
 
 #: app/translations/plugin_manifest_autogenerated.py:14
 #: app/translations/plugin_manifest_autogenerated.py:18
 msgid "A plugin to create GCP files from images"
-msgstr ""
+msgstr "Ένα πρόσθετο για τη δημιουργία αρχείων GCP από εικόνες"
 
 #: app/translations/plugin_manifest_autogenerated.py:15
 msgid "A plugin to show charts of projects and tasks"
-msgstr ""
+msgstr "Ένα πρόσθετο για την εμφάνιση διαγραμμάτων έργων και εργασιών"
 
 #: app/translations/plugin_manifest_autogenerated.py:16
 msgid "Create short links when sharing task URLs"
-msgstr ""
+msgstr "Δημιουργία σύντομων συνδέσμων κατά την κοινή χρήση URL εργασιών"
 
 #: app/translations/plugin_manifest_autogenerated.py:17
 msgid ""
 "Get notified when a task has finished processing, has been removed or has "
 "failed"
 msgstr ""
+"Λάβετε ειδοποίηση όταν μια εργασία έχει ολοκληρώσει την επεξεργασία, έχει "
+"αφαιρεθεί ή έχει αποτύχει"
 
 #: app/views/app.py:45
 msgid "First Project"
-msgstr ""
+msgstr "Πρώτο έργο"
 
 #: app/views/app.py:55 app/views/public.py:27
 msgid "Map"
-msgstr ""
+msgstr "Χάρτης"
 
 #: app/views/app.py:83
 msgid "3D Model Display"
-msgstr ""
+msgstr "Οθόνη Μοντέλου 3D"
 
 #: app/views/app.py:112
 #, python-format
 msgid "%(node)s seems to be offline."
-msgstr ""
+msgstr "Ο κόμβος %(node)s φαίνεται να είναι εκτός σύνδεσης."
 
 #: app/views/app.py:150
 msgid "Welcome"
-msgstr ""
+msgstr "Καλώς ήρθατε"
 
 #: app/views/dev.py:59
 msgid "Cannot find locale/ folder in .zip archive"
-msgstr ""
+msgstr "Δεν μπορεί να βρεθεί φάκελος /Τοπική Γλωσσά στο αρχείο .zip"
 
 #: app/views/dev.py:71
 msgid "Translation files reloaded!"
-msgstr ""
+msgstr "Επαναφόρτωση μεταφραστικών αρχείων!"
 
 #: app/views/dev.py:75
 msgid "Invalid action"
-msgstr ""
+msgstr "Μη έγκυρη ενέργεια"
 
 #: coreplugins/contours/api.py:86
 msgid "No DSM layer is available."
-msgstr ""
+msgstr "Δεν υπάρχει στρώμα DSM."
 
 #: coreplugins/contours/api.py:88
 msgid "No DTM layer is available."
-msgstr ""
+msgstr "Δεν υπάρχει διαθέσιμο στρώμα DTM."
 
 #: coreplugins/contours/api.py:118
 msgid "Could not generate contour file. This might be a bug."
 msgstr ""
+"Δεν ήταν δυνατή η δημιουργία αρχείου περιγράμματος. Αυτό μπορεί να είναι "
+"σφάλμα."
 
 #: coreplugins/diagnostic/plugin.py:36
 msgid "Diagnostic"
-msgstr ""
+msgstr "Διαγνωστικά"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:6
 msgid "Diagnostic Information"
-msgstr ""
+msgstr "Διαγνωστικές πληροφορίες"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:10
 msgid "Storage Space"
-msgstr ""
+msgstr "Αποθηκευτικός χώρος"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:14
 #: coreplugins/diagnostic/templates/diagnostic.html:40
 #: coreplugins/diagnostic/templates/diagnostic.html:45
 msgctxt "Megabytes of storage space"
 msgid "Free"
-msgstr ""
+msgstr "Ελεύθερα"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:15
 #: coreplugins/diagnostic/templates/diagnostic.html:39
 #: coreplugins/diagnostic/templates/diagnostic.html:45
 msgctxt "Megabytes of storage space"
 msgid "Used"
-msgstr ""
+msgstr "Χρησιμοποιούνται"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:16
 msgctxt "Megabytes of storage space"
 msgid "Total"
-msgstr ""
+msgstr "Συνολικά"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:20
 msgctxt "Computer memory (RAM)"
 msgid "Memory"
-msgstr ""
+msgstr "Μνήμη"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:24
 #: coreplugins/diagnostic/templates/diagnostic.html:75
 #: coreplugins/diagnostic/templates/diagnostic.html:80
 msgctxt "Megabytes of memory space"
 msgid "Free"
-msgstr ""
+msgstr "Ελεύθερα"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:25
 #: coreplugins/diagnostic/templates/diagnostic.html:74
 #: coreplugins/diagnostic/templates/diagnostic.html:80
 msgctxt "Megabytes of memory space"
 msgid "Used"
-msgstr ""
+msgstr "Χρησιμοποιούνται"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:26
 msgctxt "Megabytes of memory space"
 msgid "Total"
-msgstr ""
+msgstr "Συνολικά"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
 msgid "Note!"
-msgstr ""
+msgstr "Σημείωση!"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
 #, python-format
@@ -1784,25 +1882,31 @@ msgid ""
 "See instructions for %(win_hyperv_link)s, %(win_wsl2_link)s, and "
 "%(mac_link)s for changing these values in a Docker setup."
 msgstr ""
+"Αυτές οι τιμές μπορεί να είναι σχετικές με το περιβάλλον εικονικοποίησης στο "
+"οποίο εκτελείται η εφαρμογή και όχι απαραίτητα οι τιμές του υπολογιστή σας. "
+"Ανατρέξτε στις οδηγίες για τα %(win_hyperv_link)s, %(win_wsl2_link)s και "
+"%(mac_link)s για την αλλαγή αυτών των τιμών σε μια εγκατάσταση Docker."
 
 #: coreplugins/diagnostic/templates/diagnostic.html:47
 #: coreplugins/diagnostic/templates/diagnostic.html:82
 msgid "Disk Space"
-msgstr ""
+msgstr "Χώρος στον δίσκο"
 
 #: coreplugins/editshortlinks/api.py:59
 msgid ""
 "Short URLs can only include letters, numbers, underscore and dash characters "
 "(A-Z, 0-9, _, -)."
 msgstr ""
+"Οι σύντομες διευθύνσεις URL μπορούν να περιλαμβάνουν μόνο γράμματα, "
+"αριθμούς, υπογράμμιση και παύλες (A-Z, 0-9, _, -)."
 
 #: coreplugins/editshortlinks/api.py:63
 msgid "This short URL is already taken."
-msgstr ""
+msgstr "Αυτή η σύντομη διεύθυνση URL είναι ήδη κατειλημμένη."
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
 msgid "Lightning Network"
-msgstr ""
+msgstr "Δίκτυο κεραυνών"
 
 #: coreplugins/measure/api.py:21
 msgid ""
@@ -1810,42 +1914,45 @@ msgid ""
 "Edit, from the options make sure to check \"dsm\", then press Restart --> "
 "From DEM."
 msgstr ""
+"Δεν υπάρχει διαθέσιμο μοντέλο επιφάνειας. Από το ταμπλό, επιλέξτε αυτή την "
+"εργασία, πατήστε Επεξεργασία, από τις επιλογές βεβαιωθείτε ότι έχετε "
+"τσεκάρει το \"dsm\" και, στη συνέχεια, πατήστε Επανεκκίνηση --> Από DEM."
 
 #: coreplugins/posm-gcpi/plugin.py:9
 msgid "GCP Interface"
-msgstr ""
+msgstr "Διεπαφή GCP"
 
 #: coreplugins/projects-charts/plugin.py:55
 msgid "Charts"
-msgstr ""
+msgstr "Γραφήματα"
 
 #: coreplugins/projects-charts/templates/index.html:11
 msgid "Year"
-msgstr ""
+msgstr "Έτος"
 
 #: coreplugins/projects-charts/templates/index.html:23
 msgid "Next"
-msgstr ""
+msgstr "Επόμενο"
 
 #: coreplugins/projects-charts/templates/index.html:69
 msgid "Projects by month"
-msgstr ""
+msgstr "Έργα ανά μήνα"
 
 #: coreplugins/projects-charts/templates/index.html:111
 msgid "Tasks by month"
-msgstr ""
+msgstr "Εργασίες ανά μήνα"
 
 #: coreplugins/tasknotification/plugin.py:84
 msgid "Task Notification"
-msgstr ""
+msgstr "Ειδοποίηση εργασίας"
 
 #: coreplugins/tasknotification/templates/index.html:5
 msgid "Tasks Notification"
-msgstr ""
+msgstr "Ειδοποίηση εργασιών"
 
 #: nodeodm/apps.py:8
 msgid "Node Management"
-msgstr ""
+msgstr "Διαχείριση κόμβων"
 
 #: nodeodm/models.py:23
 msgid ""
@@ -1854,61 +1961,75 @@ msgid ""
 "localhost. Find the IP address of your host machine by running ifconfig on "
 "Linux or by checking your network settings."
 msgstr ""
+"Όνομα κεντρικού υπολογιστή ή διεύθυνση IP όπου βρίσκεται ο κόμβος (μπορεί να "
+"είναι και εσωτερικό όνομα κεντρικού υπολογιστή). Εάν χρησιμοποιείτε το "
+"Docker, αυτό δεν είναι ποτέ το 127.0.0.1 ή το localhost. Βρείτε τη διεύθυνση "
+"IP του κεντρικού υπολογιστή σας εκτελώντας το ifconfig στο Linux ή "
+"ελέγχοντας τις ρυθμίσεις δικτύου σας."
 
 #: nodeodm/models.py:24
 msgid "Port that connects to the node's API"
-msgstr ""
+msgstr "Θύρα που συνδέεται με το API του κόμβου"
 
 #: nodeodm/models.py:25
 msgid "API version used by the node"
-msgstr ""
+msgstr "Έκδοση API που χρησιμοποιείται από τον κόμβο"
 
 #: nodeodm/models.py:26
 msgid "When was the information about this node last retrieved?"
 msgstr ""
+"Πότε ανακτήθηκαν για τελευταία φορά οι πληροφορίες σχετικά με αυτόν τον "
+"κόμβο;"
 
 #: nodeodm/models.py:27
 msgid ""
 "Number of tasks currently being processed by this node (as reported by the "
 "node itself)"
 msgstr ""
+"Αριθμός εργασιών που επεξεργάζεται επί του παρόντος αυτός ο κόμβος (όπως "
+"αναφέρεται από τον ίδιο τον κόμβο)"
 
 #: nodeodm/models.py:28
 msgid "Available Options"
-msgstr ""
+msgstr "Διαθέσιμες ρυθμίσεις"
 
 #: nodeodm/models.py:28
 msgid "Description of the options that can be used for processing"
 msgstr ""
+"Περιγραφή των επιλογών που μπορούν να χρησιμοποιηθούν για την επεξεργασία"
 
 #: nodeodm/models.py:29
 msgid "Token"
-msgstr ""
+msgstr "Κωδικό"
 
 #: nodeodm/models.py:29
 msgid ""
 "Token to use for authentication. If the node doesn't have authentication, "
 "you can leave this field blank."
 msgstr ""
+"Κωδικό που θα χρησιμοποιηθεί για έλεγχο ταυτότητας. Εάν ο κόμβος δεν "
+"διαθέτει έλεγχο ταυτότητας, μπορείτε να αφήσετε αυτό το πεδίο κενό."
 
 #: nodeodm/models.py:30
 msgid "Max Images"
-msgstr ""
+msgstr "Μέγιστος Αριθμός Εικόνων"
 
 #: nodeodm/models.py:30
 msgid "Maximum number of images accepted by this node."
-msgstr ""
+msgstr "Μέγιστος αριθμός εικόνων που δέχεται αυτός ο κόμβος."
 
 #: nodeodm/models.py:31
 msgid "Engine version used by the node."
-msgstr ""
+msgstr "Έκδοση μηχανής που χρησιμοποιείται από τον κόμβο."
 
 #: nodeodm/models.py:32
 msgid ""
 "Optional label for this node. When set, this label will be shown instead of "
 "the hostname:port name."
 msgstr ""
+"Προαιρετική σήµανση για αυτόν τον κόµβο. Όταν οριστεί, αυτή η σήμανση θα "
+"εμφανίζεται αντί για το όνομα hostname:port."
 
 #: nodeodm/models.py:33
 msgid "Engine used by the node."
-msgstr ""
+msgstr "Μηχανή που χρησιμοποιείται από τον κόμβο."
