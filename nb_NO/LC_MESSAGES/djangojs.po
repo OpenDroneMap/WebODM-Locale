@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-14 22:56+0000\n"
-"PO-Revision-Date: 2023-03-20 06:34+0000\n"
-"Last-Translator: Kjetil Vinorum <kjetil@vinorum.net>\n"
+"PO-Revision-Date: 2024-05-07 12:07+0000\n"
+"Last-Translator: Kjetil Haughom <k.haughom@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/webodm/"
 "react-ui/nb_NO/>\n"
 "Language: nb_NO\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 5.5.4-dev\n"
 
 #: app/static/app/js/Console.jsx:135
 #, python-format
@@ -190,21 +190,19 @@ msgstr "Last inn datasett"
 
 #: app/static/app/js/classes/PipelineSteps.js:12
 msgid "Structure From Motion"
-msgstr ""
+msgstr "Bevegelsesbasert struktur rekonstruksjon"
 
 #: app/static/app/js/classes/PipelineSteps.js:17
 msgid "Multi View Stereo"
-msgstr ""
+msgstr "Flervinklet stereo"
 
 #: app/static/app/js/classes/PipelineSteps.js:22
-#, fuzzy
-#| msgid "Point size"
 msgid "Point Filtering"
-msgstr "Punktstørrelse"
+msgstr "Punktfiltrering"
 
 #: app/static/app/js/classes/PipelineSteps.js:27
 msgid "Meshing"
-msgstr ""
+msgstr "Genererer polygoner"
 
 #: app/static/app/js/classes/PipelineSteps.js:32
 msgid "Texturing"
@@ -262,22 +260,20 @@ msgstr "%(file)s er større enn 5 MB."
 #: app/static/app/js/classes/TempLayer.js:30
 #, python-format
 msgid "Not a proper zipped shapefile: %(file)s"
-msgstr ""
+msgstr "Ikke en korrekt zippet shapefil: %(file)s"
 
 #: app/static/app/js/classes/TempLayer.js:43
 #, python-format
 msgid "Not a proper JSON file: %(file)s"
-msgstr ""
+msgstr "Ikke en korrekt JSON fil: %(file)s"
 
 #: app/static/app/js/components/AssetDownloadButtons.jsx:56
 msgid "Download Assets"
-msgstr ""
+msgstr "Las ned filer"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:49
-#, fuzzy
-#| msgid "Cannot complete operation."
 msgid "Cannot load permissions."
-msgstr "Kan ikke fullføre operasjon."
+msgstr "Kan ikke laste inn tillatelser."
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:150
 msgid "Read/Write"
@@ -341,12 +337,12 @@ msgstr "Kan ikke fullføre operasjon."
 #: app/static/app/js/components/Paginator.jsx:31
 #: app/static/app/js/components/ProjectListItem.jsx:57
 msgid "Tags"
-msgstr ""
+msgstr "Stikkord"
 
 #: app/static/app/js/components/EditProjectDialog.jsx:172
 #: app/static/app/js/components/EditTaskForm.jsx:637
 msgid "Add tags"
-msgstr ""
+msgstr "Legg til stikkord"
 
 #: app/static/app/js/components/EditProjectDialog.jsx:179
 msgid "Description (optional)"
@@ -356,14 +352,16 @@ msgstr "Beskrivelse (valgfritt)"
 msgid ""
 "Could not load list of processing nodes. Are you connected to the internet?"
 msgstr ""
+"Kunne ikke laste inn listen over behandlingsnoder. Er du koblet til "
+"internett?"
 
 #: app/static/app/js/components/EditTaskForm.jsx:121
 msgid "We tried to reach:"
-msgstr ""
+msgstr "Vi prøvde å nå:"
 
 #: app/static/app/js/components/EditTaskForm.jsx:122
 msgid "There are no usable processing nodes."
-msgstr ""
+msgstr "Det er ingen brukbare behandlingsnoder."
 
 #: app/static/app/js/components/EditTaskForm.jsx:122
 msgid ""
@@ -374,10 +372,17 @@ msgid ""
 "are bringing a node back online, it will take about 30 seconds for WebODM to "
 "recognize it."
 msgstr ""
+"Sørg for at minst én behandlingsnode er tilgjengelig og at du har gitt "
+"gjeldende bruker tilstrekkelige tillatelser til å se behandlingsnoden (ved å "
+"gå til Administrasjon -- Behandlingsnoder -- Velg node -- Objekttillatelser "
+"-- Legg til bruker/gruppe og sjekk KAN SE BEHANDLINGNODEN). Hvis du tar en "
+"node online igjen, vil det ta omtrent 30 sekunder før WebODM gjenkjenner den."
 
 #: app/static/app/js/components/EditTaskForm.jsx:221
 msgid "Could not load list of presets. Are you connected to the internet?"
 msgstr ""
+"Kunne ikke laste inn listen over forhåndsinnstillinger. Er du koblet til "
+"internett?"
 
 #: app/static/app/js/components/EditTaskForm.jsx:230
 #: app/static/app/js/components/EditTaskForm.jsx:393
@@ -387,7 +392,7 @@ msgstr ""
 #: coreplugins/contours/public/ContoursPanel.jsx:273
 #: coreplugins/contours/public/ContoursPanel.jsx:292
 msgid "Custom"
-msgstr ""
+msgstr "Tilpass"
 
 #: app/static/app/js/components/EditTaskForm.jsx:237
 #: app/static/app/js/components/EditTaskForm.jsx:361
@@ -396,7 +401,7 @@ msgstr "Forvalg"
 
 #: app/static/app/js/components/EditTaskForm.jsx:446
 msgid "My Preset"
-msgstr ""
+msgstr "Mine tilpasninger"
 
 #: app/static/app/js/components/EditTaskForm.jsx:446
 #, python-format
@@ -405,13 +410,15 @@ msgstr "Kopi av %(preset)s"
 
 #: app/static/app/js/components/EditTaskForm.jsx:469
 msgid "Could not duplicate the preset. Please try to refresh the page."
-msgstr ""
+msgstr "Kunne ikke duplisere forhåndsinnstillingen. Prøv å oppdatere siden."
 
 #: app/static/app/js/components/EditTaskForm.jsx:478
 msgid ""
 "System presets can only be removed by a staff member from the Administration "
 "panel."
 msgstr ""
+"Systemforhåndsinnstillinger kan bare fjernes av en bruker med "
+"administratorrettigheter."
 
 #: app/static/app/js/components/EditTaskForm.jsx:482
 #, python-format
@@ -420,7 +427,7 @@ msgstr "Er du sikker på at du vil slette «%(preset)s»?"
 
 #: app/static/app/js/components/EditTaskForm.jsx:495
 msgid "Could not delete the preset. Please try to refresh the page."
-msgstr ""
+msgstr "Kunne ikke slette forhåndsinnstillingen. Prøv å oppdatere siden."
 
 #: app/static/app/js/components/EditTaskForm.jsx:519
 msgid "Retry"
@@ -438,7 +445,7 @@ msgstr "Rediger"
 #: app/static/app/js/components/EditTaskForm.jsx:555
 #: app/static/app/js/components/TaskListItem.jsx:707
 msgid "Duplicate"
-msgstr ""
+msgstr "Dupliser"
 
 #: app/static/app/js/components/EditTaskForm.jsx:559
 #: app/static/app/js/components/EditTaskPanel.jsx:82
@@ -459,19 +466,19 @@ msgstr "Slett"
 #: app/static/app/js/components/EditTaskForm.jsx:585
 #: coreplugins/lightning/public/Dashboard.jsx:153
 msgid "Processing Node"
-msgstr ""
+msgstr "Behandler Node"
 
 #: app/static/app/js/components/EditTaskForm.jsx:595
 msgid "Options"
-msgstr ""
+msgstr "Valg"
 
 #: app/static/app/js/components/EditTaskForm.jsx:619
 msgid "Loading processing nodes and presets..."
-msgstr ""
+msgstr "Laster behandlingsnoder og forhåndsinnstillinger..."
 
 #: app/static/app/js/components/EditTaskPanel.jsx:56
 msgid "Could not update task information. Plese try again."
-msgstr ""
+msgstr "Kunne ikke oppdatere informasjon. Vennligst prøv igjen."
 
 #: app/static/app/js/components/EditTaskPanel.jsx:75
 #: app/static/app/js/components/FormDialog.jsx:199
@@ -493,16 +500,12 @@ msgid "Close"
 msgstr "Lukk"
 
 #: app/static/app/js/components/ExportAssetDialog.jsx:38
-#, fuzzy
-#| msgid "Loading..."
 msgid "Downloading…"
-msgstr "Laster inn …"
+msgstr "Laster ned …"
 
 #: app/static/app/js/components/ExportAssetDialog.jsx:39
-#, fuzzy
-#| msgid "Download Image"
 msgid "Download"
-msgstr "Last ned bilde"
+msgstr "Last ned"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:152
 #: app/static/app/js/components/ImportTaskPanel.jsx:140
@@ -514,36 +517,30 @@ msgstr "Ugyldig JSON-svar: %(error)s"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:179
 #: coreplugins/contours/public/ContoursPanel.jsx:287
-#, fuzzy
-#| msgid "Add Project"
 msgid "Projection:"
-msgstr "Legg til prosjekt"
+msgstr "Projeisering"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:183
 #: coreplugins/contours/public/ContoursPanel.jsx:290
 msgid "Lat/Lon"
-msgstr ""
+msgstr "Lat/Lon"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:184
 #: coreplugins/contours/public/ContoursPanel.jsx:291
 msgid "Web Mercator"
-msgstr ""
+msgstr "Web Mercator"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:202
-#, fuzzy
-#| msgid "Normal"
 msgid "Format:"
-msgstr "Normal"
+msgstr "Format"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:211
 msgid "Export:"
-msgstr ""
+msgstr "Eksporter:"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:216
-#, fuzzy
-#| msgid "Importing..."
 msgid "Exporting..."
-msgstr "Importerer …"
+msgstr "Eksporterer …"
 
 #: app/static/app/js/components/FormDialog.jsx:10
 msgid "Title"
@@ -725,7 +722,7 @@ msgstr "(Kameraer)"
 
 #: app/static/app/js/components/Map.jsx:344
 msgid "(GCPs)"
-msgstr ""
+msgstr "(GCPs - bakkekontrollpunkter)"
 
 #: app/static/app/js/components/Map.jsx:418
 msgid "Enter a tile URL template. Valid coordinates are:"
@@ -1111,11 +1108,11 @@ msgstr ""
 
 #: app/static/app/js/components/TaskListItem.jsx:554
 msgid "auto"
-msgstr ""
+msgstr "auto"
 
 #: app/static/app/js/components/TaskListItem.jsx:554
 msgid "manual"
-msgstr ""
+msgstr "veiledning"
 
 #: app/static/app/js/components/TaskListItem.jsx:558
 msgid "Options:"
