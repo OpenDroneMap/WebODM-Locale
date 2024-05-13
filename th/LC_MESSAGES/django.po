@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-14 22:56+0000\n"
+"POT-Creation-Date: 2024-05-13 17:55+0000\n"
 "PO-Revision-Date: 2022-05-15 17:17+0000\n"
 "Last-Translator: Chingchai Humhong <chingchai.h@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/webodm/webodm/th/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Enter custom CSS"
 msgstr "ป้อน CSS ที่กำหนดเอง"
 
-#: app/admin.py:66 app/models/theme.py:38
+#: app/admin.py:66 app/models/theme.py:40
 msgid "CSS"
 msgstr "CSS"
 
@@ -30,7 +30,7 @@ msgstr "CSS"
 msgid "HTML that will be displayed above site header"
 msgstr "HTML ที่จะแสดงเหนือส่วนหัวของเว็บไซต์"
 
-#: app/admin.py:70 app/models/theme.py:39
+#: app/admin.py:70 app/models/theme.py:41
 msgid "HTML (before header)"
 msgstr "HTML (ก่อนส่วนหัว)"
 
@@ -38,7 +38,7 @@ msgstr "HTML (ก่อนส่วนหัว)"
 msgid "HTML that will be displayed after site header"
 msgstr "HTML ที่จะแสดงหลังส่วนหัวของเว็บไซต์"
 
-#: app/admin.py:74 app/models/theme.py:40
+#: app/admin.py:74 app/models/theme.py:42
 msgid "HTML (after header)"
 msgstr "HTML (หลังส่วนหัว)"
 
@@ -46,7 +46,7 @@ msgstr "HTML (หลังส่วนหัว)"
 msgid "HTML that will be displayed after the body tag"
 msgstr "HTML ที่จะแสดงหลังแท็ก body"
 
-#: app/admin.py:78 app/models/theme.py:41
+#: app/admin.py:78 app/models/theme.py:43
 msgid "HTML (after body)"
 msgstr "HTML (หลังเนื้อหา)"
 
@@ -57,7 +57,7 @@ msgid ""
 "such as {ORGANIZATION} and {YEAR}."
 msgstr "HTML ที่จะแสดงในส่วนท้าย คุณยังสามารถใช้แท็กพิเศษ เช่น {ORGANIZATION} และ {YEAR}"
 
-#: app/admin.py:83 app/models/theme.py:42
+#: app/admin.py:83 app/models/theme.py:44
 msgid "HTML (footer)"
 msgstr "HTML (ส่วนท้าย)"
 
@@ -299,19 +299,19 @@ msgstr "การกระทำที่ไม่ถูกต้อง"
 msgid "You need to upload at least 1 file before commit"
 msgstr "คุณต้องอัปโหลดรูปภาพอย่างน้อย 2 รูปก่อนส่ง"
 
-#: app/api/tasks.py:209
+#: app/api/tasks.py:208
 msgid "No files uploaded"
 msgstr "ไม่มีไฟล์อัปโหลด"
 
-#: app/api/tasks.py:235
+#: app/api/tasks.py:234
 msgid "Cannot duplicate task"
 msgstr ""
 
-#: app/api/tasks.py:252
+#: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
 msgstr "สร้างงานไม่ได้ คุณต้องมีรูปภาพอย่างน้อย 2 รูป"
 
-#: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
+#: app/api/tasks.py:370 app/api/tasks.py:374 app/api/tasks.py:398
 #: app/api/tasks.py:401
 msgid "Asset does not exist"
 msgstr "ไม่มีเนื้อหา"
@@ -328,74 +328,74 @@ msgstr "สร้างงานไม่ได้ คุณต้องอั�
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "สร้างงานไม่ได้ ระบุ URL หรืออัปโหลด 1 ไฟล์"
 
-#: app/api/tiler.py:305
+#: app/api/tiler.py:307
 msgid "Invalid boundaries parameter"
 msgstr ""
 
-#: app/api/tiler.py:324
+#: app/api/tiler.py:326
 #, fuzzy
 #| msgid "Invalid zip file"
 msgid "Invalid tile size parameter"
 msgstr "ไฟล์ zip ไม่ถูกต้อง"
 
-#: app/api/tiler.py:354 app/api/tiler.py:426
+#: app/api/tiler.py:356 app/api/tiler.py:428
 msgid "Outside of bounds"
 msgstr ""
 
-#: app/api/tiler.py:364
+#: app/api/tiler.py:366
 #, fuzzy
 #| msgid "Invalid action"
 msgid "Invalid boundaries"
 msgstr "การกระทำที่ไม่ถูกต้อง"
 
-#: app/api/tiler.py:432 app/api/tiler.py:551
+#: app/api/tiler.py:434 app/api/tiler.py:553
 msgid "Not a valid color_map value"
 msgstr ""
 
-#: app/api/tiler.py:438
+#: app/api/tiler.py:440
 msgid "Invalid rescale value"
 msgstr ""
 
-#: app/api/tiler.py:460
+#: app/api/tiler.py:462
 #, fuzzy
 #| msgid "Invalid zip file"
 msgid "Invalid hillshade value"
 msgstr "ไฟล์ zip ไม่ถูกต้อง"
 
-#: app/api/tiler.py:463
+#: app/api/tiler.py:465
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 
-#: app/api/tiler.py:487
+#: app/api/tiler.py:489
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 
-#: app/api/tiler.py:536 app/api/tiler.py:538
+#: app/api/tiler.py:538 app/api/tiler.py:540
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:557
+#: app/api/tiler.py:559
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:560
+#: app/api/tiler.py:562
 msgid "Both formula and bands parameters are required"
 msgstr ""
 
-#: app/api/tiler.py:583
+#: app/api/tiler.py:585
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:591
+#: app/api/tiler.py:593
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:602
+#: app/api/tiler.py:604
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr ""
 
@@ -404,7 +404,7 @@ msgid "Plugin name"
 msgstr "ชื่อปลั๊กอิน"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:244 app/models/theme.py:16
+#: app/models/task.py:244 app/models/theme.py:18
 msgid "Name"
 msgstr "ชื่อ"
 
@@ -598,7 +598,7 @@ msgstr "URL เว็บไซต์ขององค์กรของคุ�
 msgid "Organization website"
 msgstr "เว็บไซต์องค์กร"
 
-#: app/models/setting.py:33 app/models/theme.py:48 app/models/theme.py:49
+#: app/models/setting.py:33 app/models/theme.py:50 app/models/theme.py:51
 #: app/templates/app/logged_in_base.html:119
 msgid "Theme"
 msgstr "ธีม"
@@ -876,111 +876,111 @@ msgstr "ไม่รองรับ SRS %(code)s โปรดตรวจสอ�
 msgid "Done!"
 msgstr "เสร็จ!"
 
-#: app/models/theme.py:16
+#: app/models/theme.py:18
 msgid "Name of theme"
 msgstr "ชื่อธีม"
 
-#: app/models/theme.py:19
+#: app/models/theme.py:21
 msgid "Most text, icons, and borders."
 msgstr "ข้อความ, ไอคอน, และเส้นขอบเขต"
 
-#: app/models/theme.py:19
+#: app/models/theme.py:21
 msgid "Primary"
 msgstr "อันดับที่ 1"
 
-#: app/models/theme.py:20
+#: app/models/theme.py:22
 msgid "The main background color, and text color of some buttons."
 msgstr "สีพื้นหลังหลัก, และสีข้อความของปุ่มบางปุ่ม"
 
-#: app/models/theme.py:20
+#: app/models/theme.py:22
 msgid "Secondary"
 msgstr "อันดับที่ 2"
 
-#: app/models/theme.py:21
+#: app/models/theme.py:23
 msgid "Navigation links."
 msgstr "ลิงก์การนำทาง"
 
-#: app/models/theme.py:21
+#: app/models/theme.py:23
 msgid "Tertiary"
 msgstr "อันดับที่ 3"
 
-#: app/models/theme.py:23
+#: app/models/theme.py:25
 msgid "Primary button color."
 msgstr "สีของปุ่มหลัก"
 
-#: app/models/theme.py:23
+#: app/models/theme.py:25
 msgid "Button Primary"
 msgstr "ปุ่มหลัก"
 
-#: app/models/theme.py:24
+#: app/models/theme.py:26
 msgid "Default button color."
 msgstr "สีของปุ่มเริ่มต้น"
 
-#: app/models/theme.py:24
+#: app/models/theme.py:26
 msgid "Button Default"
 msgstr "ค่าเริ่มต้นของปุ่ม"
 
-#: app/models/theme.py:25
+#: app/models/theme.py:27
 msgid "Delete button color."
 msgstr "ลบสีของปุ่ม"
 
-#: app/models/theme.py:25
+#: app/models/theme.py:27
 msgid "Button Danger"
 msgstr "ปุ่มอันตราย"
 
-#: app/models/theme.py:27
+#: app/models/theme.py:29
 msgid "Background color of the site's header."
 msgstr "สีพื้นหลังในส่วนหัวของเว็บไซต์"
 
-#: app/models/theme.py:27
+#: app/models/theme.py:29
 msgid "Header Background"
 msgstr "พื้นหลังของส่วนหัว"
 
-#: app/models/theme.py:28
+#: app/models/theme.py:30
 msgid "Text and icons in the site's header."
 msgstr "ข้อความและไอคอนในส่วนหัวของเว็บไซต์"
 
-#: app/models/theme.py:28
+#: app/models/theme.py:30
 msgid "Header Primary"
 msgstr "ส่วนหัวหลัก"
 
-#: app/models/theme.py:30
+#: app/models/theme.py:32
 msgid "The color of most borders."
 msgstr "สีของเส้นขอบเขต"
 
-#: app/models/theme.py:30
+#: app/models/theme.py:32
 msgid "Border"
 msgstr "ขอบเขต"
 
-#: app/models/theme.py:31
+#: app/models/theme.py:33
 msgid "The background color of panels and some borders."
 msgstr "สีพื้นหลังของแผ่นกระดาษและบางส่วนของเส้นขอบเขต"
 
-#: app/models/theme.py:31
+#: app/models/theme.py:33
 msgid "Highlight"
 msgstr "ไฮไลท์"
 
-#: app/models/theme.py:33
+#: app/models/theme.py:35
 msgid "The border color of warning dialogs."
 msgstr "สีเส้นขอบของกล่องคำเตือน"
 
-#: app/models/theme.py:33
+#: app/models/theme.py:35
 msgid "Dialog Warning"
 msgstr "กล่องคำเตือน"
 
-#: app/models/theme.py:35
+#: app/models/theme.py:37
 msgid "The background color of failed notifications."
 msgstr "สีพื้นหลังของการแจ้งเตือนที่ล้มเหลว"
 
-#: app/models/theme.py:35
+#: app/models/theme.py:37
 msgid "Failed"
 msgstr "ล้มเหลว"
 
-#: app/models/theme.py:36
+#: app/models/theme.py:38
 msgid "The background color of success notifications."
 msgstr "สีพื้นหลังของการแจ้งเตือนความสำเร็จ"
 
-#: app/models/theme.py:36
+#: app/models/theme.py:38
 msgid "Success"
 msgstr "สำเร็จ"
 
@@ -1652,8 +1652,8 @@ msgid "Add a fullscreen button to the 2D map view"
 msgstr "เพิ่มปุ่มเต็มหน้าจอในมุมมองแผนที่ 2 มิติ"
 
 #: app/translations/plugin_manifest_autogenerated.py:10
-msgid "Sync accounts from webodm.net"
-msgstr "เชื่อมบัญชีจาก webodm.net"
+msgid "Process in the cloud with webodm.net"
+msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:11
 msgid "Compute volume, area and length measurements on Leaflet"
@@ -1690,6 +1690,10 @@ msgid ""
 "failed"
 msgstr ""
 
+#: app/translations/plugin_manifest_autogenerated.py:19
+msgid "Annotate and measure on 2D maps with ease"
+msgstr ""
+
 #: app/views/app.py:45
 msgid "First Project"
 msgstr "โปรเจคแรก"
@@ -1723,6 +1727,19 @@ msgstr "โหลดไฟล์การแปลซ้ำ"
 msgid "Invalid action"
 msgstr "การกระทำที่ไม่ถูกต้อง"
 
+#: coreplugins/annotate/api.py:22 coreplugins/measure/api.py:21
+msgid ""
+"No surface model available. From the Dashboard, select this task, press "
+"Edit, from the options make sure to check \"dsm\", then press Restart --> "
+"From DEM."
+msgstr ""
+"ไม่มี surface model จากแดชบอร์ด เลือกงานนี้ กดแก้ไข จากตัวเลือกตรวจสอบให้แน่ใจว่าได้เลือก "
+"\"dsm\" จากนั้นกด Restart --> From DEM"
+
+#: coreplugins/annotate/api.py:45
+msgid "A digital surface model is required to compute elevation values."
+msgstr ""
+
 #: coreplugins/contours/api.py:86
 msgid "No DSM layer is available."
 msgstr "ไม่มีเลเยอร์ DSM"
@@ -1731,7 +1748,7 @@ msgstr "ไม่มีเลเยอร์ DSM"
 msgid "No DTM layer is available."
 msgstr "ไม่มีเลเยอร์ DTM"
 
-#: coreplugins/contours/api.py:118
+#: coreplugins/contours/api.py:119
 msgid "Could not generate contour file. This might be a bug."
 msgstr "ไม่สามารถสร้างไฟล์คอนทัวร์ได้. นี่อาจเป็นข้อผิดพลาด"
 
@@ -1827,17 +1844,10 @@ msgid "This short URL is already taken."
 msgstr ""
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
-msgid "Lightning Network"
+#, fuzzy
+#| msgid "Lightning Network"
+msgid "Lightning"
 msgstr "เครือข่าย Lightning"
-
-#: coreplugins/measure/api.py:21
-msgid ""
-"No surface model available. From the Dashboard, select this task, press "
-"Edit, from the options make sure to check \"dsm\", then press Restart --> "
-"From DEM."
-msgstr ""
-"ไม่มี surface model จากแดชบอร์ด เลือกงานนี้ กดแก้ไข จากตัวเลือกตรวจสอบให้แน่ใจว่าได้เลือก "
-"\"dsm\" จากนั้นกด Restart --> From DEM"
 
 #: coreplugins/posm-gcpi/plugin.py:9
 msgid "GCP Interface"
@@ -1946,6 +1956,9 @@ msgstr "ป้ายทางเลือกสำหรับโหนดนี
 #: nodeodm/models.py:33
 msgid "Engine used by the node."
 msgstr "เครื่องยนต์ที่ใช้โดยโหนด"
+
+#~ msgid "Sync accounts from webodm.net"
+#~ msgstr "เชื่อมบัญชีจาก webodm.net"
 
 #~ msgid "Detect changes between two different tasks in the same project."
 #~ msgstr "ตรวจจับการเปลี่ยนแปลงระหว่างงานสองงานที่แตกต่างกันในโปรเจคเดียวกัน"

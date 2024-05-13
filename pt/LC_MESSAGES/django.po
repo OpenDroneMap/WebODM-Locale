@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-14 22:56+0000\n"
+"POT-Creation-Date: 2024-05-13 17:55+0000\n"
 "PO-Revision-Date: 2023-11-13 13:58+0000\n"
 "Last-Translator: Kuriakin Toscan <kuriakin.toscan@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/webodm/webodm/"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Enter custom CSS"
 msgstr "Entre com CSS personalizado"
 
-#: app/admin.py:66 app/models/theme.py:38
+#: app/admin.py:66 app/models/theme.py:40
 msgid "CSS"
 msgstr "CSS"
 
@@ -31,7 +31,7 @@ msgstr "CSS"
 msgid "HTML that will be displayed above site header"
 msgstr "HTML que será exibido acima do cabeçalho do site"
 
-#: app/admin.py:70 app/models/theme.py:39
+#: app/admin.py:70 app/models/theme.py:41
 msgid "HTML (before header)"
 msgstr "HTML (antes do cabeçalho)"
 
@@ -39,7 +39,7 @@ msgstr "HTML (antes do cabeçalho)"
 msgid "HTML that will be displayed after site header"
 msgstr "HTML que será exibido após o cabeçalho do site"
 
-#: app/admin.py:74 app/models/theme.py:40
+#: app/admin.py:74 app/models/theme.py:42
 msgid "HTML (after header)"
 msgstr "HTML (após o cabeçalho)"
 
@@ -47,7 +47,7 @@ msgstr "HTML (após o cabeçalho)"
 msgid "HTML that will be displayed after the body tag"
 msgstr "HTML que será exibido após a tag \"body\""
 
-#: app/admin.py:78 app/models/theme.py:41
+#: app/admin.py:78 app/models/theme.py:43
 msgid "HTML (after body)"
 msgstr "HTML (após \"body\")"
 
@@ -60,7 +60,7 @@ msgstr ""
 "HTML que será exibido no rodapé. Também pode utilizar tags especiais como "
 "{ORGANIZATION} e {YEAR}."
 
-#: app/admin.py:83 app/models/theme.py:42
+#: app/admin.py:83 app/models/theme.py:44
 msgid "HTML (footer)"
 msgstr "HTML (rodapé)"
 
@@ -316,19 +316,19 @@ msgstr "Permissões inválida"
 msgid "You need to upload at least 1 file before commit"
 msgstr "Precisa fazer upload de pelo menos 1 arquivo antes de confirmar"
 
-#: app/api/tasks.py:209
+#: app/api/tasks.py:208
 msgid "No files uploaded"
 msgstr "Nenhum ficheiro enviado"
 
-#: app/api/tasks.py:235
+#: app/api/tasks.py:234
 msgid "Cannot duplicate task"
 msgstr "Não é possível duplicar a tarefa"
 
-#: app/api/tasks.py:252
+#: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Não é possível criar tarefa, precisa de ao menos 2 imagens"
 
-#: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
+#: app/api/tasks.py:370 app/api/tasks.py:374 app/api/tasks.py:398
 #: app/api/tasks.py:401
 msgid "Asset does not exist"
 msgstr "Recurso não existe"
@@ -346,72 +346,72 @@ msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 "Não é possível criar uma tarefa, ou especifique a URL ou carregue 1 ficheiro."
 
-#: app/api/tiler.py:305
+#: app/api/tiler.py:307
 msgid "Invalid boundaries parameter"
 msgstr "Parâmetros de limites inválidos"
 
-#: app/api/tiler.py:324
+#: app/api/tiler.py:326
 msgid "Invalid tile size parameter"
 msgstr "Parâmetros de limites inválidos"
 
-#: app/api/tiler.py:354 app/api/tiler.py:426
+#: app/api/tiler.py:356 app/api/tiler.py:428
 msgid "Outside of bounds"
 msgstr "Fora dos limites"
 
-#: app/api/tiler.py:364
+#: app/api/tiler.py:366
 msgid "Invalid boundaries"
 msgstr "Limites inválidos"
 
-#: app/api/tiler.py:432 app/api/tiler.py:551
+#: app/api/tiler.py:434 app/api/tiler.py:553
 msgid "Not a valid color_map value"
 msgstr "Valor de color_map inválido"
 
-#: app/api/tiler.py:438
+#: app/api/tiler.py:440
 msgid "Invalid rescale value"
 msgstr "Valor de reescala inválido"
 
-#: app/api/tiler.py:460
+#: app/api/tiler.py:462
 msgid "Invalid hillshade value"
 msgstr "Valor de sombreado inválido"
 
-#: app/api/tiler.py:463
+#: app/api/tiler.py:465
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 "Não é possível computar o sombreado de um raster de não elevação (míltiplas "
 "bandas encontradas)"
 
-#: app/api/tiler.py:487
+#: app/api/tiler.py:489
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 "Impossível processar o tile: imagem de intensidade fornecida, mas nenhum "
 "dado RGB foi calculado."
 
-#: app/api/tiler.py:536 app/api/tiler.py:538
+#: app/api/tiler.py:538 app/api/tiler.py:540
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "Formato não suportado:%(value)s"
 
-#: app/api/tiler.py:557
+#: app/api/tiler.py:559
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "Código EPSG Inválido: %(value)s"
 
-#: app/api/tiler.py:560
+#: app/api/tiler.py:562
 msgid "Both formula and bands parameters are required"
 msgstr "Parâmetros de bandas e fórmulas são requiridos"
 
-#: app/api/tiler.py:583
+#: app/api/tiler.py:585
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "Valor de reescala inválido: %(value)s"
 
-#: app/api/tiler.py:591
+#: app/api/tiler.py:593
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "Valor de sombreamento inválido: %(value)s"
 
-#: app/api/tiler.py:602
+#: app/api/tiler.py:604
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr "Não é possível usar epsg no conjunto de dados não georreferenciado"
 
@@ -420,7 +420,7 @@ msgid "Plugin name"
 msgstr "Nome do plugin"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:244 app/models/theme.py:16
+#: app/models/task.py:244 app/models/theme.py:18
 msgid "Name"
 msgstr "Nome"
 
@@ -618,7 +618,7 @@ msgstr "A URL do website da sua organização"
 msgid "Organization website"
 msgstr "Website da organização"
 
-#: app/models/setting.py:33 app/models/theme.py:48 app/models/theme.py:49
+#: app/models/setting.py:33 app/models/theme.py:50 app/models/theme.py:51
 #: app/templates/app/logged_in_base.html:119
 msgid "Theme"
 msgstr "Tema"
@@ -908,111 +908,111 @@ msgstr ""
 msgid "Done!"
 msgstr "Pronto!"
 
-#: app/models/theme.py:16
+#: app/models/theme.py:18
 msgid "Name of theme"
 msgstr "Nome do tema"
 
-#: app/models/theme.py:19
+#: app/models/theme.py:21
 msgid "Most text, icons, and borders."
 msgstr "A maioria dos textos, ícones e bordas."
 
-#: app/models/theme.py:19
+#: app/models/theme.py:21
 msgid "Primary"
 msgstr "Primário"
 
-#: app/models/theme.py:20
+#: app/models/theme.py:22
 msgid "The main background color, and text color of some buttons."
 msgstr "A cor de fundo principal e a cor do texto de alguns botões."
 
-#: app/models/theme.py:20
+#: app/models/theme.py:22
 msgid "Secondary"
 msgstr "Secundário"
 
-#: app/models/theme.py:21
+#: app/models/theme.py:23
 msgid "Navigation links."
 msgstr "Ligações de navegação."
 
-#: app/models/theme.py:21
+#: app/models/theme.py:23
 msgid "Tertiary"
 msgstr "Terciário"
 
-#: app/models/theme.py:23
+#: app/models/theme.py:25
 msgid "Primary button color."
 msgstr "Cor primária do botão."
 
-#: app/models/theme.py:23
+#: app/models/theme.py:25
 msgid "Button Primary"
 msgstr "Botão primário"
 
-#: app/models/theme.py:24
+#: app/models/theme.py:26
 msgid "Default button color."
 msgstr "Cor padrão do botão."
 
-#: app/models/theme.py:24
+#: app/models/theme.py:26
 msgid "Button Default"
 msgstr "Botão padrão"
 
-#: app/models/theme.py:25
+#: app/models/theme.py:27
 msgid "Delete button color."
 msgstr "Excluir cor do botão."
 
-#: app/models/theme.py:25
+#: app/models/theme.py:27
 msgid "Button Danger"
 msgstr "Botão de perigo"
 
-#: app/models/theme.py:27
+#: app/models/theme.py:29
 msgid "Background color of the site's header."
 msgstr "Cor de fundo do cabeçalho do site."
 
-#: app/models/theme.py:27
+#: app/models/theme.py:29
 msgid "Header Background"
 msgstr "Fundo do cabeçalho"
 
-#: app/models/theme.py:28
+#: app/models/theme.py:30
 msgid "Text and icons in the site's header."
 msgstr "Texto e ícones no cabeçalho do site."
 
-#: app/models/theme.py:28
+#: app/models/theme.py:30
 msgid "Header Primary"
 msgstr "Cabeçalho Primário"
 
-#: app/models/theme.py:30
+#: app/models/theme.py:32
 msgid "The color of most borders."
 msgstr "A cor da maioria das bordas."
 
-#: app/models/theme.py:30
+#: app/models/theme.py:32
 msgid "Border"
 msgstr "Borda"
 
-#: app/models/theme.py:31
+#: app/models/theme.py:33
 msgid "The background color of panels and some borders."
 msgstr "A cor de fundo dos painéis e algumas bordas."
 
-#: app/models/theme.py:31
+#: app/models/theme.py:33
 msgid "Highlight"
 msgstr "Destaque"
 
-#: app/models/theme.py:33
+#: app/models/theme.py:35
 msgid "The border color of warning dialogs."
 msgstr "A cor da borda dos diálogos de aviso."
 
-#: app/models/theme.py:33
+#: app/models/theme.py:35
 msgid "Dialog Warning"
 msgstr "Diálogo de aviso"
 
-#: app/models/theme.py:35
+#: app/models/theme.py:37
 msgid "The background color of failed notifications."
 msgstr "A cor de fundo das notificações de falha."
 
-#: app/models/theme.py:35
+#: app/models/theme.py:37
 msgid "Failed"
 msgstr "Falha"
 
-#: app/models/theme.py:36
+#: app/models/theme.py:38
 msgid "The background color of success notifications."
 msgstr "A cor de fundo das notificações de sucesso."
 
-#: app/models/theme.py:36
+#: app/models/theme.py:38
 msgid "Success"
 msgstr "Sucesso"
 
@@ -1702,8 +1702,8 @@ msgid "Add a fullscreen button to the 2D map view"
 msgstr "Adicionar um botão de tela cheia à visualização do mapa 2D"
 
 #: app/translations/plugin_manifest_autogenerated.py:10
-msgid "Sync accounts from webodm.net"
-msgstr "Sincronizar contas de webodm.net"
+msgid "Process in the cloud with webodm.net"
+msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:11
 #, fuzzy
@@ -1742,6 +1742,10 @@ msgid ""
 msgstr ""
 "Receber notificações quando uma tarefa for concluída, removida ou falhou"
 
+#: app/translations/plugin_manifest_autogenerated.py:19
+msgid "Annotate and measure on 2D maps with ease"
+msgstr ""
+
 #: app/views/app.py:45
 msgid "First Project"
 msgstr "Primeiro projeto"
@@ -1775,6 +1779,20 @@ msgstr "Arquivos de tradução recarregados!"
 msgid "Invalid action"
 msgstr "Ação inválida"
 
+#: coreplugins/annotate/api.py:22 coreplugins/measure/api.py:21
+msgid ""
+"No surface model available. From the Dashboard, select this task, press "
+"Edit, from the options make sure to check \"dsm\", then press Restart --> "
+"From DEM."
+msgstr ""
+"Nenhum modelo de superfície disponível. No Painel de controle, selecione "
+"esta tarefa, pressione Editar, nas opções certifique-se de marcar \"dsm\" e "
+"pressione reiniciar --> do MDE."
+
+#: coreplugins/annotate/api.py:45
+msgid "A digital surface model is required to compute elevation values."
+msgstr ""
+
 #: coreplugins/contours/api.py:86
 msgid "No DSM layer is available."
 msgstr "Nenhuma camada DSM está disponível."
@@ -1783,7 +1801,7 @@ msgstr "Nenhuma camada DSM está disponível."
 msgid "No DTM layer is available."
 msgstr "Nenhuma camada MDT está disponível."
 
-#: coreplugins/contours/api.py:118
+#: coreplugins/contours/api.py:119
 msgid "Could not generate contour file. This might be a bug."
 msgstr ""
 "Não foi possível gerar o arquivo de curvas de nível. Isso pode ser um bug."
@@ -1878,18 +1896,10 @@ msgid "This short URL is already taken."
 msgstr "Este URL curto já foi usado."
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
-msgid "Lightning Network"
+#, fuzzy
+#| msgid "Lightning Network"
+msgid "Lightning"
 msgstr "Rede Lightning"
-
-#: coreplugins/measure/api.py:21
-msgid ""
-"No surface model available. From the Dashboard, select this task, press "
-"Edit, from the options make sure to check \"dsm\", then press Restart --> "
-"From DEM."
-msgstr ""
-"Nenhum modelo de superfície disponível. No Painel de controle, selecione "
-"esta tarefa, pressione Editar, nas opções certifique-se de marcar \"dsm\" e "
-"pressione reiniciar --> do MDE."
 
 #: coreplugins/posm-gcpi/plugin.py:9
 msgid "GCP Interface"
@@ -2002,6 +2012,9 @@ msgstr ""
 #: nodeodm/models.py:33
 msgid "Engine used by the node."
 msgstr "Engine utilizada pelo nó."
+
+#~ msgid "Sync accounts from webodm.net"
+#~ msgstr "Sincronizar contas de webodm.net"
 
 #~ msgid ""
 #~ "Triangular Greenness Index (derived from only the RGB bands) performs "

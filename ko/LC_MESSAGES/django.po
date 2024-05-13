@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-14 22:56+0000\n"
+"POT-Creation-Date: 2024-05-13 17:55+0000\n"
 "PO-Revision-Date: 2022-07-16 15:15+0000\n"
 "Last-Translator: Park Jeongyong <kladess@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/webodm/webodm/ko/"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Enter custom CSS"
 msgstr "사용자 정의 CSS를 입력"
 
-#: app/admin.py:66 app/models/theme.py:38
+#: app/admin.py:66 app/models/theme.py:40
 msgid "CSS"
 msgstr "CSS"
 
@@ -31,7 +31,7 @@ msgstr "CSS"
 msgid "HTML that will be displayed above site header"
 msgstr "사이트 헤더 상단에 표시될 HTML"
 
-#: app/admin.py:70 app/models/theme.py:39
+#: app/admin.py:70 app/models/theme.py:41
 msgid "HTML (before header)"
 msgstr "HTML (머릿글 이전)"
 
@@ -39,7 +39,7 @@ msgstr "HTML (머릿글 이전)"
 msgid "HTML that will be displayed after site header"
 msgstr "사이트 머릿글 다음에 표시될 HTML"
 
-#: app/admin.py:74 app/models/theme.py:40
+#: app/admin.py:74 app/models/theme.py:42
 msgid "HTML (after header)"
 msgstr "HTML (머릿글 다음)"
 
@@ -47,7 +47,7 @@ msgstr "HTML (머릿글 다음)"
 msgid "HTML that will be displayed after the body tag"
 msgstr "Body 태그 다음에 표시 될 HTML"
 
-#: app/admin.py:78 app/models/theme.py:41
+#: app/admin.py:78 app/models/theme.py:43
 msgid "HTML (after body)"
 msgstr "HTML (body 다음)"
 
@@ -60,7 +60,7 @@ msgstr ""
 "바닥글에 표시 될 HTML. {ORGANIZATION} 과 {YEAR} 등 특수 태그를 사용할 수도 있"
 "습니다."
 
-#: app/admin.py:83 app/models/theme.py:42
+#: app/admin.py:83 app/models/theme.py:44
 msgid "HTML (footer)"
 msgstr "HTML (바닥글)"
 
@@ -308,19 +308,19 @@ msgstr "잘못된 권한"
 msgid "You need to upload at least 1 file before commit"
 msgstr "결정하기 전에 최소 2장 의 이미지들을 업로드 하여야 합니다"
 
-#: app/api/tasks.py:209
+#: app/api/tasks.py:208
 msgid "No files uploaded"
 msgstr "업로드된 파일이 없습니다"
 
-#: app/api/tasks.py:235
+#: app/api/tasks.py:234
 msgid "Cannot duplicate task"
 msgstr "작업을 복제할 수 없습니다"
 
-#: app/api/tasks.py:252
+#: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
 msgstr "작업을 생성할 수 없습니다, 최소 2장 이상의 이미지가 필요합니다"
 
-#: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
+#: app/api/tasks.py:370 app/api/tasks.py:374 app/api/tasks.py:398
 #: app/api/tasks.py:401
 msgid "Asset does not exist"
 msgstr "애셋이 존재하지 않습니다"
@@ -338,72 +338,72 @@ msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 "작업을 생성할 수 없습니다, URL을 지정하거나 1개의 파일을 업로드 하세요."
 
-#: app/api/tiler.py:305
+#: app/api/tiler.py:307
 msgid "Invalid boundaries parameter"
 msgstr "잘못된 경계 매개변수"
 
-#: app/api/tiler.py:324
+#: app/api/tiler.py:326
 #, fuzzy
 #| msgid "Invalid boundaries parameter"
 msgid "Invalid tile size parameter"
 msgstr "잘못된 경계 매개변수"
 
-#: app/api/tiler.py:354 app/api/tiler.py:426
+#: app/api/tiler.py:356 app/api/tiler.py:428
 msgid "Outside of bounds"
 msgstr "범위를 벗어남"
 
-#: app/api/tiler.py:364
+#: app/api/tiler.py:366
 msgid "Invalid boundaries"
 msgstr "잘못된 경계"
 
-#: app/api/tiler.py:432 app/api/tiler.py:551
+#: app/api/tiler.py:434 app/api/tiler.py:553
 msgid "Not a valid color_map value"
 msgstr "유효한 color_map 값이 아닙니다"
 
-#: app/api/tiler.py:438
+#: app/api/tiler.py:440
 msgid "Invalid rescale value"
 msgstr "잘못된 재조정 값"
 
-#: app/api/tiler.py:460
+#: app/api/tiler.py:462
 msgid "Invalid hillshade value"
 msgstr "잘못된 hillshade 값"
 
-#: app/api/tiler.py:463
+#: app/api/tiler.py:465
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr "고도가 없는 래스터의 색조를 계산할 수 없습니다(여러 대역 발견)"
 
-#: app/api/tiler.py:487
+#: app/api/tiler.py:489
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 "타일을 처리할 수 없음: 강도 이미지가 제공되었지만 RGB 데이터가 계산되지 않았"
 "습니다."
 
-#: app/api/tiler.py:536 app/api/tiler.py:538
+#: app/api/tiler.py:538 app/api/tiler.py:540
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "지원되지 않는 형식: %(value)s"
 
-#: app/api/tiler.py:557
+#: app/api/tiler.py:559
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "잘못된 EPSG 코드: %(value)s"
 
-#: app/api/tiler.py:560
+#: app/api/tiler.py:562
 msgid "Both formula and bands parameters are required"
 msgstr "공식 및 대역 매개변수가 모두 필요합니다"
 
-#: app/api/tiler.py:583
+#: app/api/tiler.py:585
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "잘못된 재조정 값: %(value)s"
 
-#: app/api/tiler.py:591
+#: app/api/tiler.py:593
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "잘못된 힐쉐이드 값: %(value)s"
 
-#: app/api/tiler.py:602
+#: app/api/tiler.py:604
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr "지리 참조되지 않은 데이터 세트에서 epsg를 사용할 수 없습니다"
 
@@ -412,7 +412,7 @@ msgid "Plugin name"
 msgstr "플러그인 이름"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:244 app/models/theme.py:16
+#: app/models/task.py:244 app/models/theme.py:18
 msgid "Name"
 msgstr "이름"
 
@@ -608,7 +608,7 @@ msgstr "조직의 웹 사이트 URL"
 msgid "Organization website"
 msgstr "조직 웹사이트"
 
-#: app/models/setting.py:33 app/models/theme.py:48 app/models/theme.py:49
+#: app/models/setting.py:33 app/models/theme.py:50 app/models/theme.py:51
 #: app/templates/app/logged_in_base.html:119
 msgid "Theme"
 msgstr "테마"
@@ -891,111 +891,111 @@ msgstr "지원되지 않는 SRS %(code)s. 지원되는 SRS를 선택했는지 �
 msgid "Done!"
 msgstr "완료!"
 
-#: app/models/theme.py:16
+#: app/models/theme.py:18
 msgid "Name of theme"
 msgstr "테마명"
 
-#: app/models/theme.py:19
+#: app/models/theme.py:21
 msgid "Most text, icons, and borders."
 msgstr "대부분의 텍스트, 아이콘 및 테두리."
 
-#: app/models/theme.py:19
+#: app/models/theme.py:21
 msgid "Primary"
 msgstr "기본"
 
-#: app/models/theme.py:20
+#: app/models/theme.py:22
 msgid "The main background color, and text color of some buttons."
 msgstr "일부 버튼의 기본 배경색 및 텍스트 색상입니다."
 
-#: app/models/theme.py:20
+#: app/models/theme.py:22
 msgid "Secondary"
 msgstr "보조"
 
-#: app/models/theme.py:21
+#: app/models/theme.py:23
 msgid "Navigation links."
 msgstr "탐색 링크."
 
-#: app/models/theme.py:21
+#: app/models/theme.py:23
 msgid "Tertiary"
 msgstr "세번째"
 
-#: app/models/theme.py:23
+#: app/models/theme.py:25
 msgid "Primary button color."
 msgstr "기본 버튼 색상."
 
-#: app/models/theme.py:23
+#: app/models/theme.py:25
 msgid "Button Primary"
 msgstr "버튼 기본"
 
-#: app/models/theme.py:24
+#: app/models/theme.py:26
 msgid "Default button color."
 msgstr "기본 버튼 색상."
 
-#: app/models/theme.py:24
+#: app/models/theme.py:26
 msgid "Button Default"
 msgstr "버튼 기본값"
 
-#: app/models/theme.py:25
+#: app/models/theme.py:27
 msgid "Delete button color."
 msgstr "단추 색상을 삭제합니다."
 
-#: app/models/theme.py:25
+#: app/models/theme.py:27
 msgid "Button Danger"
 msgstr "위험 버튼"
 
-#: app/models/theme.py:27
+#: app/models/theme.py:29
 msgid "Background color of the site's header."
 msgstr "사이트 헤더의 배경 색상."
 
-#: app/models/theme.py:27
+#: app/models/theme.py:29
 msgid "Header Background"
 msgstr "헤더의 배경색"
 
-#: app/models/theme.py:28
+#: app/models/theme.py:30
 msgid "Text and icons in the site's header."
 msgstr "사이트의 헤더의 글자와 아이콘."
 
-#: app/models/theme.py:28
+#: app/models/theme.py:30
 msgid "Header Primary"
 msgstr "헤더 첫번째색"
 
-#: app/models/theme.py:30
+#: app/models/theme.py:32
 msgid "The color of most borders."
 msgstr "대부분의 경계선의 색."
 
-#: app/models/theme.py:30
+#: app/models/theme.py:32
 msgid "Border"
 msgstr "경계"
 
-#: app/models/theme.py:31
+#: app/models/theme.py:33
 msgid "The background color of panels and some borders."
 msgstr "패널과 일부 경계선을 위한 배경색."
 
-#: app/models/theme.py:31
+#: app/models/theme.py:33
 msgid "Highlight"
 msgstr "강조"
 
-#: app/models/theme.py:33
+#: app/models/theme.py:35
 msgid "The border color of warning dialogs."
 msgstr "경고 대화 상자의 테두리 색상입니다."
 
-#: app/models/theme.py:33
+#: app/models/theme.py:35
 msgid "Dialog Warning"
 msgstr "대화 상자 경고"
 
-#: app/models/theme.py:35
+#: app/models/theme.py:37
 msgid "The background color of failed notifications."
 msgstr "실패한 알림의 배경색입니다."
 
-#: app/models/theme.py:35
+#: app/models/theme.py:37
 msgid "Failed"
 msgstr "실패 됨"
 
-#: app/models/theme.py:36
+#: app/models/theme.py:38
 msgid "The background color of success notifications."
 msgstr "성공 알림의 배경 색입니다."
 
-#: app/models/theme.py:36
+#: app/models/theme.py:38
 msgid "Success"
 msgstr "성공"
 
@@ -1668,8 +1668,8 @@ msgid "Add a fullscreen button to the 2D map view"
 msgstr "2D 지도 보기에 전체 화면 버튼 추가"
 
 #: app/translations/plugin_manifest_autogenerated.py:10
-msgid "Sync accounts from webodm.net"
-msgstr "webodm.net 에서 계정 동기화"
+msgid "Process in the cloud with webodm.net"
+msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:11
 msgid "Compute volume, area and length measurements on Leaflet"
@@ -1706,6 +1706,10 @@ msgid ""
 "failed"
 msgstr ""
 
+#: app/translations/plugin_manifest_autogenerated.py:19
+msgid "Annotate and measure on 2D maps with ease"
+msgstr ""
+
 #: app/views/app.py:45
 msgid "First Project"
 msgstr "첫 번째 프로젝트"
@@ -1739,6 +1743,19 @@ msgstr "번역 파일이 다시로드되었습니다!"
 msgid "Invalid action"
 msgstr "잘못된 작업"
 
+#: coreplugins/annotate/api.py:22 coreplugins/measure/api.py:21
+msgid ""
+"No surface model available. From the Dashboard, select this task, press "
+"Edit, from the options make sure to check \"dsm\", then press Restart --> "
+"From DEM."
+msgstr ""
+"사용 가능한 표면 모델이 없습니다. 대시보드에서 이 작업을 선택하고 편집을 누르"
+"고 옵션에서 \"dsm\"을 선택한 다음 다시 시작 --> DEM에서를 누릅니다."
+
+#: coreplugins/annotate/api.py:45
+msgid "A digital surface model is required to compute elevation values."
+msgstr ""
+
 #: coreplugins/contours/api.py:86
 msgid "No DSM layer is available."
 msgstr "사용 가능한 DSM 레이어가 없습니다."
@@ -1747,7 +1764,7 @@ msgstr "사용 가능한 DSM 레이어가 없습니다."
 msgid "No DTM layer is available."
 msgstr "DTM 레이어를 사용할 수 없습니다."
 
-#: coreplugins/contours/api.py:118
+#: coreplugins/contours/api.py:119
 msgid "Could not generate contour file. This might be a bug."
 msgstr "등고선 파일을 생성할 수 없습니다. 이것은 버그일 수 있습니다."
 
@@ -1845,17 +1862,10 @@ msgid "This short URL is already taken."
 msgstr "이 짧은 URL은 이미 사용 중입니다."
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
-msgid "Lightning Network"
+#, fuzzy
+#| msgid "Lightning Network"
+msgid "Lightning"
 msgstr "라이트닝 네트워크"
-
-#: coreplugins/measure/api.py:21
-msgid ""
-"No surface model available. From the Dashboard, select this task, press "
-"Edit, from the options make sure to check \"dsm\", then press Restart --> "
-"From DEM."
-msgstr ""
-"사용 가능한 표면 모델이 없습니다. 대시보드에서 이 작업을 선택하고 편집을 누르"
-"고 옵션에서 \"dsm\"을 선택한 다음 다시 시작 --> DEM에서를 누릅니다."
 
 #: coreplugins/posm-gcpi/plugin.py:9
 msgid "GCP Interface"
@@ -1967,6 +1977,9 @@ msgstr ""
 #: nodeodm/models.py:33
 msgid "Engine used by the node."
 msgstr "노드에서 사용하는 엔진입니다."
+
+#~ msgid "Sync accounts from webodm.net"
+#~ msgstr "webodm.net 에서 계정 동기화"
 
 #~ msgid ""
 #~ "Triangular Greenness Index (derived from only the RGB bands) performs "

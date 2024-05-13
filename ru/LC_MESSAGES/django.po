@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-14 22:56+0000\n"
+"POT-Creation-Date: 2024-05-13 17:55+0000\n"
 "PO-Revision-Date: 2023-11-16 17:06+0000\n"
 "Last-Translator: Александр Ващенко <sascha93rus@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/webodm/webodm/ru/"
@@ -16,15 +16,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.2\n"
 
 #: app/admin.py:65
 msgid "Enter custom CSS"
 msgstr "Введите свой CSS"
 
-#: app/admin.py:66 app/models/theme.py:38
+#: app/admin.py:66 app/models/theme.py:40
 msgid "CSS"
 msgstr "CSS"
 
@@ -32,7 +32,7 @@ msgstr "CSS"
 msgid "HTML that will be displayed above site header"
 msgstr "HTML код, который будет показан выше \"шапки\" сайта"
 
-#: app/admin.py:70 app/models/theme.py:39
+#: app/admin.py:70 app/models/theme.py:41
 msgid "HTML (before header)"
 msgstr "HTML (перед заголовком)"
 
@@ -40,7 +40,7 @@ msgstr "HTML (перед заголовком)"
 msgid "HTML that will be displayed after site header"
 msgstr "HTML код, который будет показан под \"шапкой\" сайта"
 
-#: app/admin.py:74 app/models/theme.py:40
+#: app/admin.py:74 app/models/theme.py:42
 msgid "HTML (after header)"
 msgstr "HTML (после заголовка)"
 
@@ -48,7 +48,7 @@ msgstr "HTML (после заголовка)"
 msgid "HTML that will be displayed after the body tag"
 msgstr "HTML, который будет отображаться после тега body"
 
-#: app/admin.py:78 app/models/theme.py:41
+#: app/admin.py:78 app/models/theme.py:43
 msgid "HTML (after body)"
 msgstr "HTML (после тега body)"
 
@@ -61,7 +61,7 @@ msgstr ""
 "HTML, который будет показан в футере. Вы также можете использовать "
 "специальные теги по типу {ORGANIZATION} и {YEAR}."
 
-#: app/admin.py:83 app/models/theme.py:42
+#: app/admin.py:83 app/models/theme.py:44
 msgid "HTML (footer)"
 msgstr "HTML (нижний колонтитул)"
 
@@ -321,19 +321,19 @@ msgstr "Недопустимые разрешения"
 msgid "You need to upload at least 1 file before commit"
 msgstr "Вы должны загрузить минимум 1 файл перед тем, как продолжить"
 
-#: app/api/tasks.py:209
+#: app/api/tasks.py:208
 msgid "No files uploaded"
 msgstr "Нет загруженных файлов"
 
-#: app/api/tasks.py:235
+#: app/api/tasks.py:234
 msgid "Cannot duplicate task"
 msgstr "Невозможно продублировать задачу"
 
-#: app/api/tasks.py:252
+#: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Невозможно создать задачу, требуется минимум 2 изображения"
 
-#: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
+#: app/api/tasks.py:370 app/api/tasks.py:374 app/api/tasks.py:398
 #: app/api/tasks.py:401
 msgid "Asset does not exist"
 msgstr "Набор данных отсутствует"
@@ -350,71 +350,71 @@ msgstr "Невозможно создать задачу, требуется з�
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "Невозможно создать задачу, укажите URL-адрес или загрузите 1 файл."
 
-#: app/api/tiler.py:305
+#: app/api/tiler.py:307
 msgid "Invalid boundaries parameter"
 msgstr "Недопустимый параметр границ"
 
-#: app/api/tiler.py:324
+#: app/api/tiler.py:326
 msgid "Invalid tile size parameter"
 msgstr "Недопустимый параметр размера плитки"
 
-#: app/api/tiler.py:354 app/api/tiler.py:426
+#: app/api/tiler.py:356 app/api/tiler.py:428
 msgid "Outside of bounds"
 msgstr "За пределами границ"
 
-#: app/api/tiler.py:364
+#: app/api/tiler.py:366
 msgid "Invalid boundaries"
 msgstr "Недопустимые границы"
 
-#: app/api/tiler.py:432 app/api/tiler.py:551
+#: app/api/tiler.py:434 app/api/tiler.py:553
 msgid "Not a valid color_map value"
 msgstr "Недопустимое значение color_map"
 
-#: app/api/tiler.py:438
+#: app/api/tiler.py:440
 msgid "Invalid rescale value"
 msgstr "Недопустимое значение масштабирования"
 
-#: app/api/tiler.py:460
+#: app/api/tiler.py:462
 msgid "Invalid hillshade value"
 msgstr "Недопустимое значение затенения"
 
-#: app/api/tiler.py:463
+#: app/api/tiler.py:465
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 "Не удается вычислить оттенок затенения без высоты (найдено несколько полос)"
 
-#: app/api/tiler.py:487
+#: app/api/tiler.py:489
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 "Не удается обработать плитку: предоставлено изображение интенсивности, но "
 "данные RGB не были вычислены."
 
-#: app/api/tiler.py:536 app/api/tiler.py:538
+#: app/api/tiler.py:538 app/api/tiler.py:540
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "Неподдерживаемый формат: %(value)s"
 
-#: app/api/tiler.py:557
+#: app/api/tiler.py:559
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "Недопустимый код EPSG: %(value)s"
 
-#: app/api/tiler.py:560
+#: app/api/tiler.py:562
 msgid "Both formula and bands parameters are required"
 msgstr "Требуются как формула, так и параметры диапазонов"
 
-#: app/api/tiler.py:583
+#: app/api/tiler.py:585
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "Недопустимое значение масштабирования: %(value)s"
 
-#: app/api/tiler.py:591
+#: app/api/tiler.py:593
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "Недопустимое значение затенения: %(value)s"
 
-#: app/api/tiler.py:602
+#: app/api/tiler.py:604
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr ""
 "Невозможно использовать epsg для набора данных без географической привязки"
@@ -424,7 +424,7 @@ msgid "Plugin name"
 msgstr "Название плагина"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:244 app/models/theme.py:16
+#: app/models/task.py:244 app/models/theme.py:18
 msgid "Name"
 msgstr "Имя"
 
@@ -622,7 +622,7 @@ msgstr "URL-адрес сайта вашей организации"
 msgid "Organization website"
 msgstr "Веб-сайт организации"
 
-#: app/models/setting.py:33 app/models/theme.py:48 app/models/theme.py:49
+#: app/models/setting.py:33 app/models/theme.py:50 app/models/theme.py:51
 #: app/templates/app/logged_in_base.html:119
 msgid "Theme"
 msgstr "Тема"
@@ -913,111 +913,111 @@ msgstr ""
 msgid "Done!"
 msgstr "Готово!"
 
-#: app/models/theme.py:16
+#: app/models/theme.py:18
 msgid "Name of theme"
 msgstr "Название темы"
 
-#: app/models/theme.py:19
+#: app/models/theme.py:21
 msgid "Most text, icons, and borders."
 msgstr "Текст, лого и границы."
 
-#: app/models/theme.py:19
+#: app/models/theme.py:21
 msgid "Primary"
 msgstr "Основной"
 
-#: app/models/theme.py:20
+#: app/models/theme.py:22
 msgid "The main background color, and text color of some buttons."
 msgstr "Основной цвет фона и цвет текста некоторых кнопок."
 
-#: app/models/theme.py:20
+#: app/models/theme.py:22
 msgid "Secondary"
 msgstr "Вторичный"
 
-#: app/models/theme.py:21
+#: app/models/theme.py:23
 msgid "Navigation links."
 msgstr "Ссылки для навигации."
 
-#: app/models/theme.py:21
+#: app/models/theme.py:23
 msgid "Tertiary"
 msgstr "Третичный"
 
-#: app/models/theme.py:23
+#: app/models/theme.py:25
 msgid "Primary button color."
 msgstr "Основной цвет кнопки."
 
-#: app/models/theme.py:23
+#: app/models/theme.py:25
 msgid "Button Primary"
 msgstr "Основная кнопка"
 
-#: app/models/theme.py:24
+#: app/models/theme.py:26
 msgid "Default button color."
 msgstr "Стандартный цвет кнопки."
 
-#: app/models/theme.py:24
+#: app/models/theme.py:26
 msgid "Button Default"
 msgstr "Кнопка по умолчанию"
 
-#: app/models/theme.py:25
+#: app/models/theme.py:27
 msgid "Delete button color."
 msgstr "Удалить цвет кнопки."
 
-#: app/models/theme.py:25
+#: app/models/theme.py:27
 msgid "Button Danger"
 msgstr "Кнопка Внимание"
 
-#: app/models/theme.py:27
+#: app/models/theme.py:29
 msgid "Background color of the site's header."
 msgstr "Фоновый цвет заголовка сайта."
 
-#: app/models/theme.py:27
+#: app/models/theme.py:29
 msgid "Header Background"
 msgstr "Фон заголовка"
 
-#: app/models/theme.py:28
+#: app/models/theme.py:30
 msgid "Text and icons in the site's header."
 msgstr "Текст и значки в заголовке сайта."
 
-#: app/models/theme.py:28
+#: app/models/theme.py:30
 msgid "Header Primary"
 msgstr "Основной заголовок"
 
-#: app/models/theme.py:30
+#: app/models/theme.py:32
 msgid "The color of most borders."
 msgstr "Цвет границ."
 
-#: app/models/theme.py:30
+#: app/models/theme.py:32
 msgid "Border"
 msgstr "Граница"
 
-#: app/models/theme.py:31
+#: app/models/theme.py:33
 msgid "The background color of panels and some borders."
 msgstr "Цвет фона панелей и некоторых границ."
 
-#: app/models/theme.py:31
+#: app/models/theme.py:33
 msgid "Highlight"
 msgstr "Выделение"
 
-#: app/models/theme.py:33
+#: app/models/theme.py:35
 msgid "The border color of warning dialogs."
 msgstr "Цвет границы диалоговых окон с предупреждениями."
 
-#: app/models/theme.py:33
+#: app/models/theme.py:35
 msgid "Dialog Warning"
 msgstr "Диалоговое предупреждение"
 
-#: app/models/theme.py:35
+#: app/models/theme.py:37
 msgid "The background color of failed notifications."
 msgstr "Цвет фона уведомлений об ошибках."
 
-#: app/models/theme.py:35
+#: app/models/theme.py:37
 msgid "Failed"
 msgstr "Ошибка"
 
-#: app/models/theme.py:36
+#: app/models/theme.py:38
 msgid "The background color of success notifications."
 msgstr "Цвет фона уведомлений об успешном выполнении."
 
-#: app/models/theme.py:36
+#: app/models/theme.py:38
 msgid "Success"
 msgstr "Успешно"
 
@@ -1715,8 +1715,8 @@ msgid "Add a fullscreen button to the 2D map view"
 msgstr "Добавление полноэкранной кнопки для просмотра 2D-карты"
 
 #: app/translations/plugin_manifest_autogenerated.py:10
-msgid "Sync accounts from webodm.net"
-msgstr "Синхронизировать учетные записи с webodm.net"
+msgid "Process in the cloud with webodm.net"
+msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:11
 msgid "Compute volume, area and length measurements on Leaflet"
@@ -1755,6 +1755,10 @@ msgid ""
 msgstr ""
 "Получайте уведомления о завершении обработки задачи, ее удалении или сбое"
 
+#: app/translations/plugin_manifest_autogenerated.py:19
+msgid "Annotate and measure on 2D maps with ease"
+msgstr ""
+
 #: app/views/app.py:45
 msgid "First Project"
 msgstr "Первый проект"
@@ -1788,6 +1792,20 @@ msgstr "Файлы перевода перезагружены!"
 msgid "Invalid action"
 msgstr "Недопустимое действие"
 
+#: coreplugins/annotate/api.py:22 coreplugins/measure/api.py:21
+msgid ""
+"No surface model available. From the Dashboard, select this task, press "
+"Edit, from the options make sure to check \"dsm\", then press Restart --> "
+"From DEM."
+msgstr ""
+"Модель поверхности недоступна. На панели управления выберите эту задачу, "
+"нажмите Редактировать, в настройках обязательно включите параметр \"dsm\", "
+"затем нажмите Перезагрузить --> Из DEM."
+
+#: coreplugins/annotate/api.py:45
+msgid "A digital surface model is required to compute elevation values."
+msgstr ""
+
 #: coreplugins/contours/api.py:86
 msgid "No DSM layer is available."
 msgstr "Уровень DSM недоступен."
@@ -1796,7 +1814,7 @@ msgstr "Уровень DSM недоступен."
 msgid "No DTM layer is available."
 msgstr "Уровень DTM недоступен."
 
-#: coreplugins/contours/api.py:118
+#: coreplugins/contours/api.py:119
 msgid "Could not generate contour file. This might be a bug."
 msgstr "Не удалось сгенерировать файл контура. Это может быть ошибка."
 
@@ -1890,18 +1908,10 @@ msgid "This short URL is already taken."
 msgstr "Этот короткий URL-адрес уже занят."
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
-msgid "Lightning Network"
+#, fuzzy
+#| msgid "Lightning Network"
+msgid "Lightning"
 msgstr "Lightning Network"
-
-#: coreplugins/measure/api.py:21
-msgid ""
-"No surface model available. From the Dashboard, select this task, press "
-"Edit, from the options make sure to check \"dsm\", then press Restart --> "
-"From DEM."
-msgstr ""
-"Модель поверхности недоступна. На панели управления выберите эту задачу, "
-"нажмите Редактировать, в настройках обязательно включите параметр \"dsm\", "
-"затем нажмите Перезагрузить --> Из DEM."
 
 #: coreplugins/posm-gcpi/plugin.py:9
 msgid "GCP Interface"
@@ -2014,6 +2024,9 @@ msgstr ""
 #: nodeodm/models.py:33
 msgid "Engine used by the node."
 msgstr "Движок, используемый узлом."
+
+#~ msgid "Sync accounts from webodm.net"
+#~ msgstr "Синхронизировать учетные записи с webodm.net"
 
 #~ msgid ""
 #~ "Triangular Greenness Index (derived from only the RGB bands) performs "

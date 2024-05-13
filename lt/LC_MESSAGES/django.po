@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-14 22:56+0000\n"
+"POT-Creation-Date: 2024-05-13 17:55+0000\n"
 "PO-Revision-Date: 2023-11-21 07:09+0000\n"
 "Last-Translator: Tomas Straupis <tomasstraupis@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/webodm/webodm/"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Enter custom CSS"
 msgstr "Įveskite savo CSS"
 
-#: app/admin.py:66 app/models/theme.py:38
+#: app/admin.py:66 app/models/theme.py:40
 msgid "CSS"
 msgstr "CSS"
 
@@ -33,7 +33,7 @@ msgstr "CSS"
 msgid "HTML that will be displayed above site header"
 msgstr "Virš svetainės antraštės rodomas HTML"
 
-#: app/admin.py:70 app/models/theme.py:39
+#: app/admin.py:70 app/models/theme.py:41
 msgid "HTML (before header)"
 msgstr "HTML (iki antraštės)"
 
@@ -41,7 +41,7 @@ msgstr "HTML (iki antraštės)"
 msgid "HTML that will be displayed after site header"
 msgstr "Po svetainės antraštės rodomas HTML"
 
-#: app/admin.py:74 app/models/theme.py:40
+#: app/admin.py:74 app/models/theme.py:42
 msgid "HTML (after header)"
 msgstr "HTML (po antraštės)"
 
@@ -49,7 +49,7 @@ msgstr "HTML (po antraštės)"
 msgid "HTML that will be displayed after the body tag"
 msgstr "Po body žymos rodomas HTML"
 
-#: app/admin.py:78 app/models/theme.py:41
+#: app/admin.py:78 app/models/theme.py:43
 msgid "HTML (after body)"
 msgstr "HTML (po body)"
 
@@ -62,7 +62,7 @@ msgstr ""
 "Poraštėje rodomas HTML. Taipogi galite naudoti specialias žymas, tokias kaip "
 "{ORGANIZATION} ir {YEAR}."
 
-#: app/admin.py:83 app/models/theme.py:42
+#: app/admin.py:83 app/models/theme.py:44
 msgid "HTML (footer)"
 msgstr "HTML (poraštė)"
 
@@ -283,19 +283,19 @@ msgstr "Netinkamos teisės"
 msgid "You need to upload at least 1 file before commit"
 msgstr "Jums reikia įkelti bent 1 failą prieš patvirtinant"
 
-#: app/api/tasks.py:209
+#: app/api/tasks.py:208
 msgid "No files uploaded"
 msgstr "Neįkeltas nei vienas failas"
 
-#: app/api/tasks.py:235
+#: app/api/tasks.py:234
 msgid "Cannot duplicate task"
 msgstr "Nepavyksta dubliuoti užduoties"
 
-#: app/api/tasks.py:252
+#: app/api/tasks.py:251
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Nepavyksta sukurti užduoties, jums reikia bent 2 nuotraukų"
 
-#: app/api/tasks.py:371 app/api/tasks.py:374 app/api/tasks.py:398
+#: app/api/tasks.py:370 app/api/tasks.py:374 app/api/tasks.py:398
 #: app/api/tasks.py:401
 msgid "Asset does not exist"
 msgstr "Daiktas neegzistuoja"
@@ -313,71 +313,71 @@ msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 "Nepavyksta įkelti užduoties, arba nurodykite URL, arba įkelkite 1 failą."
 
-#: app/api/tiler.py:305
+#: app/api/tiler.py:307
 msgid "Invalid boundaries parameter"
 msgstr "Netinkamas ribų parametras"
 
-#: app/api/tiler.py:324
+#: app/api/tiler.py:326
 msgid "Invalid tile size parameter"
 msgstr "Netinkamas kaladėlės dydžio parametras"
 
-#: app/api/tiler.py:354 app/api/tiler.py:426
+#: app/api/tiler.py:356 app/api/tiler.py:428
 msgid "Outside of bounds"
 msgstr "Už ribų"
 
-#: app/api/tiler.py:364
+#: app/api/tiler.py:366
 msgid "Invalid boundaries"
 msgstr "Netinkamos ribos"
 
-#: app/api/tiler.py:432 app/api/tiler.py:551
+#: app/api/tiler.py:434 app/api/tiler.py:553
 msgid "Not a valid color_map value"
 msgstr "Netinkama color_map reikšmė"
 
-#: app/api/tiler.py:438
+#: app/api/tiler.py:440
 msgid "Invalid rescale value"
 msgstr "Netinkama rescale reikšmė"
 
-#: app/api/tiler.py:460
+#: app/api/tiler.py:462
 msgid "Invalid hillshade value"
 msgstr "Netinkama hillshade reikšmė"
 
-#: app/api/tiler.py:463
+#: app/api/tiler.py:465
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 "Negalima paskaičiuoti šešėliavimo rastrui be aukščio (rastos kelios juostos)"
 
-#: app/api/tiler.py:487
+#: app/api/tiler.py:489
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 "Nepavyksta apdoroti kaladėlės: pateiktas intensyvumo paveikslas, bet RGB "
 "duomenys nepaskaičiuoti."
 
-#: app/api/tiler.py:536 app/api/tiler.py:538
+#: app/api/tiler.py:538 app/api/tiler.py:540
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "Nepalaikomas formatas: %(value)s"
 
-#: app/api/tiler.py:557
+#: app/api/tiler.py:559
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "Netinkamas EPSG kodas: %(value)s"
 
-#: app/api/tiler.py:560
+#: app/api/tiler.py:562
 msgid "Both formula and bands parameters are required"
 msgstr "Privalomas tiek formulės, tiek ir juostos parametras"
 
-#: app/api/tiler.py:583
+#: app/api/tiler.py:585
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "Netinkama rescale reikšmė: %(value)s"
 
-#: app/api/tiler.py:591
+#: app/api/tiler.py:593
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "Netinkama šešėliavimo reikšmė: %(value)s"
 
-#: app/api/tiler.py:602
+#: app/api/tiler.py:604
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr "Negalima naudoti epsg su nepririštu duomenų rinkiniu"
 
@@ -386,7 +386,7 @@ msgid "Plugin name"
 msgstr "Įskiepio pavadinimas"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:244 app/models/theme.py:16
+#: app/models/task.py:244 app/models/theme.py:18
 msgid "Name"
 msgstr "Vardas"
 
@@ -581,7 +581,7 @@ msgstr "Jūsų organizacijos svetainės URL"
 msgid "Organization website"
 msgstr "Organizacijos svetainė"
 
-#: app/models/setting.py:33 app/models/theme.py:48 app/models/theme.py:49
+#: app/models/setting.py:33 app/models/theme.py:50 app/models/theme.py:51
 #: app/templates/app/logged_in_base.html:119
 msgid "Theme"
 msgstr "Tema"
@@ -858,111 +858,111 @@ msgstr ""
 msgid "Done!"
 msgstr "Atlikta!"
 
-#: app/models/theme.py:16
+#: app/models/theme.py:18
 msgid "Name of theme"
 msgstr "Temos pavadinimas"
 
-#: app/models/theme.py:19
+#: app/models/theme.py:21
 msgid "Most text, icons, and borders."
 msgstr "Dauguma tekstų, piktogramų ir ribų."
 
-#: app/models/theme.py:19
+#: app/models/theme.py:21
 msgid "Primary"
 msgstr "Pirminis"
 
-#: app/models/theme.py:20
+#: app/models/theme.py:22
 msgid "The main background color, and text color of some buttons."
 msgstr "Pagrindinė fono spalva, kai kurių mygtukų teksto spalva."
 
-#: app/models/theme.py:20
+#: app/models/theme.py:22
 msgid "Secondary"
 msgstr "Antrinė"
 
-#: app/models/theme.py:21
+#: app/models/theme.py:23
 msgid "Navigation links."
 msgstr "Navigacijos nuorodos."
 
-#: app/models/theme.py:21
+#: app/models/theme.py:23
 msgid "Tertiary"
 msgstr "Tretinė"
 
-#: app/models/theme.py:23
+#: app/models/theme.py:25
 msgid "Primary button color."
 msgstr "Pirminė mygtukų spalva."
 
-#: app/models/theme.py:23
+#: app/models/theme.py:25
 msgid "Button Primary"
 msgstr "Mygtukas pirminis"
 
-#: app/models/theme.py:24
+#: app/models/theme.py:26
 msgid "Default button color."
 msgstr "Numatytoji mygtuko spalva."
 
-#: app/models/theme.py:24
+#: app/models/theme.py:26
 msgid "Button Default"
 msgstr "Mygtukas numatytasis"
 
-#: app/models/theme.py:25
+#: app/models/theme.py:27
 msgid "Delete button color."
 msgstr "Mygtuko trinti spalva."
 
-#: app/models/theme.py:25
+#: app/models/theme.py:27
 msgid "Button Danger"
 msgstr "Mygtukas pavojus"
 
-#: app/models/theme.py:27
+#: app/models/theme.py:29
 msgid "Background color of the site's header."
 msgstr "Fono spalva arba svetainės antraštė."
 
-#: app/models/theme.py:27
+#: app/models/theme.py:29
 msgid "Header Background"
 msgstr "Antraštės fonas"
 
-#: app/models/theme.py:28
+#: app/models/theme.py:30
 msgid "Text and icons in the site's header."
 msgstr "Svetainės antraštės tekstas ir piktogramos."
 
-#: app/models/theme.py:28
+#: app/models/theme.py:30
 msgid "Header Primary"
 msgstr "Antraštė pirminė"
 
-#: app/models/theme.py:30
+#: app/models/theme.py:32
 msgid "The color of most borders."
 msgstr "Daugumos rėmelių spalva."
 
-#: app/models/theme.py:30
+#: app/models/theme.py:32
 msgid "Border"
 msgstr "Riba"
 
-#: app/models/theme.py:31
+#: app/models/theme.py:33
 msgid "The background color of panels and some borders."
 msgstr "Skydelių ir kai kurių rėmelių fono spalva."
 
-#: app/models/theme.py:31
+#: app/models/theme.py:33
 msgid "Highlight"
 msgstr "Paryškinimas"
 
-#: app/models/theme.py:33
+#: app/models/theme.py:35
 msgid "The border color of warning dialogs."
 msgstr "Įspėjimo dialogų rėmelio spalva."
 
-#: app/models/theme.py:33
+#: app/models/theme.py:35
 msgid "Dialog Warning"
 msgstr "Dialogas Įspėjimas"
 
-#: app/models/theme.py:35
+#: app/models/theme.py:37
 msgid "The background color of failed notifications."
 msgstr "Nepavykusių pranešimų fono spalva."
 
-#: app/models/theme.py:35
+#: app/models/theme.py:37
 msgid "Failed"
 msgstr "Nepavyko"
 
-#: app/models/theme.py:36
+#: app/models/theme.py:38
 msgid "The background color of success notifications."
 msgstr "Sėkmės pranešimų fono spalva."
 
-#: app/models/theme.py:36
+#: app/models/theme.py:38
 msgid "Success"
 msgstr "Sėkmė"
 
@@ -1608,7 +1608,7 @@ msgid "Add a fullscreen button to the 2D map view"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:10
-msgid "Sync accounts from webodm.net"
+msgid "Process in the cloud with webodm.net"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:11
@@ -1644,6 +1644,10 @@ msgid ""
 "failed"
 msgstr ""
 
+#: app/translations/plugin_manifest_autogenerated.py:19
+msgid "Annotate and measure on 2D maps with ease"
+msgstr ""
+
 #: app/views/app.py:45
 msgid "First Project"
 msgstr "Pirmas projektas"
@@ -1677,6 +1681,17 @@ msgstr ""
 msgid "Invalid action"
 msgstr ""
 
+#: coreplugins/annotate/api.py:22 coreplugins/measure/api.py:21
+msgid ""
+"No surface model available. From the Dashboard, select this task, press "
+"Edit, from the options make sure to check \"dsm\", then press Restart --> "
+"From DEM."
+msgstr ""
+
+#: coreplugins/annotate/api.py:45
+msgid "A digital surface model is required to compute elevation values."
+msgstr ""
+
 #: coreplugins/contours/api.py:86
 msgid "No DSM layer is available."
 msgstr ""
@@ -1685,7 +1700,7 @@ msgstr ""
 msgid "No DTM layer is available."
 msgstr ""
 
-#: coreplugins/contours/api.py:118
+#: coreplugins/contours/api.py:119
 msgid "Could not generate contour file. This might be a bug."
 msgstr ""
 
@@ -1777,15 +1792,10 @@ msgid "This short URL is already taken."
 msgstr ""
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
-msgid "Lightning Network"
+#, fuzzy
+#| msgid "Lightning Network"
+msgid "Lightning"
 msgstr "Lightning tinklas"
-
-#: coreplugins/measure/api.py:21
-msgid ""
-"No surface model available. From the Dashboard, select this task, press "
-"Edit, from the options make sure to check \"dsm\", then press Restart --> "
-"From DEM."
-msgstr ""
 
 #: coreplugins/posm-gcpi/plugin.py:9
 msgid "GCP Interface"
