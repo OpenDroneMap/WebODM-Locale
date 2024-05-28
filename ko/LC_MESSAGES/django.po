@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-13 17:55+0000\n"
+"POT-Creation-Date: 2024-05-28 18:14+0000\n"
 "PO-Revision-Date: 2022-07-16 15:15+0000\n"
 "Last-Translator: Park Jeongyong <kladess@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/webodm/webodm/ko/"
@@ -663,7 +663,7 @@ msgid ""
 msgstr ""
 "이 작업에 할당 된 처리 노드 (또는이 작업이 아직 연결되지 않은 경우 null)"
 
-#: app/models/task.py:246 app/views/app.py:116 nodeodm/models.py:36
+#: app/models/task.py:246 app/views/app.py:118 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "프로세싱 노드"
 
@@ -865,29 +865,29 @@ msgstr "작업"
 msgid "unnamed"
 msgstr "이름 없음"
 
-#: app/models/task.py:502
+#: app/models/task.py:506
 msgid "Importing assets..."
 msgstr "자산 가져 오는 중 ..."
 
-#: app/models/task.py:554 app/models/task.py:823
+#: app/models/task.py:558 app/models/task.py:827
 msgid "Invalid zip file"
 msgstr "잘못된 zip 파일"
 
-#: app/models/task.py:649
+#: app/models/task.py:653
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "연결 오류 : %(error)s"
 
-#: app/models/task.py:729
+#: app/models/task.py:733
 msgid "Cannot restart a task that has no processing node"
 msgstr "처리 노드가없는 작업을 다시 시작할 수 없습니다"
 
-#: app/models/task.py:889
+#: app/models/task.py:893
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "지원되지 않는 SRS %(code)s. 지원되는 SRS를 선택했는지 확인하십시오."
 
-#: app/models/task.py:903
+#: app/models/task.py:907
 msgid "Done!"
 msgstr "완료!"
 
@@ -1515,7 +1515,7 @@ msgstr ""
 msgid "Logout"
 msgstr "로그아웃"
 
-#: app/templates/app/logged_in_base.html:57 app/views/app.py:47
+#: app/templates/app/logged_in_base.html:57 app/views/app.py:48
 msgid "Dashboard"
 msgstr "대쉬보드"
 
@@ -1543,7 +1543,7 @@ msgstr "그룹"
 msgid "Brand"
 msgstr "브랜드"
 
-#: app/templates/app/logged_in_base.html:138 app/views/app.py:106
+#: app/templates/app/logged_in_base.html:138 app/views/app.py:108
 msgid "About"
 msgstr "소개"
 
@@ -1710,24 +1710,24 @@ msgstr ""
 msgid "Annotate and measure on 2D maps with ease"
 msgstr ""
 
-#: app/views/app.py:45
+#: app/views/app.py:46
 msgid "First Project"
 msgstr "첫 번째 프로젝트"
 
-#: app/views/app.py:55 app/views/public.py:27
+#: app/views/app.py:56 app/views/public.py:28
 msgid "Map"
 msgstr "지도"
 
-#: app/views/app.py:83
+#: app/views/app.py:85
 msgid "3D Model Display"
 msgstr "3D 모델 표시"
 
-#: app/views/app.py:112
+#: app/views/app.py:114
 #, python-format
 msgid "%(node)s seems to be offline."
 msgstr ""
 
-#: app/views/app.py:150
+#: app/views/app.py:152
 msgid "Welcome"
 msgstr "환영 합니다"
 
@@ -1743,7 +1743,7 @@ msgstr "번역 파일이 다시로드되었습니다!"
 msgid "Invalid action"
 msgstr "잘못된 작업"
 
-#: coreplugins/annotate/api.py:22 coreplugins/measure/api.py:21
+#: coreplugins/annotate/api.py:45 coreplugins/measure/api.py:21
 msgid ""
 "No surface model available. From the Dashboard, select this task, press "
 "Edit, from the options make sure to check \"dsm\", then press Restart --> "
@@ -1752,7 +1752,7 @@ msgstr ""
 "사용 가능한 표면 모델이 없습니다. 대시보드에서 이 작업을 선택하고 편집을 누르"
 "고 옵션에서 \"dsm\"을 선택한 다음 다시 시작 --> DEM에서를 누릅니다."
 
-#: coreplugins/annotate/api.py:45
+#: coreplugins/annotate/api.py:68
 msgid "A digital surface model is required to compute elevation values."
 msgstr ""
 
