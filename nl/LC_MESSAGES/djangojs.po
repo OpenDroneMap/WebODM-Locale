@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-03 03:30+0000\n"
+"POT-Creation-Date: 2024-07-08 16:19+0000\n"
 "PO-Revision-Date: 2024-02-21 15:02+0000\n"
 "Last-Translator: Mark de Haan <mark@aeret.nl>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/webodm/react-ui/nl/"
@@ -51,23 +51,29 @@ msgstr ""
 "Wijzigingen zullen verloren gaan. Weet je zeker dat je dit scherm wilt "
 "verlaten?"
 
-#: app/static/app/js/MapView.jsx:90
+#: app/static/app/js/MapView.jsx:108
 #: app/static/app/js/classes/AssetDownloads.js:46
 #: app/static/app/js/classes/PipelineSteps.js:47
-#: app/static/app/js/components/Map.jsx:89
+#: app/static/app/js/components/Map.jsx:91
 msgid "Orthophoto"
 msgstr "Orthofoto"
 
-#: app/static/app/js/MapView.jsx:95 app/static/app/js/components/Map.jsx:91
+#: app/static/app/js/MapView.jsx:113 app/static/app/js/components/Map.jsx:93
+#, fuzzy
+#| msgid "Normal"
+msgid "Thermal"
+msgstr "Normaal"
+
+#: app/static/app/js/MapView.jsx:113 app/static/app/js/components/Map.jsx:93
 msgid "Plant Health"
 msgstr "Plant Gezondheid"
 
-#: app/static/app/js/MapView.jsx:100
+#: app/static/app/js/MapView.jsx:118
 #: app/static/app/js/classes/AssetDownloads.js:51
 msgid "Surface Model"
 msgstr "Oppervlakte Model"
 
-#: app/static/app/js/MapView.jsx:105
+#: app/static/app/js/MapView.jsx:123
 #: app/static/app/js/classes/AssetDownloads.js:49
 msgid "Terrain Model"
 msgstr "Terrein Model"
@@ -80,7 +86,7 @@ msgstr "Kan initieel camera venster niet instellen"
 msgid "set initial camera view"
 msgstr "initieel camera venster instellen"
 
-#: app/static/app/js/ModelView.jsx:84 app/static/app/js/components/Map.jsx:339
+#: app/static/app/js/ModelView.jsx:84 app/static/app/js/components/Map.jsx:341
 #, fuzzy
 #| msgid "Show Cameras"
 msgid "Cameras"
@@ -146,7 +152,7 @@ msgid "Camera Shots"
 msgstr "Camera Shots"
 
 #: app/static/app/js/classes/AssetDownloads.js:60
-#: app/static/app/js/components/Map.jsx:393
+#: app/static/app/js/components/Map.jsx:395
 msgid "Ground Control Points"
 msgstr "Grond Controle Punten"
 
@@ -167,8 +173,8 @@ msgid "ESRI Satellite"
 msgstr "ESRI-satelliet"
 
 #: app/static/app/js/classes/Basemaps.js:26
-msgid "OSM Mapnik"
-msgstr "OSM Mapnik"
+msgid "OpenStreetMap"
+msgstr ""
 
 #: app/static/app/js/classes/PendingActions.js:11
 msgid "Canceling..."
@@ -488,7 +494,7 @@ msgstr ""
 #: app/static/app/js/components/EditTaskForm.jsx:230
 #: app/static/app/js/components/EditTaskForm.jsx:393
 #: app/static/app/js/components/ExportAssetPanel.jsx:185
-#: app/static/app/js/components/Map.jsx:504
+#: app/static/app/js/components/Map.jsx:506
 #: coreplugins/contours/public/ContoursPanel.jsx:301
 #: coreplugins/contours/public/ContoursPanel.jsx:328
 #: coreplugins/contours/public/ContoursPanel.jsx:347
@@ -817,7 +823,7 @@ msgid "Shading:"
 msgstr "Schaduw:"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:362
-#: app/static/app/js/components/Map.jsx:505
+#: app/static/app/js/components/Map.jsx:507
 msgid "None"
 msgstr "Geen"
 
@@ -840,44 +846,44 @@ msgstr "Laden…"
 msgid "Layers"
 msgstr "Lagen"
 
-#: app/static/app/js/components/Map.jsx:93
+#: app/static/app/js/components/Map.jsx:95
 msgid "DSM"
 msgstr "DSM"
 
-#: app/static/app/js/components/Map.jsx:95
+#: app/static/app/js/components/Map.jsx:97
 msgid "DTM"
 msgstr "DTM"
 
-#: app/static/app/js/components/Map.jsx:485
+#: app/static/app/js/components/Map.jsx:487
 msgid "Enter a tile URL template. Valid coordinates are:"
 msgstr "Voeg een tile URL template toe. Geldige coördinaten zijn:"
 
-#: app/static/app/js/components/Map.jsx:486
+#: app/static/app/js/components/Map.jsx:488
 #, python-brace-format
 msgid "{z}, {x}, {y} for Z/X/Y tile scheme"
 msgstr "{z}, {x}, {y} voor Z/X/Y tile schema"
 
-#: app/static/app/js/components/Map.jsx:487
+#: app/static/app/js/components/Map.jsx:489
 msgid "{-y} for flipped TMS-style Y coordinates"
 msgstr "{-y} voor omgedraaide TSM-stijl Y coördinaat"
 
-#: app/static/app/js/components/Map.jsx:489
+#: app/static/app/js/components/Map.jsx:491
 msgid "Example:"
 msgstr "Voorbeeld:"
 
-#: app/static/app/js/components/Map.jsx:557
+#: app/static/app/js/components/Map.jsx:559
 msgid "Add a temporary GeoJSON (.json) or ShapeFile (.zip) overlay"
 msgstr "Voeg een tijdelijke GeoJSON (.json) of ShapeFile (.zip) laag toe"
 
-#: app/static/app/js/components/Map.jsx:614
+#: app/static/app/js/components/Map.jsx:616
 msgid "Error: cannot load assets list."
 msgstr "Fout: Kan lijst met bestanden niet laden."
 
-#: app/static/app/js/components/Map.jsx:708
+#: app/static/app/js/components/Map.jsx:710
 msgid "Opacity:"
 msgstr "Transparantie:"
 
-#: app/static/app/js/components/Map.jsx:712
+#: app/static/app/js/components/Map.jsx:714
 #: app/static/app/js/components/TaskList.jsx:143
 msgid "Loading..."
 msgstr "Laden..."
@@ -1381,56 +1387,79 @@ msgstr "%(count)s bestanden succesvol geupload"
 #: app/static/app/js/translations/odm_autogenerated.js:3
 #, python-format
 msgid ""
-"Skips dense reconstruction and 3D model generation. It generates an "
-"orthophoto directly from the sparse reconstruction. If you just need an "
-"orthophoto and do not need a full 3D model, turn on this option. Default: "
-"%(default)s"
+"Perform image matching with the nearest N images based on image filename "
+"order. Can speed up processing of sequential images, such as those extracted "
+"from video. It is applied only on non-georeferenced datasets. Set to 0 to "
+"disable. Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:4
 #, python-format
 msgid ""
-"Path to the file containing the ground control points used for "
-"georeferencing. The file needs to use the following format: EPSG:<code> or <"
-"+proj definition>geo_x geo_y geo_z im_x im_y image_name [gcp_name] [extra1] "
-"[extra2]Default: %(default)s"
+"Export the georeferenced point cloud in CSV format. Default: %(default)s"
 msgstr ""
+"Exporteer de geogerefereerde puntenwolk in CSV formaat. Standaard: "
+"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:5
 #, python-format
 msgid ""
-"Create Cloud-Optimized GeoTIFFs instead of normal GeoTIFFs. Default: "
+"Simple Morphological Filter elevation threshold parameter (meters). Default: "
 "%(default)s"
 msgstr ""
-"Creëer Cloud-Optimized GeoTIFFs in plaats van normale GeoTIFFs. Standaard: "
-"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:6
 #, python-format
 msgid ""
-"Skip normalization of colors across all images. Useful when processing "
-"radiometric data. Default: %(default)s"
+"Automatically set a boundary using camera shot locations to limit the area "
+"of the reconstruction. This can help remove far away background artifacts "
+"(sky, background landscapes, etc.). See also --boundary. Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:7
-#, python-format
-msgid ""
-"Perform image matching with the nearest images based on GPS exif data. Set "
-"to 0 to match by triangulation. Default: %(default)s"
-msgstr ""
-"Voer afbeeldingsmatching uit met de dichtstbijzijnde afbeeldingen op basis "
-"van GPS exif-gegevens. Stel in op 0 om te matchen via triangulatie. "
-"Standaard: %(default)s"
+msgid "Copy output results to this folder after processing."
+msgstr "Kopieer verwerkte resultaten naar deze map na verwerking."
 
 #: app/static/app/js/translations/odm_autogenerated.js:8
 #, python-format
 msgid ""
-"Generates a polygon around the cropping area that cuts the orthophoto around "
-"the edges of features. This polygon can be useful for stitching seamless "
-"mosaics with multiple overlapping orthophotos. Default: %(default)s"
+"Maximum number of frames to extract from video files for processing. Set to "
+"0 for no limit. Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:9
+#, python-format
+msgid ""
+"Skip generation of a full 3D model. This can save time if you only need 2D "
+"results such as orthophotos and DEMs. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:10
+#, python-format
+msgid ""
+"Choose the structure from motion algorithm. For aerial datasets, if camera "
+"GPS positions and angles are available, triangulation can generate better "
+"results. For planar scenes captured at fixed altitude with nadir-only "
+"images, planar can be much faster. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:11
+#, python-format
+msgid ""
+"Rerun this stage only and stop. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:12
+#, python-format
+msgid ""
+"Use this tag to build a DTM (Digital Terrain Model, ground only) using a "
+"simple morphological filter. Check the --dem* and --smrf* parameters for "
+"finer tuning. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:13
 #, python-format
 msgid ""
 "Choose what to merge in the merge step in a split dataset. By default all "
@@ -1440,73 +1469,68 @@ msgstr ""
 "gegevensset. Standaard worden alle beschikbare uitgangen samengevoegd. "
 "Opties: %(choices)s. Standaard: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:10
-#, python-format
-msgid ""
-"Rerun this stage only and stop. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:11
-#, python-format
-msgid ""
-"When processing multispectral datasets, ODM will automatically align the "
-"images for each band. If the images have been postprocessed and are already "
-"aligned, use this option. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:12
-#, python-format
-msgid ""
-"Set point cloud quality. Higher quality generates better, denser point "
-"clouds, but requires more memory and takes longer. Each step up in quality "
-"increases processing time roughly by a factor of 4x.Can be one of: "
-"%(choices)s. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:13
-msgid "Displays version number and exits. "
-msgstr ""
-
 #: app/static/app/js/translations/odm_autogenerated.js:14
+#, python-format
 msgid ""
-"Permanently delete all previous results and rerun the processing pipeline."
+"Automatically crop image outputs by creating a smooth buffer around the "
+"dataset boundaries, shrunk by N meters. Use 0 to disable cropping. Default: "
+"%(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:15
-#, python-format
 msgid ""
-"Set a camera projection type. Manually setting a value can help improve "
-"geometric undistortion. By default the application tries to determine a lens "
-"type from the images metadata. Can be one of: %(choices)s. Default: "
-"%(default)s"
+"Permanently delete all previous results and rerun the processing pipeline."
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:16
 #, python-format
 msgid ""
-"Choose the algorithm for extracting keypoints and computing descriptors. Can "
-"be one of: %(choices)s. Default: %(default)s"
+"Use the camera parameters computed from another dataset instead of "
+"calculating them. Can be specified either as path to a cameras.json file or "
+"as a JSON string representing the contents of a cameras.json file. Default: "
+"%(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:17
 #, python-format
 msgid ""
-"Use this tag to build a DSM (Digital Surface Model, ground + objects) using "
-"a progressive morphological filter. Check the --dem* parameters for finer "
-"tuning. Default: %(default)s"
+"Automatically compute image masks using AI to remove the background. "
+"Experimental. Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:18
 #, python-format
 msgid ""
-"Octree depth used in the mesh reconstruction, increase to get more vertices, "
-"recommended values are 8-12. Default: %(default)s"
+"Do not attempt to merge partial reconstructions. This can happen when images "
+"do not have sufficient overlap or are isolated. Default: %(default)s"
 msgstr ""
-"Octree-diepte gebruikt bij de mesh-reconstructie, vergroot om meer "
-"hoekpunten te krijgen, aanbevolen waarden zijn 8-12. Standaard: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:19
+#, python-format
+msgid ""
+"Simple Morphological Filter slope parameter (rise over run). Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:20
+#, python-format
+msgid ""
+"Set a value in meters for the GPS Dilution of Precision (DOP) information "
+"for all images. If your images are tagged with high precision GPS "
+"information (RTK), this value will be automatically set accordingly. You can "
+"use this option to manually set it in case the reconstruction fails. "
+"Lowering this option can sometimes help control bowling-effects over large "
+"areas. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:21
+#, python-format
+msgid ""
+"Classify the point cloud outputs. You can control the behavior of this "
+"option by tweaking the --dem-* parameters. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:22
 #, python-format
 msgid ""
 "Set the radiometric calibration to perform on images. When processing "
@@ -1520,77 +1544,98 @@ msgid ""
 "the sun. Can be one of: %(choices)s. Default: %(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:20
-#, python-format
-msgid ""
-"Set this parameter if you want to generate a Google Earth (KMZ) rendering of "
-"the orthophoto. Default: %(default)s"
-msgstr ""
-"Zet deze parameter aan als je een Google Earth (KMZ) orthofoto wil "
-"genereren. Standaard: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:21
-#, python-format
-msgid ""
-"Skip generation of PDF report. This can save time if you don't need a "
-"report. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:22
-msgid "Copy output results to this folder after processing."
-msgstr "Kopieer verwerkte resultaten naar deze map na verwerking."
-
 #: app/static/app/js/translations/odm_autogenerated.js:23
 #, python-format
 msgid ""
-"The maximum number of processes to use in various processes. Peak memory "
-"requirement is ~1GB per thread and 2 megapixel image resolution. Default: "
-"%(default)s"
+"Use a full 3D mesh to compute the orthophoto instead of a 2.5D mesh. This "
+"option is a bit faster and provides similar results in planar areas. "
+"Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:24
 #, python-format
 msgid ""
-"Generate OBJs that have a single material and a single texture file instead "
-"of multiple ones. Default:  %(default)s"
+"Keep faces in the mesh that are not seen in any camera. Default:  %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:25
 #, python-format
 msgid ""
-"Name of dataset (i.e subfolder name within project folder). Default: "
-"%(default)s"
+"DSM/DTM resolution in cm / pixel. Note that this value is capped by a ground "
+"sampling distance (GSD) estimate. Default: %(default)s"
 msgstr ""
+"DSM/DTM resolutie in cm / pixel. Deze waarde wordt bepaald door de ground "
+"sampling distance (GSD) schatting. Standaard: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:26
 #, python-format
 msgid ""
-"End processing at this stage. Can be one of: %(choices)s. Default: "
-"%(default)s"
+"When processing multispectral datasets, you can specify the name of the "
+"primary band that will be used for reconstruction. It's recommended to "
+"choose a band which has sharp details and is in focus. Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:27
 #, python-format
 msgid ""
-"Rerun processing from this stage. Can be one of: %(choices)s. Default: "
-"%(default)s"
+"Build orthophoto overviews for faster display in programs such as QGIS. "
+"Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:28
 #, python-format
 msgid ""
-"Automatically compute image masks using AI to remove the background. "
-"Experimental. Default: %(default)s"
+"Computes an euclidean raster map for each DEM. The map reports the distance "
+"from each cell to the nearest NODATA value (before any hole filling takes "
+"place). This can be useful to isolate the areas that have been filled. "
+"Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:29
 #, python-format
 msgid ""
-"Simple Morphological Filter slope parameter (rise over run). Default: "
-"%(default)s"
+"Set the compression to use for orthophotos. Can be one of: %(choices)s. "
+"Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:30
+#, python-format
+msgid "The maximum vertex count of the output mesh. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:31
+#, python-format
+msgid ""
+"Path to the image geolocation file containing the camera center coordinates "
+"used for georeferencing. If you don't have values for yaw/pitch/roll you can "
+"set them to 0. The file needs to use the following format: EPSG:<code> or <"
+"+proj definition>image_name geo_x geo_y geo_z [yaw (degrees)] [pitch "
+"(degrees)] [roll (degrees)] [horz accuracy (meters)] [vert accuracy "
+"(meters)]Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:32
+#, python-format
+msgid ""
+"Set feature extraction quality. Higher quality generates better features, "
+"but requires more memory and takes longer. Can be one of: %(choices)s. "
+"Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:33
+#, python-format
+msgid ""
+"Geometric estimates improve the accuracy of the point cloud by computing "
+"geometrically consistent depthmaps but may not be usable in larger datasets. "
+"This flag disables geometric estimates. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:34
+#, python-format
+msgid "Set this parameter if you want a striped GeoTIFF. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:35
 #, python-format
 msgid ""
 "Specify the distance between camera shot locations and the outer edge of the "
@@ -1598,7 +1643,46 @@ msgid ""
 "automatically choose a value. Default: %(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:31
+#: app/static/app/js/translations/odm_autogenerated.js:36
+#, python-format
+msgid ""
+"Skip alignment of submodels in split-merge. Useful if GPS is good enough on "
+"very large datasets. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:37
+#, python-format
+msgid ""
+"Generate single file Binary glTF (GLB) textured models. Default:  %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:38
+#, python-format
+msgid ""
+"Generate OBJs that have a single material and a single texture file instead "
+"of multiple ones. Default:  %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:39
+#, python-format
+msgid ""
+"Number of steps used to fill areas with gaps. Set to 0 to disable gap "
+"filling. Starting with a radius equal to the output resolution, N different "
+"DEMs are generated with progressively bigger radius using the inverse "
+"distance weighted (IDW) algorithm and merged together. Remaining gaps are "
+"then merged using nearest neighbor interpolation. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:40
+#, python-format
+msgid ""
+"Set point cloud quality. Higher quality generates better, denser point "
+"clouds, but requires more memory and takes longer. Each step up in quality "
+"increases processing time roughly by a factor of 4x.Can be one of: "
+"%(choices)s. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:41
 #, python-format
 msgid ""
 "Delete heavy intermediate files to optimize disk space usage. This affects "
@@ -1612,20 +1696,38 @@ msgstr ""
 "op machines die niet over voldoende schijfruimte beschikken. Standaard: "
 "%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:32
+#: app/static/app/js/translations/odm_autogenerated.js:42
 #, python-format
 msgid ""
-"Generate single file Binary glTF (GLB) textured models. Default:  %(default)s"
+"Skip normalization of colors across all images. Useful when processing "
+"radiometric data. Default: %(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:33
+#: app/static/app/js/translations/odm_autogenerated.js:43
 #, python-format
 msgid ""
-"Save the georeferenced point cloud in Cloud Optimized Point Cloud (COPC) "
-"format. Default: %(default)s"
+"Export the georeferenced point cloud in LAS format. Default: %(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:34
+#: app/static/app/js/translations/odm_autogenerated.js:44
+#, python-format
+msgid ""
+"Filters the point cloud by keeping only a single point around a radius N (in "
+"meters). This can be useful to limit the output resolution of the point "
+"cloud and remove duplicate points. Set to 0 to disable sampling. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:45
+#, python-format
+msgid ""
+"Path to the file containing the ground control points used for "
+"georeferencing. The file needs to use the following format: EPSG:<code> or <"
+"+proj definition>geo_x geo_y geo_z im_x im_y image_name [gcp_name] [extra1] "
+"[extra2]Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:46
 #, python-format
 msgid ""
 "Skip generation of the orthophoto. This can save time if you only need 3D "
@@ -1634,7 +1736,69 @@ msgstr ""
 "Sla creëren van orthofoto over. Dit scheelt tijd als je alleen 3D resultaten "
 "of DEMs nodig hebt. Standaard: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:35
+#: app/static/app/js/translations/odm_autogenerated.js:47
+msgid "show this help message and exit"
+msgstr "Toon deze help boodschap en sluit af"
+
+#: app/static/app/js/translations/odm_autogenerated.js:48
+#, python-format
+msgid ""
+"Rerun processing from this stage. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:49
+#, python-format
+msgid ""
+"Skip generation of PDF report. This can save time if you don't need a "
+"report. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:50
+#, python-format
+msgid ""
+"Simple Morphological Filter window radius parameter (meters). Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:51
+msgid ""
+"Path to the project folder. Your project folder should contain subfolders "
+"for each dataset. Each dataset should have an \"images\" folder."
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:52
+#, python-format
+msgid ""
+"Use this tag to build a DSM (Digital Surface Model, ground + objects) using "
+"a progressive morphological filter. Check the --dem* parameters for finer "
+"tuning. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:53
+#, python-format
+msgid "Generate OGC 3D Tiles outputs. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:54
+#, python-format
+msgid ""
+"Name of dataset (i.e subfolder name within project folder). Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:55
+#, python-format
+msgid ""
+"Export the georeferenced point cloud in Entwine Point Tile (EPT) format. "
+"Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:56
+msgid "Displays version number and exits. "
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:57
 #, python-format
 msgid ""
 "Use this tag if you have a GCP File but want to use the EXIF information for "
@@ -1644,40 +1808,24 @@ msgstr ""
 "uit de afbeeldingen wil gebruiken voor het georefereren. Standaard: "
 "%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:36
+#: app/static/app/js/translations/odm_autogenerated.js:58
 #, python-format
 msgid ""
-"GeoJSON polygon limiting the area of the reconstruction. Can be specified "
-"either as path to a GeoJSON file or as a JSON string representing the "
-"contents of a GeoJSON file. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:37
-#, python-format
-msgid ""
-"Filters the point cloud by removing points that deviate more than N standard "
-"deviations from the local mean. Set to 0 to disable filtering. Default: "
+"Skips dense reconstruction and 3D model generation. It generates an "
+"orthophoto directly from the sparse reconstruction. If you just need an "
+"orthophoto and do not need a full 3D model, turn on this option. Default: "
 "%(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:38
+#: app/static/app/js/translations/odm_autogenerated.js:59
 #, python-format
 msgid ""
-"Average number of images per submodel. When splitting a large dataset into "
-"smaller submodels, images are grouped into clusters. This value regulates "
-"the number of images that each cluster should have on average. Default: "
-"%(default)s"
+"Perform ground rectification on the point cloud. This means that wrongly "
+"classified ground points will be re-classified and gaps will be filled. "
+"Useful for generating DTMs. Default: %(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:39
-#, python-format
-msgid ""
-"Use this tag to build a DTM (Digital Terrain Model, ground only) using a "
-"simple morphological filter. Check the --dem* and --smrf* parameters for "
-"finer tuning. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:40
+#: app/static/app/js/translations/odm_autogenerated.js:60
 #, python-format
 msgid ""
 "Override the rolling shutter readout time for your camera sensor (in "
@@ -1686,7 +1834,7 @@ msgid ""
 "database value. Default: %(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:41
+#: app/static/app/js/translations/odm_autogenerated.js:61
 #, python-format
 msgid ""
 "URL to a ClusterODM instance for distributing a split-merge workflow on "
@@ -1695,113 +1843,32 @@ msgstr ""
 "URL naar een ClusterODM-instantie voor het parallel distribueren van een "
 "split-merge-workflow op meerdere knooppunten. Standaard: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:42
+#: app/static/app/js/translations/odm_autogenerated.js:62
 #, python-format
 msgid ""
-"Use the camera parameters computed from another dataset instead of "
-"calculating them. Can be specified either as path to a cameras.json file or "
-"as a JSON string representing the contents of a cameras.json file. Default: "
+"Orthophoto resolution in cm / pixel. Note that this value is capped by a "
+"ground sampling distance (GSD) estimate.Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:63
+#, python-format
+msgid ""
+"Set this parameter if you want to generate a Google Earth (KMZ) rendering of "
+"the orthophoto. Default: %(default)s"
+msgstr ""
+"Zet deze parameter aan als je een Google Earth (KMZ) orthofoto wil "
+"genereren. Standaard: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:64
+#, python-format
+msgid ""
+"Turn on rolling shutter correction. If the camera has a rolling shutter and "
+"the images were taken in motion, you can turn on this option to improve the "
+"accuracy of the results. See also --rolling-shutter-readout. Default: "
 "%(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:43
-#, python-format
-msgid ""
-"Keep faces in the mesh that are not seen in any camera. Default:  %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:44
-#, python-format
-msgid ""
-"Export the georeferenced point cloud in CSV format. Default: %(default)s"
-msgstr ""
-"Exporteer de geogerefereerde puntenwolk in CSV formaat. Standaard: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:45
-#, python-format
-msgid ""
-"Radius of the overlap between submodels. After grouping images into "
-"clusters, images that are closer than this radius to a cluster are added to "
-"the cluster. This is done to ensure that neighboring submodels overlap. "
-"Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:46
-#, python-format
-msgid ""
-"Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag of "
-"Words. FLANN is slower, but more stable. BOW is faster, but can sometimes "
-"miss valid matches. BRUTEFORCE is very slow but robust.Can be one of: "
-"%(choices)s. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:47
-#, python-format
-msgid ""
-"Path to the image groups file that controls how images should be split into "
-"groups. The file needs to use the following format: image_name "
-"group_nameDefault: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:48
-#, python-format
-msgid ""
-"Perform ground rectification on the point cloud. This means that wrongly "
-"classified ground points will be re-classified and gaps will be filled. "
-"Useful for generating DTMs. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:49
-#, python-format
-msgid ""
-"Maximum number of frames to extract from video files for processing. Set to "
-"0 for no limit. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:50
-#, python-format
-msgid ""
-"Automatically set a boundary using camera shot locations to limit the area "
-"of the reconstruction. This can help remove far away background artifacts "
-"(sky, background landscapes, etc.). See also --boundary. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:51
-#, python-format
-msgid ""
-"Do not use GPU acceleration, even if it's available. Default: %(default)s"
-msgstr ""
-"Gebruik geen GPU-versnelling, zelfs als dit beschikbaar is. Standaard: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:52
-#, python-format
-msgid ""
-"Export the georeferenced point cloud in Entwine Point Tile (EPT) format. "
-"Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:53
-msgid "show this help message and exit"
-msgstr "Toon deze help boodschap en sluit af"
-
-#: app/static/app/js/translations/odm_autogenerated.js:54
-#, python-format
-msgid ""
-"Do not attempt to merge partial reconstructions. This can happen when images "
-"do not have sufficient overlap or are isolated. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:55
-#, python-format
-msgid ""
-"Set feature extraction quality. Higher quality generates better features, "
-"but requires more memory and takes longer. Can be one of: %(choices)s. "
-"Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:56
+#: app/static/app/js/translations/odm_autogenerated.js:65
 #, python-format
 msgid ""
 "Use images' GPS exif data for reconstruction, even if there are GCPs present."
@@ -1809,143 +1876,37 @@ msgid ""
 "are no GCPs, this flag does nothing. Default: %(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:57
-#, python-format
-msgid "Set this parameter if you want a striped GeoTIFF. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:58
-#, python-format
-msgid ""
-"When processing multispectral datasets, you can specify the name of the "
-"primary band that will be used for reconstruction. It's recommended to "
-"choose a band which has sharp details and is in focus. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:59
-#, python-format
-msgid ""
-"Simple Morphological Filter elevation threshold parameter (meters). Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:60
-#, python-format
-msgid ""
-"Filters the point cloud by keeping only a single point around a radius N (in "
-"meters). This can be useful to limit the output resolution of the point "
-"cloud and remove duplicate points. Set to 0 to disable sampling. Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:61
-#, python-format
-msgid ""
-"Choose the structure from motion algorithm. For aerial datasets, if camera "
-"GPS positions and angles are available, triangulation can generate better "
-"results. For planar scenes captured at fixed altitude with nadir-only "
-"images, planar can be much faster. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:62
-#, python-format
-msgid ""
-"DSM/DTM resolution in cm / pixel. Note that this value is capped by a ground "
-"sampling distance (GSD) estimate. Default: %(default)s"
-msgstr ""
-"DSM/DTM resolutie in cm / pixel. Deze waarde wordt bepaald door de ground "
-"sampling distance (GSD) schatting. Standaard: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:63
-#, python-format
-msgid ""
-"The maximum output resolution of extracted video frames in pixels. Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:64
-#, python-format
-msgid ""
-"Path to the image geolocation file containing the camera center coordinates "
-"used for georeferencing. If you don't have values for yaw/pitch/roll you can "
-"set them to 0. The file needs to use the following format: EPSG:<code> or <"
-"+proj definition>image_name geo_x geo_y geo_z [yaw (degrees)] [pitch "
-"(degrees)] [roll (degrees)] [horz accuracy (meters)] [vert accuracy "
-"(meters)]Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:65
-#, python-format
-msgid ""
-"Set this parameter if you want to generate a PNG rendering of the "
-"orthophoto. Default: %(default)s"
-msgstr ""
-
 #: app/static/app/js/translations/odm_autogenerated.js:66
 #, python-format
 msgid ""
-"Simple Morphological Filter elevation scalar parameter. Default: %(default)s"
+"Decimate the points before generating the DEM. 1 is no decimation (full "
+"quality). 100 decimates ~99%% of the points. Useful for speeding up "
+"generation of DEM results in very large datasets. Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:67
 #, python-format
-msgid "The maximum vertex count of the output mesh. Default: %(default)s"
+msgid ""
+"Generates a polygon around the cropping area that cuts the orthophoto around "
+"the edges of features. This polygon can be useful for stitching seamless "
+"mosaics with multiple overlapping orthophotos. Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:68
 #, python-format
 msgid ""
-"Use a full 3D mesh to compute the orthophoto instead of a 2.5D mesh. This "
-"option is a bit faster and provides similar results in planar areas. "
-"Default: %(default)s"
+"When processing multispectral datasets, ODM will automatically align the "
+"images for each band. If the images have been postprocessed and are already "
+"aligned, use this option. Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:69
 #, python-format
 msgid ""
-"Turn off camera parameter optimization during bundle adjustment. This can be "
-"sometimes useful for improving results that exhibit doming/bowling or when "
-"images are taken with a rolling shutter camera. Default: %(default)s"
+"Simple Morphological Filter elevation scalar parameter. Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:70
-#, python-format
-msgid ""
-"Automatically compute image masks using AI to remove the sky. Experimental. "
-"Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:71
-#, python-format
-msgid ""
-"Export the georeferenced point cloud in LAS format. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:72
-#, python-format
-msgid ""
-"Classify the point cloud outputs. You can control the behavior of this "
-"option by tweaking the --dem-* parameters. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:73
-#, python-format
-msgid ""
-"Skip generation of a full 3D model. This can save time if you only need 2D "
-"results such as orthophotos and DEMs. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:74
-#, python-format
-msgid ""
-"Computes an euclidean raster map for each DEM. The map reports the distance "
-"from each cell to the nearest NODATA value (before any hole filling takes "
-"place). This can be useful to isolate the areas that have been filled. "
-"Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:75
 #, python-format
 msgid ""
 "Path to a GeoTIFF DEM or a LAS/LAZ point cloud that the reconstruction "
@@ -1955,20 +1916,113 @@ msgstr ""
 "Pad naar een GeoTIFF DEM of een LAS/LAZ puntenwolk waar de reconstructie "
 "output aan wordt uitgelijnd. Experimenteel. Standaard: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:76
+#: app/static/app/js/translations/odm_autogenerated.js:71
+#, python-format
 msgid ""
-"Path to the project folder. Your project folder should contain subfolders "
-"for each dataset. Each dataset should have an \"images\" folder."
+"The maximum output resolution of extracted video frames in pixels. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:72
+#, python-format
+msgid ""
+"The maximum number of processes to use in various processes. Peak memory "
+"requirement is ~1GB per thread and 2 megapixel image resolution. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:73
+#, python-format
+msgid ""
+"Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag of "
+"Words. FLANN is slower, but more stable. BOW is faster, but can sometimes "
+"miss valid matches. BRUTEFORCE is very slow but robust.Can be one of: "
+"%(choices)s. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:74
+#, python-format
+msgid ""
+"End processing at this stage. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:75
+#, python-format
+msgid ""
+"Save the georeferenced point cloud in Cloud Optimized Point Cloud (COPC) "
+"format. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:76
+#, python-format
+msgid ""
+"Filters the point cloud by removing points that deviate more than N standard "
+"deviations from the local mean. Set to 0 to disable filtering. Default: "
+"%(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:77
 #, python-format
 msgid ""
-"Generate static tiles for orthophotos and DEMs that are suitable for viewers "
-"like Leaflet or OpenLayers. Default: %(default)s"
+"Average number of images per submodel. When splitting a large dataset into "
+"smaller submodels, images are grouped into clusters. This value regulates "
+"the number of images that each cluster should have on average. Default: "
+"%(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:78
+#, python-format
+msgid ""
+"Perform image matching with the nearest images based on GPS exif data. Set "
+"to 0 to match by triangulation. Default: %(default)s"
+msgstr ""
+"Voer afbeeldingsmatching uit met de dichtstbijzijnde afbeeldingen op basis "
+"van GPS exif-gegevens. Stel in op 0 om te matchen via triangulatie. "
+"Standaard: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:79
+#, python-format
+msgid ""
+"Choose the algorithm for extracting keypoints and computing descriptors. Can "
+"be one of: %(choices)s. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:80
+#, python-format
+msgid ""
+"GeoJSON polygon limiting the area of the reconstruction. Can be specified "
+"either as path to a GeoJSON file or as a JSON string representing the "
+"contents of a GeoJSON file. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:81
+#, python-format
+msgid ""
+"Radius of the overlap between submodels. After grouping images into "
+"clusters, images that are closer than this radius to a cluster are added to "
+"the cluster. This is done to ensure that neighboring submodels overlap. "
+"Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:82
+#, python-format
+msgid ""
+"Run local bundle adjustment for every image added to the reconstruction and "
+"a global adjustment every 100 images. Speeds up reconstruction for very "
+"large datasets. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:83
+#, python-format
+msgid ""
+"Set a camera projection type. Manually setting a value can help improve "
+"geometric undistortion. By default the application tries to determine a lens "
+"type from the images metadata. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:84
 #, python-format
 msgid ""
 "Minimum number of features to extract per image. More features can be useful "
@@ -1977,88 +2031,15 @@ msgid ""
 "features also slow down processing. Default: %(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:79
-#, python-format
-msgid ""
-"Perform image matching with the nearest N images based on image filename "
-"order. Can speed up processing of sequential images, such as those extracted "
-"from video. It is applied only on non-georeferenced datasets. Set to 0 to "
-"disable. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:80
-#, python-format
-msgid ""
-"Automatically crop image outputs by creating a smooth buffer around the "
-"dataset boundaries, shrunk by N meters. Use 0 to disable cropping. Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:81
-#, python-format
-msgid "Generate OGC 3D Tiles outputs. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:82
-#, python-format
-msgid ""
-"Orthophoto resolution in cm / pixel. Note that this value is capped by a "
-"ground sampling distance (GSD) estimate.Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:83
-#, python-format
-msgid ""
-"Set a value in meters for the GPS Dilution of Precision (DOP) information "
-"for all images. If your images are tagged with high precision GPS "
-"information (RTK), this value will be automatically set accordingly. You can "
-"use this option to manually set it in case the reconstruction fails. "
-"Lowering this option can sometimes help control bowling-effects over large "
-"areas. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:84
-#, python-format
-msgid ""
-"Turn on rolling shutter correction. If the camera has a rolling shutter and "
-"the images were taken in motion, you can turn on this option to improve the "
-"accuracy of the results. See also --rolling-shutter-readout. Default: "
-"%(default)s"
-msgstr ""
-
 #: app/static/app/js/translations/odm_autogenerated.js:85
 #, python-format
 msgid ""
-"Decimate the points before generating the DEM. 1 is no decimation (full "
-"quality). 100 decimates ~99%% of the points. Useful for speeding up "
-"generation of DEM results in very large datasets. Default: %(default)s"
+"Path to the image groups file that controls how images should be split into "
+"groups. The file needs to use the following format: image_name "
+"group_nameDefault: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:86
-#, python-format
-msgid ""
-"Set the compression to use for orthophotos. Can be one of: %(choices)s. "
-"Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:87
-#, python-format
-msgid ""
-"Skip alignment of submodels in split-merge. Useful if GPS is good enough on "
-"very large datasets. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:88
-#, python-format
-msgid ""
-"Number of steps used to fill areas with gaps. Set to 0 to disable gap "
-"filling. Starting with a radius equal to the output resolution, N different "
-"DEMs are generated with progressively bigger radius using the inverse "
-"distance weighted (IDW) algorithm and merged together. Remaining gaps are "
-"then merged using nearest neighbor interpolation. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:89
 #, python-format
 msgid ""
 "Ignore Ground Sampling Distance (GSD).A memory and processor hungry change "
@@ -2070,34 +2051,59 @@ msgid ""
 "you need it, and even then: do not use it. Default: %(default)s"
 msgstr ""
 
+#: app/static/app/js/translations/odm_autogenerated.js:87
+#, python-format
+msgid ""
+"Automatically compute image masks using AI to remove the sky. Experimental. "
+"Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:88
+#, python-format
+msgid ""
+"Create Cloud-Optimized GeoTIFFs instead of normal GeoTIFFs. Default: "
+"%(default)s"
+msgstr ""
+"Creëer Cloud-Optimized GeoTIFFs in plaats van normale GeoTIFFs. Standaard: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:89
+#, python-format
+msgid ""
+"Turn off camera parameter optimization during bundle adjustment. This can be "
+"sometimes useful for improving results that exhibit doming/bowling or when "
+"images are taken with a rolling shutter camera. Default: %(default)s"
+msgstr ""
+
 #: app/static/app/js/translations/odm_autogenerated.js:90
 #, python-format
 msgid ""
-"Simple Morphological Filter window radius parameter (meters). Default: "
-"%(default)s"
+"Generate static tiles for orthophotos and DEMs that are suitable for viewers "
+"like Leaflet or OpenLayers. Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:91
 #, python-format
 msgid ""
-"Run local bundle adjustment for every image added to the reconstruction and "
-"a global adjustment every 100 images. Speeds up reconstruction for very "
-"large datasets. Default: %(default)s"
+"Do not use GPU acceleration, even if it's available. Default: %(default)s"
 msgstr ""
+"Gebruik geen GPU-versnelling, zelfs als dit beschikbaar is. Standaard: "
+"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:92
 #, python-format
 msgid ""
-"Geometric estimates improve the accuracy of the point cloud by computing "
-"geometrically consistent depthmaps but may not be usable in larger datasets. "
-"This flag disables geometric estimates. Default: %(default)s"
+"Octree depth used in the mesh reconstruction, increase to get more vertices, "
+"recommended values are 8-12. Default: %(default)s"
 msgstr ""
+"Octree-diepte gebruikt bij de mesh-reconstructie, vergroot om meer "
+"hoekpunten te krijgen, aanbevolen waarden zijn 8-12. Standaard: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:93
 #, python-format
 msgid ""
-"Build orthophoto overviews for faster display in programs such as QGIS. "
-"Default: %(default)s"
+"Set this parameter if you want to generate a PNG rendering of the "
+"orthophoto. Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:3
@@ -2943,6 +2949,9 @@ msgstr "Vierkante mijl"
 #: coreplugins/measure/public/app.jsx:65
 msgid "Export Measurements"
 msgstr "Metingen exporteren"
+
+#~ msgid "OSM Mapnik"
+#~ msgstr "OSM Mapnik"
 
 #~ msgid "Import Existing Assets"
 #~ msgstr "Importeer Bestaande Bestanden"

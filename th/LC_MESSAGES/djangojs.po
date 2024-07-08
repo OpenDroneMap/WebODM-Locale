@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-03 03:30+0000\n"
+"POT-Creation-Date: 2024-07-08 16:19+0000\n"
 "PO-Revision-Date: 2022-05-15 17:17+0000\n"
 "Last-Translator: Chingchai Humhong <chingchai.h@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/webodm/react-ui/th/"
@@ -49,23 +49,29 @@ msgstr "เพิ่มโปรเจค"
 msgid "Your changes will be lost. Are you sure you want to leave?"
 msgstr "การเปลี่ยนแปลงของคุณจะสูญหาย.คุณแน่ใจหรือว่าต้องการออก?"
 
-#: app/static/app/js/MapView.jsx:90
+#: app/static/app/js/MapView.jsx:108
 #: app/static/app/js/classes/AssetDownloads.js:46
 #: app/static/app/js/classes/PipelineSteps.js:47
-#: app/static/app/js/components/Map.jsx:89
+#: app/static/app/js/components/Map.jsx:91
 msgid "Orthophoto"
 msgstr "ภาพ ออร์โธ"
 
-#: app/static/app/js/MapView.jsx:95 app/static/app/js/components/Map.jsx:91
+#: app/static/app/js/MapView.jsx:113 app/static/app/js/components/Map.jsx:93
+#, fuzzy
+#| msgid "Normal"
+msgid "Thermal"
+msgstr "ปกติ"
+
+#: app/static/app/js/MapView.jsx:113 app/static/app/js/components/Map.jsx:93
 msgid "Plant Health"
 msgstr "สุขภาพของพืช"
 
-#: app/static/app/js/MapView.jsx:100
+#: app/static/app/js/MapView.jsx:118
 #: app/static/app/js/classes/AssetDownloads.js:51
 msgid "Surface Model"
 msgstr "แบบจำลองพื้นผิว"
 
-#: app/static/app/js/MapView.jsx:105
+#: app/static/app/js/MapView.jsx:123
 #: app/static/app/js/classes/AssetDownloads.js:49
 msgid "Terrain Model"
 msgstr "แบบจำลองภูมิประเทศ"
@@ -78,7 +84,7 @@ msgstr "ไม่สามารถตั้งค่าเริ่มต้น
 msgid "set initial camera view"
 msgstr "ตั้งค่าเริ่มต้นมุมมองของกล้อง"
 
-#: app/static/app/js/ModelView.jsx:84 app/static/app/js/components/Map.jsx:339
+#: app/static/app/js/ModelView.jsx:84 app/static/app/js/components/Map.jsx:341
 msgid "Cameras"
 msgstr "กล้อง"
 
@@ -147,7 +153,7 @@ msgid "Camera Shots"
 msgstr "กล้อง"
 
 #: app/static/app/js/classes/AssetDownloads.js:60
-#: app/static/app/js/components/Map.jsx:393
+#: app/static/app/js/components/Map.jsx:395
 #, fuzzy
 #| msgid "Camera Shots (GeoJSON)"
 msgid "Ground Control Points"
@@ -170,8 +176,8 @@ msgid "ESRI Satellite"
 msgstr "ผู้เชี่ยวชาญด้านดาวเทียม"
 
 #: app/static/app/js/classes/Basemaps.js:26
-msgid "OSM Mapnik"
-msgstr "OSM Mapnik"
+msgid "OpenStreetMap"
+msgstr ""
 
 #: app/static/app/js/classes/PendingActions.js:11
 msgid "Canceling..."
@@ -489,7 +495,7 @@ msgstr "ไม่สามารถโหลดรายการไฟล์ท
 #: app/static/app/js/components/EditTaskForm.jsx:230
 #: app/static/app/js/components/EditTaskForm.jsx:393
 #: app/static/app/js/components/ExportAssetPanel.jsx:185
-#: app/static/app/js/components/Map.jsx:504
+#: app/static/app/js/components/Map.jsx:506
 #: coreplugins/contours/public/ContoursPanel.jsx:301
 #: coreplugins/contours/public/ContoursPanel.jsx:328
 #: coreplugins/contours/public/ContoursPanel.jsx:347
@@ -814,7 +820,7 @@ msgid "Shading:"
 msgstr "แรงเงา:"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:362
-#: app/static/app/js/components/Map.jsx:505
+#: app/static/app/js/components/Map.jsx:507
 msgid "None"
 msgstr "ไม่มี"
 
@@ -837,44 +843,44 @@ msgstr "กำลังโหลด…"
 msgid "Layers"
 msgstr "ระดับ"
 
-#: app/static/app/js/components/Map.jsx:93
+#: app/static/app/js/components/Map.jsx:95
 msgid "DSM"
 msgstr "DSM"
 
-#: app/static/app/js/components/Map.jsx:95
+#: app/static/app/js/components/Map.jsx:97
 msgid "DTM"
 msgstr "การจำลองความสูงของภูมิประเทศ"
 
-#: app/static/app/js/components/Map.jsx:485
+#: app/static/app/js/components/Map.jsx:487
 msgid "Enter a tile URL template. Valid coordinates are:"
 msgstr "ป้อน tile URT แบบฟอร์มพิกัดที่ถูกต้องคือ:"
 
-#: app/static/app/js/components/Map.jsx:486
+#: app/static/app/js/components/Map.jsx:488
 #, python-brace-format
 msgid "{z}, {x}, {y} for Z/X/Y tile scheme"
 msgstr "{z}, {x}, {y} สำหรับ Z/X/Y รูปแบบ tile"
 
-#: app/static/app/js/components/Map.jsx:487
+#: app/static/app/js/components/Map.jsx:489
 msgid "{-y} for flipped TMS-style Y coordinates"
 msgstr "{-y} สำหรับพิกัด Y TMS-style ที่พลิกกลับ"
 
-#: app/static/app/js/components/Map.jsx:489
+#: app/static/app/js/components/Map.jsx:491
 msgid "Example:"
 msgstr "ตัวอย่าง:"
 
-#: app/static/app/js/components/Map.jsx:557
+#: app/static/app/js/components/Map.jsx:559
 msgid "Add a temporary GeoJSON (.json) or ShapeFile (.zip) overlay"
 msgstr "เพิ่ม GeoJSON (.json) ชั่วคราว หรือ ShapeFile (.zip) ซ้อนทับ"
 
-#: app/static/app/js/components/Map.jsx:614
+#: app/static/app/js/components/Map.jsx:616
 msgid "Error: cannot load assets list."
 msgstr "ข้อผิดพลาด: ไม่สามารถโหลดรายการ assets"
 
-#: app/static/app/js/components/Map.jsx:708
+#: app/static/app/js/components/Map.jsx:710
 msgid "Opacity:"
 msgstr "ความทึบ:"
 
-#: app/static/app/js/components/Map.jsx:712
+#: app/static/app/js/components/Map.jsx:714
 #: app/static/app/js/components/TaskList.jsx:143
 msgid "Loading..."
 msgstr "กำลังโหลด"
@@ -1373,71 +1379,99 @@ msgid "%(count)s files uploaded successfully"
 msgstr "อัปโหลดไฟล์ %(count)s สำเร็จแล้ว"
 
 #: app/static/app/js/translations/odm_autogenerated.js:3
-#, python-format
-msgid ""
-"Skips dense reconstruction and 3D model generation. It generates an "
-"orthophoto directly from the sparse reconstruction. If you just need an "
-"orthophoto and do not need a full 3D model, turn on this option. Default: "
-"%(default)s"
-msgstr ""
-"ข้ามการสร้างใหม่แบบทึบและการสร้างแบบจำลอง 3 มิติ มันสร้าง ภาพถ่าย ออร์โธ โดยตรง "
-"จากการสร้างใหม่แบบบาง หากคุณต้องการเพียงแค่ภาพถ่าย ออร์โธและไม่ต้องการแบบจำลอง 3 "
-"มิติแบบเต็ม ให้เปิดตัวเลือกนี้ ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:4
-#, python-format
-msgid ""
-"Path to the file containing the ground control points used for "
-"georeferencing. The file needs to use the following format: EPSG:<code> or <"
-"+proj definition>geo_x geo_y geo_z im_x im_y image_name [gcp_name] [extra1] "
-"[extra2]Default: %(default)s"
-msgstr ""
-"แนวทางไปยังไฟล์ที่มีจุดควบคุมภาคพื้นดินที่ใช้สำหรับการอ้างอิงทางภูมิศาสตร์ ไฟล์ต้องใช้รูปแบบต่อไปนี้: "
-"EPSG:<code> or <+proj definition>geo_x geo_y geo_z im_x im_y image_name "
-"[gcp_name] [extra1] [extra2]Default: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:5
-#, python-format
-msgid ""
-"Create Cloud-Optimized GeoTIFFs instead of normal GeoTIFFs. Default: "
-"%(default)s"
-msgstr "สร้าง Cloud-Optimized GeoTIFF แทนที่ GeoTIFF ปกติ ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:6
-#, python-format
-msgid ""
-"Skip normalization of colors across all images. Useful when processing "
-"radiometric data. Default: %(default)s"
-msgstr ""
-"ข้ามการทำให้สีเป็นปกติในทุกภาพ เพื่อประโยชน์ของ processing radiometric data ค่าเริ่มต้น: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:7
 #, fuzzy, python-format
 #| msgid ""
 #| "Number of nearest images to pre-match based on GPS exif data. Set to 0 to "
 #| "skip pre-matching. Neighbors works together with Distance parameter, set "
 #| "both to 0 to not use pre-matching. Default: %(default)s"
 msgid ""
-"Perform image matching with the nearest images based on GPS exif data. Set "
-"to 0 to match by triangulation. Default: %(default)s"
+"Perform image matching with the nearest N images based on image filename "
+"order. Can speed up processing of sequential images, such as those extracted "
+"from video. It is applied only on non-georeferenced datasets. Set to 0 to "
+"disable. Default: %(default)s"
 msgstr ""
 "จำนวนภาพที่ใกล้เคียงที่สุดที่จะจับคู่ล่วงหน้าตามข้อมูล GPS exif ตั้งค่าเป็น 0 เพื่อข้ามการจับคู่ล่วงหน้า "
 "Neighbors ทำงานร่วมกับDistance parameter ตั้งค่าทั้งคู่เป็น 0 เพื่อไม่ใช้การจับคู่ล่วงหน้า "
 "ค่าเริ่มต้น: %(default)s"
 
+#: app/static/app/js/translations/odm_autogenerated.js:4
+#, python-format
+msgid ""
+"Export the georeferenced point cloud in CSV format. Default: %(default)s"
+msgstr "ส่งออกpoint cloudที่อ้างอิงทางภูมิศาสตร์ในรูปแบบ CSV ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:5
+#, python-format
+msgid ""
+"Simple Morphological Filter elevation threshold parameter (meters). Default: "
+"%(default)s"
+msgstr ""
+"พารามิเตอร์เกณฑ์ความสูงของ Simple Morphological Filter (เมตร) ค่าเริ่มต้น: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:6
+#, python-format
+msgid ""
+"Automatically set a boundary using camera shot locations to limit the area "
+"of the reconstruction. This can help remove far away background artifacts "
+"(sky, background landscapes, etc.). See also --boundary. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:7
+msgid "Copy output results to this folder after processing."
+msgstr "คัดลอกผลลัพธ์ไปยังโฟลเดอร์นี้หลังจากประมวลผล"
+
 #: app/static/app/js/translations/odm_autogenerated.js:8
 #, python-format
 msgid ""
-"Generates a polygon around the cropping area that cuts the orthophoto around "
-"the edges of features. This polygon can be useful for stitching seamless "
-"mosaics with multiple overlapping orthophotos. Default: %(default)s"
+"Maximum number of frames to extract from video files for processing. Set to "
+"0 for no limit. Default: %(default)s"
 msgstr ""
-"สร้างรูปหลายเหลี่ยมรอบๆ พื้นที่การครอบตัด ที่ตัดภาพถ่าย ออร์โธ รอบขอบของจุดสนใจ "
-"รูปหลายเหลี่ยมนี้สามารถเป็นประโยชน์สำหรับการต่อภาพmosaics with multiple ภาพถ่าย ออร์โธ "
-"ที่ทับซ้อนกันหลายภาพ ค่าเริ่มต้น: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:9
+#, python-format
+msgid ""
+"Skip generation of a full 3D model. This can save time if you only need 2D "
+"results such as orthophotos and DEMs. Default: %(default)s"
+msgstr ""
+"ข้ามการสร้างแบบจำลอง 3 มิติแบบเต็ม วิธีนี้จะช่วยประหยัดเวลาได้หากคุณต้องการแค่ผลลัพธ์ 2มิติ เช่น "
+"ภาพถ่าย ออร์โธ และ DEM ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:10
+#, fuzzy, python-format
+#| msgid ""
+#| "Choose the algorithm for extracting keypoints and computing descriptors. "
+#| "Can be one of: %(choices)s. Default: %(default)s"
+msgid ""
+"Choose the structure from motion algorithm. For aerial datasets, if camera "
+"GPS positions and angles are available, triangulation can generate better "
+"results. For planar scenes captured at fixed altitude with nadir-only "
+"images, planar can be much faster. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"เลือกขั้นตอนสำหรับการแยกประเด็นสำคัญและตัวอธิบายการคำนวณ สามารถเป็นหนึ่งใน: %(choices)s."
+"ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:11
+#, python-format
+msgid ""
+"Rerun this stage only and stop. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"เรียกใช้ขั้นตอนนี้ใหม่เท่านั้นและหยุด สามารถเป็นหนึ่งใน: %(choices)s ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:12
+#, python-format
+msgid ""
+"Use this tag to build a DTM (Digital Terrain Model, ground only) using a "
+"simple morphological filter. Check the --dem* and --smrf* parameters for "
+"finer tuning. Default: %(default)s"
+msgstr ""
+"ใช้แท็กนี้เพื่อสร้าง DTM (Digital Terrain Model, ground เท่านั้น) โดยใช้simple "
+"morphological filter ตรวจสอบ --dem* และ --smrf*ของ parameters "
+"สำหรับการปรับแต่งที่ละเอียดยิ่งขึ้น ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:13
 #, python-format
 msgid ""
 "Choose what to merge in the merge step in a split dataset. By default all "
@@ -1446,89 +1480,90 @@ msgstr ""
 "เลือกสิ่งที่จะผสานในขั้นตอนการรวมในชุดข้อมูลแยก โดยค่าเริ่มต้น "
 "outputsที่มีอยู่ทั้งหมดจะถูกรวมเข้าด้วยกัน ตัวเลือก: %(choices)s ค่าเริ่มต้น: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:10
-#, python-format
+#: app/static/app/js/translations/odm_autogenerated.js:14
+#, fuzzy, python-format
+#| msgid ""
+#| "Automatically crop image outputs by creating a smooth buffer around the "
+#| "dataset boundaries, shrinked by N meters. Use 0 to disable cropping. "
+#| "Default: %(default)s"
 msgid ""
-"Rerun this stage only and stop. Can be one of: %(choices)s. Default: "
+"Automatically crop image outputs by creating a smooth buffer around the "
+"dataset boundaries, shrunk by N meters. Use 0 to disable cropping. Default: "
 "%(default)s"
 msgstr ""
-"เรียกใช้ขั้นตอนนี้ใหม่เท่านั้นและหยุด สามารถเป็นหนึ่งใน: %(choices)s ค่าเริ่มต้น: %(default)s"
+"ครอบตัดรูปภาพ outputsโดยอัตโนมัติโดยสร้างbufferที่ราบรื่นรอบๆ ขอบเขตชุดข้อมูล โดยย่อขนาดลง "
+"N เมตร ใช้ 0 เพื่อปิดใช้งานการครอบตัด ค่าเริ่มต้น: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:11
-#, python-format
-msgid ""
-"When processing multispectral datasets, ODM will automatically align the "
-"images for each band. If the images have been postprocessed and are already "
-"aligned, use this option. Default: %(default)s"
-msgstr ""
-"เมื่อประมวลผลชุดข้อมูลแบบ multispectral ODM จะจัดแนวรูปภาพสำหรับแต่ละแถวโดยอัตโนมัติ "
-"หากภาพได้รับการประมวลผลภายหลังและจัดแนวแล้ว ให้ใช้ตัวเลือกนี้ ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:12
-#, python-format
-msgid ""
-"Set point cloud quality. Higher quality generates better, denser point "
-"clouds, but requires more memory and takes longer. Each step up in quality "
-"increases processing time roughly by a factor of 4x.Can be one of: "
-"%(choices)s. Default: %(default)s"
-msgstr ""
-"กำหนดคุณภาพของระบบpoint cloud คุณภาพที่สูงขึ้นจะสร้างpoint cloudsเพิ่มขึ้น "
-"แต่ต้องการหน่วยความจำมากขึ้นและใช้เวลานานขึ้น "
-"การเพิ่มคุณภาพแต่ละครั้งจะเพิ่มเวลาในการประมวลผลโดยประมาณ 4 เท่า สามารถเป็นหนึ่งใน: "
-"%(choices)s ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:13
-msgid "Displays version number and exits. "
-msgstr "แสดงหมายเลข version and exits. "
-
-#: app/static/app/js/translations/odm_autogenerated.js:14
+#: app/static/app/js/translations/odm_autogenerated.js:15
 msgid ""
 "Permanently delete all previous results and rerun the processing pipeline."
 msgstr "processing pipelineผลลัพธ์ก่อนหน้าลบทั้งหมดอย่างถาวรและเริ่มใหม่อีกครั้ง"
 
-#: app/static/app/js/translations/odm_autogenerated.js:15
-#, python-format
-msgid ""
-"Set a camera projection type. Manually setting a value can help improve "
-"geometric undistortion. By default the application tries to determine a lens "
-"type from the images metadata. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-"ตั้งค่าประเภทการฉายภาพของกล้อง "
-"การตั้งค่าด้วยตนเองสามารถช่วยปรับปรุงการเปลี่ยนแปลงทางเรขาคณิต โดยค่าเริ่มต้น "
-"แอปพลิเคชันจะพยายามกำหนดประเภทเลนส์จากmetadataของรูปภาพ สามารถเป็นหนึ่งใน: "
-"%(choices)s ค่าเริ่มต้น: %(default)s"
-
 #: app/static/app/js/translations/odm_autogenerated.js:16
 #, python-format
 msgid ""
-"Choose the algorithm for extracting keypoints and computing descriptors. Can "
-"be one of: %(choices)s. Default: %(default)s"
+"Use the camera parameters computed from another dataset instead of "
+"calculating them. Can be specified either as path to a cameras.json file or "
+"as a JSON string representing the contents of a cameras.json file. Default: "
+"%(default)s"
 msgstr ""
-"เลือกขั้นตอนสำหรับการแยกประเด็นสำคัญและตัวอธิบายการคำนวณ สามารถเป็นหนึ่งใน: %(choices)s."
-"ค่าเริ่มต้น: %(default)s"
+"ใช้กล้องparametersที่คำนวณจากชุดข้อมูลอื่นแทนการคำนวณ สามารถระบุเป็นเส้นทางไปยังไฟล์ กล้อง."
+"json หรือเป็น JSON string ที่แสดงเนื้อหาของไฟล์ กล้อง.json ค่าเริ่มต้น: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:17
 #, python-format
 msgid ""
-"Use this tag to build a DSM (Digital Surface Model, ground + objects) using "
-"a progressive morphological filter. Check the --dem* parameters for finer "
-"tuning. Default: %(default)s"
+"Automatically compute image masks using AI to remove the background. "
+"Experimental. Default: %(default)s"
 msgstr ""
-"ใช้แท็กนี้เพื่อสร้าง DSM (Digital Surface Model, ground + objects) โดยใช้ "
-"progressive morphological filter ตรวจสอบ --dem* "
-"parametersเพื่อการปรับแต่งที่ละเอียดยิ่งขึ้น ค่าเริ่มต้น: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:18
 #, python-format
 msgid ""
-"Octree depth used in the mesh reconstruction, increase to get more vertices, "
-"recommended values are 8-12. Default: %(default)s"
+"Do not attempt to merge partial reconstructions. This can happen when images "
+"do not have sufficient overlap or are isolated. Default: %(default)s"
 msgstr ""
-"ความลึกของ Octree ที่ใช้ในการสร้างกับดักขึ้นใหม่ เพิ่มขึ้นเพื่อให้ได้ยอดมากขึ้น ค่าที่แนะนำคือ 8-12 "
-"ค่าเริ่มต้น: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:19
+#, python-format
+msgid ""
+"Simple Morphological Filter slope parameter (rise over run). Default: "
+"%(default)s"
+msgstr ""
+"Simple Morphological Filter slope parameter (rise over run). เริ่มต้น: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:20
+#, python-format
+msgid ""
+"Set a value in meters for the GPS Dilution of Precision (DOP) information "
+"for all images. If your images are tagged with high precision GPS "
+"information (RTK), this value will be automatically set accordingly. You can "
+"use this option to manually set it in case the reconstruction fails. "
+"Lowering this option can sometimes help control bowling-effects over large "
+"areas. Default: %(default)s"
+msgstr ""
+"ตั้งค่าเป็นเมตรสำหรับข้อมูล GPS Dilution of Precision (DOP) สำหรับภาพทั้งหมด "
+"หากรูปภาพของคุณถูกแท็กด้วยข้อมูล GPS ที่มีความแม่นยำสูง (RTK) ค่านี้จะถูกตั้งค่าตามนั้นโดยอัตโนมัติ "
+"คุณสามารถใช้ตัวเลือกนี้เพื่อตั้งค่าด้วยตนเองในกรณีที่การสร้างใหม่ล้มเหลว "
+"การลดตัวเลือกนี้บางครั้งสามารถช่วยควบคุมbowling-effectsในพื้นที่ขนาดใหญ่ได้ ค่าเริ่มต้น: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:21
+#, fuzzy, python-format
+#| msgid ""
+#| "Classify the point cloud outputs using a Simple Morphological Filter. You "
+#| "can control the behavior of this option by tweaking the --dem-* "
+#| "parameters. Default: %(default)s"
+msgid ""
+"Classify the point cloud outputs. You can control the behavior of this "
+"option by tweaking the --dem-* parameters. Default: %(default)s"
+msgstr ""
+"จำแนกpoint cloudของ outputsโดยใช้Simple Morphological Filter."
+"คุณสามารถควบคุมการทำงานของตัวเลือกนี้โดยปรับแต่ง --dem-* parameters ค่าเริ่มต้น: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:22
 #, python-format
 msgid ""
 "Set the radiometric calibration to perform on images. When processing "
@@ -1549,399 +1584,23 @@ msgstr ""
 "บวกกับการชดเชยความเปล่งประกายของสเปกตรัมที่บันทึกผ่านเซ็นเซอร์วัดแสงdownwelling (DLS) "
 "โดยคำนึงถึงมุมของดวงอาทิตย์ สามารถเป็นหนึ่งใน: %(choices)sค่าเริ่มต้น: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:20
-#, python-format
-msgid ""
-"Set this parameter if you want to generate a Google Earth (KMZ) rendering of "
-"the orthophoto. Default: %(default)s"
-msgstr ""
-"ตั้งค่าparameterนี้ หากคุณต้องการสร้าง Google Earth (KMZ) rendering ของ ภาพถ่าย ออร์โธ "
-"ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:21
-#, python-format
-msgid ""
-"Skip generation of PDF report. This can save time if you don't need a "
-"report. Default: %(default)s"
-msgstr ""
-"ข้ามการสร้างรายงาน PDF ซึ่งจะช่วยประหยัดเวลาได้หากคุณไม่ต้องการรายงาน ค่าเริ่มต้น: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:22
-msgid "Copy output results to this folder after processing."
-msgstr "คัดลอกผลลัพธ์ไปยังโฟลเดอร์นี้หลังจากประมวลผล"
-
 #: app/static/app/js/translations/odm_autogenerated.js:23
 #, python-format
 msgid ""
-"The maximum number of processes to use in various processes. Peak memory "
-"requirement is ~1GB per thread and 2 megapixel image resolution. Default: "
-"%(default)s"
+"Use a full 3D mesh to compute the orthophoto instead of a 2.5D mesh. This "
+"option is a bit faster and provides similar results in planar areas. "
+"Default: %(default)s"
 msgstr ""
-"จำนวนกระบวนการสูงสุดที่จะใช้ในกระบวนการต่างๆ ความต้องการหน่วยความจำสูงสุดคือ ~1GB "
-"โดยthreadและความละเอียดของภาพ 2 ล้านพิกเซล ค่าเริ่มต้น: %(default)s"
+"ใช้ รูปแบบจำลองเรขาคณิต 3มิติ เต็มรูปแบบเพื่อคำนวณ ภาพถ่าย ออร์โธ แทน รูปแบบจำลองเรขาคณิต "
+"2.5มิติ ตัวเลือกนี้เร็วกว่าเล็กน้อยและให้ผลลัพธ์ที่คล้ายกันในพื้นที่ระนาบ ค่าเริ่มต้น: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:24
-#, python-format
-msgid ""
-"Generate OBJs that have a single material and a single texture file instead "
-"of multiple ones. Default:  %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:25
-#, python-format
-msgid ""
-"Name of dataset (i.e subfolder name within project folder). Default: "
-"%(default)s"
-msgstr "ชื่อของชุดข้อมูล (เช่น ชื่อโฟลเดอร์ย่อยภายในโฟลเดอร์project) ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:26
-#, python-format
-msgid ""
-"End processing at this stage. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-"สิ้นสุดการประมวลผลในขั้นตอนนี้ สามารถเป็นหนึ่งใน: %(choices)s. ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:27
-#, python-format
-msgid ""
-"Rerun processing from this stage. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-"เรียกใช้processingซ้ำ จากขั้นตอนนี้ สามารถเป็นหนึ่งใน: %(choices)sค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:28
-#, python-format
-msgid ""
-"Automatically compute image masks using AI to remove the background. "
-"Experimental. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:29
-#, python-format
-msgid ""
-"Simple Morphological Filter slope parameter (rise over run). Default: "
-"%(default)s"
-msgstr ""
-"Simple Morphological Filter slope parameter (rise over run). เริ่มต้น: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:30
-#, python-format
-msgid ""
-"Specify the distance between camera shot locations and the outer edge of the "
-"boundary when computing the boundary with --auto-boundary. Set to 0 to "
-"automatically choose a value. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:31
-#, python-format
-msgid ""
-"Delete heavy intermediate files to optimize disk space usage. This affects "
-"the ability to restart the pipeline from an intermediate stage, but allows "
-"datasets to be processed on machines that don't have sufficient disk space "
-"available. Default: %(default)s"
-msgstr ""
-"ลบไฟล์intermediateจำนวนมากเพื่อปรับการใช้พื้นที่diskให้เหมาะสม "
-"สิ่งนี้ส่งผลต่อความสามารถในการเริ่มใหม่ pipeline จากintermediate stage "
-"แต่อนุญาตให้ประมวลผลชุดข้อมูลบนเครื่องที่ไม่มีเนื้อที่diskเพียงพอ ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:32
-#, fuzzy, python-format
-#| msgid "Generates a benchmark file with runtime info. Default: %(default)s"
-msgid ""
-"Generate single file Binary glTF (GLB) textured models. Default:  %(default)s"
-msgstr "สร้างไฟล์ benchmark กับ runtime พร้อมข้อมูล.เริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:33
-#, fuzzy, python-format
-#| msgid ""
-#| "Export the georeferenced point cloud in Entwine Point Tile (EPT) format. "
-#| "Default: %(default)s"
-msgid ""
-"Save the georeferenced point cloud in Cloud Optimized Point Cloud (COPC) "
-"format. Default: %(default)s"
-msgstr ""
-"ส่งออกcloudจุดอ้างอิงทางภูมิศาสตร์ในรูปแบบ Entwine Point Tile (EPT) ค่าเริ่มต้น: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:34
-#, fuzzy, python-format
-#| msgid ""
-#| "Skip generation of PDF report. This can save time if you don't need a "
-#| "report. Default: %(default)s"
-msgid ""
-"Skip generation of the orthophoto. This can save time if you only need 3D "
-"results or DEMs. Default: %(default)s"
-msgstr ""
-"ข้ามการสร้างรายงาน PDF ซึ่งจะช่วยประหยัดเวลาได้หากคุณไม่ต้องการรายงาน ค่าเริ่มต้น: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:35
-#, python-format
-msgid ""
-"Use this tag if you have a GCP File but want to use the EXIF information for "
-"georeferencing instead. Default: %(default)s"
-msgstr ""
-"ใช้แท็กนี้หากคุณมีไฟล์ GCP แต่ต้องการใช้ข้อมูล EXIF สำหรับการอ้างอิงทางภูมิศาสตร์แทน ค่าเริ่มต้น: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:36
-#, fuzzy, python-format
-#| msgid ""
-#| "Use the camera parameters computed from another dataset instead of "
-#| "calculating them. Can be specified either as path to a cameras.json file "
-#| "or as a JSON string representing the contents of a cameras.json file. "
-#| "Default: %(default)s"
-msgid ""
-"GeoJSON polygon limiting the area of the reconstruction. Can be specified "
-"either as path to a GeoJSON file or as a JSON string representing the "
-"contents of a GeoJSON file. Default: %(default)s"
-msgstr ""
-"ใช้กล้องparametersที่คำนวณจากชุดข้อมูลอื่นแทนการคำนวณ สามารถระบุเป็นเส้นทางไปยังไฟล์ กล้อง."
-"json หรือเป็น JSON string ที่แสดงเนื้อหาของไฟล์ กล้อง.json ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:37
-#, python-format
-msgid ""
-"Filters the point cloud by removing points that deviate more than N standard "
-"deviations from the local mean. Set to 0 to disable filtering. Default: "
-"%(default)s"
-msgstr ""
-"Filters point cloud โดยย้ายจุดเบี่ยงเบนมากกว่าค่าเบี่ยงเบนมาตรฐาน N "
-"ออกจากค่าเฉลี่ยท้องถิ่น ตั้งค่าเป็น 0 เพื่อปิดใช้งาน filtering ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:38
-#, python-format
-msgid ""
-"Average number of images per submodel. When splitting a large dataset into "
-"smaller submodels, images are grouped into clusters. This value regulates "
-"the number of images that each cluster should have on average. Default: "
-"%(default)s"
-msgstr ""
-"จำนวนภาพโดยเฉลี่ยต่อแบบจำลองแบบย่อย "
-"เมื่อแยกชุดข้อมูลขนาดใหญ่ออกเป็นแบบจำลองแบบย่อยที่มีขนาดเล็กลง รูปภาพจะถูกจัดกลุ่มเป็นกลุ่ม "
-"ค่านี้กำหนดจำนวนภาพที่แต่ละclusterควรมีโดยเฉลี่ย ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:39
-#, python-format
-msgid ""
-"Use this tag to build a DTM (Digital Terrain Model, ground only) using a "
-"simple morphological filter. Check the --dem* and --smrf* parameters for "
-"finer tuning. Default: %(default)s"
-msgstr ""
-"ใช้แท็กนี้เพื่อสร้าง DTM (Digital Terrain Model, ground เท่านั้น) โดยใช้simple "
-"morphological filter ตรวจสอบ --dem* และ --smrf*ของ parameters "
-"สำหรับการปรับแต่งที่ละเอียดยิ่งขึ้น ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:40
-#, python-format
-msgid ""
-"Override the rolling shutter readout time for your camera sensor (in "
-"milliseconds), instead of using the rolling shutter readout database. Note "
-"that not all cameras are present in the database. Set to 0 to use the "
-"database value. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:41
-#, python-format
-msgid ""
-"URL to a ClusterODM instance for distributing a split-merge workflow on "
-"multiple nodes in parallel. Default: %(default)s"
-msgstr ""
-"URL ไปยัง instance ClusterODM สำหรับแบ่งworkflowการแยกผสานบนmultiple "
-"nodesพร้อมกัน ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:42
-#, python-format
-msgid ""
-"Use the camera parameters computed from another dataset instead of "
-"calculating them. Can be specified either as path to a cameras.json file or "
-"as a JSON string representing the contents of a cameras.json file. Default: "
-"%(default)s"
-msgstr ""
-"ใช้กล้องparametersที่คำนวณจากชุดข้อมูลอื่นแทนการคำนวณ สามารถระบุเป็นเส้นทางไปยังไฟล์ กล้อง."
-"json หรือเป็น JSON string ที่แสดงเนื้อหาของไฟล์ กล้อง.json ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:43
 #, python-format
 msgid ""
 "Keep faces in the mesh that are not seen in any camera. Default:  %(default)s"
 msgstr "เก็บหน้านี้ไว้ในรูปแบบเรขาคณิตที่มองไม่เห็น ในกล้องใดๆ ค่าเริ่มต้น: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:44
-#, python-format
-msgid ""
-"Export the georeferenced point cloud in CSV format. Default: %(default)s"
-msgstr "ส่งออกpoint cloudที่อ้างอิงทางภูมิศาสตร์ในรูปแบบ CSV ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:45
-#, python-format
-msgid ""
-"Radius of the overlap between submodels. After grouping images into "
-"clusters, images that are closer than this radius to a cluster are added to "
-"the cluster. This is done to ensure that neighboring submodels overlap. "
-"Default: %(default)s"
-msgstr ""
-"รัศมีของการทับซ้อนกันระหว่างแบบจำลองแบบย่อย หลังจากจัดกลุ่มรูปภาพเป็นกลุ่ม "
-"รูปภาพที่อยู่ใกล้รัศมีนี้กับกลุ่มจะถูกเพิ่มไปยังกลุ่ม "
-"สิ่งนี้ทำเพื่อให้แน่ใจว่าแบบจำลองแบบย่อยที่อยู่ใกล้เคียงทับซ้อนกัน ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:46
-#, fuzzy, python-format
-#| msgid ""
-#| "Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag "
-#| "of Words. FLANN is slower, but more stable. BOW is faster, but can "
-#| "sometimes miss valid matches. Can be one of: %(choices)s. Default: "
-#| "%(default)s"
-msgid ""
-"Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag of "
-"Words. FLANN is slower, but more stable. BOW is faster, but can sometimes "
-"miss valid matches. BRUTEFORCE is very slow but robust.Can be one of: "
-"%(choices)s. Default: %(default)s"
-msgstr ""
-"ขั้นตอน Matcher, Fast Library สำหรับ Approximate Nearest Neighbors หรือ Bag of "
-"Words. FLANN ช้ากว่า แต่เสถียรกว่า BOW เร็วกว่า แต่บางครั้งอาจพลาดการจับคู่ที่ถูกต้อง "
-"สามารถเป็นหนึ่งใน: %(choices)s. ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:47
-#, python-format
-msgid ""
-"Path to the image groups file that controls how images should be split into "
-"groups. The file needs to use the following format: image_name "
-"group_nameDefault: %(default)s"
-msgstr ""
-"เส้นทางไปยังไฟล์กลุ่มรูปภาพที่ควบคุมวิธีการแยกรูปภาพออกเป็นกลุ่ม ไฟล์ต้องใช้รูปแบบต่อไปนี้: "
-"image_name group_nameDefault: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:48
-#, python-format
-msgid ""
-"Perform ground rectification on the point cloud. This means that wrongly "
-"classified ground points will be re-classified and gaps will be filled. "
-"Useful for generating DTMs. Default: %(default)s"
-msgstr ""
-"ดำเนินการแก้ไขภาคพื้นดินบน point cloud ซึ่งหมายความว่าจะจัดประเภทground "
-"pointsจะเป็นการจัดประเภทใหม่อีกครั้งและจะเติมช่องว่าง มีประโยชน์สำหรับการสร้าง DTM "
-"ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:49
-#, python-format
-msgid ""
-"Maximum number of frames to extract from video files for processing. Set to "
-"0 for no limit. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:50
-#, python-format
-msgid ""
-"Automatically set a boundary using camera shot locations to limit the area "
-"of the reconstruction. This can help remove far away background artifacts "
-"(sky, background landscapes, etc.). See also --boundary. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:51
-#, python-format
-msgid ""
-"Do not use GPU acceleration, even if it's available. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:52
-#, python-format
-msgid ""
-"Export the georeferenced point cloud in Entwine Point Tile (EPT) format. "
-"Default: %(default)s"
-msgstr ""
-"ส่งออกcloudจุดอ้างอิงทางภูมิศาสตร์ในรูปแบบ Entwine Point Tile (EPT) ค่าเริ่มต้น: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:53
-msgid "show this help message and exit"
-msgstr "แสดงข้อความช่วยเหลือนี้และออก"
-
-#: app/static/app/js/translations/odm_autogenerated.js:54
-#, python-format
-msgid ""
-"Do not attempt to merge partial reconstructions. This can happen when images "
-"do not have sufficient overlap or are isolated. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:55
-#, python-format
-msgid ""
-"Set feature extraction quality. Higher quality generates better features, "
-"but requires more memory and takes longer. Can be one of: %(choices)s. "
-"Default: %(default)s"
-msgstr ""
-"ตั้งค่าคุณภาพการแยกคุณลักษณะ คุณภาพที่สูงขึ้นจะสร้างคุณลักษณะที่ดีขึ้น "
-"แต่ต้องใช้หน่วยความจำมากขึ้นและใช้เวลานานขึ้น สามารถเป็นหนึ่งใน: %(choices)sค่าเริ่มต้น: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:56
-#, python-format
-msgid ""
-"Use images' GPS exif data for reconstruction, even if there are GCPs present."
-"This flag is useful if you have high precision GPS measurements. If there "
-"are no GCPs, this flag does nothing. Default: %(default)s"
-msgstr ""
-"ใช้ข้อมูล GPS exif ของรูปภาพเพื่อสร้างใหม่ แม้ว่าจะมี GCP อยู่ก็ตาม การตั้งค่าสถานะนี้มีประโยชน์ "
-"หากคุณมีการวัด GPS ที่มีความแม่นยำสูง หากไม่มี GCP นี้จะช้าลง อาจไม่ทำอะไรเลย ค่าเริ่มต้น: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:57
-#, python-format
-msgid "Set this parameter if you want a striped GeoTIFF. Default: %(default)s"
-msgstr "ตั้งค่า parameter นี้หากคุณต้องการ GeoTIFF แบบ striped ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:58
-#, python-format
-msgid ""
-"When processing multispectral datasets, you can specify the name of the "
-"primary band that will be used for reconstruction. It's recommended to "
-"choose a band which has sharp details and is in focus. Default: %(default)s"
-msgstr ""
-"เมื่อประมวลผลชุดข้อมูลที่มีหลากหลาย multispectral "
-"คุณสามารถระบุชื่อของแถบหลักที่จะใช้สำหรับการสร้างใหม่ได้ "
-"ขอแนะนำให้เลือกแถบที่มีรายละเอียดที่คมชัดและอยู่ในโฟกัส ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:59
-#, python-format
-msgid ""
-"Simple Morphological Filter elevation threshold parameter (meters). Default: "
-"%(default)s"
-msgstr ""
-"พารามิเตอร์เกณฑ์ความสูงของ Simple Morphological Filter (เมตร) ค่าเริ่มต้น: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:60
-#, python-format
-msgid ""
-"Filters the point cloud by keeping only a single point around a radius N (in "
-"meters). This can be useful to limit the output resolution of the point "
-"cloud and remove duplicate points. Set to 0 to disable sampling. Default: "
-"%(default)s"
-msgstr ""
-"Filters point cloud โดยคงไว้เพียงจุดเดียวรอบรัศมี N (เป็นเมตร) "
-"สิ่งนี้มีประโยชน์ในการจำกัดความละเอียด output ของ point cloud และลบจุดที่ซ้ำกัน ตั้งค่าเป็น 0 "
-"เพื่อปิดใช้งานการสุ่มตัวอย่าง ค่าเริ่มต้น:%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:61
-#, fuzzy, python-format
-#| msgid ""
-#| "Choose the algorithm for extracting keypoints and computing descriptors. "
-#| "Can be one of: %(choices)s. Default: %(default)s"
-msgid ""
-"Choose the structure from motion algorithm. For aerial datasets, if camera "
-"GPS positions and angles are available, triangulation can generate better "
-"results. For planar scenes captured at fixed altitude with nadir-only "
-"images, planar can be much faster. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-"เลือกขั้นตอนสำหรับการแยกประเด็นสำคัญและตัวอธิบายการคำนวณ สามารถเป็นหนึ่งใน: %(choices)s."
-"ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:62
+#: app/static/app/js/translations/odm_autogenerated.js:25
 #, fuzzy, python-format
 #| msgid ""
 #| "DSM/DTM resolution in cm / pixel. Note that this value is capped by a "
@@ -1955,15 +1614,53 @@ msgstr ""
 "โปรดทราบว่าค่านี้จำกัดด้วยระยะการสุ่มตัวอย่างภาคพื้นดิน (GSD) estimate หากต้องการลบ ครอบ "
 "ให้เลือก --ignore-gsd ด้วย ค่าเริ่มต้น: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:63
-#, fuzzy, python-format
-#| msgid "The maximum vertex count of the output mesh. Default: %(default)s"
+#: app/static/app/js/translations/odm_autogenerated.js:26
+#, python-format
 msgid ""
-"The maximum output resolution of extracted video frames in pixels. Default: "
+"When processing multispectral datasets, you can specify the name of the "
+"primary band that will be used for reconstruction. It's recommended to "
+"choose a band which has sharp details and is in focus. Default: %(default)s"
+msgstr ""
+"เมื่อประมวลผลชุดข้อมูลที่มีหลากหลาย multispectral "
+"คุณสามารถระบุชื่อของแถบหลักที่จะใช้สำหรับการสร้างใหม่ได้ "
+"ขอแนะนำให้เลือกแถบที่มีรายละเอียดที่คมชัดและอยู่ในโฟกัส ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:27
+#, python-format
+msgid ""
+"Build orthophoto overviews for faster display in programs such as QGIS. "
+"Default: %(default)s"
+msgstr ""
+"สร้างภาพรวม ภาพถ่าย ออร์โธ เพื่อการแสดงผลที่รวดเร็วยิ่งขึ้นในโปรแกรมต่างๆ เช่น QGIS "
+"ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:28
+#, python-format
+msgid ""
+"Computes an euclidean raster map for each DEM. The map reports the distance "
+"from each cell to the nearest NODATA value (before any hole filling takes "
+"place). This can be useful to isolate the areas that have been filled. "
+"Default: %(default)s"
+msgstr ""
+"คำนวณraster mapแบบยุคลิดสำหรับ DEM แต่ละรายการ "
+"แผนที่จะรายงานระยะทางจากแต่ละเซลล์ไปยังค่า NODATA ที่ใกล้ที่สุด (ก่อนการเติมช่องใดๆ) "
+"นี้จะเป็นประโยชน์ในการแยกพื้นที่ที่เต็ม ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:29
+#, python-format
+msgid ""
+"Set the compression to use for orthophotos. Can be one of: %(choices)s. "
+"Default: %(default)s"
+msgstr ""
+"ตั้งค่าการลดขนาดเพื่อใช้สำหรับ ภาพถ่าย ออร์โธ สามารถเป็นหนึ่งใน: %(choices)s ค่าเริ่มต้น: "
 "%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:30
+#, python-format
+msgid "The maximum vertex count of the output mesh. Default: %(default)s"
 msgstr "จำนวนยอดสูงสุดของรูปแบบเรขาคณิต output เริ่มต้น: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:64
+#: app/static/app/js/translations/odm_autogenerated.js:31
 #, fuzzy, python-format
 #| msgid ""
 #| "Path to the image geolocation file containing the camera center "
@@ -1986,228 +1683,46 @@ msgstr ""
 "geo_z [omega (degrees)] [phi (degrees)] [kappa (degrees)] [horz precision "
 "(meters)] [ ความแม่นยำในการหมุน (เมตร)]ค่าเริ่มต้น: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:65
+#: app/static/app/js/translations/odm_autogenerated.js:32
 #, python-format
 msgid ""
-"Set this parameter if you want to generate a PNG rendering of the "
-"orthophoto. Default: %(default)s"
+"Set feature extraction quality. Higher quality generates better features, "
+"but requires more memory and takes longer. Can be one of: %(choices)s. "
+"Default: %(default)s"
 msgstr ""
-"ตั้งค่า parameter นี้หากคุณต้องการสร้าง PNG rendering ของ orthophoto ค่าเริ่มต้น: "
+"ตั้งค่าคุณภาพการแยกคุณลักษณะ คุณภาพที่สูงขึ้นจะสร้างคุณลักษณะที่ดีขึ้น "
+"แต่ต้องใช้หน่วยความจำมากขึ้นและใช้เวลานานขึ้น สามารถเป็นหนึ่งใน: %(choices)sค่าเริ่มต้น: "
 "%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:66
-#, python-format
-msgid ""
-"Simple Morphological Filter elevation scalar parameter. Default: %(default)s"
-msgstr ""
-"Simple Morphological Filter สเกลาร์ระดับความสูง parameter ค่าเริ่มต้น: %(default)s. "
-"Default: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:67
-#, python-format
-msgid "The maximum vertex count of the output mesh. Default: %(default)s"
-msgstr "จำนวนยอดสูงสุดของรูปแบบเรขาคณิต output เริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:68
-#, python-format
-msgid ""
-"Use a full 3D mesh to compute the orthophoto instead of a 2.5D mesh. This "
-"option is a bit faster and provides similar results in planar areas. "
-"Default: %(default)s"
-msgstr ""
-"ใช้ รูปแบบจำลองเรขาคณิต 3มิติ เต็มรูปแบบเพื่อคำนวณ ภาพถ่าย ออร์โธ แทน รูปแบบจำลองเรขาคณิต "
-"2.5มิติ ตัวเลือกนี้เร็วกว่าเล็กน้อยและให้ผลลัพธ์ที่คล้ายกันในพื้นที่ระนาบ ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:69
-#, python-format
-msgid ""
-"Turn off camera parameter optimization during bundle adjustment. This can be "
-"sometimes useful for improving results that exhibit doming/bowling or when "
-"images are taken with a rolling shutter camera. Default: %(default)s"
-msgstr ""
-"ปิดการปรับกล้องparameterให้เหมาะสมระหว่างการปรับbundleบางครั้งอาจมีประโยชน์สำหรับการปรับปรุงผลลัพธ์ที่แสดงdoming/"
-"bowling หรือเมื่อถ่ายภาพด้วยกล้องrolling shutter ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:70
-#, python-format
-msgid ""
-"Automatically compute image masks using AI to remove the sky. Experimental. "
-"Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:71
-#, python-format
-msgid ""
-"Export the georeferenced point cloud in LAS format. Default: %(default)s"
-msgstr "ส่งออก the georeferenced point cloudในรูปแบบ LAS ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:72
+#: app/static/app/js/translations/odm_autogenerated.js:33
 #, fuzzy, python-format
 #| msgid ""
-#| "Classify the point cloud outputs using a Simple Morphological Filter. You "
-#| "can control the behavior of this option by tweaking the --dem-* "
-#| "parameters. Default: %(default)s"
+#| "Improve the accuracy of the point cloud by computing geometrically "
+#| "consistent depthmaps. This increases processing time, but can improve "
+#| "results in urban scenes. Default: %(default)s"
 msgid ""
-"Classify the point cloud outputs. You can control the behavior of this "
-"option by tweaking the --dem-* parameters. Default: %(default)s"
+"Geometric estimates improve the accuracy of the point cloud by computing "
+"geometrically consistent depthmaps but may not be usable in larger datasets. "
+"This flag disables geometric estimates. Default: %(default)s"
 msgstr ""
-"จำแนกpoint cloudของ outputsโดยใช้Simple Morphological Filter."
-"คุณสามารถควบคุมการทำงานของตัวเลือกนี้โดยปรับแต่ง --dem-* parameters ค่าเริ่มต้น: "
+"ปรับปรุงความแม่นยำของ point cloud โดยการคำนวณแผนที่เชิงลึกที่สอดคล้องกันทางเรขาคณิต "
+"สิ่งนี้จะเพิ่มเวลาในการประมวลผล แต่สามารถปรับปรุงผลลัพธ์ในพื้นที่ที่ตั้งฉากได้ ค่าเริ่มต้น: "
 "%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:73
+#: app/static/app/js/translations/odm_autogenerated.js:34
+#, python-format
+msgid "Set this parameter if you want a striped GeoTIFF. Default: %(default)s"
+msgstr "ตั้งค่า parameter นี้หากคุณต้องการ GeoTIFF แบบ striped ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:35
 #, python-format
 msgid ""
-"Skip generation of a full 3D model. This can save time if you only need 2D "
-"results such as orthophotos and DEMs. Default: %(default)s"
-msgstr ""
-"ข้ามการสร้างแบบจำลอง 3 มิติแบบเต็ม วิธีนี้จะช่วยประหยัดเวลาได้หากคุณต้องการแค่ผลลัพธ์ 2มิติ เช่น "
-"ภาพถ่าย ออร์โธ และ DEM ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:74
-#, python-format
-msgid ""
-"Computes an euclidean raster map for each DEM. The map reports the distance "
-"from each cell to the nearest NODATA value (before any hole filling takes "
-"place). This can be useful to isolate the areas that have been filled. "
-"Default: %(default)s"
-msgstr ""
-"คำนวณraster mapแบบยุคลิดสำหรับ DEM แต่ละรายการ "
-"แผนที่จะรายงานระยะทางจากแต่ละเซลล์ไปยังค่า NODATA ที่ใกล้ที่สุด (ก่อนการเติมช่องใดๆ) "
-"นี้จะเป็นประโยชน์ในการแยกพื้นที่ที่เต็ม ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:75
-#, python-format
-msgid ""
-"Path to a GeoTIFF DEM or a LAS/LAZ point cloud that the reconstruction "
-"outputs should be automatically aligned to. Experimental. Default: "
-"%(default)s"
+"Specify the distance between camera shot locations and the outer edge of the "
+"boundary when computing the boundary with --auto-boundary. Set to 0 to "
+"automatically choose a value. Default: %(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:76
-msgid ""
-"Path to the project folder. Your project folder should contain subfolders "
-"for each dataset. Each dataset should have an \"images\" folder."
-msgstr ""
-"แนวทางไปยังโฟลเดอร์project โฟลเดอร์โครงการของคุณควรมีโฟลเดอร์ย่อยสำหรับแต่ละชุดข้อมูล "
-"ชุดข้อมูลแต่ละชุดควรมีโฟลเดอร์ \"รูปภาพ\""
-
-#: app/static/app/js/translations/odm_autogenerated.js:77
-#, python-format
-msgid ""
-"Generate static tiles for orthophotos and DEMs that are suitable for viewers "
-"like Leaflet or OpenLayers. Default: %(default)s"
-msgstr ""
-"สร้างstatic tilesสำหรับ ภาพถ่าย และ DEM ที่เหมาะสำหรับผู้ดู เช่น Leaflet หรือ "
-"OpenLayers ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:78
-#, python-format
-msgid ""
-"Minimum number of features to extract per image. More features can be useful "
-"for finding more matches between images, potentially allowing the "
-"reconstruction of areas with little overlap or insufficient features. More "
-"features also slow down processing. Default: %(default)s"
-msgstr ""
-"จำนวนคุณสมบัติขั้นต่ำที่จะแยกต่อภาพ คุณลักษณะเพิ่มเติมอาจมีประโยชน์ในการค้นหาภาพที่ตรงกันมากขึ้น "
-"ซึ่งอาจช่วยให้สร้างพื้นที่ใหม่ที่มีการทับซ้อนกันเล็กน้อยหรือคุณลักษณะไม่เพียงพอ "
-"คุณสมบัติเพิ่มเติมยังทำให้การประมวลผลช้าลง ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:79
-#, fuzzy, python-format
-#| msgid ""
-#| "Number of nearest images to pre-match based on GPS exif data. Set to 0 to "
-#| "skip pre-matching. Neighbors works together with Distance parameter, set "
-#| "both to 0 to not use pre-matching. Default: %(default)s"
-msgid ""
-"Perform image matching with the nearest N images based on image filename "
-"order. Can speed up processing of sequential images, such as those extracted "
-"from video. It is applied only on non-georeferenced datasets. Set to 0 to "
-"disable. Default: %(default)s"
-msgstr ""
-"จำนวนภาพที่ใกล้เคียงที่สุดที่จะจับคู่ล่วงหน้าตามข้อมูล GPS exif ตั้งค่าเป็น 0 เพื่อข้ามการจับคู่ล่วงหน้า "
-"Neighbors ทำงานร่วมกับDistance parameter ตั้งค่าทั้งคู่เป็น 0 เพื่อไม่ใช้การจับคู่ล่วงหน้า "
-"ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:80
-#, fuzzy, python-format
-#| msgid ""
-#| "Automatically crop image outputs by creating a smooth buffer around the "
-#| "dataset boundaries, shrinked by N meters. Use 0 to disable cropping. "
-#| "Default: %(default)s"
-msgid ""
-"Automatically crop image outputs by creating a smooth buffer around the "
-"dataset boundaries, shrunk by N meters. Use 0 to disable cropping. Default: "
-"%(default)s"
-msgstr ""
-"ครอบตัดรูปภาพ outputsโดยอัตโนมัติโดยสร้างbufferที่ราบรื่นรอบๆ ขอบเขตชุดข้อมูล โดยย่อขนาดลง "
-"N เมตร ใช้ 0 เพื่อปิดใช้งานการครอบตัด ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:81
-#, fuzzy, python-format
-#| msgid "Generates a benchmark file with runtime info. Default: %(default)s"
-msgid "Generate OGC 3D Tiles outputs. Default: %(default)s"
-msgstr "สร้างไฟล์ benchmark กับ runtime พร้อมข้อมูล.เริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:82
-#, fuzzy, python-format
-#| msgid ""
-#| "Orthophoto resolution in cm / pixel. Note that this value is capped by a "
-#| "ground sampling distance (GSD) estimate. To remove the cap, check --"
-#| "ignore-gsd also. Default: %(default)s"
-msgid ""
-"Orthophoto resolution in cm / pixel. Note that this value is capped by a "
-"ground sampling distance (GSD) estimate.Default: %(default)s"
-msgstr ""
-"ความละเอียดภาพถ่าย ออร์โธหน่วยเซนติเมตร/พิกเซล "
-"โปรดทราบว่าค่านี้จำกัดด้วยระยะการสุ่มตัวอย่างภาคพื้นดิน (GSD) หากต้องการลบไปที่ cap ให้เลือก --"
-"ignore-gsd เท่านั้น ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:83
-#, python-format
-msgid ""
-"Set a value in meters for the GPS Dilution of Precision (DOP) information "
-"for all images. If your images are tagged with high precision GPS "
-"information (RTK), this value will be automatically set accordingly. You can "
-"use this option to manually set it in case the reconstruction fails. "
-"Lowering this option can sometimes help control bowling-effects over large "
-"areas. Default: %(default)s"
-msgstr ""
-"ตั้งค่าเป็นเมตรสำหรับข้อมูล GPS Dilution of Precision (DOP) สำหรับภาพทั้งหมด "
-"หากรูปภาพของคุณถูกแท็กด้วยข้อมูล GPS ที่มีความแม่นยำสูง (RTK) ค่านี้จะถูกตั้งค่าตามนั้นโดยอัตโนมัติ "
-"คุณสามารถใช้ตัวเลือกนี้เพื่อตั้งค่าด้วยตนเองในกรณีที่การสร้างใหม่ล้มเหลว "
-"การลดตัวเลือกนี้บางครั้งสามารถช่วยควบคุมbowling-effectsในพื้นที่ขนาดใหญ่ได้ ค่าเริ่มต้น: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:84
-#, python-format
-msgid ""
-"Turn on rolling shutter correction. If the camera has a rolling shutter and "
-"the images were taken in motion, you can turn on this option to improve the "
-"accuracy of the results. See also --rolling-shutter-readout. Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:85
-#, python-format
-msgid ""
-"Decimate the points before generating the DEM. 1 is no decimation (full "
-"quality). 100 decimates ~99%% of the points. Useful for speeding up "
-"generation of DEM results in very large datasets. Default: %(default)s"
-msgstr ""
-"ลบจุด ก่อนที่จะสร้าง DEM 1 คือไม่มีการลดทอน (คุณภาพเต็ม) 100 เดซิเบล ~99%% ของคะแนน "
-"มีประโยชน์สำหรับการเร่งสร้าง DEM ส่งผลให้ชุดข้อมูลขนาดใหญ่มาก ค่าเริ่มต้น: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:86
-#, python-format
-msgid ""
-"Set the compression to use for orthophotos. Can be one of: %(choices)s. "
-"Default: %(default)s"
-msgstr ""
-"ตั้งค่าการลดขนาดเพื่อใช้สำหรับ ภาพถ่าย ออร์โธ สามารถเป็นหนึ่งใน: %(choices)s ค่าเริ่มต้น: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:87
+#: app/static/app/js/translations/odm_autogenerated.js:36
 #, fuzzy, python-format
 #| msgid ""
 #| "Skip normalization of colors across all images. Useful when processing "
@@ -2219,7 +1734,21 @@ msgstr ""
 "ข้ามการทำให้สีเป็นปกติในทุกภาพ เพื่อประโยชน์ของ processing radiometric data ค่าเริ่มต้น: "
 "%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:88
+#: app/static/app/js/translations/odm_autogenerated.js:37
+#, fuzzy, python-format
+#| msgid "Generates a benchmark file with runtime info. Default: %(default)s"
+msgid ""
+"Generate single file Binary glTF (GLB) textured models. Default:  %(default)s"
+msgstr "สร้างไฟล์ benchmark กับ runtime พร้อมข้อมูล.เริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:38
+#, python-format
+msgid ""
+"Generate OBJs that have a single material and a single texture file instead "
+"of multiple ones. Default:  %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:39
 #, python-format
 msgid ""
 "Number of steps used to fill areas with gaps. Set to 0 to disable gap "
@@ -2233,7 +1762,469 @@ msgstr ""
 "โดยใช้ขั้นตอนวิธีการถ่วงน้ำหนักระยะทางผกผัน (IDW) และรวมเข้าด้วยกัน "
 "ช่องว่างที่เหลือจะถูกรวมเข้าด้วยกันโดยใช้การแก้ไขที่ใกล้ที่สุดของneighbor ค่าเริ่มต้น: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:89
+#: app/static/app/js/translations/odm_autogenerated.js:40
+#, python-format
+msgid ""
+"Set point cloud quality. Higher quality generates better, denser point "
+"clouds, but requires more memory and takes longer. Each step up in quality "
+"increases processing time roughly by a factor of 4x.Can be one of: "
+"%(choices)s. Default: %(default)s"
+msgstr ""
+"กำหนดคุณภาพของระบบpoint cloud คุณภาพที่สูงขึ้นจะสร้างpoint cloudsเพิ่มขึ้น "
+"แต่ต้องการหน่วยความจำมากขึ้นและใช้เวลานานขึ้น "
+"การเพิ่มคุณภาพแต่ละครั้งจะเพิ่มเวลาในการประมวลผลโดยประมาณ 4 เท่า สามารถเป็นหนึ่งใน: "
+"%(choices)s ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:41
+#, python-format
+msgid ""
+"Delete heavy intermediate files to optimize disk space usage. This affects "
+"the ability to restart the pipeline from an intermediate stage, but allows "
+"datasets to be processed on machines that don't have sufficient disk space "
+"available. Default: %(default)s"
+msgstr ""
+"ลบไฟล์intermediateจำนวนมากเพื่อปรับการใช้พื้นที่diskให้เหมาะสม "
+"สิ่งนี้ส่งผลต่อความสามารถในการเริ่มใหม่ pipeline จากintermediate stage "
+"แต่อนุญาตให้ประมวลผลชุดข้อมูลบนเครื่องที่ไม่มีเนื้อที่diskเพียงพอ ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:42
+#, python-format
+msgid ""
+"Skip normalization of colors across all images. Useful when processing "
+"radiometric data. Default: %(default)s"
+msgstr ""
+"ข้ามการทำให้สีเป็นปกติในทุกภาพ เพื่อประโยชน์ของ processing radiometric data ค่าเริ่มต้น: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:43
+#, python-format
+msgid ""
+"Export the georeferenced point cloud in LAS format. Default: %(default)s"
+msgstr "ส่งออก the georeferenced point cloudในรูปแบบ LAS ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:44
+#, python-format
+msgid ""
+"Filters the point cloud by keeping only a single point around a radius N (in "
+"meters). This can be useful to limit the output resolution of the point "
+"cloud and remove duplicate points. Set to 0 to disable sampling. Default: "
+"%(default)s"
+msgstr ""
+"Filters point cloud โดยคงไว้เพียงจุดเดียวรอบรัศมี N (เป็นเมตร) "
+"สิ่งนี้มีประโยชน์ในการจำกัดความละเอียด output ของ point cloud และลบจุดที่ซ้ำกัน ตั้งค่าเป็น 0 "
+"เพื่อปิดใช้งานการสุ่มตัวอย่าง ค่าเริ่มต้น:%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:45
+#, python-format
+msgid ""
+"Path to the file containing the ground control points used for "
+"georeferencing. The file needs to use the following format: EPSG:<code> or <"
+"+proj definition>geo_x geo_y geo_z im_x im_y image_name [gcp_name] [extra1] "
+"[extra2]Default: %(default)s"
+msgstr ""
+"แนวทางไปยังไฟล์ที่มีจุดควบคุมภาคพื้นดินที่ใช้สำหรับการอ้างอิงทางภูมิศาสตร์ ไฟล์ต้องใช้รูปแบบต่อไปนี้: "
+"EPSG:<code> or <+proj definition>geo_x geo_y geo_z im_x im_y image_name "
+"[gcp_name] [extra1] [extra2]Default: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:46
+#, fuzzy, python-format
+#| msgid ""
+#| "Skip generation of PDF report. This can save time if you don't need a "
+#| "report. Default: %(default)s"
+msgid ""
+"Skip generation of the orthophoto. This can save time if you only need 3D "
+"results or DEMs. Default: %(default)s"
+msgstr ""
+"ข้ามการสร้างรายงาน PDF ซึ่งจะช่วยประหยัดเวลาได้หากคุณไม่ต้องการรายงาน ค่าเริ่มต้น: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:47
+msgid "show this help message and exit"
+msgstr "แสดงข้อความช่วยเหลือนี้และออก"
+
+#: app/static/app/js/translations/odm_autogenerated.js:48
+#, python-format
+msgid ""
+"Rerun processing from this stage. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"เรียกใช้processingซ้ำ จากขั้นตอนนี้ สามารถเป็นหนึ่งใน: %(choices)sค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:49
+#, python-format
+msgid ""
+"Skip generation of PDF report. This can save time if you don't need a "
+"report. Default: %(default)s"
+msgstr ""
+"ข้ามการสร้างรายงาน PDF ซึ่งจะช่วยประหยัดเวลาได้หากคุณไม่ต้องการรายงาน ค่าเริ่มต้น: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:50
+#, python-format
+msgid ""
+"Simple Morphological Filter window radius parameter (meters). Default: "
+"%(default)s"
+msgstr ""
+"Simple Morphological Filter window รัศมี parameter (เมตร). Default: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:51
+msgid ""
+"Path to the project folder. Your project folder should contain subfolders "
+"for each dataset. Each dataset should have an \"images\" folder."
+msgstr ""
+"แนวทางไปยังโฟลเดอร์project โฟลเดอร์โครงการของคุณควรมีโฟลเดอร์ย่อยสำหรับแต่ละชุดข้อมูล "
+"ชุดข้อมูลแต่ละชุดควรมีโฟลเดอร์ \"รูปภาพ\""
+
+#: app/static/app/js/translations/odm_autogenerated.js:52
+#, python-format
+msgid ""
+"Use this tag to build a DSM (Digital Surface Model, ground + objects) using "
+"a progressive morphological filter. Check the --dem* parameters for finer "
+"tuning. Default: %(default)s"
+msgstr ""
+"ใช้แท็กนี้เพื่อสร้าง DSM (Digital Surface Model, ground + objects) โดยใช้ "
+"progressive morphological filter ตรวจสอบ --dem* "
+"parametersเพื่อการปรับแต่งที่ละเอียดยิ่งขึ้น ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:53
+#, fuzzy, python-format
+#| msgid "Generates a benchmark file with runtime info. Default: %(default)s"
+msgid "Generate OGC 3D Tiles outputs. Default: %(default)s"
+msgstr "สร้างไฟล์ benchmark กับ runtime พร้อมข้อมูล.เริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:54
+#, python-format
+msgid ""
+"Name of dataset (i.e subfolder name within project folder). Default: "
+"%(default)s"
+msgstr "ชื่อของชุดข้อมูล (เช่น ชื่อโฟลเดอร์ย่อยภายในโฟลเดอร์project) ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:55
+#, python-format
+msgid ""
+"Export the georeferenced point cloud in Entwine Point Tile (EPT) format. "
+"Default: %(default)s"
+msgstr ""
+"ส่งออกcloudจุดอ้างอิงทางภูมิศาสตร์ในรูปแบบ Entwine Point Tile (EPT) ค่าเริ่มต้น: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:56
+msgid "Displays version number and exits. "
+msgstr "แสดงหมายเลข version and exits. "
+
+#: app/static/app/js/translations/odm_autogenerated.js:57
+#, python-format
+msgid ""
+"Use this tag if you have a GCP File but want to use the EXIF information for "
+"georeferencing instead. Default: %(default)s"
+msgstr ""
+"ใช้แท็กนี้หากคุณมีไฟล์ GCP แต่ต้องการใช้ข้อมูล EXIF สำหรับการอ้างอิงทางภูมิศาสตร์แทน ค่าเริ่มต้น: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:58
+#, python-format
+msgid ""
+"Skips dense reconstruction and 3D model generation. It generates an "
+"orthophoto directly from the sparse reconstruction. If you just need an "
+"orthophoto and do not need a full 3D model, turn on this option. Default: "
+"%(default)s"
+msgstr ""
+"ข้ามการสร้างใหม่แบบทึบและการสร้างแบบจำลอง 3 มิติ มันสร้าง ภาพถ่าย ออร์โธ โดยตรง "
+"จากการสร้างใหม่แบบบาง หากคุณต้องการเพียงแค่ภาพถ่าย ออร์โธและไม่ต้องการแบบจำลอง 3 "
+"มิติแบบเต็ม ให้เปิดตัวเลือกนี้ ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:59
+#, python-format
+msgid ""
+"Perform ground rectification on the point cloud. This means that wrongly "
+"classified ground points will be re-classified and gaps will be filled. "
+"Useful for generating DTMs. Default: %(default)s"
+msgstr ""
+"ดำเนินการแก้ไขภาคพื้นดินบน point cloud ซึ่งหมายความว่าจะจัดประเภทground "
+"pointsจะเป็นการจัดประเภทใหม่อีกครั้งและจะเติมช่องว่าง มีประโยชน์สำหรับการสร้าง DTM "
+"ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:60
+#, python-format
+msgid ""
+"Override the rolling shutter readout time for your camera sensor (in "
+"milliseconds), instead of using the rolling shutter readout database. Note "
+"that not all cameras are present in the database. Set to 0 to use the "
+"database value. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:61
+#, python-format
+msgid ""
+"URL to a ClusterODM instance for distributing a split-merge workflow on "
+"multiple nodes in parallel. Default: %(default)s"
+msgstr ""
+"URL ไปยัง instance ClusterODM สำหรับแบ่งworkflowการแยกผสานบนmultiple "
+"nodesพร้อมกัน ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:62
+#, fuzzy, python-format
+#| msgid ""
+#| "Orthophoto resolution in cm / pixel. Note that this value is capped by a "
+#| "ground sampling distance (GSD) estimate. To remove the cap, check --"
+#| "ignore-gsd also. Default: %(default)s"
+msgid ""
+"Orthophoto resolution in cm / pixel. Note that this value is capped by a "
+"ground sampling distance (GSD) estimate.Default: %(default)s"
+msgstr ""
+"ความละเอียดภาพถ่าย ออร์โธหน่วยเซนติเมตร/พิกเซล "
+"โปรดทราบว่าค่านี้จำกัดด้วยระยะการสุ่มตัวอย่างภาคพื้นดิน (GSD) หากต้องการลบไปที่ cap ให้เลือก --"
+"ignore-gsd เท่านั้น ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:63
+#, python-format
+msgid ""
+"Set this parameter if you want to generate a Google Earth (KMZ) rendering of "
+"the orthophoto. Default: %(default)s"
+msgstr ""
+"ตั้งค่าparameterนี้ หากคุณต้องการสร้าง Google Earth (KMZ) rendering ของ ภาพถ่าย ออร์โธ "
+"ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:64
+#, python-format
+msgid ""
+"Turn on rolling shutter correction. If the camera has a rolling shutter and "
+"the images were taken in motion, you can turn on this option to improve the "
+"accuracy of the results. See also --rolling-shutter-readout. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:65
+#, python-format
+msgid ""
+"Use images' GPS exif data for reconstruction, even if there are GCPs present."
+"This flag is useful if you have high precision GPS measurements. If there "
+"are no GCPs, this flag does nothing. Default: %(default)s"
+msgstr ""
+"ใช้ข้อมูล GPS exif ของรูปภาพเพื่อสร้างใหม่ แม้ว่าจะมี GCP อยู่ก็ตาม การตั้งค่าสถานะนี้มีประโยชน์ "
+"หากคุณมีการวัด GPS ที่มีความแม่นยำสูง หากไม่มี GCP นี้จะช้าลง อาจไม่ทำอะไรเลย ค่าเริ่มต้น: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:66
+#, python-format
+msgid ""
+"Decimate the points before generating the DEM. 1 is no decimation (full "
+"quality). 100 decimates ~99%% of the points. Useful for speeding up "
+"generation of DEM results in very large datasets. Default: %(default)s"
+msgstr ""
+"ลบจุด ก่อนที่จะสร้าง DEM 1 คือไม่มีการลดทอน (คุณภาพเต็ม) 100 เดซิเบล ~99%% ของคะแนน "
+"มีประโยชน์สำหรับการเร่งสร้าง DEM ส่งผลให้ชุดข้อมูลขนาดใหญ่มาก ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:67
+#, python-format
+msgid ""
+"Generates a polygon around the cropping area that cuts the orthophoto around "
+"the edges of features. This polygon can be useful for stitching seamless "
+"mosaics with multiple overlapping orthophotos. Default: %(default)s"
+msgstr ""
+"สร้างรูปหลายเหลี่ยมรอบๆ พื้นที่การครอบตัด ที่ตัดภาพถ่าย ออร์โธ รอบขอบของจุดสนใจ "
+"รูปหลายเหลี่ยมนี้สามารถเป็นประโยชน์สำหรับการต่อภาพmosaics with multiple ภาพถ่าย ออร์โธ "
+"ที่ทับซ้อนกันหลายภาพ ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:68
+#, python-format
+msgid ""
+"When processing multispectral datasets, ODM will automatically align the "
+"images for each band. If the images have been postprocessed and are already "
+"aligned, use this option. Default: %(default)s"
+msgstr ""
+"เมื่อประมวลผลชุดข้อมูลแบบ multispectral ODM จะจัดแนวรูปภาพสำหรับแต่ละแถวโดยอัตโนมัติ "
+"หากภาพได้รับการประมวลผลภายหลังและจัดแนวแล้ว ให้ใช้ตัวเลือกนี้ ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:69
+#, python-format
+msgid ""
+"Simple Morphological Filter elevation scalar parameter. Default: %(default)s"
+msgstr ""
+"Simple Morphological Filter สเกลาร์ระดับความสูง parameter ค่าเริ่มต้น: %(default)s. "
+"Default: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:70
+#, python-format
+msgid ""
+"Path to a GeoTIFF DEM or a LAS/LAZ point cloud that the reconstruction "
+"outputs should be automatically aligned to. Experimental. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:71
+#, fuzzy, python-format
+#| msgid "The maximum vertex count of the output mesh. Default: %(default)s"
+msgid ""
+"The maximum output resolution of extracted video frames in pixels. Default: "
+"%(default)s"
+msgstr "จำนวนยอดสูงสุดของรูปแบบเรขาคณิต output เริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:72
+#, python-format
+msgid ""
+"The maximum number of processes to use in various processes. Peak memory "
+"requirement is ~1GB per thread and 2 megapixel image resolution. Default: "
+"%(default)s"
+msgstr ""
+"จำนวนกระบวนการสูงสุดที่จะใช้ในกระบวนการต่างๆ ความต้องการหน่วยความจำสูงสุดคือ ~1GB "
+"โดยthreadและความละเอียดของภาพ 2 ล้านพิกเซล ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:73
+#, fuzzy, python-format
+#| msgid ""
+#| "Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag "
+#| "of Words. FLANN is slower, but more stable. BOW is faster, but can "
+#| "sometimes miss valid matches. Can be one of: %(choices)s. Default: "
+#| "%(default)s"
+msgid ""
+"Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag of "
+"Words. FLANN is slower, but more stable. BOW is faster, but can sometimes "
+"miss valid matches. BRUTEFORCE is very slow but robust.Can be one of: "
+"%(choices)s. Default: %(default)s"
+msgstr ""
+"ขั้นตอน Matcher, Fast Library สำหรับ Approximate Nearest Neighbors หรือ Bag of "
+"Words. FLANN ช้ากว่า แต่เสถียรกว่า BOW เร็วกว่า แต่บางครั้งอาจพลาดการจับคู่ที่ถูกต้อง "
+"สามารถเป็นหนึ่งใน: %(choices)s. ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:74
+#, python-format
+msgid ""
+"End processing at this stage. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"สิ้นสุดการประมวลผลในขั้นตอนนี้ สามารถเป็นหนึ่งใน: %(choices)s. ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:75
+#, fuzzy, python-format
+#| msgid ""
+#| "Export the georeferenced point cloud in Entwine Point Tile (EPT) format. "
+#| "Default: %(default)s"
+msgid ""
+"Save the georeferenced point cloud in Cloud Optimized Point Cloud (COPC) "
+"format. Default: %(default)s"
+msgstr ""
+"ส่งออกcloudจุดอ้างอิงทางภูมิศาสตร์ในรูปแบบ Entwine Point Tile (EPT) ค่าเริ่มต้น: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:76
+#, python-format
+msgid ""
+"Filters the point cloud by removing points that deviate more than N standard "
+"deviations from the local mean. Set to 0 to disable filtering. Default: "
+"%(default)s"
+msgstr ""
+"Filters point cloud โดยย้ายจุดเบี่ยงเบนมากกว่าค่าเบี่ยงเบนมาตรฐาน N "
+"ออกจากค่าเฉลี่ยท้องถิ่น ตั้งค่าเป็น 0 เพื่อปิดใช้งาน filtering ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:77
+#, python-format
+msgid ""
+"Average number of images per submodel. When splitting a large dataset into "
+"smaller submodels, images are grouped into clusters. This value regulates "
+"the number of images that each cluster should have on average. Default: "
+"%(default)s"
+msgstr ""
+"จำนวนภาพโดยเฉลี่ยต่อแบบจำลองแบบย่อย "
+"เมื่อแยกชุดข้อมูลขนาดใหญ่ออกเป็นแบบจำลองแบบย่อยที่มีขนาดเล็กลง รูปภาพจะถูกจัดกลุ่มเป็นกลุ่ม "
+"ค่านี้กำหนดจำนวนภาพที่แต่ละclusterควรมีโดยเฉลี่ย ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:78
+#, fuzzy, python-format
+#| msgid ""
+#| "Number of nearest images to pre-match based on GPS exif data. Set to 0 to "
+#| "skip pre-matching. Neighbors works together with Distance parameter, set "
+#| "both to 0 to not use pre-matching. Default: %(default)s"
+msgid ""
+"Perform image matching with the nearest images based on GPS exif data. Set "
+"to 0 to match by triangulation. Default: %(default)s"
+msgstr ""
+"จำนวนภาพที่ใกล้เคียงที่สุดที่จะจับคู่ล่วงหน้าตามข้อมูล GPS exif ตั้งค่าเป็น 0 เพื่อข้ามการจับคู่ล่วงหน้า "
+"Neighbors ทำงานร่วมกับDistance parameter ตั้งค่าทั้งคู่เป็น 0 เพื่อไม่ใช้การจับคู่ล่วงหน้า "
+"ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:79
+#, python-format
+msgid ""
+"Choose the algorithm for extracting keypoints and computing descriptors. Can "
+"be one of: %(choices)s. Default: %(default)s"
+msgstr ""
+"เลือกขั้นตอนสำหรับการแยกประเด็นสำคัญและตัวอธิบายการคำนวณ สามารถเป็นหนึ่งใน: %(choices)s."
+"ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:80
+#, fuzzy, python-format
+#| msgid ""
+#| "Use the camera parameters computed from another dataset instead of "
+#| "calculating them. Can be specified either as path to a cameras.json file "
+#| "or as a JSON string representing the contents of a cameras.json file. "
+#| "Default: %(default)s"
+msgid ""
+"GeoJSON polygon limiting the area of the reconstruction. Can be specified "
+"either as path to a GeoJSON file or as a JSON string representing the "
+"contents of a GeoJSON file. Default: %(default)s"
+msgstr ""
+"ใช้กล้องparametersที่คำนวณจากชุดข้อมูลอื่นแทนการคำนวณ สามารถระบุเป็นเส้นทางไปยังไฟล์ กล้อง."
+"json หรือเป็น JSON string ที่แสดงเนื้อหาของไฟล์ กล้อง.json ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:81
+#, python-format
+msgid ""
+"Radius of the overlap between submodels. After grouping images into "
+"clusters, images that are closer than this radius to a cluster are added to "
+"the cluster. This is done to ensure that neighboring submodels overlap. "
+"Default: %(default)s"
+msgstr ""
+"รัศมีของการทับซ้อนกันระหว่างแบบจำลองแบบย่อย หลังจากจัดกลุ่มรูปภาพเป็นกลุ่ม "
+"รูปภาพที่อยู่ใกล้รัศมีนี้กับกลุ่มจะถูกเพิ่มไปยังกลุ่ม "
+"สิ่งนี้ทำเพื่อให้แน่ใจว่าแบบจำลองแบบย่อยที่อยู่ใกล้เคียงทับซ้อนกัน ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:82
+#, python-format
+msgid ""
+"Run local bundle adjustment for every image added to the reconstruction and "
+"a global adjustment every 100 images. Speeds up reconstruction for very "
+"large datasets. Default: %(default)s"
+msgstr ""
+"เรียกใช้การปรับ bundle ในเครื่อง สำหรับทุกภาพที่เพิ่มเข้าไปในการสร้างใหม่และปรับโดยรวมทุกๆ "
+"100 ภาพ เร่งการสร้างใหม่สำหรับชุดข้อมูลขนาดใหญ่มาก ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:83
+#, python-format
+msgid ""
+"Set a camera projection type. Manually setting a value can help improve "
+"geometric undistortion. By default the application tries to determine a lens "
+"type from the images metadata. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"ตั้งค่าประเภทการฉายภาพของกล้อง "
+"การตั้งค่าด้วยตนเองสามารถช่วยปรับปรุงการเปลี่ยนแปลงทางเรขาคณิต โดยค่าเริ่มต้น "
+"แอปพลิเคชันจะพยายามกำหนดประเภทเลนส์จากmetadataของรูปภาพ สามารถเป็นหนึ่งใน: "
+"%(choices)s ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:84
+#, python-format
+msgid ""
+"Minimum number of features to extract per image. More features can be useful "
+"for finding more matches between images, potentially allowing the "
+"reconstruction of areas with little overlap or insufficient features. More "
+"features also slow down processing. Default: %(default)s"
+msgstr ""
+"จำนวนคุณสมบัติขั้นต่ำที่จะแยกต่อภาพ คุณลักษณะเพิ่มเติมอาจมีประโยชน์ในการค้นหาภาพที่ตรงกันมากขึ้น "
+"ซึ่งอาจช่วยให้สร้างพื้นที่ใหม่ที่มีการทับซ้อนกันเล็กน้อยหรือคุณลักษณะไม่เพียงพอ "
+"คุณสมบัติเพิ่มเติมยังทำให้การประมวลผลช้าลง ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:85
+#, python-format
+msgid ""
+"Path to the image groups file that controls how images should be split into "
+"groups. The file needs to use the following format: image_name "
+"group_nameDefault: %(default)s"
+msgstr ""
+"เส้นทางไปยังไฟล์กลุ่มรูปภาพที่ควบคุมวิธีการแยกรูปภาพออกเป็นกลุ่ม ไฟล์ต้องใช้รูปแบบต่อไปนี้: "
+"image_name group_nameDefault: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:86
 #, fuzzy, python-format
 #| msgid ""
 #| "Ignore Ground Sampling Distance (GSD). GSD caps the maximum resolution of "
@@ -2255,47 +2246,62 @@ msgstr ""
 "เป็นค่าประมาณ บางครั้งการเพิกเฉยอาจส่งผลให้คุณภาพของภาพออกมาดีขึ้นเล็กน้อย ค่าเริ่มต้น: "
 "%(default)s"
 
+#: app/static/app/js/translations/odm_autogenerated.js:87
+#, python-format
+msgid ""
+"Automatically compute image masks using AI to remove the sky. Experimental. "
+"Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:88
+#, python-format
+msgid ""
+"Create Cloud-Optimized GeoTIFFs instead of normal GeoTIFFs. Default: "
+"%(default)s"
+msgstr "สร้าง Cloud-Optimized GeoTIFF แทนที่ GeoTIFF ปกติ ค่าเริ่มต้น: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:89
+#, python-format
+msgid ""
+"Turn off camera parameter optimization during bundle adjustment. This can be "
+"sometimes useful for improving results that exhibit doming/bowling or when "
+"images are taken with a rolling shutter camera. Default: %(default)s"
+msgstr ""
+"ปิดการปรับกล้องparameterให้เหมาะสมระหว่างการปรับbundleบางครั้งอาจมีประโยชน์สำหรับการปรับปรุงผลลัพธ์ที่แสดงdoming/"
+"bowling หรือเมื่อถ่ายภาพด้วยกล้องrolling shutter ค่าเริ่มต้น: %(default)s"
+
 #: app/static/app/js/translations/odm_autogenerated.js:90
 #, python-format
 msgid ""
-"Simple Morphological Filter window radius parameter (meters). Default: "
-"%(default)s"
+"Generate static tiles for orthophotos and DEMs that are suitable for viewers "
+"like Leaflet or OpenLayers. Default: %(default)s"
 msgstr ""
-"Simple Morphological Filter window รัศมี parameter (เมตร). Default: %(default)s"
+"สร้างstatic tilesสำหรับ ภาพถ่าย และ DEM ที่เหมาะสำหรับผู้ดู เช่น Leaflet หรือ "
+"OpenLayers ค่าเริ่มต้น: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:91
 #, python-format
 msgid ""
-"Run local bundle adjustment for every image added to the reconstruction and "
-"a global adjustment every 100 images. Speeds up reconstruction for very "
-"large datasets. Default: %(default)s"
+"Do not use GPU acceleration, even if it's available. Default: %(default)s"
 msgstr ""
-"เรียกใช้การปรับ bundle ในเครื่อง สำหรับทุกภาพที่เพิ่มเข้าไปในการสร้างใหม่และปรับโดยรวมทุกๆ "
-"100 ภาพ เร่งการสร้างใหม่สำหรับชุดข้อมูลขนาดใหญ่มาก ค่าเริ่มต้น: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:92
-#, fuzzy, python-format
-#| msgid ""
-#| "Improve the accuracy of the point cloud by computing geometrically "
-#| "consistent depthmaps. This increases processing time, but can improve "
-#| "results in urban scenes. Default: %(default)s"
+#, python-format
 msgid ""
-"Geometric estimates improve the accuracy of the point cloud by computing "
-"geometrically consistent depthmaps but may not be usable in larger datasets. "
-"This flag disables geometric estimates. Default: %(default)s"
+"Octree depth used in the mesh reconstruction, increase to get more vertices, "
+"recommended values are 8-12. Default: %(default)s"
 msgstr ""
-"ปรับปรุงความแม่นยำของ point cloud โดยการคำนวณแผนที่เชิงลึกที่สอดคล้องกันทางเรขาคณิต "
-"สิ่งนี้จะเพิ่มเวลาในการประมวลผล แต่สามารถปรับปรุงผลลัพธ์ในพื้นที่ที่ตั้งฉากได้ ค่าเริ่มต้น: "
-"%(default)s"
+"ความลึกของ Octree ที่ใช้ในการสร้างกับดักขึ้นใหม่ เพิ่มขึ้นเพื่อให้ได้ยอดมากขึ้น ค่าที่แนะนำคือ 8-12 "
+"ค่าเริ่มต้น: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:93
 #, python-format
 msgid ""
-"Build orthophoto overviews for faster display in programs such as QGIS. "
-"Default: %(default)s"
+"Set this parameter if you want to generate a PNG rendering of the "
+"orthophoto. Default: %(default)s"
 msgstr ""
-"สร้างภาพรวม ภาพถ่าย ออร์โธ เพื่อการแสดงผลที่รวดเร็วยิ่งขึ้นในโปรแกรมต่างๆ เช่น QGIS "
-"ค่าเริ่มต้น: %(default)s"
+"ตั้งค่า parameter นี้หากคุณต้องการสร้าง PNG rendering ของ orthophoto ค่าเริ่มต้น: "
+"%(default)s"
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:3
 msgid "Compute volume, area and length measurements on Leaflet"
@@ -3149,6 +3155,9 @@ msgstr "ตารางไมล์"
 #: coreplugins/measure/public/app.jsx:65
 msgid "Export Measurements"
 msgstr "การวัดการส่งออก"
+
+#~ msgid "OSM Mapnik"
+#~ msgstr "OSM Mapnik"
 
 #~ msgid "Import Existing Assets"
 #~ msgstr "นำเข้าทรัพยากรที่มีอยู่"
