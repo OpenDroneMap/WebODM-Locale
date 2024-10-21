@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-08 16:19+0000\n"
-"PO-Revision-Date: 2024-10-18 08:15+0000\n"
+"PO-Revision-Date: 2024-10-22 08:16+0000\n"
 "Last-Translator: Park Jeongyong <kladess@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/webodm/react-ui/"
 "ko/>\n"
@@ -57,10 +57,8 @@ msgid "Orthophoto"
 msgstr "정사영상"
 
 #: app/static/app/js/MapView.jsx:113 app/static/app/js/components/Map.jsx:93
-#, fuzzy
-#| msgid "Normal"
 msgid "Thermal"
-msgstr "보통"
+msgstr "열"
 
 #: app/static/app/js/MapView.jsx:113 app/static/app/js/components/Map.jsx:93
 msgid "Plant Health"
@@ -167,7 +165,7 @@ msgstr "ESRI 위성영상"
 
 #: app/static/app/js/classes/Basemaps.js:26
 msgid "OpenStreetMap"
-msgstr ""
+msgstr "오픈스트리트맵"
 
 #: app/static/app/js/classes/PendingActions.js:11
 msgid "Canceling..."
@@ -305,8 +303,6 @@ msgid "Miles"
 msgstr "마일"
 
 #: app/static/app/js/classes/Units.js:84 app/static/app/js/classes/Units.js:91
-#, fuzzy
-#| msgid "Sq Feet"
 msgid "Square Feet"
 msgstr "평방피트"
 
@@ -317,10 +313,8 @@ msgid "Square Meters"
 msgstr "평방미터"
 
 #: app/static/app/js/classes/Units.js:105
-#, fuzzy
-#| msgid "Kilometers"
 msgid "Square Kilometers"
-msgstr "킬로미터"
+msgstr "평방킬로미터"
 
 #: app/static/app/js/classes/Units.js:112
 #: app/static/app/js/classes/Units.js:119
@@ -335,22 +329,20 @@ msgstr "입방미터"
 
 #: app/static/app/js/classes/Units.js:133
 #: app/static/app/js/classes/Units.js:140
-#, fuzzy
-#| msgid "Cubic Meters"
 msgid "Cubic Yards"
-msgstr "입방미터"
+msgstr "입방야드"
 
 #: app/static/app/js/classes/Units.js:238
 msgid "Metric"
-msgstr ""
+msgstr "미터"
 
 #: app/static/app/js/classes/Units.js:268
 msgid "Imperial"
-msgstr ""
+msgstr "영미단위계"
 
 #: app/static/app/js/classes/Units.js:323
 msgid "Imperial (US)"
-msgstr ""
+msgstr "영미단위계(미국)"
 
 #: app/static/app/js/components/AssetDownloadButtons.jsx:56
 msgid "Download Assets"
@@ -358,7 +350,7 @@ msgstr "애셋 다운로드"
 
 #: app/static/app/js/components/AssetDownloadButtons.jsx:86
 msgid "Backup"
-msgstr ""
+msgstr "백업"
 
 #: app/static/app/js/components/EditPermissionsPanel.jsx:49
 msgid "Cannot load permissions."
@@ -438,7 +430,7 @@ msgstr "복제"
 #: app/static/app/js/components/EditProjectDialog.jsx:172
 #: app/static/app/js/components/EditTaskForm.jsx:637
 msgid "Add tags"
-msgstr ""
+msgstr "태그 추가"
 
 #: app/static/app/js/components/EditProjectDialog.jsx:179
 msgid "Description (optional)"
@@ -712,7 +704,7 @@ msgstr "URL으로부터 불러올 수 없습니다. 인터넷 연결을 확인�
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:161
 msgid "Import Assets or Backups"
-msgstr ""
+msgstr "에셋을 불러오거나 백업하기"
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:162
 #, fuzzy, python-format
@@ -763,7 +755,7 @@ msgstr "GeoJSON으로 내보내기"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:300
 msgid "Zoom To"
-msgstr ""
+msgstr "확대 하기"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:319
 msgid "Algorithm:"
@@ -771,20 +763,20 @@ msgstr "알고리즘:"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:331
 msgid "Bands:"
-msgstr ""
+msgstr "밴드:"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:336
 msgid "Automatic"
-msgstr ""
+msgstr "자동적"
 
 #: app/static/app/js/components/LayersControlLayer.jsx:340
 #, python-format
 msgid "Not every band for %(name)s could be automatically identified."
-msgstr ""
+msgstr "%(name)s의 모든 밴드를 자동으로 식별할 수 있는 것은 아닙니다."
 
 #: app/static/app/js/components/LayersControlLayer.jsx:340
 msgid "Your sensor might not have the proper bands for using this algorithm."
-msgstr ""
+msgstr "귀하의 센서에는 이 알고리즘을 사용하기에 적합한 대역이 없을 수 있습니다."
 
 #: app/static/app/js/components/LayersControlLayer.jsx:347
 msgid "Color:"
@@ -898,7 +890,8 @@ msgstr ""
 msgid ""
 "Number of files selected exceeds the maximum of %(count)s allowed on this "
 "processing node."
-msgstr ""
+msgstr "선택한 파일 수가 이 처리 노드에서 허용되는 최대 개수 %(count)s를 "
+"초과했습니다."
 
 #: app/static/app/js/components/NewTaskPanel.jsx:157
 msgid "Resize Images"
@@ -918,10 +911,8 @@ msgstr "처리 시작"
 
 #: app/static/app/js/components/Paginator.jsx:25
 #: app/static/app/js/components/ProjectListItem.jsx:51
-#, fuzzy
-#| msgid "Created on:"
 msgid "Created on"
-msgstr "생성됨:"
+msgstr "생성됨"
 
 #: app/static/app/js/components/Paginator.jsx:34
 msgid "Owner"
@@ -929,20 +920,20 @@ msgstr "소유자"
 
 #: app/static/app/js/components/Paginator.jsx:127
 msgid "Search names or #tags"
-msgstr ""
+msgstr "이름이나 #태그 검색"
 
 #: app/static/app/js/components/Paginator.jsx:138
 #: app/static/app/js/components/ProjectListItem.jsx:714
 msgid "Sort"
-msgstr ""
+msgstr "정렬"
 
 #: app/static/app/js/components/Paginator.jsx:145
 msgid "Search results for:"
-msgstr ""
+msgstr "결과에서 검색:"
 
 #: app/static/app/js/components/ProcessingNodeOption.jsx:8
 msgid "You might run out of memory if you use this option."
-msgstr ""
+msgstr "이 옵션을 사용하면 메모리가 부족해질 수 있습니다."
 
 #: app/static/app/js/components/ProcessingNodeOption.jsx:153
 #: app/static/app/js/translations/potree_autogenerated.js:63
@@ -967,14 +958,13 @@ msgstr ""
 "(%(max_retries)s)"
 
 #: app/static/app/js/components/ProjectListItem.jsx:228
-#, fuzzy, python-format
-#| msgid "Cannot upload %(filename)s, exceeded max retries (%(max_retries)s)"
+#, python-format
 msgid ""
 "Cannot upload %(filename)s, file is too large! Default MaxFileSize is "
 "%(maxFileSize)s MB!"
 msgstr ""
-"%(filename)s을 올릴 수 없습니다. 최대 재시도 횟수를 초과했습니다"
-"(%(max_retries)s)"
+"%(filename)s을 업로드할 수 없습니다. 파일이 너무 큽니다! 기본 MaxFileSize는 "
+"%(maxFileSize)sMB입니다!"
 
 #: app/static/app/js/components/ProjectListItem.jsx:279
 #: app/static/app/js/components/ProjectListItem.jsx:411
@@ -1008,7 +998,8 @@ msgstr ""
 msgid ""
 "This project was shared with you. It will not be deleted, but simply hidden "
 "from your dashboard. Continue?"
-msgstr ""
+msgstr "이 프로젝트는 귀하와 공유되었습니다. 삭제되지는 않지만 대시보드에서 숨겨질 "
+"뿐입니다. 계속하시겠습니까?"
 
 #: app/static/app/js/components/ProjectListItem.jsx:614
 msgid "Edit Project"
@@ -1033,7 +1024,7 @@ msgstr "필터"
 
 #: app/static/app/js/components/ProjectListItem.jsx:708
 msgid "Clear"
-msgstr ""
+msgstr "비우기"
 
 #: app/static/app/js/components/ProjectListItem.jsx:723
 #: app/static/app/js/components/TaskListItem.jsx:463
@@ -1070,11 +1061,11 @@ msgstr "HTML 아이프레임:"
 
 #: app/static/app/js/components/SortPanel.jsx:48
 msgid "Descending"
-msgstr ""
+msgstr "내림차순"
 
 #: app/static/app/js/components/SortPanel.jsx:54
 msgid "Ascending"
-msgstr ""
+msgstr "오름차순"
 
 #: app/static/app/js/components/SwitchModeButton.jsx:47
 msgid "3D"
@@ -1254,7 +1245,7 @@ msgstr "재구성된 점들:"
 
 #: app/static/app/js/components/TaskListItem.jsx:588
 msgid "Disk Usage:"
-msgstr ""
+msgstr "디스크 사용량:"
 
 #: app/static/app/js/components/TaskListItem.jsx:592
 #, fuzzy
@@ -1308,25 +1299,15 @@ msgstr ""
 "%(cloudlink)s 를 이용하여 시도할 수도 있습니다."
 
 #: app/static/app/js/components/TaskListItem.jsx:629
-#, fuzzy, python-format
-#| msgid ""
-#| "\"Process exited with code 1\" means that part of the processing failed. "
-#| "Sometimes it's a problem with the dataset, sometimes it can be solved by "
-#| "tweaking the Task Options and sometimes it might be a bug! If you need "
-#| "help, upload your images somewhere like %(link1)s or %(link2)s and "
-#| "%(open_a_topic)s on our community forum, making sure to include a copy of "
-#| "your task's output. Our awesome contributors will try to help you!"
+#, python-format
 msgid ""
 "\"Process exited with code 1\" means that part of the processing failed. "
 "Sometimes it's a problem with the dataset, sometimes it can be solved by "
 "tweaking the Task Options. Check the documentation at %(link)s"
 msgstr ""
-"\"프로세스가 코드 1로 종료되었습니다\"는 처리의 일부가 실패했음을 의미합니"
-"다. 때로는 데이터 세트에 문제가 있고 때로는 작업 옵션을 조정하여 해결할 수 있"
-"으며 때로는 버그 일 수 있습니다! 도움이 필요하면 커뮤니티 포럼에 %(link1)s 또"
-"는 %(link2)s 및 %(open_a_topic)s와 같은 위치에 이미지를 업로드하고 작업 결과"
-"물의 사본을 첨부해야합니다. 우리의 멋진 기여자들이 당신을 돕기 위해 노력할 것"
-"입니다!"
+"\"프로세스가 코드 1로 종료되었습니다\"는 처리의 일부가 실패했음을 "
+"의미합니다. 때로는 데이터 세트에 문제가 있고, 때로는 작업 옵션을 조정하면 "
+"해결할 수 있습니다. %(link)s에서 설명서를 확인하세요"
 
 #: app/static/app/js/components/TaskListItem.jsx:676
 msgid "Set a processing node"
@@ -1403,7 +1384,8 @@ msgstr "처리 후 출력 결과를 이 폴더에 복사합니다."
 msgid ""
 "Maximum number of frames to extract from video files for processing. Set to "
 "0 for no limit. Default: %(default)s"
-msgstr ""
+msgstr "비디오 파일에서 추출하여 처리할 최대 프레임 수입니다. 제한이 없는 경우 0으로 "
+"설정합니다. 기본값: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:9
 #, python-format
@@ -1495,7 +1477,8 @@ msgstr ""
 msgid ""
 "Automatically compute image masks using AI to remove the background. "
 "Experimental. Default: %(default)s"
-msgstr ""
+msgstr "AI를 사용하여 이미지 마스크를 자동으로 계산하여 배경을 제거합니다. 실험적. "
+"기본값: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:18
 #, python-format
@@ -1503,6 +1486,8 @@ msgid ""
 "Do not attempt to merge partial reconstructions. This can happen when images "
 "do not have sufficient overlap or are isolated. Default: %(default)s"
 msgstr ""
+"부분 재구성을 병합하려고 하지 마십시오. 이는 이미지가 충분히 겹치지 않거나 "
+"분리되어 있을 때 발생할 수 있습니다. 기본값: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:19
 #, python-format
@@ -1700,6 +1685,9 @@ msgid ""
 "boundary when computing the boundary with --auto-boundary. Set to 0 to "
 "automatically choose a value. Default: %(default)s"
 msgstr ""
+"--auto-boundary로 경계를 계산할 때 카메라 촬영 위치와 경계의 바깥쪽 가장자리 "
+"사이의 거리를 지정합니다. 0으로 설정하면 자동으로 값이 선택됩니다. 기본값: "
+"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:36
 #, fuzzy, python-format
@@ -2683,10 +2671,8 @@ msgstr ""
 
 #: coreplugins/annotate/public/Popup.jsx:493
 #: coreplugins/measure/public/MeasurePopup.jsx:180
-#, fuzzy
-#| msgid "Average GSD:"
 msgid "Average"
-msgstr "평균 GSD:"
+msgstr "평균 GSD"
 
 #: coreplugins/annotate/public/Popup.jsx:494
 #: coreplugins/measure/public/MeasurePopup.jsx:181
@@ -2706,36 +2692,28 @@ msgstr "면적"
 
 #: coreplugins/annotate/public/Popup.jsx:499
 #: coreplugins/annotate/public/Popup.jsx:586
-#, fuzzy
-#| msgid "Volume:"
 msgid "Volume"
-msgstr "체적:"
+msgstr "체적"
 
 #: coreplugins/annotate/public/Popup.jsx:525
 msgid "Display"
 msgstr ""
 
 #: coreplugins/annotate/public/Popup.jsx:537
-#, fuzzy
-#| msgid "Description (optional)"
 msgid "Description"
-msgstr "설명 (선택)"
+msgstr "설명"
 
 #: coreplugins/annotate/public/Popup.jsx:542
-#, fuzzy
-#| msgid "Color:"
 msgid "Color"
-msgstr "색상:"
+msgstr "색상"
 
 #: coreplugins/annotate/public/Popup.jsx:559
 msgid "Coordinates"
 msgstr ""
 
 #: coreplugins/annotate/public/Popup.jsx:565
-#, fuzzy
-#| msgid "Elevation:"
 msgid "Elevation"
-msgstr "고도:"
+msgstr "고도"
 
 #: coreplugins/annotate/public/Popup.jsx:574
 #, fuzzy
