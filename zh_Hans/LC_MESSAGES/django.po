@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-08 16:19+0000\n"
+"POT-Creation-Date: 2024-11-06 20:11+0000\n"
 "PO-Revision-Date: 2024-09-11 13:09+0000\n"
 "Last-Translator: NtskwK <natsukawa247@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
@@ -278,36 +278,36 @@ msgstr "权限列表中的用户无效"
 msgid "Invalid permissions"
 msgstr "无效权限"
 
-#: app/api/tasks.py:186
+#: app/api/tasks.py:188
 msgid "You need to upload at least 1 file before commit"
 msgstr "提交前至少需要上传1个文件"
 
-#: app/api/tasks.py:208
+#: app/api/tasks.py:210
 msgid "No files uploaded"
 msgstr "没有文件可上传"
 
-#: app/api/tasks.py:234
+#: app/api/tasks.py:236
 msgid "Cannot duplicate task"
 msgstr "无法复制任务"
 
-#: app/api/tasks.py:251
+#: app/api/tasks.py:253
 msgid "Cannot create task, you need at least 2 images"
 msgstr "无法创建任务，您至少需要2个图像"
 
-#: app/api/tasks.py:370 app/api/tasks.py:374 app/api/tasks.py:398
-#: app/api/tasks.py:401 app/api/tasks.py:419
+#: app/api/tasks.py:377 app/api/tasks.py:381 app/api/tasks.py:405
+#: app/api/tasks.py:408 app/api/tasks.py:426
 msgid "Asset does not exist"
 msgstr "资源不存在"
 
-#: app/api/tasks.py:437
+#: app/api/tasks.py:444
 msgid "Imported Task"
 msgstr "导入的任务"
 
-#: app/api/tasks.py:440
+#: app/api/tasks.py:447
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "无法创建任务，你需要上传1个文件"
 
-#: app/api/tasks.py:443
+#: app/api/tasks.py:450
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "无法创建任务，请指定URL或上载1个文件。"
 
@@ -524,11 +524,11 @@ msgstr "删除中"
 msgid "Project tags"
 msgstr "项目标签"
 
-#: app/models/project.py:28 app/models/task.py:282
+#: app/models/project.py:28 app/models/task.py:284
 msgid "Tags"
 msgstr "标签"
 
-#: app/models/project.py:65 app/models/task.py:430
+#: app/models/project.py:65 app/models/task.py:432
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "复制于%(task)s"
@@ -626,7 +626,7 @@ msgid ""
 "associated yet)"
 msgstr "分配给此任务的处理节点（如果此任务尚未关联，则为null）"
 
-#: app/models/task.py:247 app/views/app.py:118 nodeodm/models.py:36
+#: app/models/task.py:247 app/views/app.py:125 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "处理节点"
 
@@ -703,6 +703,18 @@ msgid "Public"
 msgstr "公共"
 
 #: app/models/task.py:263
+#, fuzzy
+#| msgid "A flag indicating whether this task is available to the public"
+msgid "A flag indicating whether this public task can be edited"
+msgstr "指示此任务是否可公开的标志"
+
+#: app/models/task.py:263
+#, fuzzy
+#| msgid "Public"
+msgid "Public Edit"
+msgstr "公共"
+
+#: app/models/task.py:265
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -711,134 +723,134 @@ msgstr ""
 "当设置为不同于-1的值时，表示此任务的图像在处理之前已经/即将调整为此处指定的大"
 "小。"
 
-#: app/models/task.py:263
+#: app/models/task.py:265
 msgid "Resize To"
 msgstr "调整大小至"
 
-#: app/models/task.py:266
+#: app/models/task.py:268
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr "介于0和1之间的值，表示该任务的文件上传到处理节点的进度"
 
-#: app/models/task.py:267
+#: app/models/task.py:269
 msgid "Upload Progress"
 msgstr "上传进度"
 
-#: app/models/task.py:270
+#: app/models/task.py:272
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr "值介于0和1之间，指示此任务图像的调整大小进度"
 
-#: app/models/task.py:271
+#: app/models/task.py:273
 msgid "Resize Progress"
 msgstr "调整进度"
 
-#: app/models/task.py:274
+#: app/models/task.py:276
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr "表示该任务的进展状况（预想）的0到1的值"
 
-#: app/models/task.py:275
+#: app/models/task.py:277
 msgid "Running Progress"
 msgstr "执行进度"
 
-#: app/models/task.py:277
+#: app/models/task.py:279
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "导入此任务的URL（仅适用于导入的任务）"
 
-#: app/models/task.py:277
+#: app/models/task.py:279
 msgid "Import URL"
 msgstr "导入URL"
 
-#: app/models/task.py:278
+#: app/models/task.py:280
 msgid "Number of images associated with this task"
 msgstr "与此任务关联的图像数"
 
-#: app/models/task.py:278
+#: app/models/task.py:280
 msgid "Images Count"
 msgstr "图片总数"
 
-#: app/models/task.py:279
+#: app/models/task.py:281
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr "指示此任务当前是否正在等待信息或文件上载，然后再考虑执行的标志。"
 
-#: app/models/task.py:279
+#: app/models/task.py:281
 msgid "Partial"
 msgstr "部分"
 
-#: app/models/task.py:280
+#: app/models/task.py:282
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr "用于保存/读取测量结果和相机视角的连续potree scene信息"
 
-#: app/models/task.py:280
+#: app/models/task.py:282
 msgid "Potree Scene"
 msgstr "Potree 场景"
 
-#: app/models/task.py:281
+#: app/models/task.py:283
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "数据集的EPSG代码（地理参考）"
 
-#: app/models/task.py:282
+#: app/models/task.py:284
 msgid "Task tags"
 msgstr "任务标签"
 
-#: app/models/task.py:283
+#: app/models/task.py:285
 msgid "List of orthophoto bands"
 msgstr "正射影像波段列表"
 
-#: app/models/task.py:283
+#: app/models/task.py:285
 msgid "Orthophoto Bands"
 msgstr "正射影像波段"
 
-#: app/models/task.py:284
+#: app/models/task.py:286
 msgid "Size of the task on disk in megabytes"
 msgstr "磁盘上的文件大小"
 
-#: app/models/task.py:284
+#: app/models/task.py:286
 msgid "Size"
 msgstr "大小"
 
-#: app/models/task.py:287
+#: app/models/task.py:289
 msgid "Task"
 msgstr "任务"
 
-#: app/models/task.py:288
+#: app/models/task.py:290
 msgid "Tasks"
 msgstr "任务"
 
-#: app/models/task.py:299
+#: app/models/task.py:301
 msgid "unnamed"
 msgstr "未命名"
 
-#: app/models/task.py:549
+#: app/models/task.py:554
 msgid "Importing assets..."
 msgstr "正在导入资源…"
 
-#: app/models/task.py:601 app/models/task.py:869
+#: app/models/task.py:606 app/models/task.py:874
 msgid "Invalid zip file"
 msgstr "无效的zip文件"
 
-#: app/models/task.py:695
+#: app/models/task.py:700
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "连接错误：%(error)s"
 
-#: app/models/task.py:775
+#: app/models/task.py:780
 msgid "Cannot restart a task that has no processing node"
 msgstr "无法重新启动没有处理节点的任务"
 
-#: app/models/task.py:949
+#: app/models/task.py:954
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "不支持的SRS%(code)s。请确保您选择了受支持的SRS。"
 
-#: app/models/task.py:968
+#: app/models/task.py:973
 msgid "Done!"
 msgstr "完成了！"
 
@@ -1448,7 +1460,7 @@ msgstr "在%(total)s中使用了%(used)s"
 msgid "Logout"
 msgstr "退出登录"
 
-#: app/templates/app/logged_in_base.html:57 app/views/app.py:48
+#: app/templates/app/logged_in_base.html:57 app/views/app.py:52
 msgid "Dashboard"
 msgstr "任务列表"
 
@@ -1476,7 +1488,7 @@ msgstr "组"
 msgid "Brand"
 msgstr "商标"
 
-#: app/templates/app/logged_in_base.html:138 app/views/app.py:108
+#: app/templates/app/logged_in_base.html:138 app/views/app.py:115
 msgid "About"
 msgstr "关于"
 
@@ -1535,8 +1547,9 @@ msgid ""
 "The disk quota is being exceeded (%(used)s of %(total)s used). The most "
 "recent tasks will be automatically deleted %(when)s, until usage falls below "
 "%(total)s."
-msgstr "磁盘空间不足 (%(total)s 中使用了%(used)s )。 "
-"最近的任务将被自动删除%(when)s，直到使用量低于%(total)s."
+msgstr ""
+"磁盘空间不足 (%(total)s 中使用了%(used)s )。 最近的任务将被自动删除%(when)s，"
+"直到使用量低于%(total)s."
 
 #: app/templates/app/quota.html:14
 #, python-format
@@ -1578,93 +1591,101 @@ msgid "very soon"
 msgstr "很快"
 
 #: app/translations/plugin_manifest_autogenerated.py:4
+msgid "Upload and tile ODM assets with Cesium ion."
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:5
 msgid "Import images from external sources directly"
 msgstr "外部源导入图像"
 
-#: app/translations/plugin_manifest_autogenerated.py:5
+#: app/translations/plugin_manifest_autogenerated.py:6
 msgid "Compute, preview and export contours from DEMs"
 msgstr "从DEM计算、预览和导出等高线"
 
-#: app/translations/plugin_manifest_autogenerated.py:6
+#: app/translations/plugin_manifest_autogenerated.py:7
 msgid "Display program version, memory and disk space usage statistics"
 msgstr "显示程序版本、内存和磁盘空间使用统计信息"
 
-#: app/translations/plugin_manifest_autogenerated.py:7
+#: app/translations/plugin_manifest_autogenerated.py:8
 msgid "Integrate WebODM with DroneDB: import images and share results"
 msgstr "将WebODM与DroneDB整合：导入图像并分享结果"
 
-#: app/translations/plugin_manifest_autogenerated.py:8
+#: app/translations/plugin_manifest_autogenerated.py:9
 msgid "Create editable short links when sharing task URLs"
 msgstr "共享任务URL时创建可编辑的短链接"
 
-#: app/translations/plugin_manifest_autogenerated.py:9
+#: app/translations/plugin_manifest_autogenerated.py:10
 msgid "Add a fullscreen button to the 2D map view"
 msgstr "向2D地图视图添加全屏按钮"
 
-#: app/translations/plugin_manifest_autogenerated.py:10
+#: app/translations/plugin_manifest_autogenerated.py:11
 msgid "Process in the cloud with webodm.net"
 msgstr "在 webodm.net 处理点云"
 
-#: app/translations/plugin_manifest_autogenerated.py:11
+#: app/translations/plugin_manifest_autogenerated.py:12
 msgid "Compute volume, area and length measurements on Leaflet"
 msgstr "计算传单上的体积、面积和长度测量值"
 
-#: app/translations/plugin_manifest_autogenerated.py:12
+#: app/translations/plugin_manifest_autogenerated.py:13
 msgid "A plugin to upload orthophotos to OpenAerialMap"
 msgstr "将正射影像上传至OpenAerialMap的插件"
 
-#: app/translations/plugin_manifest_autogenerated.py:13
+#: app/translations/plugin_manifest_autogenerated.py:14
 msgid ""
 "A plugin to add a button for quickly opening OpenStreetMap's iD editor and "
 "setup a TMS basemap."
 msgstr ""
 "快速打开OpenStreet Map的iD编辑器，添加可以设置TMS背景地图的按钮的插件。"
 
-#: app/translations/plugin_manifest_autogenerated.py:14
-#: app/translations/plugin_manifest_autogenerated.py:18
+#: app/translations/plugin_manifest_autogenerated.py:15
+#: app/translations/plugin_manifest_autogenerated.py:19
 msgid "A plugin to create GCP files from images"
 msgstr "从图像创建GCP文件的插件"
 
-#: app/translations/plugin_manifest_autogenerated.py:15
+#: app/translations/plugin_manifest_autogenerated.py:16
 msgid "A plugin to show charts of projects and tasks"
 msgstr "用图表展示项目和任务的插件"
 
-#: app/translations/plugin_manifest_autogenerated.py:16
+#: app/translations/plugin_manifest_autogenerated.py:17
 msgid "Create short links when sharing task URLs"
 msgstr "共享任务URL时创建短链接"
 
-#: app/translations/plugin_manifest_autogenerated.py:17
+#: app/translations/plugin_manifest_autogenerated.py:18
 msgid ""
 "Get notified when a task has finished processing, has been removed or has "
 "failed"
 msgstr "当一个任务完成处理、被删除或失败时，接收通知"
 
-#: app/translations/plugin_manifest_autogenerated.py:19
+#: app/translations/plugin_manifest_autogenerated.py:20
 msgid "Annotate and measure on 2D maps with ease"
 msgstr "在2d地图轻松注释和测量"
 
-#: app/translations/plugin_manifest_autogenerated.py:20
+#: app/translations/plugin_manifest_autogenerated.py:21
 msgid "Add a GPS location button to the 2D map view"
 msgstr "向2D地图视图添加GPS定位"
 
-#: app/views/app.py:46
+#: app/translations/plugin_manifest_autogenerated.py:22
+msgid "Plugin to get align from external service for WebODM"
+msgstr ""
+
+#: app/views/app.py:50
 msgid "First Project"
 msgstr "第一个项目"
 
-#: app/views/app.py:56 app/views/public.py:28
+#: app/views/app.py:63 app/views/public.py:28
 msgid "Map"
 msgstr "地图"
 
-#: app/views/app.py:85
+#: app/views/app.py:92
 msgid "3D Model Display"
 msgstr "三维模型显示"
 
-#: app/views/app.py:114
+#: app/views/app.py:121
 #, python-format
 msgid "%(node)s seems to be offline."
 msgstr "无法连接到%(node)s。"
 
-#: app/views/app.py:152
+#: app/views/app.py:159
 msgid "Welcome"
 msgstr "欢迎"
 
@@ -1680,7 +1701,17 @@ msgstr "翻译文件重新加载！"
 msgid "Invalid action"
 msgstr "无效动作"
 
-#: coreplugins/annotate/api.py:47 coreplugins/annotate/dist/annotate/api.py:47
+#: coreplugins/align-service/plugin.py:56
+msgid "Align Generator"
+msgstr ""
+
+#: coreplugins/align-service/templates/index.html:5
+#, fuzzy
+#| msgid "A plugin to create GCP files from images"
+msgid "Align file from task image"
+msgstr "从图像创建GCP文件的插件"
+
+#: coreplugins/annotate/api.py:48 coreplugins/annotate/dist/annotate/api.py:48
 #: coreplugins/measure/api.py:21
 msgid ""
 "No surface model available. From the Dashboard, select this task, press "
@@ -1690,9 +1721,19 @@ msgstr ""
 "没有可用的曲面模型。从仪表板中选择此任务，按Edit，从选项中确保选中“dsm”，然后"
 "按Restart-->From DEM。"
 
-#: coreplugins/annotate/api.py:70 coreplugins/annotate/dist/annotate/api.py:70
+#: coreplugins/annotate/api.py:71 coreplugins/annotate/dist/annotate/api.py:71
 msgid "A digital surface model is required to compute elevation values."
 msgstr "需要DSM来计算高程。"
+
+#: coreplugins/annotate/api.py:89 coreplugins/annotate/dist/annotate/api.py:89
+#, fuzzy
+#| msgid "A digital surface model is required to compute elevation values."
+msgid "An orthophoto is required to compute temperature values."
+msgstr "需要DSM来计算高程。"
+
+#: coreplugins/cesiumion/api_views.py:159
+msgid "No matching enum type."
+msgstr "没有匹配的枚举类型。"
 
 #: coreplugins/contours/api.py:86
 msgid "No DSM layer is available."
@@ -1939,6 +1980,3 @@ msgstr "节点使用的引擎。"
 
 #~ msgid "You need at least 5 images"
 #~ msgstr "你需要至少5张图片"
-
-#~ msgid "No matching enum type."
-#~ msgstr "没有匹配的枚举类型。"

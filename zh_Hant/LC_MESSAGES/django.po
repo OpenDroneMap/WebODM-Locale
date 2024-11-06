@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-08 16:19+0000\n"
+"POT-Creation-Date: 2024-11-06 20:11+0000\n"
 "PO-Revision-Date: 2022-11-27 16:47+0000\n"
 "Last-Translator: 快乐的老鼠宝宝 <keaitianxinmail@qq.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -277,36 +277,36 @@ msgstr ""
 msgid "Invalid permissions"
 msgstr ""
 
-#: app/api/tasks.py:186
+#: app/api/tasks.py:188
 msgid "You need to upload at least 1 file before commit"
 msgstr ""
 
-#: app/api/tasks.py:208
+#: app/api/tasks.py:210
 msgid "No files uploaded"
 msgstr ""
 
-#: app/api/tasks.py:234
+#: app/api/tasks.py:236
 msgid "Cannot duplicate task"
 msgstr ""
 
-#: app/api/tasks.py:251
+#: app/api/tasks.py:253
 msgid "Cannot create task, you need at least 2 images"
 msgstr ""
 
-#: app/api/tasks.py:370 app/api/tasks.py:374 app/api/tasks.py:398
-#: app/api/tasks.py:401 app/api/tasks.py:419
+#: app/api/tasks.py:377 app/api/tasks.py:381 app/api/tasks.py:405
+#: app/api/tasks.py:408 app/api/tasks.py:426
 msgid "Asset does not exist"
 msgstr ""
 
-#: app/api/tasks.py:437
+#: app/api/tasks.py:444
 msgid "Imported Task"
 msgstr ""
 
-#: app/api/tasks.py:440
+#: app/api/tasks.py:447
 msgid "Cannot create task, you need to upload 1 file"
 msgstr ""
 
-#: app/api/tasks.py:443
+#: app/api/tasks.py:450
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 
@@ -523,11 +523,11 @@ msgstr ""
 msgid "Project tags"
 msgstr "專案"
 
-#: app/models/project.py:28 app/models/task.py:282
+#: app/models/project.py:28 app/models/task.py:284
 msgid "Tags"
 msgstr ""
 
-#: app/models/project.py:65 app/models/task.py:430
+#: app/models/project.py:65 app/models/task.py:432
 #, python-format
 msgid "Copy of %(task)s"
 msgstr ""
@@ -625,7 +625,7 @@ msgid ""
 "associated yet)"
 msgstr ""
 
-#: app/models/task.py:247 app/views/app.py:118 nodeodm/models.py:36
+#: app/models/task.py:247 app/views/app.py:125 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "處理節點"
 
@@ -702,140 +702,148 @@ msgid "Public"
 msgstr ""
 
 #: app/models/task.py:263
+msgid "A flag indicating whether this public task can be edited"
+msgstr ""
+
+#: app/models/task.py:263
+msgid "Public Edit"
+msgstr ""
+
+#: app/models/task.py:265
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
 "processing."
 msgstr ""
 
-#: app/models/task.py:263
+#: app/models/task.py:265
 msgid "Resize To"
 msgstr ""
 
-#: app/models/task.py:266
+#: app/models/task.py:268
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr ""
 
-#: app/models/task.py:267
+#: app/models/task.py:269
 msgid "Upload Progress"
 msgstr ""
 
-#: app/models/task.py:270
+#: app/models/task.py:272
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
 
-#: app/models/task.py:271
+#: app/models/task.py:273
 msgid "Resize Progress"
 msgstr ""
 
-#: app/models/task.py:274
+#: app/models/task.py:276
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr ""
 
-#: app/models/task.py:275
+#: app/models/task.py:277
 msgid "Running Progress"
 msgstr ""
 
-#: app/models/task.py:277
+#: app/models/task.py:279
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr ""
 
-#: app/models/task.py:277
+#: app/models/task.py:279
 msgid "Import URL"
 msgstr ""
 
-#: app/models/task.py:278
+#: app/models/task.py:280
 msgid "Number of images associated with this task"
 msgstr ""
 
-#: app/models/task.py:278
+#: app/models/task.py:280
 msgid "Images Count"
 msgstr ""
 
-#: app/models/task.py:279
+#: app/models/task.py:281
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr ""
 
-#: app/models/task.py:279
+#: app/models/task.py:281
 msgid "Partial"
 msgstr ""
 
-#: app/models/task.py:280
+#: app/models/task.py:282
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
 
-#: app/models/task.py:280
+#: app/models/task.py:282
 msgid "Potree Scene"
 msgstr ""
 
-#: app/models/task.py:281
+#: app/models/task.py:283
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr ""
 
-#: app/models/task.py:282
+#: app/models/task.py:284
 msgid "Task tags"
 msgstr ""
 
-#: app/models/task.py:283
+#: app/models/task.py:285
 msgid "List of orthophoto bands"
 msgstr ""
 
-#: app/models/task.py:283
+#: app/models/task.py:285
 msgid "Orthophoto Bands"
 msgstr ""
 
-#: app/models/task.py:284
+#: app/models/task.py:286
 msgid "Size of the task on disk in megabytes"
 msgstr ""
 
-#: app/models/task.py:284
+#: app/models/task.py:286
 msgid "Size"
 msgstr ""
 
-#: app/models/task.py:287
+#: app/models/task.py:289
 msgid "Task"
 msgstr ""
 
-#: app/models/task.py:288
+#: app/models/task.py:290
 msgid "Tasks"
 msgstr ""
 
-#: app/models/task.py:299
+#: app/models/task.py:301
 msgid "unnamed"
 msgstr ""
 
-#: app/models/task.py:549
+#: app/models/task.py:554
 msgid "Importing assets..."
 msgstr ""
 
-#: app/models/task.py:601 app/models/task.py:869
+#: app/models/task.py:606 app/models/task.py:874
 msgid "Invalid zip file"
 msgstr ""
 
-#: app/models/task.py:695
+#: app/models/task.py:700
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr ""
 
-#: app/models/task.py:775
+#: app/models/task.py:780
 msgid "Cannot restart a task that has no processing node"
 msgstr ""
 
-#: app/models/task.py:949
+#: app/models/task.py:954
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 
-#: app/models/task.py:968
+#: app/models/task.py:973
 msgid "Done!"
 msgstr ""
 
@@ -1430,7 +1438,7 @@ msgstr ""
 msgid "Logout"
 msgstr ""
 
-#: app/templates/app/logged_in_base.html:57 app/views/app.py:48
+#: app/templates/app/logged_in_base.html:57 app/views/app.py:52
 msgid "Dashboard"
 msgstr ""
 
@@ -1458,7 +1466,7 @@ msgstr ""
 msgid "Brand"
 msgstr ""
 
-#: app/templates/app/logged_in_base.html:138 app/views/app.py:108
+#: app/templates/app/logged_in_base.html:138 app/views/app.py:115
 msgid "About"
 msgstr ""
 
@@ -1559,92 +1567,100 @@ msgid "very soon"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:4
-msgid "Import images from external sources directly"
+msgid "Upload and tile ODM assets with Cesium ion."
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:5
-msgid "Compute, preview and export contours from DEMs"
+msgid "Import images from external sources directly"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:6
-msgid "Display program version, memory and disk space usage statistics"
+msgid "Compute, preview and export contours from DEMs"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:7
-msgid "Integrate WebODM with DroneDB: import images and share results"
+msgid "Display program version, memory and disk space usage statistics"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:8
-msgid "Create editable short links when sharing task URLs"
+msgid "Integrate WebODM with DroneDB: import images and share results"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:9
-msgid "Add a fullscreen button to the 2D map view"
+msgid "Create editable short links when sharing task URLs"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:10
-msgid "Process in the cloud with webodm.net"
+msgid "Add a fullscreen button to the 2D map view"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:11
-msgid "Compute volume, area and length measurements on Leaflet"
+msgid "Process in the cloud with webodm.net"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:12
-msgid "A plugin to upload orthophotos to OpenAerialMap"
+msgid "Compute volume, area and length measurements on Leaflet"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:13
+msgid "A plugin to upload orthophotos to OpenAerialMap"
+msgstr ""
+
+#: app/translations/plugin_manifest_autogenerated.py:14
 msgid ""
 "A plugin to add a button for quickly opening OpenStreetMap's iD editor and "
 "setup a TMS basemap."
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:14
-#: app/translations/plugin_manifest_autogenerated.py:18
+#: app/translations/plugin_manifest_autogenerated.py:15
+#: app/translations/plugin_manifest_autogenerated.py:19
 msgid "A plugin to create GCP files from images"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:15
+#: app/translations/plugin_manifest_autogenerated.py:16
 msgid "A plugin to show charts of projects and tasks"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:16
+#: app/translations/plugin_manifest_autogenerated.py:17
 msgid "Create short links when sharing task URLs"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:17
+#: app/translations/plugin_manifest_autogenerated.py:18
 msgid ""
 "Get notified when a task has finished processing, has been removed or has "
 "failed"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:19
+#: app/translations/plugin_manifest_autogenerated.py:20
 msgid "Annotate and measure on 2D maps with ease"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:20
+#: app/translations/plugin_manifest_autogenerated.py:21
 msgid "Add a GPS location button to the 2D map view"
 msgstr ""
 
-#: app/views/app.py:46
+#: app/translations/plugin_manifest_autogenerated.py:22
+msgid "Plugin to get align from external service for WebODM"
+msgstr ""
+
+#: app/views/app.py:50
 msgid "First Project"
 msgstr ""
 
-#: app/views/app.py:56 app/views/public.py:28
+#: app/views/app.py:63 app/views/public.py:28
 msgid "Map"
 msgstr ""
 
-#: app/views/app.py:85
+#: app/views/app.py:92
 msgid "3D Model Display"
 msgstr ""
 
-#: app/views/app.py:114
+#: app/views/app.py:121
 #, python-format
 msgid "%(node)s seems to be offline."
 msgstr ""
 
-#: app/views/app.py:152
+#: app/views/app.py:159
 msgid "Welcome"
 msgstr ""
 
@@ -1660,7 +1676,15 @@ msgstr ""
 msgid "Invalid action"
 msgstr ""
 
-#: coreplugins/annotate/api.py:47 coreplugins/annotate/dist/annotate/api.py:47
+#: coreplugins/align-service/plugin.py:56
+msgid "Align Generator"
+msgstr ""
+
+#: coreplugins/align-service/templates/index.html:5
+msgid "Align file from task image"
+msgstr ""
+
+#: coreplugins/annotate/api.py:48 coreplugins/annotate/dist/annotate/api.py:48
 #: coreplugins/measure/api.py:21
 msgid ""
 "No surface model available. From the Dashboard, select this task, press "
@@ -1668,8 +1692,16 @@ msgid ""
 "From DEM."
 msgstr ""
 
-#: coreplugins/annotate/api.py:70 coreplugins/annotate/dist/annotate/api.py:70
+#: coreplugins/annotate/api.py:71 coreplugins/annotate/dist/annotate/api.py:71
 msgid "A digital surface model is required to compute elevation values."
+msgstr ""
+
+#: coreplugins/annotate/api.py:89 coreplugins/annotate/dist/annotate/api.py:89
+msgid "An orthophoto is required to compute temperature values."
+msgstr ""
+
+#: coreplugins/cesiumion/api_views.py:159
+msgid "No matching enum type."
 msgstr ""
 
 #: coreplugins/contours/api.py:86

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-08 16:19+0000\n"
+"POT-Creation-Date: 2024-11-06 20:11+0000\n"
 "PO-Revision-Date: 2021-05-19 10:21+0000\n"
 "Last-Translator: oyunbat <tseku1116@yahoo.com>\n"
 "Language-Team: Mongolian <https://hosted.weblate.org/projects/webodm/webodm/"
@@ -313,38 +313,38 @@ msgstr ""
 msgid "Invalid permissions"
 msgstr "Буруу үйлдэл"
 
-#: app/api/tasks.py:186
+#: app/api/tasks.py:188
 #, fuzzy
 #| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload at least 1 file before commit"
 msgstr "Хийхээсээ өмнө дор хаяж 2 зураг байршуулах шаардлагатай"
 
-#: app/api/tasks.py:208
+#: app/api/tasks.py:210
 msgid "No files uploaded"
 msgstr "Файл байршуулаагүй байна"
 
-#: app/api/tasks.py:234
+#: app/api/tasks.py:236
 msgid "Cannot duplicate task"
 msgstr ""
 
-#: app/api/tasks.py:251
+#: app/api/tasks.py:253
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Даалгавар үүсгэх боломжгүй, танд дор хаяж 2 зураг хэрэгтэй"
 
-#: app/api/tasks.py:370 app/api/tasks.py:374 app/api/tasks.py:398
-#: app/api/tasks.py:401 app/api/tasks.py:419
+#: app/api/tasks.py:377 app/api/tasks.py:381 app/api/tasks.py:405
+#: app/api/tasks.py:408 app/api/tasks.py:426
 msgid "Asset does not exist"
 msgstr "Хөрөнгө байхгүй байна"
 
-#: app/api/tasks.py:437
+#: app/api/tasks.py:444
 msgid "Imported Task"
 msgstr "Импортын даалгавар"
 
-#: app/api/tasks.py:440
+#: app/api/tasks.py:447
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Даалгавар үүсгэх боломжгүй тул та 1 файл байршуулах шаардлагатай"
 
-#: app/api/tasks.py:443
+#: app/api/tasks.py:450
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 "Даалгавар үүсгэх боломжгүй, эсвэл URL зааж өгөх эсвэл 1 файл байршуулах."
@@ -576,11 +576,11 @@ msgstr "Устгаж байна"
 msgid "Project tags"
 msgstr "Төсөл"
 
-#: app/models/project.py:28 app/models/task.py:282
+#: app/models/project.py:28 app/models/task.py:284
 msgid "Tags"
 msgstr ""
 
-#: app/models/project.py:65 app/models/task.py:430
+#: app/models/project.py:65 app/models/task.py:432
 #, python-format
 msgid "Copy of %(task)s"
 msgstr ""
@@ -682,7 +682,7 @@ msgstr ""
 "Энэ даалгаварт оноогдсон зангилааны боловсруулалт (эсвэл энэ даалгавар "
 "хараахан холбогдоогүй бол хүчингүй)"
 
-#: app/models/task.py:247 app/views/app.py:118 nodeodm/models.py:36
+#: app/models/task.py:247 app/views/app.py:125 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "Боловсруулах цэг"
 
@@ -763,6 +763,18 @@ msgid "Public"
 msgstr "Олон нийтийн"
 
 #: app/models/task.py:263
+#, fuzzy
+#| msgid "A flag indicating whether this task is available to the public"
+msgid "A flag indicating whether this public task can be edited"
+msgstr "Энэ даалгавар олон нийтэд нээлттэй байгаа эсэхийг харуулсан туг"
+
+#: app/models/task.py:263
+#, fuzzy
+#| msgid "Public"
+msgid "Public Edit"
+msgstr "Олон нийтийн"
+
+#: app/models/task.py:265
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -771,11 +783,11 @@ msgstr ""
 "-1-ээс өөр утгыг тохируулсан тохиолдолд энэ даалгаврын зургуудыг "
 "боловсруулахаас өмнө энд заасан хэмжээгээр өөрчилсөн болохыг илэрхийлнэ."
 
-#: app/models/task.py:263
+#: app/models/task.py:265
 msgid "Resize To"
 msgstr "Хэмжээгээ өөрчлөх"
 
-#: app/models/task.py:266
+#: app/models/task.py:268
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
@@ -783,48 +795,48 @@ msgstr ""
 "Энэ даалгаврын файлуудыг боловсруулах цэг рүү байршуулах явцыг харуулсан 0-1 "
 "хоорондох утга"
 
-#: app/models/task.py:267
+#: app/models/task.py:269
 msgid "Upload Progress"
 msgstr "Байршуулах явц"
 
-#: app/models/task.py:270
+#: app/models/task.py:272
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
 "Энэ даалгаврын зургуудын хэмжээг өөрчлөх явцыг харуулсан 0-1 хоорондох утга"
 
-#: app/models/task.py:271
+#: app/models/task.py:273
 msgid "Resize Progress"
 msgstr "Ахиц дэвшлийн хэмжээг өөрчлөх"
 
-#: app/models/task.py:274
+#: app/models/task.py:276
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr ""
 "Энэ даалгаврын явц (тооцоолсон) явцыг харуулсан 0-ээс 1-ийн хоорондох утга"
 
-#: app/models/task.py:275
+#: app/models/task.py:277
 msgid "Running Progress"
 msgstr "Прогресс ажиллуулж байна"
 
-#: app/models/task.py:277
+#: app/models/task.py:279
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "Энэ даалгаврыг URL-аас импортлох (зөвхөн импортын даалгаврын хувьд)"
 
-#: app/models/task.py:277
+#: app/models/task.py:279
 msgid "Import URL"
 msgstr "Импортын URL"
 
-#: app/models/task.py:278
+#: app/models/task.py:280
 msgid "Number of images associated with this task"
 msgstr "Энэ даалгавартай холбоотой зургийн тоо"
 
-#: app/models/task.py:278
+#: app/models/task.py:280
 msgid "Images Count"
 msgstr "Зураг тоолох"
 
-#: app/models/task.py:279
+#: app/models/task.py:281
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
@@ -832,86 +844,86 @@ msgstr ""
 "Энэ даалгавар нь боловсруулалт хийхээс өмнө мэдээлэл эсвэл файл оруулахыг "
 "хүлээж байгаа эсэхийг харуулсан туг."
 
-#: app/models/task.py:279
+#: app/models/task.py:281
 msgid "Partial"
 msgstr "Хэсэгчилсэн"
 
-#: app/models/task.py:280
+#: app/models/task.py:282
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
 
-#: app/models/task.py:280
+#: app/models/task.py:282
 msgid "Potree Scene"
 msgstr ""
 
-#: app/models/task.py:281
+#: app/models/task.py:283
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr ""
 
-#: app/models/task.py:282
+#: app/models/task.py:284
 #, fuzzy
 #| msgid "Tasks"
 msgid "Task tags"
 msgstr "Даалгавар"
 
-#: app/models/task.py:283
+#: app/models/task.py:285
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "List of orthophoto bands"
 msgstr "Ортофотогийн хэмжээ"
 
-#: app/models/task.py:283
+#: app/models/task.py:285
 #, fuzzy
 #| msgid "Orthophoto Extent"
 msgid "Orthophoto Bands"
 msgstr "Ортофото хэмжээ"
 
-#: app/models/task.py:284
+#: app/models/task.py:286
 msgid "Size of the task on disk in megabytes"
 msgstr ""
 
-#: app/models/task.py:284
+#: app/models/task.py:286
 msgid "Size"
 msgstr ""
 
-#: app/models/task.py:287
+#: app/models/task.py:289
 msgid "Task"
 msgstr "Даалгавар"
 
-#: app/models/task.py:288
+#: app/models/task.py:290
 msgid "Tasks"
 msgstr "Даалгавар"
 
-#: app/models/task.py:299
+#: app/models/task.py:301
 msgid "unnamed"
 msgstr "нэргүй"
 
-#: app/models/task.py:549
+#: app/models/task.py:554
 msgid "Importing assets..."
 msgstr "Хөрөнгө оруулж ирж байна ..."
 
-#: app/models/task.py:601 app/models/task.py:869
+#: app/models/task.py:606 app/models/task.py:874
 msgid "Invalid zip file"
 msgstr "Зип файл буруу байна"
 
-#: app/models/task.py:695
+#: app/models/task.py:700
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Холболтын алдаа: %(error)s"
 
-#: app/models/task.py:775
+#: app/models/task.py:780
 msgid "Cannot restart a task that has no processing node"
 msgstr "Боловсруулах цэггүй ажлыг дахин эхлүүлэх боломжгүй"
 
-#: app/models/task.py:949
+#: app/models/task.py:954
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "Дэмжигдээгүй SRS %(code)s. Дэмжигдсэн SRS-ийг сонгосон эсэхээ шалгана уу."
 
-#: app/models/task.py:968
+#: app/models/task.py:973
 msgid "Done!"
 msgstr "Болов!"
 
@@ -1557,7 +1569,7 @@ msgstr ""
 msgid "Logout"
 msgstr "Гарах"
 
-#: app/templates/app/logged_in_base.html:57 app/views/app.py:48
+#: app/templates/app/logged_in_base.html:57 app/views/app.py:52
 msgid "Dashboard"
 msgstr "Хяналтын самбар"
 
@@ -1585,7 +1597,7 @@ msgstr "Бүлгүүд"
 msgid "Brand"
 msgstr "Брэнд"
 
-#: app/templates/app/logged_in_base.html:138 app/views/app.py:108
+#: app/templates/app/logged_in_base.html:138 app/views/app.py:115
 msgid "About"
 msgstr "Тухай"
 
@@ -1686,43 +1698,47 @@ msgid "very soon"
 msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:4
+msgid "Upload and tile ODM assets with Cesium ion."
+msgstr "ODM-ийн хөрөнгийг цезийн ионоор байршуулж, хавтангаар байрлуул."
+
+#: app/translations/plugin_manifest_autogenerated.py:5
 msgid "Import images from external sources directly"
 msgstr "Гадны эх үүсвэрээс зургийг шууд импортлох"
 
-#: app/translations/plugin_manifest_autogenerated.py:5
+#: app/translations/plugin_manifest_autogenerated.py:6
 msgid "Compute, preview and export contours from DEMs"
 msgstr "DEM-ээс контурыг тооцоолох, урьдчилан харах, экспортлох"
 
-#: app/translations/plugin_manifest_autogenerated.py:6
+#: app/translations/plugin_manifest_autogenerated.py:7
 msgid "Display program version, memory and disk space usage statistics"
 msgstr ""
 "Програмын хувилбар, санах ой, дискний зайг ашиглах статистикийг харуулах"
 
-#: app/translations/plugin_manifest_autogenerated.py:7
+#: app/translations/plugin_manifest_autogenerated.py:8
 msgid "Integrate WebODM with DroneDB: import images and share results"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:8
+#: app/translations/plugin_manifest_autogenerated.py:9
 msgid "Create editable short links when sharing task URLs"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:9
+#: app/translations/plugin_manifest_autogenerated.py:10
 msgid "Add a fullscreen button to the 2D map view"
 msgstr "2D газрын зураг дээр бүрэн дэлгэцийн товчлуурыг нэмнэ үү"
 
-#: app/translations/plugin_manifest_autogenerated.py:10
+#: app/translations/plugin_manifest_autogenerated.py:11
 msgid "Process in the cloud with webodm.net"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:11
+#: app/translations/plugin_manifest_autogenerated.py:12
 msgid "Compute volume, area and length measurements on Leaflet"
 msgstr "Leaflet дээр эзэлхүүн, талбай, уртын хэмжилтийг тооцоолох"
 
-#: app/translations/plugin_manifest_autogenerated.py:12
+#: app/translations/plugin_manifest_autogenerated.py:13
 msgid "A plugin to upload orthophotos to OpenAerialMap"
 msgstr "Ортофотог OpenAerialMap дээр байршуулах залгаас"
 
-#: app/translations/plugin_manifest_autogenerated.py:13
+#: app/translations/plugin_manifest_autogenerated.py:14
 msgid ""
 "A plugin to add a button for quickly opening OpenStreetMap's iD editor and "
 "setup a TMS basemap."
@@ -1730,53 +1746,57 @@ msgstr ""
 "OpenStreetMap-ийн iD засварлагчийг хурдан нээж, TMS basemap тохируулах "
 "товчлуурыг нэмэх залгаас."
 
-#: app/translations/plugin_manifest_autogenerated.py:14
-#: app/translations/plugin_manifest_autogenerated.py:18
+#: app/translations/plugin_manifest_autogenerated.py:15
+#: app/translations/plugin_manifest_autogenerated.py:19
 msgid "A plugin to create GCP files from images"
 msgstr "Зурган дээрээс GCP файл үүсгэх залгаас"
 
-#: app/translations/plugin_manifest_autogenerated.py:15
+#: app/translations/plugin_manifest_autogenerated.py:16
 msgid "A plugin to show charts of projects and tasks"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:16
+#: app/translations/plugin_manifest_autogenerated.py:17
 msgid "Create short links when sharing task URLs"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:17
+#: app/translations/plugin_manifest_autogenerated.py:18
 msgid ""
 "Get notified when a task has finished processing, has been removed or has "
 "failed"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:19
+#: app/translations/plugin_manifest_autogenerated.py:20
 msgid "Annotate and measure on 2D maps with ease"
 msgstr ""
 
-#: app/translations/plugin_manifest_autogenerated.py:20
+#: app/translations/plugin_manifest_autogenerated.py:21
 #, fuzzy
 #| msgid "Add a fullscreen button to the 2D map view"
 msgid "Add a GPS location button to the 2D map view"
 msgstr "2D газрын зураг дээр бүрэн дэлгэцийн товчлуурыг нэмнэ үү"
 
-#: app/views/app.py:46
+#: app/translations/plugin_manifest_autogenerated.py:22
+msgid "Plugin to get align from external service for WebODM"
+msgstr ""
+
+#: app/views/app.py:50
 msgid "First Project"
 msgstr "Эхний төсөл"
 
-#: app/views/app.py:56 app/views/public.py:28
+#: app/views/app.py:63 app/views/public.py:28
 msgid "Map"
 msgstr "Газрын зураг"
 
-#: app/views/app.py:85
+#: app/views/app.py:92
 msgid "3D Model Display"
 msgstr "3D загварын дэлгэц"
 
-#: app/views/app.py:114
+#: app/views/app.py:121
 #, python-format
 msgid "%(node)s seems to be offline."
 msgstr ""
 
-#: app/views/app.py:152
+#: app/views/app.py:159
 msgid "Welcome"
 msgstr "Тавтай морилно уу"
 
@@ -1792,7 +1812,17 @@ msgstr "Орчуулгын файлуудыг дахин ачаалав!"
 msgid "Invalid action"
 msgstr "Буруу үйлдэл"
 
-#: coreplugins/annotate/api.py:47 coreplugins/annotate/dist/annotate/api.py:47
+#: coreplugins/align-service/plugin.py:56
+msgid "Align Generator"
+msgstr ""
+
+#: coreplugins/align-service/templates/index.html:5
+#, fuzzy
+#| msgid "A plugin to create GCP files from images"
+msgid "Align file from task image"
+msgstr "Зурган дээрээс GCP файл үүсгэх залгаас"
+
+#: coreplugins/annotate/api.py:48 coreplugins/annotate/dist/annotate/api.py:48
 #: coreplugins/measure/api.py:21
 msgid ""
 "No surface model available. From the Dashboard, select this task, press "
@@ -1803,9 +1833,17 @@ msgstr ""
 "Засах товчийг дарж, сонголтоос \"dsm\" -г шалгана уу, дараа нь Дахин "
 "эхлүүлэх -> ДЭМ-ээс дарна уу."
 
-#: coreplugins/annotate/api.py:70 coreplugins/annotate/dist/annotate/api.py:70
+#: coreplugins/annotate/api.py:71 coreplugins/annotate/dist/annotate/api.py:71
 msgid "A digital surface model is required to compute elevation values."
 msgstr ""
+
+#: coreplugins/annotate/api.py:89 coreplugins/annotate/dist/annotate/api.py:89
+msgid "An orthophoto is required to compute temperature values."
+msgstr ""
+
+#: coreplugins/cesiumion/api_views.py:159
+msgid "No matching enum type."
+msgstr "Тохирох enum төрөл алга."
 
 #: coreplugins/contours/api.py:86
 msgid "No DSM layer is available."
@@ -2062,9 +2100,3 @@ msgstr "Зангилаа ашигладаг хөдөлгүүр."
 
 #~ msgid "You need at least 5 images"
 #~ msgstr "Танд дор хаяж 5 зураг хэрэгтэй"
-
-#~ msgid "Upload and tile ODM assets with Cesium ion."
-#~ msgstr "ODM-ийн хөрөнгийг цезийн ионоор байршуулж, хавтангаар байрлуул."
-
-#~ msgid "No matching enum type."
-#~ msgstr "Тохирох enum төрөл алга."
