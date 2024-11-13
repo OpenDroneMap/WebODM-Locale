@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-08 16:19+0000\n"
-"PO-Revision-Date: 2024-11-05 06:55+0000\n"
+"PO-Revision-Date: 2024-11-14 05:00+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/webodm/webodm/ta/>"
 "\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: app/admin.py:65
 msgid "Enter custom CSS"
@@ -78,28 +78,28 @@ msgstr "நூலாசிரியர்"
 #: app/admin.py:159
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
-msgstr "மறுதொடக்கம் தேவை. %(சொருகி) களை இயக்க WeboDM ஐ மறுதொடக்கம் செய்யுங்கள்"
+msgstr "மறுதொடக்கம் தேவை. %(plugin)s இயக்க WeboDM ஐ மறுதொடக்கம் செய்யுங்கள்"
 
 #: app/admin.py:162
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
-msgstr "சொருகி %(சொருகி) கள்: %(செய்தி) களை இயக்க முடியாது"
+msgstr "சொருகி %(message)s: %(plugin)s இயக்க முடியாது"
 
 #: app/admin.py:171
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr ""
-"மறுதொடக்கம் தேவை. %(சொருகி) களை முழுமையாக முடக்க WeboDM ஐ மறுதொடக்கம் செய்யுங்கள்"
+"மறுதொடக்கம் தேவை. %(plugin)s முழுமையாக முடக்க WeboDM ஐ மறுதொடக்கம் செய்யுங்கள்"
 
 #: app/admin.py:174
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
-msgstr "சொருகி %(சொருகி) கள்: %(செய்தி) களை முடக்க முடியாது"
+msgstr "சொருகி %(message)s: %(plugin)s முடக்க முடியாது"
 
 #: app/admin.py:183
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
-msgstr "சொருகி %(சொருகி) கள்: %(செய்தி) களை நீக்க முடியாது"
+msgstr "சொருகி %(message)s: %(plugin)s நீக்க முடியாது"
 
 #: app/admin.py:231
 msgid "Plugin added successfully"
@@ -375,12 +375,12 @@ msgstr ""
 #: app/api/tiler.py:538 app/api/tiler.py:540
 #, python-format
 msgid "Unsupported format: %(value)s"
-msgstr "ஆதரிக்கப்படாத வடிவம்: %(மதிப்பு) கள்"
+msgstr "ஆதரிக்கப்படாத வடிவம்: %(value)s"
 
 #: app/api/tiler.py:559
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr "தவறான இபிஎச்சி குறியீடு: %(மதிப்பு) கள்"
+msgstr "தவறான இபிஎச்சி குறியீடு: %(value)s"
 
 #: app/api/tiler.py:562
 msgid "Both formula and bands parameters are required"
@@ -389,12 +389,12 @@ msgstr "தேற்றம் மற்றும் பட்டைகள் அ
 #: app/api/tiler.py:585
 #, python-format
 msgid "Invalid rescale value: %(value)s"
-msgstr "தவறான மீட்பு மதிப்பு: %(மதிப்பு) கள்"
+msgstr "தவறான மீட்பு மதிப்பு: %(value)s"
 
 #: app/api/tiler.py:593
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
-msgstr "தவறான இல்சேட் மதிப்பு: %(மதிப்பு) கள்"
+msgstr "தவறான இல்சேட் மதிப்பு: %(value)s"
 
 #: app/api/tiler.py:604
 msgid "Cannot use epsg on non-georeferenced dataset"
@@ -558,7 +558,7 @@ msgstr "குறிச்சொற்கள்"
 #: app/models/project.py:65 app/models/task.py:430
 #, python-format
 msgid "Copy of %(task)s"
-msgstr "%(பணி) கள் நகல்"
+msgstr "%(task)s நகல்"
 
 #: app/models/project.py:90 app/models/task.py:244
 msgid "Project"
@@ -865,7 +865,7 @@ msgstr "தவறான சிப் கோப்பு"
 #: app/models/task.py:695
 #, python-format
 msgid "Connection error: %(error)s"
-msgstr "இணைப்பு பிழை: %(பிழை) கள்"
+msgstr "இணைப்பு பிழை: %(error)s"
 
 #: app/models/task.py:775
 msgid "Cannot restart a task that has no processing node"
@@ -874,7 +874,7 @@ msgstr "செயலாக்க முனை இல்லாத பணியை
 #: app/models/task.py:949
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
-msgstr "ஆதரிக்கப்படாத SRS %(குறியீடு) கள். நீங்கள் ஆதரிக்கப்பட்ட எச்.ஆர்.எச்."
+msgstr "ஆதரிக்கப்படாத SRS %(code)s. நீங்கள் ஆதரிக்கப்பட்ட எச்.ஆர்.எச்."
 
 #: app/models/task.py:968
 msgid "Done!"
@@ -1015,7 +1015,7 @@ msgid ""
 msgstr ""
 "இந்த நிரல் இலவச மென்பொருள்: நீங்கள் அதை மறுபகிர்வு செய்யலாம் மற்றும்/அல்லது குனு அஃபெரோ பொது பொது உரிமத்தின் "
 "விதிமுறைகளின் கீழ் இலவச மென்பொருள் அறக்கட்டளையால் வெளியிடப்பட்டபடி, உரிமத்தின் பதிப்பு 3 அல்லது (உங்கள் விருப்பத்தில்)"
-" பின்னர் எந்த பதிப்பையும் மாற்றலாம். மேலும் விவரங்களுக்கு %(லிங்க்_ச்டார்ட்) sthe குனு அஃபெரோ பொது பொது உரிமம் "
+" பின்னர் எந்த பதிப்பையும் மாற்றலாம். மேலும் விவரங்களுக்கு %(link_start)sthe குனு அஃபெரோ பொது பொது உரிமம் "
 "%(இணைப்பு_என்ட்) ஐப் பார்க்கவும்."
 
 #: app/templates/app/admin/404.html:4 app/templates/app/admin/404.html:8
@@ -1073,7 +1073,7 @@ msgstr "எல்லா பக்கங்களிலும் உள்ள ப
 #: app/templates/app/admin/actions.html:10
 #, python-format
 msgid "Select all %(total_count)s %(module_name)s"
-msgstr "அனைத்து %(மொத்தம்_கவுண்ட்) S %(module_name) களைத் தேர்ந்தெடுக்கவும்"
+msgstr "அனைத்து %(total_count)s %(module_name)sத் தேர்ந்தெடுக்கவும்"
 
 #: app/templates/app/admin/actions.html:12
 msgid "Clear selection"
@@ -1112,8 +1112,7 @@ msgstr "கீழே உள்ள பிழைகளை சரிசெய்ய
 #: app/templates/app/admin/auth/user/change_password.html:31
 #, python-format
 msgid "Enter a new password for the user <strong>%(username)s</strong>."
-msgstr ""
-"பயனருக்கு புதிய கடவுச்சொல்லை உள்ளிடவும் <strong>%(பயனர்பெயர்) கள் </strong>."
+msgstr "பயனருக்கு புதிய கடவுச்சொல்லை உள்ளிடவும் <strong>%(username)s </strong>."
 
 #: app/templates/app/admin/base_site.html:3
 msgid "Django site admin"
@@ -1127,7 +1126,7 @@ msgstr "சாங்கோ நிர்வாகம்"
 #: app/templates/app/admin/change_list.html:49
 #, python-format
 msgid "Add %(name)s"
-msgstr "%(பெயர்) கள் சேர்க்கவும்"
+msgstr "%(name)s சேர்க்கவும்"
 
 #: app/templates/app/admin/change_form.html:33
 #: app/templates/app/admin/object_history.html:10
@@ -1179,8 +1178,8 @@ msgid ""
 "related objects, but your account doesn't have permission to delete the "
 "following types of objects:"
 msgstr ""
-"%(Object_name) s ' %(escaped_object) s' ஐ நீக்குவது தொடர்புடைய பொருள்களை நீக்குவதற்கு வழிவகுக்கும்"
-", ஆனால் பின்வரும் வகை பொருள்களை நீக்க உங்கள் கணக்கில் இசைவு இல்லை:"
+"%(object_name)s ' %(escaped_object)s' ஐ நீக்குவது தொடர்புடைய பொருள்களை நீக்குவதற்கு வழிவகுக்கும், "
+"ஆனால் பின்வரும் வகை பொருள்களை நீக்க உங்கள் கணக்கில் இசைவு இல்லை:"
 
 #: app/templates/app/admin/delete_confirmation.html:30
 #, python-format
@@ -1188,8 +1187,8 @@ msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
 "following protected related objects:"
 msgstr ""
-"%(Object_name) s ' %(escaped_object) s' ஐ நீக்குவதற்கு பின்வரும் பாதுகாக்கப்பட்ட தொடர்புடைய "
-"பொருள்களை நீக்க வேண்டும்:"
+"%(object_name)s ' %(escaped_object)s' ஐ நீக்குவதற்கு பின்வரும் பாதுகாக்கப்பட்ட தொடர்புடைய பொருள்களை "
+"நீக்க வேண்டும்:"
 
 #: app/templates/app/admin/delete_confirmation.html:37
 #, python-format
@@ -1197,8 +1196,8 @@ msgid ""
 "Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
 "All of the following related items will be deleted:"
 msgstr ""
-"%(பொருள்_பெயர்) எச் \" %(எச்கேப் செய்யப்பட்ட_ஆப்செக்ட்) கள்\" ஐ நீக்க விரும்புகிறீர்களா? பின்வரும் தொடர்புடைய "
-"உருப்படிகள் அனைத்தும் நீக்கப்படும்:"
+"%(escaped_object)s \" %(object_name)s\" ஐ நீக்க விரும்புகிறீர்களா? பின்வரும் தொடர்புடைய உருப்படிகள்"
+" அனைத்தும் நீக்கப்படும்:"
 
 #: app/templates/app/admin/delete_confirmation.html:39
 #: app/templates/app/admin/delete_selected_confirmation.html:38
@@ -1226,8 +1225,8 @@ msgid ""
 "objects, but your account doesn't have permission to delete the following "
 "types of objects:"
 msgstr ""
-"தேர்ந்தெடுக்கப்பட்ட %(பொருள்_பெயர்) களை நீக்குவது தொடர்புடைய பொருள்களை நீக்குவதற்கு வழிவகுக்கும், ஆனால் பின்வரும் வகை "
-"பொருள்களை நீக்க உங்கள் கணக்கில் இசைவு இல்லை:"
+"தேர்ந்தெடுக்கப்பட்ட %(objects_name)s நீக்குவது தொடர்புடைய பொருள்களை நீக்குவதற்கு வழிவகுக்கும், ஆனால் பின்வரும் வகை"
+" பொருள்களை நீக்க உங்கள் கணக்கில் இசைவு இல்லை:"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:29
 #, python-format
@@ -1235,7 +1234,7 @@ msgid ""
 "Deleting the selected %(objects_name)s would require deleting the following "
 "protected related objects:"
 msgstr ""
-"தேர்ந்தெடுக்கப்பட்ட %(பொருள்_பெயர்) களை நீக்குவதற்கு பின்வரும் பாதுகாக்கப்பட்ட தொடர்புடைய பொருள்களை நீக்க வேண்டும்:"
+"தேர்ந்தெடுக்கப்பட்ட %(objects_name)s நீக்குவதற்கு பின்வரும் பாதுகாக்கப்பட்ட தொடர்புடைய பொருள்களை நீக்க வேண்டும்:"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:36
 #, python-format
@@ -1243,7 +1242,7 @@ msgid ""
 "Are you sure you want to delete the selected %(objects_name)s? All of the "
 "following objects and their related items will be deleted:"
 msgstr ""
-"தேர்ந்தெடுக்கப்பட்ட %(பொருள்_பெயர்) களை நீக்க விரும்புகிறீர்களா? பின்வரும் பொருள்கள் மற்றும் அவற்றுடன் தொடர்புடைய "
+"தேர்ந்தெடுக்கப்பட்ட %(objects_name)s நீக்க விரும்புகிறீர்களா? பின்வரும் பொருள்கள் மற்றும் அவற்றுடன் தொடர்புடைய "
 "உருப்படிகள் அனைத்தும் நீக்கப்படும்:"
 
 #: app/templates/app/admin/edit_inline/stacked.html:12
@@ -1260,7 +1259,7 @@ msgstr "நீக்கவா?"
 #: app/templates/app/admin/filter.html:2
 #, python-format
 msgid " By %(filter_title)s "
-msgstr " மூலம் %(filter_title) கள் "
+msgstr " மூலம் %(filter_title)s "
 
 #: app/templates/app/admin/includes/object_delete_summary.html:2
 msgid "Summary"
@@ -1311,7 +1310,7 @@ msgid ""
 "You are authenticated as %(username)s, but are not authorized to access this "
 "page. Would you like to login to a different account?"
 msgstr ""
-"நீங்கள் %(பயனர்பெயர்) கள் என அங்கீகரிக்கப்பட்டுள்ளீர்கள், ஆனால் இந்த பக்கத்தை அணுக அங்கீகரிக்கப்படவில்லை. வேறு "
+"நீங்கள் %(username)s என அங்கீகரிக்கப்பட்டுள்ளீர்கள், ஆனால் இந்த பக்கத்தை அணுக அங்கீகரிக்கப்படவில்லை. வேறு "
 "கணக்கில் உள்நுழைய விரும்புகிறீர்களா?"
 
 #: app/templates/app/admin/login.html:57
@@ -1354,17 +1353,17 @@ msgstr "பாப்அப் நிறைவு ..."
 #: app/templates/app/admin/related_widget_wrapper.html:8
 #, python-format
 msgid "Change selected %(model)s"
-msgstr "தேர்ந்தெடுக்கப்பட்ட %(மாதிரி) களை மாற்றவும்"
+msgstr "தேர்ந்தெடுக்கப்பட்ட %(model)s மாற்றவும்"
 
 #: app/templates/app/admin/related_widget_wrapper.html:15
 #, python-format
 msgid "Add another %(model)s"
-msgstr "மற்றொரு %(மாதிரி) கள் சேர்க்கவும்"
+msgstr "மற்றொரு %(model)s சேர்க்கவும்"
 
 #: app/templates/app/admin/related_widget_wrapper.html:22
 #, python-format
 msgid "Delete selected %(model)s"
-msgstr "தேர்ந்தெடுக்கப்பட்ட %(மாதிரி) களை நீக்கு"
+msgstr "தேர்ந்தெடுக்கப்பட்ட %(model)s நீக்கு"
 
 #: app/templates/app/admin/search_form.html:7
 msgid "Search"
@@ -1380,7 +1379,7 @@ msgstr[1] "%(எதிர்) முடிவுகள்"
 #: app/templates/app/admin/search_form.html:9
 #, python-format
 msgid "%(full_result_count)s total"
-msgstr "%(full_result_count) கள் மொத்தம்"
+msgstr "%(full_result_count)s மொத்தம்"
 
 #: app/templates/app/admin/submit_line.html:8
 msgid "Save as new"
@@ -1410,8 +1409,8 @@ msgid ""
 "running an instance of %(nodeodm_link)s or some other software implementing "
 "this %(api_link)s."
 msgstr ""
-"தொடங்க, \"%(add_processing_node) கள்\". செயலாக்க முனை என்பது %(nodeodm_link) கள் அல்லது இந்"
-"த %(API_LINK) களை செயல்படுத்தும் வேறு சில மென்பொருள்களின் நிகழ்வை இயக்கும் கணினி ஆகும்."
+"தொடங்க, \"%(api_link)s\". செயலாக்க முனை என்பது %(nodeodm_link)s அல்லது இந்த "
+"%(add_processing_node)s செயல்படுத்தும் வேறு சில மென்பொருள்களின் நிகழ்வை இயக்கும் கணினி ஆகும்."
 
 #: app/templates/app/dashboard.html:32
 msgid "Select Images and GCP"
@@ -1423,7 +1422,7 @@ msgid ""
 "To create a map, press the \"%(upload_images)s\" button, or drag and drop "
 "some images into a project."
 msgstr ""
-"ஒரு வரைபடத்தை உருவாக்க, \"%(பதிவேற்ற_இம்பேச்கள்) எச்\" பொத்தானை அழுத்தவும் அல்லது சில படங்களை ஒரு திட்டத்தில் "
+"ஒரு வரைபடத்தை உருவாக்க, \"%(upload_images)s\" பொத்தானை அழுத்தவும் அல்லது சில படங்களை ஒரு திட்டத்தில் "
 "இழுத்து விடுங்கள்."
 
 #: app/templates/app/dashboard.html:38
@@ -1447,7 +1446,7 @@ msgid ""
 "A %(link_start)sGCP File%(link_end)s is optional, but can increase "
 "georeferencing accuracy"
 msgstr ""
-"ஒரு %(இணைப்பு_எச்டார்ட்) SGCP கோப்பு %(இணைப்பு_என்ட்) கள் விருப்பமானவை, ஆனால் புவிசார் துல்லியத்தை அதிகரிக்கும்"
+"ஒரு %(link_end)sGCP கோப்பு %(link_start)s விருப்பமானவை, ஆனால் புவிசார் துல்லியத்தை அதிகரிக்கும்"
 
 #: app/templates/app/dev_tools.html:6 app/templates/app/logged_in_base.html:134
 #: app/views/dev.py:78
@@ -1494,7 +1493,7 @@ msgstr ""
 #: app/templates/app/logged_in_base.html:16
 #, python-format
 msgid "Hello, %(user)s!"
-msgstr "வணக்கம், %(பயனர்) கள்!"
+msgstr "வணக்கம், %(user)s!"
 
 #: app/templates/app/logged_in_base.html:30
 #, python-format
@@ -1593,8 +1592,8 @@ msgid ""
 "recent tasks will be automatically deleted %(when)s, until usage falls below "
 "%(total)s."
 msgstr ""
-"வட்டு ஒதுக்கீடு மீறப்படுகிறது ( %(பயன்படுத்தப்பட்ட) %(மொத்தம்) பயன்படுத்தப்படுகிறது). பயன்பாடு %(மொத்தம்) கள் "
-"கீழே விழும் வரை, மிக அண்மைக் கால பணிகள் தானாகவே %(எப்போது) கள் நீக்கப்படும்."
+"வட்டு ஒதுக்கீடு மீறப்படுகிறது ( %(பயன்படுத்தப்பட்ட) %(மொத்தம்) பயன்படுத்தப்படுகிறது). பயன்பாடு %(used)s கீழே"
+" விழும் வரை, மிக அண்மைக் கால பணிகள் தானாகவே %(total)s நீக்கப்படும்."
 
 #: app/templates/app/quota.html:14
 #, python-format
@@ -1602,7 +1601,7 @@ msgid ""
 "Your account does not have a storage quota. Any new task will be "
 "automatically deleted %(when)s"
 msgstr ""
-"உங்கள் கணக்கில் சேமிப்பக ஒதுக்கீடு இல்லை. எந்தவொரு புதிய பணியும் தானாகவே %(எப்போது) கள் நீக்கப்படும்"
+"உங்கள் கணக்கில் சேமிப்பக ஒதுக்கீடு இல்லை. எந்தவொரு புதிய பணியும் தானாகவே %(when)s நீக்கப்படும்"
 
 #: app/templates/app/welcome.html:224
 msgid "Uh oh! Could you please check the errors below?"
@@ -1727,7 +1726,7 @@ msgstr "3D மாதிரி காட்சி"
 #: app/views/app.py:114
 #, python-format
 msgid "%(node)s seems to be offline."
-msgstr "%(முனை) கள் ஆஃப்லைனில் இருப்பதாக தெரிகிறது."
+msgstr "%(node)s ஆஃப்லைனில் இருப்பதாக தெரிகிறது."
 
 #: app/views/app.py:152
 msgid "Welcome"
@@ -1839,8 +1838,8 @@ msgid ""
 "%(mac_link)s for changing these values in a Docker setup."
 msgstr ""
 "இந்த மதிப்புகள் பயன்பாடு இயங்கும் மெய்நிகராக்க சூழலுடன் தொடர்புடையதாக இருக்கலாம், உங்கள் இயந்திரத்தின் மதிப்புகள் "
-"அவசியமில்லை. இந்த மதிப்புகளை ஒரு கப்பல்துறை அமைப்பில் மாற்றுவதற்கு %(win_hyperv_link) கள், "
-"%(Win_wsl2_link) மற்றும் %(Mac_link) S க்கான வழிமுறைகளைப் பார்க்கவும்."
+"அவசியமில்லை. இந்த மதிப்புகளை ஒரு கப்பல்துறை அமைப்பில் மாற்றுவதற்கு %(mac_link)s, %(Win_wsl2_link) "
+"மற்றும் %(win_hyperv_link)s க்கான வழிமுறைகளைப் பார்க்கவும்."
 
 #: coreplugins/diagnostic/templates/diagnostic.html:47
 #: coreplugins/diagnostic/templates/diagnostic.html:82
