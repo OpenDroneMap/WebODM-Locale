@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-30 16:10+0000\n"
+"POT-Creation-Date: 2025-02-20 18:19+0000\n"
 "PO-Revision-Date: 2024-02-20 10:01+0000\n"
 "Last-Translator: Gonzalo Bulnes Guilpain <gon.bulnes@fastmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/webodm/webodm/fr/"
@@ -296,38 +296,44 @@ msgstr ""
 msgid "Invalid permissions"
 msgstr "Action invalide"
 
-#: app/api/tasks.py:188
+#: app/api/tasks.py:233
 #, fuzzy
 #| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload at least 1 file before commit"
 msgstr "Vous devez envoyer au moins 2 images avant de valider"
 
-#: app/api/tasks.py:210
+#: app/api/tasks.py:255
 msgid "No files uploaded"
 msgstr "Aucun fichier envoyé"
 
-#: app/api/tasks.py:236
+#: app/api/tasks.py:281
 msgid "Cannot duplicate task"
 msgstr ""
 
-#: app/api/tasks.py:253
+#: app/api/tasks.py:295
+#, fuzzy
+#| msgid "Cannot create task, you need at least 2 images"
+msgid "Cannot create task, alignment task is not valid"
+msgstr "Impossible de créer la tâche, il vous faut au moins 2 images"
+
+#: app/api/tasks.py:312
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Impossible de créer la tâche, il vous faut au moins 2 images"
 
-#: app/api/tasks.py:377 app/api/tasks.py:381 app/api/tasks.py:405
-#: app/api/tasks.py:408 app/api/tasks.py:426
+#: app/api/tasks.py:437 app/api/tasks.py:441 app/api/tasks.py:544
+#: app/api/tasks.py:547 app/api/tasks.py:565
 msgid "Asset does not exist"
 msgstr "La ressource n'existe pas"
 
-#: app/api/tasks.py:444
+#: app/api/tasks.py:583
 msgid "Imported Task"
 msgstr "Tâche importée"
 
-#: app/api/tasks.py:447
+#: app/api/tasks.py:586
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Impossiber de créer la tâche, vous devez envoyer un fichier"
 
-#: app/api/tasks.py:450
+#: app/api/tasks.py:589
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 "Impossible de créer la tâche, spécifiez une URL ou bien envoyez un fichier."
@@ -352,7 +358,7 @@ msgstr ""
 msgid "Invalid boundaries"
 msgstr "Action invalide"
 
-#: app/api/tiler.py:434 app/api/tiler.py:553
+#: app/api/tiler.py:434 app/api/tiler.py:555
 msgid "Not a valid color_map value"
 msgstr ""
 
@@ -375,31 +381,37 @@ msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 
-#: app/api/tiler.py:538 app/api/tiler.py:540
+#: app/api/tiler.py:540 app/api/tiler.py:542
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:559
+#: app/api/tiler.py:561
+#, fuzzy, python-format
+#| msgid "Invalid zip file"
+msgid "Invalid resample value: %(value)s"
+msgstr "Fichier zip invalide"
+
+#: app/api/tiler.py:567
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:562
+#: app/api/tiler.py:570
 msgid "Both formula and bands parameters are required"
-msgstr ""
-
-#: app/api/tiler.py:585
-#, python-format
-msgid "Invalid rescale value: %(value)s"
 msgstr ""
 
 #: app/api/tiler.py:593
 #, python-format
+msgid "Invalid rescale value: %(value)s"
+msgstr ""
+
+#: app/api/tiler.py:601
+#, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:604
+#: app/api/tiler.py:612
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr ""
 
@@ -408,7 +420,7 @@ msgid "Plugin name"
 msgstr "Nom de l'extension"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:245 app/models/theme.py:18
+#: app/models/task.py:246 app/models/theme.py:18
 msgid "Name"
 msgstr "Nom"
 
@@ -489,15 +501,15 @@ msgstr ""
 "Options qui définissent ce préréglage (même format que dans les options "
 "d'une tâche)."
 
-#: app/models/preset.py:11 app/models/task.py:251
+#: app/models/preset.py:11 app/models/task.py:252
 msgid "Options"
 msgstr "Options"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:259
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:260
 msgid "Creation date"
 msgstr "Date de création"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:259
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:260
 msgid "Created at"
 msgstr "Créé le"
 
@@ -561,16 +573,16 @@ msgstr "Suppression"
 msgid "Project tags"
 msgstr "Projets"
 
-#: app/models/project.py:28 app/models/task.py:284
+#: app/models/project.py:28 app/models/task.py:285
 msgid "Tags"
 msgstr "Étiquettes"
 
-#: app/models/project.py:65 app/models/task.py:432
+#: app/models/project.py:65 app/models/task.py:442
 #, python-format
 msgid "Copy of %(task)s"
 msgstr ""
 
-#: app/models/project.py:90 app/models/task.py:244
+#: app/models/project.py:90 app/models/task.py:245
 msgid "Project"
 msgstr "Projet"
 
@@ -627,27 +639,27 @@ msgstr "Application"
 msgid "Settings"
 msgstr "Paramètres"
 
-#: app/models/task.py:241
+#: app/models/task.py:242
 msgid "Id"
 msgstr "Identifiant"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "Identifiant de la tâche (tel que retourné par l'API NodeODM)"
 
-#: app/models/task.py:243
+#: app/models/task.py:244
 msgid "UUID"
 msgstr "Identifiant unique"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid "Project that this task belongs to"
 msgstr "Projet auquel appartient cette tâche"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid "A label for the task"
 msgstr "Un nom pour cette tâche"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -655,11 +667,11 @@ msgstr ""
 "Nombre de millisecondes écoulées depuis le début de cette tâche (-1 indique "
 "qu'il n'y a pas d'information disponible)"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Processing Time"
 msgstr "Temps de traitement"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -667,11 +679,11 @@ msgstr ""
 "Nœud de traitement assigné à cette tâche (ou défini à null si la tâche n'a "
 "pas encore été associée)"
 
-#: app/models/task.py:247 app/views/app.py:125 nodeodm/models.py:36
+#: app/models/task.py:248 app/views/app.py:125 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "Nœud de traitement"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
@@ -679,55 +691,55 @@ msgstr ""
 "Un drapeau indiquant si cette tâche doit être automatiquement associée ou "
 "non à un nœud de traitement"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "Auto Processing Node"
 msgstr "Nœud de traitement automatique"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Current status of the task"
 msgstr "État actuel de la tâche"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Status"
 msgstr "État"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "The last processing error received"
 msgstr "La dernière erreur de traitement reçue"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "Last Error"
 msgstr "Dernière erreur"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid "Options that are being used to process this task"
 msgstr "Options utilisées pour effectuer cette tâche"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid "List of available assets to download"
 msgstr "Liste des ressources disponibles au téléchargement"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid "Available Assets"
 msgstr "Ressources disponibles"
 
-#: app/models/task.py:254
+#: app/models/task.py:255
 msgid "Extent of the orthophoto"
 msgstr "Étendue de l'orthophoto"
 
-#: app/models/task.py:254
+#: app/models/task.py:255
 msgid "Orthophoto Extent"
 msgstr "Étendue de l'orthophoto"
 
-#: app/models/task.py:255
+#: app/models/task.py:256
 msgid "DSM Extent"
 msgstr "Étendue du DSM"
 
-#: app/models/task.py:256
+#: app/models/task.py:257
 msgid "DTM Extent"
 msgstr "Étendue du DTM"
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -735,31 +747,31 @@ msgstr ""
 "Une action demandée à effectuer sur la tâche. L'action sélectionnée sera "
 "exécutée par le processus lors de la prochaine itération."
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 msgid "Pending Action"
 msgstr "Action en attente"
 
-#: app/models/task.py:262
+#: app/models/task.py:263
 msgid "A flag indicating whether this task is available to the public"
 msgstr "Un drapeau indiquant si cette tâche est disponible au public ou non"
 
-#: app/models/task.py:262
+#: app/models/task.py:263
 msgid "Public"
 msgstr "Public"
 
-#: app/models/task.py:263
+#: app/models/task.py:264
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this public task can be edited"
 msgstr "Un drapeau indiquant si cette tâche est disponible au public ou non"
 
-#: app/models/task.py:263
+#: app/models/task.py:264
 #, fuzzy
 #| msgid "Public"
 msgid "Public Edit"
 msgstr "Public"
 
-#: app/models/task.py:265
+#: app/models/task.py:266
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -769,11 +781,11 @@ msgstr ""
 "cette tâche ont été / seront redimensionnées à la taille définie ici avant "
 "le traitement."
 
-#: app/models/task.py:265
+#: app/models/task.py:266
 msgid "Resize To"
 msgstr "Redimensionner vers"
 
-#: app/models/task.py:268
+#: app/models/task.py:269
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
@@ -781,51 +793,51 @@ msgstr ""
 "Les valeurs entre 0 et 1 indiquent la progression du téléversement des "
 "fichiers de cette tâche vers le nœud de traitement"
 
-#: app/models/task.py:269
+#: app/models/task.py:270
 msgid "Upload Progress"
 msgstr "Progression du téléversement"
 
-#: app/models/task.py:272
+#: app/models/task.py:273
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
 "Les valeurs entre 0 et 1 indiquent la progression du redimensionnement des "
 "images de cette tâche"
 
-#: app/models/task.py:273
+#: app/models/task.py:274
 msgid "Resize Progress"
 msgstr "Progression du redimensionnement"
 
-#: app/models/task.py:276
+#: app/models/task.py:277
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr ""
 "Les valeurs entre 0 et 1 indiquent la progression (estimée) de cette tâche"
 
-#: app/models/task.py:277
+#: app/models/task.py:278
 msgid "Running Progress"
 msgstr "Progression de l'exécution"
 
-#: app/models/task.py:279
+#: app/models/task.py:280
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr ""
 "URL à partir de laquelle cette tâche a été importée (uniquement pour les "
 "tâches importées)"
 
-#: app/models/task.py:279
+#: app/models/task.py:280
 msgid "Import URL"
 msgstr "URL d’importation"
 
-#: app/models/task.py:280
+#: app/models/task.py:281
 msgid "Number of images associated with this task"
 msgstr "Nombre d'images associées à cette tâche"
 
-#: app/models/task.py:280
+#: app/models/task.py:281
 msgid "Images Count"
 msgstr "Nombre d'images"
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
@@ -834,87 +846,91 @@ msgstr ""
 "d'information des fichiers à téléverser avant d'être considérée pour le "
 "traitement."
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid "Partial"
 msgstr "Partiel"
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid "Potree Scene"
 msgstr ""
 
-#: app/models/task.py:283
+#: app/models/task.py:284
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr ""
 
-#: app/models/task.py:284
+#: app/models/task.py:285
 #, fuzzy
 #| msgid "Tasks"
 msgid "Task tags"
 msgstr "Tâches"
 
-#: app/models/task.py:285
+#: app/models/task.py:286
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "List of orthophoto bands"
 msgstr "Étendue de l'orthophoto"
 
-#: app/models/task.py:285
+#: app/models/task.py:286
 #, fuzzy
 #| msgid "Orthophoto Extent"
 msgid "Orthophoto Bands"
 msgstr "Étendue de l'orthophoto"
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 msgid "Size of the task on disk in megabytes"
 msgstr ""
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 msgid "Size"
 msgstr ""
 
-#: app/models/task.py:289
+#: app/models/task.py:290
 msgid "Task"
 msgstr "Tâche"
 
-#: app/models/task.py:290
+#: app/models/task.py:291
 msgid "Tasks"
 msgstr "Tâches"
 
-#: app/models/task.py:301
+#: app/models/task.py:302
 msgid "unnamed"
 msgstr "sans nom"
 
-#: app/models/task.py:554
+#: app/models/task.py:564
 msgid "Importing assets..."
 msgstr "Importation des ressources…"
 
-#: app/models/task.py:606 app/models/task.py:874
+#: app/models/task.py:616 app/models/task.py:886
 msgid "Invalid zip file"
 msgstr "Fichier zip invalide"
 
-#: app/models/task.py:700
+#: app/models/task.py:618
+msgid "Unsupported compression method"
+msgstr ""
+
+#: app/models/task.py:712
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Erreur de connexion : %(error)s"
 
-#: app/models/task.py:780
+#: app/models/task.py:792
 msgid "Cannot restart a task that has no processing node"
 msgstr "Impossible de redémarrer une tâche qui n'a pas de nœud de traitement"
 
-#: app/models/task.py:954
+#: app/models/task.py:966
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "SRS non pris en charge %(code)s. S’il vous plaît assurez-vous que vous avez "
 "sélectionné un SRS pris en charge."
 
-#: app/models/task.py:973
+#: app/models/task.py:986
 msgid "Done!"
 msgstr "Terminé !"
 
@@ -1448,16 +1464,16 @@ msgstr "Enregistrer et en ajouter un autre"
 msgid "Save and continue editing"
 msgstr "Enregistrer et continuer de modifier"
 
-#: app/templates/app/dashboard.html:18 app/templates/app/dashboard.html:31
+#: app/templates/app/dashboard.html:15 app/templates/app/dashboard.html:28
 #: app/templates/app/welcome.html:227
 msgid "Welcome!"
 msgstr "Bienvenue !"
 
-#: app/templates/app/dashboard.html:19
+#: app/templates/app/dashboard.html:16
 msgid "Add a Processing Node"
 msgstr "Ajouter un nœud de traitement"
 
-#: app/templates/app/dashboard.html:22
+#: app/templates/app/dashboard.html:19
 #, python-format
 msgid ""
 "To get started, \"%(add_processing_node)s\". A processing node is a computer "
@@ -1468,11 +1484,11 @@ msgstr ""
 "ordinateur qui exécute une instance de %(nodeodm_link)s ou un autre logiciel "
 "implémentant ce %(api_link)s."
 
-#: app/templates/app/dashboard.html:32
+#: app/templates/app/dashboard.html:29
 msgid "Select Images and GCP"
 msgstr "Sélectionner des images et fichiers GCP"
 
-#: app/templates/app/dashboard.html:34
+#: app/templates/app/dashboard.html:31
 #, python-format
 msgid ""
 "To create a map, press the \"%(upload_images)s\" button, or drag and drop "
@@ -1481,24 +1497,24 @@ msgstr ""
 "Pour créer une carte, appuyez sur le bouton « %(upload_images)s », ou "
 "glissez-déposez des images dans un projet."
 
-#: app/templates/app/dashboard.html:38
+#: app/templates/app/dashboard.html:35
 msgid "You need at least 5 images, but 16-32 is typically the minimum."
 msgstr ""
 "Vous avez besoin de 5 images, mais 16 à 32 sont typiquement un minimum."
 
-#: app/templates/app/dashboard.html:39
+#: app/templates/app/dashboard.html:36
 #, python-format
 msgid "Images must overlap by 65%% or more. Aim for 70-72%%"
 msgstr "Les images doivent se chevaucher de 65%% ou plus. Visez 70-72%%"
 
-#: app/templates/app/dashboard.html:40
+#: app/templates/app/dashboard.html:37
 #, python-format
 msgid "For great 3D, images must overlap by 83%%"
 msgstr ""
 "Pour obtenir de la 3D de bonne qualité, les images doivent se chevaucher de "
 "83%%"
 
-#: app/templates/app/dashboard.html:41
+#: app/templates/app/dashboard.html:38
 #, python-format
 msgid ""
 "A %(link_start)sGCP File%(link_end)s is optional, but can increase "
@@ -1781,6 +1797,10 @@ msgstr "Ajoute un bouton plein-écran à la vue 2D de la carte"
 msgid "Plugin to get align from external service for WebODM"
 msgstr ""
 
+#: app/translations/plugin_manifest_autogenerated.py:23
+msgid "Detect objects using AI in orthophotos"
+msgstr ""
+
 #: app/views/app.py:50
 msgid "First Project"
 msgstr "Premier projet"
@@ -1855,11 +1875,6 @@ msgstr "Aucune couche DSM n'est disponible."
 #: coreplugins/contours/api.py:88
 msgid "No DTM layer is available."
 msgstr "Aucune couche DTM n'est disponible."
-
-#: coreplugins/contours/api.py:119
-msgid "Could not generate contour file. This might be a bug."
-msgstr ""
-"Impossible de générer le fichier de contour. Il pourrait s'agir d'un bug."
 
 #: coreplugins/diagnostic/plugin.py:36
 msgid "Diagnostic"
@@ -1958,6 +1973,12 @@ msgstr ""
 #| msgid "Lightning Network"
 msgid "Lightning"
 msgstr "Réseau Lightning"
+
+#: coreplugins/objdetect/api.py:29
+#, fuzzy
+#| msgid "No DSM layer is available."
+msgid "No orthophoto is available."
+msgstr "Aucune couche DSM n'est disponible."
 
 #: coreplugins/posm-gcpi/plugin.py:9
 msgid "GCP Interface"
@@ -2074,6 +2095,10 @@ msgstr ""
 #: nodeodm/models.py:33
 msgid "Engine used by the node."
 msgstr "Moteur utilisé par le nœud."
+
+#~ msgid "Could not generate contour file. This might be a bug."
+#~ msgstr ""
+#~ "Impossible de générer le fichier de contour. Il pourrait s'agir d'un bug."
 
 #~ msgid "Detect changes between two different tasks in the same project."
 #~ msgstr ""
