@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 18:19+0000\n"
-"PO-Revision-Date: 2025-02-21 07:04+0000\n"
+"PO-Revision-Date: 2025-02-21 14:31+0000\n"
 "Last-Translator: Marcin Sołoguba <marsol@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/webodm/react-ui/"
 "pl/>\n"
@@ -882,43 +882,34 @@ msgid "Loading..."
 msgstr "Wczytywanie..."
 
 #: app/static/app/js/components/MapPreview.jsx:282
-#, fuzzy, python-format
-#| msgid "Cannot restart task from (stage)s."
+#, python-format
 msgid "Cannot extract GPS data from %(file)s"
-msgstr "Nie można wznowić zadania od (etapu)w."
+msgstr "Nie można wydobyć danych GNSS z %(file)s"
 
 #: app/static/app/js/components/MapPreview.jsx:612
-#, fuzzy
-#| msgid "Point location"
 msgid "Plotting GPS locations..."
-msgstr "Lokalizacja punktu"
+msgstr "Wyświetlanie lokalizacji GNSS…"
 
 #: app/static/app/js/components/MapPreview.jsx:617
 #, python-format
 msgid "For performance reasons, only %(num)s images are plotted"
-msgstr ""
+msgstr "Dla zwiększenia wydajności wyświetlanych jest tylko %(num)s obrazów"
 
 #: app/static/app/js/components/MapPreview.jsx:628
-#, fuzzy
-#| msgid "Export to GeoJSON"
 msgid "GeoJSON"
-msgstr "Eksportuj do GeoJSON"
+msgstr "GeoJSON"
 
 #: app/static/app/js/components/MapPreview.jsx:629
 msgid "CSV"
-msgstr ""
+msgstr "CSV"
 
 #: app/static/app/js/components/MapPreview.jsx:630
-#, fuzzy
-#| msgid "Download To File"
 msgid "Geolocation File"
-msgstr "Pobierz do pliku"
+msgstr "Plik z lokalizacją przestrzenną"
 
 #: app/static/app/js/components/MapPreview.jsx:637
-#, fuzzy
-#| msgid "Description (optional)"
 msgid "Set Reconstruction Area (optional)"
-msgstr "Opis (opcjonalny)"
+msgstr "Wskaż obszar objęty przetworzeniem (opcjonalny)"
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:9
 msgid "Move Task"
@@ -957,6 +948,8 @@ msgid ""
 "Did you forget any images? When images exceed 1000, they are often stored "
 "inside multiple folders on the SD card."
 msgstr ""
+"Czy wskazałeś wszystkie pliki? Gdy ich liczba przekracza 1000, są "
+"najczęściej umieszczone w wielu podfolderach karty SD."
 
 #: app/static/app/js/components/NewTaskPanel.jsx:218
 #, python-format
@@ -970,7 +963,7 @@ msgstr ""
 #: app/static/app/js/components/NewTaskPanel.jsx:245
 #: app/static/app/js/components/TaskListItem.jsx:438
 msgid "Alignment"
-msgstr ""
+msgstr "Wyrównanie"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:261
 msgid "Resize Images"
@@ -1132,7 +1125,7 @@ msgstr "Włączone"
 
 #: app/static/app/js/components/SharePopup.jsx:166
 msgid "Allow Edits"
-msgstr ""
+msgstr "Zezwól na Edycję"
 
 #: app/static/app/js/components/SharePopup.jsx:173
 msgid "Link:"
@@ -1256,13 +1249,11 @@ msgstr "Nie można wznowić zadania od (etapu)w."
 
 #: app/static/app/js/components/TaskListItem.jsx:442
 msgid "GPS"
-msgstr ""
+msgstr "GPS/GNSS"
 
 #: app/static/app/js/components/TaskListItem.jsx:445
-#, fuzzy
-#| msgid "(GCPs)"
 msgid "GCP"
-msgstr "(GCPs)"
+msgstr "GCP"
 
 #: app/static/app/js/components/TaskListItem.jsx:457
 msgid "Sending images to processing node"
@@ -1286,10 +1277,8 @@ msgid "Restart"
 msgstr "Ponów start"
 
 #: app/static/app/js/components/TaskListItem.jsx:524
-#, fuzzy
-#| msgid "Are you sure you want to delete \"%(preset)s\"?"
 msgid "Are you sure you want to restart this task?"
-msgstr "Jesteś pewien, że chcesz usunąć \"%(preset)s\"?"
+msgstr "Czy jesteś pewien, że chcesz uruchomić ponownie to zadanie?"
 
 #: app/static/app/js/components/TaskListItem.jsx:531
 #: app/static/app/js/components/TaskListItem.jsx:771
@@ -1340,7 +1329,7 @@ msgstr "Punkty zrekonstruowane:"
 
 #: app/static/app/js/components/TaskListItem.jsx:615
 msgid "Spatial Reference:"
-msgstr ""
+msgstr "Odniesienie przestrzenne:"
 
 #: app/static/app/js/components/TaskListItem.jsx:620
 msgid "Disk Usage:"
@@ -1364,7 +1353,7 @@ msgstr "Wył."
 
 #: app/static/app/js/components/TaskListItem.jsx:640
 msgid "Thumbnail"
-msgstr ""
+msgstr "Miniatura"
 
 #: app/static/app/js/components/TaskListItem.jsx:658
 msgid ""
@@ -2812,10 +2801,8 @@ msgstr "Najniższe"
 
 #: coreplugins/annotate/public/Popup.jsx:566
 #: coreplugins/annotate/public/Popup.jsx:660
-#, fuzzy
-#| msgid "Strength"
 msgid "Length"
-msgstr "Nasilenie"
+msgstr "Długość"
 
 #: coreplugins/annotate/public/Popup.jsx:571
 #: coreplugins/annotate/public/Popup.jsx:666
@@ -2825,14 +2812,12 @@ msgstr "Obszar"
 
 #: coreplugins/annotate/public/Popup.jsx:572
 #: coreplugins/annotate/public/Popup.jsx:672
-#, fuzzy
-#| msgid "Volume:"
 msgid "Volume"
-msgstr "Objętość:"
+msgstr "Objętość"
 
 #: coreplugins/annotate/public/Popup.jsx:602
 msgid "Display"
-msgstr ""
+msgstr "Wyświetl"
 
 #: coreplugins/annotate/public/Popup.jsx:614
 msgid "Description"
@@ -2847,14 +2832,12 @@ msgid "Coordinates"
 msgstr "Koordynaty"
 
 #: coreplugins/annotate/public/Popup.jsx:642
-#, fuzzy
-#| msgid "Elevation:"
 msgid "Elevation"
-msgstr "Wysokość n.p.m.:"
+msgstr "Wysokość n.p.m."
 
 #: coreplugins/annotate/public/Popup.jsx:651
 msgid "Temperature"
-msgstr ""
+msgstr "Temperatura"
 
 #: coreplugins/annotate/public/Popup.jsx:669
 #: coreplugins/measure/public/app.jsx:27
@@ -2862,36 +2845,28 @@ msgid "Perimeter"
 msgstr "Obwód"
 
 #: coreplugins/annotate/public/Popup.jsx:679
-#, fuzzy
-#| msgid "Custom"
 msgid "Cut"
-msgstr "Ustawienia własne"
+msgstr "Wytnij"
 
 #: coreplugins/annotate/public/Popup.jsx:685
 msgid "Fill"
-msgstr ""
+msgstr "Wypełnij"
 
 #: coreplugins/annotate/public/Popup.jsx:690
-#, fuzzy
-#| msgid "Base surface:"
 msgid "Base Surface"
-msgstr "Powierzchnia bazowa:"
+msgstr "Powierzchnia bazowa"
 
 #: coreplugins/annotate/public/Popup.jsx:705
-#, fuzzy
-#| msgid "Center on this location"
 msgid "No images found at this location"
-msgstr "Wyśrodkuj w tej lokalizacji"
+msgstr "Nie znaleziono obrazów w tej lokalizacji"
 
 #: coreplugins/annotate/public/Popup.jsx:727
-#, fuzzy
-#| msgid "Preview"
 msgid "Previous"
-msgstr "Podgląd"
+msgstr "Poprzedni"
 
 #: coreplugins/annotate/public/Popup.jsx:729
 msgid "Next"
-msgstr ""
+msgstr "Następny"
 
 #: coreplugins/annotate/public/Toolbox.jsx:657
 #: coreplugins/annotate/public/Toolbox.jsx:805
@@ -2909,20 +2884,16 @@ msgid "Polygon"
 msgstr "Wielokąt"
 
 #: coreplugins/annotate/public/Toolbox.jsx:663
-#, fuzzy
-#| msgid "Inspect"
 msgid "Inspection"
-msgstr "Zbadaj"
+msgstr "Kontrola"
 
 #: coreplugins/annotate/public/Toolbox.jsx:784
 msgid "Select"
 msgstr "Wybierz"
 
 #: coreplugins/annotate/public/Toolbox.jsx:812
-#, fuzzy
-#| msgid "Export to GeoJSON"
 msgid "Import GeoJSON"
-msgstr "Eksportuj do GeoJSON"
+msgstr "Importuj plik GeoJSON"
 
 #: coreplugins/annotate/public/Toolbox.jsx:825
 msgid "Inspect"
@@ -3260,48 +3231,48 @@ msgstr "Eksportuj pomiary"
 msgid ""
 "No orthophoto is available. To use object detection you need an orthophoto."
 msgstr ""
+"Brak ortofotomapy. Ab przeprowadzić wykrywanie obrazów, musisz wygenerować "
+"ortofotomapę."
 
 #: coreplugins/objdetect/public/ObjDetectPanel.jsx:93
 msgid "Label:"
-msgstr ""
+msgstr "Etykieta:"
 
 #: coreplugins/objdetect/public/ObjDetectPanel.jsx:94
 msgid "Confidence:"
-msgstr ""
+msgstr "Ufność:"
 
 #: coreplugins/objdetect/public/ObjDetectPanel.jsx:178
 msgid "Cars"
-msgstr ""
+msgstr "Auta"
 
 #: coreplugins/objdetect/public/ObjDetectPanel.jsx:179
 msgid "Trees"
-msgstr ""
+msgstr "Drzewa"
 
 #: coreplugins/objdetect/public/ObjDetectPanel.jsx:180
 msgid "Athletic Facilities"
-msgstr ""
+msgstr "Obiekty sportowe"
 
 #: coreplugins/objdetect/public/ObjDetectPanel.jsx:181
 msgid "Boats"
-msgstr ""
+msgstr "Statki"
 
 #: coreplugins/objdetect/public/ObjDetectPanel.jsx:182
-#, fuzzy
-#| msgid "Plane"
 msgid "Planes"
-msgstr "Płaszczyzna"
+msgstr "Samoloty"
 
 #: coreplugins/objdetect/public/ObjDetectPanel.jsx:199
 msgid "Detect"
-msgstr ""
+msgstr "Wykryj"
 
 #: coreplugins/objdetect/public/ObjDetectPanel.jsx:204
 msgid "Count:"
-msgstr ""
+msgstr "Zlicz:"
 
 #: coreplugins/objdetect/public/ObjDetectPanel.jsx:221
 msgid "Object Detection"
-msgstr ""
+msgstr "Wykrywanie obiektów"
 
 #~ msgid "DSM"
 #~ msgstr "DSM"
