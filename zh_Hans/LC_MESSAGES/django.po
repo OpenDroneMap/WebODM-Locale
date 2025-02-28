@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 18:19+0000\n"
-"PO-Revision-Date: 2024-11-09 14:01+0000\n"
-"Last-Translator: NtskwK <natsukawa247@outlook.com>\n"
+"PO-Revision-Date: 2025-02-28 14:19+0000\n"
+"Last-Translator: Thregren <admin@thregren.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/webodm/webodm/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #: app/admin.py:65
 msgid "Enter custom CSS"
-msgstr "输入自定义CSS"
+msgstr "输入自定义 CSS"
 
 #: app/admin.py:66 app/models/theme.py:40
 msgid "CSS"
@@ -29,34 +29,34 @@ msgstr "CSS"
 
 #: app/admin.py:69
 msgid "HTML that will be displayed above site header"
-msgstr "HTML将显示在站点标题上方"
+msgstr "HTML 将显示在 header 之前"
 
 #: app/admin.py:70 app/models/theme.py:41
 msgid "HTML (before header)"
-msgstr "HTML（标题前面）"
+msgstr "HTML（header 之前）"
 
 #: app/admin.py:73
 msgid "HTML that will be displayed after site header"
-msgstr "HTML将显示在站点标题后面"
+msgstr "HTML 将显示在 header 之后"
 
 #: app/admin.py:74 app/models/theme.py:42
 msgid "HTML (after header)"
-msgstr "HTML（标题后面）"
+msgstr "HTML（header 之后）"
 
 #: app/admin.py:77
 msgid "HTML that will be displayed after the body tag"
-msgstr "HTML将在body标记后显示"
+msgstr "HTML 将显示在 body 之后"
 
 #: app/admin.py:78 app/models/theme.py:43
 msgid "HTML (after body)"
-msgstr "HTML（body后面）"
+msgstr "HTML（body 之后）"
 
 #: app/admin.py:82
 #, python-brace-format
 msgid ""
 "HTML that will be displayed in the footer. You can also use the special tags "
 "such as {ORGANIZATION} and {YEAR}."
-msgstr "HTML将显示在页脚中。您还可以使用特殊标记，如{ORGANIZATION}和{YEAR}。"
+msgstr "HTML 将显示在页脚中。您还可以使用特殊标记，如{ORGANIZATION}和{YEAR}。"
 
 #: app/admin.py:83 app/models/theme.py:44
 msgid "HTML (footer)"
@@ -77,7 +77,7 @@ msgstr "作者"
 #: app/admin.py:159
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
-msgstr "需要重新启动。请重新启动WebODM以启用%(plugin)s"
+msgstr "需要重新启动。请重新启动 WebODM 以启用%(plugin)s"
 
 #: app/admin.py:162
 #, python-format
@@ -87,7 +87,7 @@ msgstr "无法启用插件%(plugin)s:%(message)s"
 #: app/admin.py:171
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
-msgstr "需要重新启动。请重新启动WebODM以完全禁用%(plugin)s"
+msgstr "需要重新启动。请重新启动 WebODM 以完全禁用%(plugin)s"
 
 #: app/admin.py:174
 #, python-format
@@ -106,7 +106,7 @@ msgstr "插件添加成功"
 #: app/admin.py:233
 #, python-format
 msgid "Cannot load plugin: %(message)s"
-msgstr "无法加载插件:%(message)s"
+msgstr "无法加载插件：%(message)s"
 
 #: app/admin.py:239
 msgid "You need to upload a zip file"
@@ -172,14 +172,13 @@ msgstr "可视大气阻力指数显示植被的面积。"
 
 #: app/api/formulas.py:50
 msgid "Modified Photochemical Reflectance Index"
-msgstr ""
-"改进的光合色素反射指数(Modified Photochemical Reflectance Index，简称MPRI)"
+msgstr "改进的光合色素反射指数（Modified Photochemical Reflectance Index，简称 MPRI）"
 
 #: app/api/formulas.py:55
 msgid ""
 "Excess Green Index (derived from only the RGB bands) emphasizes the "
 "greenness of leafy crops such as potatoes."
-msgstr "过量绿色指数（仅源自RGB）强调了马铃薯等多叶作物的绿色。"
+msgstr "过量绿色指数（仅源自 RGB）强调了马铃薯等多叶作物的绿色。"
 
 #: app/api/formulas.py:59
 msgid ""
@@ -205,8 +204,7 @@ msgstr "森林绿比植被指数对光合速率敏感。"
 msgid ""
 "Soil Adjusted Vegetation Index is similar to NDVI but attempts to remove the "
 "effects of soil areas using an adjustment factor (0.5)."
-msgstr ""
-"土壤调整植被指数与NDVI相似，但试图使用调整因子（0.5）消除对土壤面积的影响。"
+msgstr "土壤调整植被指数与 NDVI 相似，但试图使用调整因子（0.5）消除对土壤面积的影响。"
 
 #: app/api/formulas.py:81
 msgid ""
@@ -224,8 +222,8 @@ msgstr "修正简单比是简单比（SR）指数的改进，对植被更敏感�
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
-msgstr ""
-"重正化差异植被指数使用近红外和红色之间的差异，加上NDVI来显示健康植被的区域。"
+msgstr "重正化差异植被指数使用近红外和红色之间的差异，加上 NDVI "
+"来显示健康植被的区域。"
 
 #: app/api/formulas.py:93
 msgid ""
@@ -237,7 +235,7 @@ msgstr "转换后的差异植被指数突出了城市环境中的植被覆盖。
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
-msgstr "优化的土壤调整植被指数基于SAVI，但在土壤可见的植被较少的地区效果更好。"
+msgstr "优化的土壤调整植被指数基于 SAVI，但在土壤可见的植被较少的地区效果更好。"
 
 #: app/api/formulas.py:101
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
@@ -291,10 +289,8 @@ msgid "Cannot duplicate task"
 msgstr "无法复制任务"
 
 #: app/api/tasks.py:295
-#, fuzzy
-#| msgid "Cannot create task, you need at least 2 images"
 msgid "Cannot create task, alignment task is not valid"
-msgstr "无法创建任务，您至少需要2个图像"
+msgstr "无法创建任务，对齐任务无效"
 
 #: app/api/tasks.py:312
 msgid "Cannot create task, you need at least 2 images"
@@ -315,7 +311,7 @@ msgstr "无法创建任务，你需要上传1个文件"
 
 #: app/api/tasks.py:589
 msgid "Cannot create task, either specify a URL or upload 1 file."
-msgstr "无法创建任务，请指定URL或上载1个文件。"
+msgstr "无法创建任务，请指定 URL 或上载1个文件。"
 
 #: app/api/tiler.py:307
 msgid "Invalid boundaries parameter"
@@ -360,10 +356,9 @@ msgid "Unsupported format: %(value)s"
 msgstr "不支持的格式：%(value)s"
 
 #: app/api/tiler.py:561
-#, fuzzy, python-format
-#| msgid "Invalid rescale value: %(value)s"
+#, python-format
 msgid "Invalid resample value: %(value)s"
-msgstr "无效的重缩放值：%(value)s"
+msgstr "无效的重采样值：%(value)s"
 
 #: app/api/tiler.py:567
 #, python-format
@@ -846,7 +841,7 @@ msgstr "无效的zip文件"
 
 #: app/models/task.py:618
 msgid "Unsupported compression method"
-msgstr ""
+msgstr "不支持的压缩方法"
 
 #: app/models/task.py:712
 #, python-format
@@ -1682,7 +1677,7 @@ msgstr "用于从外部服务为 WebODM 获取配准的插件"
 
 #: app/translations/plugin_manifest_autogenerated.py:23
 msgid "Detect objects using AI in orthophotos"
-msgstr ""
+msgstr "在正射图像中使用人工智能来检测物体"
 
 #: app/views/app.py:50
 msgid "First Project"
@@ -1846,10 +1841,8 @@ msgid "Lightning"
 msgstr "Lightning"
 
 #: coreplugins/objdetect/api.py:29
-#, fuzzy
-#| msgid "No DSM layer is available."
 msgid "No orthophoto is available."
-msgstr "没有可用的DSM层。"
+msgstr "没有可用的正射影像。"
 
 #: coreplugins/posm-gcpi/plugin.py:9
 msgid "GCP Interface"
