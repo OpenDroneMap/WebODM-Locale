@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-08 17:32+0000\n"
+"POT-Creation-Date: 2025-03-12 03:49+0000\n"
 "PO-Revision-Date: 2025-02-28 14:19+0000\n"
 "Last-Translator: Thregren <admin@thregren.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
@@ -280,40 +280,40 @@ msgstr "权限列表中的用户无效"
 msgid "Invalid permissions"
 msgstr "无效权限"
 
-#: app/api/tasks.py:233
+#: app/api/tasks.py:237
 msgid "You need to upload at least 1 file before commit"
 msgstr "提交前至少需要上传1个文件"
 
-#: app/api/tasks.py:255
+#: app/api/tasks.py:259
 msgid "No files uploaded"
 msgstr "没有文件可上传"
 
-#: app/api/tasks.py:281
+#: app/api/tasks.py:285
 msgid "Cannot duplicate task"
 msgstr "无法复制任务"
 
-#: app/api/tasks.py:295
+#: app/api/tasks.py:299
 msgid "Cannot create task, alignment task is not valid"
 msgstr "无法创建任务，对齐任务无效"
 
-#: app/api/tasks.py:312
+#: app/api/tasks.py:316
 msgid "Cannot create task, you need at least 2 images"
 msgstr "无法创建任务，您至少需要2个图像"
 
-#: app/api/tasks.py:437 app/api/tasks.py:441 app/api/tasks.py:544
-#: app/api/tasks.py:547 app/api/tasks.py:565
+#: app/api/tasks.py:441 app/api/tasks.py:445 app/api/tasks.py:548
+#: app/api/tasks.py:551 app/api/tasks.py:569
 msgid "Asset does not exist"
 msgstr "资源不存在"
 
-#: app/api/tasks.py:583
+#: app/api/tasks.py:587
 msgid "Imported Task"
 msgstr "导入的任务"
 
-#: app/api/tasks.py:586
+#: app/api/tasks.py:590
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "无法创建任务，你需要上传1个文件"
 
-#: app/api/tasks.py:589
+#: app/api/tasks.py:593
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "无法创建任务，请指定 URL 或上载1个文件。"
 
@@ -392,7 +392,7 @@ msgid "Plugin name"
 msgstr "插件名称"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:246 app/models/theme.py:18
+#: app/models/task.py:247 app/models/theme.py:18
 msgid "Name"
 msgstr "名字"
 
@@ -468,15 +468,15 @@ msgstr "用于描述预设的标签"
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr "定义此预设的选项（与任务选项中的格式相同）。"
 
-#: app/models/preset.py:11 app/models/task.py:252
+#: app/models/preset.py:11 app/models/task.py:253
 msgid "Options"
 msgstr "选项"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:260
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:261
 msgid "Creation date"
 msgstr "创建时间"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:260
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:261
 msgid "Created at"
 msgstr "创建于"
 
@@ -535,16 +535,16 @@ msgstr "删除中"
 msgid "Project tags"
 msgstr "项目标签"
 
-#: app/models/project.py:28 app/models/task.py:285
+#: app/models/project.py:28 app/models/task.py:286
 msgid "Tags"
 msgstr "标签"
 
-#: app/models/project.py:65 app/models/task.py:442
+#: app/models/project.py:65 app/models/task.py:445
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "复制于%(task)s"
 
-#: app/models/project.py:90 app/models/task.py:245
+#: app/models/project.py:90 app/models/task.py:246
 msgid "Project"
 msgstr "项目"
 
@@ -601,127 +601,127 @@ msgstr "应用"
 msgid "Settings"
 msgstr "设置"
 
-#: app/models/task.py:242
+#: app/models/task.py:243
 msgid "Id"
 msgstr "ID"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "任务的标识符（由NodeODM api返回）"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid "Project that this task belongs to"
 msgstr "此任务所属的项目"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "A label for the task"
 msgstr "任务的标签"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr "自此任务开始以来消耗的毫秒数（-1表示没有可用信息）"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "Processing Time"
 msgstr "生产时间"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr "分配给此任务的处理节点（如果此任务尚未关联，则为null）"
 
-#: app/models/task.py:248 app/views/app.py:125 nodeodm/models.py:36
+#: app/models/task.py:249 app/views/app.py:126 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "处理节点"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr "指示是否应自动为该任务分配处理节点的标志"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Auto Processing Node"
 msgstr "自动处理结点"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "Current status of the task"
 msgstr "任务当前状态"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "Status"
 msgstr "状态"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid "The last processing error received"
 msgstr "接收到的最后一个处理错误"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid "Last Error"
 msgstr "最新错误"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid "Options that are being used to process this task"
 msgstr "该任务已使用过的选项"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid "List of available assets to download"
 msgstr "可下载的资源列表"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid "Available Assets"
 msgstr "资源列表"
 
-#: app/models/task.py:255
+#: app/models/task.py:256
 msgid "Extent of the orthophoto"
 msgstr "正射影像的范围"
 
-#: app/models/task.py:255
+#: app/models/task.py:256
 msgid "Orthophoto Extent"
 msgstr "正射影像的范围"
 
-#: app/models/task.py:256
+#: app/models/task.py:257
 msgid "DSM Extent"
 msgstr "DSM范围"
 
-#: app/models/task.py:257
+#: app/models/task.py:258
 msgid "DTM Extent"
 msgstr "DTM的范围"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
 msgstr "要求对任务执行的行动。所选的行动将由工作者在下次迭代时执行。"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid "Pending Action"
 msgstr "挂起的动作"
 
-#: app/models/task.py:263
+#: app/models/task.py:264
 msgid "A flag indicating whether this task is available to the public"
 msgstr "指示此任务是否可公开的标志"
 
-#: app/models/task.py:263
+#: app/models/task.py:264
 msgid "Public"
 msgstr "公共"
 
-#: app/models/task.py:264
+#: app/models/task.py:265
 msgid "A flag indicating whether this public task can be edited"
 msgstr "指示此公开任务是否可编辑的标志"
 
-#: app/models/task.py:264
+#: app/models/task.py:265
 msgid "Public Edit"
 msgstr "公共编辑"
 
-#: app/models/task.py:266
+#: app/models/task.py:267
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -730,138 +730,148 @@ msgstr ""
 "当设置为不同于-1的值时，表示此任务的图像在处理之前已经/即将调整为此处指定的大"
 "小。"
 
-#: app/models/task.py:266
+#: app/models/task.py:267
 msgid "Resize To"
 msgstr "调整大小至"
 
-#: app/models/task.py:269
+#: app/models/task.py:270
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr "介于0和1之间的值，表示该任务的文件上传到处理节点的进度"
 
-#: app/models/task.py:270
+#: app/models/task.py:271
 msgid "Upload Progress"
 msgstr "上传进度"
 
-#: app/models/task.py:273
+#: app/models/task.py:274
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr "值介于0和1之间，指示此任务图像的调整大小进度"
 
-#: app/models/task.py:274
+#: app/models/task.py:275
 msgid "Resize Progress"
 msgstr "调整进度"
 
-#: app/models/task.py:277
+#: app/models/task.py:278
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr "表示该任务的进展状况（预想）的0到1的值"
 
-#: app/models/task.py:278
+#: app/models/task.py:279
 msgid "Running Progress"
 msgstr "执行进度"
 
-#: app/models/task.py:280
+#: app/models/task.py:281
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "导入此任务的URL（仅适用于导入的任务）"
 
-#: app/models/task.py:280
+#: app/models/task.py:281
 msgid "Import URL"
 msgstr "导入URL"
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid "Number of images associated with this task"
 msgstr "与此任务关联的图像数"
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid "Images Count"
 msgstr "图片总数"
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr "指示此任务当前是否正在等待信息或文件上载，然后再考虑执行的标志。"
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid "Partial"
 msgstr "部分"
 
-#: app/models/task.py:283
+#: app/models/task.py:284
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr "用于保存/读取测量结果和相机视角的连续potree scene信息"
 
-#: app/models/task.py:283
+#: app/models/task.py:284
 msgid "Potree Scene"
 msgstr "Potree 场景"
 
-#: app/models/task.py:284
+#: app/models/task.py:285
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "数据集的EPSG代码（地理参考）"
 
-#: app/models/task.py:285
+#: app/models/task.py:286
 msgid "Task tags"
 msgstr "任务标签"
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 msgid "List of orthophoto bands"
 msgstr "正射影像波段列表"
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 msgid "Orthophoto Bands"
 msgstr "正射影像波段"
 
-#: app/models/task.py:287
+#: app/models/task.py:288
 msgid "Size of the task on disk in megabytes"
 msgstr "磁盘上的文件大小"
 
-#: app/models/task.py:287
+#: app/models/task.py:288
 msgid "Size"
 msgstr "大小"
 
-#: app/models/task.py:290
+#: app/models/task.py:289
+#, fuzzy
+#| msgid "A flag indicating whether this public task can be edited"
+msgid "A flag indicating whether this task was compacted"
+msgstr "指示此公开任务是否可编辑的标志"
+
+#: app/models/task.py:289
+msgid "Compact"
+msgstr ""
+
+#: app/models/task.py:293
 msgid "Task"
 msgstr "任务"
 
-#: app/models/task.py:291
+#: app/models/task.py:294
 msgid "Tasks"
 msgstr "任务"
 
-#: app/models/task.py:302
+#: app/models/task.py:305
 msgid "unnamed"
 msgstr "未命名"
 
-#: app/models/task.py:564
+#: app/models/task.py:567
 msgid "Importing assets..."
 msgstr "正在导入资源…"
 
-#: app/models/task.py:616 app/models/task.py:886
+#: app/models/task.py:619 app/models/task.py:897
 msgid "Invalid zip file"
 msgstr "无效的zip文件"
 
-#: app/models/task.py:618
+#: app/models/task.py:621
 msgid "Unsupported compression method"
 msgstr "不支持的压缩方法"
 
-#: app/models/task.py:712
+#: app/models/task.py:715
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "连接错误：%(error)s"
 
-#: app/models/task.py:792
+#: app/models/task.py:795
 msgid "Cannot restart a task that has no processing node"
 msgstr "无法重新启动没有处理节点的任务"
 
-#: app/models/task.py:966
+#: app/models/task.py:977
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "不支持的SRS%(code)s。请确保您选择了受支持的SRS。"
 
-#: app/models/task.py:986
+#: app/models/task.py:997
 msgid "Done!"
 msgstr "完成了！"
 
@@ -1499,7 +1509,7 @@ msgstr "组"
 msgid "Brand"
 msgstr "商标"
 
-#: app/templates/app/logged_in_base.html:138 app/views/app.py:115
+#: app/templates/app/logged_in_base.html:138 app/views/app.py:116
 msgid "About"
 msgstr "关于"
 
@@ -1687,20 +1697,20 @@ msgstr "在正射图像中使用人工智能来检测物体"
 msgid "First Project"
 msgstr "第一个项目"
 
-#: app/views/app.py:63 app/views/public.py:28
+#: app/views/app.py:64 app/views/public.py:28
 msgid "Map"
 msgstr "地图"
 
-#: app/views/app.py:92
+#: app/views/app.py:93
 msgid "3D Model Display"
 msgstr "三维模型显示"
 
-#: app/views/app.py:121
+#: app/views/app.py:122
 #, python-format
 msgid "%(node)s seems to be offline."
 msgstr "无法连接到%(node)s。"
 
-#: app/views/app.py:159
+#: app/views/app.py:160
 msgid "Welcome"
 msgstr "欢迎"
 

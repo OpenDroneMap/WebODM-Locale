@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-08 17:32+0000\n"
+"POT-Creation-Date: 2025-03-12 03:49+0000\n"
 "PO-Revision-Date: 2025-02-27 00:37+0000\n"
 "Last-Translator: Jiří Podhorecký <j.podhorecky@volny.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/webodm/webodm/cs/"
@@ -304,40 +304,40 @@ msgstr "Neplatný uživatel v seznamu oprávnění"
 msgid "Invalid permissions"
 msgstr "Neplatná oprávnění"
 
-#: app/api/tasks.py:233
+#: app/api/tasks.py:237
 msgid "You need to upload at least 1 file before commit"
 msgstr "Před odevzdáním je třeba nahrát alespoň 1 soubor"
 
-#: app/api/tasks.py:255
+#: app/api/tasks.py:259
 msgid "No files uploaded"
 msgstr "Nebyly nahrány žádné soubory"
 
-#: app/api/tasks.py:281
+#: app/api/tasks.py:285
 msgid "Cannot duplicate task"
 msgstr "Nelze duplikovat úlohu"
 
-#: app/api/tasks.py:295
+#: app/api/tasks.py:299
 msgid "Cannot create task, alignment task is not valid"
 msgstr "Nelze vytvořit úlohu, úloha zarovnání není platná"
 
-#: app/api/tasks.py:312
+#: app/api/tasks.py:316
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Nelze vytvořit úlohu, potřebujete alespoň 2 obrázky"
 
-#: app/api/tasks.py:437 app/api/tasks.py:441 app/api/tasks.py:544
-#: app/api/tasks.py:547 app/api/tasks.py:565
+#: app/api/tasks.py:441 app/api/tasks.py:445 app/api/tasks.py:548
+#: app/api/tasks.py:551 app/api/tasks.py:569
 msgid "Asset does not exist"
 msgstr "Asset neexistuje"
 
-#: app/api/tasks.py:583
+#: app/api/tasks.py:587
 msgid "Imported Task"
 msgstr "Importovaná úloha"
 
-#: app/api/tasks.py:586
+#: app/api/tasks.py:590
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Nelze vytvořit úlohu, je třeba nahrát 1 soubor"
 
-#: app/api/tasks.py:589
+#: app/api/tasks.py:593
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "Nelze vytvořit úlohu, zadejte adresu URL nebo nahrajte 1 soubor."
 
@@ -420,7 +420,7 @@ msgid "Plugin name"
 msgstr "Název zásuvného modulu"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:246 app/models/theme.py:18
+#: app/models/task.py:247 app/models/theme.py:18
 msgid "Name"
 msgstr "Název"
 
@@ -498,15 +498,15 @@ msgid "Options that define this preset (same format as in a Task's options)."
 msgstr ""
 "Možnosti definující tuto předvolbu (stejný formát jako v možnostech úlohy)."
 
-#: app/models/preset.py:11 app/models/task.py:252
+#: app/models/preset.py:11 app/models/task.py:253
 msgid "Options"
 msgstr "Možnosti"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:260
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:261
 msgid "Creation date"
 msgstr "Datum vytvoření"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:260
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:261
 msgid "Created at"
 msgstr "Vytvořeno v"
 
@@ -568,16 +568,16 @@ msgstr "Odstranění"
 msgid "Project tags"
 msgstr "Štítky projektu"
 
-#: app/models/project.py:28 app/models/task.py:285
+#: app/models/project.py:28 app/models/task.py:286
 msgid "Tags"
 msgstr "Štítky"
 
-#: app/models/project.py:65 app/models/task.py:442
+#: app/models/project.py:65 app/models/task.py:445
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "Kopie %(task)s"
 
-#: app/models/project.py:90 app/models/task.py:245
+#: app/models/project.py:90 app/models/task.py:246
 msgid "Project"
 msgstr "Projekt"
 
@@ -634,27 +634,27 @@ msgstr "Aplikace"
 msgid "Settings"
 msgstr "Nastavení"
 
-#: app/models/task.py:242
+#: app/models/task.py:243
 msgid "Id"
 msgstr "Id"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "Identifikátor úlohy (vrácený rozhraním NodeODM API)"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid "Project that this task belongs to"
 msgstr "Projekt, ke kterému tento úkol patří"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "A label for the task"
 msgstr "Označení úkolu"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -662,11 +662,11 @@ msgstr ""
 "Počet milisekund, které uplynuly od začátku této úlohy (-1 znamená, že "
 "nejsou k dispozici žádné informace)"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "Processing Time"
 msgstr "Čas zpracování"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -674,11 +674,11 @@ msgstr ""
 "Zpracovatelský uzel přiřazený této úloze (nebo null, pokud tato úloha ještě "
 "nebyla přiřazena)"
 
-#: app/models/task.py:248 app/views/app.py:125 nodeodm/models.py:36
+#: app/models/task.py:249 app/views/app.py:126 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "Zpracovatelský uzel"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
@@ -686,55 +686,55 @@ msgstr ""
 "Příznak určující, zda má být této úloze automaticky přiřazen zpracovatelský "
 "uzel"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Auto Processing Node"
 msgstr "Uzel automatického zpracování"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "Current status of the task"
 msgstr "Aktuální stav úkolu"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "Status"
 msgstr "Status"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid "The last processing error received"
 msgstr "Poslední přijatá chyba zpracování"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid "Last Error"
 msgstr "Poslední chyba"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid "Options that are being used to process this task"
 msgstr "Možnosti, které se používají pro zpracování této úlohy"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid "List of available assets to download"
 msgstr "Seznam dostupných prostředků ke stažení"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid "Available Assets"
 msgstr "Dostupné prostředky"
 
-#: app/models/task.py:255
+#: app/models/task.py:256
 msgid "Extent of the orthophoto"
 msgstr "Rozsah ortofotomapy"
 
-#: app/models/task.py:255
+#: app/models/task.py:256
 msgid "Orthophoto Extent"
 msgstr "Rozsah ortofotomapy"
 
-#: app/models/task.py:256
+#: app/models/task.py:257
 msgid "DSM Extent"
 msgstr "Rozsah DSM"
 
-#: app/models/task.py:257
+#: app/models/task.py:258
 msgid "DTM Extent"
 msgstr "Rozsah DTM"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -742,27 +742,27 @@ msgstr ""
 "Požadovaná akce, která má být provedena v rámci úlohy. Vybranou akci provede "
 "pracovník při příští iteraci."
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid "Pending Action"
 msgstr "Očekávaná akce"
 
-#: app/models/task.py:263
+#: app/models/task.py:264
 msgid "A flag indicating whether this task is available to the public"
 msgstr "Příznak označující, zda je tato úloha dostupná veřejnosti"
 
-#: app/models/task.py:263
+#: app/models/task.py:264
 msgid "Public"
 msgstr "Veřejné"
 
-#: app/models/task.py:264
+#: app/models/task.py:265
 msgid "A flag indicating whether this public task can be edited"
 msgstr "Příznak označující, zda lze tuto veřejnou úlohu upravovat"
 
-#: app/models/task.py:264
+#: app/models/task.py:265
 msgid "Public Edit"
 msgstr "Veřejná úprava"
 
-#: app/models/task.py:266
+#: app/models/task.py:267
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -771,11 +771,11 @@ msgstr ""
 "Je-li nastavena na jinou hodnotu než -1, znamená to, že obrázky pro tuto "
 "úlohu byly / budou před zpracováním zmenšeny na zde zadanou velikost."
 
-#: app/models/task.py:266
+#: app/models/task.py:267
 msgid "Resize To"
 msgstr "Změnit velikost na"
 
-#: app/models/task.py:269
+#: app/models/task.py:270
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
@@ -783,47 +783,47 @@ msgstr ""
 "Hodnota mezi 0 a 1 udávající průběh nahrávání souborů této úlohy do "
 "zpracovatelského uzlu"
 
-#: app/models/task.py:270
+#: app/models/task.py:271
 msgid "Upload Progress"
 msgstr "Pokrok při nahrávání"
 
-#: app/models/task.py:273
+#: app/models/task.py:274
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr "Hodnota mezi 0 a 1 udávající průběh změny velikosti obrázků této úlohy"
 
-#: app/models/task.py:274
+#: app/models/task.py:275
 msgid "Resize Progress"
 msgstr "Průběh změny velikosti"
 
-#: app/models/task.py:277
+#: app/models/task.py:278
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr "Hodnota mezi 0 a 1 udávající průběh (odhadovaný) této úlohy"
 
-#: app/models/task.py:278
+#: app/models/task.py:279
 msgid "Running Progress"
 msgstr "Pokrok při běhu"
 
-#: app/models/task.py:280
+#: app/models/task.py:281
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr ""
 "Adresa URL, ze které je úloha importována (pouze pro importované úlohy)"
 
-#: app/models/task.py:280
+#: app/models/task.py:281
 msgid "Import URL"
 msgstr "Import URL"
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid "Number of images associated with this task"
 msgstr "Počet snímků spojených s tímto úkolem"
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid "Images Count"
 msgstr "Počet obrázků"
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
@@ -831,11 +831,11 @@ msgstr ""
 "Příznak označující, zda tato úloha v současné době čeká na odeslání "
 "informací nebo souborů, než bude zváženo její zpracování."
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid "Partial"
 msgstr "Částečně"
 
-#: app/models/task.py:283
+#: app/models/task.py:284
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
@@ -843,74 +843,84 @@ msgstr ""
 "Serializované informace o scéně potree sloužící k uložení/nahrání měření a "
 "úhlu pohledu kamery"
 
-#: app/models/task.py:283
+#: app/models/task.py:284
 msgid "Potree Scene"
 msgstr "Scéna Potree"
 
-#: app/models/task.py:284
+#: app/models/task.py:285
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "Kód EPSG datové sady (pokud je georeferencovaná)"
 
-#: app/models/task.py:285
+#: app/models/task.py:286
 msgid "Task tags"
 msgstr "Štítky úkolů"
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 msgid "List of orthophoto bands"
 msgstr "Seznam ortofotografických pásem"
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 msgid "Orthophoto Bands"
 msgstr "Pásma ortofotomapy"
 
-#: app/models/task.py:287
+#: app/models/task.py:288
 msgid "Size of the task on disk in megabytes"
 msgstr "Velikost úlohy na disku v megabajtech"
 
-#: app/models/task.py:287
+#: app/models/task.py:288
 msgid "Size"
 msgstr "Velikost"
 
-#: app/models/task.py:290
+#: app/models/task.py:289
+#, fuzzy
+#| msgid "A flag indicating whether this public task can be edited"
+msgid "A flag indicating whether this task was compacted"
+msgstr "Příznak označující, zda lze tuto veřejnou úlohu upravovat"
+
+#: app/models/task.py:289
+msgid "Compact"
+msgstr ""
+
+#: app/models/task.py:293
 msgid "Task"
 msgstr "Úloha"
 
-#: app/models/task.py:291
+#: app/models/task.py:294
 msgid "Tasks"
 msgstr "Úkoly"
 
-#: app/models/task.py:302
+#: app/models/task.py:305
 msgid "unnamed"
 msgstr "nejmenovaný"
 
-#: app/models/task.py:564
+#: app/models/task.py:567
 msgid "Importing assets..."
 msgstr "Importování assetu..."
 
-#: app/models/task.py:616 app/models/task.py:886
+#: app/models/task.py:619 app/models/task.py:897
 msgid "Invalid zip file"
 msgstr "Chybný soubor zip"
 
-#: app/models/task.py:618
+#: app/models/task.py:621
 msgid "Unsupported compression method"
 msgstr "Nepodporovaná metoda komprese"
 
-#: app/models/task.py:712
+#: app/models/task.py:715
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Chyba spojení: %(error)s"
 
-#: app/models/task.py:792
+#: app/models/task.py:795
 msgid "Cannot restart a task that has no processing node"
 msgstr "Nelze restartovat úlohu, která nemá žádný zpracovatelský uzel"
 
-#: app/models/task.py:966
+#: app/models/task.py:977
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "Nepodporovaný SRS %(code)s. Ujistěte se, že jste vybrali podporovaný SRS."
 
-#: app/models/task.py:986
+#: app/models/task.py:997
 msgid "Done!"
 msgstr "Dokončeno!"
 
@@ -1573,7 +1583,7 @@ msgstr "Skupiny"
 msgid "Brand"
 msgstr "Značka"
 
-#: app/templates/app/logged_in_base.html:138 app/views/app.py:115
+#: app/templates/app/logged_in_base.html:138 app/views/app.py:116
 msgid "About"
 msgstr "O software"
 
@@ -1767,20 +1777,20 @@ msgstr "Detekce objektů pomocí AI na ortofotomapách"
 msgid "First Project"
 msgstr "První projekt"
 
-#: app/views/app.py:63 app/views/public.py:28
+#: app/views/app.py:64 app/views/public.py:28
 msgid "Map"
 msgstr "Mapa"
 
-#: app/views/app.py:92
+#: app/views/app.py:93
 msgid "3D Model Display"
 msgstr "Zobrazení 3D modelu"
 
-#: app/views/app.py:121
+#: app/views/app.py:122
 #, python-format
 msgid "%(node)s seems to be offline."
 msgstr "%(node)s se zdá být offline."
 
-#: app/views/app.py:159
+#: app/views/app.py:160
 msgid "Welcome"
 msgstr "Vítejte"
 

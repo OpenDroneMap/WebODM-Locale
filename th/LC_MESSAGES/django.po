@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-08 17:32+0000\n"
+"POT-Creation-Date: 2025-03-12 03:49+0000\n"
 "PO-Revision-Date: 2022-05-15 17:17+0000\n"
 "Last-Translator: Chingchai Humhong <chingchai.h@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/webodm/webodm/th/>\n"
@@ -293,44 +293,44 @@ msgstr ""
 msgid "Invalid permissions"
 msgstr "การกระทำที่ไม่ถูกต้อง"
 
-#: app/api/tasks.py:233
+#: app/api/tasks.py:237
 #, fuzzy
 #| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload at least 1 file before commit"
 msgstr "คุณต้องอัปโหลดรูปภาพอย่างน้อย 2 รูปก่อนส่ง"
 
-#: app/api/tasks.py:255
+#: app/api/tasks.py:259
 msgid "No files uploaded"
 msgstr "ไม่มีไฟล์อัปโหลด"
 
-#: app/api/tasks.py:281
+#: app/api/tasks.py:285
 msgid "Cannot duplicate task"
 msgstr ""
 
-#: app/api/tasks.py:295
+#: app/api/tasks.py:299
 #, fuzzy
 #| msgid "Cannot create task, you need at least 2 images"
 msgid "Cannot create task, alignment task is not valid"
 msgstr "สร้างงานไม่ได้ คุณต้องมีรูปภาพอย่างน้อย 2 รูป"
 
-#: app/api/tasks.py:312
+#: app/api/tasks.py:316
 msgid "Cannot create task, you need at least 2 images"
 msgstr "สร้างงานไม่ได้ คุณต้องมีรูปภาพอย่างน้อย 2 รูป"
 
-#: app/api/tasks.py:437 app/api/tasks.py:441 app/api/tasks.py:544
-#: app/api/tasks.py:547 app/api/tasks.py:565
+#: app/api/tasks.py:441 app/api/tasks.py:445 app/api/tasks.py:548
+#: app/api/tasks.py:551 app/api/tasks.py:569
 msgid "Asset does not exist"
 msgstr "ไม่มีเนื้อหา"
 
-#: app/api/tasks.py:583
+#: app/api/tasks.py:587
 msgid "Imported Task"
 msgstr "งานที่นำเข้า"
 
-#: app/api/tasks.py:586
+#: app/api/tasks.py:590
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "สร้างงานไม่ได้ คุณต้องอัปโหลด 1 ไฟล์"
 
-#: app/api/tasks.py:589
+#: app/api/tasks.py:593
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "สร้างงานไม่ได้ ระบุ URL หรืออัปโหลด 1 ไฟล์"
 
@@ -416,7 +416,7 @@ msgid "Plugin name"
 msgstr "ชื่อปลั๊กอิน"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
-#: app/models/task.py:246 app/models/theme.py:18
+#: app/models/task.py:247 app/models/theme.py:18
 msgid "Name"
 msgstr "ชื่อ"
 
@@ -492,15 +492,15 @@ msgstr "สัญลักษณ์ที่ใช้อธิบายที่
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr "ตัวเลือกที่กำหนดที่ตั้งไว้ก่อนหน้านี้ (รูปแบบเดียวกับในตัวเลือกของงาน)"
 
-#: app/models/preset.py:11 app/models/task.py:252
+#: app/models/preset.py:11 app/models/task.py:253
 msgid "Options"
 msgstr "ตัวเลือก"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:260
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:261
 msgid "Creation date"
 msgstr "วันที่สร้าง"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:260
+#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:261
 msgid "Created at"
 msgstr "สร้างที่"
 
@@ -561,16 +561,16 @@ msgstr "กำลังลบ"
 msgid "Project tags"
 msgstr "โครงการ"
 
-#: app/models/project.py:28 app/models/task.py:285
+#: app/models/project.py:28 app/models/task.py:286
 msgid "Tags"
 msgstr ""
 
-#: app/models/project.py:65 app/models/task.py:442
+#: app/models/project.py:65 app/models/task.py:445
 #, python-format
 msgid "Copy of %(task)s"
 msgstr ""
 
-#: app/models/project.py:90 app/models/task.py:245
+#: app/models/project.py:90 app/models/task.py:246
 msgid "Project"
 msgstr "โครงการ"
 
@@ -627,101 +627,101 @@ msgstr "แอปพลิเคชัน"
 msgid "Settings"
 msgstr "การตั้งค่า"
 
-#: app/models/task.py:242
+#: app/models/task.py:243
 msgid "Id"
 msgstr "ไอดี"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "ตัวระบุของงาน (ตามที่ส่งคืนโดย NodeODM API)"
 
-#: app/models/task.py:244
+#: app/models/task.py:245
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:245
+#: app/models/task.py:246
 msgid "Project that this task belongs to"
 msgstr "โครงการที่งานนี้เป็นของ"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "A label for the task"
 msgstr "สัญลักษณ์สำหรับงาน"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr "จำนวนมิลลิวินาทีที่ผ่านไปตั้งแต่เริ่มต้นงานนี้ (-1 บ่งชี้ว่าไม่มีข้อมูล)"
 
-#: app/models/task.py:247
+#: app/models/task.py:248
 msgid "Processing Time"
 msgstr "ระยะเวลาดำเนินการ"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr "โหนดการประมวลผลที่กำหนดให้กับงานนี้ (หรือเป็นโมฆะหากยังไม่ได้เชื่อมโยงงานนี้)"
 
-#: app/models/task.py:248 app/views/app.py:125 nodeodm/models.py:36
+#: app/models/task.py:249 app/views/app.py:126 nodeodm/models.py:36
 msgid "Processing Node"
 msgstr "Processing Node"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr "แฟล็กที่ระบุว่างานนี้ควรถูกกำหนดให้โหนดประมวลผลโดยอัตโนมัติหรือไม่"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Auto Processing Node"
 msgstr "โหนดประมวลผลอัตโนมัติ"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "Current status of the task"
 msgstr "สถานะปัจจุบันของงาน"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "Status"
 msgstr "สถานะ"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid "The last processing error received"
 msgstr "ได้รับข้อผิดพลาดในการประมวลผลล่าสุด"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid "Last Error"
 msgstr "ข้อผิดพลาดล่าสุด"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid "Options that are being used to process this task"
 msgstr "ตัวเลือกที่ใช้ในการประมวลผลงานนี้"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid "List of available assets to download"
 msgstr "รายการทรัพย์สินที่มีให้ดาวน์โหลด"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid "Available Assets"
 msgstr "ทรัพย์สินที่มีอยู่"
 
-#: app/models/task.py:255
+#: app/models/task.py:256
 msgid "Extent of the orthophoto"
 msgstr "ขอบเขตของออร์โธโฟโต้"
 
-#: app/models/task.py:255
+#: app/models/task.py:256
 msgid "Orthophoto Extent"
 msgstr "ขอบเขตออร์โธโฟโต้"
 
-#: app/models/task.py:256
+#: app/models/task.py:257
 msgid "DSM Extent"
 msgstr "ขอบเขต DSM"
 
-#: app/models/task.py:257
+#: app/models/task.py:258
 msgid "DTM Extent"
 msgstr "ขอบเขต DTM"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -729,31 +729,31 @@ msgstr ""
 "การดำเนินการที่ร้องขอให้ดำเนินการกับงาน "
 "การดำเนินการที่เลือกจะดำเนินการโดยผู้ปฏิบัติงานในการทำซ้ำครั้งต่อไป"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid "Pending Action"
 msgstr "อยู่ระหว่างดำเนินการ"
 
-#: app/models/task.py:263
+#: app/models/task.py:264
 msgid "A flag indicating whether this task is available to the public"
 msgstr "A flag ที่ระบุว่างานนี้เปิดเผยต่อสาธารณะหรือไม่"
 
-#: app/models/task.py:263
+#: app/models/task.py:264
 msgid "Public"
 msgstr "สาธารณะ"
 
-#: app/models/task.py:264
+#: app/models/task.py:265
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this public task can be edited"
 msgstr "A flag ที่ระบุว่างานนี้เปิดเผยต่อสาธารณะหรือไม่"
 
-#: app/models/task.py:264
+#: app/models/task.py:265
 #, fuzzy
 #| msgid "Public"
 msgid "Public Edit"
 msgstr "สาธารณะ"
 
-#: app/models/task.py:266
+#: app/models/task.py:267
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -762,145 +762,155 @@ msgstr ""
 "เมื่อตั้งค่าเป็นค่าที่แตกต่างจาก -1 "
 "แสดงว่ารูปภาพสำหรับงานนี้จะถูกปรับขนาดเป็นขนาดที่ระบุก่อนการดำเนินการ"
 
-#: app/models/task.py:266
+#: app/models/task.py:267
 msgid "Resize To"
 msgstr "ปรับขนาดเป็น"
 
-#: app/models/task.py:269
+#: app/models/task.py:270
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr "ค่าระหว่าง 0 ถึง 1 ระบุความคืบหน้าในการอัปโหลดไฟล์ของงานนี้ไปยังโหนดการประมวลผล"
 
-#: app/models/task.py:270
+#: app/models/task.py:271
 msgid "Upload Progress"
 msgstr "ความคืบหน้าในการอัปโหลด"
 
-#: app/models/task.py:273
+#: app/models/task.py:274
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr "ค่าระหว่าง 0 ถึง 1 ระบุความคืบหน้าของการปรับขนาดภาพของงานนี้"
 
-#: app/models/task.py:274
+#: app/models/task.py:275
 msgid "Resize Progress"
 msgstr "ความคืบหน้าในการปรับขนาด"
 
-#: app/models/task.py:277
+#: app/models/task.py:278
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr "ค่าระหว่าง 0 ถึง 1 ระบุความคืบหน้าในการทำงาน (โดยประมาณ) ของงานนี้"
 
-#: app/models/task.py:278
+#: app/models/task.py:279
 msgid "Running Progress"
 msgstr "ความคืบหน้าในการทำงาน"
 
-#: app/models/task.py:280
+#: app/models/task.py:281
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "URL งานนี้นำเข้าจาก (สำหรับงานที่นำเข้าเท่านั้น)"
 
-#: app/models/task.py:280
+#: app/models/task.py:281
 msgid "Import URL"
 msgstr "นำเข้า URL"
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid "Number of images associated with this task"
 msgstr "จำนวนรูปภาพที่เกี่ยวข้องกับงานนี้"
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid "Images Count"
 msgstr "จำนวนภาพ"
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr "แฟล็กที่ระบุว่าขณะนี้งานนี้กำลังรอข้อมูลหรือไฟล์ที่จะอัปโหลดก่อนที่จะถูกพิจารณาสำหรับการประมวลผล"
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid "Partial"
 msgstr "บางส่วน"
 
-#: app/models/task.py:283
+#: app/models/task.py:284
 #, fuzzy
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr "ความต่อเนื่องของข้อมูลภาพ potree ใช้ในการบันทึก/โหลด การวัดและมุมมองกล้อง"
 
-#: app/models/task.py:283
+#: app/models/task.py:284
 msgid "Potree Scene"
 msgstr "ภาพ Potree"
 
-#: app/models/task.py:284
+#: app/models/task.py:285
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr ""
 
-#: app/models/task.py:285
+#: app/models/task.py:286
 #, fuzzy
 #| msgid "Tasks"
 msgid "Task tags"
 msgstr "งาน"
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "List of orthophoto bands"
 msgstr "ขอบเขตของออร์โธโฟโต้"
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 #, fuzzy
 #| msgid "Orthophoto Extent"
 msgid "Orthophoto Bands"
 msgstr "ขอบเขตออร์โธโฟโต้"
 
-#: app/models/task.py:287
+#: app/models/task.py:288
 msgid "Size of the task on disk in megabytes"
 msgstr ""
 
-#: app/models/task.py:287
+#: app/models/task.py:288
 msgid "Size"
 msgstr ""
 
-#: app/models/task.py:290
+#: app/models/task.py:289
+#, fuzzy
+#| msgid "A flag indicating whether this task is available to the public"
+msgid "A flag indicating whether this task was compacted"
+msgstr "A flag ที่ระบุว่างานนี้เปิดเผยต่อสาธารณะหรือไม่"
+
+#: app/models/task.py:289
+msgid "Compact"
+msgstr ""
+
+#: app/models/task.py:293
 msgid "Task"
 msgstr "งาน"
 
-#: app/models/task.py:291
+#: app/models/task.py:294
 msgid "Tasks"
 msgstr "งาน"
 
-#: app/models/task.py:302
+#: app/models/task.py:305
 msgid "unnamed"
 msgstr "ไม่มีชื่อ"
 
-#: app/models/task.py:564
+#: app/models/task.py:567
 msgid "Importing assets..."
 msgstr "กำลังนำเข้าเนื้อหา..."
 
-#: app/models/task.py:616 app/models/task.py:886
+#: app/models/task.py:619 app/models/task.py:897
 msgid "Invalid zip file"
 msgstr "ไฟล์ zip ไม่ถูกต้อง"
 
-#: app/models/task.py:618
+#: app/models/task.py:621
 msgid "Unsupported compression method"
 msgstr ""
 
-#: app/models/task.py:712
+#: app/models/task.py:715
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "ข้อผิดพลาดในการเชื่อมต่อ: %(error)s"
 
-#: app/models/task.py:792
+#: app/models/task.py:795
 msgid "Cannot restart a task that has no processing node"
 msgstr "ไม่สามารถรีสตาร์ทงานที่ไม่มีโหนดการประมวลผล"
 
-#: app/models/task.py:966
+#: app/models/task.py:977
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "ไม่รองรับ SRS %(code)s โปรดตรวจสอบให้แน่ใจว่าคุณได้เลือก SRS ที่รองรับ"
 
-#: app/models/task.py:986
+#: app/models/task.py:997
 msgid "Done!"
 msgstr "เสร็จ!"
 
@@ -1554,7 +1564,7 @@ msgstr "กลุ่ม"
 msgid "Brand"
 msgstr "แบรนด์"
 
-#: app/templates/app/logged_in_base.html:138 app/views/app.py:115
+#: app/templates/app/logged_in_base.html:138 app/views/app.py:116
 msgid "About"
 msgstr "เกี่ยวกับ"
 
@@ -1744,20 +1754,20 @@ msgstr ""
 msgid "First Project"
 msgstr "โปรเจคแรก"
 
-#: app/views/app.py:63 app/views/public.py:28
+#: app/views/app.py:64 app/views/public.py:28
 msgid "Map"
 msgstr "แผนที่"
 
-#: app/views/app.py:92
+#: app/views/app.py:93
 msgid "3D Model Display"
 msgstr "การแสดงโมเดล 3 มิติ"
 
-#: app/views/app.py:121
+#: app/views/app.py:122
 #, python-format
 msgid "%(node)s seems to be offline."
 msgstr ""
 
-#: app/views/app.py:159
+#: app/views/app.py:160
 msgid "Welcome"
 msgstr "ยินดีต้อนรับ"
 
