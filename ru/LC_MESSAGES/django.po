@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-12 03:49+0000\n"
+"POT-Creation-Date: 2025-03-21 19:41+0000\n"
 "PO-Revision-Date: 2025-02-21 17:50+0000\n"
 "Last-Translator: Александр Ващенко <sascha93rus@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/webodm/webodm/ru/"
@@ -65,7 +65,7 @@ msgstr ""
 msgid "HTML (footer)"
 msgstr "HTML (нижний колонтитул)"
 
-#: app/admin.py:115 app/models/project.py:25
+#: app/admin.py:115 app/models/project.py:26
 msgid "Description"
 msgstr "Описание"
 
@@ -337,93 +337,93 @@ msgstr "Не удается создать задачу, задача вырав
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Невозможно создать задачу, требуется минимум 2 изображения"
 
-#: app/api/tasks.py:441 app/api/tasks.py:445 app/api/tasks.py:548
-#: app/api/tasks.py:551 app/api/tasks.py:569
+#: app/api/tasks.py:440 app/api/tasks.py:444 app/api/tasks.py:547
+#: app/api/tasks.py:550 app/api/tasks.py:568
 msgid "Asset does not exist"
 msgstr "Набор данных отсутствует"
 
-#: app/api/tasks.py:587
+#: app/api/tasks.py:586
 msgid "Imported Task"
 msgstr "Импортированная задача"
 
-#: app/api/tasks.py:590
+#: app/api/tasks.py:589
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Невозможно создать задачу, требуется загрузить минимум 1 файл"
 
-#: app/api/tasks.py:593
+#: app/api/tasks.py:592
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "Невозможно создать задачу, укажите URL-адрес или загрузите 1 файл."
 
-#: app/api/tiler.py:307
+#: app/api/tiler.py:313
 msgid "Invalid boundaries parameter"
 msgstr "Недопустимый параметр границ"
 
-#: app/api/tiler.py:326
+#: app/api/tiler.py:332
 msgid "Invalid tile size parameter"
 msgstr "Недопустимый параметр размера плитки"
 
-#: app/api/tiler.py:356 app/api/tiler.py:428
+#: app/api/tiler.py:362 app/api/tiler.py:434
 msgid "Outside of bounds"
 msgstr "За пределами границ"
 
-#: app/api/tiler.py:366
+#: app/api/tiler.py:372
 msgid "Invalid boundaries"
 msgstr "Недопустимые границы"
 
-#: app/api/tiler.py:434 app/api/tiler.py:555
+#: app/api/tiler.py:440 app/api/tiler.py:561
 msgid "Not a valid color_map value"
 msgstr "Недопустимое значение color_map"
 
-#: app/api/tiler.py:440
+#: app/api/tiler.py:446
 msgid "Invalid rescale value"
 msgstr "Недопустимое значение масштабирования"
 
-#: app/api/tiler.py:462
+#: app/api/tiler.py:468
 msgid "Invalid hillshade value"
 msgstr "Недопустимое значение затенения"
 
-#: app/api/tiler.py:465
+#: app/api/tiler.py:471
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 "Не удается вычислить оттенок затенения без высоты (найдено несколько полос)"
 
-#: app/api/tiler.py:489
+#: app/api/tiler.py:495
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 "Не удается обработать плитку: предоставлено изображение интенсивности, но "
 "данные RGB не были вычислены."
 
-#: app/api/tiler.py:540 app/api/tiler.py:542
+#: app/api/tiler.py:546 app/api/tiler.py:548
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "Неподдерживаемый формат: %(value)s"
 
-#: app/api/tiler.py:561
+#: app/api/tiler.py:567
 #, python-format
 msgid "Invalid resample value: %(value)s"
 msgstr "Недопустимое значение повторной выборки: %(value)s"
 
-#: app/api/tiler.py:567
+#: app/api/tiler.py:573
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "Недопустимый код EPSG: %(value)s"
 
-#: app/api/tiler.py:570
+#: app/api/tiler.py:576
 msgid "Both formula and bands parameters are required"
 msgstr "Требуются как формула, так и параметры диапазонов"
 
-#: app/api/tiler.py:593
+#: app/api/tiler.py:599
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "Недопустимое значение масштабирования: %(value)s"
 
-#: app/api/tiler.py:601
+#: app/api/tiler.py:607
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "Недопустимое значение затенения: %(value)s"
 
-#: app/api/tiler.py:612
+#: app/api/tiler.py:618
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr ""
 "Невозможно использовать epsg для набора данных без географической привязки"
@@ -432,7 +432,7 @@ msgstr ""
 msgid "Plugin name"
 msgstr "Название плагина"
 
-#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
+#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:25
 #: app/models/task.py:247 app/models/theme.py:18
 msgid "Name"
 msgstr "Имя"
@@ -499,7 +499,7 @@ msgstr "Данные плагинов"
 msgid "The person who owns this preset"
 msgstr "Пользователь, которому принадлежит этот пресет"
 
-#: app/models/preset.py:9 app/models/project.py:23
+#: app/models/preset.py:9 app/models/project.py:24
 msgid "Owner"
 msgstr "Владелец"
 
@@ -517,11 +517,11 @@ msgstr ""
 msgid "Options"
 msgstr "Опции"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:261
+#: app/models/preset.py:13 app/models/project.py:27 app/models/task.py:261
 msgid "Creation date"
 msgstr "Дата создания"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:261
+#: app/models/preset.py:13 app/models/project.py:27 app/models/task.py:261
 msgid "Created at"
 msgstr "Создано в"
 
@@ -553,19 +553,19 @@ msgstr "Максимальная дисковая квота в мегабайт
 msgid "Quota"
 msgstr "Квота"
 
-#: app/models/project.py:23
+#: app/models/project.py:24
 msgid "The person who created the project"
 msgstr "Человек, создавший проект"
 
-#: app/models/project.py:24
+#: app/models/project.py:25
 msgid "A label used to describe the project"
 msgstr "Метка, используемая для описания проекта"
 
-#: app/models/project.py:25
+#: app/models/project.py:26
 msgid "More in-depth description of the project"
 msgstr "Более подробное описание проекта"
 
-#: app/models/project.py:27
+#: app/models/project.py:28
 msgid ""
 "Whether this project has been marked for deletion. Projects that have "
 "running tasks need to wait for tasks to be properly cleaned up before they "
@@ -574,28 +574,60 @@ msgstr ""
 "Помечен ли этот проект для удаления? Проекты, у которых есть действующие "
 "задачи, должны быть завершены перед тем, как вы сможете удалить их."
 
-#: app/models/project.py:27
+#: app/models/project.py:28
 msgid "Deleting"
 msgstr "Удаление"
 
-#: app/models/project.py:28
+#: app/models/project.py:29
 msgid "Project tags"
 msgstr "Теги проекта"
 
-#: app/models/project.py:28 app/models/task.py:286
+#: app/models/project.py:29 app/models/task.py:286
 msgid "Tags"
 msgstr "Теги"
 
-#: app/models/project.py:65 app/models/task.py:445
+#: app/models/project.py:30
+#, fuzzy
+#| msgid "A flag indicating whether this task is available to the public"
+msgid "A flag indicating whether this project is available to the public"
+msgstr "Флаг, указывающий, является ли эта задача доступной в общем доступе"
+
+#: app/models/project.py:30 app/models/task.py:264
+msgid "Public"
+msgstr "Публичный"
+
+#: app/models/project.py:31
+#, fuzzy
+#| msgid "A flag indicating whether this public task can be edited"
+msgid "A flag indicating whether this public project can be edited"
+msgstr "Флаг, указывающий, можно ли редактировать эту общедоступную задачу"
+
+#: app/models/project.py:31 app/models/task.py:265
+msgid "Public Edit"
+msgstr "Публичное редактирование"
+
+#: app/models/project.py:32
+#, fuzzy
+#| msgid "More in-depth description of the project"
+msgid "Public identifier of the project"
+msgstr "Более подробное описание проекта"
+
+#: app/models/project.py:32
+#, fuzzy
+#| msgid "Public Edit"
+msgid "Public Id"
+msgstr "Публичное редактирование"
+
+#: app/models/project.py:78 app/models/task.py:445
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "Копия %(task)s"
 
-#: app/models/project.py:90 app/models/task.py:246
+#: app/models/project.py:108 app/models/task.py:246
 msgid "Project"
 msgstr "Проект"
 
-#: app/models/project.py:91 coreplugins/projects-charts/templates/index.html:7
+#: app/models/project.py:109 coreplugins/projects-charts/templates/index.html:7
 msgid "Projects"
 msgstr "Проекты"
 
@@ -687,7 +719,7 @@ msgid ""
 msgstr ""
 "Узел обработки, назначенный для этой задачи (или null, если узел не назначен)"
 
-#: app/models/task.py:249 app/views/app.py:126 nodeodm/models.py:36
+#: app/models/task.py:249 app/views/app.py:129 nodeodm/models.py:37
 msgid "Processing Node"
 msgstr "Узел обработки"
 
@@ -763,17 +795,9 @@ msgstr "Ожидаемые действия"
 msgid "A flag indicating whether this task is available to the public"
 msgstr "Флаг, указывающий, является ли эта задача доступной в общем доступе"
 
-#: app/models/task.py:264
-msgid "Public"
-msgstr "Публичный"
-
 #: app/models/task.py:265
 msgid "A flag indicating whether this public task can be edited"
 msgstr "Флаг, указывающий, можно ли редактировать эту общедоступную задачу"
-
-#: app/models/task.py:265
-msgid "Public Edit"
-msgstr "Публичное редактирование"
 
 #: app/models/task.py:267
 msgid ""
@@ -912,35 +936,35 @@ msgstr "Задачи"
 msgid "unnamed"
 msgstr "безымянный"
 
-#: app/models/task.py:567
+#: app/models/task.py:575
 msgid "Importing assets..."
 msgstr "Импортирование наборов данных..."
 
-#: app/models/task.py:619 app/models/task.py:897
+#: app/models/task.py:627 app/models/task.py:905
 msgid "Invalid zip file"
 msgstr "Неверный zip файл"
 
-#: app/models/task.py:621
+#: app/models/task.py:629
 msgid "Unsupported compression method"
 msgstr "Неподдерживаемый способ сжатия"
 
-#: app/models/task.py:715
+#: app/models/task.py:723
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Ошибка соединения: %(error)s"
 
-#: app/models/task.py:795
+#: app/models/task.py:803
 msgid "Cannot restart a task that has no processing node"
 msgstr "Невозможно перезапустить задачу, у которой нет узла обработки"
 
-#: app/models/task.py:977
+#: app/models/task.py:985
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "Неподдерживаемый SRS %(code)s. Пожалуйста, убедитесь, что выбрали "
 "поддерживаемый SRS файл."
 
-#: app/models/task.py:997
+#: app/models/task.py:1005
 msgid "Done!"
 msgstr "Готово!"
 
@@ -1585,7 +1609,7 @@ msgstr "Выйти"
 msgid "Dashboard"
 msgstr "Панель управления"
 
-#: app/templates/app/logged_in_base.html:83 nodeodm/models.py:37
+#: app/templates/app/logged_in_base.html:83 nodeodm/models.py:38
 msgid "Processing Nodes"
 msgstr "Обрабатывающие узлы"
 
@@ -1609,31 +1633,31 @@ msgstr "Группы"
 msgid "Brand"
 msgstr "Бренд"
 
-#: app/templates/app/logged_in_base.html:138 app/views/app.py:116
+#: app/templates/app/logged_in_base.html:138 app/views/app.py:119
 msgid "About"
 msgstr "О программе"
 
-#: app/templates/app/processing_node.html:11 nodeodm/models.py:23
+#: app/templates/app/processing_node.html:11 nodeodm/models.py:24
 msgid "Hostname"
 msgstr "Имя хоста"
 
-#: app/templates/app/processing_node.html:15 nodeodm/models.py:24
+#: app/templates/app/processing_node.html:15 nodeodm/models.py:25
 msgid "Port"
 msgstr "Порт"
 
-#: app/templates/app/processing_node.html:19 nodeodm/models.py:25
+#: app/templates/app/processing_node.html:19 nodeodm/models.py:26
 msgid "API Version"
 msgstr "Версия API"
 
-#: app/templates/app/processing_node.html:23 nodeodm/models.py:33
+#: app/templates/app/processing_node.html:23 nodeodm/models.py:34
 msgid "Engine"
 msgstr "Движок"
 
-#: app/templates/app/processing_node.html:27 nodeodm/models.py:31
+#: app/templates/app/processing_node.html:27 nodeodm/models.py:32
 msgid "Engine Version"
 msgstr "Версия движка"
 
-#: app/templates/app/processing_node.html:31 nodeodm/models.py:27
+#: app/templates/app/processing_node.html:31 nodeodm/models.py:28
 msgid "Queue Count"
 msgstr "Количество очередей"
 
@@ -1641,11 +1665,11 @@ msgstr "Количество очередей"
 msgid "Max Images Limit"
 msgstr "Максимальный лимит изображений"
 
-#: app/templates/app/processing_node.html:39 nodeodm/models.py:32
+#: app/templates/app/processing_node.html:39 nodeodm/models.py:33
 msgid "Label"
 msgstr "Метка"
 
-#: app/templates/app/processing_node.html:43 nodeodm/models.py:26
+#: app/templates/app/processing_node.html:43 nodeodm/models.py:27
 msgid "Last Refreshed"
 msgstr "Последнее обновление"
 
@@ -1810,20 +1834,20 @@ msgstr "Обнаружение объектов с помощью ИИ на ор
 msgid "First Project"
 msgstr "Первый проект"
 
-#: app/views/app.py:64 app/views/public.py:28
+#: app/views/app.py:64
 msgid "Map"
 msgstr "Карта"
 
-#: app/views/app.py:93
+#: app/views/app.py:96
 msgid "3D Model Display"
 msgstr "Отображение 3D-модели"
 
-#: app/views/app.py:122
+#: app/views/app.py:125
 #, python-format
 msgid "%(node)s seems to be offline."
 msgstr "%(node)s, похоже, находится не в сети."
 
-#: app/views/app.py:160
+#: app/views/app.py:163
 msgid "Welcome"
 msgstr "Добро пожаловать"
 
@@ -2014,7 +2038,7 @@ msgstr "Уведомление о задачах"
 msgid "Node Management"
 msgstr "Управление узлами"
 
-#: nodeodm/models.py:23
+#: nodeodm/models.py:24
 msgid ""
 "Hostname or IP address where the node is located (can be an internal "
 "hostname as well). If you are using Docker, this is never 127.0.0.1 or "
@@ -2026,19 +2050,19 @@ msgstr ""
 "127.0.0.1 или localhost. Найдите IP-адрес вашего хост-компьютера, запустив "
 "ifconfig в Linux или проверив настройки сети."
 
-#: nodeodm/models.py:24
+#: nodeodm/models.py:25
 msgid "Port that connects to the node's API"
 msgstr "Порт, который подключается к API узла"
 
-#: nodeodm/models.py:25
+#: nodeodm/models.py:26
 msgid "API version used by the node"
 msgstr "Версия API, используемая узлом"
 
-#: nodeodm/models.py:26
+#: nodeodm/models.py:27
 msgid "When was the information about this node last retrieved?"
 msgstr "Когда в последний раз была получена информация об этом узле?"
 
-#: nodeodm/models.py:27
+#: nodeodm/models.py:28
 msgid ""
 "Number of tasks currently being processed by this node (as reported by the "
 "node itself)"
@@ -2046,19 +2070,19 @@ msgstr ""
 "Количество задач, обрабатываемых в данный момент этим узлом (как сообщает "
 "сам узел)"
 
-#: nodeodm/models.py:28
+#: nodeodm/models.py:29
 msgid "Available Options"
 msgstr "Доступные опции"
 
-#: nodeodm/models.py:28
+#: nodeodm/models.py:29
 msgid "Description of the options that can be used for processing"
 msgstr "Описание опций, которые могут быть использованы для обработки"
 
-#: nodeodm/models.py:29
+#: nodeodm/models.py:30
 msgid "Token"
 msgstr "Токен"
 
-#: nodeodm/models.py:29
+#: nodeodm/models.py:30
 msgid ""
 "Token to use for authentication. If the node doesn't have authentication, "
 "you can leave this field blank."
@@ -2066,19 +2090,19 @@ msgstr ""
 "Токен, используемый для аутентификации. Если у узла нет аутентификации, вы "
 "можете оставить это поле пустым."
 
-#: nodeodm/models.py:30
+#: nodeodm/models.py:31
 msgid "Max Images"
 msgstr "Максимум изображений"
 
-#: nodeodm/models.py:30
+#: nodeodm/models.py:31
 msgid "Maximum number of images accepted by this node."
 msgstr "Максимальное количество изображений, принимаемых этим узлом."
 
-#: nodeodm/models.py:31
+#: nodeodm/models.py:32
 msgid "Engine version used by the node."
 msgstr "Версия движка, используемая узлом."
 
-#: nodeodm/models.py:32
+#: nodeodm/models.py:33
 msgid ""
 "Optional label for this node. When set, this label will be shown instead of "
 "the hostname:port name."
@@ -2086,7 +2110,7 @@ msgstr ""
 "Необязательная метка для этого узла. При установке эта метка будет "
 "отображаться вместо хост:порт."
 
-#: nodeodm/models.py:33
+#: nodeodm/models.py:34
 msgid "Engine used by the node."
 msgstr "Движок, используемый узлом."
 

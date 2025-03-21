@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-12 03:49+0000\n"
+"POT-Creation-Date: 2025-03-21 19:41+0000\n"
 "PO-Revision-Date: 2022-05-15 17:17+0000\n"
 "Last-Translator: Chingchai Humhong <chingchai.h@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/webodm/webodm/th/>\n"
@@ -61,7 +61,7 @@ msgstr "HTML ที่จะแสดงในส่วนท้าย คุณ
 msgid "HTML (footer)"
 msgstr "HTML (ส่วนท้าย)"
 
-#: app/admin.py:115 app/models/project.py:25
+#: app/admin.py:115 app/models/project.py:26
 msgid "Description"
 msgstr "คำอธิบาย"
 
@@ -317,97 +317,97 @@ msgstr "สร้างงานไม่ได้ คุณต้องมี�
 msgid "Cannot create task, you need at least 2 images"
 msgstr "สร้างงานไม่ได้ คุณต้องมีรูปภาพอย่างน้อย 2 รูป"
 
-#: app/api/tasks.py:441 app/api/tasks.py:445 app/api/tasks.py:548
-#: app/api/tasks.py:551 app/api/tasks.py:569
+#: app/api/tasks.py:440 app/api/tasks.py:444 app/api/tasks.py:547
+#: app/api/tasks.py:550 app/api/tasks.py:568
 msgid "Asset does not exist"
 msgstr "ไม่มีเนื้อหา"
 
-#: app/api/tasks.py:587
+#: app/api/tasks.py:586
 msgid "Imported Task"
 msgstr "งานที่นำเข้า"
 
-#: app/api/tasks.py:590
+#: app/api/tasks.py:589
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "สร้างงานไม่ได้ คุณต้องอัปโหลด 1 ไฟล์"
 
-#: app/api/tasks.py:593
+#: app/api/tasks.py:592
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "สร้างงานไม่ได้ ระบุ URL หรืออัปโหลด 1 ไฟล์"
 
-#: app/api/tiler.py:307
+#: app/api/tiler.py:313
 msgid "Invalid boundaries parameter"
 msgstr ""
 
-#: app/api/tiler.py:326
+#: app/api/tiler.py:332
 #, fuzzy
 #| msgid "Invalid zip file"
 msgid "Invalid tile size parameter"
 msgstr "ไฟล์ zip ไม่ถูกต้อง"
 
-#: app/api/tiler.py:356 app/api/tiler.py:428
+#: app/api/tiler.py:362 app/api/tiler.py:434
 msgid "Outside of bounds"
 msgstr ""
 
-#: app/api/tiler.py:366
+#: app/api/tiler.py:372
 #, fuzzy
 #| msgid "Invalid action"
 msgid "Invalid boundaries"
 msgstr "การกระทำที่ไม่ถูกต้อง"
 
-#: app/api/tiler.py:434 app/api/tiler.py:555
+#: app/api/tiler.py:440 app/api/tiler.py:561
 msgid "Not a valid color_map value"
 msgstr ""
 
-#: app/api/tiler.py:440
+#: app/api/tiler.py:446
 msgid "Invalid rescale value"
 msgstr ""
 
-#: app/api/tiler.py:462
+#: app/api/tiler.py:468
 #, fuzzy
 #| msgid "Invalid zip file"
 msgid "Invalid hillshade value"
 msgstr "ไฟล์ zip ไม่ถูกต้อง"
 
-#: app/api/tiler.py:465
+#: app/api/tiler.py:471
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 
-#: app/api/tiler.py:489
+#: app/api/tiler.py:495
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 
-#: app/api/tiler.py:540 app/api/tiler.py:542
+#: app/api/tiler.py:546 app/api/tiler.py:548
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:561
+#: app/api/tiler.py:567
 #, fuzzy, python-format
 #| msgid "Invalid zip file"
 msgid "Invalid resample value: %(value)s"
 msgstr "ไฟล์ zip ไม่ถูกต้อง"
 
-#: app/api/tiler.py:567
+#: app/api/tiler.py:573
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:570
+#: app/api/tiler.py:576
 msgid "Both formula and bands parameters are required"
 msgstr ""
 
-#: app/api/tiler.py:593
+#: app/api/tiler.py:599
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:601
+#: app/api/tiler.py:607
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:612
+#: app/api/tiler.py:618
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr ""
 
@@ -415,7 +415,7 @@ msgstr ""
 msgid "Plugin name"
 msgstr "ชื่อปลั๊กอิน"
 
-#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:24
+#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:25
 #: app/models/task.py:247 app/models/theme.py:18
 msgid "Name"
 msgstr "ชื่อ"
@@ -480,7 +480,7 @@ msgstr "ข้อมูลโปรแกรมเสริม"
 msgid "The person who owns this preset"
 msgstr "ผู้ที่เป็นเจ้าของที่ตั้งค่าไว้ก่อนหน้านี้"
 
-#: app/models/preset.py:9 app/models/project.py:23
+#: app/models/preset.py:9 app/models/project.py:24
 msgid "Owner"
 msgstr "เจ้าของ"
 
@@ -496,11 +496,11 @@ msgstr "ตัวเลือกที่กำหนดที่ตั้งไ
 msgid "Options"
 msgstr "ตัวเลือก"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:261
+#: app/models/preset.py:13 app/models/project.py:27 app/models/task.py:261
 msgid "Creation date"
 msgstr "วันที่สร้าง"
 
-#: app/models/preset.py:13 app/models/project.py:26 app/models/task.py:261
+#: app/models/preset.py:13 app/models/project.py:27 app/models/task.py:261
 msgid "Created at"
 msgstr "สร้างที่"
 
@@ -530,19 +530,19 @@ msgstr ""
 msgid "Quota"
 msgstr ""
 
-#: app/models/project.py:23
+#: app/models/project.py:24
 msgid "The person who created the project"
 msgstr "ผู้สร้างโครงการ"
 
-#: app/models/project.py:24
+#: app/models/project.py:25
 msgid "A label used to describe the project"
 msgstr "สัญลักษณ์ที่ใช้อธิบายโครงการ"
 
-#: app/models/project.py:25
+#: app/models/project.py:26
 msgid "More in-depth description of the project"
 msgstr "คำอธิบายเชิงลึกเพิ่มเติมของโครงการ"
 
-#: app/models/project.py:27
+#: app/models/project.py:28
 msgid ""
 "Whether this project has been marked for deletion. Projects that have "
 "running tasks need to wait for tasks to be properly cleaned up before they "
@@ -551,30 +551,64 @@ msgstr ""
 "ระบุว่าโปรเจ็กต์นี้ถูกทำเครื่องหมายเพื่อลบหรือไม่ "
 "โปรเจ็กต์ที่มีงานดำเนินการอยู่ต้องรอให้เคลียร์งานอย่างถูกต้องก่อนจึงจะสามารถลบออกได้"
 
-#: app/models/project.py:27
+#: app/models/project.py:28
 msgid "Deleting"
 msgstr "กำลังลบ"
 
-#: app/models/project.py:28
+#: app/models/project.py:29
 #, fuzzy
 #| msgid "Projects"
 msgid "Project tags"
 msgstr "โครงการ"
 
-#: app/models/project.py:28 app/models/task.py:286
+#: app/models/project.py:29 app/models/task.py:286
 msgid "Tags"
 msgstr ""
 
-#: app/models/project.py:65 app/models/task.py:445
+#: app/models/project.py:30
+#, fuzzy
+#| msgid "A flag indicating whether this task is available to the public"
+msgid "A flag indicating whether this project is available to the public"
+msgstr "A flag ที่ระบุว่างานนี้เปิดเผยต่อสาธารณะหรือไม่"
+
+#: app/models/project.py:30 app/models/task.py:264
+msgid "Public"
+msgstr "สาธารณะ"
+
+#: app/models/project.py:31
+#, fuzzy
+#| msgid "A flag indicating whether this task is available to the public"
+msgid "A flag indicating whether this public project can be edited"
+msgstr "A flag ที่ระบุว่างานนี้เปิดเผยต่อสาธารณะหรือไม่"
+
+#: app/models/project.py:31 app/models/task.py:265
+#, fuzzy
+#| msgid "Public"
+msgid "Public Edit"
+msgstr "สาธารณะ"
+
+#: app/models/project.py:32
+#, fuzzy
+#| msgid "More in-depth description of the project"
+msgid "Public identifier of the project"
+msgstr "คำอธิบายเชิงลึกเพิ่มเติมของโครงการ"
+
+#: app/models/project.py:32
+#, fuzzy
+#| msgid "Public"
+msgid "Public Id"
+msgstr "สาธารณะ"
+
+#: app/models/project.py:78 app/models/task.py:445
 #, python-format
 msgid "Copy of %(task)s"
 msgstr ""
 
-#: app/models/project.py:90 app/models/task.py:246
+#: app/models/project.py:108 app/models/task.py:246
 msgid "Project"
 msgstr "โครงการ"
 
-#: app/models/project.py:91 coreplugins/projects-charts/templates/index.html:7
+#: app/models/project.py:109 coreplugins/projects-charts/templates/index.html:7
 msgid "Projects"
 msgstr "โครงการ"
 
@@ -663,7 +697,7 @@ msgid ""
 "associated yet)"
 msgstr "โหนดการประมวลผลที่กำหนดให้กับงานนี้ (หรือเป็นโมฆะหากยังไม่ได้เชื่อมโยงงานนี้)"
 
-#: app/models/task.py:249 app/views/app.py:126 nodeodm/models.py:36
+#: app/models/task.py:249 app/views/app.py:129 nodeodm/models.py:37
 msgid "Processing Node"
 msgstr "Processing Node"
 
@@ -737,21 +771,11 @@ msgstr "อยู่ระหว่างดำเนินการ"
 msgid "A flag indicating whether this task is available to the public"
 msgstr "A flag ที่ระบุว่างานนี้เปิดเผยต่อสาธารณะหรือไม่"
 
-#: app/models/task.py:264
-msgid "Public"
-msgstr "สาธารณะ"
-
 #: app/models/task.py:265
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this public task can be edited"
 msgstr "A flag ที่ระบุว่างานนี้เปิดเผยต่อสาธารณะหรือไม่"
-
-#: app/models/task.py:265
-#, fuzzy
-#| msgid "Public"
-msgid "Public Edit"
-msgstr "สาธารณะ"
 
 #: app/models/task.py:267
 msgid ""
@@ -884,33 +908,33 @@ msgstr "งาน"
 msgid "unnamed"
 msgstr "ไม่มีชื่อ"
 
-#: app/models/task.py:567
+#: app/models/task.py:575
 msgid "Importing assets..."
 msgstr "กำลังนำเข้าเนื้อหา..."
 
-#: app/models/task.py:619 app/models/task.py:897
+#: app/models/task.py:627 app/models/task.py:905
 msgid "Invalid zip file"
 msgstr "ไฟล์ zip ไม่ถูกต้อง"
 
-#: app/models/task.py:621
+#: app/models/task.py:629
 msgid "Unsupported compression method"
 msgstr ""
 
-#: app/models/task.py:715
+#: app/models/task.py:723
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "ข้อผิดพลาดในการเชื่อมต่อ: %(error)s"
 
-#: app/models/task.py:795
+#: app/models/task.py:803
 msgid "Cannot restart a task that has no processing node"
 msgstr "ไม่สามารถรีสตาร์ทงานที่ไม่มีโหนดการประมวลผล"
 
-#: app/models/task.py:977
+#: app/models/task.py:985
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "ไม่รองรับ SRS %(code)s โปรดตรวจสอบให้แน่ใจว่าคุณได้เลือก SRS ที่รองรับ"
 
-#: app/models/task.py:997
+#: app/models/task.py:1005
 msgid "Done!"
 msgstr "เสร็จ!"
 
@@ -1540,7 +1564,7 @@ msgstr "ออกจากระบบ"
 msgid "Dashboard"
 msgstr "แผงควบคุม"
 
-#: app/templates/app/logged_in_base.html:83 nodeodm/models.py:37
+#: app/templates/app/logged_in_base.html:83 nodeodm/models.py:38
 msgid "Processing Nodes"
 msgstr "โหนดการประมวลผล"
 
@@ -1564,31 +1588,31 @@ msgstr "กลุ่ม"
 msgid "Brand"
 msgstr "แบรนด์"
 
-#: app/templates/app/logged_in_base.html:138 app/views/app.py:116
+#: app/templates/app/logged_in_base.html:138 app/views/app.py:119
 msgid "About"
 msgstr "เกี่ยวกับ"
 
-#: app/templates/app/processing_node.html:11 nodeodm/models.py:23
+#: app/templates/app/processing_node.html:11 nodeodm/models.py:24
 msgid "Hostname"
 msgstr "ชื่อโฮสต์"
 
-#: app/templates/app/processing_node.html:15 nodeodm/models.py:24
+#: app/templates/app/processing_node.html:15 nodeodm/models.py:25
 msgid "Port"
 msgstr "พอร์ต"
 
-#: app/templates/app/processing_node.html:19 nodeodm/models.py:25
+#: app/templates/app/processing_node.html:19 nodeodm/models.py:26
 msgid "API Version"
 msgstr "เวอร์ชัน API"
 
-#: app/templates/app/processing_node.html:23 nodeodm/models.py:33
+#: app/templates/app/processing_node.html:23 nodeodm/models.py:34
 msgid "Engine"
 msgstr "เครื่องยนต์"
 
-#: app/templates/app/processing_node.html:27 nodeodm/models.py:31
+#: app/templates/app/processing_node.html:27 nodeodm/models.py:32
 msgid "Engine Version"
 msgstr "รุ่นเครื่องยนต์"
 
-#: app/templates/app/processing_node.html:31 nodeodm/models.py:27
+#: app/templates/app/processing_node.html:31 nodeodm/models.py:28
 msgid "Queue Count"
 msgstr "จำนวน คิว"
 
@@ -1596,11 +1620,11 @@ msgstr "จำนวน คิว"
 msgid "Max Images Limit"
 msgstr "ขีดจำกัดรูปภาพสูงสุด"
 
-#: app/templates/app/processing_node.html:39 nodeodm/models.py:32
+#: app/templates/app/processing_node.html:39 nodeodm/models.py:33
 msgid "Label"
 msgstr "สัญลักษณ์"
 
-#: app/templates/app/processing_node.html:43 nodeodm/models.py:26
+#: app/templates/app/processing_node.html:43 nodeodm/models.py:27
 msgid "Last Refreshed"
 msgstr "รีเฟรชล่าสุด"
 
@@ -1754,20 +1778,20 @@ msgstr ""
 msgid "First Project"
 msgstr "โปรเจคแรก"
 
-#: app/views/app.py:64 app/views/public.py:28
+#: app/views/app.py:64
 msgid "Map"
 msgstr "แผนที่"
 
-#: app/views/app.py:93
+#: app/views/app.py:96
 msgid "3D Model Display"
 msgstr "การแสดงโมเดล 3 มิติ"
 
-#: app/views/app.py:122
+#: app/views/app.py:125
 #, python-format
 msgid "%(node)s seems to be offline."
 msgstr ""
 
-#: app/views/app.py:160
+#: app/views/app.py:163
 msgid "Welcome"
 msgstr "ยินดีต้อนรับ"
 
@@ -1964,7 +1988,7 @@ msgstr ""
 msgid "Node Management"
 msgstr "การจัดการ Node"
 
-#: nodeodm/models.py:23
+#: nodeodm/models.py:24
 msgid ""
 "Hostname or IP address where the node is located (can be an internal "
 "hostname as well). If you are using Docker, this is never 127.0.0.1 or "
@@ -1975,62 +1999,62 @@ msgstr ""
 "Docker นี่ไม่ใช่ 127.0.0.1 หรือ localhost ค้นหาที่อยู่ IP ของเครื่องโฮสต์ของคุณโดยเรียกใช้ "
 "ifconfig บน Linux หรือโดยการตรวจสอบการตั้งค่าเครือข่ายของคุณ"
 
-#: nodeodm/models.py:24
+#: nodeodm/models.py:25
 msgid "Port that connects to the node's API"
 msgstr "พอร์ตที่เชื่อมต่อกับ API ของโหนด"
 
-#: nodeodm/models.py:25
+#: nodeodm/models.py:26
 msgid "API version used by the node"
 msgstr "เวอร์ชัน API ที่ใช้โดยโหนด"
 
-#: nodeodm/models.py:26
+#: nodeodm/models.py:27
 msgid "When was the information about this node last retrieved?"
 msgstr "ข้อมูลเกี่ยวกับโหนดนี้ถูกเรียกครั้งสุดท้ายเมื่อใด"
 
-#: nodeodm/models.py:27
+#: nodeodm/models.py:28
 msgid ""
 "Number of tasks currently being processed by this node (as reported by the "
 "node itself)"
 msgstr "จำนวนงานที่กำลังประมวลผลโดยโหนดนี้ (as reported by the node itself)"
 
-#: nodeodm/models.py:28
+#: nodeodm/models.py:29
 msgid "Available Options"
 msgstr "ตัวเลือกที่มีอยู่"
 
-#: nodeodm/models.py:28
+#: nodeodm/models.py:29
 msgid "Description of the options that can be used for processing"
 msgstr "คำอธิบายของตัวเลือกที่สามารถใช้ในการประมวลผล"
 
-#: nodeodm/models.py:29
+#: nodeodm/models.py:30
 msgid "Token"
 msgstr "โทเค็น"
 
-#: nodeodm/models.py:29
+#: nodeodm/models.py:30
 msgid ""
 "Token to use for authentication. If the node doesn't have authentication, "
 "you can leave this field blank."
 msgstr ""
 "โทเค็นเพื่อใช้ในการตรวจสอบสิทธิ์ หากโหนดไม่มีการตรวจสอบสิทธิ์ คุณสามารถเว้นฟิลด์นี้ว่างไว้ได้"
 
-#: nodeodm/models.py:30
+#: nodeodm/models.py:31
 msgid "Max Images"
 msgstr "รูปภาพสูงสุด"
 
-#: nodeodm/models.py:30
+#: nodeodm/models.py:31
 msgid "Maximum number of images accepted by this node."
 msgstr "จำนวนรูปภาพสูงสุดที่โหนดนี้ยอมรับ"
 
-#: nodeodm/models.py:31
+#: nodeodm/models.py:32
 msgid "Engine version used by the node."
 msgstr "รุ่นเครื่องยนต์ที่ใช้โดยโหนด"
 
-#: nodeodm/models.py:32
+#: nodeodm/models.py:33
 msgid ""
 "Optional label for this node. When set, this label will be shown instead of "
 "the hostname:port name."
 msgstr "ป้ายทางเลือกสำหรับโหนดนี้ เมื่อตั้งค่าแล้ว ป้ายกำกับนี้จะแสดงแทนชื่อ hostname:ชื่อพอร์ต"
 
-#: nodeodm/models.py:33
+#: nodeodm/models.py:34
 msgid "Engine used by the node."
 msgstr "เครื่องยนต์ที่ใช้โดยโหนด"
 
