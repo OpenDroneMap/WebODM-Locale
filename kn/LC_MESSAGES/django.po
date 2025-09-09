@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-30 19:47+0000\n"
+"POT-Creation-Date: 2025-09-09 16:17+0000\n"
 "PO-Revision-Date: 2021-04-28 02:31+0000\n"
 "Last-Translator: Anand Mahesh <manand881@gmail.com>\n"
 "Language-Team: Kannada <https://hosted.weblate.org/projects/webodm/webodm/kn/"
@@ -62,7 +62,7 @@ msgstr ""
 msgid "HTML (footer)"
 msgstr "ಹ್.ಟಿ.ಮ್.ಲ್ (ಫೂಟರ್ )"
 
-#: app/admin.py:115 app/models/project.py:26
+#: app/admin.py:115 app/models/project.py:29
 msgid "Description"
 msgstr "ವಿವರ"
 
@@ -283,115 +283,120 @@ msgstr ""
 msgid "Invalid permissions"
 msgstr ""
 
-#: app/api/tasks.py:241
+#: app/api/tasks.py:268
 #, fuzzy
 #| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload at least 1 file before commit"
 msgstr "ಬದ್ಧರಾಗುವ ಮೊದಲು ನೀವು ಕನಿಷ್ಠ 2 ಚಿತ್ರಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ"
 
-#: app/api/tasks.py:263
+#: app/api/tasks.py:290
 msgid "No files uploaded"
 msgstr "ಯಾವುದೇ ಫೈಲ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿಲ್ಲ"
 
-#: app/api/tasks.py:289
+#: app/api/tasks.py:343
 msgid "Cannot duplicate task"
 msgstr ""
 
-#: app/api/tasks.py:303
+#: app/api/tasks.py:357
 #, fuzzy
 #| msgid "Cannot create task, you need at least 2 images"
 msgid "Cannot create task, alignment task is not valid"
 msgstr "ಕಾರ್ಯವನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ನಿಮಗೆ ಕನಿಷ್ಠ 2 ಚಿತ್ರಗಳು ಬೇಕಾಗುತ್ತವೆ"
 
-#: app/api/tasks.py:320
+#: app/api/tasks.py:374
 msgid "Cannot create task, you need at least 2 images"
 msgstr "ಕಾರ್ಯವನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ನಿಮಗೆ ಕನಿಷ್ಠ 2 ಚಿತ್ರಗಳು ಬೇಕಾಗುತ್ತವೆ"
 
-#: app/api/tasks.py:444 app/api/tasks.py:448 app/api/tasks.py:582
-#: app/api/tasks.py:585 app/api/tasks.py:603
+#: app/api/tasks.py:498 app/api/tasks.py:502 app/api/tasks.py:639
+#: app/api/tasks.py:642 app/api/tasks.py:660
 msgid "Asset does not exist"
 msgstr "ಆಸ್ತಿ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್"
 
-#: app/api/tasks.py:621
+#: app/api/tasks.py:678
 msgid "Imported Task"
 msgstr "ಆಮದು ಮಾಡಿದ ಕಾರ್ಯ"
 
-#: app/api/tasks.py:624
+#: app/api/tasks.py:681
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "ಕಾರ್ಯವನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ನೀವು 1 ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ"
 
-#: app/api/tasks.py:627
+#: app/api/tasks.py:685
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 "ಕಾರ್ಯವನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಉ.ರ್.ಲ್ ಅನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ ಅಥವಾ 1 ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ."
 
-#: app/api/tiler.py:318
+#: app/api/tasks.py:687
+#, python-format
+msgid "Invalid URL. Did you mean %(hint)s ?"
+msgstr ""
+
+#: app/api/tiler.py:325
 msgid "Invalid boundaries parameter"
 msgstr ""
 
-#: app/api/tiler.py:337
+#: app/api/tiler.py:344
 msgid "Invalid tile size parameter"
 msgstr ""
 
-#: app/api/tiler.py:367 app/api/tiler.py:436
+#: app/api/tiler.py:374 app/api/tiler.py:443
 msgid "Outside of bounds"
 msgstr ""
 
-#: app/api/tiler.py:380
+#: app/api/tiler.py:385
 msgid "Invalid boundaries"
 msgstr ""
 
-#: app/api/tiler.py:442 app/api/tiler.py:563
+#: app/api/tiler.py:449 app/api/tiler.py:570
 msgid "Not a valid color_map value"
 msgstr ""
 
-#: app/api/tiler.py:448
+#: app/api/tiler.py:455
 msgid "Invalid rescale value"
 msgstr ""
 
-#: app/api/tiler.py:470
+#: app/api/tiler.py:477
 msgid "Invalid hillshade value"
 msgstr ""
 
-#: app/api/tiler.py:473
+#: app/api/tiler.py:480
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 
-#: app/api/tiler.py:497
+#: app/api/tiler.py:504
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 
-#: app/api/tiler.py:548 app/api/tiler.py:550
+#: app/api/tiler.py:555 app/api/tiler.py:557
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:569
+#: app/api/tiler.py:576
 #, python-format
 msgid "Invalid resample value: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:575
+#: app/api/tiler.py:582
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:578
+#: app/api/tiler.py:585
 msgid "Both formula and bands parameters are required"
 msgstr ""
 
-#: app/api/tiler.py:601
+#: app/api/tiler.py:608
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:609
+#: app/api/tiler.py:616
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:620
+#: app/api/tiler.py:627
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr ""
 
@@ -399,7 +404,7 @@ msgstr ""
 msgid "Plugin name"
 msgstr "ಪ್ಲಗಿನ್ ಹೆಸರು"
 
-#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:25
+#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:28
 #: app/models/task.py:248 app/models/theme.py:18
 msgid "Name"
 msgstr "ಹೆಸರು"
@@ -464,7 +469,7 @@ msgstr ""
 msgid "The person who owns this preset"
 msgstr ""
 
-#: app/models/preset.py:9 app/models/project.py:24
+#: app/models/preset.py:9 app/models/project.py:27
 msgid "Owner"
 msgstr "ಒಡೆಯ"
 
@@ -480,11 +485,11 @@ msgstr ""
 msgid "Options"
 msgstr "ಆಯ್ಕೆಗಳು"
 
-#: app/models/preset.py:13 app/models/project.py:27 app/models/task.py:262
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:262
 msgid "Creation date"
 msgstr "ಸೃಷ್ಟಿ ದಿನಾಂಕ"
 
-#: app/models/preset.py:13 app/models/project.py:27 app/models/task.py:262
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:262
 msgid "Created at"
 msgstr ""
 
@@ -514,77 +519,77 @@ msgstr ""
 msgid "Quota"
 msgstr ""
 
-#: app/models/project.py:24
+#: app/models/project.py:27
 msgid "The person who created the project"
 msgstr ""
 
-#: app/models/project.py:25
+#: app/models/project.py:28
 msgid "A label used to describe the project"
 msgstr ""
 
-#: app/models/project.py:26
+#: app/models/project.py:29
 msgid "More in-depth description of the project"
 msgstr ""
 
-#: app/models/project.py:28
+#: app/models/project.py:31
 msgid ""
 "Whether this project has been marked for deletion. Projects that have "
 "running tasks need to wait for tasks to be properly cleaned up before they "
 "can be deleted."
 msgstr ""
 
-#: app/models/project.py:28
+#: app/models/project.py:31
 msgid "Deleting"
 msgstr "ಅಳಿಸಲಾಗುತ್ತಿದೆ"
 
-#: app/models/project.py:29
+#: app/models/project.py:32
 #, fuzzy
 #| msgid "Projects"
 msgid "Project tags"
 msgstr "ಯೋಜನೆಗಳು"
 
-#: app/models/project.py:29 app/models/task.py:287
+#: app/models/project.py:32 app/models/task.py:287
 msgid "Tags"
 msgstr ""
 
-#: app/models/project.py:30
+#: app/models/project.py:33
 msgid "A flag indicating whether this project is available to the public"
 msgstr ""
 
-#: app/models/project.py:30 app/models/task.py:265
+#: app/models/project.py:33 app/models/task.py:265
 msgid "Public"
 msgstr "ಸಾರ್ವಜನಿಕ"
 
-#: app/models/project.py:31
+#: app/models/project.py:34
 msgid "A flag indicating whether this public project can be edited"
 msgstr ""
 
-#: app/models/project.py:31 app/models/task.py:266
+#: app/models/project.py:34 app/models/task.py:266
 #, fuzzy
 #| msgid "Public"
 msgid "Public Edit"
 msgstr "ಸಾರ್ವಜನಿಕ"
 
-#: app/models/project.py:32
+#: app/models/project.py:35
 msgid "Public identifier of the project"
 msgstr ""
 
-#: app/models/project.py:32
+#: app/models/project.py:35
 #, fuzzy
 #| msgid "Public"
 msgid "Public Id"
 msgstr "ಸಾರ್ವಜನಿಕ"
 
-#: app/models/project.py:78 app/models/task.py:462
+#: app/models/project.py:109 app/models/task.py:472
 #, python-format
 msgid "Copy of %(task)s"
 msgstr ""
 
-#: app/models/project.py:108 app/models/task.py:247
+#: app/models/project.py:142 app/models/task.py:247
 msgid "Project"
 msgstr "ಯೋಜನೆ"
 
-#: app/models/project.py:109 coreplugins/projects-charts/templates/index.html:7
+#: app/models/project.py:143 coreplugins/projects-charts/templates/index.html:7
 msgid "Projects"
 msgstr "ಯೋಜನೆಗಳು"
 
@@ -887,33 +892,33 @@ msgstr "ಕಾರ್ಯಗಳು"
 msgid "unnamed"
 msgstr ""
 
-#: app/models/task.py:597
+#: app/models/task.py:604
 msgid "Importing assets..."
 msgstr ""
 
-#: app/models/task.py:649 app/models/task.py:927
+#: app/models/task.py:656 app/models/task.py:934
 msgid "Invalid zip file"
 msgstr ""
 
-#: app/models/task.py:651
+#: app/models/task.py:658
 msgid "Unsupported compression method"
 msgstr ""
 
-#: app/models/task.py:745
+#: app/models/task.py:752
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr ""
 
-#: app/models/task.py:825
+#: app/models/task.py:832
 msgid "Cannot restart a task that has no processing node"
 msgstr ""
 
-#: app/models/task.py:1013
+#: app/models/task.py:1019
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 
-#: app/models/task.py:1041
+#: app/models/task.py:1048
 msgid "Done!"
 msgstr ""
 
@@ -1041,7 +1046,7 @@ msgstr ""
 msgid "Something happened. The server logs contain more information."
 msgstr ""
 
-#: app/templates/app/about.html:94
+#: app/templates/app/about.html:13
 #, python-format
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
@@ -1779,11 +1784,11 @@ msgstr ""
 msgid "No matching enum type."
 msgstr ""
 
-#: coreplugins/contours/api.py:108
+#: coreplugins/contours/api.py:109
 msgid "No DSM layer is available."
 msgstr ""
 
-#: coreplugins/contours/api.py:110
+#: coreplugins/contours/api.py:111
 msgid "No DTM layer is available."
 msgstr ""
 
@@ -1876,7 +1881,7 @@ msgstr ""
 msgid "Lightning"
 msgstr "ಲೈಟನಿಂಗ್ ನೆಟ್ವರ್ಕ್"
 
-#: coreplugins/objdetect/api.py:57
+#: coreplugins/objdetect/api.py:58
 msgid "No orthophoto is available."
 msgstr ""
 

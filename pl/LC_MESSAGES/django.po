@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-30 19:47+0000\n"
+"POT-Creation-Date: 2025-09-09 16:17+0000\n"
 "PO-Revision-Date: 2025-04-01 15:43+0000\n"
 "Last-Translator: Marcin Sołoguba <marsol@o2.pl>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/webodm/webodm/pl/>"
-"\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/webodm/webodm/pl/"
+">\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,7 +65,7 @@ msgstr ""
 msgid "HTML (footer)"
 msgstr "HTML (stopka)"
 
-#: app/admin.py:115 app/models/project.py:26
+#: app/admin.py:115 app/models/project.py:29
 msgid "Description"
 msgstr "Opis"
 
@@ -314,114 +314,119 @@ msgstr "Nieprawidłowy użytkownik na liście uprawnień"
 msgid "Invalid permissions"
 msgstr "Nieprawidłowe uprawnienia"
 
-#: app/api/tasks.py:241
+#: app/api/tasks.py:268
 msgid "You need to upload at least 1 file before commit"
 msgstr "Musisz przesłać co najmniej 1 plik przed zatwierdzeniem"
 
-#: app/api/tasks.py:263
+#: app/api/tasks.py:290
 msgid "No files uploaded"
 msgstr "Nie załadowano żadnych plików"
 
-#: app/api/tasks.py:289
+#: app/api/tasks.py:343
 msgid "Cannot duplicate task"
 msgstr "Nie można powielić zadania"
 
-#: app/api/tasks.py:303
+#: app/api/tasks.py:357
 msgid "Cannot create task, alignment task is not valid"
 msgstr "Nie można utworzyć zadania, nie udało się dopasować zdjęć"
 
-#: app/api/tasks.py:320
+#: app/api/tasks.py:374
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Nie można utworzyć zadania, potrzebne są co najmniej dwa zdjęcia"
 
-#: app/api/tasks.py:444 app/api/tasks.py:448 app/api/tasks.py:582
-#: app/api/tasks.py:585 app/api/tasks.py:603
+#: app/api/tasks.py:498 app/api/tasks.py:502 app/api/tasks.py:639
+#: app/api/tasks.py:642 app/api/tasks.py:660
 msgid "Asset does not exist"
 msgstr "Zasób nie istnieje"
 
-#: app/api/tasks.py:621
+#: app/api/tasks.py:678
 msgid "Imported Task"
 msgstr "Zaimportowane zadanie"
 
-#: app/api/tasks.py:624
+#: app/api/tasks.py:681
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Nie można utworzyć zadania, musisz przesłać 1 plik"
 
-#: app/api/tasks.py:627
+#: app/api/tasks.py:685
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "Nie można utworzyć zadania. Podaj adres URL lub prześlij 1 plik."
 
-#: app/api/tiler.py:318
+#: app/api/tasks.py:687
+#, python-format
+msgid "Invalid URL. Did you mean %(hint)s ?"
+msgstr ""
+
+#: app/api/tiler.py:325
 msgid "Invalid boundaries parameter"
 msgstr "Nieprawidłowy parametr granic"
 
-#: app/api/tiler.py:337
+#: app/api/tiler.py:344
 msgid "Invalid tile size parameter"
 msgstr "Nieprawidłowy parametr rozmiaru płytki"
 
-#: app/api/tiler.py:367 app/api/tiler.py:436
+#: app/api/tiler.py:374 app/api/tiler.py:443
 msgid "Outside of bounds"
 msgstr "Poza granicami"
 
-#: app/api/tiler.py:380
+#: app/api/tiler.py:385
 msgid "Invalid boundaries"
 msgstr "Nieprawidłowe granice"
 
-#: app/api/tiler.py:442 app/api/tiler.py:563
+#: app/api/tiler.py:449 app/api/tiler.py:570
 msgid "Not a valid color_map value"
 msgstr "Nieprawidłowa wartość color_map"
 
-#: app/api/tiler.py:448
+#: app/api/tiler.py:455
 msgid "Invalid rescale value"
 msgstr "Nieprawidłowa wartość przeskalowania"
 
-#: app/api/tiler.py:470
+#: app/api/tiler.py:477
 msgid "Invalid hillshade value"
 msgstr "Nieprawidłowa wartość cieniowania (hillshade)"
 
-#: app/api/tiler.py:473
+#: app/api/tiler.py:480
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 "Nie można obliczyć cieniowania w rastrze bez wskazanej wysokości (znaleziono "
 "wiele pasm)"
 
-#: app/api/tiler.py:497
+#: app/api/tiler.py:504
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 "Nie można przetworzyć kafelka: dostarczono obraz intensywności, ale nie "
 "obliczono danych RGB."
 
-#: app/api/tiler.py:548 app/api/tiler.py:550
+#: app/api/tiler.py:555 app/api/tiler.py:557
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "Nieobsługiwany format: %(value)s"
 
-#: app/api/tiler.py:569
+#: app/api/tiler.py:576
 #, python-format
 msgid "Invalid resample value: %(value)s"
 msgstr "Nieprawidłowa wartość przepróbkowania: %(value)s"
 
-#: app/api/tiler.py:575
+#: app/api/tiler.py:582
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "Nieprawidłowy kod EPSG: %(value)s"
 
-#: app/api/tiler.py:578
+#: app/api/tiler.py:585
 msgid "Both formula and bands parameters are required"
 msgstr "Wymaga parametrów formuły i zakresu"
 
-#: app/api/tiler.py:601
+#: app/api/tiler.py:608
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "Nieprawidłowa wartość przeskalowania: %(value)s"
 
-#: app/api/tiler.py:609
+#: app/api/tiler.py:616
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "Nieprawidłowa wartość zacienienia: %(value)s"
 
-#: app/api/tiler.py:620
+#: app/api/tiler.py:627
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr "Nie można używać EPSG w zbiorze danych bez georeferencji"
 
@@ -429,7 +434,7 @@ msgstr "Nie można używać EPSG w zbiorze danych bez georeferencji"
 msgid "Plugin name"
 msgstr "Nazwa wtyczki"
 
-#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:25
+#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:28
 #: app/models/task.py:248 app/models/theme.py:18
 msgid "Name"
 msgstr "Nazwa"
@@ -496,7 +501,7 @@ msgstr "Dane wtyczki"
 msgid "The person who owns this preset"
 msgstr "Osoba, która jest właścicielem tego ustawienia wstępnego"
 
-#: app/models/preset.py:9 app/models/project.py:24
+#: app/models/preset.py:9 app/models/project.py:27
 msgid "Owner"
 msgstr "Właściciel"
 
@@ -514,11 +519,11 @@ msgstr ""
 msgid "Options"
 msgstr "Opcje"
 
-#: app/models/preset.py:13 app/models/project.py:27 app/models/task.py:262
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:262
 msgid "Creation date"
 msgstr "Data utworzenia"
 
-#: app/models/preset.py:13 app/models/project.py:27 app/models/task.py:262
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:262
 msgid "Created at"
 msgstr "Utworzono w"
 
@@ -550,19 +555,19 @@ msgstr "Maksymalny rozmiar przydziału dysku w megabajtach"
 msgid "Quota"
 msgstr "Przydział"
 
-#: app/models/project.py:24
+#: app/models/project.py:27
 msgid "The person who created the project"
 msgstr "Osoba, która utworzyła projekt"
 
-#: app/models/project.py:25
+#: app/models/project.py:28
 msgid "A label used to describe the project"
 msgstr "Etykieta używana do opisania projektu"
 
-#: app/models/project.py:26
+#: app/models/project.py:29
 msgid "More in-depth description of the project"
 msgstr "Bardziej szczegółowy opis projektu"
 
-#: app/models/project.py:28
+#: app/models/project.py:31
 msgid ""
 "Whether this project has been marked for deletion. Projects that have "
 "running tasks need to wait for tasks to be properly cleaned up before they "
@@ -572,54 +577,54 @@ msgstr ""
 "uruchomione zadania muszą poczekać, aż zadania zostaną odpowiednio "
 "wyczyszczone, zanim będą mogły zostać usunięte."
 
-#: app/models/project.py:28
+#: app/models/project.py:31
 msgid "Deleting"
 msgstr "Usuwanie"
 
-#: app/models/project.py:29
+#: app/models/project.py:32
 msgid "Project tags"
 msgstr "Znaczniki projektu (tagi)"
 
-#: app/models/project.py:29 app/models/task.py:287
+#: app/models/project.py:32 app/models/task.py:287
 msgid "Tags"
 msgstr "Tagi"
 
-#: app/models/project.py:30
+#: app/models/project.py:33
 msgid "A flag indicating whether this project is available to the public"
 msgstr "Flaga wskazująca, czy ten projekt jest dostępny publicznie"
 
-#: app/models/project.py:30 app/models/task.py:265
+#: app/models/project.py:33 app/models/task.py:265
 msgid "Public"
 msgstr "Publiczny"
 
-#: app/models/project.py:31
+#: app/models/project.py:34
 msgid "A flag indicating whether this public project can be edited"
 msgstr ""
 "Flaga wskazująca, czy ten udostępniony publicznie projekt może być też "
 "edytowany"
 
-#: app/models/project.py:31 app/models/task.py:266
+#: app/models/project.py:34 app/models/task.py:266
 msgid "Public Edit"
 msgstr "Publiczna Edycja"
 
-#: app/models/project.py:32
+#: app/models/project.py:35
 msgid "Public identifier of the project"
 msgstr "Identyfikator publiczny projektu"
 
-#: app/models/project.py:32
+#: app/models/project.py:35
 msgid "Public Id"
 msgstr "Publiczny identyfikator"
 
-#: app/models/project.py:78 app/models/task.py:462
+#: app/models/project.py:109 app/models/task.py:472
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "Kopia %(task)s"
 
-#: app/models/project.py:108 app/models/task.py:247
+#: app/models/project.py:142 app/models/task.py:247
 msgid "Project"
 msgstr "Projekt"
 
-#: app/models/project.py:109 coreplugins/projects-charts/templates/index.html:7
+#: app/models/project.py:143 coreplugins/projects-charts/templates/index.html:7
 msgid "Projects"
 msgstr "Projekty"
 
@@ -944,33 +949,33 @@ msgstr "Zadania"
 msgid "unnamed"
 msgstr "Nienazwany"
 
-#: app/models/task.py:597
+#: app/models/task.py:604
 msgid "Importing assets..."
 msgstr "Importowanie zasobów ..."
 
-#: app/models/task.py:649 app/models/task.py:927
+#: app/models/task.py:656 app/models/task.py:934
 msgid "Invalid zip file"
 msgstr "Nieprawidłowy plik zip"
 
-#: app/models/task.py:651
+#: app/models/task.py:658
 msgid "Unsupported compression method"
 msgstr "Niewspierana metoda kompresji"
 
-#: app/models/task.py:745
+#: app/models/task.py:752
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Błąd połączenia: %(error)s"
 
-#: app/models/task.py:825
+#: app/models/task.py:832
 msgid "Cannot restart a task that has no processing node"
 msgstr "Nie można zrestartować zadania, które nie ma węzła przetwarzania"
 
-#: app/models/task.py:1013
+#: app/models/task.py:1019
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr "Nieobsługiwany SRS %(code)s. Upewnij się, że wybrałeś obsługiwany SRS."
 
-#: app/models/task.py:1041
+#: app/models/task.py:1048
 msgid "Done!"
 msgstr "Gotowe!"
 
@@ -1098,7 +1103,7 @@ msgstr "500 Wewnętrzny błąd serwera"
 msgid "Something happened. The server logs contain more information."
 msgstr "Coś się stało. Dzienniki serwera zawierają więcej informacji."
 
-#: app/templates/app/about.html:94
+#: app/templates/app/about.html:13
 #, python-format
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
@@ -1894,11 +1899,11 @@ msgstr "Do obliczenia wartości temperatury wymagana jest ortofotomapa."
 msgid "No matching enum type."
 msgstr "Brak pasującego typu wyliczenia."
 
-#: coreplugins/contours/api.py:108
+#: coreplugins/contours/api.py:109
 msgid "No DSM layer is available."
 msgstr "Brak dostępnej warstwy DSM."
 
-#: coreplugins/contours/api.py:110
+#: coreplugins/contours/api.py:111
 msgid "No DTM layer is available."
 msgstr "Brak warstwy DTM."
 
@@ -1994,7 +1999,7 @@ msgstr "Ten krótki adres URL jest już zajęty."
 msgid "Lightning"
 msgstr "Lightning"
 
-#: coreplugins/objdetect/api.py:57
+#: coreplugins/objdetect/api.py:58
 msgid "No orthophoto is available."
 msgstr "Brak dostępnej ortofotomapy."
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-30 19:47+0000\n"
+"POT-Creation-Date: 2025-09-09 16:17+0000\n"
 "PO-Revision-Date: 2024-04-13 17:20+0000\n"
 "Last-Translator: Athanasios Nektarios Karachalios Stagkas <nasos.karachalios."
 "stagkas@proton.me>\n"
@@ -65,7 +65,7 @@ msgstr ""
 msgid "HTML (footer)"
 msgstr "HTML (footer)"
 
-#: app/admin.py:115 app/models/project.py:26
+#: app/admin.py:115 app/models/project.py:29
 msgid "Description"
 msgstr "Περιγραφή"
 
@@ -319,121 +319,126 @@ msgstr "Μη έγκυρος χρήστης στη λίστα δικαιωμάτ�
 msgid "Invalid permissions"
 msgstr "Μη έγκυρα δικαιώματα"
 
-#: app/api/tasks.py:241
+#: app/api/tasks.py:268
 msgid "You need to upload at least 1 file before commit"
 msgstr "Πρέπει να ανεβάσετε τουλάχιστον 1 αρχείο πριν από τη δέσμευση"
 
-#: app/api/tasks.py:263
+#: app/api/tasks.py:290
 msgid "No files uploaded"
 msgstr "Δεν έχουν μεταφορτωθεί αρχεία"
 
-#: app/api/tasks.py:289
+#: app/api/tasks.py:343
 msgid "Cannot duplicate task"
 msgstr "Δεν είναι δυνατή η επανάληψη της εργασίας"
 
-#: app/api/tasks.py:303
+#: app/api/tasks.py:357
 #, fuzzy
 #| msgid "Cannot create task, you need at least 2 images"
 msgid "Cannot create task, alignment task is not valid"
 msgstr ""
 "Δεν μπορείτε να δημιουργήσετε την εργασία, χρειάζεστε τουλάχιστον 2 εικόνες"
 
-#: app/api/tasks.py:320
+#: app/api/tasks.py:374
 msgid "Cannot create task, you need at least 2 images"
 msgstr ""
 "Δεν μπορείτε να δημιουργήσετε την εργασία, χρειάζεστε τουλάχιστον 2 εικόνες"
 
-#: app/api/tasks.py:444 app/api/tasks.py:448 app/api/tasks.py:582
-#: app/api/tasks.py:585 app/api/tasks.py:603
+#: app/api/tasks.py:498 app/api/tasks.py:502 app/api/tasks.py:639
+#: app/api/tasks.py:642 app/api/tasks.py:660
 msgid "Asset does not exist"
 msgstr "Ο Πόρος δεν υπάρχει"
 
-#: app/api/tasks.py:621
+#: app/api/tasks.py:678
 msgid "Imported Task"
 msgstr "Εισαγόμενη εργασία"
 
-#: app/api/tasks.py:624
+#: app/api/tasks.py:681
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Δεν μπορείτε να δημιουργήσετε εργασία, πρέπει να ανεβάσετε 1 αρχείο"
 
-#: app/api/tasks.py:627
+#: app/api/tasks.py:685
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 "Δεν είναι δυνατή η δημιουργία εργασίας, είτε καθορίστε μια διεύθυνση URL "
 "είτε ανεβάστε 1 αρχείο."
 
-#: app/api/tiler.py:318
+#: app/api/tasks.py:687
+#, python-format
+msgid "Invalid URL. Did you mean %(hint)s ?"
+msgstr ""
+
+#: app/api/tiler.py:325
 msgid "Invalid boundaries parameter"
 msgstr "Μη έγκυρη παράμετρος ορίων"
 
-#: app/api/tiler.py:337
+#: app/api/tiler.py:344
 msgid "Invalid tile size parameter"
 msgstr "Μη έγκυρη παράμετρος μεγέθους πλακιδίων"
 
-#: app/api/tiler.py:367 app/api/tiler.py:436
+#: app/api/tiler.py:374 app/api/tiler.py:443
 msgid "Outside of bounds"
 msgstr "Εκτός ορίων"
 
-#: app/api/tiler.py:380
+#: app/api/tiler.py:385
 msgid "Invalid boundaries"
 msgstr "Μη έγκυρα όρια"
 
-#: app/api/tiler.py:442 app/api/tiler.py:563
+#: app/api/tiler.py:449 app/api/tiler.py:570
 msgid "Not a valid color_map value"
 msgstr "Μη έγκυρη τιμή color_map"
 
-#: app/api/tiler.py:448
+#: app/api/tiler.py:455
 msgid "Invalid rescale value"
 msgstr "Μη έγκυρη τιμή αναπροσαρμογής κλίμακας"
 
-#: app/api/tiler.py:470
+#: app/api/tiler.py:477
 msgid "Invalid hillshade value"
 msgstr "Μη έγκυρη τιμή σκίασης λόφου"
 
-#: app/api/tiler.py:473
+#: app/api/tiler.py:480
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 "Δεν είναι δυνατός ο υπολογισμός της σκιάς λόφου ενός μη υψομετρικού ράστερ "
 "(βρέθηκαν πολλαπλές ζώνες)"
 
-#: app/api/tiler.py:497
+#: app/api/tiler.py:504
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 "Δεν είναι δυνατή η επεξεργασία πλακιδίων: δόθηκε εικόνα έντασης, αλλά δεν "
 "υπολογίστηκαν δεδομένα RGB."
 
-#: app/api/tiler.py:548 app/api/tiler.py:550
+#: app/api/tiler.py:555 app/api/tiler.py:557
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "Μη υποστηριζόμενη μορφή: %(value)s"
 
-#: app/api/tiler.py:569
+#: app/api/tiler.py:576
 #, fuzzy, python-format
 #| msgid "Invalid rescale value: %(value)s"
 msgid "Invalid resample value: %(value)s"
 msgstr "Μη έγκυρη τιμή αναπροσαρμογής κλίμακας: %(value)s"
 
-#: app/api/tiler.py:575
+#: app/api/tiler.py:582
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "Μη έγκυρος κωδικός EPSG: %(value)s"
 
-#: app/api/tiler.py:578
+#: app/api/tiler.py:585
 msgid "Both formula and bands parameters are required"
 msgstr "Απαιτούνται παράμετροι τύπου και ζωνών"
 
-#: app/api/tiler.py:601
+#: app/api/tiler.py:608
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "Μη έγκυρη τιμή αναπροσαρμογής κλίμακας: %(value)s"
 
-#: app/api/tiler.py:609
+#: app/api/tiler.py:616
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "Μη έγκυρη τιμή σκίασης λόφου: %(value)s"
 
-#: app/api/tiler.py:620
+#: app/api/tiler.py:627
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr "Δεν είναι δυνατή η χρήση του epsg σε σύνολο δεδομένων χωρίς γεωαναφορά"
 
@@ -441,7 +446,7 @@ msgstr "Δεν είναι δυνατή η χρήση του epsg σε σύνολ
 msgid "Plugin name"
 msgstr "Όνομα πρόσθετου"
 
-#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:25
+#: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:28
 #: app/models/task.py:248 app/models/theme.py:18
 msgid "Name"
 msgstr "Όνομα"
@@ -508,7 +513,7 @@ msgstr "Ημερομηνία πρόσθετου"
 msgid "The person who owns this preset"
 msgstr "Το άτομο που κατέχει αυτή την προεπιλογή"
 
-#: app/models/preset.py:9 app/models/project.py:24
+#: app/models/preset.py:9 app/models/project.py:27
 msgid "Owner"
 msgstr "Ιδιοκτήτης"
 
@@ -526,11 +531,11 @@ msgstr ""
 msgid "Options"
 msgstr "Επιλογές"
 
-#: app/models/preset.py:13 app/models/project.py:27 app/models/task.py:262
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:262
 msgid "Creation date"
 msgstr "Ημερομηνία δημιουργίας"
 
-#: app/models/preset.py:13 app/models/project.py:27 app/models/task.py:262
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:262
 msgid "Created at"
 msgstr "Δημιουργήθηκε στις"
 
@@ -562,19 +567,19 @@ msgstr "Μέγιστη ποσόστωση δίσκου σε megabytes"
 msgid "Quota"
 msgstr "Ποσοστό"
 
-#: app/models/project.py:24
+#: app/models/project.py:27
 msgid "The person who created the project"
 msgstr "Το άτομο που δημιούργησε το έργο"
 
-#: app/models/project.py:25
+#: app/models/project.py:28
 msgid "A label used to describe the project"
 msgstr "Μια ετικέτα που χρησιμοποιείται για την περιγραφή του έργου"
 
-#: app/models/project.py:26
+#: app/models/project.py:29
 msgid "More in-depth description of the project"
 msgstr "Λεπτομερέστερη περιγραφή του έργου"
 
-#: app/models/project.py:28
+#: app/models/project.py:31
 msgid ""
 "Whether this project has been marked for deletion. Projects that have "
 "running tasks need to wait for tasks to be properly cleaned up before they "
@@ -584,62 +589,62 @@ msgstr ""
 "εργασίες πρέπει να περιμένουν να καθαριστούν σωστά οι εργασίες πριν "
 "διαγραφούν."
 
-#: app/models/project.py:28
+#: app/models/project.py:31
 msgid "Deleting"
 msgstr "Διαγραφή"
 
-#: app/models/project.py:29
+#: app/models/project.py:32
 msgid "Project tags"
 msgstr "Ετικέτες έργου"
 
-#: app/models/project.py:29 app/models/task.py:287
+#: app/models/project.py:32 app/models/task.py:287
 msgid "Tags"
 msgstr "Ετικέτες"
 
-#: app/models/project.py:30
+#: app/models/project.py:33
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this project is available to the public"
 msgstr "Σημαία που υποδεικνύει αν η εργασία αυτή είναι διαθέσιμη στο κοινό"
 
-#: app/models/project.py:30 app/models/task.py:265
+#: app/models/project.py:33 app/models/task.py:265
 msgid "Public"
 msgstr "Δημόσια"
 
-#: app/models/project.py:31
+#: app/models/project.py:34
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this public project can be edited"
 msgstr "Σημαία που υποδεικνύει αν η εργασία αυτή είναι διαθέσιμη στο κοινό"
 
-#: app/models/project.py:31 app/models/task.py:266
+#: app/models/project.py:34 app/models/task.py:266
 #, fuzzy
 #| msgid "Public"
 msgid "Public Edit"
 msgstr "Δημόσια"
 
-#: app/models/project.py:32
+#: app/models/project.py:35
 #, fuzzy
 #| msgid "More in-depth description of the project"
 msgid "Public identifier of the project"
 msgstr "Λεπτομερέστερη περιγραφή του έργου"
 
-#: app/models/project.py:32
+#: app/models/project.py:35
 #, fuzzy
 #| msgid "Public"
 msgid "Public Id"
 msgstr "Δημόσια"
 
-#: app/models/project.py:78 app/models/task.py:462
+#: app/models/project.py:109 app/models/task.py:472
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "Αντίγραφο του/των %(task)s"
 
-#: app/models/project.py:108 app/models/task.py:247
+#: app/models/project.py:142 app/models/task.py:247
 msgid "Project"
 msgstr "Έργο"
 
-#: app/models/project.py:109 coreplugins/projects-charts/templates/index.html:7
+#: app/models/project.py:143 coreplugins/projects-charts/templates/index.html:7
 msgid "Projects"
 msgstr "Έργα"
 
@@ -970,36 +975,36 @@ msgstr "Εργασίες"
 msgid "unnamed"
 msgstr "ανώνυμο"
 
-#: app/models/task.py:597
+#: app/models/task.py:604
 msgid "Importing assets..."
 msgstr "Εισαγωγή πόρων..."
 
-#: app/models/task.py:649 app/models/task.py:927
+#: app/models/task.py:656 app/models/task.py:934
 msgid "Invalid zip file"
 msgstr "Μη έγκυρο αρχείο zip"
 
-#: app/models/task.py:651
+#: app/models/task.py:658
 msgid "Unsupported compression method"
 msgstr ""
 
-#: app/models/task.py:745
+#: app/models/task.py:752
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Σφάλμα σύνδεσης: %(error)s"
 
-#: app/models/task.py:825
+#: app/models/task.py:832
 msgid "Cannot restart a task that has no processing node"
 msgstr ""
 "Δεν είναι δυνατή η επανεκκίνηση μιας εργασίας που δεν έχει κόμβο επεξεργασίας"
 
-#: app/models/task.py:1013
+#: app/models/task.py:1019
 #, python-format
 msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
 msgstr ""
 "Μη υποστηριζόμενα SRS %(code)s. Βεβαιωθείτε ότι επιλέξατε ένα υποστηριζόμενο "
 "SRS."
 
-#: app/models/task.py:1041
+#: app/models/task.py:1048
 msgid "Done!"
 msgstr "Έτοιμο!"
 
@@ -1129,7 +1134,7 @@ msgstr ""
 "Κάτι συνέβη. Τα αρχεία καταγραφής του διακομιστή περιέχουν περισσότερες "
 "πληροφορίες."
 
-#: app/templates/app/about.html:94
+#: app/templates/app/about.html:13
 #, python-format
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
@@ -1941,11 +1946,11 @@ msgstr ""
 msgid "No matching enum type."
 msgstr ""
 
-#: coreplugins/contours/api.py:108
+#: coreplugins/contours/api.py:109
 msgid "No DSM layer is available."
 msgstr "Δεν υπάρχει στρώμα DSM."
 
-#: coreplugins/contours/api.py:110
+#: coreplugins/contours/api.py:111
 msgid "No DTM layer is available."
 msgstr "Δεν υπάρχει διαθέσιμο στρώμα DTM."
 
@@ -2044,7 +2049,7 @@ msgstr "Αυτή η σύντομη διεύθυνση URL είναι ήδη κα
 msgid "Lightning"
 msgstr "Δίκτυο κεραυνών"
 
-#: coreplugins/objdetect/api.py:57
+#: coreplugins/objdetect/api.py:58
 #, fuzzy
 #| msgid "No DSM layer is available."
 msgid "No orthophoto is available."
