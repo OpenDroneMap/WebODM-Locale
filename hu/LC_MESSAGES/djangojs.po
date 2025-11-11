@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-11 19:03+0000\n"
+"POT-Creation-Date: 2025-11-11 23:32+0000\n"
 "PO-Revision-Date: 2025-03-17 19:35+0000\n"
 "Last-Translator: Faludi Zoltán <zoltan@faludi.info>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/webodm/react-"
@@ -239,6 +239,8 @@ msgid "DEM"
 msgstr "DEM"
 
 #: app/static/app/js/classes/PipelineSteps.js:52
+#: app/static/app/js/components/TaskListItem.jsx:532
+#: app/static/app/js/components/TaskListItem.jsx:535
 msgid "Report"
 msgstr "Jelentés"
 
@@ -381,8 +383,11 @@ msgid "Imperial (US)"
 msgstr "Birodalmi (US)"
 
 #: app/static/app/js/components/AssetDownloadButtons.jsx:79
-msgid "Download Assets"
-msgstr "Eredmények letöltése"
+#: app/static/app/js/components/ExportAssetDialog.jsx:41
+#: app/static/app/js/components/MapPreview.jsx:435
+#: coreplugins/objdetect/public/ObjDetectPanel.jsx:208
+msgid "Download"
+msgstr "Letöltés"
 
 #: app/static/app/js/components/AssetDownloadButtons.jsx:111
 msgid "Backup"
@@ -449,8 +454,8 @@ msgstr "Projekt létrehozása..."
 
 #: app/static/app/js/components/EditProjectDialog.jsx:125
 #: app/static/app/js/components/EditProjectDialog.jsx:131
-#: app/static/app/js/components/TaskListItem.jsx:227
-#: app/static/app/js/components/TaskListItem.jsx:235
+#: app/static/app/js/components/TaskListItem.jsx:229
+#: app/static/app/js/components/TaskListItem.jsx:237
 msgid "Cannot complete operation."
 msgstr "Nem tudom befejezni a műveletet."
 
@@ -463,7 +468,7 @@ msgstr "Címkék"
 
 #: app/static/app/js/components/EditProjectDialog.jsx:165
 #: app/static/app/js/components/EditTaskForm.jsx:574
-#: app/static/app/js/components/TaskListItem.jsx:782
+#: app/static/app/js/components/TaskListItem.jsx:814
 msgid "Duplicate"
 msgstr "Másolat"
 
@@ -571,8 +576,8 @@ msgstr "Újra"
 #: app/static/app/js/components/EditTaskForm.jsx:561
 #: app/static/app/js/components/EditTaskForm.jsx:568
 #: app/static/app/js/components/ProjectListItem.jsx:783
-#: app/static/app/js/components/TaskListItem.jsx:520
-#: app/static/app/js/components/TaskListItem.jsx:776
+#: app/static/app/js/components/TaskListItem.jsx:576
+#: app/static/app/js/components/TaskListItem.jsx:808
 #: coreplugins/annotate/public/Popup.jsx:621
 #: coreplugins/editshortlinks/public/SLControls.jsx:162
 msgid "Edit"
@@ -591,8 +596,8 @@ msgstr "Mentés"
 #: app/static/app/js/components/LayersControlAnnotations.jsx:151
 #: app/static/app/js/components/MapPreview.jsx:169
 #: app/static/app/js/components/ProjectListItem.jsx:789
-#: app/static/app/js/components/TaskListItem.jsx:549
-#: app/static/app/js/components/TaskListItem.jsx:799
+#: app/static/app/js/components/TaskListItem.jsx:542
+#: app/static/app/js/components/TaskListItem.jsx:831
 #: coreplugins/measure/public/app.jsx:35
 msgid "Delete"
 msgstr "Törlés"
@@ -620,8 +625,8 @@ msgstr "Nem tudom aktualizálni a feladat adatokat. Próbálja újra."
 #: app/static/app/js/components/FormDialog.jsx:205
 #: app/static/app/js/components/NewTaskPanel.jsx:220
 #: app/static/app/js/components/NewTaskPanel.jsx:303
-#: app/static/app/js/components/TaskListItem.jsx:529
-#: app/static/app/js/components/TaskListItem.jsx:771
+#: app/static/app/js/components/TaskListItem.jsx:552
+#: app/static/app/js/components/TaskListItem.jsx:803
 #: coreplugins/measure/public/app.jsx:34
 msgid "Cancel"
 msgstr "Mégsem"
@@ -639,12 +644,6 @@ msgstr "Lezárás"
 #: app/static/app/js/components/ExportAssetDialog.jsx:40
 msgid "Downloading…"
 msgstr "Letöltés…"
-
-#: app/static/app/js/components/ExportAssetDialog.jsx:41
-#: app/static/app/js/components/MapPreview.jsx:435
-#: coreplugins/objdetect/public/ObjDetectPanel.jsx:208
-msgid "Download"
-msgstr "Letöltés"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:170
 #: app/static/app/js/components/ImportTaskPanel.jsx:141
@@ -740,15 +739,15 @@ msgstr "Max:"
 msgid "Download Image"
 msgstr "Kép letöltés"
 
-#: app/static/app/js/components/ImagePopup.jsx:256
+#: app/static/app/js/components/ImagePopup.jsx:257
 msgid "Latitude"
 msgstr ""
 
-#: app/static/app/js/components/ImagePopup.jsx:260
+#: app/static/app/js/components/ImagePopup.jsx:261
 msgid "Longitude"
 msgstr ""
 
-#: app/static/app/js/components/ImagePopup.jsx:264
+#: app/static/app/js/components/ImagePopup.jsx:265
 msgid "Altitude"
 msgstr ""
 
@@ -789,7 +788,7 @@ msgstr "Eszközök vagy biztonsági mentések importálása"
 #| "Download Assets %(arrow)s All Assets."
 msgid ""
 "You can import .zip files that have been exported from existing tasks via "
-"Download Assets %(arrow)s All Assets | Backup."
+"Download %(arrow)s All Assets | Backup."
 msgstr ""
 "Importálhat .zip fájlokat, melyet egy létező feladatból exportáltak az "
 "Eredmények letöltése %(arrow)s Minden eszköz menüpontból."
@@ -1039,7 +1038,7 @@ msgstr ""
 "megengedett maximális %(count)s értéket."
 
 #: app/static/app/js/components/NewTaskPanel.jsx:245
-#: app/static/app/js/components/TaskListItem.jsx:450
+#: app/static/app/js/components/TaskListItem.jsx:452
 msgid "Alignment"
 msgstr "Igazítás"
 
@@ -1188,7 +1187,6 @@ msgid "Clear"
 msgstr "Tisztít"
 
 #: app/static/app/js/components/ProjectListItem.jsx:777
-#: app/static/app/js/components/TaskListItem.jsx:503
 msgid "View Map"
 msgstr "Térkép megtekintés"
 
@@ -1278,12 +1276,12 @@ msgid "Try again"
 msgstr "Próbálja újra"
 
 #: app/static/app/js/components/TaskList.jsx:153
-#: app/static/app/js/components/TaskListItem.jsx:465
+#: app/static/app/js/components/TaskListItem.jsx:478
 #, python-format
 msgid "Task #%(number)s"
 msgstr "Feladat #%(number)s"
 
-#: app/static/app/js/components/TaskListItem.jsx:284
+#: app/static/app/js/components/TaskListItem.jsx:286
 #, python-format
 msgid ""
 "It looks like there might be one of the following problems: %(problems)s You "
@@ -1292,30 +1290,30 @@ msgstr ""
 "Úgy tűnik a következő problémák egyike fordult elő: %(problems)s Többet "
 "olvashat a jó képek készítésének legjobb gyakorlatáról %(link)s."
 
-#: app/static/app/js/components/TaskListItem.jsx:285
+#: app/static/app/js/components/TaskListItem.jsx:287
 msgid "Not enough images"
 msgstr "Nincs elég kép"
 
-#: app/static/app/js/components/TaskListItem.jsx:286
+#: app/static/app/js/components/TaskListItem.jsx:288
 msgid "Not enough overlap between images"
 msgstr "Nincs elég átfedés a képek között"
 
-#: app/static/app/js/components/TaskListItem.jsx:287
+#: app/static/app/js/components/TaskListItem.jsx:289
 msgid "Images might be too blurry (common with phone cameras)"
 msgstr "A képek túl homályosak lehetnek (telefon kameráknál általános)"
 
-#: app/static/app/js/components/TaskListItem.jsx:288
+#: app/static/app/js/components/TaskListItem.jsx:290
 msgid ""
 "The min-num-features task option is set too low, try increasing it by 25%"
 msgstr ""
 "A \"min-num-features\" feladat beállítás túl alacsonyra van állítva, "
 "próbálja meg növelni 25%-kal"
 
-#: app/static/app/js/components/TaskListItem.jsx:289
+#: app/static/app/js/components/TaskListItem.jsx:291
 msgid "here"
 msgstr "itt"
 
-#: app/static/app/js/components/TaskListItem.jsx:292
+#: app/static/app/js/components/TaskListItem.jsx:294
 #, python-format
 msgid ""
 "It looks like this computer might be too old. WebODM requires a computer "
@@ -1328,11 +1326,11 @@ msgstr ""
 "szükséges. Futtathatja a Web ODM-et, ha saját dokker image-t fordít. Lásd a "
 "%(link)s oldalt a további információkhoz."
 
-#: app/static/app/js/components/TaskListItem.jsx:292
+#: app/static/app/js/components/TaskListItem.jsx:294
 msgid "this page"
 msgstr "ez a lap"
 
-#: app/static/app/js/components/TaskListItem.jsx:294
+#: app/static/app/js/components/TaskListItem.jsx:296
 msgid ""
 "The processing node is missing a program necessary to complete the task. "
 "This might indicate a corrupted installation. If you built OpenDroneMap, "
@@ -1342,62 +1340,53 @@ msgstr ""
 "program. Ez hibás telepítést jelezhet. Ha az OpenDroneMap környezetet ön "
 "fordította, ellenőrizze, hogy nem volt hibaüzenet."
 
-#: app/static/app/js/components/TaskListItem.jsx:335
+#: app/static/app/js/components/TaskListItem.jsx:337
 #, python-format
 msgid "From %(stage)s"
 msgstr "%(stage)s-től"
 
-#: app/static/app/js/components/TaskListItem.jsx:347
+#: app/static/app/js/components/TaskListItem.jsx:349
 msgid "Resume Processing"
 msgstr "Feldolgozás folytatása"
 
-#: app/static/app/js/components/TaskListItem.jsx:363
+#: app/static/app/js/components/TaskListItem.jsx:365
 msgid "Cannot restart task."
 msgstr "Nem tudom újraindítani a feladatot."
 
-#: app/static/app/js/components/TaskListItem.jsx:405
+#: app/static/app/js/components/TaskListItem.jsx:407
 msgid "Cannot restart task from (stage)s."
 msgstr "A feladatot nem lehet újraindítani ebben az állapotában.."
 
-#: app/static/app/js/components/TaskListItem.jsx:454
+#: app/static/app/js/components/TaskListItem.jsx:456
 msgid "GPS"
 msgstr ""
 
-#: app/static/app/js/components/TaskListItem.jsx:457
+#: app/static/app/js/components/TaskListItem.jsx:459
 #, fuzzy
 #| msgid "(GCPs)"
 msgid "GCP"
 msgstr "(Illesztőpontok)"
 
-#: app/static/app/js/components/TaskListItem.jsx:469
+#: app/static/app/js/components/TaskListItem.jsx:482
 msgid "Sending images to processing node"
 msgstr "Képek küldése a feldogozási csomóponthoz"
 
-#: app/static/app/js/components/TaskListItem.jsx:471
+#: app/static/app/js/components/TaskListItem.jsx:484
 msgid "Waiting for a node..."
 msgstr "Várakozás a csomópontra..."
 
-#: app/static/app/js/components/TaskListItem.jsx:513
-msgid "View 3D Model"
+#: app/static/app/js/components/TaskListItem.jsx:516
+msgid "Map"
+msgstr ""
+
+#: app/static/app/js/components/TaskListItem.jsx:526
+#, fuzzy
+#| msgid "View 3D Model"
+msgid "3D Model"
 msgstr "3D modell megtekintése"
 
-#: app/static/app/js/components/TaskListItem.jsx:529
-#: app/static/app/js/components/TaskListItem.jsx:771
-msgid "Cannot cancel task."
-msgstr "Nem tudom megszakítani a feladatot."
-
 #: app/static/app/js/components/TaskListItem.jsx:543
-msgid "Restart"
-msgstr "Újraindítás"
-
-#: app/static/app/js/components/TaskListItem.jsx:543
-#, fuzzy
-#| msgid "Are you sure you want to delete \"%(preset)s\"?"
-msgid "Are you sure you want to restart this task?"
-msgstr "Biztosan törli: \"%(preset)s\"?"
-
-#: app/static/app/js/components/TaskListItem.jsx:550
-#: app/static/app/js/components/TaskListItem.jsx:800
+#: app/static/app/js/components/TaskListItem.jsx:832
 msgid ""
 "All information related to this task, including images, maps and models will "
 "be deleted. Continue?"
@@ -1405,75 +1394,90 @@ msgstr ""
 "Ehhez a feladathoz tatozó minden adatot törlünk, beleértve a képeket, "
 "térképeket és modelleket. Folytatja?"
 
-#: app/static/app/js/components/TaskListItem.jsx:551
-#: app/static/app/js/components/TaskListItem.jsx:801
+#: app/static/app/js/components/TaskListItem.jsx:544
+#: app/static/app/js/components/TaskListItem.jsx:833
 msgid "Cannot delete task."
 msgstr "Nem tudom törölni a feladatot."
 
-#: app/static/app/js/components/TaskListItem.jsx:605
+#: app/static/app/js/components/TaskListItem.jsx:552
+#: app/static/app/js/components/TaskListItem.jsx:803
+msgid "Cannot cancel task."
+msgstr "Nem tudom megszakítani a feladatot."
+
+#: app/static/app/js/components/TaskListItem.jsx:569
+msgid "Restart"
+msgstr "Újraindítás"
+
+#: app/static/app/js/components/TaskListItem.jsx:569
+#, fuzzy
+#| msgid "Are you sure you want to delete \"%(preset)s\"?"
+msgid "Are you sure you want to restart this task?"
+msgstr "Biztosan törli: \"%(preset)s\"?"
+
+#: app/static/app/js/components/TaskListItem.jsx:633
 msgid "Created on:"
 msgstr "Létrehozás dátum:"
 
-#: app/static/app/js/components/TaskListItem.jsx:609
+#: app/static/app/js/components/TaskListItem.jsx:637
 msgid "Processing Node:"
 msgstr "Feldolgozási pont:"
 
-#: app/static/app/js/components/TaskListItem.jsx:610
+#: app/static/app/js/components/TaskListItem.jsx:638
 msgid "auto"
 msgstr "automatikus"
 
-#: app/static/app/js/components/TaskListItem.jsx:610
+#: app/static/app/js/components/TaskListItem.jsx:638
 msgid "manual"
 msgstr "manuális"
 
-#: app/static/app/js/components/TaskListItem.jsx:614
+#: app/static/app/js/components/TaskListItem.jsx:642
 msgid "Options:"
 msgstr "Beállítások:"
 
-#: app/static/app/js/components/TaskListItem.jsx:619
+#: app/static/app/js/components/TaskListItem.jsx:647
 msgid "Average GSD:"
 msgstr "Átlagos GSD:"
 
-#: app/static/app/js/components/TaskListItem.jsx:624
+#: app/static/app/js/components/TaskListItem.jsx:652
 #: coreplugins/measure/public/MeasurePopup.jsx:186
 msgid "Area:"
 msgstr "Terület:"
 
-#: app/static/app/js/components/TaskListItem.jsx:629
+#: app/static/app/js/components/TaskListItem.jsx:657
 msgid "Reconstructed Points:"
 msgstr "Rekonstruált pontok:"
 
-#: app/static/app/js/components/TaskListItem.jsx:634
+#: app/static/app/js/components/TaskListItem.jsx:662
 msgid "Spatial Reference:"
 msgstr ""
 
-#: app/static/app/js/components/TaskListItem.jsx:639
+#: app/static/app/js/components/TaskListItem.jsx:667
 msgid "Disk Usage:"
 msgstr ""
 
-#: app/static/app/js/components/TaskListItem.jsx:643
+#: app/static/app/js/components/TaskListItem.jsx:671
 #, fuzzy
 #| msgid "Task Output:"
 msgid "Task ID:"
 msgstr "Feladat output:"
 
-#: app/static/app/js/components/TaskListItem.jsx:647
+#: app/static/app/js/components/TaskListItem.jsx:675
 msgid "Task Output:"
 msgstr "Feladat output:"
 
-#: app/static/app/js/components/TaskListItem.jsx:649
+#: app/static/app/js/components/TaskListItem.jsx:677
 msgid "On"
 msgstr "Be"
 
-#: app/static/app/js/components/TaskListItem.jsx:650
+#: app/static/app/js/components/TaskListItem.jsx:678
 msgid "Off"
 msgstr "Ki"
 
-#: app/static/app/js/components/TaskListItem.jsx:659
+#: app/static/app/js/components/TaskListItem.jsx:687
 msgid "Thumbnail"
 msgstr ""
 
-#: app/static/app/js/components/TaskListItem.jsx:677
+#: app/static/app/js/components/TaskListItem.jsx:705
 msgid ""
 "An orthophoto could not be generated. To generate one, make sure GPS "
 "information is embedded in the EXIF tags of your images, or use a Ground "
@@ -1483,15 +1487,15 @@ msgstr ""
 "szerepelnek az EXIF címkék között vagy használjon illesztőpont (GCP) fájlt a "
 "generáláshoz."
 
-#: app/static/app/js/components/TaskListItem.jsx:680
+#: app/static/app/js/components/TaskListItem.jsx:708
 msgid "enough RAM allocated"
 msgstr "elég memóriát foglaltam"
 
-#: app/static/app/js/components/TaskListItem.jsx:680
+#: app/static/app/js/components/TaskListItem.jsx:708
 msgid "cloud processing node"
 msgstr "felhő feldolgozási pont"
 
-#: app/static/app/js/components/TaskListItem.jsx:680
+#: app/static/app/js/components/TaskListItem.jsx:708
 #, python-format
 msgid ""
 "It looks like your processing node ran out of memory. If you are using "
@@ -1507,7 +1511,7 @@ msgstr ""
 "képeket, vagy csökkentse a max-concurrency paramétert a feladat opciói "
 "közül. Megpróbálhat egy %(cloudlink)s-et is használni."
 
-#: app/static/app/js/components/TaskListItem.jsx:687
+#: app/static/app/js/components/TaskListItem.jsx:715
 #, fuzzy, python-format
 #| msgid ""
 #| "\"Process exited with code 1\" means that part of the processing failed. "
@@ -1529,32 +1533,32 @@ msgstr ""
 "mellékelje a feladat kimenetének másolatát. A közösség megpróbál majd "
 "segíteni!"
 
-#: app/static/app/js/components/TaskListItem.jsx:733
+#: app/static/app/js/components/TaskListItem.jsx:765
 msgid "Set a processing node"
 msgstr "Feldolgozó pont beállítás"
 
-#: app/static/app/js/components/TaskListItem.jsx:738
+#: app/static/app/js/components/TaskListItem.jsx:770
 msgid "Waiting for image upload..."
 msgstr "Várakozás a képe feltöltésére..."
 
-#: app/static/app/js/components/TaskListItem.jsx:781
+#: app/static/app/js/components/TaskListItem.jsx:813
 msgid "Move"
 msgstr "Áthelyezés"
 
-#: app/static/app/js/components/TaskListItem.jsx:793
+#: app/static/app/js/components/TaskListItem.jsx:825
 #, fuzzy
 #| msgid "Compass"
 msgid "Compact"
 msgstr "Tájoló"
 
-#: app/static/app/js/components/TaskListItem.jsx:794
+#: app/static/app/js/components/TaskListItem.jsx:826
 msgid ""
 "Compacting will free disk space by permanently deleting the original images "
 "used for processing. It will no longer be possible to restart the task. Maps "
 "and models will remain in place. Continue?"
 msgstr ""
 
-#: app/static/app/js/components/TaskListItem.jsx:795
+#: app/static/app/js/components/TaskListItem.jsx:827
 #, fuzzy
 #| msgid "Cannot cancel task."
 msgid "Cannot compact task."
@@ -1578,44 +1582,29 @@ msgstr "%(count)s fájlt sikeresen feltöltöttem"
 #: app/static/app/js/translations/odm_autogenerated.js:3
 #, python-format
 msgid ""
-"When processing multispectral datasets, ODM will automatically align the "
-"images for each band. If the images have been postprocessed and are already "
-"aligned, use this option. Default: %(default)s"
+"Do not attempt to merge partial reconstructions. This can happen when images "
+"do not have sufficient overlap or are isolated. Default: %(default)s"
 msgstr ""
-"Multispektrális adatkészletek feldolgozásakor az ODM automatikusan igazítja "
-"a képeket minden sávhoz. Ha a képek utófeldolgozásra kerültek, és már "
-"igazítva vannak, használja ezt a lehetőséget. Alapértelmezett:%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:4
 #, python-format
 msgid ""
-"Generate OBJs that have a single material and a single texture file instead "
-"of multiple ones. Default:  %(default)s"
+"Set this parameter if you want to generate a Google Earth (KMZ) rendering of "
+"the orthophoto. Default: %(default)s"
 msgstr ""
+"Állítsa be ezt a paramétert, ha Google Earth (KMZ) kimenetet szeretne "
+"létrehozni az ortofotóról. Alapértelmezett: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:5
 #, python-format
 msgid ""
-"Simple Morphological Filter elevation threshold parameter (meters). Default: "
-"%(default)s"
+"URL to a ClusterODM instance for distributing a split-merge workflow on "
+"multiple nodes in parallel. Default: %(default)s"
 msgstr ""
-"Egyszerű morfológiai szűrő magassági küszöb paraméter (méter). "
-"Alapértelmezett: %(default)s"
+"URL egy ClusterODM példányhoz egy felosztás-egyesítés munkafolyamat "
+"szétosztásához több csomópontra párhuzamosan. Alapértelmezés: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:6
-#, python-format
-msgid ""
-"Computes an euclidean raster map for each DEM. The map reports the distance "
-"from each cell to the nearest NODATA value (before any hole filling takes "
-"place). This can be useful to isolate the areas that have been filled. "
-"Default: %(default)s"
-msgstr ""
-"Euklideszi raszteres térképet készít minden egyes DEM-hez. A térkép jelenti "
-"az egyes celláktól a legközelebbi NODATA értékig mért távolságot (mielőtt "
-"bármilyen lyuk kitöltésre kerülne sor). Ez hasznos lehet a feltöltött "
-"területek elkülönítésére. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:7
 #, python-format
 msgid ""
 "Average number of images per submodel. When splitting a large dataset into "
@@ -1628,115 +1617,53 @@ msgstr ""
 "szabályozza az egyes klaszterekhez tartozó képek átlagos számát. "
 "Alapértelmezés: %(default)s"
 
+#: app/static/app/js/translations/odm_autogenerated.js:7
+#, python-format
+msgid ""
+"When processing multispectral datasets, you can specify the name of the "
+"primary band that will be used for reconstruction. It's recommended to "
+"choose a band which has sharp details and is in focus. Default: %(default)s"
+msgstr ""
+"Multispektrális adatkészletek feldolgozásakor megadhatja a rekonstrukcióhoz "
+"használt elsődleges sáv nevét. Javasoljuk, hogy olyan sávot válasszunk, "
+"amely éles részletekkel rendelkezik és fókuszban van. Alapértelmezett:"
+"%(default)s"
+
 #: app/static/app/js/translations/odm_autogenerated.js:8
 #, python-format
 msgid ""
-"Choose the structure from motion algorithm. For aerial datasets, if camera "
-"GPS positions and angles are available, triangulation can generate better "
-"results. For planar scenes captured at fixed altitude with nadir-only "
-"images, planar can be much faster. Can be one of: %(choices)s. Default: "
-"%(default)s"
+"Build orthophoto overviews for faster display in programs such as QGIS. "
+"Default: %(default)s"
 msgstr ""
-"Válassza ki a szerkezetet a mozgási algoritmusból. Légi adatkészleteknél, ha "
-"rendelkezésre állnak a kamera GPS-pozíciói és szögei, a háromszögelés jobb "
-"eredményeket hozhat létre. Rögzített tengerszint feletti magasságban "
-"rögzített, csak nadírképekkel készített síkbeli jelenetek esetén a planáris "
-"sokkal gyorsabb lehet. Ezek egyike lehet: %(choices)s. Alapértelmezés: "
-"%(default)s"
+"Készítsen ortofotó áttekintéseket a gyorsabb megjelenítés érdekében olyan "
+"programokban, mint a QGIS. Alapértelmezett: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:9
 #, python-format
 msgid ""
-"Turn on rolling shutter correction. If the camera has a rolling shutter and "
-"the images were taken in motion, you can turn on this option to improve the "
-"accuracy of the results. See also --rolling-shutter-readout. Default: "
-"%(default)s"
+"During the orthophoto merging, skip expensive blending operation: %(default)s"
 msgstr ""
-"Kapcsolja be a redőnykorrekciót. Ha a fényképezőgép redőnnyel rendelkezik, "
-"és a képek mozgásban készültek, bekapcsolhatja ezt a lehetőséget, hogy "
-"javítsa az eredmények pontosságát. Lásd még --rolling-shutter-readout. "
-"Alapértelmezett: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:10
 #, python-format
 msgid ""
-"Use this tag to build a DTM (Digital Terrain Model, ground only) using a "
-"simple morphological filter. Check the --dem* and --smrf* parameters for "
-"finer tuning. Default: %(default)s"
+"Automatically compute image masks using AI to remove the background. "
+"Experimental. Default: %(default)s"
 msgstr ""
-"Használja ezt a címkét egy egyszerű morfológiai szűrő segítségével egy DTM "
-"(digitális terepmodell, csak talajon) létrehozásához. Ellenőrizze a --dem* "
-"és --smrf* paramétereket a finomabb hangolás érdekében. Alapértelmezett:"
-"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:11
 #, python-format
 msgid ""
-"Filters the point cloud by keeping only a single point around a radius N (in "
-"meters). This can be useful to limit the output resolution of the point "
-"cloud and remove duplicate points. Set to 0 to disable sampling. Default: "
-"%(default)s"
+"Use this tag to build a DSM (Digital Surface Model, ground + objects) using "
+"a progressive morphological filter. Check the --dem* parameters for finer "
+"tuning. Default: %(default)s"
 msgstr ""
-"Szűri a pontfelhőt úgy, hogy csak egyetlen pontot tart az N sugár körül "
-"(méterben). Ez hasznos lehet a pontfelhő kimeneti felbontásának "
-"korlátozására és az ismétlődő pontok eltávolítására. A mintavételezés "
-"letiltásához állítsa 0-ra. Alapértelmezett:%(default)s"
+"Használja ezt a címkét DSM (digitális felületmodell, föld + objektumok) "
+"létrehozásához progresszív morfológiai szűrő segítségével. Ellenőrizze a --"
+"dem* paramétereket a finomabb hangolás érdekében. Alapértelmezett: "
+"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:12
-#, python-format
-msgid ""
-"Run local bundle adjustment for every image added to the reconstruction and "
-"a global adjustment every 100 images. Speeds up reconstruction for very "
-"large datasets. Default: %(default)s"
-msgstr ""
-"Futtasson helyi köteg-korrekciót minden, a rekonstrukcióhoz hozzáadott "
-"képhez, és globális korrekciót 100 képenként. Felgyorsítja a nagyon nagy "
-"adatkészletek rekonstrukcióját. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:13
-#, python-format
-msgid ""
-"Set the compression to use for orthophotos. Can be one of: %(choices)s. "
-"Default: %(default)s"
-msgstr ""
-"Állítsa be az ortofotókhoz használt tömörítést. A következők egyike lehet: "
-"%(choices)s. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:14
-#, python-format
-msgid ""
-"Set a camera projection type. Manually setting a value can help improve "
-"geometric undistortion. By default the application tries to determine a lens "
-"type from the images metadata. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-"Állítsa be a kamera vetületét. Az érték kézi beállítása javíthatja a "
-"geometriai torzításmentességet. Alapértelmezés szerint az alkalmazás "
-"megpróbálja meghatározni az objektív típusát a képek metaadataiból. A "
-"következők egyike lehet: %(choices)s. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:15
-#, python-format
-msgid ""
-"End processing at this stage. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-"Fejezze be a feldolgozást ebben a szakaszban. A következők egyike lehet: "
-"%(choices)s. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:16
-#, python-format
-msgid ""
-"Use images' GPS exif data for reconstruction, even if there are GCPs present."
-"This flag is useful if you have high precision GPS measurements. If there "
-"are no GCPs, this flag does nothing. Default: %(default)s"
-msgstr ""
-"Használja a képek GPS exif-adatait a rekonstrukcióhoz, még akkor is, ha "
-"vannak jelen GCP-k. Ez a jelző akkor hasznos, ha nagy pontosságú GPS-"
-"mérésekkel rendelkezik. Ha nincsenek GCP-k, ez a jelző nem tesz semmit. "
-"Alapértelmezett:%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:17
 #, python-format
 msgid ""
 "Number of steps used to fill areas with gaps. Set to 0 to disable gap "
@@ -1752,39 +1679,124 @@ msgstr ""
 "fennmaradó hézagokat ezután a legközelebbi szomszéd interpolációjával "
 "egyesítik. Alapértelmezett: %(default)s"
 
+#: app/static/app/js/translations/odm_autogenerated.js:13
+#, python-format
+msgid ""
+"Simple Morphological Filter slope parameter (rise over run). Default: "
+"%(default)s"
+msgstr ""
+"Egyszerű morfológiai szűrő meredekségi paramétere (futás feletti emelkedés). "
+"Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:14
+#, python-format
+msgid ""
+"Use the camera parameters computed from another dataset instead of "
+"calculating them. Can be specified either as path to a cameras.json file or "
+"as a JSON string representing the contents of a cameras.json file. Default: "
+"%(default)s"
+msgstr ""
+"A számítás helyett használja a másik adatkészletből számított "
+"kameraparamétereket. Megadható a cameras.json fájl elérési útjaként vagy a "
+"cameras.json fájl tartalmát képviselő JSON-karakterláncként. Alapértelmezett:"
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:15
+#, python-format
+msgid ""
+"Set the compression to use for orthophotos. Can be one of: %(choices)s. "
+"Default: %(default)s"
+msgstr ""
+"Állítsa be az ortofotókhoz használt tömörítést. A következők egyike lehet: "
+"%(choices)s. Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:16
+#, python-format
+msgid "The maximum vertex count of the output mesh. Default: %(default)s"
+msgstr ""
+"A kimeneti háló csúcsainak maximális száma. Alapértelmezett:%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:17
+#, python-format
+msgid ""
+"Export the georeferenced point cloud in CSV format. Default: %(default)s"
+msgstr ""
+"Exportálja a georeferált pontfelhőt CSV formátumban. Alapértelmezett: "
+"%(default)s"
+
 #: app/static/app/js/translations/odm_autogenerated.js:18
 #, python-format
 msgid ""
-"Do not attempt to merge partial reconstructions. This can happen when images "
-"do not have sufficient overlap or are isolated. Default: %(default)s"
+"Use this tag if you have a GCP File but want to use the EXIF information for "
+"georeferencing instead. Default: %(default)s"
 msgstr ""
+"Használja ezt a címkét, ha rendelkezik GCP-fájllal, de helyette az EXIF-"
+"információkat szeretné használni a földrajzi hivatkozásokhoz. "
+"Alapértelmezett: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:19
 #, python-format
 msgid ""
-"Filters the point cloud by removing points that deviate more than N standard "
-"deviations from the local mean. Set to 0 to disable filtering. Default: "
+"Rerun processing from this stage. Can be one of: %(choices)s. Default: "
 "%(default)s"
 msgstr ""
-"Szűri a pontfelhőt azáltal, hogy eltávolítja azokat a pontokat, amelyek N "
-"standard eltérésnél nagyobb mértékben térnek el a helyi átlagtól. A szűrés "
-"letiltásához állítsa 0-ra. Alapértelmezett: %(default)s"
+"Futtassa újra a feldolgozást ettől a szakasztól kezdve. A következők egyike "
+"lehet: %(choices)s. Alapértelmezett: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:20
 #, python-format
 msgid ""
-"Minimum number of features to extract per image. More features can be useful "
-"for finding more matches between images, potentially allowing the "
-"reconstruction of areas with little overlap or insufficient features. More "
-"features also slow down processing. Default: %(default)s"
+"Choose the structure from motion algorithm. For aerial datasets, if camera "
+"GPS positions and angles are available, triangulation can generate better "
+"results. For planar scenes captured at fixed altitude with nadir-only "
+"images, planar can be much faster. Can be one of: %(choices)s. Default: "
+"%(default)s"
 msgstr ""
-"Képenként kinyerhető funkciók minimális száma. Nagyobbra állítása hasznos "
-"lehet a képek közötti több egyezés megtalálásához, ami potenciálisan "
-"lehetővé teszi a kis átfedéssel rendelkező vagy elégtelen funkciókkal "
-"rendelkező területek rekonstrukcióját. Nagyobb érték lassítja a "
-"feldolgozást. Alapértelmezett:%(default)s"
+"Válassza ki a szerkezetet a mozgási algoritmusból. Légi adatkészleteknél, ha "
+"rendelkezésre állnak a kamera GPS-pozíciói és szögei, a háromszögelés jobb "
+"eredményeket hozhat létre. Rögzített tengerszint feletti magasságban "
+"rögzített, csak nadírképekkel készített síkbeli jelenetek esetén a planáris "
+"sokkal gyorsabb lehet. Ezek egyike lehet: %(choices)s. Alapértelmezés: "
+"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:21
+#, python-format
+msgid ""
+"GeoJSON polygon limiting the area of the reconstruction. Can be specified "
+"either as path to a GeoJSON file or as a JSON string representing the "
+"contents of a GeoJSON file. Default: %(default)s"
+msgstr ""
+"A rekonstrukció területét korlátozó GeoJSON poligon. Megadható egy GeoJSON-"
+"fájl elérési útjaként vagy egy GeoJSON-fájl tartalmát reprezentáló JSON-"
+"karakterláncként. Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:22
+#, python-format
+msgid ""
+"Export the georeferenced point cloud in Entwine Point Tile (EPT) format. "
+"Default: %(default)s"
+msgstr ""
+"Georeferált pontfelhő exportálása Entwine Point Tile (EPT) formátumba. "
+"Alapértelmezés: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:23
+#, python-format
+msgid ""
+"Skip normalization of colors across all images. Useful when processing "
+"radiometric data. Default: %(default)s"
+msgstr ""
+"A színek normalizálásának kihagyása az összes képen. Hasznos radiometriai "
+"adatok feldolgozásakor. Alapértelmezett:%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:24
+#, python-format
+msgid ""
+"Export the georeferenced point cloud in LAS format. Default: %(default)s"
+msgstr ""
+"A georeferált pontfelhő exportálása LAS formátumba. alapértelmezés: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:25
 #, python-format
 msgid ""
 "Skip generation of the orthophoto. This can save time if you only need 3D "
@@ -1793,120 +1805,47 @@ msgstr ""
 "Az ortofotó generálásának kihagyása. Ezzel időt takaríthat meg, ha csak 3D "
 "eredményekre vagy DEM-ekre van szüksége. Alapértelmezés: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:22
-#, python-format
-msgid ""
-"Set this parameter if you want to generate a PNG rendering of the "
-"orthophoto. Default: %(default)s"
-msgstr ""
-"Állítsa be ezt a paramétert, ha az ortofotó PNG-megjelenítését szeretné "
-"előállítani. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:23
-#, python-format
-msgid ""
-"Turn off camera parameter optimization during bundle adjustment. This can be "
-"sometimes useful for improving results that exhibit doming/bowling or when "
-"images are taken with a rolling shutter camera. Default: %(default)s"
-msgstr ""
-"Kapcsolja ki a kameraparaméter-optimalizálást a köteg beállítása közben. Ez "
-"néha hasznos lehet a domborulatos/bowling eredmények javításához, vagy "
-"amikor a képeket redőnyös kamerával készítik. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:24
-msgid "Displays version number and exits. "
-msgstr "Kiírja a verziószámot és kilép. "
-
-#: app/static/app/js/translations/odm_autogenerated.js:25
-#, python-format
-msgid ""
-"Name of dataset (i.e subfolder name within project folder). Default: "
-"%(default)s"
-msgstr ""
-"Az adatkészlet neve (azaz a projektmappán belüli almappa neve). "
-"Alapértelmezett:%(default)s"
-
 #: app/static/app/js/translations/odm_autogenerated.js:26
 #, python-format
 msgid ""
-"Skip generation of a full 3D model. This can save time if you only need 2D "
-"results such as orthophotos and DEMs. Default: %(default)s"
+"Set a GPS offset in meters for the vertical axis (Z) by adding it to the "
+"altitude value of the GPS EXIF data. This does not change the value of any "
+"GCPs. This can be useful for example when adjusting from ellipsoidal to "
+"orthometric height. Default: %(default)s"
 msgstr ""
-"Kihagyja a teljes 3D-s modell generálását. Ezzel időt takaríthat meg, ha "
-"csak 2D eredményekre van szüksége, például ortofotókra és DEM-ekre. "
-"Alapértelmezett: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:27
 #, python-format
 msgid ""
-"Perform ground rectification on the point cloud. This means that wrongly "
-"classified ground points will be re-classified and gaps will be filled. "
-"Useful for generating DTMs. Default: %(default)s"
+"Set a value in meters for the GPS Dilution of Precision (DOP) information "
+"for all images. If your images are tagged with high precision GPS "
+"information (RTK), this value will be automatically set accordingly. You can "
+"use this option to manually set it in case the reconstruction fails. "
+"Lowering this option can sometimes help control bowling-effects over large "
+"areas. Default: %(default)s"
 msgstr ""
-"Végezzen talajegyenesítést a pontfelhőn. Ez azt jelenti, hogy a hibásan "
-"besorolt földi pontokat átsorolják és a hiányosságokat pótolják. Hasznos DTM-"
-"ek generálásához. Alapértelmezett: %(default)s"
+"Állítson be egy értéket méterben a GPS pontosság (DOP) információhoz az "
+"összes képhez. Ha a képek nagy pontosságú GPS-információval (RTK) vannak "
+"megcímkézve, ez az érték automatikusan ennek megfelelően kerül beállításra. "
+"Ezzel az opcióval manuálisan beállíthatja, ha a rekonstrukció sikertelen "
+"lenne. Ennek az opciónak a csökkentése néha segíthet a bowling-jelenség "
+"szabályozásában nagy területeken. Alapértelmezett: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:28
 #, python-format
-msgid "The maximum vertex count of the output mesh. Default: %(default)s"
+msgid ""
+"Delete heavy intermediate files to optimize disk space usage. This affects "
+"the ability to restart the pipeline from an intermediate stage, but allows "
+"datasets to be processed on machines that don't have sufficient disk space "
+"available. Default: %(default)s"
 msgstr ""
-"A kimeneti háló csúcsainak maximális száma. Alapértelmezett:%(default)s"
+"Törölje a nehéz köztes fájlokat a lemezterület-használat optimalizálása "
+"érdekében. Ez befolyásolja a folyamat közbenső szakaszból történő "
+"újraindításának lehetőségét, de lehetővé teszi az adatkészletek "
+"feldolgozását olyan gépeken, amelyeken nincs elegendő lemezterület. "
+"Alapértelmezett: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:29
-#, python-format
-msgid ""
-"Choose the algorithm for extracting keypoints and computing descriptors. Can "
-"be one of: %(choices)s. Default: %(default)s"
-msgstr ""
-"Válasszon algoritmust a kulcspontok kinyerésére és a leírók számítására. "
-"Ezek egyike lehet: %(choices)s. Alapértelmezés: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:30
-#, fuzzy, python-format
-#| msgid ""
-#| "Ignore Ground Sampling Distance (GSD). GSD caps the maximum resolution of "
-#| "image outputs and resizes images when necessary, resulting in faster "
-#| "processing and lower memory usage. Since GSD is an estimate, sometimes "
-#| "ignoring it can result in slightly better image output quality. Default: "
-#| "%(default)s"
-msgid ""
-"Ignore Ground Sampling Distance (GSD).A memory and processor hungry change "
-"relative to the default behavior if set to true. Ordinarily, GSD estimates "
-"are used to cap the maximum resolution of image outputs and resizes images "
-"when necessary, resulting in faster processing and lower memory usage. Since "
-"GSD is an estimate, sometimes ignoring it can result in slightly better "
-"image output quality. Never set --ignore-gsd to true unless you are positive "
-"you need it, and even then: do not use it. Default: %(default)s"
-msgstr ""
-"A földi mintavételi távolság (GSD) figyelmen kívül hagyása. A GSD korlátozza "
-"a képkimenetek maximális felbontását, és szükség esetén átméretezi a "
-"képeket, ami gyorsabb feldolgozást és alacsonyabb memóriahasználatot "
-"eredményez. Mivel a GSD becslés, néha figyelmen kívül hagyása valamivel jobb "
-"képminőséget eredményezhet. Alapértelmezett:%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:31
-#, fuzzy, python-format
-#| msgid "Generates a benchmark file with runtime info. Default: %(default)s"
-msgid ""
-"Generate single file Binary glTF (GLB) textured models. Default:  %(default)s"
-msgstr ""
-"A futási információkat tartalmazó fájl generál. Alapértelmezés: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:32
-#, python-format
-msgid ""
-"Set point cloud quality. Higher quality generates better, denser point "
-"clouds, but requires more memory and takes longer. Each step up in quality "
-"increases processing time roughly by a factor of 4x.Can be one of: "
-"%(choices)s. Default: %(default)s"
-msgstr ""
-"Állítsa be a pontfelhő minőségét. A jobb minőség jobb, sűrűbb pontfelhőket "
-"generál, de több memóriát igényel, és tovább tart. A minőség minden egyes "
-"lépése körülbelül 4-szeresére növeli a feldolgozási időt. A következők "
-"egyike lehet: %(choices)s. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:33
 #, fuzzy, python-format
 #| msgid ""
 #| "Orthophoto resolution in cm / pixel. Note that this value is capped by a "
@@ -1921,30 +1860,7 @@ msgstr ""
 "eltávolításához jelölje be a --ignore-gsd jelet is. Alapértelmezett: "
 "%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:34
-#, python-format
-msgid ""
-"During the orthophoto merging, skip expensive blending operation: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:35
-#, python-format
-msgid ""
-"Keep faces in the mesh that are not seen in any camera. Default:  %(default)s"
-msgstr ""
-"Tartsa a hálóban azokat az arcokat, amelyeket egyetlen kamera sem lát. "
-"Alapértelmezés: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:36
-#, python-format
-msgid ""
-"Set a GPS offset in meters for the vertical axis (Z) by adding it to the "
-"altitude value of the GPS EXIF data. This does not change the value of any "
-"GCPs. This can be useful for example when adjusting from ellipsoidal to "
-"orthometric height. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:37
+#: app/static/app/js/translations/odm_autogenerated.js:30
 #, python-format
 msgid ""
 "Path to a GeoTIFF DEM or a LAS/LAZ point cloud that the reconstruction "
@@ -1952,40 +1868,48 @@ msgid ""
 "%(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:38
+#: app/static/app/js/translations/odm_autogenerated.js:31
 #, python-format
 msgid ""
-"Build orthophoto overviews for faster display in programs such as QGIS. "
-"Default: %(default)s"
+"Name of dataset (i.e subfolder name within project folder). Default: "
+"%(default)s"
 msgstr ""
-"Készítsen ortofotó áttekintéseket a gyorsabb megjelenítés érdekében olyan "
-"programokban, mint a QGIS. Alapértelmezett: %(default)s"
+"Az adatkészlet neve (azaz a projektmappán belüli almappa neve). "
+"Alapértelmezett:%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:39
-#, fuzzy, python-format
-#| msgid ""
-#| "Skip normalization of colors across all images. Useful when processing "
-#| "radiometric data. Default: %(default)s"
-msgid ""
-"Skip alignment of submodels in split-merge. Useful if GPS is good enough on "
-"very large datasets. Default: %(default)s"
-msgstr ""
-"A színek normalizálásának kihagyása az összes képen. Hasznos radiometriai "
-"adatok feldolgozásakor. Alapértelmezett:%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:40
+#: app/static/app/js/translations/odm_autogenerated.js:32
 #, python-format
 msgid ""
-"Automatically set a boundary using camera shot locations to limit the area "
-"of the reconstruction. This can help remove far away background artifacts "
-"(sky, background landscapes, etc.). See also --boundary. Default: %(default)s"
+"Run local bundle adjustment for every image added to the reconstruction and "
+"a global adjustment every 100 images. Speeds up reconstruction for very "
+"large datasets. Default: %(default)s"
 msgstr ""
-"Automatikusan állítson be határt a kamera felvételi helyeinek használatával, "
-"hogy korlátozza a rekonstrukció területét. Ez segíthet eltávolítani a távoli "
-"háttérműtermékeket (égbolt, háttér tájak stb.). Lásd még --határ. "
-"Alapértelmezett: %(default)s"
+"Futtasson helyi köteg-korrekciót minden, a rekonstrukcióhoz hozzáadott "
+"képhez, és globális korrekciót 100 képenként. Felgyorsítja a nagyon nagy "
+"adatkészletek rekonstrukcióját. Alapértelmezett: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:41
+#: app/static/app/js/translations/odm_autogenerated.js:33
+#, python-format
+msgid ""
+"Keep faces in the mesh that are not seen in any camera. Default:  %(default)s"
+msgstr ""
+"Tartsa a hálóban azokat az arcokat, amelyeket egyetlen kamera sem lát. "
+"Alapértelmezés: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:34
+#, python-format
+msgid ""
+"Skips dense reconstruction and 3D model generation. It generates an "
+"orthophoto directly from the sparse reconstruction. If you just need an "
+"orthophoto and do not need a full 3D model, turn on this option. Default: "
+"%(default)s"
+msgstr ""
+"Kihagyja a sűrű rekonstrukciót és a 3D-s modellgenerálást. Közvetlenül a "
+"ritka rekonstrukcióból generál ortofotót. Ha csak egy ortofotóra van "
+"szüksége, és nincs szüksége teljes 3D-s modellre, kapcsolja be ezt az "
+"opciót. Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:35
 #, fuzzy, python-format
 #| msgid ""
 #| "Automatically crop image outputs by creating a smooth buffer around the "
@@ -2000,119 +1924,64 @@ msgstr ""
 "puffer létrehozásával, N méterrel csökkentve. Használja a 0-t a kivágás "
 "letiltásához. Alapértelmezett:%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:42
+#: app/static/app/js/translations/odm_autogenerated.js:36
 #, python-format
 msgid ""
-"Export the georeferenced point cloud in Entwine Point Tile (EPT) format. "
+"Use a full 3D mesh to compute the orthophoto instead of a 2.5D mesh. This "
+"option is a bit faster and provides similar results in planar areas. "
 "Default: %(default)s"
 msgstr ""
-"Georeferált pontfelhő exportálása Entwine Point Tile (EPT) formátumba. "
-"Alapértelmezés: %(default)s"
+"Használjon teljes 3D-s hálót az ortofotó kiszámításához a 2,5D-s háló "
+"helyett. Ez az opció valamivel gyorsabb, és hasonló eredményeket biztosít a "
+"sík területeken. Alapértelmezett: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:43
+#: app/static/app/js/translations/odm_autogenerated.js:37
 #, python-format
 msgid ""
-"Rerun processing from this stage. Can be one of: %(choices)s. Default: "
+"Create Cloud-Optimized GeoTIFFs instead of normal GeoTIFFs. Default: "
 "%(default)s"
 msgstr ""
-"Futtassa újra a feldolgozást ettől a szakasztól kezdve. A következők egyike "
-"lehet: %(choices)s. Alapértelmezett: %(default)s"
+"Készítsen felhőre optimalizált GeoTIFF-eket a normál GeoTIFF-ek helyett. "
+"Alapértelmezett: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:44
+#: app/static/app/js/translations/odm_autogenerated.js:38
 #, python-format
 msgid ""
-"GeoJSON polygon limiting the area of the reconstruction. Can be specified "
-"either as path to a GeoJSON file or as a JSON string representing the "
-"contents of a GeoJSON file. Default: %(default)s"
-msgstr ""
-"A rekonstrukció területét korlátozó GeoJSON poligon. Megadható egy GeoJSON-"
-"fájl elérési útjaként vagy egy GeoJSON-fájl tartalmát reprezentáló JSON-"
-"karakterláncként. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:45
-#, python-format
-msgid ""
-"Path to the image groups file that controls how images should be split into "
-"groups. The file needs to use the following format: image_name "
-"group_nameDefault: %(default)s"
-msgstr ""
-"A képcsoportok fájl elérési útja, amely szabályozza a képek csoportokra való "
-"felosztását. A fájlnak a következő formátumot kell használnia: kép_neve "
-"csoport_neve Alapértelmezett:%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:46
-#, python-format
-msgid ""
-"Perform image matching with the nearest images based on GPS exif data. Set "
-"to 0 to match by triangulation. Default: %(default)s"
-msgstr ""
-"Végezze el a képegyeztetést a legközelebbi képekkel a GPS exif adatok "
-"alapján. Állítsa 0-ra, hogy a háromszögelés alapján illeszkedjen. "
-"Alapértelmezés: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:47
-#, python-format
-msgid ""
-"When processing multispectral datasets, you can specify the name of the "
-"primary band that will be used for reconstruction. It's recommended to "
-"choose a band which has sharp details and is in focus. Default: %(default)s"
-msgstr ""
-"Multispektrális adatkészletek feldolgozásakor megadhatja a rekonstrukcióhoz "
-"használt elsődleges sáv nevét. Javasoljuk, hogy olyan sávot válasszunk, "
-"amely éles részletekkel rendelkezik és fókuszban van. Alapértelmezett:"
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:48
-#, fuzzy, python-format
-#| msgid "The maximum vertex count of the output mesh. Default: %(default)s"
-msgid ""
-"The maximum output resolution of extracted video frames in pixels. Default: "
-"%(default)s"
-msgstr ""
-"A kimeneti háló csúcsainak maximális száma. Alapértelmezett:%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:49
-#, python-format
-msgid ""
-"Save the georeferenced point cloud in Cloud Optimized Point Cloud (COPC) "
-"format. Default: %(default)s"
-msgstr ""
-"Georeferált pontfelhő exportálása Cloud Optimized Point Cloud (COPC) "
-"formátumba. Alapértelmezés: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:50
-#, python-format
-msgid ""
-"Set feature extraction quality. Higher quality generates better features, "
-"but requires more memory and takes longer. Can be one of: %(choices)s. "
+"Computes an euclidean raster map for each DEM. The map reports the distance "
+"from each cell to the nearest NODATA value (before any hole filling takes "
+"place). This can be useful to isolate the areas that have been filled. "
 "Default: %(default)s"
 msgstr ""
-"Állítsa be a kihúzási minőségét. A jobb minőség jobb funkciókat generál, de "
-"több memóriát igényel, és tovább tart. A következők egyike lehet: "
-"%(choices)s. Alapértelmezett: %(default)s"
+"Euklideszi raszteres térképet készít minden egyes DEM-hez. A térkép jelenti "
+"az egyes celláktól a legközelebbi NODATA értékig mért távolságot (mielőtt "
+"bármilyen lyuk kitöltésre kerülne sor). Ez hasznos lehet a feltöltött "
+"területek elkülönítésére. Alapértelmezett: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:51
+#: app/static/app/js/translations/odm_autogenerated.js:39
 #, python-format
 msgid ""
-"Skips dense reconstruction and 3D model generation. It generates an "
-"orthophoto directly from the sparse reconstruction. If you just need an "
-"orthophoto and do not need a full 3D model, turn on this option. Default: "
+"Turn on rolling shutter correction. If the camera has a rolling shutter and "
+"the images were taken in motion, you can turn on this option to improve the "
+"accuracy of the results. See also --rolling-shutter-readout. Default: "
 "%(default)s"
 msgstr ""
-"Kihagyja a sűrű rekonstrukciót és a 3D-s modellgenerálást. Közvetlenül a "
-"ritka rekonstrukcióból generál ortofotót. Ha csak egy ortofotóra van "
-"szüksége, és nincs szüksége teljes 3D-s modellre, kapcsolja be ezt az "
-"opciót. Alapértelmezett: %(default)s"
+"Kapcsolja be a redőnykorrekciót. Ha a fényképezőgép redőnnyel rendelkezik, "
+"és a képek mozgásban készültek, bekapcsolhatja ezt a lehetőséget, hogy "
+"javítsa az eredmények pontosságát. Lásd még --rolling-shutter-readout. "
+"Alapértelmezett: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:52
+#: app/static/app/js/translations/odm_autogenerated.js:40
 #, python-format
 msgid ""
-"Export the georeferenced point cloud in LAS format. Default: %(default)s"
+"Generates a polygon around the cropping area that cuts the orthophoto around "
+"the edges of features. This polygon can be useful for stitching seamless "
+"mosaics with multiple overlapping orthophotos. Default: %(default)s"
 msgstr ""
-"A georeferált pontfelhő exportálása LAS formátumba. alapértelmezés: "
-"%(default)s"
+"Sokszöget hoz létre a vágási terület körül, amely elvágja az ortofotót a "
+"tereptárgyak szélei körül. Ez a sokszög hasznos lehet több egymást átfedő "
+"ortofotó mozaikok összefűzéséhez. Alapértelmezett: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:53
+#: app/static/app/js/translations/odm_autogenerated.js:41
 #, python-format
 msgid ""
 "Set the radiometric calibration to perform on images. When processing "
@@ -2136,82 +2005,29 @@ msgstr ""
 "sugárzást, figyelembe véve a nap szögét. A következők egyike lehet: "
 "%(choices)s. Alapértelmezett:%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:54
+#: app/static/app/js/translations/odm_autogenerated.js:42
 #, python-format
 msgid ""
-"Simple Morphological Filter slope parameter (rise over run). Default: "
-"%(default)s"
+"Set point cloud quality. Higher quality generates better, denser point "
+"clouds, but requires more memory and takes longer. Each step up in quality "
+"increases processing time roughly by a factor of 4x.Can be one of: "
+"%(choices)s. Default: %(default)s"
 msgstr ""
-"Egyszerű morfológiai szűrő meredekségi paramétere (futás feletti emelkedés). "
-"Alapértelmezett: %(default)s"
+"Állítsa be a pontfelhő minőségét. A jobb minőség jobb, sűrűbb pontfelhőket "
+"generál, de több memóriát igényel, és tovább tart. A minőség minden egyes "
+"lépése körülbelül 4-szeresére növeli a feldolgozási időt. A következők "
+"egyike lehet: %(choices)s. Alapértelmezett: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:55
-msgid "show this help message and exit"
-msgstr "jelenítse meg ezt a súgóüzenetet, és lépjen ki"
-
-#: app/static/app/js/translations/odm_autogenerated.js:56
+#: app/static/app/js/translations/odm_autogenerated.js:43
 #, python-format
 msgid ""
-"Specify the distance between camera shot locations and the outer edge of the "
-"boundary when computing the boundary with --auto-boundary. Set to 0 to "
-"automatically choose a value. Default: %(default)s"
+"Generate static tiles for orthophotos and DEMs that are suitable for viewers "
+"like Leaflet or OpenLayers. Default: %(default)s"
 msgstr ""
+"Statikus csempék létrehozása ortofotókhoz és DEM-ekhez, amelyek alkalmasak "
+"Leaflet vagy az OpenLayers megtekintéshez. Alapértelmezett:%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:57
-#, python-format
-msgid ""
-"Choose what to merge in the merge step in a split dataset. By default all "
-"available outputs are merged. Options: %(choices)s. Default: %(default)s"
-msgstr ""
-"Válassza ki, hogy mit szeretne egyesíteni az egyesítési lépésben egy "
-"felosztott adatkészletben. Alapértelmezés szerint az összes elérhető kimenet "
-"egyesül. Opciók: %(choices)s. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:58
-#, python-format
-msgid ""
-"Set a value in meters for the GPS Dilution of Precision (DOP) information "
-"for all images. If your images are tagged with high precision GPS "
-"information (RTK), this value will be automatically set accordingly. You can "
-"use this option to manually set it in case the reconstruction fails. "
-"Lowering this option can sometimes help control bowling-effects over large "
-"areas. Default: %(default)s"
-msgstr ""
-"Állítson be egy értéket méterben a GPS pontosság (DOP) információhoz az "
-"összes képhez. Ha a képek nagy pontosságú GPS-információval (RTK) vannak "
-"megcímkézve, ez az érték automatikusan ennek megfelelően kerül beállításra. "
-"Ezzel az opcióval manuálisan beállíthatja, ha a rekonstrukció sikertelen "
-"lenne. Ennek az opciónak a csökkentése néha segíthet a bowling-jelenség "
-"szabályozásában nagy területeken. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:59
-#, python-format
-msgid ""
-"Path to the file containing the ground control points used for "
-"georeferencing. The file needs to use the following format: EPSG:<code> or "
-"<+proj definition>geo_x geo_y geo_z im_x im_y image_name [gcp_name] [extra1] "
-"[extra2]Default: %(default)s"
-msgstr ""
-"Útvonal az illesztőpontokat tartalmazó fájlhoz, melyet a georeferáláshoz "
-"használunk, A fájlnak a következő formátumot kell használnia: EPSG: <kód> "
-"vagy +proj definíció>geo_x geo_y geo_z kép_x kép_y kép_név [GCP_név] "
-"[extra1] [extra2] Alapértelmezés: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:60
-#, python-format
-msgid ""
-"Delete heavy intermediate files to optimize disk space usage. This affects "
-"the ability to restart the pipeline from an intermediate stage, but allows "
-"datasets to be processed on machines that don't have sufficient disk space "
-"available. Default: %(default)s"
-msgstr ""
-"Törölje a nehéz köztes fájlokat a lemezterület-használat optimalizálása "
-"érdekében. Ez befolyásolja a folyamat közbenső szakaszból történő "
-"újraindításának lehetőségét, de lehetővé teszi az adatkészletek "
-"feldolgozását olyan gépeken, amelyeken nincs elegendő lemezterület. "
-"Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:61
+#: app/static/app/js/translations/odm_autogenerated.js:44
 #, fuzzy, python-format
 #| msgid ""
 #| "Improve the accuracy of the point cloud by computing geometrically "
@@ -2226,15 +2042,7 @@ msgstr ""
 "kiszámításával. Ez növeli a feldolgozási időt, de javíthatja az eredményeket "
 "városi köznyezetben. Alapértelmezett:%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:62
-#, python-format
-msgid ""
-"Do not use GPU acceleration, even if it's available. Default: %(default)s"
-msgstr ""
-"Ne használjon GPU-gyorsítást, még akkor sem, ha elérhető. Alapértelmezett: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:63
+#: app/static/app/js/translations/odm_autogenerated.js:45
 #, python-format
 msgid ""
 "Simple Morphological Filter elevation scalar parameter. Default: %(default)s"
@@ -2242,7 +2050,65 @@ msgstr ""
 "Egyszerű morfológiai szűrő magassági skaláris paraméter. Alapértelmezett: "
 "%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:64
+#: app/static/app/js/translations/odm_autogenerated.js:46
+#, python-format
+msgid ""
+"Skip generation of PDF report. This can save time if you don't need a "
+"report. Default: %(default)s"
+msgstr ""
+"PDF jelentés generálásának átugrása. Időt spórolhat, ha nincs szüksége a "
+"jelentésre. Alapértelmezés: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:47
+#, fuzzy, python-format
+#| msgid ""
+#| "Classify the point cloud outputs using a Simple Morphological Filter. You "
+#| "can control the behavior of this option by tweaking the --dem-* "
+#| "parameters. Default: %(default)s"
+msgid ""
+"Classify the point cloud outputs. You can control the behavior of this "
+"option by tweaking the --dem-* parameters. Default: %(default)s"
+msgstr ""
+"Az output pontfelhő osztályozása a Simple Morphological szűrővel. Ennek a "
+"beállításnak a viselkedését a --dem-* paraméterekkel szabályozhatja. "
+"Alapértelmezés: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:48
+msgid "show this help message and exit"
+msgstr "jelenítse meg ezt a súgóüzenetet, és lépjen ki"
+
+#: app/static/app/js/translations/odm_autogenerated.js:49
+#, python-format
+msgid ""
+"Choose what to merge in the merge step in a split dataset. By default all "
+"available outputs are merged. Options: %(choices)s. Default: %(default)s"
+msgstr ""
+"Válassza ki, hogy mit szeretne egyesíteni az egyesítési lépésben egy "
+"felosztott adatkészletben. Alapértelmezés szerint az összes elérhető kimenet "
+"egyesül. Opciók: %(choices)s. Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:50
+#, python-format
+msgid ""
+"Automatically compute image masks using AI to remove the sky. Experimental. "
+"Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:51
+msgid "Displays version number and exits. "
+msgstr "Kiírja a verziószámot és kilép. "
+
+#: app/static/app/js/translations/odm_autogenerated.js:52
+#, python-format
+msgid ""
+"Perform image matching with the nearest images based on GPS exif data. Set "
+"to 0 to match by triangulation. Default: %(default)s"
+msgstr ""
+"Végezze el a képegyeztetést a legközelebbi képekkel a GPS exif adatok "
+"alapján. Állítsa 0-ra, hogy a háromszögelés alapján illeszkedjen. "
+"Alapértelmezés: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:53
 #, python-format
 msgid ""
 "Rerun this stage only and stop. Can be one of: %(choices)s. Default: "
@@ -2251,7 +2117,25 @@ msgstr ""
 "Csak ezt a lépést futtatja újra és megáll. Ezek egyike lehet: %(choices)s. "
 "Alapértelmezés: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:65
+#: app/static/app/js/translations/odm_autogenerated.js:54
+#, python-format
+msgid ""
+"Simple Morphological Filter window radius parameter (meters). Default: "
+"%(default)s"
+msgstr ""
+"Egyszerű morfológiai szűrő ablak sugara paraméter (méter). Alapértelmezett: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:55
+#, python-format
+msgid ""
+"End processing at this stage. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"Fejezze be a feldolgozást ebben a szakaszban. A következők egyike lehet: "
+"%(choices)s. Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:56
 #, fuzzy, python-format
 #| msgid ""
 #| "Perform image matching with the nearest images based on GPS exif data. "
@@ -2266,157 +2150,91 @@ msgstr ""
 "alapján. Állítsa 0-ra, hogy a háromszögelés alapján illeszkedjen. "
 "Alapértelmezés: %(default)s"
 
+#: app/static/app/js/translations/odm_autogenerated.js:57
+#, python-format
+msgid ""
+"Choose the algorithm for extracting keypoints and computing descriptors. Can "
+"be one of: %(choices)s. Default: %(default)s"
+msgstr ""
+"Válasszon algoritmust a kulcspontok kinyerésére és a leírók számítására. "
+"Ezek egyike lehet: %(choices)s. Alapértelmezés: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:58
+#, python-format
+msgid ""
+"Set this parameter if you want to generate a PNG rendering of the "
+"orthophoto. Default: %(default)s"
+msgstr ""
+"Állítsa be ezt a paramétert, ha az ortofotó PNG-megjelenítését szeretné "
+"előállítani. Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:59
+#, python-format
+msgid ""
+"Maximum number of frames to extract from video files for processing. Set to "
+"0 for no limit. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:60
+#, python-format
+msgid ""
+"Specify the distance between camera shot locations and the outer edge of the "
+"boundary when computing the boundary with --auto-boundary. Set to 0 to "
+"automatically choose a value. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:61
+#, python-format
+msgid ""
+"Path to the image groups file that controls how images should be split into "
+"groups. The file needs to use the following format: image_name "
+"group_nameDefault: %(default)s"
+msgstr ""
+"A képcsoportok fájl elérési útja, amely szabályozza a képek csoportokra való "
+"felosztását. A fájlnak a következő formátumot kell használnia: kép_neve "
+"csoport_neve Alapértelmezett:%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:62
+msgid ""
+"Path to the project folder. Your project folder should contain subfolders "
+"for each dataset. Each dataset should have an \"images\" folder."
+msgstr ""
+"A projektmappa elérési útja. A projektmappának minden adatkészlethez "
+"almappákat kell tartalmaznia. Minden adatkészletnek rendelkeznie kell egy "
+"\"images\" mappával."
+
+#: app/static/app/js/translations/odm_autogenerated.js:63
+#, python-format
+msgid ""
+"Simple Morphological Filter elevation threshold parameter (meters). Default: "
+"%(default)s"
+msgstr ""
+"Egyszerű morfológiai szűrő magassági küszöb paraméter (méter). "
+"Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:64
+#, python-format
+msgid ""
+"Do not use GPU acceleration, even if it's available. Default: %(default)s"
+msgstr ""
+"Ne használjon GPU-gyorsítást, még akkor sem, ha elérhető. Alapértelmezett: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:65
+#, python-format
+msgid ""
+"Override the rolling shutter readout time for your camera sensor (in "
+"milliseconds), instead of using the rolling shutter readout database. Note "
+"that not all cameras are present in the database. Set to 0 to use the "
+"database value. Default: %(default)s"
+msgstr ""
+"A program adatbázisának használata helyett, állítsa be a kamera lapozási "
+"értékét idejét (rolling shutter readout) a fényképezőgép érzékelőjéhez "
+"(ezredmásodpercben). Vegye figyelembe, hogy nem minden kamera található az "
+"adatbázisban. Az adatbázis értékének használatához állítsa 0-ra. "
+"Alapértelmezett:%(default)s"
+
 #: app/static/app/js/translations/odm_autogenerated.js:66
-#, python-format
-msgid ""
-"Generates a polygon around the cropping area that cuts the orthophoto around "
-"the edges of features. This polygon can be useful for stitching seamless "
-"mosaics with multiple overlapping orthophotos. Default: %(default)s"
-msgstr ""
-"Sokszöget hoz létre a vágási terület körül, amely elvágja az ortofotót a "
-"tereptárgyak szélei körül. Ez a sokszög hasznos lehet több egymást átfedő "
-"ortofotó mozaikok összefűzéséhez. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:67
-#, python-format
-msgid ""
-"Automatically compute image masks using AI to remove the sky. Experimental. "
-"Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:68
-#, python-format
-msgid "Generate OGC 3D Tiles outputs. Default: %(default)s"
-msgstr "OGC 3D csempék kimenetek generálása. Alapértelmezés: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:69
-#, python-format
-msgid ""
-"Skip normalization of colors across all images. Useful when processing "
-"radiometric data. Default: %(default)s"
-msgstr ""
-"A színek normalizálásának kihagyása az összes képen. Hasznos radiometriai "
-"adatok feldolgozásakor. Alapértelmezett:%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:70
-#, python-format
-msgid ""
-"Use this tag if you have a GCP File but want to use the EXIF information for "
-"georeferencing instead. Default: %(default)s"
-msgstr ""
-"Használja ezt a címkét, ha rendelkezik GCP-fájllal, de helyette az EXIF-"
-"információkat szeretné használni a földrajzi hivatkozásokhoz. "
-"Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:71
-#, python-format
-msgid ""
-"Decimate the points before generating the DEM. 1 is no decimation (full "
-"quality). 100 decimates ~99%% of the points. Useful for speeding up "
-"generation of DEM results in very large datasets. Default: %(default)s"
-msgstr ""
-"DEM generálása előtt megtizedeli a pontokat. ' nincs tizedelés (teljes "
-"minőség). 100 pontok ~99%%-ának kihagyása. Hasznos a DEM generálás "
-"felgyorsítására nagyon nagy adathalmazok esetén. Alapértelmezés: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:72
-#, python-format
-msgid ""
-"Use the camera parameters computed from another dataset instead of "
-"calculating them. Can be specified either as path to a cameras.json file or "
-"as a JSON string representing the contents of a cameras.json file. Default: "
-"%(default)s"
-msgstr ""
-"A számítás helyett használja a másik adatkészletből számított "
-"kameraparamétereket. Megadható a cameras.json fájl elérési útjaként vagy a "
-"cameras.json fájl tartalmát képviselő JSON-karakterláncként. Alapértelmezett:"
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:73
-msgid ""
-"Permanently delete all previous results and rerun the processing pipeline."
-msgstr ""
-"Véglegesen törölje az összes korábbi eredményt, és futtassa újra a "
-"feldolgozási folyamatot."
-
-#: app/static/app/js/translations/odm_autogenerated.js:74
-#, python-format
-msgid ""
-"The maximum number of processes to use in various processes. Peak memory "
-"requirement is ~1GB per thread and 2 megapixel image resolution. Default: "
-"%(default)s"
-msgstr ""
-"A különböző folyamatokban használható folyamatok maximális száma. A "
-"maximális memóriaigény ~ 1 GB szálanként és 2 megapixeles képfelbontás. "
-"Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:75
-msgid "Copy output results to this folder after processing."
-msgstr "A feldolgozás után másolja a kimeneti eredményeket ebbe a mappába."
-
-#: app/static/app/js/translations/odm_autogenerated.js:76
-#, python-format
-msgid ""
-"URL to a ClusterODM instance for distributing a split-merge workflow on "
-"multiple nodes in parallel. Default: %(default)s"
-msgstr ""
-"URL egy ClusterODM példányhoz egy felosztás-egyesítés munkafolyamat "
-"szétosztásához több csomópontra párhuzamosan. Alapértelmezés: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:77
-#, python-format
-msgid ""
-"Create Cloud-Optimized GeoTIFFs instead of normal GeoTIFFs. Default: "
-"%(default)s"
-msgstr ""
-"Készítsen felhőre optimalizált GeoTIFF-eket a normál GeoTIFF-ek helyett. "
-"Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:78
-#, python-format
-msgid ""
-"Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag of "
-"Words. FLANN is slower, but more stable. BOW is faster, but can sometimes "
-"miss valid matches. BRUTEFORCE is very slow but robust.Can be one of: "
-"%(choices)s. Default: %(default)s"
-msgstr ""
-"Matcher algoritmus, gyors könyvtár a hozzávetőleges legközelebbi "
-"szomszédokhoz vagy szavak zsákja. A FLANN lassabb, de stabilabb. A BOW "
-"gyorsabb, de néha kihagyhat érvényes meccseket. A BRUTEFORCE nagyon lassú, "
-"de robusztus. A következők egyike lehet: %(choices)s. Alapértelmezett: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:79
-#, fuzzy, python-format
-#| msgid ""
-#| "Classify the point cloud outputs using a Simple Morphological Filter. You "
-#| "can control the behavior of this option by tweaking the --dem-* "
-#| "parameters. Default: %(default)s"
-msgid ""
-"Classify the point cloud outputs. You can control the behavior of this "
-"option by tweaking the --dem-* parameters. Default: %(default)s"
-msgstr ""
-"Az output pontfelhő osztályozása a Simple Morphological szűrővel. Ennek a "
-"beállításnak a viselkedését a --dem-* paraméterekkel szabályozhatja. "
-"Alapértelmezés: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:80
-#, python-format
-msgid "Set this parameter if you want a striped GeoTIFF. Default: %(default)s"
-msgstr ""
-"Állítsa be ezt a paramétert, ha csíkos GeoTIFF-et szeretne. Alapértelmezett: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:81
-#, python-format
-msgid ""
-"Octree depth used in the mesh reconstruction, increase to get more vertices, "
-"recommended values are 8-12. Default: %(default)s"
-msgstr ""
-"A háló rekonstrukciónál használt oktromélység, növelve, hogy több csúcsot "
-"kapjunk, az ajánlott értékek 8-12. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:82
 #, fuzzy, python-format
 #| msgid ""
 #| "Radius of the overlap between submodels. After grouping images into "
@@ -2434,44 +2252,182 @@ msgstr ""
 "hozzáadódnak a fürthöz. Ez azért történik, hogy a szomszédos részmodellek "
 "átfedjék egymást. Alapértelmezett:%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:83
-#, python-format
+#: app/static/app/js/translations/odm_autogenerated.js:67
+#, fuzzy, python-format
+#| msgid ""
+#| "Skip normalization of colors across all images. Useful when processing "
+#| "radiometric data. Default: %(default)s"
 msgid ""
-"Maximum number of frames to extract from video files for processing. Set to "
-"0 for no limit. Default: %(default)s"
+"Skip alignment of submodels in split-merge. Useful if GPS is good enough on "
+"very large datasets. Default: %(default)s"
 msgstr ""
+"A színek normalizálásának kihagyása az összes képen. Hasznos radiometriai "
+"adatok feldolgozásakor. Alapértelmezett:%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:84
+#: app/static/app/js/translations/odm_autogenerated.js:68
 #, python-format
 msgid ""
-"Skip generation of PDF report. This can save time if you don't need a "
-"report. Default: %(default)s"
+"The maximum number of processes to use in various processes. Peak memory "
+"requirement is ~1GB per thread and 2 megapixel image resolution. Default: "
+"%(default)s"
 msgstr ""
-"PDF jelentés generálásának átugrása. Időt spórolhat, ha nincs szüksége a "
-"jelentésre. Alapértelmezés: %(default)s"
+"A különböző folyamatokban használható folyamatok maximális száma. A "
+"maximális memóriaigény ~ 1 GB szálanként és 2 megapixeles képfelbontás. "
+"Alapértelmezett: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:85
+#: app/static/app/js/translations/odm_autogenerated.js:69
 #, python-format
-msgid ""
-"Use this tag to build a DSM (Digital Surface Model, ground + objects) using "
-"a progressive morphological filter. Check the --dem* parameters for finer "
-"tuning. Default: %(default)s"
+msgid "Set this parameter if you want a striped GeoTIFF. Default: %(default)s"
 msgstr ""
-"Használja ezt a címkét DSM (digitális felületmodell, föld + objektumok) "
-"létrehozásához progresszív morfológiai szűrő segítségével. Ellenőrizze a --"
-"dem* paramétereket a finomabb hangolás érdekében. Alapértelmezett: "
+"Állítsa be ezt a paramétert, ha csíkos GeoTIFF-et szeretne. Alapértelmezett: "
 "%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:86
+#: app/static/app/js/translations/odm_autogenerated.js:70
+#, python-format
 msgid ""
-"Path to the project folder. Your project folder should contain subfolders "
-"for each dataset. Each dataset should have an \"images\" folder."
+"Set feature extraction quality. Higher quality generates better features, "
+"but requires more memory and takes longer. Can be one of: %(choices)s. "
+"Default: %(default)s"
 msgstr ""
-"A projektmappa elérési útja. A projektmappának minden adatkészlethez "
-"almappákat kell tartalmaznia. Minden adatkészletnek rendelkeznie kell egy "
-"\"images\" mappával."
+"Állítsa be a kihúzási minőségét. A jobb minőség jobb funkciókat generál, de "
+"több memóriát igényel, és tovább tart. A következők egyike lehet: "
+"%(choices)s. Alapértelmezett: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:87
+#: app/static/app/js/translations/odm_autogenerated.js:71
+#, python-format
+msgid ""
+"Decimate the points before generating the DEM. 1 is no decimation (full "
+"quality). 100 decimates ~99%% of the points. Useful for speeding up "
+"generation of DEM results in very large datasets. Default: %(default)s"
+msgstr ""
+"DEM generálása előtt megtizedeli a pontokat. ' nincs tizedelés (teljes "
+"minőség). 100 pontok ~99%%-ának kihagyása. Hasznos a DEM generálás "
+"felgyorsítására nagyon nagy adathalmazok esetén. Alapértelmezés: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:72
+#, python-format
+msgid ""
+"Use this tag to build a DTM (Digital Terrain Model, ground only) using a "
+"simple morphological filter. Check the --dem* and --smrf* parameters for "
+"finer tuning. Default: %(default)s"
+msgstr ""
+"Használja ezt a címkét egy egyszerű morfológiai szűrő segítségével egy DTM "
+"(digitális terepmodell, csak talajon) létrehozásához. Ellenőrizze a --dem* "
+"és --smrf* paramétereket a finomabb hangolás érdekében. Alapértelmezett:"
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:73
+#, python-format
+msgid "Generate OGC 3D Tiles outputs. Default: %(default)s"
+msgstr "OGC 3D csempék kimenetek generálása. Alapértelmezés: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:74
+#, python-format
+msgid ""
+"Generate OBJs that have a single material and a single texture file instead "
+"of multiple ones. Default:  %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:75
+#, fuzzy, python-format
+#| msgid "Generates a benchmark file with runtime info. Default: %(default)s"
+msgid ""
+"Generate single file Binary glTF (GLB) textured models. Default:  %(default)s"
+msgstr ""
+"A futási információkat tartalmazó fájl generál. Alapértelmezés: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:76
+#, python-format
+msgid ""
+"Set a camera projection type. Manually setting a value can help improve "
+"geometric undistortion. By default the application tries to determine a lens "
+"type from the images metadata. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"Állítsa be a kamera vetületét. Az érték kézi beállítása javíthatja a "
+"geometriai torzításmentességet. Alapértelmezés szerint az alkalmazás "
+"megpróbálja meghatározni az objektív típusát a képek metaadataiból. A "
+"következők egyike lehet: %(choices)s. Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:77
+#, python-format
+msgid ""
+"Save the georeferenced point cloud in Cloud Optimized Point Cloud (COPC) "
+"format. Default: %(default)s"
+msgstr ""
+"Georeferált pontfelhő exportálása Cloud Optimized Point Cloud (COPC) "
+"formátumba. Alapértelmezés: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:78
+#, fuzzy, python-format
+#| msgid ""
+#| "Ignore Ground Sampling Distance (GSD). GSD caps the maximum resolution of "
+#| "image outputs and resizes images when necessary, resulting in faster "
+#| "processing and lower memory usage. Since GSD is an estimate, sometimes "
+#| "ignoring it can result in slightly better image output quality. Default: "
+#| "%(default)s"
+msgid ""
+"Ignore Ground Sampling Distance (GSD).A memory and processor hungry change "
+"relative to the default behavior if set to true. Ordinarily, GSD estimates "
+"are used to cap the maximum resolution of image outputs and resizes images "
+"when necessary, resulting in faster processing and lower memory usage. Since "
+"GSD is an estimate, sometimes ignoring it can result in slightly better "
+"image output quality. Never set --ignore-gsd to true unless you are positive "
+"you need it, and even then: do not use it. Default: %(default)s"
+msgstr ""
+"A földi mintavételi távolság (GSD) figyelmen kívül hagyása. A GSD korlátozza "
+"a képkimenetek maximális felbontását, és szükség esetén átméretezi a "
+"képeket, ami gyorsabb feldolgozást és alacsonyabb memóriahasználatot "
+"eredményez. Mivel a GSD becslés, néha figyelmen kívül hagyása valamivel jobb "
+"képminőséget eredményezhet. Alapértelmezett:%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:79
+#, python-format
+msgid ""
+"Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag of "
+"Words. FLANN is slower, but more stable. BOW is faster, but can sometimes "
+"miss valid matches. BRUTEFORCE is very slow but robust.Can be one of: "
+"%(choices)s. Default: %(default)s"
+msgstr ""
+"Matcher algoritmus, gyors könyvtár a hozzávetőleges legközelebbi "
+"szomszédokhoz vagy szavak zsákja. A FLANN lassabb, de stabilabb. A BOW "
+"gyorsabb, de néha kihagyhat érvényes meccseket. A BRUTEFORCE nagyon lassú, "
+"de robusztus. A következők egyike lehet: %(choices)s. Alapértelmezett: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:80
+#, python-format
+msgid ""
+"Skip generation of a full 3D model. This can save time if you only need 2D "
+"results such as orthophotos and DEMs. Default: %(default)s"
+msgstr ""
+"Kihagyja a teljes 3D-s modell generálását. Ezzel időt takaríthat meg, ha "
+"csak 2D eredményekre van szüksége, például ortofotókra és DEM-ekre. "
+"Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:81
+#, python-format
+msgid ""
+"Path to the file containing the ground control points used for "
+"georeferencing. The file needs to use the following format: EPSG:<code> or "
+"<+proj definition>geo_x geo_y geo_z im_x im_y image_name [gcp_name] [extra1] "
+"[extra2]Default: %(default)s"
+msgstr ""
+"Útvonal az illesztőpontokat tartalmazó fájlhoz, melyet a georeferáláshoz "
+"használunk, A fájlnak a következő formátumot kell használnia: EPSG: <kód> "
+"vagy +proj definíció>geo_x geo_y geo_z kép_x kép_y kép_név [GCP_név] "
+"[extra1] [extra2] Alapértelmezés: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:82
+#, python-format
+msgid ""
+"Octree depth used in the mesh reconstruction, increase to get more vertices, "
+"recommended values are 8-12. Default: %(default)s"
+msgstr ""
+"A háló rekonstrukciónál használt oktromélység, növelve, hogy több csúcsot "
+"kapjunk, az ajánlott értékek 8-12. Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:83
 #, fuzzy, python-format
 #| msgid ""
 #| "DSM/DTM resolution in cm / pixel. Note that this value is capped to 2x "
@@ -2485,74 +2441,53 @@ msgstr ""
 "mintavételi távolság (GSD) becslésének kétszerese. A kupak eltávolításához "
 "jelölje be a --ignore-gsd jelet is. Alapértelmezett:%(default)s"
 
+#: app/static/app/js/translations/odm_autogenerated.js:84
+#, python-format
+msgid ""
+"Perform ground rectification on the point cloud. This means that wrongly "
+"classified ground points will be re-classified and gaps will be filled. "
+"Useful for generating DTMs. Default: %(default)s"
+msgstr ""
+"Végezzen talajegyenesítést a pontfelhőn. Ez azt jelenti, hogy a hibásan "
+"besorolt földi pontokat átsorolják és a hiányosságokat pótolják. Hasznos DTM-"
+"ek generálásához. Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:85
+#, python-format
+msgid ""
+"Filters the point cloud by removing points that deviate more than N standard "
+"deviations from the local mean. Set to 0 to disable filtering. Default: "
+"%(default)s"
+msgstr ""
+"Szűri a pontfelhőt azáltal, hogy eltávolítja azokat a pontokat, amelyek N "
+"standard eltérésnél nagyobb mértékben térnek el a helyi átlagtól. A szűrés "
+"letiltásához állítsa 0-ra. Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:86
+#, python-format
+msgid ""
+"Turn off camera parameter optimization during bundle adjustment. This can be "
+"sometimes useful for improving results that exhibit doming/bowling or when "
+"images are taken with a rolling shutter camera. Default: %(default)s"
+msgstr ""
+"Kapcsolja ki a kameraparaméter-optimalizálást a köteg beállítása közben. Ez "
+"néha hasznos lehet a domborulatos/bowling eredmények javításához, vagy "
+"amikor a képeket redőnyös kamerával készítik. Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:87
+#, python-format
+msgid ""
+"Filters the point cloud by keeping only a single point around a radius N (in "
+"meters). This can be useful to limit the output resolution of the point "
+"cloud and remove duplicate points. Set to 0 to disable sampling. Default: "
+"%(default)s"
+msgstr ""
+"Szűri a pontfelhőt úgy, hogy csak egyetlen pontot tart az N sugár körül "
+"(méterben). Ez hasznos lehet a pontfelhő kimeneti felbontásának "
+"korlátozására és az ismétlődő pontok eltávolítására. A mintavételezés "
+"letiltásához állítsa 0-ra. Alapértelmezett:%(default)s"
+
 #: app/static/app/js/translations/odm_autogenerated.js:88
-#, python-format
-msgid ""
-"Override the rolling shutter readout time for your camera sensor (in "
-"milliseconds), instead of using the rolling shutter readout database. Note "
-"that not all cameras are present in the database. Set to 0 to use the "
-"database value. Default: %(default)s"
-msgstr ""
-"A program adatbázisának használata helyett, állítsa be a kamera lapozási "
-"értékét idejét (rolling shutter readout) a fényképezőgép érzékelőjéhez "
-"(ezredmásodpercben). Vegye figyelembe, hogy nem minden kamera található az "
-"adatbázisban. Az adatbázis értékének használatához állítsa 0-ra. "
-"Alapértelmezett:%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:89
-#, python-format
-msgid ""
-"Export the georeferenced point cloud in CSV format. Default: %(default)s"
-msgstr ""
-"Exportálja a georeferált pontfelhőt CSV formátumban. Alapértelmezett: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:90
-#, python-format
-msgid ""
-"Set this parameter if you want to generate a Google Earth (KMZ) rendering of "
-"the orthophoto. Default: %(default)s"
-msgstr ""
-"Állítsa be ezt a paramétert, ha Google Earth (KMZ) kimenetet szeretne "
-"létrehozni az ortofotóról. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:91
-#, python-format
-msgid ""
-"Generate static tiles for orthophotos and DEMs that are suitable for viewers "
-"like Leaflet or OpenLayers. Default: %(default)s"
-msgstr ""
-"Statikus csempék létrehozása ortofotókhoz és DEM-ekhez, amelyek alkalmasak "
-"Leaflet vagy az OpenLayers megtekintéshez. Alapértelmezett:%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:92
-#, python-format
-msgid ""
-"Use a full 3D mesh to compute the orthophoto instead of a 2.5D mesh. This "
-"option is a bit faster and provides similar results in planar areas. "
-"Default: %(default)s"
-msgstr ""
-"Használjon teljes 3D-s hálót az ortofotó kiszámításához a 2,5D-s háló "
-"helyett. Ez az opció valamivel gyorsabb, és hasonló eredményeket biztosít a "
-"sík területeken. Alapértelmezett: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:93
-#, python-format
-msgid ""
-"Simple Morphological Filter window radius parameter (meters). Default: "
-"%(default)s"
-msgstr ""
-"Egyszerű morfológiai szűrő ablak sugara paraméter (méter). Alapértelmezett: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:94
-#, python-format
-msgid ""
-"Automatically compute image masks using AI to remove the background. "
-"Experimental. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:95
 #, fuzzy, python-format
 #| msgid ""
 #| "Path to the image geolocation file containing the camera center "
@@ -2576,6 +2511,75 @@ msgstr ""
 "definition>image_name geo_x geo_y geo_z [omega (degrees)] [phi (degrees)] "
 "[kappa (degrees)] [horz accuracy (meters)] [vert accuracy (meters)."
 "Alapértelmezett:%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:89
+#, fuzzy, python-format
+#| msgid "The maximum vertex count of the output mesh. Default: %(default)s"
+msgid ""
+"The maximum output resolution of extracted video frames in pixels. Default: "
+"%(default)s"
+msgstr ""
+"A kimeneti háló csúcsainak maximális száma. Alapértelmezett:%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:90
+msgid ""
+"Permanently delete all previous results and rerun the processing pipeline."
+msgstr ""
+"Véglegesen törölje az összes korábbi eredményt, és futtassa újra a "
+"feldolgozási folyamatot."
+
+#: app/static/app/js/translations/odm_autogenerated.js:91
+#, python-format
+msgid ""
+"When processing multispectral datasets, ODM will automatically align the "
+"images for each band. If the images have been postprocessed and are already "
+"aligned, use this option. Default: %(default)s"
+msgstr ""
+"Multispektrális adatkészletek feldolgozásakor az ODM automatikusan igazítja "
+"a képeket minden sávhoz. Ha a képek utófeldolgozásra kerültek, és már "
+"igazítva vannak, használja ezt a lehetőséget. Alapértelmezett:%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:92
+#, python-format
+msgid ""
+"Automatically set a boundary using camera shot locations to limit the area "
+"of the reconstruction. This can help remove far away background artifacts "
+"(sky, background landscapes, etc.). See also --boundary. Default: %(default)s"
+msgstr ""
+"Automatikusan állítson be határt a kamera felvételi helyeinek használatával, "
+"hogy korlátozza a rekonstrukció területét. Ez segíthet eltávolítani a távoli "
+"háttérműtermékeket (égbolt, háttér tájak stb.). Lásd még --határ. "
+"Alapértelmezett: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:93
+#, python-format
+msgid ""
+"Use images' GPS exif data for reconstruction, even if there are GCPs present."
+"This flag is useful if you have high precision GPS measurements. If there "
+"are no GCPs, this flag does nothing. Default: %(default)s"
+msgstr ""
+"Használja a képek GPS exif-adatait a rekonstrukcióhoz, még akkor is, ha "
+"vannak jelen GCP-k. Ez a jelző akkor hasznos, ha nagy pontosságú GPS-"
+"mérésekkel rendelkezik. Ha nincsenek GCP-k, ez a jelző nem tesz semmit. "
+"Alapértelmezett:%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:94
+#, python-format
+msgid ""
+"Minimum number of features to extract per image. More features can be useful "
+"for finding more matches between images, potentially allowing the "
+"reconstruction of areas with little overlap or insufficient features. More "
+"features also slow down processing. Default: %(default)s"
+msgstr ""
+"Képenként kinyerhető funkciók minimális száma. Nagyobbra állítása hasznos "
+"lehet a képek közötti több egyezés megtalálásához, ami potenciálisan "
+"lehetővé teszi a kis átfedéssel rendelkező vagy elégtelen funkciókkal "
+"rendelkező területek rekonstrukcióját. Nagyobb érték lassítja a "
+"feldolgozást. Alapértelmezett:%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:95
+msgid "Copy output results to this folder after processing."
+msgstr "A feldolgozás után másolja a kimeneti eredményeket ebbe a mappába."
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:3
 msgid "Compute volume, area and length measurements on Leaflet"
@@ -3502,6 +3506,9 @@ msgstr ""
 #: coreplugins/objdetect/public/ObjDetectPanel.jsx:221
 msgid "Object Detection"
 msgstr ""
+
+#~ msgid "Download Assets"
+#~ msgstr "Eredmények letöltése"
 
 #~ msgid "Do not simplify"
 #~ msgstr "Ne egyszerűsíts"
