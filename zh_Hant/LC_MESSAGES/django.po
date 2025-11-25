@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-11 23:32+0000\n"
+"POT-Creation-Date: 2025-11-25 19:27+0000\n"
 "PO-Revision-Date: 2025-09-25 15:01+0000\n"
 "Last-Translator: Yucheng Lin <yuchenglinedu@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
@@ -19,39 +19,39 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.14-dev\n"
 
-#: app/admin.py:65
+#: app/admin.py:86
 msgid "Enter custom CSS"
 msgstr "輸入自訂CSS"
 
-#: app/admin.py:66 app/models/theme.py:40
+#: app/admin.py:87 app/models/theme.py:40
 msgid "CSS"
 msgstr "CSS"
 
-#: app/admin.py:69
+#: app/admin.py:90
 msgid "HTML that will be displayed above site header"
 msgstr "網站標題以上顯示的HTML"
 
-#: app/admin.py:70 app/models/theme.py:41
+#: app/admin.py:91 app/models/theme.py:41
 msgid "HTML (before header)"
 msgstr "HTML (在標題之前)"
 
-#: app/admin.py:73
+#: app/admin.py:94
 msgid "HTML that will be displayed after site header"
 msgstr "網站標題之後顯示的HTML"
 
-#: app/admin.py:74 app/models/theme.py:42
+#: app/admin.py:95 app/models/theme.py:42
 msgid "HTML (after header)"
 msgstr "HTML (在標題之後)"
 
-#: app/admin.py:77
+#: app/admin.py:98
 msgid "HTML that will be displayed after the body tag"
 msgstr "顯示網頁內文的HTML"
 
-#: app/admin.py:78 app/models/theme.py:43
+#: app/admin.py:99 app/models/theme.py:43
 msgid "HTML (after body)"
 msgstr "HTML (內文標籤之後)"
 
-#: app/admin.py:82
+#: app/admin.py:103
 #, python-brace-format
 msgid ""
 "HTML that will be displayed in the footer. You can also use the special tags "
@@ -59,69 +59,69 @@ msgid ""
 msgstr ""
 "在網頁註腳中顯示的HTML。 您還可以使用特殊標籤，例如{ORGANIZATION}和{YEAR}。"
 
-#: app/admin.py:83 app/models/theme.py:44
+#: app/admin.py:104 app/models/theme.py:44
 msgid "HTML (footer)"
 msgstr "HTML (網頁註腳)"
 
-#: app/admin.py:118 app/models/project.py:29
+#: app/admin.py:139 app/models/project.py:29
 msgid "Description"
 msgstr "描述"
 
-#: app/admin.py:124
+#: app/admin.py:145
 msgid "Version"
 msgstr "版本"
 
-#: app/admin.py:130
+#: app/admin.py:151
 msgid "Author"
 msgstr "作者"
 
-#: app/admin.py:162
+#: app/admin.py:183
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr "需要重新啟動。請重新啟動WebODM來啟用擴充功能%(plugin)s"
 
-#: app/admin.py:165
+#: app/admin.py:186
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
 msgstr "無法啟動擴充功能 %(plugin)s: %(message)s"
 
-#: app/admin.py:174
+#: app/admin.py:195
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr "需要重新啟動。請重新啟動WebODM來停用擴充功能 %(plugin)s"
 
-#: app/admin.py:177
+#: app/admin.py:198
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
 msgstr "無法停用擴充功能 %(plugin)s: %(message)s"
 
-#: app/admin.py:186
+#: app/admin.py:207
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
 msgstr "無法刪除擴充功能 %(plugin)s: %(message)s"
 
-#: app/admin.py:234
+#: app/admin.py:255
 msgid "Plugin added successfully"
 msgstr "已成功新增擴充功能"
 
-#: app/admin.py:236
+#: app/admin.py:257
 #, python-format
 msgid "Cannot load plugin: %(message)s"
 msgstr "無法載入擴充功能: %(message)s"
 
-#: app/admin.py:242
+#: app/admin.py:263
 msgid "You need to upload a zip file"
 msgstr "你需要上傳一個zip文件"
 
-#: app/admin.py:256
+#: app/admin.py:277
 msgid "Disable"
 msgstr "停用"
 
-#: app/admin.py:259
+#: app/admin.py:280
 msgid "Enable"
 msgstr "啟用"
 
-#: app/admin.py:264
+#: app/admin.py:285
 msgid "Actions"
 msgstr "動作"
 
@@ -277,115 +277,115 @@ msgstr "權限清單中有無效的使用者"
 msgid "Invalid permissions"
 msgstr "無效的權限"
 
-#: app/api/tasks.py:273
+#: app/api/tasks.py:277
 msgid "You need to upload at least 1 file before commit"
 msgstr "在提交之前，您必須先上傳至少 1 個檔案"
 
-#: app/api/tasks.py:295
+#: app/api/tasks.py:299
 msgid "No files uploaded"
 msgstr "沒有上傳任何檔案"
 
-#: app/api/tasks.py:351
+#: app/api/tasks.py:355
 msgid "Cannot duplicate task"
 msgstr "無法複製任務"
 
-#: app/api/tasks.py:365
+#: app/api/tasks.py:369
 msgid "Cannot create task, alignment task is not valid"
 msgstr "無法建立任務，對齊任務無效"
 
-#: app/api/tasks.py:382
+#: app/api/tasks.py:386
 msgid "Cannot create task, you need at least 2 images"
 msgstr "無法建立任務，您至少需要 2 張影像"
 
-#: app/api/tasks.py:506 app/api/tasks.py:510 app/api/tasks.py:651
-#: app/api/tasks.py:654 app/api/tasks.py:672 app/api/tasks.py:779
+#: app/api/tasks.py:510 app/api/tasks.py:514 app/api/tasks.py:655
+#: app/api/tasks.py:658 app/api/tasks.py:676 app/api/tasks.py:783
 msgid "Asset does not exist"
 msgstr "資產不存在"
 
-#: app/api/tasks.py:690
+#: app/api/tasks.py:694
 msgid "Imported Task"
 msgstr "已匯入任務"
 
-#: app/api/tasks.py:693
+#: app/api/tasks.py:697
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "無法建立任務，您需要上傳 1 個檔案"
 
-#: app/api/tasks.py:697
+#: app/api/tasks.py:701
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr "無法建立任務，請指定一個 URL 或上傳 1 個檔案。"
 
-#: app/api/tasks.py:699
+#: app/api/tasks.py:703
 #, python-format
 msgid "Invalid URL. Did you mean %(hint)s ?"
 msgstr "無效的 URL。您是指 %(hint)s 嗎？"
 
-#: app/api/tiler.py:325
+#: app/api/tiler.py:352
 msgid "Invalid boundaries parameter"
 msgstr "邊界參數無效"
 
-#: app/api/tiler.py:344
+#: app/api/tiler.py:371
 msgid "Invalid tile size parameter"
 msgstr "切片尺寸參數無效"
 
-#: app/api/tiler.py:374 app/api/tiler.py:443
+#: app/api/tiler.py:402 app/api/tiler.py:474
 msgid "Outside of bounds"
 msgstr "超出邊界"
 
-#: app/api/tiler.py:385
+#: app/api/tiler.py:413
 msgid "Invalid boundaries"
 msgstr "無效的邊界"
 
-#: app/api/tiler.py:449 app/api/tiler.py:570
+#: app/api/tiler.py:480 app/api/tiler.py:603
 msgid "Not a valid color_map value"
 msgstr "不是有效的 color_map 值"
 
-#: app/api/tiler.py:455
+#: app/api/tiler.py:488
 msgid "Invalid rescale value"
 msgstr "無效的重縮放值"
 
-#: app/api/tiler.py:477
+#: app/api/tiler.py:510
 msgid "Invalid hillshade value"
 msgstr "無效的陰影地形值"
 
-#: app/api/tiler.py:480
+#: app/api/tiler.py:513
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr "無法計算非高程柵格的陰影地形（發現多個波段）"
 
-#: app/api/tiler.py:504
+#: app/api/tiler.py:537
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr "無法處理切片：已提供強度影像，但未計算出 RGB 資料。"
 
-#: app/api/tiler.py:555 app/api/tiler.py:557
+#: app/api/tiler.py:588 app/api/tiler.py:590
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "不支援的格式：%(value)s"
 
-#: app/api/tiler.py:576
+#: app/api/tiler.py:609
 #, python-format
 msgid "Invalid resample value: %(value)s"
 msgstr "無效的重採樣值：%(value)s"
 
-#: app/api/tiler.py:582
+#: app/api/tiler.py:615
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "無效的 EPSG 代碼：%(value)s"
 
-#: app/api/tiler.py:585
+#: app/api/tiler.py:618
 msgid "Both formula and bands parameters are required"
 msgstr "公式與波段參數皆為必填"
 
-#: app/api/tiler.py:608
+#: app/api/tiler.py:641
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "無效的重縮放值：%(value)s"
 
-#: app/api/tiler.py:616
+#: app/api/tiler.py:649
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "無效的陰影地形值：%(value)s"
 
-#: app/api/tiler.py:627
+#: app/api/tiler.py:660
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr "無法在非地理參考的資料集中使用 EPSG"
 
@@ -394,7 +394,7 @@ msgid "Plugin name"
 msgstr "外掛名稱"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:28
-#: app/models/task.py:252 app/models/theme.py:18
+#: app/models/task.py:250 app/models/theme.py:18
 msgid "Name"
 msgstr "名稱"
 
@@ -470,15 +470,15 @@ msgstr "用於描述此預設的標籤"
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr "定義此預設的選項（格式與任務的選項相同）。"
 
-#: app/models/preset.py:11 app/models/task.py:258
+#: app/models/preset.py:11 app/models/task.py:256
 msgid "Options"
 msgstr "選項"
 
-#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:266
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:264
 msgid "Creation date"
 msgstr "建立日期"
 
-#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:266
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:264
 msgid "Created at"
 msgstr "建立於"
 
@@ -545,7 +545,7 @@ msgstr "正在刪除"
 msgid "Project tags"
 msgstr "Project tags"
 
-#: app/models/project.py:32 app/models/task.py:291
+#: app/models/project.py:32 app/models/task.py:289
 msgid "Tags"
 msgstr "標籤"
 
@@ -553,7 +553,7 @@ msgstr "標籤"
 msgid "A flag indicating whether this project is available to the public"
 msgstr "指示此專案是否對公眾開放的標記"
 
-#: app/models/project.py:33 app/models/task.py:269
+#: app/models/project.py:33 app/models/task.py:267
 msgid "Public"
 msgstr "公開"
 
@@ -561,7 +561,7 @@ msgstr "公開"
 msgid "A flag indicating whether this public project can be edited"
 msgstr "指示此公開專案是否可被編輯的標記"
 
-#: app/models/project.py:34 app/models/task.py:270
+#: app/models/project.py:34 app/models/task.py:268
 msgid "Public Edit"
 msgstr "公開編輯"
 
@@ -573,12 +573,12 @@ msgstr "專案的公開識別碼"
 msgid "Public Id"
 msgstr "公開 ID"
 
-#: app/models/project.py:109 app/models/task.py:476
+#: app/models/project.py:109 app/models/task.py:474
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "%(task)s 的副本"
 
-#: app/models/project.py:142 app/models/task.py:251
+#: app/models/project.py:142 app/models/task.py:249
 msgid "Project"
 msgstr "專案"
 
@@ -661,127 +661,127 @@ msgstr "應用程式"
 msgid "Settings"
 msgstr "設定"
 
-#: app/models/task.py:248
+#: app/models/task.py:246
 msgid "Id"
 msgstr "ID"
 
-#: app/models/task.py:250
+#: app/models/task.py:248
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "任務的識別碼（由 NodeODM API 回傳）"
 
-#: app/models/task.py:250
+#: app/models/task.py:248
 msgid "UUID"
 msgstr "UUID（通用唯一識別碼）"
 
-#: app/models/task.py:251
+#: app/models/task.py:249
 msgid "Project that this task belongs to"
 msgstr "此任務所屬的專案"
 
-#: app/models/task.py:252
+#: app/models/task.py:250
 msgid "A label for the task"
 msgstr "此任務的標籤"
 
-#: app/models/task.py:253
+#: app/models/task.py:251
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr "自此任務開始以來經過的毫秒數（-1 表示無可用資訊）"
 
-#: app/models/task.py:253
+#: app/models/task.py:251
 msgid "Processing Time"
 msgstr "處理時間"
 
-#: app/models/task.py:254
+#: app/models/task.py:252
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr "指派給此任務的處理節點（若尚未關聯則為 null）"
 
-#: app/models/task.py:254 app/views/app.py:138 nodeodm/models.py:37
+#: app/models/task.py:252 app/views/app.py:138 nodeodm/models.py:37
 msgid "Processing Node"
 msgstr "處理節點"
 
-#: app/models/task.py:255
+#: app/models/task.py:253
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr "指示此任務是否應自動指派處理節點的標記"
 
-#: app/models/task.py:255
+#: app/models/task.py:253
 msgid "Auto Processing Node"
 msgstr "自動處理節點"
 
-#: app/models/task.py:256
+#: app/models/task.py:254
 msgid "Current status of the task"
 msgstr "任務的目前狀態"
 
-#: app/models/task.py:256
+#: app/models/task.py:254
 msgid "Status"
 msgstr "狀態"
 
-#: app/models/task.py:257
+#: app/models/task.py:255
 msgid "The last processing error received"
 msgstr "收到的最後處理錯誤"
 
-#: app/models/task.py:257
+#: app/models/task.py:255
 msgid "Last Error"
 msgstr "最後錯誤"
 
-#: app/models/task.py:258
+#: app/models/task.py:256
 msgid "Options that are being used to process this task"
 msgstr "用於處理此任務的選項"
 
-#: app/models/task.py:259
+#: app/models/task.py:257
 msgid "List of available assets to download"
 msgstr "可供下載的資產清單"
 
-#: app/models/task.py:259
+#: app/models/task.py:257
 msgid "Available Assets"
 msgstr "可用的資產"
 
-#: app/models/task.py:261
+#: app/models/task.py:259
 msgid "Extent of the orthophoto"
 msgstr "正射影像的範圍"
 
-#: app/models/task.py:261
+#: app/models/task.py:259
 msgid "Orthophoto Extent"
 msgstr "正射影像範圍"
 
-#: app/models/task.py:262
+#: app/models/task.py:260
 msgid "Extent of the DSM"
 msgstr "DSM（數位地表模型）的範圍"
 
-#: app/models/task.py:262
+#: app/models/task.py:260
 msgid "DSM Extent"
 msgstr "DSM 範圍"
 
-#: app/models/task.py:263
+#: app/models/task.py:261
 msgid "Extent of the DTM"
 msgstr "DTM（數位地形模型）的範圍"
 
-#: app/models/task.py:263
+#: app/models/task.py:261
 msgid "DTM Extent"
 msgstr "DTM 範圍"
 
-#: app/models/task.py:267
+#: app/models/task.py:265
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
 msgstr "請求在此任務上執行的動作。所選動作將在下一次迭代時由工作節點執行。"
 
-#: app/models/task.py:267
+#: app/models/task.py:265
 msgid "Pending Action"
 msgstr "待執行動作"
 
-#: app/models/task.py:269
+#: app/models/task.py:267
 msgid "A flag indicating whether this task is available to the public"
 msgstr "指示此任務是否對公眾可用的標記"
 
-#: app/models/task.py:270
+#: app/models/task.py:268
 msgid "A flag indicating whether this public task can be edited"
 msgstr "指示此公開任務是否可被編輯的標記"
 
-#: app/models/task.py:272
+#: app/models/task.py:270
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -790,56 +790,56 @@ msgstr ""
 "當設定為不等於 -1 的值時，表示此任務的影像在處理前已經或將會被重新調整為此處"
 "指定的大小。"
 
-#: app/models/task.py:272
+#: app/models/task.py:270
 msgid "Resize To"
 msgstr "調整大小為"
 
-#: app/models/task.py:275
+#: app/models/task.py:273
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr "介於 0 和 1 之間的值，表示此任務檔案上傳到處理節點的進度"
 
-#: app/models/task.py:276
+#: app/models/task.py:274
 msgid "Upload Progress"
 msgstr "上傳進度"
 
-#: app/models/task.py:279
+#: app/models/task.py:277
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr "介於 0 和 1 之間的值，表示此任務影像重新調整大小的進度"
 
-#: app/models/task.py:280
+#: app/models/task.py:278
 msgid "Resize Progress"
 msgstr "調整尺寸進度"
 
-#: app/models/task.py:283
+#: app/models/task.py:281
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr "介於 0 與 1 之間的值，用於顯示此任務的執行進度（預估）"
 
-#: app/models/task.py:284
+#: app/models/task.py:282
 msgid "Running Progress"
 msgstr "執行進度"
 
-#: app/models/task.py:286
+#: app/models/task.py:284
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "本任務匯入來源的網址（僅限匯入任務）"
 
-#: app/models/task.py:286
+#: app/models/task.py:284
 msgid "Import URL"
 msgstr "匯入網址"
 
-#: app/models/task.py:287
+#: app/models/task.py:285
 msgid "Number of images associated with this task"
 msgstr "此任務相關的圖片數量"
 
-#: app/models/task.py:287
+#: app/models/task.py:285
 msgid "Images Count"
 msgstr "圖片數量"
 
-#: app/models/task.py:288
+#: app/models/task.py:286
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
@@ -847,99 +847,94 @@ msgstr ""
 "一項用以指示此任務當前，是否正在等待資訊，或是檔案上傳完成的旗標，結束後進入"
 "處理階段。"
 
-#: app/models/task.py:288
+#: app/models/task.py:286
 msgid "Partial"
 msgstr "部分"
 
-#: app/models/task.py:289
+#: app/models/task.py:287
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr "序列化的 potree 場景資訊，用於儲存/載入測量資料與相機視角"
 
-#: app/models/task.py:289
+#: app/models/task.py:287
 msgid "Potree Scene"
 msgstr "Potree 場景"
 
-#: app/models/task.py:290
+#: app/models/task.py:288
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "資料集的 EPSG 代碼（若已具地理參考）"
 
-#: app/models/task.py:291
+#: app/models/task.py:289
 msgid "Task tags"
 msgstr "任務標籤"
 
-#: app/models/task.py:292
+#: app/models/task.py:290
 msgid "List of orthophoto bands"
 msgstr "正射影像波段清單"
 
-#: app/models/task.py:292
+#: app/models/task.py:290
 msgid "Orthophoto Bands"
 msgstr "正射影像波段"
 
-#: app/models/task.py:293
+#: app/models/task.py:291
 msgid "Size of the task on disk in megabytes"
 msgstr "任務在磁碟上的大小（以 MB 計）"
 
-#: app/models/task.py:293
+#: app/models/task.py:291
 msgid "Size"
 msgstr "尺寸"
 
-#: app/models/task.py:294
+#: app/models/task.py:292
 msgid "A flag indicating whether this task was compacted"
 msgstr "指示此任務是否已被壓縮的標記"
 
-#: app/models/task.py:294
+#: app/models/task.py:292
 msgid "Compact"
 msgstr "壓縮"
 
-#: app/models/task.py:295
+#: app/models/task.py:293
 msgid "Polygon defining the crop area of this task"
 msgstr "定義此任務裁切區域的多邊形"
 
-#: app/models/task.py:295
+#: app/models/task.py:293
 msgid "Crop Polygon"
 msgstr "裁切多邊形"
 
-#: app/models/task.py:299
+#: app/models/task.py:297
 msgid "Task"
 msgstr "任務"
 
-#: app/models/task.py:300
+#: app/models/task.py:298
 msgid "Tasks"
 msgstr "任務集"
 
-#: app/models/task.py:311
+#: app/models/task.py:309
 msgid "unnamed"
 msgstr "未命名"
 
-#: app/models/task.py:608
+#: app/models/task.py:606
 msgid "Importing assets..."
 msgstr "正在匯入資產…"
 
-#: app/models/task.py:660 app/models/task.py:938
+#: app/models/task.py:658 app/models/task.py:936
 msgid "Invalid zip file"
 msgstr "無效的 ZIP 檔案"
 
-#: app/models/task.py:662
+#: app/models/task.py:660
 msgid "Unsupported compression method"
 msgstr "不支援的壓縮方法"
 
-#: app/models/task.py:756
+#: app/models/task.py:754
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "連線錯誤：%(error)s"
 
-#: app/models/task.py:836
+#: app/models/task.py:834
 msgid "Cannot restart a task that has no processing node"
 msgstr "無法重新啟動沒有處理節點的任務"
 
-#: app/models/task.py:1023
-#, python-format
-msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
-msgstr "不支援的 SRS %(code)s。請確認您選擇了受支援的 SRS。"
-
-#: app/models/task.py:1055
+#: app/models/task.py:1037
 msgid "Done!"
 msgstr "完成！"
 
@@ -1835,11 +1830,11 @@ msgstr "計算溫度值需要正射影像。"
 msgid "No matching enum type."
 msgstr "沒有相符的列舉型別。"
 
-#: coreplugins/contours/api.py:109
+#: coreplugins/contours/api.py:122
 msgid "No DSM layer is available."
 msgstr "沒有可用的 DSM 圖層。"
 
-#: coreplugins/contours/api.py:111
+#: coreplugins/contours/api.py:124
 msgid "No DTM layer is available."
 msgstr "沒有可用的 DTM 圖層。"
 
@@ -2045,3 +2040,8 @@ msgstr "此節點的選用標籤。設定後，將以此標籤取代顯示主機
 #: nodeodm/models.py:34
 msgid "Engine used by the node."
 msgstr "此節點使用的引擎。"
+
+#, python-format
+#~ msgid ""
+#~ "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
+#~ msgstr "不支援的 SRS %(code)s。請確認您選擇了受支援的 SRS。"

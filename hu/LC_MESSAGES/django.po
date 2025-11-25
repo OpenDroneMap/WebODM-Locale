@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-11 23:32+0000\n"
+"POT-Creation-Date: 2025-11-25 19:27+0000\n"
 "PO-Revision-Date: 2025-03-17 19:16+0000\n"
 "Last-Translator: Faludi Zoltán <zoltan@faludi.info>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/webodm/webodm/"
@@ -19,39 +19,39 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.11-dev\n"
 
-#: app/admin.py:65
+#: app/admin.py:86
 msgid "Enter custom CSS"
 msgstr "Egyedi CSS megadása"
 
-#: app/admin.py:66 app/models/theme.py:40
+#: app/admin.py:87 app/models/theme.py:40
 msgid "CSS"
 msgstr "CSS"
 
-#: app/admin.py:69
+#: app/admin.py:90
 msgid "HTML that will be displayed above site header"
 msgstr "HTML, amely a webhely fejléce felett jelenik meg"
 
-#: app/admin.py:70 app/models/theme.py:41
+#: app/admin.py:91 app/models/theme.py:41
 msgid "HTML (before header)"
 msgstr "HTML (a fejléc előtt)"
 
-#: app/admin.py:73
+#: app/admin.py:94
 msgid "HTML that will be displayed after site header"
 msgstr "HTML, amely a webhely fejlécét követően jelenik meg"
 
-#: app/admin.py:74 app/models/theme.py:42
+#: app/admin.py:95 app/models/theme.py:42
 msgid "HTML (after header)"
 msgstr "HTML (a fejléc után)"
 
-#: app/admin.py:77
+#: app/admin.py:98
 msgid "HTML that will be displayed after the body tag"
 msgstr "HTML, amely a szövegtörzs után jelenik meg"
 
-#: app/admin.py:78 app/models/theme.py:43
+#: app/admin.py:99 app/models/theme.py:43
 msgid "HTML (after body)"
 msgstr "HTML (a szövegtörzs után)"
 
-#: app/admin.py:82
+#: app/admin.py:103
 #, python-brace-format
 msgid ""
 "HTML that will be displayed in the footer. You can also use the special tags "
@@ -60,72 +60,72 @@ msgstr ""
 "A láblécben megjelenő HTML. Használhatja azokat a speciális címkéket is, "
 "mint az {ORGANIZATION} és az {YEAR}."
 
-#: app/admin.py:83 app/models/theme.py:44
+#: app/admin.py:104 app/models/theme.py:44
 msgid "HTML (footer)"
 msgstr "HTML (lábléc)"
 
-#: app/admin.py:118 app/models/project.py:29
+#: app/admin.py:139 app/models/project.py:29
 msgid "Description"
 msgstr "Leírás"
 
-#: app/admin.py:124
+#: app/admin.py:145
 msgid "Version"
 msgstr "Verzió"
 
-#: app/admin.py:130
+#: app/admin.py:151
 msgid "Author"
 msgstr "Szerző"
 
-#: app/admin.py:162
+#: app/admin.py:183
 #, python-format
 msgid "Restart required. Please restart WebODM to enable %(plugin)s"
 msgstr ""
 "Újraindítás szükséges. A %(plugin)s engedélyezéséhez indítsa újra a WebODM-et"
 
-#: app/admin.py:165
+#: app/admin.py:186
 #, python-format
 msgid "Cannot enable plugin %(plugin)s: %(message)s"
 msgstr "A %(plugin)s bővítmény nem engedélyezhető: %(message)s"
 
-#: app/admin.py:174
+#: app/admin.py:195
 #, python-format
 msgid "Restart required. Please restart WebODM to fully disable %(plugin)s"
 msgstr ""
 "Újraindítás szükséges. A %(plugin)s bővítmény eljes letiltáshoz indítsa újra "
 "a WebODM-et"
 
-#: app/admin.py:177
+#: app/admin.py:198
 #, python-format
 msgid "Cannot disable plugin %(plugin)s: %(message)s"
 msgstr "A %(plugin)s bővítmény nem tiltható le: %(message)s"
 
-#: app/admin.py:186
+#: app/admin.py:207
 #, python-format
 msgid "Cannot delete plugin %(plugin)s: %(message)s"
 msgstr "A %(plugin)s bővítmény nem törölhető: %(message)s"
 
-#: app/admin.py:234
+#: app/admin.py:255
 msgid "Plugin added successfully"
 msgstr "Bővítmény sikeresen hozzáadva"
 
-#: app/admin.py:236
+#: app/admin.py:257
 #, python-format
 msgid "Cannot load plugin: %(message)s"
 msgstr "Nem lehet betölteni a bővítményt: %(message)s"
 
-#: app/admin.py:242
+#: app/admin.py:263
 msgid "You need to upload a zip file"
 msgstr "zip fájlt kell feltöltened"
 
-#: app/admin.py:256
+#: app/admin.py:277
 msgid "Disable"
 msgstr "Letiltás"
 
-#: app/admin.py:259
+#: app/admin.py:280
 msgid "Enable"
 msgstr "Engedélyezés"
 
-#: app/admin.py:264
+#: app/admin.py:285
 msgid "Actions"
 msgstr "Műveletek"
 
@@ -316,128 +316,128 @@ msgstr "Érvénytelen felhasználó az engedélyezési listán"
 msgid "Invalid permissions"
 msgstr "Érvénytelen engedélyek (nincs jogosultságod)"
 
-#: app/api/tasks.py:273
+#: app/api/tasks.py:277
 #, fuzzy
 #| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload at least 1 file before commit"
 msgstr "Legalább két képet szükséges feltölteni a jóváhagyás előtt"
 
-#: app/api/tasks.py:295
+#: app/api/tasks.py:299
 msgid "No files uploaded"
 msgstr "Nincs feltöltött fájl"
 
-#: app/api/tasks.py:351
+#: app/api/tasks.py:355
 msgid "Cannot duplicate task"
 msgstr "A feladat nem duplikálható"
 
-#: app/api/tasks.py:365
+#: app/api/tasks.py:369
 #, fuzzy
 #| msgid "Cannot create task, you need at least 2 images"
 msgid "Cannot create task, alignment task is not valid"
 msgstr "Nem lehet feladatot létrehozni, ehez legalább 2 képre van szükség"
 
-#: app/api/tasks.py:382
+#: app/api/tasks.py:386
 msgid "Cannot create task, you need at least 2 images"
 msgstr "Nem lehet feladatot létrehozni, ehez legalább 2 képre van szükség"
 
-#: app/api/tasks.py:506 app/api/tasks.py:510 app/api/tasks.py:651
-#: app/api/tasks.py:654 app/api/tasks.py:672 app/api/tasks.py:779
+#: app/api/tasks.py:510 app/api/tasks.py:514 app/api/tasks.py:655
+#: app/api/tasks.py:658 app/api/tasks.py:676 app/api/tasks.py:783
 msgid "Asset does not exist"
 msgstr "Az eszköz nem létezik"
 
-#: app/api/tasks.py:690
+#: app/api/tasks.py:694
 msgid "Imported Task"
 msgstr "Importált feladat"
 
-#: app/api/tasks.py:693
+#: app/api/tasks.py:697
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Nem lehet feladatot létrehozni, 1 fájlt fel kell tölteni"
 
-#: app/api/tasks.py:697
+#: app/api/tasks.py:701
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 "Nem lehet feladatot létrehozni, vagy adjon meg URL-t, vagy töltsön fel 1 "
 "fájlt."
 
-#: app/api/tasks.py:699
+#: app/api/tasks.py:703
 #, python-format
 msgid "Invalid URL. Did you mean %(hint)s ?"
 msgstr ""
 
-#: app/api/tiler.py:325
+#: app/api/tiler.py:352
 msgid "Invalid boundaries parameter"
 msgstr "Érvénytelen határok paraméter"
 
-#: app/api/tiler.py:344
+#: app/api/tiler.py:371
 #, fuzzy
 #| msgid "Invalid boundaries parameter"
 msgid "Invalid tile size parameter"
 msgstr "Érvénytelen határok paraméter"
 
-#: app/api/tiler.py:374 app/api/tiler.py:443
+#: app/api/tiler.py:402 app/api/tiler.py:474
 msgid "Outside of bounds"
 msgstr "Határokon kívül esik"
 
-#: app/api/tiler.py:385
+#: app/api/tiler.py:413
 msgid "Invalid boundaries"
 msgstr "Érvénytelen határok"
 
-#: app/api/tiler.py:449 app/api/tiler.py:570
+#: app/api/tiler.py:480 app/api/tiler.py:603
 msgid "Not a valid color_map value"
 msgstr "Érvénytelen color_map érték"
 
-#: app/api/tiler.py:455
+#: app/api/tiler.py:488
 msgid "Invalid rescale value"
 msgstr "Érvénytelen átskálázási érték"
 
-#: app/api/tiler.py:477
+#: app/api/tiler.py:510
 msgid "Invalid hillshade value"
 msgstr "Érvénytelen dombárnyék érték"
 
-#: app/api/tiler.py:480
+#: app/api/tiler.py:513
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 "Nem lehet kiszámítani a nem magassági raszter domborzatát (több sáv "
 "található)"
 
-#: app/api/tiler.py:504
+#: app/api/tiler.py:537
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 "A területet nem lehet feldolgozni: az intenzitású kép megadva, de nem lettek "
 "kiszámítva RGB adatok."
 
-#: app/api/tiler.py:555 app/api/tiler.py:557
+#: app/api/tiler.py:588 app/api/tiler.py:590
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "Nem támogatott formátum: %(value)s"
 
-#: app/api/tiler.py:576
+#: app/api/tiler.py:609
 #, fuzzy, python-format
 #| msgid "Invalid rescale value: %(value)s"
 msgid "Invalid resample value: %(value)s"
 msgstr "Érvénytelen átskálázási érték: %(value)s"
 
-#: app/api/tiler.py:582
+#: app/api/tiler.py:615
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "Érvénytelen EPSG-kód: %(value)s"
 
-#: app/api/tiler.py:585
+#: app/api/tiler.py:618
 msgid "Both formula and bands parameters are required"
 msgstr "Mind a képlet, mind a sávok paraméterei kötelezőek"
 
-#: app/api/tiler.py:608
+#: app/api/tiler.py:641
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "Érvénytelen átskálázási érték: %(value)s"
 
-#: app/api/tiler.py:616
+#: app/api/tiler.py:649
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "Érvénytelen dombárnyék érték: %(value)s"
 
-#: app/api/tiler.py:627
+#: app/api/tiler.py:660
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr "Nem használható az epsg nem georeferált adatkészleten"
 
@@ -446,7 +446,7 @@ msgid "Plugin name"
 msgstr "Bővítmény neve"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:28
-#: app/models/task.py:252 app/models/theme.py:18
+#: app/models/task.py:250 app/models/theme.py:18
 msgid "Name"
 msgstr "Név"
 
@@ -526,15 +526,15 @@ msgstr ""
 "Beállítások, melyek ezt az alapbeállítást meghatározzák (ugyanaz a formátum "
 "mint a feladat beállításoknál)."
 
-#: app/models/preset.py:11 app/models/task.py:258
+#: app/models/preset.py:11 app/models/task.py:256
 msgid "Options"
 msgstr "Beállítások"
 
-#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:266
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:264
 msgid "Creation date"
 msgstr "Létrehozás dátuma"
 
-#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:266
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:264
 msgid "Created at"
 msgstr "Létrehozás ideje"
 
@@ -606,7 +606,7 @@ msgstr "Törlés"
 msgid "Project tags"
 msgstr "Projektek"
 
-#: app/models/project.py:32 app/models/task.py:291
+#: app/models/project.py:32 app/models/task.py:289
 msgid "Tags"
 msgstr "Címkék"
 
@@ -616,7 +616,7 @@ msgstr "Címkék"
 msgid "A flag indicating whether this project is available to the public"
 msgstr "Egy jelző, hogy a feladat nyilvános-e"
 
-#: app/models/project.py:33 app/models/task.py:269
+#: app/models/project.py:33 app/models/task.py:267
 msgid "Public"
 msgstr "Nyilvános"
 
@@ -626,7 +626,7 @@ msgstr "Nyilvános"
 msgid "A flag indicating whether this public project can be edited"
 msgstr "Egy jelző, hogy a feladat nyilvános-e"
 
-#: app/models/project.py:34 app/models/task.py:270
+#: app/models/project.py:34 app/models/task.py:268
 #, fuzzy
 #| msgid "Public"
 msgid "Public Edit"
@@ -644,12 +644,12 @@ msgstr "További részletes projekt leírás"
 msgid "Public Id"
 msgstr "Nyilvános"
 
-#: app/models/project.py:109 app/models/task.py:476
+#: app/models/project.py:109 app/models/task.py:474
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "%(task)s másolata"
 
-#: app/models/project.py:142 app/models/task.py:251
+#: app/models/project.py:142 app/models/task.py:249
 msgid "Project"
 msgstr "Projekt"
 
@@ -732,27 +732,27 @@ msgstr "Alkalmazás"
 msgid "Settings"
 msgstr "Beállítások"
 
-#: app/models/task.py:248
+#: app/models/task.py:246
 msgid "Id"
 msgstr "Azonosító"
 
-#: app/models/task.py:250
+#: app/models/task.py:248
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "A feladat azonosító (ahogy a NodeODM API visszaadta)"
 
-#: app/models/task.py:250
+#: app/models/task.py:248
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:251
+#: app/models/task.py:249
 msgid "Project that this task belongs to"
 msgstr "Projekt melyhez a feladat tartozik"
 
-#: app/models/task.py:252
+#: app/models/task.py:250
 msgid "A label for the task"
 msgstr "Címke a feladathoz"
 
-#: app/models/task.py:253
+#: app/models/task.py:251
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -760,11 +760,11 @@ msgstr ""
 "Eltelt ezredmásodpercek száma a feladat indítása óta (-1 jelzi, hogy nem áll "
 "rendelkezésre információ)"
 
-#: app/models/task.py:253
+#: app/models/task.py:251
 msgid "Processing Time"
 msgstr "Feldolgozási idő"
 
-#: app/models/task.py:254
+#: app/models/task.py:252
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -772,11 +772,11 @@ msgstr ""
 "Ehhez a feladathoz rendelt feldolgozási pont (vagy null, ha a feladatot még "
 "nem rendelték egyikhez sem)"
 
-#: app/models/task.py:254 app/views/app.py:138 nodeodm/models.py:37
+#: app/models/task.py:252 app/views/app.py:138 nodeodm/models.py:37
 msgid "Processing Node"
 msgstr "Feldolgozási csomópont"
 
-#: app/models/task.py:255
+#: app/models/task.py:253
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
@@ -784,67 +784,67 @@ msgstr ""
 "Egy jelző, hogy a feladatot automatikusan rendeljük-e egy feldolgozási "
 "ponthoz"
 
-#: app/models/task.py:255
+#: app/models/task.py:253
 msgid "Auto Processing Node"
 msgstr "Auto feldolgozási pont"
 
-#: app/models/task.py:256
+#: app/models/task.py:254
 msgid "Current status of the task"
 msgstr "Feladat aktuális státusza"
 
-#: app/models/task.py:256
+#: app/models/task.py:254
 msgid "Status"
 msgstr "Állapot"
 
-#: app/models/task.py:257
+#: app/models/task.py:255
 msgid "The last processing error received"
 msgstr "Az utoljára kapott feldolgozási hiba"
 
-#: app/models/task.py:257
+#: app/models/task.py:255
 msgid "Last Error"
 msgstr "Utolsó hiba"
 
-#: app/models/task.py:258
+#: app/models/task.py:256
 msgid "Options that are being used to process this task"
 msgstr "A feladat feldolgozásához használt beállítások"
 
-#: app/models/task.py:259
+#: app/models/task.py:257
 msgid "List of available assets to download"
 msgstr "Elérhető eszközök listája a letöltéshez"
 
-#: app/models/task.py:259
+#: app/models/task.py:257
 msgid "Available Assets"
 msgstr "Elérhető eszközök"
 
-#: app/models/task.py:261
+#: app/models/task.py:259
 msgid "Extent of the orthophoto"
 msgstr "Ortofotó terjedelme"
 
-#: app/models/task.py:261
+#: app/models/task.py:259
 msgid "Orthophoto Extent"
 msgstr "Ortofotó terjedelem"
 
-#: app/models/task.py:262
+#: app/models/task.py:260
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "Extent of the DSM"
 msgstr "Ortofotó terjedelme"
 
-#: app/models/task.py:262
+#: app/models/task.py:260
 msgid "DSM Extent"
 msgstr "DSM terjedelem"
 
-#: app/models/task.py:263
+#: app/models/task.py:261
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "Extent of the DTM"
 msgstr "Ortofotó terjedelme"
 
-#: app/models/task.py:263
+#: app/models/task.py:261
 msgid "DTM Extent"
 msgstr "DTM terjedelem"
 
-#: app/models/task.py:267
+#: app/models/task.py:265
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -852,21 +852,21 @@ msgstr ""
 "A feladaton végrehajtandó kiválasztott művelet. A kiválasztott művelet a "
 "feldolgozó a következő iterációban hajtja végre."
 
-#: app/models/task.py:267
+#: app/models/task.py:265
 msgid "Pending Action"
 msgstr "Függőben lévő műveletek"
 
-#: app/models/task.py:269
+#: app/models/task.py:267
 msgid "A flag indicating whether this task is available to the public"
 msgstr "Egy jelző, hogy a feladat nyilvános-e"
 
-#: app/models/task.py:270
+#: app/models/task.py:268
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this public task can be edited"
 msgstr "Egy jelző, hogy a feladat nyilvános-e"
 
-#: app/models/task.py:272
+#: app/models/task.py:270
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -876,11 +876,11 @@ msgstr ""
 "átméreteztük vagy át fogjuk méretezni a feldolgozás előtt itt megadott "
 "méretre."
 
-#: app/models/task.py:272
+#: app/models/task.py:270
 msgid "Resize To"
 msgstr "Átméretezés erre"
 
-#: app/models/task.py:275
+#: app/models/task.py:273
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
@@ -888,48 +888,48 @@ msgstr ""
 "§ és 1 közötti érték , mely a feladathoz tartozó fájlok feldolgozási ponthoz "
 "feltöltésének előrehaladását jelzi"
 
-#: app/models/task.py:276
+#: app/models/task.py:274
 msgid "Upload Progress"
 msgstr "Feltöltés folyamatban"
 
-#: app/models/task.py:279
+#: app/models/task.py:277
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
 "0 és 1 közötti érték, jelzi a feladat képek átméretezésének előrehaladását"
 
-#: app/models/task.py:280
+#: app/models/task.py:278
 msgid "Resize Progress"
 msgstr "Átméretezés folyamatban"
 
-#: app/models/task.py:283
+#: app/models/task.py:281
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr ""
 "0 és 1 közötti érték, jelzi a feladat futó feldolgozásának előrehaladását"
 
-#: app/models/task.py:284
+#: app/models/task.py:282
 msgid "Running Progress"
 msgstr "Futás előrehaladás"
 
-#: app/models/task.py:286
+#: app/models/task.py:284
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "URL ahonnan a feladatok importáltuk (csak importált feladatoknál)"
 
-#: app/models/task.py:286
+#: app/models/task.py:284
 msgid "Import URL"
 msgstr "URL import"
 
-#: app/models/task.py:287
+#: app/models/task.py:285
 msgid "Number of images associated with this task"
 msgstr "A feladathoz rendelt képek száma"
 
-#: app/models/task.py:287
+#: app/models/task.py:285
 msgid "Images Count"
 msgstr "Képszám"
 
-#: app/models/task.py:288
+#: app/models/task.py:286
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
@@ -937,11 +937,11 @@ msgstr ""
 "Egy jelző, hogy ez a feladat aktuálisan információra vagy fájlok "
 "feltöltésére vár mielőtt feldolgozásra kerülne."
 
-#: app/models/task.py:288
+#: app/models/task.py:286
 msgid "Partial"
 msgstr "Részleges"
 
-#: app/models/task.py:289
+#: app/models/task.py:287
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
@@ -949,99 +949,92 @@ msgstr ""
 "A mérések és a kamera látószögének mentésére/betöltésére használt, soros "
 "potree jelenetinformációk"
 
-#: app/models/task.py:289
+#: app/models/task.py:287
 msgid "Potree Scene"
 msgstr "Potree jelenet"
 
-#: app/models/task.py:290
+#: app/models/task.py:288
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "Az adatkészlet EPSG-kódja (ha van földrajzi hivatkozás)"
 
-#: app/models/task.py:291
+#: app/models/task.py:289
 #, fuzzy
 #| msgid "Tasks"
 msgid "Task tags"
 msgstr "Feladatok"
 
-#: app/models/task.py:292
+#: app/models/task.py:290
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "List of orthophoto bands"
 msgstr "Ortofotó terjedelme"
 
-#: app/models/task.py:292
+#: app/models/task.py:290
 #, fuzzy
 #| msgid "Orthophoto Extent"
 msgid "Orthophoto Bands"
 msgstr "Ortofotó terjedelem"
 
-#: app/models/task.py:293
+#: app/models/task.py:291
 msgid "Size of the task on disk in megabytes"
 msgstr "A feladat mérete a lemezen megabájtban"
 
-#: app/models/task.py:293
+#: app/models/task.py:291
 msgid "Size"
 msgstr "Méret"
 
-#: app/models/task.py:294
+#: app/models/task.py:292
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this task was compacted"
 msgstr "Egy jelző, hogy a feladat nyilvános-e"
 
-#: app/models/task.py:294
+#: app/models/task.py:292
 msgid "Compact"
 msgstr ""
 
-#: app/models/task.py:295
+#: app/models/task.py:293
 msgid "Polygon defining the crop area of this task"
 msgstr ""
 
-#: app/models/task.py:295
+#: app/models/task.py:293
 msgid "Crop Polygon"
 msgstr ""
 
-#: app/models/task.py:299
+#: app/models/task.py:297
 msgid "Task"
 msgstr "Feladat"
 
-#: app/models/task.py:300
+#: app/models/task.py:298
 msgid "Tasks"
 msgstr "Feladatok"
 
-#: app/models/task.py:311
+#: app/models/task.py:309
 msgid "unnamed"
 msgstr "névtelen"
 
-#: app/models/task.py:608
+#: app/models/task.py:606
 msgid "Importing assets..."
 msgstr "Eszközök importja..."
 
-#: app/models/task.py:660 app/models/task.py:938
+#: app/models/task.py:658 app/models/task.py:936
 msgid "Invalid zip file"
 msgstr "Hibás zip fájl"
 
-#: app/models/task.py:662
+#: app/models/task.py:660
 msgid "Unsupported compression method"
 msgstr "Nem támogatott tömörítési módszer"
 
-#: app/models/task.py:756
+#: app/models/task.py:754
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Kapcsolódási hiba: %(error)s"
 
-#: app/models/task.py:836
+#: app/models/task.py:834
 msgid "Cannot restart a task that has no processing node"
 msgstr "Nem tudom újraindítani a feldolgozási ponttal nem rendelkező feladatot"
 
-#: app/models/task.py:1023
-#, python-format
-msgid "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
-msgstr ""
-"Nem támogatott vetület %(code)s. Győződjön meg róla, hogy támogatott "
-"vetületet választott."
-
-#: app/models/task.py:1055
+#: app/models/task.py:1037
 msgid "Done!"
 msgstr "Kész!"
 
@@ -1964,11 +1957,11 @@ msgstr ""
 msgid "No matching enum type."
 msgstr ""
 
-#: coreplugins/contours/api.py:109
+#: coreplugins/contours/api.py:122
 msgid "No DSM layer is available."
 msgstr "Nincs DSM réteg."
 
-#: coreplugins/contours/api.py:111
+#: coreplugins/contours/api.py:124
 msgid "No DTM layer is available."
 msgstr "Nincs DTM réteg."
 
@@ -2195,6 +2188,13 @@ msgstr ""
 #: nodeodm/models.py:34
 msgid "Engine used by the node."
 msgstr "A csomópont által használt motor."
+
+#, python-format
+#~ msgid ""
+#~ "Unsupported SRS %(code)s. Please make sure you picked a supported SRS."
+#~ msgstr ""
+#~ "Nem támogatott vetület %(code)s. Győződjön meg róla, hogy támogatott "
+#~ "vetületet választott."
 
 #~ msgid "Could not generate contour file. This might be a bug."
 #~ msgstr "Nem sikerült kontúrfájlt létrehozni. Ez programhiba lehet."
