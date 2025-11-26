@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-25 19:27+0000\n"
-"PO-Revision-Date: 2025-11-15 13:51+0000\n"
+"PO-Revision-Date: 2025-11-27 05:00+0000\n"
 "Last-Translator: \"Luca P.\" <madeinupa@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/webodm/react-ui/"
 "it/>\n"
@@ -98,7 +98,7 @@ msgstr "Mostra Fotocamere"
 
 #: app/static/app/js/ModelView.jsx:146
 msgid "Size"
-msgstr ""
+msgstr "Dimensione"
 
 #: app/static/app/js/ModelView.jsx:857
 msgid "Loading textured model..."
@@ -178,20 +178,18 @@ msgid "OpenStreetMap"
 msgstr "OpenStreetMap"
 
 #: app/static/app/js/classes/Gcp.js:18
-#, fuzzy, python-format
-#| msgid "Invalid response: %(error)s"
+#, python-format
 msgid "Invalid CRS: %(line)s"
-msgstr "Risposta non valida: %(error)s"
+msgstr "CRS non valido: %(line)s"
 
 #: app/static/app/js/classes/Gcp.js:34 app/static/app/js/classes/Gcp.js:38
-#, fuzzy, python-format
-#| msgid "Invalid response: %(error)s"
+#, python-format
 msgid "Invalid line %(num)s: %(line)s"
-msgstr "Risposta non valida: %(error)s"
+msgstr "Linea non valida %(num)s: %(line)s"
 
 #: app/static/app/js/classes/Gcp.js:44
 msgid "Empty GCP file"
-msgstr ""
+msgstr "File GCP vuoto"
 
 #: app/static/app/js/classes/PendingActions.js:12
 msgid "Canceling..."
@@ -656,7 +654,7 @@ msgstr "Risposta JSON non valida: %(error)s"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:203
 msgid "CRS:"
-msgstr ""
+msgstr "CRS:"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:207
 #: coreplugins/contours/public/ContoursPanel.jsx:367
@@ -673,10 +671,9 @@ msgid "Format:"
 msgstr "Formato:"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:234
-#, fuzzy, python-format
-#| msgid "Resample (meters):"
+#, python-format
 msgid "Resample (%(unit)s):"
-msgstr "Ricampionatura (metri):"
+msgstr "Ricampionatura (%(unit)s):"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:242
 msgid "Export:"
@@ -1003,22 +1000,18 @@ msgid "Are you sure you want to cancel?"
 msgstr "Sicuro di voler annullare?"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:232
-#, fuzzy, python-format
-#| msgid "%(count)s files uploaded successfully"
+#, python-format
 msgid "%(count)s files selected."
-msgstr "%(count)s file caricati con successo"
+msgstr "%(count)s file selezionati."
 
 #: app/static/app/js/components/NewTaskPanel.jsx:235
 #, python-format
 msgid "%(count)s files and GCP file (%(name)s) selected."
-msgstr ""
+msgstr "%(count)s file e file GCP (%(name)s) selezionati."
 
 #: app/static/app/js/components/NewTaskPanel.jsx:242
-#, fuzzy
-#| msgid "%(count)s files selected. Please check these additional options:"
 msgid "Please check these additional options:"
-msgstr ""
-"%(count)s files selezionati. Per favore controlla queste opzioni aggiuntive:"
+msgstr "Controlla queste opzioni aggiuntive:"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:246
 msgid ""
@@ -1034,10 +1027,12 @@ msgid ""
 "Whoops! It looks like your GCP file is not formatted properly: %(errors)s "
 "See %(link)s for information on the GCP file format"
 msgstr ""
+"Ops! Sembra che il file GCP non sia formattato correttamente: %(errors)s "
+"Vedi %(link)s per informazioni sul formato del file GCP"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:254
 msgid "GCP File"
-msgstr ""
+msgstr "File GCP"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:262
 #, python-format
@@ -3157,7 +3152,7 @@ msgstr "Semplificare:"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:363
 msgid "SRS:"
-msgstr ""
+msgstr "SRS:"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:391
 msgid "Preview"
