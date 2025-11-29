@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-25 19:27+0000\n"
-"PO-Revision-Date: 2025-11-13 10:51+0000\n"
-"Last-Translator: Projetos Tech YouX <projetos.tech@youxgroup.com.br>\n"
+"PO-Revision-Date: 2025-11-30 11:00+0000\n"
+"Last-Translator: Matheus Rocha Pereira <matheusrp11@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "webodm/webodm/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -294,11 +294,11 @@ msgstr ""
 
 #: app/api/formulas.py:116
 msgid "Temperature in Celsius degrees."
-msgstr "Temperatura em graus Celsius."
+msgstr "Temperatura térmica em graus Celsius."
 
 #: app/api/formulas.py:120
 msgid "Temperature in Centikelvin degrees."
-msgstr "Temperatura em graus Centi Kelvin."
+msgstr "Temperatura térmica em graus Centi Kelvin."
 
 #: app/api/projects.py:130
 msgid "Cannot duplicate project"
@@ -314,7 +314,7 @@ msgstr "Permissões inválidas"
 
 #: app/api/tasks.py:277
 msgid "You need to upload at least 1 file before commit"
-msgstr "Você precisa fazer upload de pelo menos 1 arquivo antes de confirmar"
+msgstr "Você precisa fazer upload de pelo menos 2 imagens antes de confirmar"
 
 #: app/api/tasks.py:299
 msgid "No files uploaded"
@@ -325,10 +325,8 @@ msgid "Cannot duplicate task"
 msgstr "Não é possível duplicar a tarefa"
 
 #: app/api/tasks.py:369
-#, fuzzy
-#| msgid "Cannot create task, you need at least 2 images"
 msgid "Cannot create task, alignment task is not valid"
-msgstr "Não é possível criar tarefa, você precisa de ao menos 2 imagens"
+msgstr "Não é possível criar a tarefa. Tarefa de alinhamento não é válida"
 
 #: app/api/tasks.py:386
 msgid "Cannot create task, you need at least 2 images"
@@ -355,7 +353,7 @@ msgstr ""
 #: app/api/tasks.py:703
 #, python-format
 msgid "Invalid URL. Did you mean %(hint)s ?"
-msgstr ""
+msgstr "Link inválido. Você quis dizer %(hint)s ?"
 
 #: app/api/tiler.py:352
 msgid "Invalid boundaries parameter"
@@ -363,7 +361,7 @@ msgstr "Parâmetros dos limites inválidos"
 
 #: app/api/tiler.py:371
 msgid "Invalid tile size parameter"
-msgstr "Tamanho do(s) bloco(s) inválido(s)"
+msgstr "Parâmetro de tamanho de bloco inválidos"
 
 #: app/api/tiler.py:402 app/api/tiler.py:474
 msgid "Outside of bounds"
@@ -404,8 +402,7 @@ msgid "Unsupported format: %(value)s"
 msgstr "Formato não suportado: %(value)s"
 
 #: app/api/tiler.py:609
-#, fuzzy, python-format
-#| msgid "Invalid rescale value: %(value)s"
+#, python-format
 msgid "Invalid resample value: %(value)s"
 msgstr "Valor de redimensionamento inválido: %(value)s"
 
@@ -550,7 +547,7 @@ msgstr "Predefinições"
 
 #: app/models/profile.py:15
 msgid "Maximum disk quota in megabytes"
-msgstr "Cota máxima de disco em megabytes"
+msgstr "Utilização máxima do disco, em megabytes"
 
 #: app/models/profile.py:15
 msgid "Quota"
@@ -558,11 +555,11 @@ msgstr "Cota"
 
 #: app/models/profile.py:16
 msgid "Cluster Id this user is assigned to"
-msgstr ""
+msgstr "Cluster ID ao qual este usuário está atribuído"
 
 #: app/models/profile.py:16
 msgid "Cluster Id"
-msgstr ""
+msgstr "Cluster ID"
 
 #: app/models/project.py:27
 msgid "The person who created the project"
@@ -599,38 +596,28 @@ msgid "Tags"
 msgstr "Tags (marcações)"
 
 #: app/models/project.py:33
-#, fuzzy
-#| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this project is available to the public"
-msgstr "Um sinal (flag) indicando se esta tarefa está disponível ao público"
+msgstr "Um sinal (flag) indicando se este projeto está disponível ao público"
 
 #: app/models/project.py:33 app/models/task.py:267
 msgid "Public"
 msgstr "Público"
 
 #: app/models/project.py:34
-#, fuzzy
-#| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this public project can be edited"
-msgstr "Um sinal (flag) indicando se esta tarefa está disponível ao público"
+msgstr "Um sinal (flag) indica que este projeto público pode ser editado"
 
 #: app/models/project.py:34 app/models/task.py:268
-#, fuzzy
-#| msgid "Public"
 msgid "Public Edit"
-msgstr "Público"
+msgstr "Edição Pública"
 
 #: app/models/project.py:35 app/models/redirect.py:7
-#, fuzzy
-#| msgid "More in-depth description of the project"
 msgid "Public identifier of the project"
-msgstr "Descrição mais detalhada do projeto"
+msgstr "Identificador público do projeto"
 
 #: app/models/project.py:35 app/models/redirect.py:7
-#, fuzzy
-#| msgid "Public"
 msgid "Public Id"
-msgstr "Público"
+msgstr "ID público"
 
 #: app/models/project.py:109 app/models/task.py:474
 #, python-format
@@ -646,30 +633,24 @@ msgid "Projects"
 msgstr "Projetos"
 
 #: app/models/redirect.py:6
-#, fuzzy
-#| msgid "Project"
 msgid "Project Id"
-msgstr "Projeto"
+msgstr "Projeto ID"
 
 #: app/models/redirect.py:8
-#, fuzzy
-#| msgid "Task"
 msgid "Task Id"
-msgstr "Tarefa"
+msgstr "Tarefa ID"
 
 #: app/models/redirect.py:9
-#, fuzzy
-#| msgid "The person who owns this preset"
 msgid "The person associated with this redirect"
-msgstr "A pessoa que é dona deste preset"
+msgstr "A pessoa associada a este redirecionamento"
 
 #: app/models/redirect.py:23
 msgid "Redirect"
-msgstr ""
+msgstr "Redirecionar"
 
 #: app/models/redirect.py:24
 msgid "Redirects"
-msgstr ""
+msgstr "Redirecionamentos"
 
 #: app/models/setting.py:20
 msgid "The name of your application"
@@ -813,20 +794,16 @@ msgid "Orthophoto Extent"
 msgstr "Extensão de ortofoto"
 
 #: app/models/task.py:260
-#, fuzzy
-#| msgid "Extent of the orthophoto"
 msgid "Extent of the DSM"
-msgstr "Extensão da ortofoto"
+msgstr "Extensão do DSM"
 
 #: app/models/task.py:260
 msgid "DSM Extent"
 msgstr "Extensão do MDS"
 
 #: app/models/task.py:261
-#, fuzzy
-#| msgid "Extent of the orthophoto"
 msgid "Extent of the DTM"
-msgstr "Extensão da ortofoto"
+msgstr "Extensão do DTM"
 
 #: app/models/task.py:261
 msgid "DTM Extent"
@@ -849,10 +826,8 @@ msgid "A flag indicating whether this task is available to the public"
 msgstr "Um sinal (flag) indicando se esta tarefa está disponível ao público"
 
 #: app/models/task.py:268
-#, fuzzy
-#| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this public task can be edited"
-msgstr "Um sinal (flag) indicando se esta tarefa está disponível ao público"
+msgstr "Um sinal (flag) sinaliza se esta tarefa pública pode ser editada"
 
 #: app/models/task.py:270
 msgid ""
@@ -968,22 +943,20 @@ msgid "Size"
 msgstr "Tamanho"
 
 #: app/models/task.py:292
-#, fuzzy
-#| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this task was compacted"
-msgstr "Um sinal (flag) indicando se esta tarefa está disponível ao público"
+msgstr "Um sinal (flag) sinaliza se esta tarefa foi compactada"
 
 #: app/models/task.py:292
 msgid "Compact"
-msgstr ""
+msgstr "Compactar"
 
 #: app/models/task.py:293
 msgid "Polygon defining the crop area of this task"
-msgstr ""
+msgstr "Polígono que define a área de corte desta tarefa"
 
 #: app/models/task.py:293
 msgid "Crop Polygon"
-msgstr ""
+msgstr "Polígono de corte"
 
 #: app/models/task.py:297
 msgid "Task"
@@ -1007,7 +980,7 @@ msgstr "Arquivo zip inválido"
 
 #: app/models/task.py:660
 msgid "Unsupported compression method"
-msgstr ""
+msgstr "Método de compressão não suportado"
 
 #: app/models/task.py:754
 #, python-format
@@ -1819,7 +1792,7 @@ msgstr "Adicionar um botão de tela inteira à visualização do mapa 2D"
 
 #: app/translations/plugin_manifest_autogenerated.py:11
 msgid "Process in the cloud with webodm.net"
-msgstr ""
+msgstr "Processos na nuvem com webodm.net"
 
 #: app/translations/plugin_manifest_autogenerated.py:12
 msgid "Compute volume, area and length measurements on Leaflet"
@@ -1859,25 +1832,23 @@ msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:20
 msgid "Annotate and measure on 2D maps with ease"
-msgstr ""
+msgstr "Faça anotações e medições em mapas 2D com facilidade"
 
 #: app/translations/plugin_manifest_autogenerated.py:21
-#, fuzzy
-#| msgid "Add a fullscreen button to the 2D map view"
 msgid "Add a GPS location button to the 2D map view"
-msgstr "Adicionar um botão de tela inteira à visualização do mapa 2D"
+msgstr "Adicione um botão de localização GPS à visualização do mapa 2D"
 
 #: app/translations/plugin_manifest_autogenerated.py:22
 msgid "Plugin to get align from external service for WebODM"
-msgstr ""
+msgstr "Plugin para obter alinhamento de serviço externo para WebODM"
 
 #: app/translations/plugin_manifest_autogenerated.py:23
 msgid "Detect objects using AI in orthophotos"
-msgstr ""
+msgstr "Detectado objetos usando IA em ortofotos"
 
 #: app/translations/plugin_manifest_autogenerated.py:24
 msgid "An example plugin for development"
-msgstr ""
+msgstr "Um exemplo de plugin para desenvolvimento"
 
 #: app/views/app.py:57
 msgid "First Project"
@@ -1914,13 +1885,11 @@ msgstr "Ação Inválida"
 
 #: coreplugins/align-service/plugin.py:56
 msgid "Align Generator"
-msgstr ""
+msgstr "Gerador de alinhamento"
 
 #: coreplugins/align-service/templates/index.html:5
-#, fuzzy
-#| msgid "A plugin to create GCP files from images"
 msgid "Align file from task image"
-msgstr "Um plugin para criar arquivos de GCP a partir de imagens"
+msgstr "Arquivo de alinhamento a partir da imagem da tarefa"
 
 #: coreplugins/annotate/api.py:48 coreplugins/annotate/dist/annotate/api.py:48
 #: coreplugins/measure/api.py:21
@@ -1936,10 +1905,12 @@ msgstr ""
 #: coreplugins/annotate/api.py:71 coreplugins/annotate/dist/annotate/api.py:71
 msgid "A digital surface model is required to compute elevation values."
 msgstr ""
+"É necessário um modelo digital de superfície para calcular os valores de "
+"elevação."
 
 #: coreplugins/annotate/api.py:89 coreplugins/annotate/dist/annotate/api.py:89
 msgid "An orthophoto is required to compute temperature values."
-msgstr ""
+msgstr "É necessária uma ortofoto para calcular os valores de temperatura."
 
 #: coreplugins/cesiumion/api_views.py:159
 msgid "No matching enum type."
@@ -2044,19 +2015,15 @@ msgstr "Este URL curto já foi usado."
 
 #: coreplugins/hello-world/plugin.py:10
 msgid "Hello World"
-msgstr ""
+msgstr "Olá Mundo"
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
-#, fuzzy
-#| msgid "Lightning Network"
 msgid "Lightning"
-msgstr "Rede Lightning"
+msgstr "Lightning"
 
 #: coreplugins/objdetect/api.py:58
-#, fuzzy
-#| msgid "No DSM layer is available."
 msgid "No orthophoto is available."
-msgstr "Nenhuma camada DSM está disponível."
+msgstr "Nenhuma camada ortofoto (DSM) está disponível."
 
 #: coreplugins/posm-gcpi/plugin.py:9
 msgid "GCP Interface"
