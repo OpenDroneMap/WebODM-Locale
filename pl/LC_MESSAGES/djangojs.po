@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-22 20:15+0000\n"
-"PO-Revision-Date: 2025-11-13 10:51+0000\n"
+"PO-Revision-Date: 2025-12-24 12:00+0000\n"
 "Last-Translator: Marcin Sołoguba <marsol@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/webodm/react-ui/"
 "pl/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: app/static/app/js/Console.jsx:152
 #, python-format
@@ -99,7 +99,7 @@ msgstr "Pokaż kamery"
 
 #: app/static/app/js/ModelView.jsx:146
 msgid "Size"
-msgstr ""
+msgstr "Rozmiar"
 
 #: app/static/app/js/ModelView.jsx:857
 msgid "Loading textured model..."
@@ -179,20 +179,18 @@ msgid "OpenStreetMap"
 msgstr "OpenStreetMap"
 
 #: app/static/app/js/classes/Gcp.js:18
-#, fuzzy, python-format
-#| msgid "Invalid response: %(error)s"
+#, python-format
 msgid "Invalid CRS: %(line)s"
-msgstr "Nieprawidłowa odpowiedź: %(error)s"
+msgstr "Nieprawidłowy układ współrzędnych (CRS): %(line)s"
 
 #: app/static/app/js/classes/Gcp.js:34 app/static/app/js/classes/Gcp.js:38
-#, fuzzy, python-format
-#| msgid "Invalid response: %(error)s"
+#, python-format
 msgid "Invalid line %(num)s: %(line)s"
-msgstr "Nieprawidłowa odpowiedź: %(error)s"
+msgstr "Nieprawidłowa linia %(num)s: %(line)s"
 
 #: app/static/app/js/classes/Gcp.js:44
 msgid "Empty GCP file"
-msgstr ""
+msgstr "Pusty plik GCP"
 
 #: app/static/app/js/classes/PendingActions.js:12
 msgid "Canceling..."
@@ -660,7 +658,7 @@ msgstr "Nieprawidłowa odpowiedź JSON: %(error)s"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:203
 msgid "CRS:"
-msgstr ""
+msgstr "Układ współrzędnych (CRS):"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:207
 #: coreplugins/contours/public/ContoursPanel.jsx:367
@@ -677,10 +675,9 @@ msgid "Format:"
 msgstr "Format:"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:234
-#, fuzzy, python-format
-#| msgid "Resample (meters):"
+#, python-format
 msgid "Resample (%(unit)s):"
-msgstr "Przepróbkowanie (metry):"
+msgstr "Przepróbkowanie (%(unit)s):"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:242
 msgid "Export:"
@@ -1006,21 +1003,18 @@ msgid "Are you sure you want to cancel?"
 msgstr "Czy na pewno chcesz anulować?"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:232
-#, fuzzy, python-format
-#| msgid "%(count)s files uploaded successfully"
+#, python-format
 msgid "%(count)s files selected."
-msgstr "%(count)s plików przesłano z sukcesem"
+msgstr "Wybrano %(count)s plików."
 
 #: app/static/app/js/components/NewTaskPanel.jsx:235
 #, python-format
 msgid "%(count)s files and GCP file (%(name)s) selected."
-msgstr ""
+msgstr "Wybrano %(count)s plików i plik GCP (%(name)s)."
 
 #: app/static/app/js/components/NewTaskPanel.jsx:242
-#, fuzzy
-#| msgid "%(count)s files selected. Please check these additional options:"
 msgid "Please check these additional options:"
-msgstr "Wybrano %(count)s plików. Proszę sprawdzić te dodatkowe opcje:"
+msgstr "Proszę sprawdzić te dodatkowe parametry:"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:246
 msgid ""
@@ -1036,10 +1030,12 @@ msgid ""
 "Whoops! It looks like your GCP file is not formatted properly: %(errors)s "
 "See %(link)s for information on the GCP file format"
 msgstr ""
+"Ups! Wygląda na to, że plik GCP ma niewłaściwą strukturę:%(errors)s Sprawdź %"
+"(link)s aby zapoznać się z formatem GCP"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:254
 msgid "GCP File"
-msgstr ""
+msgstr "Plik GCP"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:262
 #, python-format
@@ -1414,13 +1410,11 @@ msgstr "Czy jesteś pewien, że chcesz uruchomić ponownie to zadanie?"
 
 #: app/static/app/js/components/TaskListItem.jsx:585
 msgid "Have all images been uploaded?"
-msgstr ""
+msgstr "Czy wgrałeś wszystkie obrazy?"
 
 #: app/static/app/js/components/TaskListItem.jsx:586
-#, fuzzy
-#| msgid "Cannot restart task."
 msgid "Cannot start processing task."
-msgstr "Nie można ponowić startu zadania."
+msgstr "Nie można uruchomić zadania przetwarzającego."
 
 #: app/static/app/js/components/TaskListItem.jsx:643
 msgid "Created on:"
@@ -1532,10 +1526,8 @@ msgid "Set a processing node"
 msgstr "Ustaw węzeł przetwarzania"
 
 #: app/static/app/js/components/TaskListItem.jsx:780
-#, fuzzy
-#| msgid "Waiting for a node..."
 msgid "Waiting to start processing..."
-msgstr "Czekanie na węzeł..."
+msgstr "Czekanie na rozpoczęcie przetwarzania..."
 
 #: app/static/app/js/components/TaskListItem.jsx:823
 msgid "Move"
@@ -2938,30 +2930,24 @@ msgstr "Czas GPS"
 
 #: coreplugins/annotate/public/ExportAnnotationsDialog.jsx:92
 #: coreplugins/annotate/public/Toolbox.jsx:977
-#, fuzzy
-#| msgid "Annotations"
 msgid "Annotations Report"
-msgstr "Adnotacje"
+msgstr "Raport z adnotacjami"
 
 #: coreplugins/annotate/public/ExportAnnotationsDialog.jsx:100
 msgid "Prepared by:"
-msgstr ""
+msgstr "Przygotowany przez:"
 
 #: coreplugins/annotate/public/ExportAnnotationsDialog.jsx:106
-#, fuzzy
-#| msgid "Username"
 msgid "Enter name"
-msgstr "Nazwa użytkownika"
+msgstr "Podaj nazwę"
 
 #: coreplugins/annotate/public/ExportAnnotationsDialog.jsx:110
 msgid "Notes:"
-msgstr ""
+msgstr "Notatki:"
 
 #: coreplugins/annotate/public/ExportAnnotationsDialog.jsx:117
-#, fuzzy
-#| msgid "Description (optional)"
 msgid "Additional notes (optional)"
-msgstr "Opis (opcjonalny)"
+msgstr "Opis dodatkowy (opcjonalny)"
 
 #: coreplugins/annotate/public/Popup.jsx:204
 #: coreplugins/annotate/public/Popup.jsx:236
@@ -3098,16 +3084,12 @@ msgid "Import GeoJSON"
 msgstr "Importuj plik GeoJSON"
 
 #: coreplugins/annotate/public/Toolbox.jsx:966
-#, fuzzy
-#| msgid "Annotations"
 msgid "Export Annotations"
-msgstr "Adnotacje"
+msgstr "Eksportuj Adnotacje"
 
 #: coreplugins/annotate/public/Toolbox.jsx:979
-#, fuzzy
-#| msgid "Export to GeoJSON"
 msgid "Export to CSV"
-msgstr "Eksportuj do GeoJSON"
+msgstr "Eksportuj do CSV"
 
 #: coreplugins/annotate/public/markers.js:6
 msgid "Blue"
@@ -3183,7 +3165,7 @@ msgstr "Uproszczenie:"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:363
 msgid "SRS:"
-msgstr ""
+msgstr "SRS:"
 
 #: coreplugins/contours/public/ContoursPanel.jsx:391
 msgid "Preview"
