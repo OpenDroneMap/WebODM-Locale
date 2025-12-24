@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-22 20:15+0000\n"
+"POT-Creation-Date: 2025-12-24 19:29+0000\n"
 "PO-Revision-Date: 2023-11-21 07:09+0000\n"
 "Last-Translator: Tomas Straupis <tomasstraupis@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/webodm/webodm/"
@@ -302,7 +302,7 @@ msgid "Cannot create task, you need at least 2 images"
 msgstr "Nepavyksta sukurti užduoties, jums reikia bent 2 nuotraukų"
 
 #: app/api/tasks.py:510 app/api/tasks.py:514 app/api/tasks.py:655
-#: app/api/tasks.py:658 app/api/tasks.py:676 app/api/tasks.py:783
+#: app/api/tasks.py:658 app/api/tasks.py:676 app/api/tasks.py:788
 msgid "Asset does not exist"
 msgstr "Daiktas neegzistuoja"
 
@@ -324,77 +324,83 @@ msgstr ""
 msgid "Invalid URL. Did you mean %(hint)s ?"
 msgstr ""
 
-#: app/api/tiler.py:360
+#: app/api/tiler.py:364
 msgid "Invalid boundaries parameter"
 msgstr "Netinkamas ribų parametras"
 
-#: app/api/tiler.py:379
+#: app/api/tiler.py:383
 msgid "Invalid tile size parameter"
 msgstr "Netinkamas kaladėlės dydžio parametras"
 
-#: app/api/tiler.py:410 app/api/tiler.py:489
+#: app/api/tiler.py:414 app/api/tiler.py:495
 msgid "Outside of bounds"
 msgstr "Už ribų"
 
-#: app/api/tiler.py:421
+#: app/api/tiler.py:425
 msgid "Invalid boundaries"
 msgstr "Netinkamos ribos"
 
-#: app/api/tiler.py:495 app/api/tiler.py:618
+#: app/api/tiler.py:501 app/api/tiler.py:629
 msgid "Not a valid color_map value"
 msgstr "Netinkama color_map reikšmė"
 
-#: app/api/tiler.py:503
+#: app/api/tiler.py:509
 msgid "Invalid rescale value"
 msgstr "Netinkama rescale reikšmė"
 
-#: app/api/tiler.py:525
+#: app/api/tiler.py:531
 msgid "Invalid hillshade value"
 msgstr "Netinkama hillshade reikšmė"
 
-#: app/api/tiler.py:528
+#: app/api/tiler.py:534
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 "Negalima paskaičiuoti šešėliavimo rastrui be aukščio (rastos kelios juostos)"
 
-#: app/api/tiler.py:552
+#: app/api/tiler.py:558
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 "Nepavyksta apdoroti kaladėlės: pateiktas intensyvumo paveikslas, bet RGB "
 "duomenys nepaskaičiuoti."
 
-#: app/api/tiler.py:603 app/api/tiler.py:605
+#: app/api/tiler.py:614 app/api/tiler.py:616
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "Nepalaikomas formatas: %(value)s"
 
-#: app/api/tiler.py:624
+#: app/api/tiler.py:635
 #, fuzzy, python-format
 #| msgid "Invalid rescale value: %(value)s"
 msgid "Invalid resample value: %(value)s"
 msgstr "Netinkama rescale reikšmė: %(value)s"
 
-#: app/api/tiler.py:630
+#: app/api/tiler.py:641
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "Netinkamas EPSG kodas: %(value)s"
 
-#: app/api/tiler.py:633
+#: app/api/tiler.py:647 app/api/tiler.py:649
+#, fuzzy, python-format
+#| msgid "Invalid EPSG code: %(value)s"
+msgid "Invalid PROJ string: %(value)s"
+msgstr "Netinkamas EPSG kodas: %(value)s"
+
+#: app/api/tiler.py:652
 msgid "Both formula and bands parameters are required"
 msgstr "Privalomas tiek formulės, tiek ir juostos parametras"
 
-#: app/api/tiler.py:656
+#: app/api/tiler.py:675
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "Netinkama rescale reikšmė: %(value)s"
 
-#: app/api/tiler.py:664
+#: app/api/tiler.py:683
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "Netinkama šešėliavimo reikšmė: %(value)s"
 
-#: app/api/tiler.py:675
+#: app/api/tiler.py:694
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr "Negalima naudoti epsg su nepririštu duomenų rinkiniu"
 
@@ -403,7 +409,7 @@ msgid "Plugin name"
 msgstr "Įskiepio pavadinimas"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:28
-#: app/models/task.py:250 app/models/theme.py:18
+#: app/models/task.py:251 app/models/theme.py:18
 msgid "Name"
 msgstr "Vardas"
 
@@ -481,15 +487,15 @@ msgstr ""
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr ""
 
-#: app/models/preset.py:11 app/models/task.py:256
+#: app/models/preset.py:11 app/models/task.py:257
 msgid "Options"
 msgstr "Nustatymai"
 
-#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:264
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:265
 msgid "Creation date"
 msgstr "Sukūrimo data"
 
-#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:264
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:265
 msgid "Created at"
 msgstr "Sukurta"
 
@@ -557,7 +563,7 @@ msgstr "Trinama"
 msgid "Project tags"
 msgstr "Projekto žymos"
 
-#: app/models/project.py:32 app/models/task.py:289
+#: app/models/project.py:32 app/models/task.py:291
 msgid "Tags"
 msgstr "Žymos"
 
@@ -567,7 +573,7 @@ msgstr "Žymos"
 msgid "A flag indicating whether this project is available to the public"
 msgstr "Žyma ar ši užduotis prieinama viešai"
 
-#: app/models/project.py:33 app/models/task.py:267
+#: app/models/project.py:33 app/models/task.py:268
 msgid "Public"
 msgstr "Viešas"
 
@@ -577,7 +583,7 @@ msgstr "Viešas"
 msgid "A flag indicating whether this public project can be edited"
 msgstr "Žyma ar ši užduotis prieinama viešai"
 
-#: app/models/project.py:34 app/models/task.py:268
+#: app/models/project.py:34 app/models/task.py:269
 #, fuzzy
 #| msgid "Public"
 msgid "Public Edit"
@@ -595,12 +601,12 @@ msgstr "Detalesnis projekto aprašymas"
 msgid "Public Id"
 msgstr "Viešas"
 
-#: app/models/project.py:109 app/models/task.py:474
+#: app/models/project.py:109 app/models/task.py:476
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "%(task)s kopija"
 
-#: app/models/project.py:142 app/models/task.py:249
+#: app/models/project.py:142 app/models/task.py:250
 msgid "Project"
 msgstr "Projektas"
 
@@ -683,27 +689,27 @@ msgstr "Aplikacija"
 msgid "Settings"
 msgstr "Nustatymai"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Id"
 msgstr "Id"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "Užduoties identifikatorius (kaip jį grąžino NodeODM API)"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Project that this task belongs to"
 msgstr "Projektas, kuriam priklauso ši užduotis"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "A label for the task"
 msgstr "Užduoties etiketė"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -711,11 +717,11 @@ msgstr ""
 "Skaičius milisekundžių, praėjusių nuo šios užduoties pradžios (-1 rodo, kad "
 "nėra informacijos)"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid "Processing Time"
 msgstr "Apdorojimo laikas"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -723,77 +729,77 @@ msgstr ""
 "Šiai užduočiai paskirtas apdorojimo mazgas (arba null, jei ši užduotis dar "
 "nesusieta)"
 
-#: app/models/task.py:252 app/views/app.py:138 nodeodm/models.py:37
+#: app/models/task.py:253 app/views/app.py:138 nodeodm/models.py:37
 msgid "Processing Node"
 msgstr "Apdorojimo mazgas"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr "Žyma, ar užduotis turėtų būti automatiškai priskirta apdorojimo mazgui"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid "Auto Processing Node"
 msgstr "Automatinis apdorojimo mazgas"
 
-#: app/models/task.py:254
+#: app/models/task.py:255
 msgid "Current status of the task"
 msgstr "Dabartinė užduoties būsena"
 
-#: app/models/task.py:254
+#: app/models/task.py:255
 msgid "Status"
 msgstr "Būsena"
 
-#: app/models/task.py:255
+#: app/models/task.py:256
 msgid "The last processing error received"
 msgstr "Paskutinė gauta apdorojimo klaida"
 
-#: app/models/task.py:255
+#: app/models/task.py:256
 msgid "Last Error"
 msgstr "Paskutinė klaida"
 
-#: app/models/task.py:256
+#: app/models/task.py:257
 msgid "Options that are being used to process this task"
 msgstr "Šios užduoties apdorojimui naudojamos parinktys"
 
-#: app/models/task.py:257
+#: app/models/task.py:258
 msgid "List of available assets to download"
 msgstr "Sąrašas daiktų, kuriuos galima atsisiųsti"
 
-#: app/models/task.py:257
+#: app/models/task.py:258
 msgid "Available Assets"
 msgstr "Galimi daiktai"
 
-#: app/models/task.py:259
+#: app/models/task.py:260
 msgid "Extent of the orthophoto"
 msgstr "Ortofoto apimtis"
 
-#: app/models/task.py:259
+#: app/models/task.py:260
 msgid "Orthophoto Extent"
 msgstr "Ortofoto apimtis"
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "Extent of the DSM"
 msgstr "Ortofoto apimtis"
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 msgid "DSM Extent"
 msgstr "DSM apimtis"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "Extent of the DTM"
 msgstr "Ortofoto apimtis"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid "DTM Extent"
 msgstr "DTM apimtis"
 
-#: app/models/task.py:265
+#: app/models/task.py:266
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -801,32 +807,32 @@ msgstr ""
 "Užduočiai paprašytas veiksmas. Darbuotojas vykdys parinktą veiksmą kitoje "
 "iteracijoje."
 
-#: app/models/task.py:265
+#: app/models/task.py:266
 msgid "Pending Action"
 msgstr "Laukiamas veiksmas"
 
-#: app/models/task.py:267
+#: app/models/task.py:268
 msgid "A flag indicating whether this task is available to the public"
 msgstr "Žyma ar ši užduotis prieinama viešai"
 
-#: app/models/task.py:268
+#: app/models/task.py:269
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this public task can be edited"
 msgstr "Žyma ar ši užduotis prieinama viešai"
 
-#: app/models/task.py:270
+#: app/models/task.py:271
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
 "processing."
 msgstr ""
 
-#: app/models/task.py:270
+#: app/models/task.py:271
 msgid "Resize To"
 msgstr "Keisti dydį į"
 
-#: app/models/task.py:273
+#: app/models/task.py:274
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
@@ -834,142 +840,150 @@ msgstr ""
 "Reikšmė tarp 0 ir 1, nurodanti šios užduoties failų siuntimo į apdorojimo "
 "mazgą eigą"
 
-#: app/models/task.py:274
+#: app/models/task.py:275
 msgid "Upload Progress"
 msgstr "Įkėlimo eiga"
 
-#: app/models/task.py:277
+#: app/models/task.py:278
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
 "Reikšmė tarp 0 ir 1, rodanti šios užduoties nuotraukų dydžio keitimo eigą"
 
-#: app/models/task.py:278
+#: app/models/task.py:279
 msgid "Resize Progress"
 msgstr "Dydžio keitimo eiga"
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr "Reikšmė tarp 0 ir 1, rodanti šios užduoties vykdymo eigą (numatomą)"
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid "Running Progress"
 msgstr "Vykdymo eiga"
 
-#: app/models/task.py:284
+#: app/models/task.py:285
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "URL, iš kurio importuota ši užduotis (tik importuotoms užduotims)"
 
-#: app/models/task.py:284
+#: app/models/task.py:285
 msgid "Import URL"
 msgstr "Importo URL"
 
-#: app/models/task.py:285
+#: app/models/task.py:286
 msgid "Number of images associated with this task"
 msgstr "Su šia užduotimi susijusių nuotraukų skaičius"
 
-#: app/models/task.py:285
+#: app/models/task.py:286
 msgid "Images Count"
 msgstr "Nuotraukų skaičius"
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr ""
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 msgid "Partial"
 msgstr ""
 
-#: app/models/task.py:287
+#: app/models/task.py:288
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
 
-#: app/models/task.py:287
+#: app/models/task.py:288
 msgid "Potree Scene"
 msgstr ""
 
-#: app/models/task.py:288
+#: app/models/task.py:289
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "Duomenų aibės EPSG kodas (jei pririštas)"
 
-#: app/models/task.py:289
+#: app/models/task.py:290
+#, fuzzy
+#| msgid "EPSG code of the dataset (if georeferenced)"
+msgid ""
+"WKT definition of the dataset (if georeferenced and EPSG code is not "
+"available)"
+msgstr "Duomenų aibės EPSG kodas (jei pririštas)"
+
+#: app/models/task.py:291
 msgid "Task tags"
 msgstr "Užduoties žymos"
 
-#: app/models/task.py:290
+#: app/models/task.py:292
 msgid "List of orthophoto bands"
 msgstr "Ortofoto juostų sąrašas"
 
-#: app/models/task.py:290
+#: app/models/task.py:292
 msgid "Orthophoto Bands"
 msgstr "Ortofoto juostos"
 
-#: app/models/task.py:291
+#: app/models/task.py:293
 msgid "Size of the task on disk in megabytes"
 msgstr "Užduoties dydis diske megabaitais"
 
-#: app/models/task.py:291
+#: app/models/task.py:293
 msgid "Size"
 msgstr "Dydis"
 
-#: app/models/task.py:292
+#: app/models/task.py:294
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this task was compacted"
 msgstr "Žyma ar ši užduotis prieinama viešai"
 
-#: app/models/task.py:292
+#: app/models/task.py:294
 msgid "Compact"
 msgstr ""
 
-#: app/models/task.py:293
+#: app/models/task.py:295
 msgid "Polygon defining the crop area of this task"
 msgstr ""
 
-#: app/models/task.py:293
+#: app/models/task.py:295
 msgid "Crop Polygon"
 msgstr ""
 
-#: app/models/task.py:297
+#: app/models/task.py:299
 msgid "Task"
 msgstr "Užduotis"
 
-#: app/models/task.py:298
+#: app/models/task.py:300
 msgid "Tasks"
 msgstr "Užduotys"
 
-#: app/models/task.py:309
+#: app/models/task.py:311
 msgid "unnamed"
 msgstr "bevardis"
 
-#: app/models/task.py:606
+#: app/models/task.py:608
 msgid "Importing assets..."
 msgstr "Importuojami daiktai..."
 
-#: app/models/task.py:658 app/models/task.py:936
+#: app/models/task.py:660 app/models/task.py:938
 msgid "Invalid zip file"
 msgstr "Netinkamas zip failas"
 
-#: app/models/task.py:660
+#: app/models/task.py:662
 msgid "Unsupported compression method"
 msgstr ""
 
-#: app/models/task.py:754
+#: app/models/task.py:756
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Jungties klaida: %(error)s"
 
-#: app/models/task.py:834
+#: app/models/task.py:836
 msgid "Cannot restart a task that has no processing node"
 msgstr "Negalima iš naujo paleisti užduoties, kuri neturi apdorojimo mazgo"
 
-#: app/models/task.py:1037
+#: app/models/task.py:1042
 msgid "Done!"
 msgstr "Atlikta!"
 

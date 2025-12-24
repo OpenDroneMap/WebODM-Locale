@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-22 20:15+0000\n"
+"POT-Creation-Date: 2025-12-24 19:29+0000\n"
 "PO-Revision-Date: 2024-10-28 08:17+0000\n"
 "Last-Translator: Park Jeongyong <kladess@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/webodm/webodm/ko/"
@@ -326,7 +326,7 @@ msgid "Cannot create task, you need at least 2 images"
 msgstr "작업을 생성할 수 없습니다, 최소 2장 이상의 이미지가 필요합니다"
 
 #: app/api/tasks.py:510 app/api/tasks.py:514 app/api/tasks.py:655
-#: app/api/tasks.py:658 app/api/tasks.py:676 app/api/tasks.py:783
+#: app/api/tasks.py:658 app/api/tasks.py:676 app/api/tasks.py:788
 msgid "Asset does not exist"
 msgstr "애셋이 존재하지 않습니다"
 
@@ -348,76 +348,82 @@ msgstr ""
 msgid "Invalid URL. Did you mean %(hint)s ?"
 msgstr ""
 
-#: app/api/tiler.py:360
+#: app/api/tiler.py:364
 msgid "Invalid boundaries parameter"
 msgstr "잘못된 경계 매개변수"
 
-#: app/api/tiler.py:379
+#: app/api/tiler.py:383
 msgid "Invalid tile size parameter"
 msgstr "잘못된 타일 크기 매개변수"
 
-#: app/api/tiler.py:410 app/api/tiler.py:489
+#: app/api/tiler.py:414 app/api/tiler.py:495
 msgid "Outside of bounds"
 msgstr "범위를 벗어남"
 
-#: app/api/tiler.py:421
+#: app/api/tiler.py:425
 msgid "Invalid boundaries"
 msgstr "잘못된 경계"
 
-#: app/api/tiler.py:495 app/api/tiler.py:618
+#: app/api/tiler.py:501 app/api/tiler.py:629
 msgid "Not a valid color_map value"
 msgstr "유효한 color_map 값이 아닙니다"
 
-#: app/api/tiler.py:503
+#: app/api/tiler.py:509
 msgid "Invalid rescale value"
 msgstr "잘못된 재조정 값"
 
-#: app/api/tiler.py:525
+#: app/api/tiler.py:531
 msgid "Invalid hillshade value"
 msgstr "잘못된 hillshade 값"
 
-#: app/api/tiler.py:528
+#: app/api/tiler.py:534
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr "고도가 없는 래스터의 색조를 계산할 수 없습니다(여러 대역 발견)"
 
-#: app/api/tiler.py:552
+#: app/api/tiler.py:558
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 "타일을 처리할 수 없음: 강도 이미지가 제공되었지만 RGB 데이터가 계산되지 않았"
 "습니다."
 
-#: app/api/tiler.py:603 app/api/tiler.py:605
+#: app/api/tiler.py:614 app/api/tiler.py:616
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr "지원되지 않는 형식: %(value)s"
 
-#: app/api/tiler.py:624
+#: app/api/tiler.py:635
 #, fuzzy, python-format
 #| msgid "Invalid rescale value: %(value)s"
 msgid "Invalid resample value: %(value)s"
 msgstr "잘못된 재조정 값: %(value)s"
 
-#: app/api/tiler.py:630
+#: app/api/tiler.py:641
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr "잘못된 EPSG 코드: %(value)s"
 
-#: app/api/tiler.py:633
+#: app/api/tiler.py:647 app/api/tiler.py:649
+#, fuzzy, python-format
+#| msgid "Invalid EPSG code: %(value)s"
+msgid "Invalid PROJ string: %(value)s"
+msgstr "잘못된 EPSG 코드: %(value)s"
+
+#: app/api/tiler.py:652
 msgid "Both formula and bands parameters are required"
 msgstr "공식 및 대역 매개변수가 모두 필요합니다"
 
-#: app/api/tiler.py:656
+#: app/api/tiler.py:675
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr "잘못된 재조정 값: %(value)s"
 
-#: app/api/tiler.py:664
+#: app/api/tiler.py:683
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr "잘못된 힐쉐이드 값: %(value)s"
 
-#: app/api/tiler.py:675
+#: app/api/tiler.py:694
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr "지리 참조되지 않은 데이터 세트에서 epsg를 사용할 수 없습니다"
 
@@ -426,7 +432,7 @@ msgid "Plugin name"
 msgstr "플러그인 이름"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:28
-#: app/models/task.py:250 app/models/theme.py:18
+#: app/models/task.py:251 app/models/theme.py:18
 msgid "Name"
 msgstr "이름"
 
@@ -502,15 +508,15 @@ msgstr "이 프리셋을 설명하기 위한 레이블"
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr "이 사전 설정을 정의하는 옵션(작업 옵션과 동일한 형식)."
 
-#: app/models/preset.py:11 app/models/task.py:256
+#: app/models/preset.py:11 app/models/task.py:257
 msgid "Options"
 msgstr "옵션"
 
-#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:264
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:265
 msgid "Creation date"
 msgstr "생성일"
 
-#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:264
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:265
 msgid "Created at"
 msgstr "생성 됨"
 
@@ -579,7 +585,7 @@ msgstr "삭제 중"
 msgid "Project tags"
 msgstr "프로젝트 태그들"
 
-#: app/models/project.py:32 app/models/task.py:289
+#: app/models/project.py:32 app/models/task.py:291
 msgid "Tags"
 msgstr "태그"
 
@@ -589,7 +595,7 @@ msgstr "태그"
 msgid "A flag indicating whether this project is available to the public"
 msgstr "이 작업을 대중에게 공개할 수 있는지 여부를 나타내는 플래그"
 
-#: app/models/project.py:33 app/models/task.py:267
+#: app/models/project.py:33 app/models/task.py:268
 msgid "Public"
 msgstr "공용"
 
@@ -599,7 +605,7 @@ msgstr "공용"
 msgid "A flag indicating whether this public project can be edited"
 msgstr "이 작업을 대중에게 공개할 수 있는지 여부를 나타내는 플래그"
 
-#: app/models/project.py:34 app/models/task.py:268
+#: app/models/project.py:34 app/models/task.py:269
 #, fuzzy
 #| msgid "Public"
 msgid "Public Edit"
@@ -617,12 +623,12 @@ msgstr "프로젝트에 대한 자세한 설명"
 msgid "Public Id"
 msgstr "공용"
 
-#: app/models/project.py:109 app/models/task.py:474
+#: app/models/project.py:109 app/models/task.py:476
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "%(task)s 사본"
 
-#: app/models/project.py:142 app/models/task.py:249
+#: app/models/project.py:142 app/models/task.py:250
 msgid "Project"
 msgstr "프로젝트"
 
@@ -705,115 +711,115 @@ msgstr "응용프로그램"
 msgid "Settings"
 msgstr "설정"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Id"
 msgstr "ID"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "작업 식별자 (NodeODM API에서 반환 됨)"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Project that this task belongs to"
 msgstr "이 작업이 속한 프로젝트"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "A label for the task"
 msgstr "작업에 대한 레이블"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr ""
 "이 작업이 시작된 이후 경과 된 시간 (-1은 사용 가능한 정보가 없음을 나타냄)"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid "Processing Time"
 msgstr "처리 시간"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr ""
 "이 작업에 할당 된 처리 노드 (또는이 작업이 아직 연결되지 않은 경우 null)"
 
-#: app/models/task.py:252 app/views/app.py:138 nodeodm/models.py:37
+#: app/models/task.py:253 app/views/app.py:138 nodeodm/models.py:37
 msgid "Processing Node"
 msgstr "프로세싱 노드"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr "이 작업에 처리 노드가 자동으로 할당되어야하는지 여부를 나타내는 플래그"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid "Auto Processing Node"
 msgstr "자동 처리 노드"
 
-#: app/models/task.py:254
+#: app/models/task.py:255
 msgid "Current status of the task"
 msgstr "작업의 현재 상태"
 
-#: app/models/task.py:254
+#: app/models/task.py:255
 msgid "Status"
 msgstr "상태"
 
-#: app/models/task.py:255
+#: app/models/task.py:256
 msgid "The last processing error received"
 msgstr "마지막으로 받은 처리 오류"
 
-#: app/models/task.py:255
+#: app/models/task.py:256
 msgid "Last Error"
 msgstr "마지막 오류"
 
-#: app/models/task.py:256
+#: app/models/task.py:257
 msgid "Options that are being used to process this task"
 msgstr "이 작업을 처리하는 데 사용되는 옵션"
 
-#: app/models/task.py:257
+#: app/models/task.py:258
 msgid "List of available assets to download"
 msgstr "다운로드 할 수있는 자산 목록"
 
-#: app/models/task.py:257
+#: app/models/task.py:258
 msgid "Available Assets"
 msgstr "사용 가능한 자산"
 
-#: app/models/task.py:259
+#: app/models/task.py:260
 msgid "Extent of the orthophoto"
 msgstr "정사 영상의 범위"
 
-#: app/models/task.py:259
+#: app/models/task.py:260
 msgid "Orthophoto Extent"
 msgstr "정사 영상 범위"
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "Extent of the DSM"
 msgstr "정사 영상의 범위"
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 msgid "DSM Extent"
 msgstr "DSM 범위"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "Extent of the DTM"
 msgstr "정사 영상의 범위"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid "DTM Extent"
 msgstr "DTM 범위"
 
-#: app/models/task.py:265
+#: app/models/task.py:266
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -821,21 +827,21 @@ msgstr ""
 "작업에 대해 수행 할 요청 된 작업입니다. 선택한 작업은 다음 반복에서 작업자가 "
 "수행합니다."
 
-#: app/models/task.py:265
+#: app/models/task.py:266
 msgid "Pending Action"
 msgstr "보류 중인 작업"
 
-#: app/models/task.py:267
+#: app/models/task.py:268
 msgid "A flag indicating whether this task is available to the public"
 msgstr "이 작업을 대중에게 공개할 수 있는지 여부를 나타내는 플래그"
 
-#: app/models/task.py:268
+#: app/models/task.py:269
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this public task can be edited"
 msgstr "이 작업을 대중에게 공개할 수 있는지 여부를 나타내는 플래그"
 
-#: app/models/task.py:270
+#: app/models/task.py:271
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -844,57 +850,57 @@ msgstr ""
 "-1과 다른 값으로 설정하면 이 작업의 이미지가 처리 하기 전에 여기에 지정된 크"
 "기로 크기 조정되었음을 나타냅니다."
 
-#: app/models/task.py:270
+#: app/models/task.py:271
 msgid "Resize To"
 msgstr "크기 조정"
 
-#: app/models/task.py:273
+#: app/models/task.py:274
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr ""
 "처리 노드에 대한이 작업의 파일 업로드 진행률을 나타내는 0에서 1 사이의 값"
 
-#: app/models/task.py:274
+#: app/models/task.py:275
 msgid "Upload Progress"
 msgstr "업로드 진행"
 
-#: app/models/task.py:277
+#: app/models/task.py:278
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr "이 작업 이미지의 크기 조정 진행률을 나타내는 0에서 1 사이의 값"
 
-#: app/models/task.py:278
+#: app/models/task.py:279
 msgid "Resize Progress"
 msgstr "진행률 크기 조정"
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr "이 작업의 실행 중인 진행률(예상)을 나타내는 0에서 1 사이의 값"
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid "Running Progress"
 msgstr "실행 중인 처리"
 
-#: app/models/task.py:284
+#: app/models/task.py:285
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "이 작업을 가져온 URL (가져온 작업에만 해당)"
 
-#: app/models/task.py:284
+#: app/models/task.py:285
 msgid "Import URL"
 msgstr "URL 가져 오기"
 
-#: app/models/task.py:285
+#: app/models/task.py:286
 msgid "Number of images associated with this task"
 msgstr "이 작업과 관련된 이미지 수"
 
-#: app/models/task.py:285
+#: app/models/task.py:286
 msgid "Images Count"
 msgstr "이미지 수"
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
@@ -902,99 +908,107 @@ msgstr ""
 "이 작업이 현재 처리 중인 것으로 간주되기 전에 정보 또는 파일이 업로드되기를 "
 "기다리고 있는지 여부를 나타내는 플래그입니다."
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 msgid "Partial"
 msgstr "부분적"
 
-#: app/models/task.py:287
+#: app/models/task.py:288
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
 "측정 및 카메라 뷰 각도를 저장/로드하는 데 사용되는 직렬화된 포트리 장면 정보"
 
-#: app/models/task.py:287
+#: app/models/task.py:288
 msgid "Potree Scene"
 msgstr "Potree 장면"
 
-#: app/models/task.py:288
+#: app/models/task.py:289
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "데이터세트의 EPSG 코드(지리참조된 경우)"
 
-#: app/models/task.py:289
+#: app/models/task.py:290
+#, fuzzy
+#| msgid "EPSG code of the dataset (if georeferenced)"
+msgid ""
+"WKT definition of the dataset (if georeferenced and EPSG code is not "
+"available)"
+msgstr "데이터세트의 EPSG 코드(지리참조된 경우)"
+
+#: app/models/task.py:291
 msgid "Task tags"
 msgstr "작업 태그들"
 
-#: app/models/task.py:290
+#: app/models/task.py:292
 msgid "List of orthophoto bands"
 msgstr "정사 영상 밴드의 범위"
 
-#: app/models/task.py:290
+#: app/models/task.py:292
 msgid "Orthophoto Bands"
 msgstr ""
 "정사 영상 밴드(정사보정된 항공사진 또는 위성사진에서 추출할 수 있는 다양한 스"
 "펙트럼 대역)"
 
-#: app/models/task.py:291
+#: app/models/task.py:293
 msgid "Size of the task on disk in megabytes"
 msgstr "디스크에서의 작업크기(메가바이트 단위)"
 
-#: app/models/task.py:291
+#: app/models/task.py:293
 msgid "Size"
 msgstr "크기"
 
-#: app/models/task.py:292
+#: app/models/task.py:294
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this task was compacted"
 msgstr "이 작업을 대중에게 공개할 수 있는지 여부를 나타내는 플래그"
 
-#: app/models/task.py:292
+#: app/models/task.py:294
 msgid "Compact"
 msgstr ""
 
-#: app/models/task.py:293
+#: app/models/task.py:295
 msgid "Polygon defining the crop area of this task"
 msgstr ""
 
-#: app/models/task.py:293
+#: app/models/task.py:295
 msgid "Crop Polygon"
 msgstr ""
 
-#: app/models/task.py:297
+#: app/models/task.py:299
 msgid "Task"
 msgstr "작업"
 
-#: app/models/task.py:298
+#: app/models/task.py:300
 msgid "Tasks"
 msgstr "작업"
 
-#: app/models/task.py:309
+#: app/models/task.py:311
 msgid "unnamed"
 msgstr "이름 없음"
 
-#: app/models/task.py:606
+#: app/models/task.py:608
 msgid "Importing assets..."
 msgstr "자산 가져 오는 중 ..."
 
-#: app/models/task.py:658 app/models/task.py:936
+#: app/models/task.py:660 app/models/task.py:938
 msgid "Invalid zip file"
 msgstr "잘못된 zip 파일"
 
-#: app/models/task.py:660
+#: app/models/task.py:662
 msgid "Unsupported compression method"
 msgstr ""
 
-#: app/models/task.py:754
+#: app/models/task.py:756
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "연결 오류 : %(error)s"
 
-#: app/models/task.py:834
+#: app/models/task.py:836
 msgid "Cannot restart a task that has no processing node"
 msgstr "처리 노드가없는 작업을 다시 시작할 수 없습니다"
 
-#: app/models/task.py:1037
+#: app/models/task.py:1042
 msgid "Done!"
 msgstr "완료!"
 

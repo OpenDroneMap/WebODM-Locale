@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-22 20:15+0000\n"
+"POT-Creation-Date: 2025-12-24 19:29+0000\n"
 "PO-Revision-Date: 2021-05-19 10:21+0000\n"
 "Last-Translator: oyunbat <tseku1116@yahoo.com>\n"
 "Language-Team: Mongolian <https://hosted.weblate.org/projects/webodm/webodm/"
@@ -338,7 +338,7 @@ msgid "Cannot create task, you need at least 2 images"
 msgstr "Даалгавар үүсгэх боломжгүй, танд дор хаяж 2 зураг хэрэгтэй"
 
 #: app/api/tasks.py:510 app/api/tasks.py:514 app/api/tasks.py:655
-#: app/api/tasks.py:658 app/api/tasks.py:676 app/api/tasks.py:783
+#: app/api/tasks.py:658 app/api/tasks.py:676 app/api/tasks.py:788
 msgid "Asset does not exist"
 msgstr "Хөрөнгө байхгүй байна"
 
@@ -360,80 +360,86 @@ msgstr ""
 msgid "Invalid URL. Did you mean %(hint)s ?"
 msgstr ""
 
-#: app/api/tiler.py:360
+#: app/api/tiler.py:364
 msgid "Invalid boundaries parameter"
 msgstr ""
 
-#: app/api/tiler.py:379
+#: app/api/tiler.py:383
 #, fuzzy
 #| msgid "Invalid zip file"
 msgid "Invalid tile size parameter"
 msgstr "Зип файл буруу байна"
 
-#: app/api/tiler.py:410 app/api/tiler.py:489
+#: app/api/tiler.py:414 app/api/tiler.py:495
 msgid "Outside of bounds"
 msgstr ""
 
-#: app/api/tiler.py:421
+#: app/api/tiler.py:425
 #, fuzzy
 #| msgid "Invalid action"
 msgid "Invalid boundaries"
 msgstr "Буруу үйлдэл"
 
-#: app/api/tiler.py:495 app/api/tiler.py:618
+#: app/api/tiler.py:501 app/api/tiler.py:629
 msgid "Not a valid color_map value"
 msgstr ""
 
-#: app/api/tiler.py:503
+#: app/api/tiler.py:509
 msgid "Invalid rescale value"
 msgstr ""
 
-#: app/api/tiler.py:525
+#: app/api/tiler.py:531
 #, fuzzy
 #| msgid "Invalid zip file"
 msgid "Invalid hillshade value"
 msgstr "Зип файл буруу байна"
 
-#: app/api/tiler.py:528
+#: app/api/tiler.py:534
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
 
-#: app/api/tiler.py:552
+#: app/api/tiler.py:558
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
 
-#: app/api/tiler.py:603 app/api/tiler.py:605
+#: app/api/tiler.py:614 app/api/tiler.py:616
 #, python-format
 msgid "Unsupported format: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:624
+#: app/api/tiler.py:635
 #, fuzzy, python-format
 #| msgid "Invalid zip file"
 msgid "Invalid resample value: %(value)s"
 msgstr "Зип файл буруу байна"
 
-#: app/api/tiler.py:630
+#: app/api/tiler.py:641
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:633
+#: app/api/tiler.py:647 app/api/tiler.py:649
+#, fuzzy, python-format
+#| msgid "Invalid zip file"
+msgid "Invalid PROJ string: %(value)s"
+msgstr "Зип файл буруу байна"
+
+#: app/api/tiler.py:652
 msgid "Both formula and bands parameters are required"
 msgstr ""
 
-#: app/api/tiler.py:656
+#: app/api/tiler.py:675
 #, python-format
 msgid "Invalid rescale value: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:664
+#: app/api/tiler.py:683
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
 msgstr ""
 
-#: app/api/tiler.py:675
+#: app/api/tiler.py:694
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr ""
 
@@ -442,7 +448,7 @@ msgid "Plugin name"
 msgstr "Залгаасны нэр"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:28
-#: app/models/task.py:250 app/models/theme.py:18
+#: app/models/task.py:251 app/models/theme.py:18
 msgid "Name"
 msgstr "Нэр"
 
@@ -522,15 +528,15 @@ msgstr ""
 "Энэ урьдчилсан тохиргоог тодорхойлох сонголтууд (Task-ийн сонголттой ижил "
 "форматтай)."
 
-#: app/models/preset.py:11 app/models/task.py:256
+#: app/models/preset.py:11 app/models/task.py:257
 msgid "Options"
 msgstr "Сонголтууд"
 
-#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:264
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:265
 msgid "Creation date"
 msgstr "Бүтээсэн огноо"
 
-#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:264
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:265
 msgid "Created at"
 msgstr "Үүсгэсэн"
 
@@ -601,7 +607,7 @@ msgstr "Устгаж байна"
 msgid "Project tags"
 msgstr "Төсөл"
 
-#: app/models/project.py:32 app/models/task.py:289
+#: app/models/project.py:32 app/models/task.py:291
 msgid "Tags"
 msgstr ""
 
@@ -611,7 +617,7 @@ msgstr ""
 msgid "A flag indicating whether this project is available to the public"
 msgstr "Энэ даалгавар олон нийтэд нээлттэй байгаа эсэхийг харуулсан туг"
 
-#: app/models/project.py:33 app/models/task.py:267
+#: app/models/project.py:33 app/models/task.py:268
 msgid "Public"
 msgstr "Олон нийтийн"
 
@@ -621,7 +627,7 @@ msgstr "Олон нийтийн"
 msgid "A flag indicating whether this public project can be edited"
 msgstr "Энэ даалгавар олон нийтэд нээлттэй байгаа эсэхийг харуулсан туг"
 
-#: app/models/project.py:34 app/models/task.py:268
+#: app/models/project.py:34 app/models/task.py:269
 #, fuzzy
 #| msgid "Public"
 msgid "Public Edit"
@@ -639,12 +645,12 @@ msgstr "Төслийн талаар илүү гүнзгий тайлбар"
 msgid "Public Id"
 msgstr "Олон нийтийн"
 
-#: app/models/project.py:109 app/models/task.py:474
+#: app/models/project.py:109 app/models/task.py:476
 #, python-format
 msgid "Copy of %(task)s"
 msgstr ""
 
-#: app/models/project.py:142 app/models/task.py:249
+#: app/models/project.py:142 app/models/task.py:250
 msgid "Project"
 msgstr "Төсөл"
 
@@ -727,27 +733,27 @@ msgstr "Програм"
 msgid "Settings"
 msgstr "Тохиргоо"
 
-#: app/models/task.py:246
+#: app/models/task.py:247
 msgid "Id"
 msgstr "Id"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "Даалгаврын тодорхойлогч (NodeODM API-ийн буцаасан шиг)"
 
-#: app/models/task.py:248
+#: app/models/task.py:249
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:249
+#: app/models/task.py:250
 msgid "Project that this task belongs to"
 msgstr "Энэ даалгаварт хамаарах төсөл"
 
-#: app/models/task.py:250
+#: app/models/task.py:251
 msgid "A label for the task"
 msgstr "Даалгаврын шошго"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -755,11 +761,11 @@ msgstr ""
 "Энэ даалгавар эхэлснээс хойш өнгөрсөн миллисекундын тоо (-1 нь мэдээлэлгүй "
 "байгааг харуулж байна)"
 
-#: app/models/task.py:251
+#: app/models/task.py:252
 msgid "Processing Time"
 msgstr "Боловсруулах цаг"
 
-#: app/models/task.py:252
+#: app/models/task.py:253
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -767,11 +773,11 @@ msgstr ""
 "Энэ даалгаварт оноогдсон зангилааны боловсруулалт (эсвэл энэ даалгавар "
 "хараахан холбогдоогүй бол хүчингүй)"
 
-#: app/models/task.py:252 app/views/app.py:138 nodeodm/models.py:37
+#: app/models/task.py:253 app/views/app.py:138 nodeodm/models.py:37
 msgid "Processing Node"
 msgstr "Боловсруулах цэг"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
@@ -779,67 +785,67 @@ msgstr ""
 "Энэ даалгаварт автоматаар боловсруулах цэгийг оноож өгөх эсэхийг зааж өгсөн "
 "туг"
 
-#: app/models/task.py:253
+#: app/models/task.py:254
 msgid "Auto Processing Node"
 msgstr "Автоматаар боловсруулах цэг"
 
-#: app/models/task.py:254
+#: app/models/task.py:255
 msgid "Current status of the task"
 msgstr "Ажлын өнөөгийн байдал"
 
-#: app/models/task.py:254
+#: app/models/task.py:255
 msgid "Status"
 msgstr "Статус"
 
-#: app/models/task.py:255
+#: app/models/task.py:256
 msgid "The last processing error received"
 msgstr "Сүүлчийн боловсруулалтын алдаа хүлээн авав"
 
-#: app/models/task.py:255
+#: app/models/task.py:256
 msgid "Last Error"
 msgstr "Сүүлийн алдаа"
 
-#: app/models/task.py:256
+#: app/models/task.py:257
 msgid "Options that are being used to process this task"
 msgstr "Энэ даалгаврыг боловсруулахад ашиглаж буй сонголтууд"
 
-#: app/models/task.py:257
+#: app/models/task.py:258
 msgid "List of available assets to download"
 msgstr "Татаж авах боломжтой хөрөнгийн жагсаалт"
 
-#: app/models/task.py:257
+#: app/models/task.py:258
 msgid "Available Assets"
 msgstr "Боломжит хөрөнгө"
 
-#: app/models/task.py:259
+#: app/models/task.py:260
 msgid "Extent of the orthophoto"
 msgstr "Ортофотогийн хэмжээ"
 
-#: app/models/task.py:259
+#: app/models/task.py:260
 msgid "Orthophoto Extent"
 msgstr "Ортофото хэмжээ"
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "Extent of the DSM"
 msgstr "Ортофотогийн хэмжээ"
 
-#: app/models/task.py:260
+#: app/models/task.py:261
 msgid "DSM Extent"
 msgstr "DSM хэмжээ"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "Extent of the DTM"
 msgstr "Ортофотогийн хэмжээ"
 
-#: app/models/task.py:261
+#: app/models/task.py:262
 msgid "DTM Extent"
 msgstr "DTM хэмжээ"
 
-#: app/models/task.py:265
+#: app/models/task.py:266
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -847,21 +853,21 @@ msgstr ""
 "Даалгавар дээр хийхийг хүссэн үйл ажиллагаа. Сонгосон үйлдлийг дараагийн "
 "давталт дээр ажилчин гүйцэтгэнэ."
 
-#: app/models/task.py:265
+#: app/models/task.py:266
 msgid "Pending Action"
 msgstr "Хүлээгдэж буй арга хэмжээ"
 
-#: app/models/task.py:267
+#: app/models/task.py:268
 msgid "A flag indicating whether this task is available to the public"
 msgstr "Энэ даалгавар олон нийтэд нээлттэй байгаа эсэхийг харуулсан туг"
 
-#: app/models/task.py:268
+#: app/models/task.py:269
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this public task can be edited"
 msgstr "Энэ даалгавар олон нийтэд нээлттэй байгаа эсэхийг харуулсан туг"
 
-#: app/models/task.py:270
+#: app/models/task.py:271
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -870,11 +876,11 @@ msgstr ""
 "-1-ээс өөр утгыг тохируулсан тохиолдолд энэ даалгаврын зургуудыг "
 "боловсруулахаас өмнө энд заасан хэмжээгээр өөрчилсөн болохыг илэрхийлнэ."
 
-#: app/models/task.py:270
+#: app/models/task.py:271
 msgid "Resize To"
 msgstr "Хэмжээгээ өөрчлөх"
 
-#: app/models/task.py:273
+#: app/models/task.py:274
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
@@ -882,48 +888,48 @@ msgstr ""
 "Энэ даалгаврын файлуудыг боловсруулах цэг рүү байршуулах явцыг харуулсан 0-1 "
 "хоорондох утга"
 
-#: app/models/task.py:274
+#: app/models/task.py:275
 msgid "Upload Progress"
 msgstr "Байршуулах явц"
 
-#: app/models/task.py:277
+#: app/models/task.py:278
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
 "Энэ даалгаврын зургуудын хэмжээг өөрчлөх явцыг харуулсан 0-1 хоорондох утга"
 
-#: app/models/task.py:278
+#: app/models/task.py:279
 msgid "Resize Progress"
 msgstr "Ахиц дэвшлийн хэмжээг өөрчлөх"
 
-#: app/models/task.py:281
+#: app/models/task.py:282
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr ""
 "Энэ даалгаврын явц (тооцоолсон) явцыг харуулсан 0-ээс 1-ийн хоорондох утга"
 
-#: app/models/task.py:282
+#: app/models/task.py:283
 msgid "Running Progress"
 msgstr "Прогресс ажиллуулж байна"
 
-#: app/models/task.py:284
+#: app/models/task.py:285
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "Энэ даалгаврыг URL-аас импортлох (зөвхөн импортын даалгаврын хувьд)"
 
-#: app/models/task.py:284
+#: app/models/task.py:285
 msgid "Import URL"
 msgstr "Импортын URL"
 
-#: app/models/task.py:285
+#: app/models/task.py:286
 msgid "Number of images associated with this task"
 msgstr "Энэ даалгавартай холбоотой зургийн тоо"
 
-#: app/models/task.py:285
+#: app/models/task.py:286
 msgid "Images Count"
 msgstr "Зураг тоолох"
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
@@ -931,102 +937,108 @@ msgstr ""
 "Энэ даалгавар нь боловсруулалт хийхээс өмнө мэдээлэл эсвэл файл оруулахыг "
 "хүлээж байгаа эсэхийг харуулсан туг."
 
-#: app/models/task.py:286
+#: app/models/task.py:287
 msgid "Partial"
 msgstr "Хэсэгчилсэн"
 
-#: app/models/task.py:287
+#: app/models/task.py:288
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
 
-#: app/models/task.py:287
+#: app/models/task.py:288
 msgid "Potree Scene"
 msgstr ""
 
-#: app/models/task.py:288
+#: app/models/task.py:289
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr ""
 
-#: app/models/task.py:289
+#: app/models/task.py:290
+msgid ""
+"WKT definition of the dataset (if georeferenced and EPSG code is not "
+"available)"
+msgstr ""
+
+#: app/models/task.py:291
 #, fuzzy
 #| msgid "Tasks"
 msgid "Task tags"
 msgstr "Даалгавар"
 
-#: app/models/task.py:290
+#: app/models/task.py:292
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "List of orthophoto bands"
 msgstr "Ортофотогийн хэмжээ"
 
-#: app/models/task.py:290
+#: app/models/task.py:292
 #, fuzzy
 #| msgid "Orthophoto Extent"
 msgid "Orthophoto Bands"
 msgstr "Ортофото хэмжээ"
 
-#: app/models/task.py:291
+#: app/models/task.py:293
 msgid "Size of the task on disk in megabytes"
 msgstr ""
 
-#: app/models/task.py:291
+#: app/models/task.py:293
 msgid "Size"
 msgstr ""
 
-#: app/models/task.py:292
+#: app/models/task.py:294
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this task was compacted"
 msgstr "Энэ даалгавар олон нийтэд нээлттэй байгаа эсэхийг харуулсан туг"
 
-#: app/models/task.py:292
+#: app/models/task.py:294
 msgid "Compact"
 msgstr ""
 
-#: app/models/task.py:293
+#: app/models/task.py:295
 msgid "Polygon defining the crop area of this task"
 msgstr ""
 
-#: app/models/task.py:293
+#: app/models/task.py:295
 msgid "Crop Polygon"
 msgstr ""
 
-#: app/models/task.py:297
+#: app/models/task.py:299
 msgid "Task"
 msgstr "Даалгавар"
 
-#: app/models/task.py:298
+#: app/models/task.py:300
 msgid "Tasks"
 msgstr "Даалгавар"
 
-#: app/models/task.py:309
+#: app/models/task.py:311
 msgid "unnamed"
 msgstr "нэргүй"
 
-#: app/models/task.py:606
+#: app/models/task.py:608
 msgid "Importing assets..."
 msgstr "Хөрөнгө оруулж ирж байна ..."
 
-#: app/models/task.py:658 app/models/task.py:936
+#: app/models/task.py:660 app/models/task.py:938
 msgid "Invalid zip file"
 msgstr "Зип файл буруу байна"
 
-#: app/models/task.py:660
+#: app/models/task.py:662
 msgid "Unsupported compression method"
 msgstr ""
 
-#: app/models/task.py:754
+#: app/models/task.py:756
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Холболтын алдаа: %(error)s"
 
-#: app/models/task.py:834
+#: app/models/task.py:836
 msgid "Cannot restart a task that has no processing node"
 msgstr "Боловсруулах цэггүй ажлыг дахин эхлүүлэх боломжгүй"
 
-#: app/models/task.py:1037
+#: app/models/task.py:1042
 msgid "Done!"
 msgstr "Болов!"
 
