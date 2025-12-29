@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-24 19:29+0000\n"
-"PO-Revision-Date: 2025-12-28 05:00+0000\n"
+"PO-Revision-Date: 2025-12-30 07:00+0000\n"
 "Last-Translator: Chingchai Humhong <chingchai.h@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/webodm/webodm/th/>\n"
 "Language: th\n"
@@ -133,26 +133,22 @@ msgid ""
 "Normalized difference yellowness index (NDYI), best model variability in "
 "relative yield potential in Canola."
 msgstr ""
+"ดัชนีความเหลืองแบบผลต่างเชิงนอร์มัลไลซ์ (NDYI) เป็นแบบจำลองที่อธิบายความแปรปรวนของศักยภาพผ"
+"ลผลิตสัมพัทธ์ในพืชคาโนลาได้ดีที่สุด"
 
 #: app/api/formulas.py:22
-#, fuzzy
-#| msgid ""
-#| "Normalized Difference Vegetation Index shows the amount of green "
-#| "vegetation."
 msgid ""
 "Normalized Difference Red Edge Index shows the amount of green vegetation of "
 "permanent or later stage crops."
-msgstr "ดัชนีความแตกต่างพืชพรรณแบบนอมัลไลซ์แสดงปริมาณพืชพรรณสีเขียว"
+msgstr ""
+"ดัชนีความแตกต่างแบบนอร์มัลไลซ์ Red Edge (NDRE) แสดงปริมาณพืชสีเขียวของพืชถาวรหรือพืชในระยะ"
+"ปลาย"
 
 #: app/api/formulas.py:27
-#, fuzzy
-#| msgid ""
-#| "Normalized Difference Vegetation Index shows the amount of green "
-#| "vegetation."
 msgid ""
 "Normalized Difference Water Index shows the amount of water content in water "
 "bodies."
-msgstr "ดัชนีความแตกต่างพืชพรรณแบบนอมัลไลซ์แสดงปริมาณพืชพรรณสีเขียว"
+msgstr "ดัชนีความแตกต่างแบบนอร์มัลไลซ์น้ำ (NDWI) แสดงปริมาณน้ำในแหล่งน้ำ"
 
 #: app/api/formulas.py:37
 msgid ""
@@ -176,14 +172,14 @@ msgstr "ดัชนีความต้านทานบรรยากาศ
 
 #: app/api/formulas.py:50
 msgid "Modified Photochemical Reflectance Index"
-msgstr ""
+msgstr "ดัชนีสะท้อนแสงทางโฟโตเคมิคอลแบบปรับปรุงแล้ว"
 
 #: app/api/formulas.py:55
-#, fuzzy
 msgid ""
 "Excess Green Index (derived from only the RGB bands) emphasizes the "
 "greenness of leafy crops such as potatoes."
-msgstr "ดัชนีสีเขียวส่วนเกินเน้นความเขียวของพืชใบเช่นมันฝรั่ง"
+msgstr ""
+"ดัชนี Excess Green (ได้จากเฉพาะแบนด์ RGB) เน้นความเขียวของพืชใบ เช่น มันฝรั่ง"
 
 #: app/api/formulas.py:59
 msgid ""
@@ -270,14 +266,16 @@ msgid ""
 "Atmospherically Resistant Vegetation Index. Useful when working with imagery "
 "for regions with high atmospheric aerosol content."
 msgstr ""
+"ดัชนีพืชพันธุ์ที่ทนต่อสภาพบรรยากาศ (ARVI) มีประโยชน์เมื่อทำงานกับภาพถ่ายในพื้นที่ที่มีปริมาณอนุภาคในบ"
+"รรยากาศสูง"
 
 #: app/api/formulas.py:116
 msgid "Temperature in Celsius degrees."
-msgstr ""
+msgstr "อุณหภูมิเป็นองศาเซลเซียส"
 
 #: app/api/formulas.py:120
 msgid "Temperature in Centikelvin degrees."
-msgstr ""
+msgstr "อุณหภูมิเป็นเซนติเคลวิน (Centikelvin)"
 
 #: app/api/projects.py:130
 msgid "Cannot duplicate project"
@@ -285,19 +283,15 @@ msgstr ""
 
 #: app/api/projects.py:198
 msgid "Invalid user in permissions list"
-msgstr ""
+msgstr "มีผู้ใช้ไม่ถูกต้องในรายการสิทธิ์การเข้าถึง"
 
 #: app/api/projects.py:200
-#, fuzzy
-#| msgid "Invalid action"
 msgid "Invalid permissions"
-msgstr "การกระทำที่ไม่ถูกต้อง"
+msgstr "สิทธิ์การเข้าถึงไม่ถูกต้อง"
 
 #: app/api/tasks.py:277
-#, fuzzy
-#| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload at least 1 file before commit"
-msgstr "คุณต้องอัปโหลดรูปภาพอย่างน้อย 2 รูปก่อนส่ง"
+msgstr "คุณต้องอัปโหลดไฟล์อย่างน้อย 1 ไฟล์ก่อนที่จะยืนยัน"
 
 #: app/api/tasks.py:299
 msgid "No files uploaded"
@@ -305,13 +299,11 @@ msgstr "ไม่มีไฟล์อัปโหลด"
 
 #: app/api/tasks.py:355
 msgid "Cannot duplicate task"
-msgstr ""
+msgstr "ไม่สามารถทำสำเนางานได้"
 
 #: app/api/tasks.py:369
-#, fuzzy
-#| msgid "Cannot create task, you need at least 2 images"
 msgid "Cannot create task, alignment task is not valid"
-msgstr "สร้างงานไม่ได้ คุณต้องมีรูปภาพอย่างน้อย 2 รูป"
+msgstr "ไม่สามารถสร้างงานได้ งานจัดแนว (alignment task) ไม่ถูกต้อง"
 
 #: app/api/tasks.py:386
 msgid "Cannot create task, you need at least 2 images"
@@ -337,86 +329,80 @@ msgstr "สร้างงานไม่ได้ ระบุ URL หรือ
 #: app/api/tasks.py:703
 #, python-format
 msgid "Invalid URL. Did you mean %(hint)s ?"
-msgstr ""
+msgstr "URL ไม่ถูกต้อง คุณหมายถึง %(hint)s หรือไม่?"
 
 #: app/api/tiler.py:364
 msgid "Invalid boundaries parameter"
-msgstr ""
+msgstr "พารามิเตอร์ขอบเขตไม่ถูกต้อง"
 
 #: app/api/tiler.py:383
-#, fuzzy
-#| msgid "Invalid zip file"
 msgid "Invalid tile size parameter"
-msgstr "ไฟล์ zip ไม่ถูกต้อง"
+msgstr "พารามิเตอร์ขอบเขตไม่ถูกต้อง"
 
 #: app/api/tiler.py:414 app/api/tiler.py:495
 msgid "Outside of bounds"
-msgstr ""
+msgstr "อยู่นอกขอบเขต"
 
 #: app/api/tiler.py:425
-#, fuzzy
-#| msgid "Invalid action"
 msgid "Invalid boundaries"
-msgstr "การกระทำที่ไม่ถูกต้อง"
+msgstr "ขอบเขตไม่ถูกต้อง"
 
 #: app/api/tiler.py:501 app/api/tiler.py:629
 msgid "Not a valid color_map value"
-msgstr ""
+msgstr "ค่า color_map ไม่ถูกต้อง"
 
 #: app/api/tiler.py:509
 msgid "Invalid rescale value"
-msgstr ""
+msgstr "ค่าการปรับสเกลไม่ถูกต้อง"
 
 #: app/api/tiler.py:531
-#, fuzzy
-#| msgid "Invalid zip file"
 msgid "Invalid hillshade value"
-msgstr "ไฟล์ zip ไม่ถูกต้อง"
+msgstr "ค่าการสร้างเงาเนิน (hillshade) ไม่ถูกต้อง"
 
 #: app/api/tiler.py:534
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
+"ไม่สามารถคำนวณเงาเนิน (hillshade) จากแรสเตอร์ที่ไม่ใช่ระดับความสูงได้ (พบหลายแบนด์)"
 
 #: app/api/tiler.py:558
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
+"ไม่สามารถประมวลผลไทล์ได้: มีการให้ภาพความเข้ม (intensity) แต่ไม่มีการคำนวณข้อมูล RGB"
 
 #: app/api/tiler.py:614 app/api/tiler.py:616
 #, python-format
 msgid "Unsupported format: %(value)s"
-msgstr ""
+msgstr "รูปแบบไม่รองรับ: %(value)s"
 
 #: app/api/tiler.py:635
-#, fuzzy, python-format
-#| msgid "Invalid zip file"
+#, python-format
 msgid "Invalid resample value: %(value)s"
-msgstr "ไฟล์ zip ไม่ถูกต้อง"
+msgstr "ค่าการรีแซมเพิลไม่ถูกต้อง: %(value)s"
 
 #: app/api/tiler.py:641
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr ""
+msgstr "รหัส EPSG ไม่ถูกต้อง: %(value)s"
 
 #: app/api/tiler.py:647 app/api/tiler.py:649
-#, fuzzy, python-format
-#| msgid "Invalid zip file"
+#, python-format
 msgid "Invalid PROJ string: %(value)s"
-msgstr "ไฟล์ zip ไม่ถูกต้อง"
+msgstr "PROJ ไม่ถูกต้อง: %(value)s"
 
 #: app/api/tiler.py:652
 msgid "Both formula and bands parameters are required"
-msgstr ""
+msgstr "ต้องระบุทั้งพารามิเตอร์ formula และ bands"
 
 #: app/api/tiler.py:675
 #, python-format
 msgid "Invalid rescale value: %(value)s"
-msgstr ""
+msgstr "ค่าการปรับสเกลไม่ถูกต้อง: %(value)s"
 
 #: app/api/tiler.py:683
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
-msgstr ""
+msgstr "ค่าการสร้างเงาเนิน (hillshade) ไม่ถูกต้อง: %(value)s"
 
 #: app/api/tiler.py:694
 msgid "Cannot use epsg on non-georeferenced dataset"
@@ -582,7 +568,7 @@ msgstr "โครงการ"
 
 #: app/models/project.py:32 app/models/task.py:291
 msgid "Tags"
-msgstr ""
+msgstr "ป้ายกำกับ"
 
 #: app/models/project.py:33
 #, fuzzy
@@ -2013,10 +1999,8 @@ msgid "Hello World"
 msgstr ""
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
-#, fuzzy
-#| msgid "Lightning Network"
 msgid "Lightning"
-msgstr "เครือข่าย Lightning"
+msgstr "สายฟ้า"
 
 #: coreplugins/objdetect/api.py:58
 #, fuzzy
@@ -2038,7 +2022,7 @@ msgstr ""
 
 #: coreplugins/projects-charts/templates/index.html:23
 msgid "Next"
-msgstr ""
+msgstr "ถัดไป"
 
 #: coreplugins/projects-charts/templates/index.html:69
 #, fuzzy
