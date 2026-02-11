@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-24 19:29+0000\n"
+"POT-Creation-Date: 2026-02-11 17:29+0000\n"
 "PO-Revision-Date: 2025-03-17 19:16+0000\n"
 "Last-Translator: Faludi Zoltán <zoltan@faludi.info>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/webodm/webodm/"
@@ -341,7 +341,7 @@ msgid "Cannot create task, you need at least 2 images"
 msgstr "Nem lehet feladatot létrehozni, ehez legalább 2 képre van szükség"
 
 #: app/api/tasks.py:510 app/api/tasks.py:514 app/api/tasks.py:655
-#: app/api/tasks.py:658 app/api/tasks.py:676 app/api/tasks.py:788
+#: app/api/tasks.py:658 app/api/tasks.py:676 app/api/tasks.py:790
 msgid "Asset does not exist"
 msgstr "Az eszköz nem létezik"
 
@@ -452,7 +452,7 @@ msgid "Plugin name"
 msgstr "Bővítmény neve"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:28
-#: app/models/task.py:251 app/models/theme.py:18
+#: app/models/task.py:242 app/models/theme.py:18
 msgid "Name"
 msgstr "Név"
 
@@ -532,15 +532,15 @@ msgstr ""
 "Beállítások, melyek ezt az alapbeállítást meghatározzák (ugyanaz a formátum "
 "mint a feladat beállításoknál)."
 
-#: app/models/preset.py:11 app/models/task.py:257
+#: app/models/preset.py:11 app/models/task.py:248
 msgid "Options"
 msgstr "Beállítások"
 
-#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:265
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:256
 msgid "Creation date"
 msgstr "Létrehozás dátuma"
 
-#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:265
+#: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:256
 msgid "Created at"
 msgstr "Létrehozás ideje"
 
@@ -612,7 +612,7 @@ msgstr "Törlés"
 msgid "Project tags"
 msgstr "Projektek"
 
-#: app/models/project.py:32 app/models/task.py:291
+#: app/models/project.py:32 app/models/task.py:282
 msgid "Tags"
 msgstr "Címkék"
 
@@ -622,7 +622,7 @@ msgstr "Címkék"
 msgid "A flag indicating whether this project is available to the public"
 msgstr "Egy jelző, hogy a feladat nyilvános-e"
 
-#: app/models/project.py:33 app/models/task.py:268
+#: app/models/project.py:33 app/models/task.py:259
 msgid "Public"
 msgstr "Nyilvános"
 
@@ -632,7 +632,7 @@ msgstr "Nyilvános"
 msgid "A flag indicating whether this public project can be edited"
 msgstr "Egy jelző, hogy a feladat nyilvános-e"
 
-#: app/models/project.py:34 app/models/task.py:269
+#: app/models/project.py:34 app/models/task.py:260
 #, fuzzy
 #| msgid "Public"
 msgid "Public Edit"
@@ -650,12 +650,12 @@ msgstr "További részletes projekt leírás"
 msgid "Public Id"
 msgstr "Nyilvános"
 
-#: app/models/project.py:109 app/models/task.py:476
+#: app/models/project.py:109 app/models/task.py:467
 #, python-format
 msgid "Copy of %(task)s"
 msgstr "%(task)s másolata"
 
-#: app/models/project.py:142 app/models/task.py:250
+#: app/models/project.py:142 app/models/task.py:241
 msgid "Project"
 msgstr "Projekt"
 
@@ -738,27 +738,27 @@ msgstr "Alkalmazás"
 msgid "Settings"
 msgstr "Beállítások"
 
-#: app/models/task.py:247
+#: app/models/task.py:238
 msgid "Id"
 msgstr "Azonosító"
 
-#: app/models/task.py:249
+#: app/models/task.py:240
 msgid "Identifier of the task (as returned by NodeODM API)"
 msgstr "A feladat azonosító (ahogy a NodeODM API visszaadta)"
 
-#: app/models/task.py:249
+#: app/models/task.py:240
 msgid "UUID"
 msgstr "UUID"
 
-#: app/models/task.py:250
+#: app/models/task.py:241
 msgid "Project that this task belongs to"
 msgstr "Projekt melyhez a feladat tartozik"
 
-#: app/models/task.py:251
+#: app/models/task.py:242
 msgid "A label for the task"
 msgstr "Címke a feladathoz"
 
-#: app/models/task.py:252
+#: app/models/task.py:243
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
@@ -766,11 +766,11 @@ msgstr ""
 "Eltelt ezredmásodpercek száma a feladat indítása óta (-1 jelzi, hogy nem áll "
 "rendelkezésre információ)"
 
-#: app/models/task.py:252
+#: app/models/task.py:243
 msgid "Processing Time"
 msgstr "Feldolgozási idő"
 
-#: app/models/task.py:253
+#: app/models/task.py:244
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
@@ -778,11 +778,11 @@ msgstr ""
 "Ehhez a feladathoz rendelt feldolgozási pont (vagy null, ha a feladatot még "
 "nem rendelték egyikhez sem)"
 
-#: app/models/task.py:253 app/views/app.py:138 nodeodm/models.py:37
+#: app/models/task.py:244 app/views/app.py:138 nodeodm/models.py:37
 msgid "Processing Node"
 msgstr "Feldolgozási csomópont"
 
-#: app/models/task.py:254
+#: app/models/task.py:245
 msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
@@ -790,67 +790,67 @@ msgstr ""
 "Egy jelző, hogy a feladatot automatikusan rendeljük-e egy feldolgozási "
 "ponthoz"
 
-#: app/models/task.py:254
+#: app/models/task.py:245
 msgid "Auto Processing Node"
 msgstr "Auto feldolgozási pont"
 
-#: app/models/task.py:255
+#: app/models/task.py:246
 msgid "Current status of the task"
 msgstr "Feladat aktuális státusza"
 
-#: app/models/task.py:255
+#: app/models/task.py:246
 msgid "Status"
 msgstr "Állapot"
 
-#: app/models/task.py:256
+#: app/models/task.py:247
 msgid "The last processing error received"
 msgstr "Az utoljára kapott feldolgozási hiba"
 
-#: app/models/task.py:256
+#: app/models/task.py:247
 msgid "Last Error"
 msgstr "Utolsó hiba"
 
-#: app/models/task.py:257
+#: app/models/task.py:248
 msgid "Options that are being used to process this task"
 msgstr "A feladat feldolgozásához használt beállítások"
 
-#: app/models/task.py:258
+#: app/models/task.py:249
 msgid "List of available assets to download"
 msgstr "Elérhető eszközök listája a letöltéshez"
 
-#: app/models/task.py:258
+#: app/models/task.py:249
 msgid "Available Assets"
 msgstr "Elérhető eszközök"
 
-#: app/models/task.py:260
+#: app/models/task.py:251
 msgid "Extent of the orthophoto"
 msgstr "Ortofotó terjedelme"
 
-#: app/models/task.py:260
+#: app/models/task.py:251
 msgid "Orthophoto Extent"
 msgstr "Ortofotó terjedelem"
 
-#: app/models/task.py:261
+#: app/models/task.py:252
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "Extent of the DSM"
 msgstr "Ortofotó terjedelme"
 
-#: app/models/task.py:261
+#: app/models/task.py:252
 msgid "DSM Extent"
 msgstr "DSM terjedelem"
 
-#: app/models/task.py:262
+#: app/models/task.py:253
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "Extent of the DTM"
 msgstr "Ortofotó terjedelme"
 
-#: app/models/task.py:262
+#: app/models/task.py:253
 msgid "DTM Extent"
 msgstr "DTM terjedelem"
 
-#: app/models/task.py:266
+#: app/models/task.py:257
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
@@ -858,21 +858,21 @@ msgstr ""
 "A feladaton végrehajtandó kiválasztott művelet. A kiválasztott művelet a "
 "feldolgozó a következő iterációban hajtja végre."
 
-#: app/models/task.py:266
+#: app/models/task.py:257
 msgid "Pending Action"
 msgstr "Függőben lévő műveletek"
 
-#: app/models/task.py:268
+#: app/models/task.py:259
 msgid "A flag indicating whether this task is available to the public"
 msgstr "Egy jelző, hogy a feladat nyilvános-e"
 
-#: app/models/task.py:269
+#: app/models/task.py:260
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this public task can be edited"
 msgstr "Egy jelző, hogy a feladat nyilvános-e"
 
-#: app/models/task.py:271
+#: app/models/task.py:262
 msgid ""
 "When set to a value different than -1, indicates that the images for this "
 "task have been / will be resized to the size specified here before "
@@ -882,11 +882,11 @@ msgstr ""
 "átméreteztük vagy át fogjuk méretezni a feldolgozás előtt itt megadott "
 "méretre."
 
-#: app/models/task.py:271
+#: app/models/task.py:262
 msgid "Resize To"
 msgstr "Átméretezés erre"
 
-#: app/models/task.py:274
+#: app/models/task.py:265
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
@@ -894,48 +894,48 @@ msgstr ""
 "§ és 1 közötti érték , mely a feladathoz tartozó fájlok feldolgozási ponthoz "
 "feltöltésének előrehaladását jelzi"
 
-#: app/models/task.py:275
+#: app/models/task.py:266
 msgid "Upload Progress"
 msgstr "Feltöltés folyamatban"
 
-#: app/models/task.py:278
+#: app/models/task.py:269
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
 "0 és 1 közötti érték, jelzi a feladat képek átméretezésének előrehaladását"
 
-#: app/models/task.py:279
+#: app/models/task.py:270
 msgid "Resize Progress"
 msgstr "Átméretezés folyamatban"
 
-#: app/models/task.py:282
+#: app/models/task.py:273
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr ""
 "0 és 1 közötti érték, jelzi a feladat futó feldolgozásának előrehaladását"
 
-#: app/models/task.py:283
+#: app/models/task.py:274
 msgid "Running Progress"
 msgstr "Futás előrehaladás"
 
-#: app/models/task.py:285
+#: app/models/task.py:276
 msgid "URL this task is imported from (only for imported tasks)"
 msgstr "URL ahonnan a feladatok importáltuk (csak importált feladatoknál)"
 
-#: app/models/task.py:285
+#: app/models/task.py:276
 msgid "Import URL"
 msgstr "URL import"
 
-#: app/models/task.py:286
+#: app/models/task.py:277
 msgid "Number of images associated with this task"
 msgstr "A feladathoz rendelt képek száma"
 
-#: app/models/task.py:286
+#: app/models/task.py:277
 msgid "Images Count"
 msgstr "Képszám"
 
-#: app/models/task.py:287
+#: app/models/task.py:278
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
@@ -943,11 +943,11 @@ msgstr ""
 "Egy jelző, hogy ez a feladat aktuálisan információra vagy fájlok "
 "feltöltésére vár mielőtt feldolgozásra kerülne."
 
-#: app/models/task.py:287
+#: app/models/task.py:278
 msgid "Partial"
 msgstr "Részleges"
 
-#: app/models/task.py:288
+#: app/models/task.py:279
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
@@ -955,15 +955,15 @@ msgstr ""
 "A mérések és a kamera látószögének mentésére/betöltésére használt, soros "
 "potree jelenetinformációk"
 
-#: app/models/task.py:288
+#: app/models/task.py:279
 msgid "Potree Scene"
 msgstr "Potree jelenet"
 
-#: app/models/task.py:289
+#: app/models/task.py:280
 msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "Az adatkészlet EPSG-kódja (ha van földrajzi hivatkozás)"
 
-#: app/models/task.py:290
+#: app/models/task.py:281
 #, fuzzy
 #| msgid "EPSG code of the dataset (if georeferenced)"
 msgid ""
@@ -971,84 +971,84 @@ msgid ""
 "available)"
 msgstr "Az adatkészlet EPSG-kódja (ha van földrajzi hivatkozás)"
 
-#: app/models/task.py:291
+#: app/models/task.py:282
 #, fuzzy
 #| msgid "Tasks"
 msgid "Task tags"
 msgstr "Feladatok"
 
-#: app/models/task.py:292
+#: app/models/task.py:283
 #, fuzzy
 #| msgid "Extent of the orthophoto"
 msgid "List of orthophoto bands"
 msgstr "Ortofotó terjedelme"
 
-#: app/models/task.py:292
+#: app/models/task.py:283
 #, fuzzy
 #| msgid "Orthophoto Extent"
 msgid "Orthophoto Bands"
 msgstr "Ortofotó terjedelem"
 
-#: app/models/task.py:293
+#: app/models/task.py:284
 msgid "Size of the task on disk in megabytes"
 msgstr "A feladat mérete a lemezen megabájtban"
 
-#: app/models/task.py:293
+#: app/models/task.py:284
 msgid "Size"
 msgstr "Méret"
 
-#: app/models/task.py:294
+#: app/models/task.py:285
 #, fuzzy
 #| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this task was compacted"
 msgstr "Egy jelző, hogy a feladat nyilvános-e"
 
-#: app/models/task.py:294
+#: app/models/task.py:285
 msgid "Compact"
 msgstr ""
 
-#: app/models/task.py:295
+#: app/models/task.py:286
 msgid "Polygon defining the crop area of this task"
 msgstr ""
 
-#: app/models/task.py:295
+#: app/models/task.py:286
 msgid "Crop Polygon"
 msgstr ""
 
-#: app/models/task.py:299
+#: app/models/task.py:290
 msgid "Task"
 msgstr "Feladat"
 
-#: app/models/task.py:300
+#: app/models/task.py:291
 msgid "Tasks"
 msgstr "Feladatok"
 
-#: app/models/task.py:311
+#: app/models/task.py:302
 msgid "unnamed"
 msgstr "névtelen"
 
-#: app/models/task.py:608
+#: app/models/task.py:599
 msgid "Importing assets..."
 msgstr "Eszközök importja..."
 
-#: app/models/task.py:660 app/models/task.py:938
+#: app/models/task.py:651 app/models/task.py:929
 msgid "Invalid zip file"
 msgstr "Hibás zip fájl"
 
-#: app/models/task.py:662
+#: app/models/task.py:653
 msgid "Unsupported compression method"
 msgstr "Nem támogatott tömörítési módszer"
 
-#: app/models/task.py:756
+#: app/models/task.py:747
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Kapcsolódási hiba: %(error)s"
 
-#: app/models/task.py:836
+#: app/models/task.py:827
 msgid "Cannot restart a task that has no processing node"
 msgstr "Nem tudom újraindítani a feldolgozási ponttal nem rendelkező feladatot"
 
-#: app/models/task.py:1042
+#: app/models/task.py:1033
 msgid "Done!"
 msgstr "Kész!"
 
