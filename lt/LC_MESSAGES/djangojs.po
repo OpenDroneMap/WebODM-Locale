@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-11 17:29+0000\n"
+"POT-Creation-Date: 2026-02-26 03:13+0000\n"
 "PO-Revision-Date: 2023-12-07 07:06+0000\n"
 "Last-Translator: Tomas Straupis <tomasstraupis@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/webodm/react-"
@@ -55,6 +55,7 @@ msgstr "Pakeitimai nebus išsaugoti. Ar tikrai norite išeiti?"
 #: app/static/app/js/classes/AssetDownloads.js:46
 #: app/static/app/js/classes/PipelineSteps.js:47
 #: app/static/app/js/components/EditPresetDialog.jsx:95
+#: app/static/app/js/components/ImportExternalPanel.jsx:12
 #: app/static/app/js/components/Map.jsx:119
 msgid "Orthophoto"
 msgstr "Ortofoto"
@@ -71,41 +72,43 @@ msgstr "Augalų sveikata"
 
 #: app/static/app/js/MapView.jsx:135
 #: app/static/app/js/classes/AssetDownloads.js:52
+#: app/static/app/js/components/ImportExternalPanel.jsx:13
 #: app/static/app/js/components/Map.jsx:123
 msgid "Surface Model"
 msgstr "Paviršiaus modelis"
 
 #: app/static/app/js/MapView.jsx:140
 #: app/static/app/js/classes/AssetDownloads.js:50
+#: app/static/app/js/components/ImportExternalPanel.jsx:14
 #: app/static/app/js/components/Map.jsx:125
 msgid "Terrain Model"
 msgstr "Reljefo modelis"
 
-#: app/static/app/js/ModelView.jsx:40
+#: app/static/app/js/ModelView.jsx:42
 msgid "Cannot set initial camera view"
 msgstr "Nepavyksta nustatyti pradinio kameros vaizdo"
 
-#: app/static/app/js/ModelView.jsx:65
+#: app/static/app/js/ModelView.jsx:67
 msgid "set initial camera view"
 msgstr "Nustatyti pradinį kameros vaizdą"
 
-#: app/static/app/js/ModelView.jsx:91 app/static/app/js/components/Map.jsx:506
+#: app/static/app/js/ModelView.jsx:93 app/static/app/js/components/Map.jsx:506
 msgid "Cameras"
 msgstr "Kameros"
 
-#: app/static/app/js/ModelView.jsx:104
+#: app/static/app/js/ModelView.jsx:106
 msgid "Show Model"
 msgstr "Rodyti Modelį"
 
-#: app/static/app/js/ModelView.jsx:144
+#: app/static/app/js/ModelView.jsx:146
 msgid "Show Cameras"
 msgstr "Rodyti Kameras"
 
-#: app/static/app/js/ModelView.jsx:147
+#: app/static/app/js/ModelView.jsx:149
 msgid "Size"
 msgstr ""
 
-#: app/static/app/js/ModelView.jsx:875
+#: app/static/app/js/ModelView.jsx:886
 msgid "Loading textured model..."
 msgstr "Įkeliamas tekstūruotas modelis ..."
 
@@ -133,6 +136,7 @@ msgstr "Paviršiaus modelis (Tiles)"
 
 #: app/static/app/js/classes/AssetDownloads.js:54
 #: app/static/app/js/components/EditPresetDialog.jsx:59
+#: app/static/app/js/components/ImportExternalPanel.jsx:15
 msgid "Point Cloud"
 msgstr "Taškų debesis"
 
@@ -141,6 +145,7 @@ msgid "Point Cloud (3D Tiles)"
 msgstr "Taškų debesis (3D kaladėlės)"
 
 #: app/static/app/js/classes/AssetDownloads.js:56
+#: app/static/app/js/components/ImportExternalPanel.jsx:16
 msgid "Textured Model"
 msgstr "Tekstūrinis modelis"
 
@@ -265,8 +270,8 @@ msgid "DEM"
 msgstr "DEM"
 
 #: app/static/app/js/classes/PipelineSteps.js:52
-#: app/static/app/js/components/TaskListItem.jsx:545
-#: app/static/app/js/components/TaskListItem.jsx:548
+#: app/static/app/js/components/TaskListItem.jsx:546
+#: app/static/app/js/components/TaskListItem.jsx:549
 msgid "Report"
 msgstr "Ataskaita"
 
@@ -596,50 +601,50 @@ msgstr ""
 msgid "Merging"
 msgstr ""
 
-#: app/static/app/js/components/EditPresetDialog.jsx:472
+#: app/static/app/js/components/EditPresetDialog.jsx:469
 #, fuzzy
 #| msgid "Other settings"
 msgid "Other Options"
 msgstr "Kiti nustatymai"
 
-#: app/static/app/js/components/EditPresetDialog.jsx:509
+#: app/static/app/js/components/EditPresetDialog.jsx:506
 #: app/static/app/js/components/EditTaskForm.jsx:571
 msgid "Edit Task Options"
 msgstr "Keisti užduoties pasirinkimus"
 
-#: app/static/app/js/components/EditPresetDialog.jsx:516
+#: app/static/app/js/components/EditPresetDialog.jsx:513
 #: app/static/app/js/components/EditProjectDialog.jsx:169
 #: app/static/app/js/components/EditTaskForm.jsx:656
 #: app/static/app/js/components/Paginator.jsx:28
-#: app/static/app/js/components/ProjectListItem.jsx:54
+#: app/static/app/js/components/ProjectListItem.jsx:57
 #: coreplugins/annotate/public/Popup.jsx:580
 #: coreplugins/annotate/public/Popup.jsx:587
 #: coreplugins/annotate/public/Popup.jsx:613
 msgid "Name"
 msgstr "Vardas"
 
-#: app/static/app/js/components/EditPresetDialog.jsx:523
+#: app/static/app/js/components/EditPresetDialog.jsx:520
 #: app/static/app/js/components/Paginator.jsx:121
 msgid "Search"
 msgstr "Ieškoti"
 
-#: app/static/app/js/components/EditPresetDialog.jsx:526
+#: app/static/app/js/components/EditPresetDialog.jsx:523
 msgid "Flat View"
 msgstr ""
 
-#: app/static/app/js/components/EditPresetDialog.jsx:526
+#: app/static/app/js/components/EditPresetDialog.jsx:523
 msgid "Grouped View"
 msgstr ""
 
-#: app/static/app/js/components/EditPresetDialog.jsx:530
+#: app/static/app/js/components/EditPresetDialog.jsx:527
 msgid "Expand"
 msgstr ""
 
-#: app/static/app/js/components/EditPresetDialog.jsx:530
+#: app/static/app/js/components/EditPresetDialog.jsx:527
 msgid "Collapse"
 msgstr ""
 
-#: app/static/app/js/components/EditPresetDialog.jsx:540
+#: app/static/app/js/components/EditPresetDialog.jsx:537
 msgid "Search options..."
 msgstr ""
 
@@ -665,13 +670,13 @@ msgstr "Nepavyksta užbaigti veiksmo."
 #: app/static/app/js/components/EditProjectDialog.jsx:153
 #: app/static/app/js/components/EditTaskForm.jsx:604
 #: app/static/app/js/components/Paginator.jsx:31
-#: app/static/app/js/components/ProjectListItem.jsx:57
+#: app/static/app/js/components/ProjectListItem.jsx:60
 msgid "Tags"
 msgstr "Žymos"
 
 #: app/static/app/js/components/EditProjectDialog.jsx:165
 #: app/static/app/js/components/EditTaskForm.jsx:585
-#: app/static/app/js/components/TaskListItem.jsx:842
+#: app/static/app/js/components/TaskListItem.jsx:843
 msgid "Duplicate"
 msgstr "Dubliuoti"
 
@@ -776,9 +781,9 @@ msgstr "Bandyti dar kartą"
 
 #: app/static/app/js/components/EditTaskForm.jsx:572
 #: app/static/app/js/components/EditTaskForm.jsx:579
-#: app/static/app/js/components/ProjectListItem.jsx:783
-#: app/static/app/js/components/TaskListItem.jsx:589
-#: app/static/app/js/components/TaskListItem.jsx:836
+#: app/static/app/js/components/ProjectListItem.jsx:810
+#: app/static/app/js/components/TaskListItem.jsx:590
+#: app/static/app/js/components/TaskListItem.jsx:837
 #: coreplugins/annotate/public/Popup.jsx:630
 #: coreplugins/editshortlinks/public/SLControls.jsx:162
 msgid "Edit"
@@ -797,9 +802,9 @@ msgstr "Išsaugoti"
 #: app/static/app/js/components/LayersControlAnnotations.jsx:73
 #: app/static/app/js/components/LayersControlAnnotations.jsx:151
 #: app/static/app/js/components/MapPreview.jsx:169
-#: app/static/app/js/components/ProjectListItem.jsx:789
-#: app/static/app/js/components/TaskListItem.jsx:555
-#: app/static/app/js/components/TaskListItem.jsx:859
+#: app/static/app/js/components/ProjectListItem.jsx:816
+#: app/static/app/js/components/TaskListItem.jsx:556
+#: app/static/app/js/components/TaskListItem.jsx:860
 #: coreplugins/annotate/public/Popup.jsx:756
 #: coreplugins/measure/public/app.jsx:35
 msgid "Delete"
@@ -824,8 +829,8 @@ msgstr "Nepavyko atnaujinti užduoties informacijos. Pabandykite dar kartą."
 #: app/static/app/js/components/FormDialog.jsx:205
 #: app/static/app/js/components/NewTaskPanel.jsx:264
 #: app/static/app/js/components/NewTaskPanel.jsx:348
-#: app/static/app/js/components/TaskListItem.jsx:565
-#: app/static/app/js/components/TaskListItem.jsx:831
+#: app/static/app/js/components/TaskListItem.jsx:566
+#: app/static/app/js/components/TaskListItem.jsx:832
 #: coreplugins/measure/public/app.jsx:34
 msgid "Cancel"
 msgstr "Atšaukti"
@@ -835,9 +840,10 @@ msgid "Saving..."
 msgstr "Saugoma..."
 
 #: app/static/app/js/components/ErrorMessage.jsx:29
+#: app/static/app/js/components/ImportExternalPanel.jsx:283
 #: app/static/app/js/components/NewTaskPanel.jsx:245
 #: app/static/app/js/components/NewTaskPanel.jsx:252
-#: app/static/app/js/components/ProjectListItem.jsx:801
+#: app/static/app/js/components/ProjectListItem.jsx:828
 msgid "Close"
 msgstr "Uždaryti"
 
@@ -856,7 +862,7 @@ msgid "Invalid JSON response: %(error)s"
 msgstr "Netinkamas JSON atsakas: %(error)s"
 
 #: app/static/app/js/components/ExportAssetPanel.jsx:234
-#: app/static/app/js/components/TaskListItem.jsx:694
+#: app/static/app/js/components/TaskListItem.jsx:695
 msgid "CRS:"
 msgstr ""
 
@@ -906,7 +912,7 @@ msgid "Could not apply changes"
 msgstr "Nepavyko pritaikyti pakeitimų"
 
 #: app/static/app/js/components/FormDialog.jsx:157
-#: app/static/app/js/components/ProjectListItem.jsx:501
+#: app/static/app/js/components/ProjectListItem.jsx:512
 msgid "Could not delete item"
 msgstr "Nepavyko ištrinti elemento"
 
@@ -952,6 +958,56 @@ msgstr ""
 #: app/static/app/js/components/ImagePopup.jsx:265
 msgid "Download Image"
 msgstr "Atsisiųsti atvaizdą"
+
+#: app/static/app/js/components/ImportExternalPanel.jsx:114
+#, fuzzy
+#| msgid "Cannot upload file. Check your internet connection and try again."
+msgid ""
+"Upload failed after multiple retries. Please check your connection and try "
+"again."
+msgstr ""
+"Nepavyksta įkelti failo. Patikrinkite savo interneto ryšį ir pabandykite vėl."
+
+#: app/static/app/js/components/ImportExternalPanel.jsx:206
+msgid "Failed to complete upload. Try again later."
+msgstr ""
+
+#: app/static/app/js/components/ImportExternalPanel.jsx:216
+msgid "Select at least one file to upload."
+msgstr ""
+
+#: app/static/app/js/components/ImportExternalPanel.jsx:223
+msgid "A textured model requires also a point cloud to be properly displayed."
+msgstr ""
+
+#: app/static/app/js/components/ImportExternalPanel.jsx:247
+msgid "Failed to initialize upload. Try again later."
+msgstr ""
+
+#: app/static/app/js/components/ImportExternalPanel.jsx:286
+#, fuzzy
+#| msgid "Import Existing Assets"
+msgid "Import External Data"
+msgstr "Importuoti esamus elementus"
+
+#: app/static/app/js/components/ImportExternalPanel.jsx:287
+msgid "Select files. At least one file is required."
+msgstr ""
+
+#: app/static/app/js/components/ImportExternalPanel.jsx:307
+msgid "Remove"
+msgstr ""
+
+#: app/static/app/js/components/ImportExternalPanel.jsx:323
+#: app/static/app/js/components/ImportTaskPanel.jsx:201
+msgid "Cancel Upload"
+msgstr "Atšaukti įkėlimą"
+
+#: app/static/app/js/components/ImportExternalPanel.jsx:333
+#, fuzzy
+#| msgid "Upload a File"
+msgid "Upload"
+msgstr "Įkelti failą"
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:65
 msgid "Cannot upload file. Check your internet connection and try again."
@@ -1003,13 +1059,9 @@ msgid "Import From URL"
 msgstr "Įkelti iš URL"
 
 #: app/static/app/js/components/ImportTaskPanel.jsx:191
-#: app/static/app/js/components/ProjectListItem.jsx:700
+#: app/static/app/js/components/ProjectListItem.jsx:720
 msgid "Import"
 msgstr "Importuoti"
-
-#: app/static/app/js/components/ImportTaskPanel.jsx:201
-msgid "Cancel Upload"
-msgstr "Atšaukti įkėlimą"
 
 #: app/static/app/js/components/LayersControl.jsx:38
 #: app/static/app/js/components/LayersControlPanel.jsx:116
@@ -1195,7 +1247,7 @@ msgid "Move Task"
 msgstr "Perkelti užduotį"
 
 #: app/static/app/js/components/MoveTaskDialog.jsx:10
-#: app/static/app/js/components/ProjectListItem.jsx:669
+#: app/static/app/js/components/ProjectListItem.jsx:689
 msgid "Save Changes"
 msgstr "Išsaugoti pakeitimus"
 
@@ -1278,12 +1330,12 @@ msgid "Review"
 msgstr "Peržiūrėti"
 
 #: app/static/app/js/components/NewTaskPanel.jsx:352
-#: app/static/app/js/components/TaskListItem.jsx:597
+#: app/static/app/js/components/TaskListItem.jsx:598
 msgid "Start Processing"
 msgstr "Pradėti apdorojimą"
 
 #: app/static/app/js/components/Paginator.jsx:25
-#: app/static/app/js/components/ProjectListItem.jsx:51
+#: app/static/app/js/components/ProjectListItem.jsx:54
 msgid "Created on"
 msgstr "Sukurta"
 
@@ -1298,7 +1350,7 @@ msgid "Search names, #tags or @user"
 msgstr "Ieškoti pavadinimų ar #žymų"
 
 #: app/static/app/js/components/Paginator.jsx:138
-#: app/static/app/js/components/ProjectListItem.jsx:768
+#: app/static/app/js/components/ProjectListItem.jsx:795
 msgid "Sort"
 msgstr "Rikiuoti"
 
@@ -1325,19 +1377,19 @@ msgstr "Paspauskite, kad importuot .JSON failą"
 msgid "Reset to default"
 msgstr "Nustatyti į numatytąjį"
 
-#: app/static/app/js/components/ProjectListItem.jsx:231
+#: app/static/app/js/components/ProjectListItem.jsx:234
 #, python-format
 msgid "%(filename)s is not a valid file"
 msgstr ""
 
-#: app/static/app/js/components/ProjectListItem.jsx:252
+#: app/static/app/js/components/ProjectListItem.jsx:255
 #, python-format
 msgid "Cannot upload %(filename)s, exceeded max retries (%(max_retries)s)"
 msgstr ""
 "Nepavyko įkelti %(filename)s, pasiektas maksimalus bandymų limitas "
 "(%(max_retries)s)"
 
-#: app/static/app/js/components/ProjectListItem.jsx:264
+#: app/static/app/js/components/ProjectListItem.jsx:267
 #, fuzzy, python-format
 #| msgid ""
 #| "Cannot upload %(filename)s, File too Large! Default MaxFileSize is "
@@ -1349,12 +1401,12 @@ msgstr ""
 "Nepavyko įkelti %(filename)s, Failas per didelis! Numatytasis maksimalus "
 "dydis yra %(maxFileSize)s MB!"
 
-#: app/static/app/js/components/ProjectListItem.jsx:320
-#: app/static/app/js/components/ProjectListItem.jsx:474
+#: app/static/app/js/components/ProjectListItem.jsx:323
+#: app/static/app/js/components/ProjectListItem.jsx:485
 msgid "Cannot create new task. Please try again later."
 msgstr "Nepavyksta sukurti naujos užduoties. Pabandykite vėliau."
 
-#: app/static/app/js/components/ProjectListItem.jsx:346
+#: app/static/app/js/components/ProjectListItem.jsx:349
 #, python-format
 msgid ""
 "%(count)s files cannot be uploaded. As a reminder, only images (.jpg, .tif, ."
@@ -1363,13 +1415,13 @@ msgstr ""
 "%(count)s failai negali būti įkelti. Primename, jog nuotraukos (.jpg, .tif, ."
 "png) ir GCP failai (.txt) gali būti įkeliami. Pabandykite vėl."
 
-#: app/static/app/js/components/ProjectListItem.jsx:470
+#: app/static/app/js/components/ProjectListItem.jsx:481
 #, python-format
 msgid "Cannot create new task. Invalid response from server: %(error)s"
 msgstr ""
 "Nepavyko sukurti naujos užduoties. Netinkamas atsakas iš serverio: %(error)s"
 
-#: app/static/app/js/components/ProjectListItem.jsx:656
+#: app/static/app/js/components/ProjectListItem.jsx:676
 msgid ""
 "All tasks, images and models associated with this project will be "
 "permanently deleted. Are you sure you want to continue?"
@@ -1377,7 +1429,7 @@ msgstr ""
 "Visos užduotys, nuotraukos ir modeliai susiję su šiuo projektu bus "
 "negrįžtamai pašalinti. Ar tikrai norite tęsti?"
 
-#: app/static/app/js/components/ProjectListItem.jsx:657
+#: app/static/app/js/components/ProjectListItem.jsx:677
 msgid ""
 "This project was shared with you. It will not be deleted, but simply hidden "
 "from your dashboard. Continue?"
@@ -1385,32 +1437,40 @@ msgstr ""
 "Šiuo projektu dalinamasi su jumis. Jis nebus ištrintas, tik paprasčiausiai "
 "paslėptas iš jūsų skydelio. Tęsti?"
 
-#: app/static/app/js/components/ProjectListItem.jsx:668
+#: app/static/app/js/components/ProjectListItem.jsx:688
 msgid "Edit Project"
 msgstr "Keisti projektą"
 
-#: app/static/app/js/components/ProjectListItem.jsx:670
+#: app/static/app/js/components/ProjectListItem.jsx:690
 msgid "Saving changes..."
 msgstr "Saugomi pakeitimai..."
 
-#: app/static/app/js/components/ProjectListItem.jsx:695
+#: app/static/app/js/components/ProjectListItem.jsx:715
 msgid "Select Images and GCP"
 msgstr "Pasirinkite nuotraukas ir GCP"
 
-#: app/static/app/js/components/ProjectListItem.jsx:729
+#: app/static/app/js/components/ProjectListItem.jsx:723
+msgid "Assets / Backups"
+msgstr ""
+
+#: app/static/app/js/components/ProjectListItem.jsx:724
+msgid "External Data"
+msgstr ""
+
+#: app/static/app/js/components/ProjectListItem.jsx:756
 #, python-format
 msgid "%(count)s Tasks"
 msgstr "%(count)s Užduotys"
 
-#: app/static/app/js/components/ProjectListItem.jsx:742
+#: app/static/app/js/components/ProjectListItem.jsx:769
 msgid "Filter"
 msgstr "Filtras"
 
-#: app/static/app/js/components/ProjectListItem.jsx:762
+#: app/static/app/js/components/ProjectListItem.jsx:789
 msgid "Clear"
 msgstr "Valyti"
 
-#: app/static/app/js/components/ProjectListItem.jsx:777
+#: app/static/app/js/components/ProjectListItem.jsx:804
 msgid "View Map"
 msgstr "Žiūrėti žemėlapį"
 
@@ -1607,14 +1667,14 @@ msgstr "Laukiama mazgo..."
 msgid "Map"
 msgstr ""
 
-#: app/static/app/js/components/TaskListItem.jsx:539
+#: app/static/app/js/components/TaskListItem.jsx:540
 #, fuzzy
 #| msgid "View 3D Model"
 msgid "3D Model"
 msgstr "Žiūrėti 3D modelį"
 
-#: app/static/app/js/components/TaskListItem.jsx:556
-#: app/static/app/js/components/TaskListItem.jsx:860
+#: app/static/app/js/components/TaskListItem.jsx:557
+#: app/static/app/js/components/TaskListItem.jsx:861
 msgid ""
 "All information related to this task, including images, maps and models will "
 "be deleted. Continue?"
@@ -1622,108 +1682,108 @@ msgstr ""
 "Visa informacija, susijusi su šia užduotimi, įskaitant nuotraukas, "
 "žemėlapius ir modelius, bus ištrinta. Tęsti?"
 
-#: app/static/app/js/components/TaskListItem.jsx:557
-#: app/static/app/js/components/TaskListItem.jsx:861
+#: app/static/app/js/components/TaskListItem.jsx:558
+#: app/static/app/js/components/TaskListItem.jsx:862
 msgid "Cannot delete task."
 msgstr "Negalima ištrinti užduoties."
 
-#: app/static/app/js/components/TaskListItem.jsx:565
-#: app/static/app/js/components/TaskListItem.jsx:831
+#: app/static/app/js/components/TaskListItem.jsx:566
+#: app/static/app/js/components/TaskListItem.jsx:832
 msgid "Cannot cancel task."
 msgstr "Negalima nutraukti užduoties."
 
-#: app/static/app/js/components/TaskListItem.jsx:582
+#: app/static/app/js/components/TaskListItem.jsx:583
 msgid "Restart"
 msgstr "Paleisti iš naujo"
 
-#: app/static/app/js/components/TaskListItem.jsx:582
+#: app/static/app/js/components/TaskListItem.jsx:583
 #, fuzzy
 #| msgid "Are you sure you want to delete \"%(preset)s\"?"
 msgid "Are you sure you want to restart this task?"
 msgstr "Ar tikrai norite pašalinti \"%(preset)s\"?"
 
-#: app/static/app/js/components/TaskListItem.jsx:598
+#: app/static/app/js/components/TaskListItem.jsx:599
 msgid "Have all images been uploaded?"
 msgstr ""
 
-#: app/static/app/js/components/TaskListItem.jsx:599
+#: app/static/app/js/components/TaskListItem.jsx:600
 #, fuzzy
 #| msgid "Cannot restart task."
 msgid "Cannot start processing task."
 msgstr "Negalima iš naujo paleisti užduoties."
 
-#: app/static/app/js/components/TaskListItem.jsx:656
+#: app/static/app/js/components/TaskListItem.jsx:657
 #, fuzzy
 #| msgid "Task Output:"
 msgid "Task ID:"
 msgstr "Užduoties išvestis:"
 
-#: app/static/app/js/components/TaskListItem.jsx:657
+#: app/static/app/js/components/TaskListItem.jsx:658
 msgid "Copy to clipboard"
 msgstr ""
 
-#: app/static/app/js/components/TaskListItem.jsx:660
+#: app/static/app/js/components/TaskListItem.jsx:661
 msgid "Created on:"
 msgstr "Sukurta:"
 
-#: app/static/app/js/components/TaskListItem.jsx:664
+#: app/static/app/js/components/TaskListItem.jsx:665
 msgid "Processing Node:"
 msgstr "Apdorojimo mazgas:"
 
-#: app/static/app/js/components/TaskListItem.jsx:665
+#: app/static/app/js/components/TaskListItem.jsx:666
 msgid "auto"
 msgstr "auto"
 
-#: app/static/app/js/components/TaskListItem.jsx:665
+#: app/static/app/js/components/TaskListItem.jsx:666
 msgid "manual"
 msgstr "rankinis"
 
-#: app/static/app/js/components/TaskListItem.jsx:669
+#: app/static/app/js/components/TaskListItem.jsx:670
 msgid "Options:"
 msgstr "Parinktys:"
 
-#: app/static/app/js/components/TaskListItem.jsx:674
+#: app/static/app/js/components/TaskListItem.jsx:675
 msgid "Average GSD:"
 msgstr "Vidutinis GSD:"
 
-#: app/static/app/js/components/TaskListItem.jsx:679
+#: app/static/app/js/components/TaskListItem.jsx:680
 #: coreplugins/measure/public/MeasurePopup.jsx:186
 msgid "Area:"
 msgstr "Plotas:"
 
-#: app/static/app/js/components/TaskListItem.jsx:684
+#: app/static/app/js/components/TaskListItem.jsx:685
 #, fuzzy
 #| msgid "Point size"
 msgid "Points:"
 msgstr "Taško dydis"
 
-#: app/static/app/js/components/TaskListItem.jsx:689
+#: app/static/app/js/components/TaskListItem.jsx:690
 #, fuzzy
 #| msgid "Georeferencing"
 msgid "Georeferencing:"
 msgstr "Geokordinavimas"
 
-#: app/static/app/js/components/TaskListItem.jsx:699
+#: app/static/app/js/components/TaskListItem.jsx:700
 msgid "Disk Usage:"
 msgstr "Disko naudojimas:"
 
-#: app/static/app/js/components/TaskListItem.jsx:703
+#: app/static/app/js/components/TaskListItem.jsx:704
 msgid "Task Output:"
 msgstr "Užduoties išvestis:"
 
-#: app/static/app/js/components/TaskListItem.jsx:705
+#: app/static/app/js/components/TaskListItem.jsx:706
 msgid "On"
 msgstr "Įj"
 
-#: app/static/app/js/components/TaskListItem.jsx:706
+#: app/static/app/js/components/TaskListItem.jsx:707
 msgid "Off"
 msgstr "Išj"
 
-#: app/static/app/js/components/TaskListItem.jsx:715
+#: app/static/app/js/components/TaskListItem.jsx:716
 msgid "Thumbnail"
 msgstr ""
 
-#: app/static/app/js/components/TaskListItem.jsx:733
+#: app/static/app/js/components/TaskListItem.jsx:734
 msgid ""
 "An orthophoto could not be generated. To generate one, make sure GPS "
 "information is embedded in the EXIF tags of your images, or use a Ground "
@@ -1733,15 +1793,15 @@ msgstr ""
 "informacija yra įtraukta į jūsų nuotraukų EXIF žymas arba naudokite žemės "
 "kontrolinių taškų (GCP) failą."
 
-#: app/static/app/js/components/TaskListItem.jsx:736
+#: app/static/app/js/components/TaskListItem.jsx:737
 msgid "enough RAM allocated"
 msgstr "skirta pakankamai RAM"
 
-#: app/static/app/js/components/TaskListItem.jsx:736
+#: app/static/app/js/components/TaskListItem.jsx:737
 msgid "cloud processing node"
 msgstr "debesies apdorojimo mazgas"
 
-#: app/static/app/js/components/TaskListItem.jsx:736
+#: app/static/app/js/components/TaskListItem.jsx:737
 #, python-format
 msgid ""
 "It looks like your processing node ran out of memory. If you are using "
@@ -1756,7 +1816,7 @@ msgstr ""
 "sumažinkite jūsų vaizdus arba sumažinkite maksimalaus paralelizmo parametrą "
 "užduoties parinktyse. Taipogi galite pabandyti naudoti %(cloudlink)s."
 
-#: app/static/app/js/components/TaskListItem.jsx:743
+#: app/static/app/js/components/TaskListItem.jsx:744
 #, python-format
 msgid ""
 "\"Process exited with code 1\" means that part of the processing failed. "
@@ -1768,34 +1828,34 @@ msgstr ""
 "tinkinant užduoties parinktis. Daugiau informacijos rasite dokumentacijoje "
 "%(link)s"
 
-#: app/static/app/js/components/TaskListItem.jsx:793
+#: app/static/app/js/components/TaskListItem.jsx:794
 msgid "Set a processing node"
 msgstr "Nustatyti apdorojimo mazgą"
 
-#: app/static/app/js/components/TaskListItem.jsx:798
+#: app/static/app/js/components/TaskListItem.jsx:799
 #, fuzzy
 #| msgid "Waiting for a node..."
 msgid "Waiting to start processing..."
 msgstr "Laukiama mazgo..."
 
-#: app/static/app/js/components/TaskListItem.jsx:841
+#: app/static/app/js/components/TaskListItem.jsx:842
 msgid "Move"
 msgstr "Perkelti"
 
-#: app/static/app/js/components/TaskListItem.jsx:853
+#: app/static/app/js/components/TaskListItem.jsx:854
 #, fuzzy
 #| msgid "Compass"
 msgid "Compact"
 msgstr "Kompasas"
 
-#: app/static/app/js/components/TaskListItem.jsx:854
+#: app/static/app/js/components/TaskListItem.jsx:855
 msgid ""
 "Compacting will free disk space by permanently deleting the original images "
 "used for processing. It will no longer be possible to restart the task. Maps "
 "and models will remain in place. Continue?"
 msgstr ""
 
-#: app/static/app/js/components/TaskListItem.jsx:855
+#: app/static/app/js/components/TaskListItem.jsx:856
 #, fuzzy
 #| msgid "Cannot cancel task."
 msgid "Cannot compact task."
@@ -1818,65 +1878,59 @@ msgstr "%(count)s failai sėkmingai įkelti"
 
 #: app/static/app/js/translations/odm_autogenerated.js:3
 #, python-format
-msgid ""
-"Rerun this stage only and stop. Can be one of: %(choices)s. Default: "
-"%(default)s"
+msgid "Set this parameter if you want a striped GeoTIFF. Default: %(default)s"
 msgstr ""
-"Iš naujo vykdyti šitą pakopą ir sustoti. Gali būti viena iš: %(choices)s. "
-"Numatytoji reikšmė: %(default)s"
+"Nustatykite šį parametrą, jei norite išvalyto GeoTIFF. Numatytoji reikšmė: "
+"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:4
 #, python-format
 msgid ""
-"Keep faces in the mesh that are not seen in any camera. Default:  %(default)s"
+"Set a camera projection type. Manually setting a value can help improve "
+"geometric undistortion. By default the application tries to determine a lens "
+"type from the images metadata. Can be one of: %(choices)s. Default: "
+"%(default)s"
 msgstr ""
-"Palikti tinklelyje plokštumas, kurios nematomos nei viena kamera. Numatytoji "
-"reikšmė: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:5
 #, python-format
-msgid ""
-"DSM/DTM resolution in cm / pixel. Note that this value is capped by a ground "
-"sampling distance (GSD) estimate. Default: %(default)s"
+msgid "The maximum vertex count of the output mesh. Default: %(default)s"
 msgstr ""
-"DSM/DTM rezoliucija cm / pikseliui. Pastebėtina, kad ši reikšmė apribojama "
-"pagal žemės pavyzdžių atstumo (GSD) įvertinimą. Numatytoji reikšmė: "
-"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:6
 #, python-format
 msgid ""
-"Turn off camera parameter optimization during bundle adjustment. This can be "
-"sometimes useful for improving results that exhibit doming/bowling or when "
-"images are taken with a rolling shutter camera. Default: %(default)s"
+"Set a GPS offset in meters for the vertical axis (Z) by adding it to the "
+"altitude value of the GPS EXIF data. This does not change the value of any "
+"GCPs. This can be useful for example when adjusting from ellipsoidal to "
+"orthometric height. Default: %(default)s"
 msgstr ""
-"Išjunkite kameros parametro optimizaciją ryšulio keitimo metu. Tai kartais "
-"gali būti naudinga gerinant rezultatus, kuriuose pastebimas doming/bowling "
-"arba kai nuotraukos padarytos su besisukančiu kameros užraktu. Numatytoji "
-"reikšmė: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:7
 #, python-format
 msgid ""
-"Radius of the overlap between submodels in meters. After grouping images "
-"into clusters, images that are closer than this radius to a cluster are "
-"added to the cluster. This is done to ensure that neighboring submodels "
-"overlap. All imagesneed GPS information. Default: %(default)s"
+"Set this parameter if you want to generate a PNG rendering of the "
+"orthophoto. Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:8
 #, python-format
 msgid ""
-"URL to a ClusterODM instance for distributing a split-merge workflow on "
-"multiple nodes in parallel. Default: %(default)s"
+"Override the rolling shutter readout time for your camera sensor (in "
+"milliseconds), instead of using the rolling shutter readout database. Note "
+"that not all cameras are present in the database. Set to 0 to use the "
+"database value. Default: %(default)s"
 msgstr ""
-"URL iki ClusterODM egzemplioriaus platinant dalinimo-suliejimo eigą keliems "
-"mazgams paraleliai. Numatytoji reikšmė: %(default)s"
+"Permušti jūsų kameros besisukančio užrakto jutiklio skaitymus "
+"(milisekundėmis), vietoje to naudojant besisukančio užrakto skaitymų duomenų "
+"bazę. Pastebėtina, kad ne visos kameros yra duomenų bazėje. Nustatykite 0, "
+"jei norite naudoti duomenų bazės reikšmę. Numatytoji reikšmė: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:9
 #, python-format
 msgid ""
-"During the orthophoto merging, skip expensive blending operation: %(default)s"
+"Automatically compute image masks using AI to remove the sky. Experimental. "
+"Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:10
@@ -1896,78 +1950,37 @@ msgstr ""
 #: app/static/app/js/translations/odm_autogenerated.js:11
 #, python-format
 msgid ""
-"Rerun processing from this stage. Can be one of: %(choices)s. Default: "
-"%(default)s"
+"Path to the image geolocation file containing the camera center coordinates "
+"used for georeferencing. If you don't have values for yaw/pitch/roll you can "
+"set them to 0. The file needs to use the following format: EPSG:<code> or "
+"<+proj definition>image_name geo_x geo_y geo_z [yaw (degrees)] [pitch "
+"(degrees)] [roll (degrees)] [horz accuracy (meters)] [vert accuracy "
+"(meters)]Default: %(default)s"
 msgstr ""
+"Kelias iki nuotraukos geolokavimo failą, kuriame yra kameros centro "
+"koordinatės, naudojamos geo-koordinavimui. Jei neturite pokrypio/nuolydžio/"
+"sukimosi reikšmių, galite nurodyti 0. Failas turi naudoti formatą: EPSG:"
+"<kodas> ar <+proj definition>nuotraukos_pavadinimas geo_x geo_y geo_z [yaw "
+"(laipsniai)] [pitch (laipsniai)] [roll (laipsniai)] [horz tikslumas "
+"(metrai)] [vert tikslumas (metrai)]Numatytoji reikšmė: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:12
 #, python-format
 msgid ""
-"Use the camera parameters computed from another dataset instead of "
-"calculating them. Can be specified either as path to a cameras.json file or "
-"as a JSON string representing the contents of a cameras.json file. Default: "
+"Create Cloud-Optimized GeoTIFFs instead of normal GeoTIFFs. Default: "
 "%(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:13
 #, python-format
 msgid ""
-"Minimum number of features to extract per image. More features can be useful "
-"for finding more matches between images, potentially allowing the "
-"reconstruction of areas with little overlap or insufficient features. More "
-"features also slow down processing. Default: %(default)s"
+"URL to a ClusterODM instance for distributing a split-merge workflow on "
+"multiple nodes in parallel. Default: %(default)s"
 msgstr ""
-"Minimalus skaičius geoobjektų, ištraukiamų iš vienos nuotraukos. Daugiau "
-"geoobjektų gali būti naudinga ieškant daugiau atitikmenų tarp nuotraukų, "
-"potencialiai leidžiant rekonstruoti plotus su nedideliu persidengimu ar "
-"nepakankamais geoobjektais. Daugiau geoobjektų taipogi sulėtina apdorojimą. "
-"Numatytoji parinktis: %(default)s"
+"URL iki ClusterODM egzemplioriaus platinant dalinimo-suliejimo eigą keliems "
+"mazgams paraleliai. Numatytoji reikšmė: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:14
-#, python-format
-msgid ""
-"Filters the point cloud by keeping only a single point around a radius N (in "
-"meters). This can be useful to limit the output resolution of the point "
-"cloud and remove duplicate points. Set to 0 to disable sampling. Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:15
-#, python-format
-msgid ""
-"Automatically crop image outputs by creating a smooth buffer around the "
-"dataset boundaries, shrunk by N meters. Use 0 to disable cropping. Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:16
-#, python-format
-msgid ""
-"Skip alignment of submodels in split-merge. Useful if GPS is good enough on "
-"very large datasets. Default: %(default)s"
-msgstr ""
-"Praleisti submodelių lygiavimo dalinime-sujungime. Naudinga, jei GPS yra "
-"pakankamai geras labai dideliuose duomenų rinkiniuose. Numatytoji reikšmė: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:17
-msgid ""
-"Path to the project folder. Your project folder should contain subfolders "
-"for each dataset. Each dataset should have an \"images\" folder."
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:18
-#, python-format
-msgid ""
-"Path to a GeoTIFF DEM or a LAS/LAZ point cloud that the reconstruction "
-"outputs should be automatically aligned to. Experimental. Default: "
-"%(default)s"
-msgstr ""
-"Kelias iki GeoTIFF DEM arba LAS/LAZ taškų debesies, prie kurio turėtų būti "
-"automatiškai priderinta rekonstruojama išvestis. Eksperimentinė savybė. "
-"Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:19
 #, python-format
 msgid ""
 "Perform image matching with the nearest images based on GPS exif data. Set "
@@ -1977,53 +1990,98 @@ msgstr ""
 "duomenis. Nustatykite 0, jei norite tapatinti pagal trianguliaciją. "
 "Numatytoji reikšmė: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:20
+#: app/static/app/js/translations/odm_autogenerated.js:15
+#, python-format
+msgid ""
+"Use this tag to build a DTM (Digital Terrain Model, ground only) using a "
+"simple morphological filter. Check the --dem* and --smrf* parameters for "
+"finer tuning. Default: %(default)s"
+msgstr ""
+"Naudokite šitą žymą, kad sukurtumėte DTM (skaitmeninį žemės modelį), "
+"naudojant paprastą morfologinį filtrą. Pažiūrėkite --dem* ir --smrf* "
+"parametrus detalesniam valdymui. Numatytoji parinktis: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:16
+#, python-format
+msgid ""
+"Rerun processing from this stage. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:17
+#, python-format
+msgid ""
+"Generates a polygon around the cropping area that cuts the orthophoto around "
+"the edges of features. This polygon can be useful for stitching seamless "
+"mosaics with multiple overlapping orthophotos. Default: %(default)s"
+msgstr ""
+"Aplink apkirpimo plotą sukuria poligoną, kuris apkerpa ortofotografiją "
+"aplink geoobjektų kraštus. Šis poligonas gali būti naudingas surišant "
+"ištisines mozaikas su keliomis persidengiančiomis ortofotografijomis. "
+"Numatytoji parinktis: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:18
+#, python-format
+msgid ""
+"When processing multispectral datasets, you can specify the name of the "
+"primary band that will be used for reconstruction. It's recommended to "
+"choose a band which has sharp details and is in focus. Default: %(default)s"
+msgstr ""
+"Apdorojant kelių spektrų duomenų aibes, jūs galite nurodyti numerį pirminės "
+"juostos, kuri bus naudojama rekonstrukcijai. Rekomenduojama pasirinkti "
+"juostą, kuri turi ryškias detales ir gera fokusą. Numatytoji reikšmė: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:19
 #, python-format
 msgid ""
 "Automatically compute image masks using AI to remove the background. "
 "Experimental. Default: %(default)s"
 msgstr ""
 
+#: app/static/app/js/translations/odm_autogenerated.js:20
+#, python-format
+msgid ""
+"Choose the algorithm for extracting keypoints and computing descriptors. Can "
+"be one of: %(choices)s. Default: %(default)s"
+msgstr ""
+"Parinkite algoritmą raktinių taškų ištraukimui ir aprašymų skaičiavimui. "
+"Gali būti vienas iš: %(choices)s. Numatytoji reikšmė: %(default)s"
+
 #: app/static/app/js/translations/odm_autogenerated.js:21
 #, python-format
 msgid ""
-"Set the compression to use for orthophotos. Can be one of: %(choices)s. "
-"Default: %(default)s"
+"Choose what to merge in the merge step in a split dataset. By default all "
+"available outputs are merged. Options: %(choices)s. Default: %(default)s"
 msgstr ""
-"Nustatykite ortofotografijoms naudojamą suspaudimą. Gali būti vienas iš: "
-"%(choices)s. Numatytoji reikšmė: %(default)s"
+"Pasirinkite, ką sulieti suliejimo žingsnyje padalintame duomenų rinkinyje. "
+"Pagal nutylėjimą suliejamos visos prieinamos išvestys. Parinktys: "
+"%(choices)s. Numatytoji: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:22
 #, python-format
 msgid ""
-"Skip normalization of colors across all images. Useful when processing "
-"radiometric data. Default: %(default)s"
+"Radius of the overlap between submodels in meters. After grouping images "
+"into clusters, images that are closer than this radius to a cluster are "
+"added to the cluster. This is done to ensure that neighboring submodels "
+"overlap. All imagesneed GPS information. Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:23
 #, python-format
 msgid ""
-"Simple Morphological Filter elevation threshold parameter (meters). Default: "
+"Filters the point cloud by removing points that deviate more than N standard "
+"deviations from the local mean. Set to 0 to disable filtering. Default: "
 "%(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:24
 #, python-format
 msgid ""
-"Set a GPS offset in meters for the vertical axis (Z) by adding it to the "
-"altitude value of the GPS EXIF data. This does not change the value of any "
-"GCPs. This can be useful for example when adjusting from ellipsoidal to "
-"orthometric height. Default: %(default)s"
+"Do not use GPU acceleration, even if it's available. Default: %(default)s"
 msgstr ""
 
 #: app/static/app/js/translations/odm_autogenerated.js:25
-#, python-format
-msgid ""
-"Set this parameter if you want to generate a PNG rendering of the "
-"orthophoto. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:26
 #, python-format
 msgid ""
 "Save the georeferenced point cloud in Cloud Optimized Point Cloud (COPC) "
@@ -2032,75 +2090,11 @@ msgstr ""
 "Įrašyti geo-koordinuotą taškų debesį naudojant Debesims optimizuotą taškų "
 "debesies formatą (COPC). Numatytoji parinktis: %(default)s"
 
+#: app/static/app/js/translations/odm_autogenerated.js:26
+msgid "show this help message and exit"
+msgstr "rodyti šį pagalbos tekstą ir išeiti"
+
 #: app/static/app/js/translations/odm_autogenerated.js:27
-#, python-format
-msgid ""
-"Generate OBJs that have a single material and a single texture file instead "
-"of multiple ones. Default:  %(default)s"
-msgstr ""
-"Kurti OBJ, kurie turi vieną medžiagą ir vieną tekstūros failą, vietoje "
-"kelių. Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:28
-#, python-format
-msgid ""
-"Filters the point cloud by removing points that deviate more than N standard "
-"deviations from the local mean. Set to 0 to disable filtering. Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:29
-#, python-format
-msgid ""
-"Path to the image groups file that controls how images should be split into "
-"groups. The file needs to use the following format: image_name "
-"group_nameDefault: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:30
-#, python-format
-msgid ""
-"Skip generation of PDF report. This can save time if you don't need a "
-"report. Default: %(default)s"
-msgstr ""
-"Praleisti PDF ataskaitos kūrimą. Tai gali sutaupyti laiko, jei jums nereikia "
-"ataskaitos. Numatytoji parinktis: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:31
-#, python-format
-msgid ""
-"Export the georeferenced point cloud in LAS format. Default: %(default)s"
-msgstr ""
-"Eksportuoti geo-koordinuotą taškų debesį LAS formatu. Numatytoji reikšmė: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:32
-#, python-format
-msgid ""
-"Simple Morphological Filter slope parameter (rise over run). Default: "
-"%(default)s"
-msgstr ""
-"Paprasto morfologinio filtro nuolydžio parametras (pakilimas per atstumą). "
-"Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:33
-#, python-format
-msgid ""
-"Run local bundle adjustment for every image added to the reconstruction and "
-"a global adjustment every 100 images. Speeds up reconstruction for very "
-"large datasets. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:34
-#, python-format
-msgid ""
-"Name of dataset (i.e subfolder name within project folder). Default: "
-"%(default)s"
-msgstr ""
-"Duomenų aibės pavadinimas (pvz. poaplankio pavadinimas projekto aplanke). "
-"Numatytoji parinktis: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:35
 #, python-format
 msgid ""
 "Computes an euclidean raster map for each DEM. The map reports the distance "
@@ -2113,47 +2107,16 @@ msgstr ""
 "skylių užpildymo). Tai gali būti naudinga izoliuojant plotus, kurie buvo "
 "užpildyti. Numatytoji reikšmė: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:36
+#: app/static/app/js/translations/odm_autogenerated.js:28
 #, python-format
 msgid ""
-"Automatically compute image masks using AI to remove the sky. Experimental. "
-"Default: %(default)s"
+"Maximum number of frames to extract from video files for processing. Set to "
+"0 for no limit. Default: %(default)s"
 msgstr ""
+"Didžiausias skaičius kadrų, ištraukiamų iš video failų apdorojimui. "
+"Nustatykite 0, jei nenorite riboti. Numatytoji reikšmė: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:37
-#, python-format
-msgid ""
-"Create Cloud-Optimized GeoTIFFs instead of normal GeoTIFFs. Default: "
-"%(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:38
-#, python-format
-msgid ""
-"Export the georeferenced point cloud in CSV format. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:39
-#, python-format
-msgid ""
-"Choose what to merge in the merge step in a split dataset. By default all "
-"available outputs are merged. Options: %(choices)s. Default: %(default)s"
-msgstr ""
-"Pasirinkite, ką sulieti suliejimo žingsnyje padalintame duomenų rinkinyje. "
-"Pagal nutylėjimą suliejamos visos prieinamos išvestys. Parinktys: "
-"%(choices)s. Numatytoji: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:40
-#, python-format
-msgid ""
-"Do not attempt to merge partial reconstructions. This can happen when images "
-"do not have sufficient overlap or are isolated. Default: %(default)s"
-msgstr ""
-"Nebandyti sujungti dalines rekonstrukcijas. Tai gali atsitikti, kai "
-"nuotraukos neturi pakankamai persidengimo ar yra izoliuotos. Numatytoji "
-"reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:41
+#: app/static/app/js/translations/odm_autogenerated.js:29
 #, python-format
 msgid ""
 "Delete heavy intermediate files to optimize disk space usage. This affects "
@@ -2166,115 +2129,68 @@ msgstr ""
 "apdoroti duomenų rinkinius mašinose, kurios neturi pakankamai disko vietos. "
 "Numatytoji reikšmė: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:42
+#: app/static/app/js/translations/odm_autogenerated.js:30
 #, python-format
 msgid ""
-"Octree depth used in the mesh reconstruction, increase to get more vertices, "
-"recommended values are 8-12. Default: %(default)s"
-msgstr ""
-"Octree gylis, naudojamas tinklelio rekonstrukcijai. Padidinkite, kad "
-"gautumėte daugiau viršūnių, rekomenduojamos reikšmės yra 8-12. Numatytoji: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:43
-#, python-format
-msgid ""
-"Do not use GPU acceleration, even if it's available. Default: %(default)s"
+"When processing multispectral datasets, ODM will automatically align the "
+"images for each band. If the images have been postprocessed and are already "
+"aligned, use this option. Default: %(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:44
+#: app/static/app/js/translations/odm_autogenerated.js:31
 #, python-format
 msgid ""
-"Set a camera projection type. Manually setting a value can help improve "
-"geometric undistortion. By default the application tries to determine a lens "
-"type from the images metadata. Can be one of: %(choices)s. Default: "
+"During the orthophoto merging, skip expensive blending operation: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:32
+#, python-format
+msgid ""
+"End processing at this stage. Can be one of: %(choices)s. Default: "
 "%(default)s"
 msgstr ""
+"Baigti apdorojimą po šios pakopos. Gali būti viena iš: %(choices)s. "
+"Numatytoji reikšmė: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:45
+#: app/static/app/js/translations/odm_autogenerated.js:33
 #, python-format
 msgid ""
-"Geometric estimates improve the accuracy of the point cloud by computing "
-"geometrically consistent depthmaps but may not be usable in larger datasets. "
-"This flag disables geometric estimates. Default: %(default)s"
+"Ignore Ground Sampling Distance (GSD).A memory and processor hungry change "
+"relative to the default behavior if set to true. Ordinarily, GSD estimates "
+"are used to cap the maximum resolution of image outputs and resizes images "
+"when necessary, resulting in faster processing and lower memory usage. Since "
+"GSD is an estimate, sometimes ignoring it can result in slightly better "
+"image output quality. Never set --ignore-gsd to true unless you are positive "
+"you need it, and even then: do not use it. Default: %(default)s"
 msgstr ""
+"Ignoruoti žemės pavyzdžių atstumus (GSD). Daug atminties ir procesoriaus "
+"reikalaujantis pakeitimas, jei neatitinka numatytosios elgsenos. Paprastai "
+"GSD įvertinimai naudojami apribojant maksimalią nuotraukų išvesties "
+"rezoliuciją ir, kai reikia, keičia nuotraukų dydį, ko pasekoje galima "
+"apdoroti greičiau ir naudojant mažiau atminties. Kadangi GSD yra "
+"įvertinimas, kartais jį ignoruojant galima gauti šiek tiek geresnę išvesties "
+"nuotraukų kokybę. Niekada nenurodykite --ignore-gsd true, jei nesate "
+"įsitikinę, kad jums to reikia, ir net tada - nenaudokite to. Numatytoji "
+"parinktis: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:46
+#: app/static/app/js/translations/odm_autogenerated.js:34
 #, python-format
 msgid ""
-"Decimate the points before generating the DEM. 1 is no decimation (full "
-"quality). 100 decimates ~99%% of the points. Useful for speeding up "
-"generation of DEM results in very large datasets. Default: %(default)s"
+"Set the compression to use for orthophotos. Can be one of: %(choices)s. "
+"Default: %(default)s"
 msgstr ""
-"Mažinti taškų skaičių prieš kuriant DEM. 1 reiškia jokio mažinimo (pilna "
-"kokybė). 100 išima ~99%% taškų. Naudoja pagreitinant DEM rezultatų kūrimą "
-"labai dideliuose duomenų rinkiniuose. Numatytoji reikšmė: %(default)s"
+"Nustatykite ortofotografijoms naudojamą suspaudimą. Gali būti vienas iš: "
+"%(choices)s. Numatytoji reikšmė: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:47
+#: app/static/app/js/translations/odm_autogenerated.js:35
 #, python-format
 msgid ""
-"Override the rolling shutter readout time for your camera sensor (in "
-"milliseconds), instead of using the rolling shutter readout database. Note "
-"that not all cameras are present in the database. Set to 0 to use the "
-"database value. Default: %(default)s"
-msgstr ""
-"Permušti jūsų kameros besisukančio užrakto jutiklio skaitymus "
-"(milisekundėmis), vietoje to naudojant besisukančio užrakto skaitymų duomenų "
-"bazę. Pastebėtina, kad ne visos kameros yra duomenų bazėje. Nustatykite 0, "
-"jei norite naudoti duomenų bazės reikšmę. Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:48
-msgid "Displays version number and exits. "
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:49
-#, python-format
-msgid ""
-"When processing multispectral datasets, you can specify the name of the "
-"primary band that will be used for reconstruction. It's recommended to "
-"choose a band which has sharp details and is in focus. Default: %(default)s"
-msgstr ""
-"Apdorojant kelių spektrų duomenų aibes, jūs galite nurodyti numerį pirminės "
-"juostos, kuri bus naudojama rekonstrukcijai. Rekomenduojama pasirinkti "
-"juostą, kuri turi ryškias detales ir gera fokusą. Numatytoji reikšmė: "
+"Automatically crop image outputs by creating a smooth buffer around the "
+"dataset boundaries, shrunk by N meters. Use 0 to disable cropping. Default: "
 "%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:50
-#, python-format
-msgid ""
-"Use this tag if you have a GCP File but want to use the EXIF information for "
-"georeferencing instead. Default: %(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:51
-#, python-format
-msgid ""
-"Set point cloud quality. Higher quality generates better, denser point "
-"clouds, but requires more memory and takes longer. Each step up in quality "
-"increases processing time roughly by a factor of 4x.Can be one of: "
-"%(choices)s. Default: %(default)s"
-msgstr ""
-"Nustatykite taškų debesies kokybę. Aukštesnė kokybė sukuria geresnius, "
-"tankesnius taškų debesis, bet reikalauja daugiau atminties ir užtrunka "
-"ilgiau. Kiekvienas kokybės žingsnis didina apdorojimo laiką daugmaž 4x. Gali "
-"būti vienas iš: %(choices)s. Numatytoji parinktis: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:52
-#, python-format
-msgid ""
-"Set this parameter if you want to generate a Google Earth (KMZ) rendering of "
-"the orthophoto. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:53
-#, python-format
-msgid ""
-"Automatically set a boundary using camera shot locations to limit the area "
-"of the reconstruction. This can help remove far away background artifacts "
-"(sky, background landscapes, etc.). See also --boundary. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:54
+#: app/static/app/js/translations/odm_autogenerated.js:36
 #, python-format
 msgid ""
 "Export the georeferenced point cloud in Entwine Point Tile (EPT) format. "
@@ -2283,7 +2199,113 @@ msgstr ""
 "Eksportuoti geo-koordinuotą taškų debesį į Entwine taškų kaladėlių (EPT) "
 "formatą. Numatytoji parinktis: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:55
+#: app/static/app/js/translations/odm_autogenerated.js:37
+#, python-format
+msgid ""
+"Choose the structure from motion algorithm. For aerial datasets, if camera "
+"GPS positions and angles are available, triangulation can generate better "
+"results. For planar scenes captured at fixed altitude with nadir-only "
+"images, planar can be much faster. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"Pasirinkti struktūrą iš judesio algoritmo. Oro duomenų rinkiniams, jei "
+"žinomos kameros GPS pozicijos ir kameros kampai, trianguliacija gali sukurti "
+"geresnius rezultatus. Plokščioms scenoms, fotografuotoms fiksuotame aukštyje "
+"tik nadir nuotraukomis, plokščias gali būti daug greitesnis. Gali būti "
+"vienas iš: %(choices)s. Numatytoji parinktis: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:38
+#, python-format
+msgid ""
+"Use the camera parameters computed from another dataset instead of "
+"calculating them. Can be specified either as path to a cameras.json file or "
+"as a JSON string representing the contents of a cameras.json file. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:39
+#, python-format
+msgid ""
+"Geometric estimates improve the accuracy of the point cloud by computing "
+"geometrically consistent depthmaps but may not be usable in larger datasets. "
+"This flag disables geometric estimates. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:40
+#, python-format
+msgid ""
+"Path to a GeoTIFF DEM or a LAS/LAZ point cloud that the reconstruction "
+"outputs should be automatically aligned to. Experimental. Default: "
+"%(default)s"
+msgstr ""
+"Kelias iki GeoTIFF DEM arba LAS/LAZ taškų debesies, prie kurio turėtų būti "
+"automatiškai priderinta rekonstruojama išvestis. Eksperimentinė savybė. "
+"Numatytoji reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:41
+#, python-format
+msgid ""
+"Export the georeferenced point cloud in CSV format. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:42
+#, python-format
+msgid ""
+"Orthophoto resolution in cm / pixel. Note that this value is capped by a "
+"ground sampling distance (GSD) estimate.Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:43
+#, python-format
+msgid ""
+"Generate static tiles for orthophotos and DEMs that are suitable for viewers "
+"like Leaflet or OpenLayers. Default: %(default)s"
+msgstr ""
+"Kurti statines ortofoto kaladėles ir DEM, kurie tinkami klientams, tokiems "
+"kaip Leaflet ar OpenLayers. Numatytoji reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:44
+msgid "Displays version number and exits. "
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:45
+#, python-format
+msgid ""
+"The maximum output resolution of extracted video frames in pixels. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:46
+#, python-format
+msgid ""
+"Set a value in meters for the GPS Dilution of Precision (DOP) information "
+"for all images. If your images are tagged with high precision GPS "
+"information (RTK), this value will be automatically set accordingly. You can "
+"use this option to manually set it in case the reconstruction fails. "
+"Lowering this option can sometimes help control bowling-effects over large "
+"areas. Default: %(default)s"
+msgstr ""
+"Nustatykite reikšmę metrais GPS tikslumo susilpninimo (DOP) informacijai "
+"visoms nuotraukoms. Jei jūsų vaizdai pažymėti su aukšto tikslumo GPS "
+"informacija (RTK), ši reikšmė bus automatiškai nustatyta. Jūs galite naudoti "
+"šią parinktį, jei norite rankiniu būdu nustatyti ją tais atvejais, kai "
+"rekonstrukcija nepavyksta. Sumažinus šią reikšmę kartais gali padėti valdyti "
+"boulingo efektą dideliuose plotuose. Numatytoji reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:47
+#, python-format
+msgid ""
+"Average number of images per submodel. When splitting a large dataset into "
+"smaller submodels, images are grouped into clusters. This value regulates "
+"the number of images that each cluster should have on average. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:48
+msgid "Copy output results to this folder after processing."
+msgstr "Po apdorojimo kopijuoti išvesties rezultatus į šį aplanką."
+
+#: app/static/app/js/translations/odm_autogenerated.js:49
 #, python-format
 msgid ""
 "Turn on rolling shutter correction. If the camera has a rolling shutter and "
@@ -2292,7 +2314,7 @@ msgid ""
 "%(default)s"
 msgstr ""
 
-#: app/static/app/js/translations/odm_autogenerated.js:56
+#: app/static/app/js/translations/odm_autogenerated.js:50
 #, python-format
 msgid ""
 "Set the radiometric calibration to perform on images. When processing "
@@ -2316,40 +2338,78 @@ msgstr ""
 "(DLS), atsižvelgiant į saulės kampą. Gali būti viena iš: %(choices)s. "
 "Numatytoji reikšmė: %(default)s"
 
+#: app/static/app/js/translations/odm_autogenerated.js:51
+#, python-format
+msgid ""
+"Simple Morphological Filter elevation scalar parameter. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:52
+msgid ""
+"Path to the project folder. Your project folder should contain subfolders "
+"for each dataset. Each dataset should have an \"images\" folder."
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:53
+#, python-format
+msgid ""
+"Simple Morphological Filter window radius parameter (meters). Default: "
+"%(default)s"
+msgstr ""
+"Paprasto morfologinio filtro lango spindulio parametras (metrais). "
+"Numatytoji reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:54
+#, python-format
+msgid ""
+"Set point cloud quality. Higher quality generates better, denser point "
+"clouds, but requires more memory and takes longer. Each step up in quality "
+"increases processing time roughly by a factor of 4x.Can be one of: "
+"%(choices)s. Default: %(default)s"
+msgstr ""
+"Nustatykite taškų debesies kokybę. Aukštesnė kokybė sukuria geresnius, "
+"tankesnius taškų debesis, bet reikalauja daugiau atminties ir užtrunka "
+"ilgiau. Kiekvienas kokybės žingsnis didina apdorojimo laiką daugmaž 4x. Gali "
+"būti vienas iš: %(choices)s. Numatytoji parinktis: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:55
+#, python-format
+msgid ""
+"Classify the point cloud outputs. You can control the behavior of this "
+"option by tweaking the --dem-* parameters. Default: %(default)s"
+msgstr ""
+"Klasifikuoti taškų debesies išvestį. Jūs galite valdyti šios parinkties "
+"elgseną keičiant --dem-* parametrus. Numatytoji reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:56
+#, python-format
+msgid ""
+"Name of dataset (i.e subfolder name within project folder). Default: "
+"%(default)s"
+msgstr ""
+"Duomenų aibės pavadinimas (pvz. poaplankio pavadinimas projekto aplanke). "
+"Numatytoji parinktis: %(default)s"
+
 #: app/static/app/js/translations/odm_autogenerated.js:57
 #, python-format
 msgid ""
-"Path to the file containing the ground control points used for "
-"georeferencing. The file needs to use the following format: EPSG:<code> or "
-"<+proj definition>geo_x geo_y geo_z im_x im_y image_name [gcp_name] [extra1] "
-"[extra2]Default: %(default)s"
+"DSM/DTM resolution in cm / pixel. Note that this value is capped by a ground "
+"sampling distance (GSD) estimate. Default: %(default)s"
 msgstr ""
-"Kelias iki failo su žemės kontrolės taškais, naudojamais geo-koordinavimui. "
-"Failas turi naudoti šį formatą: EPSG:<kodas> arba <+proj definition>geo_x "
-"geo_y geo_z im_x im_y image_name [gcp_name] [extra1] [extra2]Numatytoji "
-"reikšmė: %(default)s"
+"DSM/DTM rezoliucija cm / pikseliui. Pastebėtina, kad ši reikšmė apribojama "
+"pagal žemės pavyzdžių atstumo (GSD) įvertinimą. Numatytoji reikšmė: "
+"%(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:58
 #, python-format
 msgid ""
-"The maximum number of processes to use in various processes. Peak memory "
-"requirement is ~1GB per thread and 2 megapixel image resolution. Default: "
-"%(default)s"
+"Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag of "
+"Words. FLANN is slower, but more stable. BOW is faster, but can sometimes "
+"miss valid matches. BRUTEFORCE is very slow but robust.Can be one of: "
+"%(choices)s. Default: %(default)s"
 msgstr ""
-"Didžiausias įvairiuose apdorojimuose naudojamų procesų skaičius. Didžiausi "
-"atminties reikalavimai yra ~1GB per giją ir 2 megapikselių nuotraukos "
-"rezoliuciją. Numatytoji reikšmė: %(default)s"
 
 #: app/static/app/js/translations/odm_autogenerated.js:59
-#, python-format
-msgid ""
-"End processing at this stage. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-"Baigti apdorojimą po šios pakopos. Gali būti viena iš: %(choices)s. "
-"Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:60
 #, python-format
 msgid ""
 "GeoJSON polygon limiting the area of the reconstruction. Can be specified "
@@ -2357,7 +2417,68 @@ msgid ""
 "contents of a GeoJSON file. Default: %(default)s"
 msgstr ""
 
+#: app/static/app/js/translations/odm_autogenerated.js:60
+#, python-format
+msgid ""
+"Octree depth used in the mesh reconstruction, increase to get more vertices, "
+"recommended values are 8-12. Default: %(default)s"
+msgstr ""
+"Octree gylis, naudojamas tinklelio rekonstrukcijai. Padidinkite, kad "
+"gautumėte daugiau viršūnių, rekomenduojamos reikšmės yra 8-12. Numatytoji: "
+"%(default)s"
+
 #: app/static/app/js/translations/odm_autogenerated.js:61
+#, python-format
+msgid ""
+"Skip generation of PDF report. This can save time if you don't need a "
+"report. Default: %(default)s"
+msgstr ""
+"Praleisti PDF ataskaitos kūrimą. Tai gali sutaupyti laiko, jei jums nereikia "
+"ataskaitos. Numatytoji parinktis: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:62
+#, python-format
+msgid ""
+"Use this tag if you have a GCP File but want to use the EXIF information for "
+"georeferencing instead. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:63
+#, python-format
+msgid ""
+"Run local bundle adjustment for every image added to the reconstruction and "
+"a global adjustment every 100 images. Speeds up reconstruction for very "
+"large datasets. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:64
+#, python-format
+msgid ""
+"Specify the distance between camera shot locations and the outer edge of the "
+"boundary when computing the boundary with --auto-boundary. Set to 0 to "
+"automatically choose a value. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:65
+#, python-format
+msgid "Generate OGC 3D Tiles outputs. Default: %(default)s"
+msgstr "Kurti OGC 3D kaladėlių išvestį. Numatytoji reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:66
+#, python-format
+msgid ""
+"Minimum number of features to extract per image. More features can be useful "
+"for finding more matches between images, potentially allowing the "
+"reconstruction of areas with little overlap or insufficient features. More "
+"features also slow down processing. Default: %(default)s"
+msgstr ""
+"Minimalus skaičius geoobjektų, ištraukiamų iš vienos nuotraukos. Daugiau "
+"geoobjektų gali būti naudinga ieškant daugiau atitikmenų tarp nuotraukų, "
+"potencialiai leidžiant rekonstruoti plotus su nedideliu persidengimu ar "
+"nepakankamais geoobjektais. Daugiau geoobjektų taipogi sulėtina apdorojimą. "
+"Numatytoji parinktis: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:67
 #, python-format
 msgid ""
 "Skip generation of a full 3D model. This can save time if you only need 2D "
@@ -2367,304 +2488,7 @@ msgstr ""
 "tik 2D rezultatų, tokių kaip ortofotografijų ir DEM. Numatytoji reikšmė: "
 "%(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:62
-msgid ""
-"Permanently delete all previous results and rerun the processing pipeline."
-msgstr ""
-"Galutinai ištrinti visus ankstesnius rezultatus ir iš naujo įvykdyti visą "
-"apdorojimą."
-
-#: app/static/app/js/translations/odm_autogenerated.js:63
-#, python-format
-msgid ""
-"Matcher algorithm, Fast Library for Approximate Nearest Neighbors or Bag of "
-"Words. FLANN is slower, but more stable. BOW is faster, but can sometimes "
-"miss valid matches. BRUTEFORCE is very slow but robust.Can be one of: "
-"%(choices)s. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:64
-#, python-format
-msgid ""
-"Choose the algorithm for extracting keypoints and computing descriptors. Can "
-"be one of: %(choices)s. Default: %(default)s"
-msgstr ""
-"Parinkite algoritmą raktinių taškų ištraukimui ir aprašymų skaičiavimui. "
-"Gali būti vienas iš: %(choices)s. Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:65
-#, python-format
-msgid ""
-"Set a value in meters for the GPS Dilution of Precision (DOP) information "
-"for all images. If your images are tagged with high precision GPS "
-"information (RTK), this value will be automatically set accordingly. You can "
-"use this option to manually set it in case the reconstruction fails. "
-"Lowering this option can sometimes help control bowling-effects over large "
-"areas. Default: %(default)s"
-msgstr ""
-"Nustatykite reikšmę metrais GPS tikslumo susilpninimo (DOP) informacijai "
-"visoms nuotraukoms. Jei jūsų vaizdai pažymėti su aukšto tikslumo GPS "
-"informacija (RTK), ši reikšmė bus automatiškai nustatyta. Jūs galite naudoti "
-"šią parinktį, jei norite rankiniu būdu nustatyti ją tais atvejais, kai "
-"rekonstrukcija nepavyksta. Sumažinus šią reikšmę kartais gali padėti valdyti "
-"boulingo efektą dideliuose plotuose. Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:66
-msgid "show this help message and exit"
-msgstr "rodyti šį pagalbos tekstą ir išeiti"
-
-#: app/static/app/js/translations/odm_autogenerated.js:67
-#, python-format
-msgid ""
-"The maximum output resolution of extracted video frames in pixels. Default: "
-"%(default)s"
-msgstr ""
-
 #: app/static/app/js/translations/odm_autogenerated.js:68
-#, python-format
-msgid ""
-"Perform ground rectification on the point cloud. This means that wrongly "
-"classified ground points will be re-classified and gaps will be filled. "
-"Useful for generating DTMs. Default: %(default)s"
-msgstr ""
-"Vykdyti taškų debesies žemės išlankstymą. Tai reiškia, kad neteisingai "
-"klasifikuoti žemės taškai bus perklasifikuoti ir bus užpildyti tarpai. "
-"Naudinga kuriant DTM. Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:69
-#, python-format
-msgid ""
-"Simple Morphological Filter window radius parameter (meters). Default: "
-"%(default)s"
-msgstr ""
-"Paprasto morfologinio filtro lango spindulio parametras (metrais). "
-"Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:70
-#, python-format
-msgid ""
-"Build orthophoto overviews for faster display in programs such as QGIS. "
-"Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:71
-#, python-format
-msgid ""
-"Generate static tiles for orthophotos and DEMs that are suitable for viewers "
-"like Leaflet or OpenLayers. Default: %(default)s"
-msgstr ""
-"Kurti statines ortofoto kaladėles ir DEM, kurie tinkami klientams, tokiems "
-"kaip Leaflet ar OpenLayers. Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:72
-#, python-format
-msgid ""
-"Generates a polygon around the cropping area that cuts the orthophoto around "
-"the edges of features. This polygon can be useful for stitching seamless "
-"mosaics with multiple overlapping orthophotos. Default: %(default)s"
-msgstr ""
-"Aplink apkirpimo plotą sukuria poligoną, kuris apkerpa ortofotografiją "
-"aplink geoobjektų kraštus. Šis poligonas gali būti naudingas surišant "
-"ištisines mozaikas su keliomis persidengiančiomis ortofotografijomis. "
-"Numatytoji parinktis: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:73
-#, python-format
-msgid ""
-"Use a full 3D mesh to compute the orthophoto instead of a 2.5D mesh. This "
-"option is a bit faster and provides similar results in planar areas. "
-"Default: %(default)s"
-msgstr ""
-"Ortofoto skaičiavimui naudoti pilną 3D tinklelį vietoje 2.5D tinklelio. Ši "
-"parinktis truputį greitesnė ir teikia panašius rezultatus, kaip ir plokšti "
-"plotai. Numatytoji parinktis: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:74
-#, python-format
-msgid ""
-"Skip generation of the orthophoto. This can save time if you only need 3D "
-"results or DEMs. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:75
-msgid "Copy output results to this folder after processing."
-msgstr "Po apdorojimo kopijuoti išvesties rezultatus į šį aplanką."
-
-#: app/static/app/js/translations/odm_autogenerated.js:76
-#, python-format
-msgid ""
-"Ignore Ground Sampling Distance (GSD).A memory and processor hungry change "
-"relative to the default behavior if set to true. Ordinarily, GSD estimates "
-"are used to cap the maximum resolution of image outputs and resizes images "
-"when necessary, resulting in faster processing and lower memory usage. Since "
-"GSD is an estimate, sometimes ignoring it can result in slightly better "
-"image output quality. Never set --ignore-gsd to true unless you are positive "
-"you need it, and even then: do not use it. Default: %(default)s"
-msgstr ""
-"Ignoruoti žemės pavyzdžių atstumus (GSD). Daug atminties ir procesoriaus "
-"reikalaujantis pakeitimas, jei neatitinka numatytosios elgsenos. Paprastai "
-"GSD įvertinimai naudojami apribojant maksimalią nuotraukų išvesties "
-"rezoliuciją ir, kai reikia, keičia nuotraukų dydį, ko pasekoje galima "
-"apdoroti greičiau ir naudojant mažiau atminties. Kadangi GSD yra "
-"įvertinimas, kartais jį ignoruojant galima gauti šiek tiek geresnę išvesties "
-"nuotraukų kokybę. Niekada nenurodykite --ignore-gsd true, jei nesate "
-"įsitikinę, kad jums to reikia, ir net tada - nenaudokite to. Numatytoji "
-"parinktis: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:77
-#, python-format
-msgid ""
-"Choose the structure from motion algorithm. For aerial datasets, if camera "
-"GPS positions and angles are available, triangulation can generate better "
-"results. For planar scenes captured at fixed altitude with nadir-only "
-"images, planar can be much faster. Can be one of: %(choices)s. Default: "
-"%(default)s"
-msgstr ""
-"Pasirinkti struktūrą iš judesio algoritmo. Oro duomenų rinkiniams, jei "
-"žinomos kameros GPS pozicijos ir kameros kampai, trianguliacija gali sukurti "
-"geresnius rezultatus. Plokščioms scenoms, fotografuotoms fiksuotame aukštyje "
-"tik nadir nuotraukomis, plokščias gali būti daug greitesnis. Gali būti "
-"vienas iš: %(choices)s. Numatytoji parinktis: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:78
-#, python-format
-msgid ""
-"Path to the image geolocation file containing the camera center coordinates "
-"used for georeferencing. If you don't have values for yaw/pitch/roll you can "
-"set them to 0. The file needs to use the following format: EPSG:<code> or "
-"<+proj definition>image_name geo_x geo_y geo_z [yaw (degrees)] [pitch "
-"(degrees)] [roll (degrees)] [horz accuracy (meters)] [vert accuracy "
-"(meters)]Default: %(default)s"
-msgstr ""
-"Kelias iki nuotraukos geolokavimo failą, kuriame yra kameros centro "
-"koordinatės, naudojamos geo-koordinavimui. Jei neturite pokrypio/nuolydžio/"
-"sukimosi reikšmių, galite nurodyti 0. Failas turi naudoti formatą: EPSG:"
-"<kodas> ar <+proj definition>nuotraukos_pavadinimas geo_x geo_y geo_z [yaw "
-"(laipsniai)] [pitch (laipsniai)] [roll (laipsniai)] [horz tikslumas "
-"(metrai)] [vert tikslumas (metrai)]Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:79
-#, python-format
-msgid "Generate OGC 3D Tiles outputs. Default: %(default)s"
-msgstr "Kurti OGC 3D kaladėlių išvestį. Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:80
-#, python-format
-msgid ""
-"When processing multispectral datasets, ODM will automatically align the "
-"images for each band. If the images have been postprocessed and are already "
-"aligned, use this option. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:81
-#, python-format
-msgid ""
-"Skips dense reconstruction and 3D model generation. It generates an "
-"orthophoto directly from the sparse reconstruction. If you just need an "
-"orthophoto and do not need a full 3D model, turn on this option. Default: "
-"%(default)s"
-msgstr ""
-"Praleidžia tankią rekonstrukciją ir 3D modelio kūrimą. Sukuria "
-"ortofotografiją tiesiogiai iš retos rekonstrukcijos. Jei jums reikia tik "
-"ortofotografijos ir nereikia pilno 3D modelio, įjunkite šią parinktį. "
-"Numatytoji parinktis: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:82
-#, python-format
-msgid ""
-"Orthophoto resolution in cm / pixel. Note that this value is capped by a "
-"ground sampling distance (GSD) estimate.Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:83
-#, python-format
-msgid ""
-"Classify the point cloud outputs. You can control the behavior of this "
-"option by tweaking the --dem-* parameters. Default: %(default)s"
-msgstr ""
-"Klasifikuoti taškų debesies išvestį. Jūs galite valdyti šios parinkties "
-"elgseną keičiant --dem-* parametrus. Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:84
-#, python-format
-msgid ""
-"Generate single file Binary glTF (GLB) textured models. Default:  %(default)s"
-msgstr ""
-"Sukuria vieną failą Dvejetainį gITF (GLB) tekstūros modeliams. Numatytoji "
-"reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:85
-#, python-format
-msgid ""
-"Use this tag to build a DTM (Digital Terrain Model, ground only) using a "
-"simple morphological filter. Check the --dem* and --smrf* parameters for "
-"finer tuning. Default: %(default)s"
-msgstr ""
-"Naudokite šitą žymą, kad sukurtumėte DTM (skaitmeninį žemės modelį), "
-"naudojant paprastą morfologinį filtrą. Pažiūrėkite --dem* ir --smrf* "
-"parametrus detalesniam valdymui. Numatytoji parinktis: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:86
-#, python-format
-msgid ""
-"Set feature extraction quality. Higher quality generates better features, "
-"but requires more memory and takes longer. Can be one of: %(choices)s. "
-"Default: %(default)s"
-msgstr ""
-"Nustatykite geoobjektų ištraukimo kokybę. Didesnė kokybė reiškia geresnius "
-"geoobjektus, bet reikalauja daugiau atminties ir ilgiau užtrunka. Gali būti "
-"viena iš: %(choices)s. Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:87
-#, python-format
-msgid "Set this parameter if you want a striped GeoTIFF. Default: %(default)s"
-msgstr ""
-"Nustatykite šį parametrą, jei norite išvalyto GeoTIFF. Numatytoji reikšmė: "
-"%(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:88
-#, python-format
-msgid ""
-"Use this tag to build a DSM (Digital Surface Model, ground + objects) using "
-"a progressive morphological filter. Check the --dem* parameters for finer "
-"tuning. Default: %(default)s"
-msgstr ""
-"Naudokite šią žymą, kad sukurtumėte DSM (skaitmeninį paviršiaus modelį + "
-"objektai) naudojant progresyvų morfologinį filtrą. Pažiūrėkite --dem* "
-"parametrus detalesniam valdymui. Numatytoji parinktis: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:89
-#, python-format
-msgid ""
-"Maximum number of frames to extract from video files for processing. Set to "
-"0 for no limit. Default: %(default)s"
-msgstr ""
-"Didžiausias skaičius kadrų, ištraukiamų iš video failų apdorojimui. "
-"Nustatykite 0, jei nenorite riboti. Numatytoji reikšmė: %(default)s"
-
-#: app/static/app/js/translations/odm_autogenerated.js:90
-#, python-format
-msgid ""
-"Specify the distance between camera shot locations and the outer edge of the "
-"boundary when computing the boundary with --auto-boundary. Set to 0 to "
-"automatically choose a value. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:91
-#, python-format
-msgid ""
-"Use images' GPS exif data for reconstruction, even if there are GCPs present."
-"This flag is useful if you have high precision GPS measurements. If there "
-"are no GCPs, this flag does nothing. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:92
-#, python-format
-msgid ""
-"Simple Morphological Filter elevation scalar parameter. Default: %(default)s"
-msgstr ""
-
-#: app/static/app/js/translations/odm_autogenerated.js:93
 #, python-format
 msgid ""
 "Number of steps used to fill areas with gaps. Set to 0 to disable gap "
@@ -2680,19 +2504,255 @@ msgstr ""
 "suliejami į vieną. Likę tarpai tada suliejami naudojant artimiausio kaimyno "
 "interpoliaciją. Numatytoji reikšmė: %(default)s"
 
-#: app/static/app/js/translations/odm_autogenerated.js:94
+#: app/static/app/js/translations/odm_autogenerated.js:69
 #, python-format
 msgid ""
-"Average number of images per submodel. When splitting a large dataset into "
-"smaller submodels, images are grouped into clusters. This value regulates "
-"the number of images that each cluster should have on average. Default: "
+"Use this tag to build a DSM (Digital Surface Model, ground + objects) using "
+"a progressive morphological filter. Check the --dem* parameters for finer "
+"tuning. Default: %(default)s"
+msgstr ""
+"Naudokite šią žymą, kad sukurtumėte DSM (skaitmeninį paviršiaus modelį + "
+"objektai) naudojant progresyvų morfologinį filtrą. Pažiūrėkite --dem* "
+"parametrus detalesniam valdymui. Numatytoji parinktis: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:70
+#, python-format
+msgid ""
+"Rerun this stage only and stop. Can be one of: %(choices)s. Default: "
+"%(default)s"
+msgstr ""
+"Iš naujo vykdyti šitą pakopą ir sustoti. Gali būti viena iš: %(choices)s. "
+"Numatytoji reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:71
+#, python-format
+msgid ""
+"Skip generation of the orthophoto. This can save time if you only need 3D "
+"results or DEMs. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:72
+#, python-format
+msgid ""
+"Simple Morphological Filter elevation threshold parameter (meters). Default: "
 "%(default)s"
 msgstr ""
 
+#: app/static/app/js/translations/odm_autogenerated.js:73
+#, python-format
+msgid ""
+"Automatically set a boundary using camera shot locations to limit the area "
+"of the reconstruction. This can help remove far away background artifacts "
+"(sky, background landscapes, etc.). See also --boundary. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:74
+#, python-format
+msgid ""
+"Use a full 3D mesh to compute the orthophoto instead of a 2.5D mesh. This "
+"option is a bit faster and provides similar results in planar areas. "
+"Default: %(default)s"
+msgstr ""
+"Ortofoto skaičiavimui naudoti pilną 3D tinklelį vietoje 2.5D tinklelio. Ši "
+"parinktis truputį greitesnė ir teikia panašius rezultatus, kaip ir plokšti "
+"plotai. Numatytoji parinktis: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:75
+#, python-format
+msgid ""
+"Filters the point cloud by keeping only a single point around a radius N (in "
+"meters). This can be useful to limit the output resolution of the point "
+"cloud and remove duplicate points. Set to 0 to disable sampling. Default: "
+"%(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:76
+#, python-format
+msgid ""
+"Generate single file Binary glTF (GLB) textured models. Default:  %(default)s"
+msgstr ""
+"Sukuria vieną failą Dvejetainį gITF (GLB) tekstūros modeliams. Numatytoji "
+"reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:77
+#, python-format
+msgid ""
+"Perform ground rectification on the point cloud. This means that wrongly "
+"classified ground points will be re-classified and gaps will be filled. "
+"Useful for generating DTMs. Default: %(default)s"
+msgstr ""
+"Vykdyti taškų debesies žemės išlankstymą. Tai reiškia, kad neteisingai "
+"klasifikuoti žemės taškai bus perklasifikuoti ir bus užpildyti tarpai. "
+"Naudinga kuriant DTM. Numatytoji reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:78
+#, python-format
+msgid ""
+"The maximum number of processes to use in various processes. Peak memory "
+"requirement is ~1GB per thread and 2 megapixel image resolution. Default: "
+"%(default)s"
+msgstr ""
+"Didžiausias įvairiuose apdorojimuose naudojamų procesų skaičius. Didžiausi "
+"atminties reikalavimai yra ~1GB per giją ir 2 megapikselių nuotraukos "
+"rezoliuciją. Numatytoji reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:79
+#, python-format
+msgid ""
+"Use images' GPS exif data for reconstruction, even if there are GCPs present."
+"This flag is useful if you have high precision GPS measurements. If there "
+"are no GCPs, this flag does nothing. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:80
+#, python-format
+msgid ""
+"Skip normalization of colors across all images. Useful when processing "
+"radiometric data. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:81
+#, python-format
+msgid ""
+"Build orthophoto overviews for faster display in programs such as QGIS. "
+"Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:82
+#, python-format
+msgid ""
+"Skip alignment of submodels in split-merge. Useful if GPS is good enough on "
+"very large datasets. Default: %(default)s"
+msgstr ""
+"Praleisti submodelių lygiavimo dalinime-sujungime. Naudinga, jei GPS yra "
+"pakankamai geras labai dideliuose duomenų rinkiniuose. Numatytoji reikšmė: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:83
+msgid ""
+"Permanently delete all previous results and rerun the processing pipeline."
+msgstr ""
+"Galutinai ištrinti visus ankstesnius rezultatus ir iš naujo įvykdyti visą "
+"apdorojimą."
+
+#: app/static/app/js/translations/odm_autogenerated.js:84
+#, python-format
+msgid ""
+"Set this parameter if you want to generate a Google Earth (KMZ) rendering of "
+"the orthophoto. Default: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:85
+#, python-format
+msgid ""
+"Skips dense reconstruction and 3D model generation. It generates an "
+"orthophoto directly from the sparse reconstruction. If you just need an "
+"orthophoto and do not need a full 3D model, turn on this option. Default: "
+"%(default)s"
+msgstr ""
+"Praleidžia tankią rekonstrukciją ir 3D modelio kūrimą. Sukuria "
+"ortofotografiją tiesiogiai iš retos rekonstrukcijos. Jei jums reikia tik "
+"ortofotografijos ir nereikia pilno 3D modelio, įjunkite šią parinktį. "
+"Numatytoji parinktis: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:86
+#, python-format
+msgid ""
+"Set feature extraction quality. Higher quality generates better features, "
+"but requires more memory and takes longer. Can be one of: %(choices)s. "
+"Default: %(default)s"
+msgstr ""
+"Nustatykite geoobjektų ištraukimo kokybę. Didesnė kokybė reiškia geresnius "
+"geoobjektus, bet reikalauja daugiau atminties ir ilgiau užtrunka. Gali būti "
+"viena iš: %(choices)s. Numatytoji reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:87
+#, python-format
+msgid ""
+"Export the georeferenced point cloud in LAS format. Default: %(default)s"
+msgstr ""
+"Eksportuoti geo-koordinuotą taškų debesį LAS formatu. Numatytoji reikšmė: "
+"%(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:88
+#, python-format
+msgid ""
+"Path to the image groups file that controls how images should be split into "
+"groups. The file needs to use the following format: image_name "
+"group_nameDefault: %(default)s"
+msgstr ""
+
+#: app/static/app/js/translations/odm_autogenerated.js:89
+#, python-format
+msgid ""
+"Decimate the points before generating the DEM. 1 is no decimation (full "
+"quality). 100 decimates ~99%% of the points. Useful for speeding up "
+"generation of DEM results in very large datasets. Default: %(default)s"
+msgstr ""
+"Mažinti taškų skaičių prieš kuriant DEM. 1 reiškia jokio mažinimo (pilna "
+"kokybė). 100 išima ~99%% taškų. Naudoja pagreitinant DEM rezultatų kūrimą "
+"labai dideliuose duomenų rinkiniuose. Numatytoji reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:90
+#, python-format
+msgid ""
+"Keep faces in the mesh that are not seen in any camera. Default:  %(default)s"
+msgstr ""
+"Palikti tinklelyje plokštumas, kurios nematomos nei viena kamera. Numatytoji "
+"reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:91
+#, python-format
+msgid ""
+"Path to the file containing the ground control points used for "
+"georeferencing. The file needs to use the following format: EPSG:<code> or "
+"<+proj definition>geo_x geo_y geo_z im_x im_y image_name [gcp_name] [extra1] "
+"[extra2]Default: %(default)s"
+msgstr ""
+"Kelias iki failo su žemės kontrolės taškais, naudojamais geo-koordinavimui. "
+"Failas turi naudoti šį formatą: EPSG:<kodas> arba <+proj definition>geo_x "
+"geo_y geo_z im_x im_y image_name [gcp_name] [extra1] [extra2]Numatytoji "
+"reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:92
+#, python-format
+msgid ""
+"Do not attempt to merge partial reconstructions. This can happen when images "
+"do not have sufficient overlap or are isolated. Default: %(default)s"
+msgstr ""
+"Nebandyti sujungti dalines rekonstrukcijas. Tai gali atsitikti, kai "
+"nuotraukos neturi pakankamai persidengimo ar yra izoliuotos. Numatytoji "
+"reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:93
+#, python-format
+msgid ""
+"Turn off camera parameter optimization during bundle adjustment. This can be "
+"sometimes useful for improving results that exhibit doming/bowling or when "
+"images are taken with a rolling shutter camera. Default: %(default)s"
+msgstr ""
+"Išjunkite kameros parametro optimizaciją ryšulio keitimo metu. Tai kartais "
+"gali būti naudinga gerinant rezultatus, kuriuose pastebimas doming/bowling "
+"arba kai nuotraukos padarytos su besisukančiu kameros užraktu. Numatytoji "
+"reikšmė: %(default)s"
+
+#: app/static/app/js/translations/odm_autogenerated.js:94
+#, python-format
+msgid ""
+"Generate OBJs that have a single material and a single texture file instead "
+"of multiple ones. Default:  %(default)s"
+msgstr ""
+"Kurti OBJ, kurie turi vieną medžiagą ir vieną tekstūros failą, vietoje "
+"kelių. Numatytoji reikšmė: %(default)s"
+
 #: app/static/app/js/translations/odm_autogenerated.js:95
 #, python-format
-msgid "The maximum vertex count of the output mesh. Default: %(default)s"
+msgid ""
+"Simple Morphological Filter slope parameter (rise over run). Default: "
+"%(default)s"
 msgstr ""
+"Paprasto morfologinio filtro nuolydžio parametras (pakilimas per atstumą). "
+"Numatytoji reikšmė: %(default)s"
 
 #: app/static/app/js/translations/plugin_manifest_autogenerated.js:3
 msgid "Compute volume, area and length measurements on Leaflet"
@@ -3668,9 +3728,6 @@ msgstr ""
 
 #~ msgid "OSM Mapnik"
 #~ msgstr "OSM Mapnik"
-
-#~ msgid "Import Existing Assets"
-#~ msgstr "Importuoti esamus elementus"
 
 #~ msgid "(Cameras)"
 #~ msgstr "(Kameros)"

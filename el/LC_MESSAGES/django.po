@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-11 17:29+0000\n"
+"POT-Creation-Date: 2026-02-26 03:13+0000\n"
 "PO-Revision-Date: 2025-12-30 07:00+0000\n"
 "Last-Translator: Christos Kanotidis <christoskanotidis@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/webodm/webodm/el/"
@@ -318,50 +318,88 @@ msgstr "Μη έγκυρος χρήστης στη λίστα δικαιωμάτ�
 msgid "Invalid permissions"
 msgstr "Μη έγκυρα δικαιώματα"
 
-#: app/api/tasks.py:277
+#: app/api/tasks.py:278
 msgid "You need to upload at least 1 file before commit"
 msgstr "Πρέπει να ανεβάσετε τουλάχιστον 1 αρχείο πριν από τη δέσμευση"
 
-#: app/api/tasks.py:299
+#: app/api/tasks.py:300
 msgid "No files uploaded"
 msgstr "Δεν έχουν μεταφορτωθεί αρχεία"
 
-#: app/api/tasks.py:355
+#: app/api/tasks.py:356
 msgid "Cannot duplicate task"
 msgstr "Δεν είναι δυνατή η επανάληψη της εργασίας"
 
-#: app/api/tasks.py:369
+#: app/api/tasks.py:370
 msgid "Cannot create task, alignment task is not valid"
 msgstr "Δεν είναι δυνατή η δημιουργία εργασίας, η εργασία δεν είναι έγκυρη"
 
-#: app/api/tasks.py:386
+#: app/api/tasks.py:387
 msgid "Cannot create task, you need at least 2 images"
 msgstr ""
 "Δεν μπορείτε να δημιουργήσετε την εργασία, χρειάζεστε τουλάχιστον 2 εικόνες"
 
-#: app/api/tasks.py:510 app/api/tasks.py:514 app/api/tasks.py:655
-#: app/api/tasks.py:658 app/api/tasks.py:676 app/api/tasks.py:790
+#: app/api/tasks.py:511 app/api/tasks.py:515 app/api/tasks.py:656
+#: app/api/tasks.py:659 app/api/tasks.py:677 app/api/tasks.py:998
 msgid "Asset does not exist"
 msgstr "Ο Πόρος δεν υπάρχει"
 
-#: app/api/tasks.py:694
+#: app/api/tasks.py:695 app/api/tasks.py:910
 msgid "Imported Task"
 msgstr "Εισαγόμενη εργασία"
 
-#: app/api/tasks.py:697
+#: app/api/tasks.py:698 app/api/tasks.py:824
 msgid "Cannot create task, you need to upload 1 file"
 msgstr "Δεν μπορείτε να δημιουργήσετε εργασία, πρέπει να ανεβάσετε 1 αρχείο"
 
-#: app/api/tasks.py:701
+#: app/api/tasks.py:702
 msgid "Cannot create task, either specify a URL or upload 1 file."
 msgstr ""
 "Δεν είναι δυνατή η δημιουργία εργασίας, είτε καθορίστε μια διεύθυνση URL "
 "είτε ανεβάστε 1 αρχείο."
 
-#: app/api/tasks.py:703
+#: app/api/tasks.py:704
 #, python-format
 msgid "Invalid URL. Did you mean %(hint)s ?"
 msgstr "Μη έγκυρη διεύθυνση URL. Εννοούσατε %(hint)s;"
+
+#: app/api/tasks.py:808 app/api/tasks.py:811
+#, fuzzy
+#| msgid "Invalid action"
+msgid "Invalid uuid"
+msgstr "Μη έγκυρη ενέργεια"
+
+#: app/api/tasks.py:832 app/api/tasks.py:840
+#, fuzzy
+#| msgid "Invalid zip file"
+msgid "Invalid file type"
+msgstr "Μη έγκυρο αρχείο zip"
+
+#: app/api/tasks.py:864
+msgid "Some parameters are not integers"
+msgstr ""
+
+#: app/api/tasks.py:923 app/api/tasks.py:928
+msgid "GeoTIFF must have a valid CRS"
+msgstr ""
+
+#: app/api/tasks.py:930
+msgid "Elevation model must have at most 2 band"
+msgstr ""
+
+#: app/api/tasks.py:936
+msgid "Point cloud must be a valid LAZ/LAS file"
+msgstr ""
+
+#: app/api/tasks.py:942
+msgid "Textured model must be a valid GLB file"
+msgstr ""
+
+#: app/api/tasks.py:946
+#, fuzzy
+#| msgid "No files uploaded"
+msgid "No assets uploaded"
+msgstr "Δεν έχουν μεταφορτωθεί αρχεία"
 
 #: app/api/tiler.py:364
 msgid "Invalid boundaries parameter"
@@ -1002,25 +1040,25 @@ msgstr "ανώνυμο"
 msgid "Importing assets..."
 msgstr "Εισαγωγή πόρων..."
 
-#: app/models/task.py:651 app/models/task.py:929
+#: app/models/task.py:654 app/models/task.py:932
 msgid "Invalid zip file"
 msgstr "Μη έγκυρο αρχείο zip"
 
-#: app/models/task.py:653
+#: app/models/task.py:656
 msgid "Unsupported compression method"
 msgstr "Μη υποστηριζόμενη μέθοδος συμπίεσης"
 
-#: app/models/task.py:747
+#: app/models/task.py:750
 #, python-format
 msgid "Connection error: %(error)s"
 msgstr "Σφάλμα σύνδεσης: %(error)s"
 
-#: app/models/task.py:827
+#: app/models/task.py:830
 msgid "Cannot restart a task that has no processing node"
 msgstr ""
 "Δεν είναι δυνατή η επανεκκίνηση μιας εργασίας που δεν έχει κόμβο επεξεργασίας"
 
-#: app/models/task.py:1033
+#: app/models/task.py:1042
 msgid "Done!"
 msgstr "Έτοιμο!"
 
@@ -1807,48 +1845,40 @@ msgid "Upload and tile ODM assets with Cesium ion."
 msgstr "Μεταφόρτωση και πλακίδια στοιχείων ODM με ιόντα καισίου."
 
 #: app/translations/plugin_manifest_autogenerated.py:5
-msgid "Import images from external sources directly"
-msgstr "Εισαγωγή εικόνων από εξωτερικές πηγές άμεσα"
-
-#: app/translations/plugin_manifest_autogenerated.py:6
 msgid "Compute, preview and export contours from DEMs"
 msgstr "Υπολογισμός, προεπισκόπηση και εξαγωγή περιγραμμάτων από DEMs"
 
-#: app/translations/plugin_manifest_autogenerated.py:7
+#: app/translations/plugin_manifest_autogenerated.py:6
 msgid "Display program version, memory and disk space usage statistics"
 msgstr ""
 "Εμφάνιση στατιστικών στοιχείων για την έκδοση του προγράμματος, τη μνήμη και "
 "τη χρήση του χώρου στο δίσκο"
 
-#: app/translations/plugin_manifest_autogenerated.py:8
+#: app/translations/plugin_manifest_autogenerated.py:7
 msgid "Integrate WebODM with DroneDB: import images and share results"
 msgstr ""
 "Ενσωμάτωση του WebODM με το DroneDB: εισαγωγή εικόνων και κοινή χρήση "
 "αποτελεσμάτων"
 
-#: app/translations/plugin_manifest_autogenerated.py:9
+#: app/translations/plugin_manifest_autogenerated.py:8
 msgid "Create editable short links when sharing task URLs"
 msgstr ""
 "Δημιουργία επεξεργάσιμων σύντομων συνδέσμων κατά την κοινή χρήση διευθύνσεων "
 "URL εργασιών"
 
-#: app/translations/plugin_manifest_autogenerated.py:10
+#: app/translations/plugin_manifest_autogenerated.py:9
 msgid "Add a fullscreen button to the 2D map view"
 msgstr "Προσθήκη ενός κουμπιού πλήρους οθόνης στην προβολή χάρτη 2D"
 
-#: app/translations/plugin_manifest_autogenerated.py:11
+#: app/translations/plugin_manifest_autogenerated.py:10
 msgid "Process in the cloud with webodm.net"
 msgstr "Επεξεργασία στο cloud με το webodm.net"
 
-#: app/translations/plugin_manifest_autogenerated.py:12
+#: app/translations/plugin_manifest_autogenerated.py:11
 msgid "Compute volume, area and length measurements on Leaflet"
 msgstr "Υπολογίστε μετρήσεις όγκου, εμβαδού και μήκους στο Leaflet"
 
-#: app/translations/plugin_manifest_autogenerated.py:13
-msgid "A plugin to upload orthophotos to OpenAerialMap"
-msgstr "Ένα πρόσθετο για να ανεβάσετε ορθοφωτογραφίες στο OpenAerialMap"
-
-#: app/translations/plugin_manifest_autogenerated.py:14
+#: app/translations/plugin_manifest_autogenerated.py:12
 msgid ""
 "A plugin to add a button for quickly opening OpenStreetMap's iD editor and "
 "setup a TMS basemap."
@@ -1857,20 +1887,20 @@ msgstr ""
 "εργαλείου επεξεργασίας iD του OpenStreetMap και τη ρύθμιση ενός βασικού "
 "χάρτη TMS."
 
-#: app/translations/plugin_manifest_autogenerated.py:15
-#: app/translations/plugin_manifest_autogenerated.py:19
+#: app/translations/plugin_manifest_autogenerated.py:13
+#: app/translations/plugin_manifest_autogenerated.py:17
 msgid "A plugin to create GCP files from images"
 msgstr "Ένα πρόσθετο για τη δημιουργία αρχείων GCP από εικόνες"
 
-#: app/translations/plugin_manifest_autogenerated.py:16
+#: app/translations/plugin_manifest_autogenerated.py:14
 msgid "A plugin to show charts of projects and tasks"
 msgstr "Ένα πρόσθετο για την εμφάνιση διαγραμμάτων έργων και εργασιών"
 
-#: app/translations/plugin_manifest_autogenerated.py:17
+#: app/translations/plugin_manifest_autogenerated.py:15
 msgid "Create short links when sharing task URLs"
 msgstr "Δημιουργία σύντομων συνδέσμων κατά την κοινή χρήση URL εργασιών"
 
-#: app/translations/plugin_manifest_autogenerated.py:18
+#: app/translations/plugin_manifest_autogenerated.py:16
 msgid ""
 "Get notified when a task has finished processing, has been removed or has "
 "failed"
@@ -1878,26 +1908,30 @@ msgstr ""
 "Λάβετε ειδοποίηση όταν μια εργασία έχει ολοκληρώσει την επεξεργασία, έχει "
 "αφαιρεθεί ή έχει αποτύχει"
 
-#: app/translations/plugin_manifest_autogenerated.py:20
+#: app/translations/plugin_manifest_autogenerated.py:18
 msgid "Annotate and measure on 2D maps with ease"
 msgstr "Σχολιάστε και μετρήστε εύκολα σε δισδιάστατους χάρτες"
 
-#: app/translations/plugin_manifest_autogenerated.py:21
+#: app/translations/plugin_manifest_autogenerated.py:19
 msgid "Add a GPS location button to the 2D map view"
 msgstr "Προσθήκη κουμπιού τοποθεσίας GPS στην προβολή χάρτη 2D"
 
-#: app/translations/plugin_manifest_autogenerated.py:22
+#: app/translations/plugin_manifest_autogenerated.py:20
 msgid "Plugin to get align from external service for WebODM"
 msgstr "Πρόσθετο για λήψη ευθυγράμμισης από εξωτερική υπηρεσία για WebODM"
 
-#: app/translations/plugin_manifest_autogenerated.py:23
+#: app/translations/plugin_manifest_autogenerated.py:21
 msgid "Detect objects using AI in orthophotos"
 msgstr ""
 "Εντοπισμός αντικειμένων χρησιμοποιώντας Τεχνητή Νοημοσύνη σε ορθοφωτογραφίες"
 
-#: app/translations/plugin_manifest_autogenerated.py:24
+#: app/translations/plugin_manifest_autogenerated.py:22
 msgid "An example plugin for development"
 msgstr "Ένα παράδειγμα πρόσθετου για ανάπτυξη"
+
+#: app/translations/plugin_manifest_autogenerated.py:23
+msgid "A plugin to add a button for taking a snapshot of the map or 3D model."
+msgstr ""
 
 #: app/views/app.py:57
 msgid "First Project"
@@ -2188,6 +2222,12 @@ msgstr ""
 #: nodeodm/models.py:34
 msgid "Engine used by the node."
 msgstr "Μηχανή που χρησιμοποιείται από τον κόμβο."
+
+#~ msgid "Import images from external sources directly"
+#~ msgstr "Εισαγωγή εικόνων από εξωτερικές πηγές άμεσα"
+
+#~ msgid "A plugin to upload orthophotos to OpenAerialMap"
+#~ msgstr "Ένα πρόσθετο για να ανεβάσετε ορθοφωτογραφίες στο OpenAerialMap"
 
 #, python-format
 #~ msgid ""
