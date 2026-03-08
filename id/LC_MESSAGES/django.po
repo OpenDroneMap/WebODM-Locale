@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-26 03:13+0000\n"
-"PO-Revision-Date: 2026-03-05 19:37+0000\n"
-"Last-Translator: another account <1f9d4f92h4jo35@gmail.com>\n"
+"PO-Revision-Date: 2026-03-09 07:09+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/webodm/webodm/"
 "id/>\n"
 "Language: id\n"
@@ -110,15 +110,15 @@ msgstr "Plugin berhasil ditambahkan"
 #: app/admin.py:257
 #, python-format
 msgid "Cannot load plugin: %(message)s"
-msgstr ""
+msgstr "Tidak dapat memuat plugin: %(message)s"
 
 #: app/admin.py:263
 msgid "You need to upload a zip file"
-msgstr ""
+msgstr "Anda perlu mengunggah file zip"
 
 #: app/admin.py:277
 msgid "Disable"
-msgstr ""
+msgstr "Nonaktifkan"
 
 #: app/admin.py:280
 msgid "Enable"
@@ -126,301 +126,346 @@ msgstr "Aktifkan"
 
 #: app/admin.py:285
 msgid "Actions"
-msgstr ""
+msgstr "Tindakan"
 
 #: app/api/formulas.py:12 app/api/formulas.py:32
 msgid ""
 "Normalized Difference Vegetation Index shows the amount of green vegetation."
 msgstr ""
+"Indeks Vegetasi Perbedaan Ternormalisasi menunjukkan jumlah vegetasi hijau."
 
 #: app/api/formulas.py:17
 msgid ""
 "Normalized difference yellowness index (NDYI), best model variability in "
 "relative yield potential in Canola."
 msgstr ""
+"Indeks Kekuningan Perbedaan Ternormalisasi (NDYI), variabilitas model "
+"terbaik dalam potensi hasil relatif pada kanola."
 
 #: app/api/formulas.py:22
 msgid ""
 "Normalized Difference Red Edge Index shows the amount of green vegetation of "
 "permanent or later stage crops."
 msgstr ""
+"Indeks Tepi Merah Perbedaan Ternormalisasi menunjukkan jumlah vegetasi hijau "
+"pada tanaman permanen atau tanaman tahap lanjut."
 
 #: app/api/formulas.py:27
 msgid ""
 "Normalized Difference Water Index shows the amount of water content in water "
 "bodies."
 msgstr ""
+"Indeks Air Perbedaan Ternormalisasi menunjukkan jumlah kandungan air pada "
+"badan air."
 
 #: app/api/formulas.py:37
 msgid ""
 "Enhanced Normalized Difference Vegetation Index is like NDVI, but uses Blue "
 "and Green bands instead of only Red to isolate plant health."
 msgstr ""
+"Indeks Vegetasi Perbedaan Ternormalisasi yang Ditingkatkan mirip dengan "
+"NDVI, tetapi menggunakan band Biru dan Hijau alih-alih hanya Merah untuk "
+"mengisolasi kesehatan tanaman."
 
 #: app/api/formulas.py:41
 msgid ""
 "Visible NDVI is an un-normalized index for RGB sensors using constants "
 "derived from citrus, grape, and sugarcane crop data."
 msgstr ""
+"NDVI Visual adalah indeks yang tidak dinormalisasi untuk sensor RGB yang "
+"menggunakan konstanta yang diturunkan dari data tanaman jeruk, anggur, dan "
+"tebu."
 
 #: app/api/formulas.py:45
 msgid "Visual Atmospheric Resistance Index shows the areas of vegetation."
-msgstr ""
+msgstr "Indeks Ketahanan Atmosfer Visual menunjukkan area vegetasi."
 
 #: app/api/formulas.py:50
 msgid "Modified Photochemical Reflectance Index"
-msgstr ""
+msgstr "Indeks Reflektansi Fotokimia yang Dimodifikasi"
 
 #: app/api/formulas.py:55
 msgid ""
 "Excess Green Index (derived from only the RGB bands) emphasizes the "
 "greenness of leafy crops such as potatoes."
 msgstr ""
+"Indeks Hijau Berlebih (diturunkan hanya dari band RGB) menekankan kehijauan "
+"tanaman berdaun seperti kentang."
 
 #: app/api/formulas.py:59
 msgid ""
 "Burn Area Index hightlights burned land in the red to near-infrared spectrum."
 msgstr ""
+"Indeks Area Terbakar menyoroti lahan terbakar dalam spektrum merah hingga "
+"inframerah dekat."
 
 #: app/api/formulas.py:63
 msgid "Green Leaf Index shows greens leaves and stems."
-msgstr ""
+msgstr "Indeks Daun Hijau menunjukkan daun dan batang hijau."
 
 #: app/api/formulas.py:68
 msgid ""
 "Green Normalized Difference Vegetation Index is similar to NDVI, but "
 "measures the green spectrum instead of red."
 msgstr ""
+"Indeks Vegetasi Perbedaan Ternormalisasi Hijau mirip dengan NDVI, tetapi "
+"mengukur spektrum hijau alih-alih merah."
 
 #: app/api/formulas.py:73
 msgid ""
 "Green Ratio Vegetation Index is sensitive to photosynthetic rates in forests."
 msgstr ""
+"Indeks Vegetasi Rasio Hijau sensitif terhadap laju fotosintesis di hutan."
 
 #: app/api/formulas.py:77
 msgid ""
 "Soil Adjusted Vegetation Index is similar to NDVI but attempts to remove the "
 "effects of soil areas using an adjustment factor (0.5)."
 msgstr ""
+"Indeks Vegetasi yang Disesuaikan dengan Tanah mirip dengan NDVI tetapi "
+"berupaya menghilangkan efek area tanah menggunakan faktor penyesuaian (0.5)."
 
 #: app/api/formulas.py:81
 msgid ""
 "Modified Non-Linear Index improves the Non-Linear Index algorithm to account "
 "for soil areas."
 msgstr ""
+"Indeks Non-Linear yang Dimodifikasi meningkatkan algoritma Indeks Non-Linear "
+"untuk memperhitungkan area tanah."
 
 #: app/api/formulas.py:85
 msgid ""
 "Modified Simple Ratio is an improvement of the Simple Ratio (SR) index to be "
 "more sensitive to vegetation."
 msgstr ""
+"Rasio Sederhana yang Dimodifikasi merupakan peningkatan dari indeks Rasio "
+"Sederhana (SR) agar lebih sensitif terhadap vegetasi."
 
 #: app/api/formulas.py:89
 msgid ""
 "Renormalized Difference Vegetation Index uses the difference between near-IR "
 "and red, plus NDVI to show areas of healthy vegetation."
 msgstr ""
+"Indeks Vegetasi Perbedaan Ternormalisasi Ulang menggunakan perbedaan antara "
+"inframerah dekat dan merah, ditambah NDVI untuk menunjukkan area vegetasi "
+"sehat."
 
 #: app/api/formulas.py:93
 msgid ""
 "Transformed Difference Vegetation Index highlights vegetation cover in urban "
 "environments."
 msgstr ""
+"Indeks Vegetasi Perbedaan yang Ditransformasikan menyoroti tutupan vegetasi "
+"di lingkungan perkotaan."
 
 #: app/api/formulas.py:97
 msgid ""
 "Optimized Soil Adjusted Vegetation Index is based on SAVI, but tends to work "
 "better in areas with little vegetation where soil is visible."
 msgstr ""
+"Indeks Vegetasi yang Disesuaikan dengan Tanah yang Dioptimalkan didasarkan "
+"pada SAVI, tetapi cenderung bekerja lebih baik di area dengan sedikit "
+"vegetasi tempat tanah terlihat."
 
 #: app/api/formulas.py:101
 msgid "Leaf Area Index estimates foliage areas and predicts crop yields."
 msgstr ""
+"Indeks Luas Daun memperkirakan area tajuk daun dan memprediksi hasil panen."
 
 #: app/api/formulas.py:106
 msgid ""
 "Enhanced Vegetation Index is useful in areas where NDVI might saturate, by "
 "using blue wavelengths to correct soil signals."
 msgstr ""
+"Indeks Vegetasi yang Ditingkatkan berguna di area tempat NDVI mungkin "
+"mengalami saturasi, dengan menggunakan panjang gelombang biru untuk "
+"mengoreksi sinyal tanah."
 
 #: app/api/formulas.py:111
 msgid ""
 "Atmospherically Resistant Vegetation Index. Useful when working with imagery "
 "for regions with high atmospheric aerosol content."
 msgstr ""
+"Indeks Vegetasi Tahan Atmosfer. Berguna saat bekerja dengan citra untuk "
+"wilayah dengan kandungan aerosol atmosfer yang tinggi."
 
 #: app/api/formulas.py:116
 msgid "Temperature in Celsius degrees."
-msgstr ""
+msgstr "Suhu dalam derajat Celsius."
 
 #: app/api/formulas.py:120
 msgid "Temperature in Centikelvin degrees."
-msgstr ""
+msgstr "Suhu dalam derajat centikelvin."
 
 #: app/api/projects.py:130
 msgid "Cannot duplicate project"
-msgstr ""
+msgstr "Tidak dapat menduplikasi proyek"
 
 #: app/api/projects.py:198
 msgid "Invalid user in permissions list"
-msgstr ""
+msgstr "Pengguna tidak valid dalam daftar izin"
 
 #: app/api/projects.py:200
 msgid "Invalid permissions"
-msgstr ""
+msgstr "Izin tidak valid"
 
 #: app/api/tasks.py:278
 msgid "You need to upload at least 1 file before commit"
-msgstr ""
+msgstr "Anda perlu mengunggah setidaknya 1 file sebelum commit"
 
 #: app/api/tasks.py:300
 msgid "No files uploaded"
-msgstr ""
+msgstr "Tidak ada file yang diunggah"
 
 #: app/api/tasks.py:356
 msgid "Cannot duplicate task"
-msgstr ""
+msgstr "Tidak dapat menduplikasi tugas"
 
 #: app/api/tasks.py:370
 msgid "Cannot create task, alignment task is not valid"
-msgstr ""
+msgstr "Tidak dapat membuat tugas, tugas penyelarasan tidak valid"
 
 #: app/api/tasks.py:387
 msgid "Cannot create task, you need at least 2 images"
-msgstr ""
+msgstr "Tidak dapat membuat tugas, Anda memerlukan setidaknya 2 gambar"
 
 #: app/api/tasks.py:511 app/api/tasks.py:515 app/api/tasks.py:656
 #: app/api/tasks.py:659 app/api/tasks.py:677 app/api/tasks.py:998
 msgid "Asset does not exist"
-msgstr ""
+msgstr "Aset tidak ada"
 
 #: app/api/tasks.py:695 app/api/tasks.py:910
 msgid "Imported Task"
-msgstr ""
+msgstr "Tugas yang Diimpor"
 
 #: app/api/tasks.py:698 app/api/tasks.py:824
 msgid "Cannot create task, you need to upload 1 file"
-msgstr ""
+msgstr "Tidak dapat membuat tugas, Anda perlu mengunggah 1 file"
 
 #: app/api/tasks.py:702
 msgid "Cannot create task, either specify a URL or upload 1 file."
-msgstr ""
+msgstr "Tidak dapat membuat tugas, tentukan URL atau unggah 1 file."
 
 #: app/api/tasks.py:704
 #, python-format
 msgid "Invalid URL. Did you mean %(hint)s ?"
-msgstr ""
+msgstr "URL tidak valid. Apakah maksud Anda %(hint)s?"
 
 #: app/api/tasks.py:808 app/api/tasks.py:811
 msgid "Invalid uuid"
-msgstr ""
+msgstr "UUID tidak valid"
 
 #: app/api/tasks.py:832 app/api/tasks.py:840
 msgid "Invalid file type"
-msgstr ""
+msgstr "Jenis file tidak valid"
 
 #: app/api/tasks.py:864
 msgid "Some parameters are not integers"
-msgstr ""
+msgstr "Beberapa parameter bukan bilangan bulat"
 
 #: app/api/tasks.py:923 app/api/tasks.py:928
 msgid "GeoTIFF must have a valid CRS"
-msgstr ""
+msgstr "GeoTIFF harus memiliki CRS yang valid"
 
 #: app/api/tasks.py:930
 msgid "Elevation model must have at most 2 band"
-msgstr ""
+msgstr "Model elevasi paling banyak harus memiliki 2 band"
 
 #: app/api/tasks.py:936
 msgid "Point cloud must be a valid LAZ/LAS file"
-msgstr ""
+msgstr "Point cloud harus berupa file LAZ/LAS yang valid"
 
 #: app/api/tasks.py:942
 msgid "Textured model must be a valid GLB file"
-msgstr ""
+msgstr "Model bertekstur harus berupa file GLB yang valid"
 
 #: app/api/tasks.py:946
 msgid "No assets uploaded"
-msgstr ""
+msgstr "Tidak ada aset yang diunggah"
 
 #: app/api/tiler.py:364
 msgid "Invalid boundaries parameter"
-msgstr ""
+msgstr "Parameter batas tidak valid"
 
 #: app/api/tiler.py:383
 msgid "Invalid tile size parameter"
-msgstr ""
+msgstr "Parameter ukuran tile tidak valid"
 
 #: app/api/tiler.py:414 app/api/tiler.py:495
 msgid "Outside of bounds"
-msgstr ""
+msgstr "Di luar batas"
 
 #: app/api/tiler.py:425
 msgid "Invalid boundaries"
-msgstr ""
+msgstr "Batas tidak valid"
 
 #: app/api/tiler.py:501 app/api/tiler.py:629
 msgid "Not a valid color_map value"
-msgstr ""
+msgstr "Bukan nilai color_map yang valid"
 
 #: app/api/tiler.py:509
 msgid "Invalid rescale value"
-msgstr ""
+msgstr "Nilai rescale tidak valid"
 
 #: app/api/tiler.py:531
 msgid "Invalid hillshade value"
-msgstr ""
+msgstr "Nilai hillshade tidak valid"
 
 #: app/api/tiler.py:534
 msgid "Cannot compute hillshade of non-elevation raster (multiple bands found)"
 msgstr ""
+"Tidak dapat menghitung hillshade dari raster non-elevasi (ditemukan beberapa "
+"band)"
 
 #: app/api/tiler.py:558
 msgid ""
 "Cannot process tile: intensity image provided, but no RGB data was computed."
 msgstr ""
+"Tidak dapat memproses tile: gambar intensitas disediakan, tetapi tidak ada "
+"data RGB yang dihitung."
 
 #: app/api/tiler.py:614 app/api/tiler.py:616
 #, python-format
 msgid "Unsupported format: %(value)s"
-msgstr ""
+msgstr "Format tidak didukung: %(value)s"
 
 #: app/api/tiler.py:635
 #, python-format
 msgid "Invalid resample value: %(value)s"
-msgstr ""
+msgstr "Nilai resample tidak valid: %(value)s"
 
 #: app/api/tiler.py:641
 #, python-format
 msgid "Invalid EPSG code: %(value)s"
-msgstr ""
+msgstr "Kode EPSG tidak valid: %(value)s"
 
 #: app/api/tiler.py:647 app/api/tiler.py:649
 #, python-format
 msgid "Invalid PROJ string: %(value)s"
-msgstr ""
+msgstr "String PROJ tidak valid: %(value)s"
 
 #: app/api/tiler.py:652
 msgid "Both formula and bands parameters are required"
-msgstr ""
+msgstr "Parameter formula dan bands keduanya wajib diisi"
 
 #: app/api/tiler.py:675
 #, python-format
 msgid "Invalid rescale value: %(value)s"
-msgstr ""
+msgstr "Nilai rescale tidak valid: %(value)s"
 
 #: app/api/tiler.py:683
 #, python-format
 msgid "Invalid hillshade value: %(value)s"
-msgstr ""
+msgstr "Nilai hillshade tidak valid: %(value)s"
 
 #: app/api/tiler.py:694
 msgid "Cannot use epsg on non-georeferenced dataset"
 msgstr ""
+"Tidak dapat menggunakan epsg pada dataset yang tidak memiliki georeferensi"
 
 #: app/models/plugin.py:5
 msgid "Plugin name"
-msgstr ""
+msgstr "Nama plugin"
 
 #: app/models/plugin.py:5 app/models/preset.py:10 app/models/project.py:28
 #: app/models/task.py:242 app/models/theme.py:18
@@ -429,7 +474,7 @@ msgstr "Nama"
 
 #: app/models/plugin.py:6
 msgid "Whether this plugin is turned on."
-msgstr ""
+msgstr "Apakah plugin ini diaktifkan."
 
 #: app/models/plugin.py:6
 msgid "Enabled"
@@ -437,55 +482,56 @@ msgstr "Diaktifkan"
 
 #: app/models/plugin.py:20
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #: app/models/plugin.py:21 app/templates/app/logged_in_base.html:122
 msgid "Plugins"
-msgstr ""
+msgstr "Plugin-plugin"
 
 #: app/models/plugin_datum.py:7
 msgid "Setting key"
-msgstr ""
+msgstr "Kunci pengaturan"
 
 #: app/models/plugin_datum.py:7
 msgid "Key"
-msgstr ""
+msgstr "Kunci"
 
 #: app/models/plugin_datum.py:8
 msgid "The user this setting belongs to. If NULL, the setting is global."
 msgstr ""
+"Pengguna yang memiliki pengaturan ini. Jika NULL, pengaturan bersifat global."
 
 #: app/models/plugin_datum.py:8 app/templates/app/admin/object_history.html:23
 msgid "User"
-msgstr ""
+msgstr "Pengguna"
 
 #: app/models/plugin_datum.py:9
 msgid "Integer value"
-msgstr ""
+msgstr "Nilai bilangan bulat"
 
 #: app/models/plugin_datum.py:10
 msgid "Float value"
-msgstr ""
+msgstr "Nilai pecahan"
 
 #: app/models/plugin_datum.py:11
 msgid "Bool value"
-msgstr ""
+msgstr "Nilai boolean"
 
 #: app/models/plugin_datum.py:12
 msgid "String value"
-msgstr ""
+msgstr "Nilai string"
 
 #: app/models/plugin_datum.py:13
 msgid "JSON value"
-msgstr ""
+msgstr "Nilai JSON"
 
 #: app/models/plugin_datum.py:19 app/models/plugin_datum.py:20
 msgid "Plugin Datum"
-msgstr ""
+msgstr "Datum Plugin"
 
 #: app/models/preset.py:9
 msgid "The person who owns this preset"
-msgstr ""
+msgstr "Orang yang memiliki preset ini"
 
 #: app/models/preset.py:9 app/models/project.py:27 app/models/redirect.py:9
 msgid "Owner"
@@ -493,11 +539,12 @@ msgstr "Pemilik"
 
 #: app/models/preset.py:10
 msgid "A label used to describe the preset"
-msgstr ""
+msgstr "Label yang digunakan untuk menjelaskan preset"
 
 #: app/models/preset.py:11
 msgid "Options that define this preset (same format as in a Task's options)."
 msgstr ""
+"Opsi yang mendefinisikan preset ini (formatnya sama seperti pada opsi Tugas)."
 
 #: app/models/preset.py:11 app/models/task.py:248
 msgid "Options"
@@ -505,57 +552,59 @@ msgstr "Opsi"
 
 #: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:256
 msgid "Creation date"
-msgstr ""
+msgstr "Tanggal pembuatan"
 
 #: app/models/preset.py:13 app/models/project.py:30 app/models/task.py:256
 msgid "Created at"
-msgstr ""
+msgstr "Dibuat pada"
 
 #: app/models/preset.py:14
 msgid ""
 "Whether this preset is available to every user in the system or just to its "
 "owner."
 msgstr ""
+"Apakah preset ini tersedia untuk setiap pengguna dalam sistem atau hanya "
+"untuk pemiliknya."
 
 #: app/models/preset.py:14
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
 #: app/models/preset.py:20
 msgid "Preset"
-msgstr ""
+msgstr "Preset"
 
 #: app/models/preset.py:21
 msgid "Presets"
-msgstr ""
+msgstr "Preset-preset"
 
 #: app/models/profile.py:15
 msgid "Maximum disk quota in megabytes"
-msgstr ""
+msgstr "Kuota disk maksimum dalam megabita"
 
 #: app/models/profile.py:15
 msgid "Quota"
-msgstr ""
+msgstr "Kuota"
 
 #: app/models/profile.py:16
 msgid "Cluster Id this user is assigned to"
-msgstr ""
+msgstr "Id klaster yang ditetapkan untuk pengguna ini"
 
 #: app/models/profile.py:16
 msgid "Cluster Id"
-msgstr ""
+msgstr "Id Klaster"
 
 #: app/models/project.py:27
 msgid "The person who created the project"
-msgstr ""
+msgstr "Orang yang membuat proyek"
 
 #: app/models/project.py:28
 msgid "A label used to describe the project"
-msgstr ""
+msgstr "Label yang digunakan untuk menjelaskan proyek"
 
 #: app/models/project.py:29
 msgid "More in-depth description of the project"
-msgstr ""
+msgstr "Deskripsi proyek yang lebih mendalam"
 
 #: app/models/project.py:31
 msgid ""
@@ -563,16 +612,17 @@ msgid ""
 "running tasks need to wait for tasks to be properly cleaned up before they "
 "can be deleted."
 msgstr ""
+"Apakah proyek ini telah ditandai untuk dihapus. Proyek yang memiliki tugas "
+"yang sedang berjalan perlu menunggu hingga tugas dibersihkan dengan benar "
+"sebelum dapat dihapus."
 
 #: app/models/project.py:31
 msgid "Deleting"
-msgstr ""
+msgstr "Sedang dihapus"
 
 #: app/models/project.py:32
-#, fuzzy
-#| msgid "Project"
 msgid "Project tags"
-msgstr "Proyek"
+msgstr "Tag proyek"
 
 #: app/models/project.py:32 app/models/task.py:282
 msgid "Tags"
@@ -580,32 +630,32 @@ msgstr "Tag"
 
 #: app/models/project.py:33
 msgid "A flag indicating whether this project is available to the public"
-msgstr ""
+msgstr "Penanda yang menunjukkan apakah proyek ini tersedia untuk publik"
 
 #: app/models/project.py:33 app/models/task.py:259
 msgid "Public"
-msgstr ""
+msgstr "Publik"
 
 #: app/models/project.py:34
 msgid "A flag indicating whether this public project can be edited"
-msgstr ""
+msgstr "Penanda yang menunjukkan apakah proyek publik ini dapat diedit"
 
 #: app/models/project.py:34 app/models/task.py:260
 msgid "Public Edit"
-msgstr ""
+msgstr "Edit Publik"
 
 #: app/models/project.py:35 app/models/redirect.py:7
 msgid "Public identifier of the project"
-msgstr ""
+msgstr "Pengenal publik proyek"
 
 #: app/models/project.py:35 app/models/redirect.py:7
 msgid "Public Id"
-msgstr ""
+msgstr "Id Publik"
 
 #: app/models/project.py:109 app/models/task.py:467
 #, python-format
 msgid "Copy of %(task)s"
-msgstr ""
+msgstr "Salinan dari %(task)s"
 
 #: app/models/project.py:142 app/models/task.py:241
 msgid "Project"
@@ -613,114 +663,116 @@ msgstr "Proyek"
 
 #: app/models/project.py:143 coreplugins/projects-charts/templates/index.html:7
 msgid "Projects"
-msgstr ""
+msgstr "Proyek-proyek"
 
 #: app/models/redirect.py:6
-#, fuzzy
-#| msgid "Project"
 msgid "Project Id"
-msgstr "Proyek"
+msgstr "Id Proyek"
 
 #: app/models/redirect.py:8
 msgid "Task Id"
-msgstr ""
+msgstr "Id Tugas"
 
 #: app/models/redirect.py:9
 msgid "The person associated with this redirect"
-msgstr ""
+msgstr "Orang yang terkait dengan pengalihan ini"
 
 #: app/models/redirect.py:23
 msgid "Redirect"
-msgstr ""
+msgstr "Pengalihan"
 
 #: app/models/redirect.py:24
 msgid "Redirects"
-msgstr ""
+msgstr "Pengalihan-pengalihan"
 
 #: app/models/setting.py:20
 msgid "The name of your application"
-msgstr ""
+msgstr "Nama aplikasi Anda"
 
 #: app/models/setting.py:20
 msgid "App name"
-msgstr ""
+msgstr "Nama aplikasi"
 
 #: app/models/setting.py:21
 msgid "A 512x512 logo of your application (.png or .jpeg)"
-msgstr ""
+msgstr "Logo aplikasi Anda berukuran 512x512 (.png atau .jpeg)"
 
 #: app/models/setting.py:21
 msgid "App logo"
-msgstr ""
+msgstr "Logo aplikasi"
 
 #: app/models/setting.py:31
 msgid "The name of your organization"
-msgstr ""
+msgstr "Nama organisasi Anda"
 
 #: app/models/setting.py:31
 msgid "Organization name"
-msgstr ""
+msgstr "Nama organisasi"
 
 #: app/models/setting.py:32
 msgid "The website URL of your organization"
-msgstr ""
+msgstr "URL situs web organisasi Anda"
 
 #: app/models/setting.py:32
 msgid "Organization website"
-msgstr ""
+msgstr "Situs web organisasi"
 
 #: app/models/setting.py:33 app/models/theme.py:50 app/models/theme.py:51
 #: app/templates/app/logged_in_base.html:119
 msgid "Theme"
-msgstr ""
+msgstr "Tema"
 
 #: app/models/setting.py:34
 msgid "Active theme"
-msgstr ""
+msgstr "Tema aktif"
 
 #: app/models/setting.py:73 app/templates/app/logged_in_base.html:125
 msgid "Application"
-msgstr ""
+msgstr "Aplikasi"
 
 #: app/models/setting.py:76 app/models/setting.py:77
 msgid "Settings"
-msgstr ""
+msgstr "Pengaturan"
 
 #: app/models/task.py:238
 msgid "Id"
-msgstr ""
+msgstr "Id"
 
 #: app/models/task.py:240
 msgid "Identifier of the task (as returned by NodeODM API)"
-msgstr ""
+msgstr "Pengenal tugas (sebagaimana dikembalikan oleh API NodeODM)"
 
 #: app/models/task.py:240
 msgid "UUID"
-msgstr ""
+msgstr "UUID"
 
 #: app/models/task.py:241
 msgid "Project that this task belongs to"
-msgstr ""
+msgstr "Proyek tempat tugas ini berada"
 
 #: app/models/task.py:242
 msgid "A label for the task"
-msgstr ""
+msgstr "Label untuk tugas"
 
 #: app/models/task.py:243
 msgid ""
 "Number of milliseconds that elapsed since the beginning of this task (-1 "
 "indicates that no information is available)"
 msgstr ""
+"Jumlah milidetik yang telah berlalu sejak awal tugas ini (-1 menunjukkan "
+"bahwa tidak ada informasi yang tersedia)"
 
 #: app/models/task.py:243
 msgid "Processing Time"
-msgstr ""
+msgstr "Waktu Pemrosesan"
 
 #: app/models/task.py:244
 msgid ""
 "Processing node assigned to this task (or null if this task has not been "
 "associated yet)"
 msgstr ""
+"Node pemrosesan yang ditetapkan untuk tugas ini (atau null jika tugas ini "
+"belum dikaitkan)"
 
 #: app/models/task.py:244 app/views/app.py:138 nodeodm/models.py:37
 msgid "Processing Node"
@@ -731,80 +783,84 @@ msgid ""
 "A flag indicating whether this task should be automatically assigned a "
 "processing node"
 msgstr ""
+"Penanda yang menunjukkan apakah tugas ini harus secara otomatis ditetapkan "
+"ke node pemrosesan"
 
 #: app/models/task.py:245
 msgid "Auto Processing Node"
-msgstr ""
+msgstr "Node Pemrosesan Otomatis"
 
 #: app/models/task.py:246
 msgid "Current status of the task"
-msgstr ""
+msgstr "Status tugas saat ini"
 
 #: app/models/task.py:246
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: app/models/task.py:247
 msgid "The last processing error received"
-msgstr ""
+msgstr "Kesalahan pemrosesan terakhir yang diterima"
 
 #: app/models/task.py:247
 msgid "Last Error"
-msgstr ""
+msgstr "Kesalahan Terakhir"
 
 #: app/models/task.py:248
 msgid "Options that are being used to process this task"
-msgstr ""
+msgstr "Opsi yang sedang digunakan untuk memproses tugas ini"
 
 #: app/models/task.py:249
 msgid "List of available assets to download"
-msgstr ""
+msgstr "Daftar aset yang tersedia untuk diunduh"
 
 #: app/models/task.py:249
 msgid "Available Assets"
-msgstr ""
+msgstr "Aset Tersedia"
 
 #: app/models/task.py:251
 msgid "Extent of the orthophoto"
-msgstr ""
+msgstr "Cakupan orthophoto"
 
 #: app/models/task.py:251
 msgid "Orthophoto Extent"
-msgstr ""
+msgstr "Cakupan Orthophoto"
 
 #: app/models/task.py:252
 msgid "Extent of the DSM"
-msgstr ""
+msgstr "Cakupan DSM"
 
 #: app/models/task.py:252
 msgid "DSM Extent"
-msgstr ""
+msgstr "Cakupan DSM"
 
 #: app/models/task.py:253
 msgid "Extent of the DTM"
-msgstr ""
+msgstr "Cakupan DTM"
 
 #: app/models/task.py:253
 msgid "DTM Extent"
-msgstr ""
+msgstr "Cakupan DTM"
 
 #: app/models/task.py:257
 msgid ""
 "A requested action to be performed on the task. The selected action will be "
 "performed by the worker at the next iteration."
 msgstr ""
+"Tindakan yang diminta untuk dilakukan pada tugas. Tindakan yang dipilih akan "
+"dilakukan oleh worker pada iterasi berikutnya."
 
 #: app/models/task.py:257
 msgid "Pending Action"
-msgstr ""
+msgstr "Tindakan Tertunda"
 
 #: app/models/task.py:259
 msgid "A flag indicating whether this task is available to the public"
-msgstr ""
+msgstr "Penanda yang menunjukkan apakah tugas ini tersedia untuk publik"
 
 #: app/models/task.py:260
 msgid "A flag indicating whether this public task can be edited"
-msgstr ""
+msgstr "Penanda yang menunjukkan apakah tugas publik ini dapat diedit"
 
 #: app/models/task.py:262
 msgid ""
@@ -812,101 +868,116 @@ msgid ""
 "task have been / will be resized to the size specified here before "
 "processing."
 msgstr ""
+"Jika diatur ke nilai selain -1, menunjukkan bahwa gambar untuk tugas ini "
+"telah / akan diubah ukurannya ke ukuran yang ditentukan di sini sebelum "
+"pemrosesan."
 
 #: app/models/task.py:262
 msgid "Resize To"
-msgstr ""
+msgstr "Ubah Ukuran Menjadi"
 
 #: app/models/task.py:265
 msgid ""
 "Value between 0 and 1 indicating the upload progress of this task's files to "
 "the processing node"
 msgstr ""
+"Nilai antara 0 dan 1 yang menunjukkan progres pengunggahan file tugas ini ke "
+"node pemrosesan"
 
 #: app/models/task.py:266
 msgid "Upload Progress"
-msgstr ""
+msgstr "Progres Unggah"
 
 #: app/models/task.py:269
 msgid ""
 "Value between 0 and 1 indicating the resize progress of this task's images"
 msgstr ""
+"Nilai antara 0 dan 1 yang menunjukkan progres pengubahan ukuran gambar tugas "
+"ini"
 
 #: app/models/task.py:270
 msgid "Resize Progress"
-msgstr ""
+msgstr "Progres Ubah Ukuran"
 
 #: app/models/task.py:273
 msgid ""
 "Value between 0 and 1 indicating the running progress (estimated) of this "
 "task"
 msgstr ""
+"Nilai antara 0 dan 1 yang menunjukkan progres berjalan (perkiraan) dari "
+"tugas ini"
 
 #: app/models/task.py:274
 msgid "Running Progress"
-msgstr ""
+msgstr "Progres Berjalan"
 
 #: app/models/task.py:276
 msgid "URL this task is imported from (only for imported tasks)"
-msgstr ""
+msgstr "URL asal impor tugas ini (hanya untuk tugas yang diimpor)"
 
 #: app/models/task.py:276
 msgid "Import URL"
-msgstr ""
+msgstr "URL Impor"
 
 #: app/models/task.py:277
 msgid "Number of images associated with this task"
-msgstr ""
+msgstr "Jumlah gambar yang terkait dengan tugas ini"
 
 #: app/models/task.py:277
 msgid "Images Count"
-msgstr ""
+msgstr "Jumlah Gambar"
 
 #: app/models/task.py:278
 msgid ""
 "A flag indicating whether this task is currently waiting for information or "
 "files to be uploaded before being considered for processing."
 msgstr ""
+"Penanda yang menunjukkan apakah tugas ini saat ini sedang menunggu informasi "
+"atau file untuk diunggah sebelum dipertimbangkan untuk diproses."
 
 #: app/models/task.py:278
 msgid "Partial"
-msgstr ""
+msgstr "Parsial"
 
 #: app/models/task.py:279
 msgid ""
 "Serialized potree scene information used to save/load measurements and "
 "camera view angle"
 msgstr ""
+"Informasi scene potree yang diserialkan yang digunakan untuk menyimpan/"
+"memuat pengukuran dan sudut pandang kamera"
 
 #: app/models/task.py:279
 msgid "Potree Scene"
-msgstr ""
+msgstr "Scene Potree"
 
 #: app/models/task.py:280
 msgid "EPSG code of the dataset (if georeferenced)"
-msgstr ""
+msgstr "Kode EPSG dari dataset (jika memiliki georeferensi)"
 
 #: app/models/task.py:281
 msgid ""
 "WKT definition of the dataset (if georeferenced and EPSG code is not "
 "available)"
 msgstr ""
+"Definisi WKT dari dataset (jika memiliki georeferensi dan kode EPSG tidak "
+"tersedia)"
 
 #: app/models/task.py:282
 msgid "Task tags"
-msgstr ""
+msgstr "Tag tugas"
 
 #: app/models/task.py:283
 msgid "List of orthophoto bands"
-msgstr ""
+msgstr "Daftar band orthophoto"
 
 #: app/models/task.py:283
 msgid "Orthophoto Bands"
-msgstr ""
+msgstr "Band Orthophoto"
 
 #: app/models/task.py:284
 msgid "Size of the task on disk in megabytes"
-msgstr ""
+msgstr "Ukuran tugas di disk dalam megabita"
 
 #: app/models/task.py:284
 msgid "Size"
@@ -914,7 +985,7 @@ msgstr "Ukuran"
 
 #: app/models/task.py:285
 msgid "A flag indicating whether this task was compacted"
-msgstr ""
+msgstr "Penanda yang menunjukkan apakah tugas ini dipadatkan"
 
 #: app/models/task.py:285
 msgid "Compact"
@@ -922,144 +993,144 @@ msgstr "Kompak"
 
 #: app/models/task.py:286
 msgid "Polygon defining the crop area of this task"
-msgstr ""
+msgstr "Poligon yang mendefinisikan area crop dari tugas ini"
 
 #: app/models/task.py:286
 msgid "Crop Polygon"
-msgstr ""
+msgstr "Poligon Crop"
 
 #: app/models/task.py:290
 msgid "Task"
-msgstr ""
+msgstr "Tugas"
 
 #: app/models/task.py:291
 msgid "Tasks"
-msgstr ""
+msgstr "Tugas-tugas"
 
 #: app/models/task.py:302
 msgid "unnamed"
-msgstr ""
+msgstr "tanpa nama"
 
 #: app/models/task.py:599
 msgid "Importing assets..."
-msgstr ""
+msgstr "Mengimpor aset..."
 
 #: app/models/task.py:654 app/models/task.py:932
 msgid "Invalid zip file"
-msgstr ""
+msgstr "File zip tidak valid"
 
 #: app/models/task.py:656
 msgid "Unsupported compression method"
-msgstr ""
+msgstr "Metode kompresi tidak didukung"
 
 #: app/models/task.py:750
 #, python-format
 msgid "Connection error: %(error)s"
-msgstr ""
+msgstr "Kesalahan koneksi: %(error)s"
 
 #: app/models/task.py:830
 msgid "Cannot restart a task that has no processing node"
-msgstr ""
+msgstr "Tidak dapat memulai ulang tugas yang tidak memiliki node pemrosesan"
 
 #: app/models/task.py:1042
 msgid "Done!"
-msgstr ""
+msgstr "Selesai!"
 
 #: app/models/theme.py:18
 msgid "Name of theme"
-msgstr ""
+msgstr "Nama tema"
 
 #: app/models/theme.py:21
 msgid "Most text, icons, and borders."
-msgstr ""
+msgstr "Sebagian besar teks, ikon, dan border."
 
 #: app/models/theme.py:21
 msgid "Primary"
-msgstr ""
+msgstr "Utama"
 
 #: app/models/theme.py:22
 msgid "The main background color, and text color of some buttons."
-msgstr ""
+msgstr "Warna latar belakang utama, dan warna teks beberapa tombol."
 
 #: app/models/theme.py:22
 msgid "Secondary"
-msgstr ""
+msgstr "Sekunder"
 
 #: app/models/theme.py:23
 msgid "Navigation links."
-msgstr ""
+msgstr "Tautan navigasi."
 
 #: app/models/theme.py:23
 msgid "Tertiary"
-msgstr ""
+msgstr "Tersier"
 
 #: app/models/theme.py:25
 msgid "Primary button color."
-msgstr ""
+msgstr "Warna tombol utama."
 
 #: app/models/theme.py:25
 msgid "Button Primary"
-msgstr ""
+msgstr "Tombol Utama"
 
 #: app/models/theme.py:26
 msgid "Default button color."
-msgstr ""
+msgstr "Warna tombol default."
 
 #: app/models/theme.py:26
 msgid "Button Default"
-msgstr ""
+msgstr "Tombol Default"
 
 #: app/models/theme.py:27
 msgid "Delete button color."
-msgstr ""
+msgstr "Warna tombol hapus."
 
 #: app/models/theme.py:27
 msgid "Button Danger"
-msgstr ""
+msgstr "Tombol Bahaya"
 
 #: app/models/theme.py:29
 msgid "Background color of the site's header."
-msgstr ""
+msgstr "Warna latar belakang header situs."
 
 #: app/models/theme.py:29
 msgid "Header Background"
-msgstr ""
+msgstr "Latar Belakang Header"
 
 #: app/models/theme.py:30
 msgid "Text and icons in the site's header."
-msgstr ""
+msgstr "Teks dan ikon di header situs."
 
 #: app/models/theme.py:30
 msgid "Header Primary"
-msgstr ""
+msgstr "Header Utama"
 
 #: app/models/theme.py:32
 msgid "The color of most borders."
-msgstr ""
+msgstr "Warna sebagian besar border."
 
 #: app/models/theme.py:32
 msgid "Border"
-msgstr ""
+msgstr "Border"
 
 #: app/models/theme.py:33
 msgid "The background color of panels and some borders."
-msgstr ""
+msgstr "Warna latar belakang panel dan beberapa border."
 
 #: app/models/theme.py:33
 msgid "Highlight"
-msgstr ""
+msgstr "Sorotan"
 
 #: app/models/theme.py:35
 msgid "The border color of warning dialogs."
-msgstr ""
+msgstr "Warna border dialog peringatan."
 
 #: app/models/theme.py:35
 msgid "Dialog Warning"
-msgstr ""
+msgstr "Dialog Peringatan"
 
 #: app/models/theme.py:37
 msgid "The background color of failed notifications."
-msgstr ""
+msgstr "Warna latar belakang notifikasi kegagalan."
 
 #: app/models/theme.py:37
 msgid "Failed"
@@ -1067,27 +1138,27 @@ msgstr "Gagal"
 
 #: app/models/theme.py:38
 msgid "The background color of success notifications."
-msgstr ""
+msgstr "Warna latar belakang notifikasi keberhasilan."
 
 #: app/models/theme.py:38
 msgid "Success"
-msgstr ""
+msgstr "Keberhasilan"
 
 #: app/templates/app/404.html:6
 msgid "404 Page Not Found"
-msgstr ""
+msgstr "404 Halaman Tidak Ditemukan"
 
 #: app/templates/app/404.html:7
 msgid "Are you sure the address is correct?"
-msgstr ""
+msgstr "Apakah Anda yakin alamatnya benar?"
 
 #: app/templates/app/500.html:5
 msgid "500 Internal Server Error"
-msgstr ""
+msgstr "500 Kesalahan Server Internal"
 
 #: app/templates/app/500.html:6
 msgid "Something happened. The server logs contain more information."
-msgstr ""
+msgstr "Sesuatu telah terjadi. Log server berisi informasi lebih lanjut."
 
 #: app/templates/app/about.html:13
 #, python-format
@@ -1098,14 +1169,20 @@ msgid ""
 "option) any later version. See %(link_start)sthe GNU Affero General Public "
 "License%(link_end)s for more details."
 msgstr ""
+"Program ini adalah perangkat lunak bebas: Anda dapat mendistribusikannya "
+"kembali dan/atau memodifikasinya berdasarkan ketentuan GNU Affero General "
+"Public License sebagaimana diterbitkan oleh Free Software Foundation, baik "
+"versi 3 dari Lisensi tersebut, atau (sesuai pilihan Anda) versi yang lebih "
+"baru. Lihat %(link_start)sGNU Affero General Public License%(link_end)s "
+"untuk detail lebih lanjut."
 
 #: app/templates/app/admin/404.html:4 app/templates/app/admin/404.html:8
 msgid "Page not found"
-msgstr ""
+msgstr "Halaman tidak ditemukan"
 
 #: app/templates/app/admin/404.html:10
 msgid "We're sorry, but the requested page could not be found."
-msgstr ""
+msgstr "Kami mohon maaf, tetapi halaman yang diminta tidak dapat ditemukan."
 
 #: app/templates/app/admin/500.html:6 app/templates/app/admin/app_index.html:9
 #: app/templates/app/admin/auth/user/change_password.html:13
@@ -1117,105 +1194,110 @@ msgstr ""
 #: app/templates/app/admin/invalid_setup.html:6
 #: app/templates/app/admin/object_history.html:6
 msgid "Home"
-msgstr ""
+msgstr "Beranda"
 
 #: app/templates/app/admin/500.html:7
 msgid "Server error"
-msgstr ""
+msgstr "Kesalahan server"
 
 #: app/templates/app/admin/500.html:11
 msgid "Server error (500)"
-msgstr ""
+msgstr "Kesalahan server (500)"
 
 #: app/templates/app/admin/500.html:14
 msgid "Server Error (500)"
-msgstr ""
+msgstr "Kesalahan Server (500)"
 
 #: app/templates/app/admin/500.html:15
 msgid ""
 "There's been an error. It's been reported to the site administrators via "
 "email and should be fixed shortly. Thanks for your patience."
 msgstr ""
+"Terjadi kesalahan. Kesalahan tersebut telah dilaporkan kepada administrator "
+"situs melalui email dan seharusnya akan segera diperbaiki. Terima kasih atas "
+"kesabaran Anda."
 
 #: app/templates/app/admin/actions.html:4
 msgid "Run the selected action"
-msgstr ""
+msgstr "Jalankan tindakan yang dipilih"
 
 #: app/templates/app/admin/actions.html:4
 msgid "Go"
-msgstr ""
+msgstr "Jalankan"
 
 #: app/templates/app/admin/actions.html:10
 msgid "Click here to select the objects across all pages"
-msgstr ""
+msgstr "Klik di sini untuk memilih objek di semua halaman"
 
 #: app/templates/app/admin/actions.html:10
 #, python-format
 msgid "Select all %(total_count)s %(module_name)s"
-msgstr ""
+msgstr "Pilih semua %(total_count)s %(module_name)s"
 
 #: app/templates/app/admin/actions.html:12
 msgid "Clear selection"
-msgstr ""
+msgstr "Hapus pilihan"
 
 #: app/templates/app/admin/auth/user/add_form.html:6
 msgid ""
 "First, enter a username and password. Then, you'll be able to edit more user "
 "options."
 msgstr ""
+"Pertama, masukkan nama pengguna dan kata sandi. Setelah itu, Anda akan dapat "
+"mengedit lebih banyak opsi pengguna."
 
 #: app/templates/app/admin/auth/user/add_form.html:8
 msgid "Enter a username and password."
-msgstr ""
+msgstr "Masukkan nama pengguna dan kata sandi."
 
 #: app/templates/app/admin/auth/user/change_password.html:17
 #: app/templates/app/admin/auth/user/change_password.html:54
 msgid "Change password"
-msgstr ""
+msgstr "Ubah kata sandi"
 
 #: app/templates/app/admin/auth/user/change_password.html:27
 #: app/templates/app/admin/change_form.html:47
 #: app/templates/app/admin/change_list.html:58
 #: app/templates/app/admin/login.html:21
 msgid "Please correct the error below."
-msgstr ""
+msgstr "Harap perbaiki kesalahan di bawah ini."
 
 #: app/templates/app/admin/auth/user/change_password.html:27
 #: app/templates/app/admin/change_form.html:47
 #: app/templates/app/admin/change_list.html:58
 #: app/templates/app/admin/login.html:21
 msgid "Please correct the errors below."
-msgstr ""
+msgstr "Harap perbaiki kesalahan-kesalahan di bawah ini."
 
 #: app/templates/app/admin/auth/user/change_password.html:31
 #, python-format
 msgid "Enter a new password for the user <strong>%(username)s</strong>."
-msgstr ""
+msgstr "Masukkan kata sandi baru untuk pengguna <strong>%(username)s</strong>."
 
 #: app/templates/app/admin/base_site.html:3
 msgid "Django site admin"
-msgstr ""
+msgstr "Admin situs Django"
 
 #: app/templates/app/admin/base_site.html:6
 msgid "Django administration"
-msgstr ""
+msgstr "Administrasi Django"
 
 #: app/templates/app/admin/change_form.html:21
 #: app/templates/app/admin/change_list.html:49
 #, python-format
 msgid "Add %(name)s"
-msgstr ""
+msgstr "Tambah %(name)s"
 
 #: app/templates/app/admin/change_form.html:33
 #: app/templates/app/admin/object_history.html:10
 msgid "History"
-msgstr ""
+msgstr "Riwayat"
 
 #: app/templates/app/admin/change_form.html:35
 #: app/templates/app/admin/edit_inline/stacked.html:14
 #: app/templates/app/admin/edit_inline/tabular.html:36
 msgid "View on site"
-msgstr ""
+msgstr "Lihat di situs"
 
 #: app/templates/app/admin/change_list.html:69
 msgid "Filter"
@@ -1223,24 +1305,24 @@ msgstr "Filter"
 
 #: app/templates/app/admin/change_list_plugin.html:24
 msgid "Load Plugin (.zip)"
-msgstr ""
+msgstr "Muat Plugin (.zip)"
 
 #: app/templates/app/admin/change_list_plugin.html:28
 msgid "Manage Plugins"
-msgstr ""
+msgstr "Kelola Plugin"
 
 #: app/templates/app/admin/change_list_results.html:17
 msgid "Remove from sorting"
-msgstr ""
+msgstr "Hapus dari pengurutan"
 
 #: app/templates/app/admin/change_list_results.html:18
 #, python-format
 msgid "Sorting priority: %(priority_number)s"
-msgstr ""
+msgstr "Prioritas pengurutan: %(priority_number)s"
 
 #: app/templates/app/admin/change_list_results.html:19
 msgid "Toggle sorting"
-msgstr ""
+msgstr "Alihkan pengurutan"
 
 #: app/templates/app/admin/delete_confirmation.html:17
 #: app/templates/app/admin/related_widget_wrapper.html:23
@@ -1256,6 +1338,9 @@ msgid ""
 "related objects, but your account doesn't have permission to delete the "
 "following types of objects:"
 msgstr ""
+"Menghapus %(object_name)s '%(escaped_object)s' akan mengakibatkan "
+"penghapusan objek terkait, tetapi akun Anda tidak memiliki izin untuk "
+"menghapus jenis objek berikut:"
 
 #: app/templates/app/admin/delete_confirmation.html:30
 #, python-format
@@ -1263,6 +1348,8 @@ msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
 "following protected related objects:"
 msgstr ""
+"Menghapus %(object_name)s '%(escaped_object)s' akan memerlukan penghapusan "
+"objek terkait terlindungi berikut:"
 
 #: app/templates/app/admin/delete_confirmation.html:37
 #, python-format
@@ -1270,25 +1357,27 @@ msgid ""
 "Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
 "All of the following related items will be deleted:"
 msgstr ""
+"Apakah Anda yakin ingin menghapus %(object_name)s \"%(escaped_object)s\"? "
+"Semua item terkait berikut akan dihapus:"
 
 #: app/templates/app/admin/delete_confirmation.html:39
 #: app/templates/app/admin/delete_selected_confirmation.html:38
 msgid "Objects"
-msgstr ""
+msgstr "Objek"
 
 #: app/templates/app/admin/delete_confirmation.html:46
 #: app/templates/app/admin/delete_selected_confirmation.html:49
 msgid "Yes, I'm sure"
-msgstr ""
+msgstr "Ya, saya yakin"
 
 #: app/templates/app/admin/delete_confirmation.html:47
 #: app/templates/app/admin/delete_selected_confirmation.html:50
 msgid "No, take me back"
-msgstr ""
+msgstr "Tidak, bawa saya kembali"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:16
 msgid "Delete multiple objects"
-msgstr ""
+msgstr "Hapus beberapa objek"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:22
 #, python-format
@@ -1297,6 +1386,9 @@ msgid ""
 "objects, but your account doesn't have permission to delete the following "
 "types of objects:"
 msgstr ""
+"Menghapus %(objects_name)s yang dipilih akan mengakibatkan penghapusan objek "
+"terkait, tetapi akun Anda tidak memiliki izin untuk menghapus jenis objek "
+"berikut:"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:29
 #, python-format
@@ -1304,6 +1396,8 @@ msgid ""
 "Deleting the selected %(objects_name)s would require deleting the following "
 "protected related objects:"
 msgstr ""
+"Menghapus %(objects_name)s yang dipilih akan memerlukan penghapusan objek "
+"terkait terlindungi berikut:"
 
 #: app/templates/app/admin/delete_selected_confirmation.html:36
 #, python-format
@@ -1311,56 +1405,58 @@ msgid ""
 "Are you sure you want to delete the selected %(objects_name)s? All of the "
 "following objects and their related items will be deleted:"
 msgstr ""
+"Apakah Anda yakin ingin menghapus %(objects_name)s yang dipilih? Semua objek "
+"berikut beserta item terkaitnya akan dihapus:"
 
 #: app/templates/app/admin/edit_inline/stacked.html:12
 #: app/templates/app/admin/edit_inline/tabular.html:34
 #: app/templates/app/admin/index.html:37
 #: app/templates/app/admin/related_widget_wrapper.html:9
 msgid "Change"
-msgstr ""
+msgstr "Ubah"
 
 #: app/templates/app/admin/edit_inline/tabular.html:20
 msgid "Delete?"
-msgstr ""
+msgstr "Hapus?"
 
 #: app/templates/app/admin/filter.html:2
 #, python-format
 msgid " By %(filter_title)s "
-msgstr ""
+msgstr " Berdasarkan %(filter_title)s "
 
 #: app/templates/app/admin/includes/object_delete_summary.html:2
 msgid "Summary"
-msgstr ""
+msgstr "Ringkasan"
 
 #: app/templates/app/admin/index.html:20
 #, python-format
 msgid "Models in the %(name)s application"
-msgstr ""
+msgstr "Model dalam aplikasi %(name)s"
 
 #: app/templates/app/admin/index.html:31
 #: app/templates/app/admin/related_widget_wrapper.html:16
 msgid "Add"
-msgstr ""
+msgstr "Tambah"
 
 #: app/templates/app/admin/index.html:47
 msgid "You don't have permission to edit anything."
-msgstr ""
+msgstr "Anda tidak memiliki izin untuk mengedit apa pun."
 
 #: app/templates/app/admin/index.html:55
 msgid "Recent actions"
-msgstr ""
+msgstr "Tindakan terbaru"
 
 #: app/templates/app/admin/index.html:56
 msgid "My actions"
-msgstr ""
+msgstr "Tindakan saya"
 
 #: app/templates/app/admin/index.html:60
 msgid "None available"
-msgstr ""
+msgstr "Tidak ada yang tersedia"
 
 #: app/templates/app/admin/index.html:74
 msgid "Unknown content"
-msgstr ""
+msgstr "Konten tidak diketahui"
 
 #: app/templates/app/admin/invalid_setup.html:12
 msgid ""
@@ -1368,6 +1464,9 @@ msgid ""
 "database tables have been created, and make sure the database is readable by "
 "the appropriate user."
 msgstr ""
+"Ada yang salah dengan instalasi basis data Anda. Pastikan tabel basis data "
+"yang sesuai telah dibuat, dan pastikan basis data dapat dibaca oleh pengguna "
+"yang sesuai."
 
 #: app/templates/app/admin/login.html:37
 #, python-format
@@ -1375,33 +1474,37 @@ msgid ""
 "You are authenticated as %(username)s, but are not authorized to access this "
 "page. Would you like to login to a different account?"
 msgstr ""
+"Anda diautentikasi sebagai %(username)s, tetapi tidak berwenang untuk "
+"mengakses halaman ini. Apakah Anda ingin masuk dengan akun yang berbeda?"
 
 #: app/templates/app/admin/login.html:57
 msgid "Forgotten your password or username?"
-msgstr ""
+msgstr "Lupa kata sandi atau nama pengguna Anda?"
 
 #: app/templates/app/admin/login.html:61
 msgid "Log in"
-msgstr ""
+msgstr "Masuk"
 
 #: app/templates/app/admin/object_history.html:22
 msgid "Date/time"
-msgstr ""
+msgstr "Tanggal/waktu"
 
 #: app/templates/app/admin/object_history.html:24
 msgid "Action"
-msgstr ""
+msgstr "Tindakan"
 
 #: app/templates/app/admin/object_history.html:38
 msgid ""
 "This object doesn't have a change history. It probably wasn't added via this "
 "admin site."
 msgstr ""
+"Objek ini tidak memiliki riwayat perubahan. Kemungkinan objek ini tidak "
+"ditambahkan melalui situs admin ini."
 
 #: app/templates/app/admin/pagination.html:10
 #: app/templates/app/admin/search_form.html:9
 msgid "Show all"
-msgstr ""
+msgstr "Tampilkan semua"
 
 #: app/templates/app/admin/pagination.html:11
 #: app/templates/app/admin/submit_line.html:3
@@ -1410,22 +1513,22 @@ msgstr "Simpan"
 
 #: app/templates/app/admin/popup_response.html:3
 msgid "Popup closing..."
-msgstr ""
+msgstr "Popup sedang ditutup..."
 
 #: app/templates/app/admin/related_widget_wrapper.html:8
 #, python-format
 msgid "Change selected %(model)s"
-msgstr ""
+msgstr "Ubah %(model)s yang dipilih"
 
 #: app/templates/app/admin/related_widget_wrapper.html:15
 #, python-format
 msgid "Add another %(model)s"
-msgstr ""
+msgstr "Tambahkan %(model)s lainnya"
 
 #: app/templates/app/admin/related_widget_wrapper.html:22
 #, python-format
 msgid "Delete selected %(model)s"
-msgstr ""
+msgstr "Hapus %(model)s yang dipilih"
 
 #: app/templates/app/admin/search_form.html:7
 msgid "Search"
@@ -1435,33 +1538,33 @@ msgstr "Cari"
 #, python-format
 msgid "%(counter)s result"
 msgid_plural "%(counter)s results"
-msgstr[0] ""
+msgstr[0] "%(counter)s hasil"
 
 #: app/templates/app/admin/search_form.html:9
 #, python-format
 msgid "%(full_result_count)s total"
-msgstr ""
+msgstr "%(full_result_count)s total"
 
 #: app/templates/app/admin/submit_line.html:8
 msgid "Save as new"
-msgstr ""
+msgstr "Simpan sebagai baru"
 
 #: app/templates/app/admin/submit_line.html:9
 msgid "Save and add another"
-msgstr ""
+msgstr "Simpan dan tambah lagi"
 
 #: app/templates/app/admin/submit_line.html:10
 msgid "Save and continue editing"
-msgstr ""
+msgstr "Simpan dan lanjutkan mengedit"
 
 #: app/templates/app/dashboard.html:15 app/templates/app/dashboard.html:28
 #: app/templates/app/welcome.html:227
 msgid "Welcome!"
-msgstr ""
+msgstr "Selamat datang!"
 
 #: app/templates/app/dashboard.html:16
 msgid "Add a Processing Node"
-msgstr ""
+msgstr "Tambahkan Node Pemrosesan"
 
 #: app/templates/app/dashboard.html:19
 #, python-format
@@ -1470,6 +1573,9 @@ msgid ""
 "running an instance of %(nodeodm_link)s or some other software implementing "
 "this %(api_link)s."
 msgstr ""
+"Untuk memulai, \"%(add_processing_node)s\". Node pemrosesan adalah komputer "
+"yang menjalankan instance %(nodeodm_link)s atau perangkat lunak lain yang "
+"mengimplementasikan %(api_link)s ini."
 
 #: app/templates/app/dashboard.html:29
 msgid "Select Images and GCP"
@@ -1481,20 +1587,27 @@ msgid ""
 "To create a map, press the \"%(upload_images)s\" button, or drag and drop "
 "some images into a project."
 msgstr ""
+"Untuk membuat peta, tekan tombol \"%(upload_images)s\", atau seret dan lepas "
+"beberapa gambar ke dalam proyek."
 
 #: app/templates/app/dashboard.html:35
 msgid "You need at least 5 images, but 16-32 is typically the minimum."
 msgstr ""
+"Anda memerlukan setidaknya 5 gambar, tetapi 16-32 biasanya merupakan jumlah "
+"minimum."
 
 #: app/templates/app/dashboard.html:36
 #, python-format
 msgid "Images must overlap by 65%% or more. Aim for 70-72%%"
 msgstr ""
+"Gambar harus saling tumpang tindih sebesar 65%% atau lebih. Targetkan 70-72%%"
 
 #: app/templates/app/dashboard.html:37
 #, python-format
 msgid "For great 3D, images must overlap by 83%%"
 msgstr ""
+"Untuk hasil 3D yang sangat baik, gambar harus saling tumpang tindih sebesar "
+"83%%"
 
 #: app/templates/app/dashboard.html:38
 #, python-format
@@ -1502,11 +1615,13 @@ msgid ""
 "A %(link_start)sGCP File%(link_end)s is optional, but can increase "
 "georeferencing accuracy"
 msgstr ""
+"%(link_start)sFile GCP%(link_end)s bersifat opsional, tetapi dapat "
+"meningkatkan akurasi georeferensi"
 
 #: app/templates/app/dev_tools.html:6 app/templates/app/logged_in_base.html:134
 #: app/views/dev.py:78
 msgid "Developer Tools"
-msgstr ""
+msgstr "Alat Pengembang"
 
 #: app/templates/app/dev_tools.html:9
 msgid "Close"
@@ -1514,43 +1629,46 @@ msgstr "Tutup"
 
 #: app/templates/app/dev_tools.html:14
 msgid "Current Locale:"
-msgstr ""
+msgstr "Lokal Saat Ini:"
 
 #: app/templates/app/dev_tools.html:15
 msgid ""
 "To change locale, modify your browser's locale settings, then refresh the "
 "page, or use the set locale button below."
 msgstr ""
+"Untuk mengubah lokal, ubah pengaturan lokal browser Anda, lalu segarkan "
+"halaman, atau gunakan tombol atur lokal di bawah."
 
 #: app/templates/app/dev_tools.html:18
 msgid "Translation Files (.zip):"
-msgstr ""
+msgstr "File Terjemahan (.zip):"
 
 #: app/templates/app/dev_tools.html:22
 msgid "Download and Replace Translation Files"
-msgstr ""
+msgstr "Unduh dan Ganti File Terjemahan"
 
 #: app/templates/app/dev_tools.html:27
 msgid "Set locale:"
-msgstr ""
+msgstr "Atur lokal:"
 
 #: app/templates/app/dev_tools.html:29
 msgid "Apply"
-msgstr ""
+msgstr "Terapkan"
 
 #: app/templates/app/dev_tools.html:33
 msgid "Executing… do not refresh the page! This could take a while."
 msgstr ""
+"Sedang mengeksekusi… jangan segarkan halaman! Ini mungkin memerlukan waktu."
 
 #: app/templates/app/logged_in_base.html:16
 #, python-format
 msgid "Hello, %(user)s!"
-msgstr ""
+msgstr "Halo, %(user)s!"
 
 #: app/templates/app/logged_in_base.html:30
 #, python-format
 msgid "%(used)s of %(total)s used"
-msgstr ""
+msgstr "%(used)s dari %(total)s telah digunakan"
 
 #: app/templates/app/logged_in_base.html:43
 msgid "Logout"
@@ -1562,27 +1680,27 @@ msgstr "Dasbor"
 
 #: app/templates/app/logged_in_base.html:83 nodeodm/models.py:38
 msgid "Processing Nodes"
-msgstr ""
+msgstr "Node Pemrosesan"
 
 #: app/templates/app/logged_in_base.html:93
 msgid "Add New"
-msgstr ""
+msgstr "Tambah Baru"
 
 #: app/templates/app/logged_in_base.html:103
 msgid "Administration"
-msgstr ""
+msgstr "Administrasi"
 
 #: app/templates/app/logged_in_base.html:108
 msgid "Accounts"
-msgstr ""
+msgstr "Akun"
 
 #: app/templates/app/logged_in_base.html:111
 msgid "Groups"
-msgstr ""
+msgstr "Grup"
 
 #: app/templates/app/logged_in_base.html:116
 msgid "Brand"
-msgstr ""
+msgstr "Merek"
 
 #: app/templates/app/logged_in_base.html:138 app/views/app.py:128
 msgid "About"
@@ -1590,48 +1708,48 @@ msgstr "Tentang"
 
 #: app/templates/app/processing_node.html:11 nodeodm/models.py:24
 msgid "Hostname"
-msgstr ""
+msgstr "Nama host"
 
 #: app/templates/app/processing_node.html:15 nodeodm/models.py:25
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: app/templates/app/processing_node.html:19 nodeodm/models.py:26
 msgid "API Version"
-msgstr ""
+msgstr "Versi API"
 
 #: app/templates/app/processing_node.html:23 nodeodm/models.py:34
 msgid "Engine"
-msgstr ""
+msgstr "Mesin"
 
 #: app/templates/app/processing_node.html:27 nodeodm/models.py:32
 msgid "Engine Version"
-msgstr ""
+msgstr "Versi Mesin"
 
 #: app/templates/app/processing_node.html:31 nodeodm/models.py:28
 msgid "Queue Count"
-msgstr ""
+msgstr "Jumlah Antrean"
 
 #: app/templates/app/processing_node.html:35
 msgid "Max Images Limit"
-msgstr ""
+msgstr "Batas Maksimum Gambar"
 
 #: app/templates/app/processing_node.html:39 nodeodm/models.py:33
 msgid "Label"
-msgstr ""
+msgstr "Label"
 
 #: app/templates/app/processing_node.html:43 nodeodm/models.py:27
 msgid "Last Refreshed"
-msgstr ""
+msgstr "Terakhir Disegarkan"
 
 #: app/templates/app/processing_node.html:44
 msgctxt "5 minutes ago"
 msgid "ago"
-msgstr ""
+msgstr "yang lalu"
 
 #: app/templates/app/processing_node.html:47
 msgid "Options (JSON)"
-msgstr ""
+msgstr "Opsi (JSON)"
 
 #: app/templates/app/processing_node.html:53
 msgid "Edit"
@@ -1644,6 +1762,9 @@ msgid ""
 "recent tasks will be automatically deleted %(when)s, until usage falls below "
 "%(total)s."
 msgstr ""
+"Kuota disk sedang terlampaui (%(used)s dari %(total)s telah digunakan). "
+"Tugas-tugas terbaru akan dihapus secara otomatis %(when)s, sampai penggunaan "
+"turun di bawah %(total)s."
 
 #: app/templates/app/quota.html:14
 #, python-format
@@ -1651,38 +1772,40 @@ msgid ""
 "Your account does not have a storage quota. Any new task will be "
 "automatically deleted %(when)s"
 msgstr ""
+"Akun Anda tidak memiliki kuota penyimpanan. Setiap tugas baru akan dihapus "
+"secara otomatis %(when)s"
 
 #: app/templates/app/welcome.html:224
 msgid "Uh oh! Could you please check the errors below?"
-msgstr ""
+msgstr "Ups! Bisakah Anda memeriksa kesalahan di bawah ini?"
 
 #: app/templates/app/welcome.html:228
 msgid ""
 "Before we get started, we need to create an administrator account for you:"
-msgstr ""
+msgstr "Sebelum kita memulai, kami perlu membuat akun administrator untuk Anda:"
 
 #: app/templates/app/welcome.html:237
 msgid "Create Account"
-msgstr ""
+msgstr "Buat Akun"
 
 #: app/templatetags/settings.py:57
 #, python-format
 msgid "in %(num)s days"
-msgstr ""
+msgstr "dalam %(num)s hari"
 
 #: app/templatetags/settings.py:59
 #, python-format
 msgid "in %(num)s hours"
-msgstr ""
+msgstr "dalam %(num)s jam"
 
 #: app/templatetags/settings.py:61
 #, python-format
 msgid "in %(num)s minutes"
-msgstr ""
+msgstr "dalam %(num)s menit"
 
 #: app/templatetags/settings.py:63
 msgid "very soon"
-msgstr ""
+msgstr "segera"
 
 #: app/translations/plugin_manifest_autogenerated.py:4
 msgid "Upload and tile ODM assets with Cesium ion."
@@ -1699,11 +1822,11 @@ msgstr ""
 
 #: app/translations/plugin_manifest_autogenerated.py:7
 msgid "Integrate WebODM with DroneDB: import images and share results"
-msgstr ""
+msgstr "Integrasikan WebODM dengan DroneDB: impor gambar dan bagikan hasil"
 
 #: app/translations/plugin_manifest_autogenerated.py:8
 msgid "Create editable short links when sharing task URLs"
-msgstr ""
+msgstr "Buat tautan pendek yang dapat diedit saat membagikan URL tugas"
 
 #: app/translations/plugin_manifest_autogenerated.py:9
 msgid "Add a fullscreen button to the 2D map view"
@@ -1711,7 +1834,7 @@ msgstr "Tambahkan tombol layar penuh pada tampilan peta 2D"
 
 #: app/translations/plugin_manifest_autogenerated.py:10
 msgid "Process in the cloud with webodm.net"
-msgstr ""
+msgstr "Proses di cloud dengan webodm.net"
 
 #: app/translations/plugin_manifest_autogenerated.py:11
 msgid "Compute volume, area and length measurements on Leaflet"
@@ -1732,45 +1855,48 @@ msgstr "Plugin untuk membuat berkas GCP dari gambar"
 
 #: app/translations/plugin_manifest_autogenerated.py:14
 msgid "A plugin to show charts of projects and tasks"
-msgstr ""
+msgstr "Plugin untuk menampilkan grafik proyek dan tugas"
 
 #: app/translations/plugin_manifest_autogenerated.py:15
 msgid "Create short links when sharing task URLs"
-msgstr ""
+msgstr "Buat tautan pendek saat membagikan URL tugas"
 
 #: app/translations/plugin_manifest_autogenerated.py:16
 msgid ""
 "Get notified when a task has finished processing, has been removed or has "
 "failed"
 msgstr ""
+"Dapatkan notifikasi saat tugas selesai diproses, telah dihapus, atau gagal"
 
 #: app/translations/plugin_manifest_autogenerated.py:18
 msgid "Annotate and measure on 2D maps with ease"
-msgstr ""
+msgstr "Beri anotasi dan lakukan pengukuran pada peta 2D dengan mudah"
 
 #: app/translations/plugin_manifest_autogenerated.py:19
 msgid "Add a GPS location button to the 2D map view"
-msgstr ""
+msgstr "Tambahkan tombol lokasi GPS ke tampilan peta 2D"
 
 #: app/translations/plugin_manifest_autogenerated.py:20
 msgid "Plugin to get align from external service for WebODM"
-msgstr ""
+msgstr "Plugin untuk mendapatkan align dari layanan eksternal untuk WebODM"
 
 #: app/translations/plugin_manifest_autogenerated.py:21
 msgid "Detect objects using AI in orthophotos"
-msgstr ""
+msgstr "Deteksi objek menggunakan AI pada orthophoto"
 
 #: app/translations/plugin_manifest_autogenerated.py:22
 msgid "An example plugin for development"
-msgstr ""
+msgstr "Contoh plugin untuk pengembangan"
 
 #: app/translations/plugin_manifest_autogenerated.py:23
 msgid "A plugin to add a button for taking a snapshot of the map or 3D model."
 msgstr ""
+"Plugin untuk menambahkan tombol guna mengambil snapshot dari peta atau model "
+"3D."
 
 #: app/views/app.py:57
 msgid "First Project"
-msgstr ""
+msgstr "Proyek Pertama"
 
 #: app/views/app.py:72
 msgid "Map"
@@ -1778,38 +1904,36 @@ msgstr "Peta"
 
 #: app/views/app.py:105
 msgid "3D Model Display"
-msgstr ""
+msgstr "Tampilan Model 3D"
 
 #: app/views/app.py:134
 #, python-format
 msgid "%(node)s seems to be offline."
-msgstr ""
+msgstr "%(node)s tampaknya sedang offline."
 
 #: app/views/app.py:172
 msgid "Welcome"
-msgstr ""
+msgstr "Selamat datang"
 
 #: app/views/dev.py:59
 msgid "Cannot find locale/ folder in .zip archive"
-msgstr ""
+msgstr "Tidak dapat menemukan folder locale/ di arsip .zip"
 
 #: app/views/dev.py:71
 msgid "Translation files reloaded!"
-msgstr ""
+msgstr "File terjemahan dimuat ulang!"
 
 #: app/views/dev.py:75
 msgid "Invalid action"
-msgstr ""
+msgstr "Tindakan tidak valid"
 
 #: coreplugins/align-service/plugin.py:56
 msgid "Align Generator"
-msgstr ""
+msgstr "Generator Align"
 
 #: coreplugins/align-service/templates/index.html:5
-#, fuzzy
-#| msgid "A plugin to create GCP files from images"
 msgid "Align file from task image"
-msgstr "Plugin untuk membuat berkas GCP dari gambar"
+msgstr "Sesuaikan file dari gambar tugas"
 
 #: coreplugins/annotate/api.py:49 coreplugins/annotate/dist/annotate/api.py:49
 #: coreplugins/measure/api.py:21
@@ -1818,85 +1942,88 @@ msgid ""
 "Edit, from the options make sure to check \"dsm\", then press Restart --> "
 "From DEM."
 msgstr ""
+"Tidak ada model permukaan yang tersedia. Dari Dashboard, pilih tugas ini, "
+"tekan Edit, dari opsi pastikan mencentang \"dsm\", lalu tekan Restart --> "
+"From DEM."
 
 #: coreplugins/annotate/api.py:72 coreplugins/annotate/dist/annotate/api.py:72
 msgid "A digital surface model is required to compute elevation values."
-msgstr ""
+msgstr "Model permukaan digital diperlukan untuk menghitung nilai elevasi."
 
 #: coreplugins/annotate/api.py:90 coreplugins/annotate/dist/annotate/api.py:90
 msgid "An orthophoto is required to compute temperature values."
-msgstr ""
+msgstr "Orthophoto diperlukan untuk menghitung nilai suhu."
 
 #: coreplugins/cesiumion/api_views.py:159
 msgid "No matching enum type."
-msgstr ""
+msgstr "Tidak ada tipe enum yang cocok."
 
 #: coreplugins/contours/api.py:122
 msgid "No DSM layer is available."
-msgstr ""
+msgstr "Tidak ada layer DSM yang tersedia."
 
 #: coreplugins/contours/api.py:124
 msgid "No DTM layer is available."
-msgstr ""
+msgstr "Tidak ada layer DTM yang tersedia."
 
 #: coreplugins/diagnostic/plugin.py:36
 msgid "Diagnostic"
-msgstr ""
+msgstr "Diagnostik"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:6
 msgid "Diagnostic Information"
-msgstr ""
+msgstr "Informasi Diagnostik"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:10
 msgid "Storage Space"
-msgstr ""
+msgstr "Ruang Penyimpanan"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:14
 #: coreplugins/diagnostic/templates/diagnostic.html:40
 #: coreplugins/diagnostic/templates/diagnostic.html:45
 msgctxt "Megabytes of storage space"
 msgid "Free"
-msgstr ""
+msgstr "Tersedia"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:15
 #: coreplugins/diagnostic/templates/diagnostic.html:39
 #: coreplugins/diagnostic/templates/diagnostic.html:45
 msgctxt "Megabytes of storage space"
 msgid "Used"
-msgstr ""
+msgstr "Digunakan"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:16
 msgctxt "Megabytes of storage space"
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:20
 msgctxt "Computer memory (RAM)"
 msgid "Memory"
-msgstr ""
+msgstr "Memori"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:24
 #: coreplugins/diagnostic/templates/diagnostic.html:75
 #: coreplugins/diagnostic/templates/diagnostic.html:80
 msgctxt "Megabytes of memory space"
 msgid "Free"
-msgstr ""
+msgstr "Tersedia"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:25
 #: coreplugins/diagnostic/templates/diagnostic.html:74
 #: coreplugins/diagnostic/templates/diagnostic.html:80
 msgctxt "Megabytes of memory space"
 msgid "Used"
-msgstr ""
+msgstr "Digunakan"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:26
 msgctxt "Megabytes of memory space"
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
 msgid "Note!"
-msgstr ""
+msgstr "Catatan!"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
 #, python-format
@@ -1906,25 +2033,31 @@ msgid ""
 "See instructions for %(win_hyperv_link)s, %(win_wsl2_link)s, and "
 "%(mac_link)s for changing these values in a Docker setup."
 msgstr ""
+"Nilai-nilai ini mungkin relatif terhadap lingkungan virtualisasi tempat "
+"aplikasi berjalan, tidak selalu merupakan nilai dari mesin Anda. Lihat "
+"petunjuk untuk %(win_hyperv_link)s, %(win_wsl2_link)s, dan %(mac_link)s "
+"untuk mengubah nilai-nilai ini dalam pengaturan Docker."
 
 #: coreplugins/diagnostic/templates/diagnostic.html:47
 #: coreplugins/diagnostic/templates/diagnostic.html:82
 msgid "Disk Space"
-msgstr ""
+msgstr "Ruang Disk"
 
 #: coreplugins/editshortlinks/api.py:59
 msgid ""
 "Short URLs can only include letters, numbers, underscore and dash characters "
 "(A-Z, 0-9, _, -)."
 msgstr ""
+"URL pendek hanya dapat berisi huruf, angka, karakter garis bawah, dan tanda "
+"hubung (A-Z, 0-9, _, -)."
 
 #: coreplugins/editshortlinks/api.py:63
 msgid "This short URL is already taken."
-msgstr ""
+msgstr "URL pendek ini sudah digunakan."
 
 #: coreplugins/hello-world/plugin.py:10
 msgid "Hello World"
-msgstr ""
+msgstr "Halo Dunia"
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
 msgid "Lightning"
@@ -1932,45 +2065,43 @@ msgstr "Lightning"
 
 #: coreplugins/objdetect/api.py:58
 msgid "No orthophoto is available."
-msgstr ""
+msgstr "Tidak ada orthophoto yang tersedia."
 
 #: coreplugins/posm-gcpi/plugin.py:9
 msgid "GCP Interface"
-msgstr ""
+msgstr "Antarmuka GCP"
 
 #: coreplugins/projects-charts/plugin.py:55
 msgid "Charts"
-msgstr ""
+msgstr "Grafik"
 
 #: coreplugins/projects-charts/templates/index.html:11
 msgid "Year"
-msgstr ""
+msgstr "Tahun"
 
 #: coreplugins/projects-charts/templates/index.html:23
 msgid "Next"
 msgstr "Berikutnya"
 
 #: coreplugins/projects-charts/templates/index.html:69
-#, fuzzy
-#| msgid "Project"
 msgid "Projects by month"
-msgstr "Proyek"
+msgstr "Proyek per bulan"
 
 #: coreplugins/projects-charts/templates/index.html:111
 msgid "Tasks by month"
-msgstr ""
+msgstr "Tugas per bulan"
 
 #: coreplugins/tasknotification/plugin.py:84
 msgid "Task Notification"
-msgstr ""
+msgstr "Notifikasi Tugas"
 
 #: coreplugins/tasknotification/templates/index.html:5
 msgid "Tasks Notification"
-msgstr ""
+msgstr "Notifikasi Tugas"
 
 #: nodeodm/apps.py:8
 msgid "Node Management"
-msgstr ""
+msgstr "Manajemen Node"
 
 #: nodeodm/models.py:24
 msgid ""
@@ -1979,64 +2110,74 @@ msgid ""
 "localhost. Find the IP address of your host machine by running ifconfig on "
 "Linux or by checking your network settings."
 msgstr ""
+"Nama host atau alamat IP tempat node berada (juga dapat berupa nama host "
+"internal). Jika Anda menggunakan Docker, ini bukan 127.0.0.1 atau localhost. "
+"Temukan alamat IP mesin host Anda dengan menjalankan ifconfig di Linux atau "
+"dengan memeriksa pengaturan jaringan Anda."
 
 #: nodeodm/models.py:25
 msgid "Port that connects to the node's API"
-msgstr ""
+msgstr "Port yang terhubung ke API node"
 
 #: nodeodm/models.py:26
 msgid "API version used by the node"
-msgstr ""
+msgstr "Versi API yang digunakan oleh node"
 
 #: nodeodm/models.py:27
 msgid "When was the information about this node last retrieved?"
-msgstr ""
+msgstr "Kapan informasi tentang node ini terakhir diambil?"
 
 #: nodeodm/models.py:28
 msgid ""
 "Number of tasks currently being processed by this node (as reported by the "
 "node itself)"
 msgstr ""
+"Jumlah tugas yang saat ini sedang diproses oleh node ini (sebagaimana "
+"dilaporkan oleh node itu sendiri)"
 
 #: nodeodm/models.py:29
 msgid "Available Options"
-msgstr ""
+msgstr "Opsi yang Tersedia"
 
 #: nodeodm/models.py:29
 msgid "Description of the options that can be used for processing"
-msgstr ""
+msgstr "Deskripsi opsi yang dapat digunakan untuk pemrosesan"
 
 #: nodeodm/models.py:30
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 #: nodeodm/models.py:30
 msgid ""
 "Token to use for authentication. If the node doesn't have authentication, "
 "you can leave this field blank."
 msgstr ""
+"Token yang digunakan untuk autentikasi. Jika node tidak memiliki "
+"autentikasi, Anda dapat membiarkan kolom ini kosong."
 
 #: nodeodm/models.py:31
 msgid "Max Images"
-msgstr ""
+msgstr "Maksimum Gambar"
 
 #: nodeodm/models.py:31
 msgid "Maximum number of images accepted by this node."
-msgstr ""
+msgstr "Jumlah maksimum gambar yang diterima oleh node ini."
 
 #: nodeodm/models.py:32
 msgid "Engine version used by the node."
-msgstr ""
+msgstr "Versi mesin yang digunakan oleh node."
 
 #: nodeodm/models.py:33
 msgid ""
 "Optional label for this node. When set, this label will be shown instead of "
 "the hostname:port name."
 msgstr ""
+"Label opsional untuk node ini. Jika diatur, label ini akan ditampilkan "
+"sebagai pengganti nama hostname:port."
 
 #: nodeodm/models.py:34
 msgid "Engine used by the node."
-msgstr ""
+msgstr "Mesin yang digunakan oleh node."
 
 #~ msgid "Import images from external sources directly"
 #~ msgstr "Impor gambar dari sumber eksternal secara langsung"
