@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-26 03:13+0000\n"
-"PO-Revision-Date: 2026-03-05 19:49+0000\n"
-"Last-Translator: Faludi Zoltán <zoltan@faludi.info>\n"
+"PO-Revision-Date: 2026-03-09 20:16+0000\n"
+"Last-Translator: Koncz Gergely <teng1024@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/webodm/webodm/"
 "hu/>\n"
 "Language: hu\n"
@@ -145,28 +145,20 @@ msgstr ""
 "terméspotenciáljának legjobb modellváltozása."
 
 #: app/api/formulas.py:22
-#, fuzzy
-#| msgid ""
-#| "Normalized Difference Vegetation Index shows the amount of green "
-#| "vegetation."
 msgid ""
 "Normalized Difference Red Edge Index shows the amount of green vegetation of "
 "permanent or later stage crops."
 msgstr ""
-"Az NDVI (\"Normalized Difference Vegetation Index\" vagy \"normalizált "
-"vegetációs különbség index\") a zöld növényzet mennyiségét mutatja."
+"A normalizált vörös-él vegetációs index, amely a kifejlett vagy későbbi "
+"növekedési fázisban lévő növényzet zöldtömegének mennyiségét mutatja."
 
 #: app/api/formulas.py:27
-#, fuzzy
-#| msgid ""
-#| "Normalized Difference Vegetation Index shows the amount of green "
-#| "vegetation."
 msgid ""
 "Normalized Difference Water Index shows the amount of water content in water "
 "bodies."
 msgstr ""
-"Az NDVI (\"Normalized Difference Vegetation Index\" vagy \"normalizált "
-"vegetációs különbség index\") a zöld növényzet mennyiségét mutatja."
+"A normalizált vegetációs/víz index, amely a zöld növényzet mennyiségét, "
+"illetve a vízfelületek víztartalmát mutatja."
 
 #: app/api/formulas.py:37
 msgid ""
@@ -317,10 +309,8 @@ msgid "Invalid permissions"
 msgstr "Érvénytelen engedélyek (nincs jogosultságod)"
 
 #: app/api/tasks.py:278
-#, fuzzy
-#| msgid "You need to upload at least 2 images before commit"
 msgid "You need to upload at least 1 file before commit"
-msgstr "Legalább két képet szükséges feltölteni a jóváhagyás előtt"
+msgstr "Legalább 2 képet vagy 1 fájlt kell feltöltened a commit előtt"
 
 #: app/api/tasks.py:300
 msgid "No files uploaded"
@@ -331,10 +321,10 @@ msgid "Cannot duplicate task"
 msgstr "A feladat nem duplikálható"
 
 #: app/api/tasks.py:370
-#, fuzzy
-#| msgid "Cannot create task, you need at least 2 images"
 msgid "Cannot create task, alignment task is not valid"
-msgstr "Nem lehet feladatot létrehozni, ehez legalább 2 képre van szükség"
+msgstr ""
+"Feladat nem hozható létre, legalább 2 kép szükséges – az igazítási feladat "
+"érvénytelen"
 
 #: app/api/tasks.py:387
 msgid "Cannot create task, you need at least 2 images"
@@ -362,55 +352,49 @@ msgstr ""
 #: app/api/tasks.py:704
 #, python-format
 msgid "Invalid URL. Did you mean %(hint)s ?"
-msgstr ""
+msgstr "Érvénytelen URL. Ezt akartad: %(hint)s ?"
 
 #: app/api/tasks.py:808 app/api/tasks.py:811
-#, fuzzy
-#| msgid "Invalid action"
 msgid "Invalid uuid"
-msgstr "Hibás művelet"
+msgstr "Érvénytelen cselekvés uuid"
 
 #: app/api/tasks.py:832 app/api/tasks.py:840
-#, fuzzy
-#| msgid "Invalid zip file"
 msgid "Invalid file type"
-msgstr "Hibás zip fájl"
+msgstr "Érvénytelen zip fájltípus"
 
 #: app/api/tasks.py:864
 msgid "Some parameters are not integers"
-msgstr ""
+msgstr "Néhány paraméter nem egész szám"
 
 #: app/api/tasks.py:923 app/api/tasks.py:928
 msgid "GeoTIFF must have a valid CRS"
 msgstr ""
+"A GeoTIFF-nek érvényes koordináta-referencia rendszerrel (CRS) kell "
+"rendelkeznie"
 
 #: app/api/tasks.py:930
 msgid "Elevation model must have at most 2 band"
-msgstr ""
+msgstr "A magassági modellnek legfeljebb 2 sávval (band-del) kell rendelkeznie"
 
 #: app/api/tasks.py:936
 msgid "Point cloud must be a valid LAZ/LAS file"
-msgstr ""
+msgstr "A pontfelhőnek érvényes LAZ/LAS fájlnak kell lennie"
 
 #: app/api/tasks.py:942
 msgid "Textured model must be a valid GLB file"
-msgstr ""
+msgstr "A texturált modellnek érvényes GLB fájlnak kell lennie"
 
 #: app/api/tasks.py:946
-#, fuzzy
-#| msgid "No files uploaded"
 msgid "No assets uploaded"
-msgstr "Nincs feltöltött fájl"
+msgstr "Nincs fájl feltöltve"
 
 #: app/api/tiler.py:364
 msgid "Invalid boundaries parameter"
 msgstr "Érvénytelen határok paraméter"
 
 #: app/api/tiler.py:383
-#, fuzzy
-#| msgid "Invalid boundaries parameter"
 msgid "Invalid tile size parameter"
-msgstr "Érvénytelen határok paraméter"
+msgstr "Érvénytelen csempehatár méret paraméter"
 
 #: app/api/tiler.py:414 app/api/tiler.py:495
 msgid "Outside of bounds"
@@ -451,10 +435,9 @@ msgid "Unsupported format: %(value)s"
 msgstr "Nem támogatott formátum: %(value)s"
 
 #: app/api/tiler.py:635
-#, fuzzy, python-format
-#| msgid "Invalid rescale value: %(value)s"
+#, python-format
 msgid "Invalid resample value: %(value)s"
-msgstr "Érvénytelen átskálázási érték: %(value)s"
+msgstr "Érvénytelen átméretezési érték: %(value)s"
 
 #: app/api/tiler.py:641
 #, python-format
@@ -462,10 +445,9 @@ msgid "Invalid EPSG code: %(value)s"
 msgstr "Érvénytelen EPSG-kód: %(value)s"
 
 #: app/api/tiler.py:647 app/api/tiler.py:649
-#, fuzzy, python-format
-#| msgid "Invalid EPSG code: %(value)s"
+#, python-format
 msgid "Invalid PROJ string: %(value)s"
-msgstr "Érvénytelen EPSG-kód: %(value)s"
+msgstr "Érvénytelen EPSG code, PROJ szöveg: %(value)s"
 
 #: app/api/tiler.py:652
 msgid "Both formula and bands parameters are required"
@@ -612,11 +594,11 @@ msgstr "Kvóta"
 
 #: app/models/profile.py:16
 msgid "Cluster Id this user is assigned to"
-msgstr ""
+msgstr "Felhasználóhoz rendelt Cluster Id"
 
 #: app/models/profile.py:16
 msgid "Cluster Id"
-msgstr ""
+msgstr "Kalszer Id"
 
 #: app/models/project.py:27
 msgid "The person who created the project"
@@ -645,48 +627,38 @@ msgid "Deleting"
 msgstr "Törlés"
 
 #: app/models/project.py:32
-#, fuzzy
-#| msgid "Projects"
 msgid "Project tags"
-msgstr "Projektek"
+msgstr "Projektcímkék"
 
 #: app/models/project.py:32 app/models/task.py:282
 msgid "Tags"
 msgstr "Címkék"
 
 #: app/models/project.py:33
-#, fuzzy
-#| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this project is available to the public"
-msgstr "Egy jelző, hogy a feladat nyilvános-e"
+msgstr "Zászló, amely jelzi, hogy ez a feladatprojekt nyilvánosan elérhető-e"
 
 #: app/models/project.py:33 app/models/task.py:259
 msgid "Public"
 msgstr "Nyilvános"
 
 #: app/models/project.py:34
-#, fuzzy
-#| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this public project can be edited"
-msgstr "Egy jelző, hogy a feladat nyilvános-e"
+msgstr ""
+"Egy zászló, amely azt mutatja, hogy ez a feladat elérhető-e a nyilvánosság "
+"számára; a nyilvános projekt szerkeszthető"
 
 #: app/models/project.py:34 app/models/task.py:260
-#, fuzzy
-#| msgid "Public"
 msgid "Public Edit"
-msgstr "Nyilvános"
+msgstr "Nyilvános szerkesztés"
 
 #: app/models/project.py:35 app/models/redirect.py:7
-#, fuzzy
-#| msgid "More in-depth description of the project"
 msgid "Public identifier of the project"
-msgstr "További részletes projekt leírás"
+msgstr "Részletesebb leírás. A projekt nyilvános azonosítója"
 
 #: app/models/project.py:35 app/models/redirect.py:7
-#, fuzzy
-#| msgid "Public"
 msgid "Public Id"
-msgstr "Nyilvános"
+msgstr "Nyilvános Azonosító"
 
 #: app/models/project.py:109 app/models/task.py:467
 #, python-format
@@ -702,30 +674,26 @@ msgid "Projects"
 msgstr "Projektek"
 
 #: app/models/redirect.py:6
-#, fuzzy
-#| msgid "Project"
 msgid "Project Id"
-msgstr "Projekt"
+msgstr "Projekt Azonosító"
 
 #: app/models/redirect.py:8
-#, fuzzy
-#| msgid "Task"
 msgid "Task Id"
-msgstr "Feladat"
+msgstr "Feladat Azonosító"
 
 #: app/models/redirect.py:9
-#, fuzzy
-#| msgid "The person who owns this preset"
 msgid "The person associated with this redirect"
-msgstr "A személy aki az alapbeállítás tulajdonosa"
+msgstr ""
+"Az a személy, aki a tulajdonosa ennek a projektnek, vagy aki hozzá van "
+"rendelve ehhez"
 
 #: app/models/redirect.py:23
 msgid "Redirect"
-msgstr ""
+msgstr "Átirányítás"
 
 #: app/models/redirect.py:24
 msgid "Redirects"
-msgstr ""
+msgstr "Átirányítások"
 
 #: app/models/setting.py:20
 msgid "The name of your application"
@@ -869,20 +837,16 @@ msgid "Orthophoto Extent"
 msgstr "Ortofotó terjedelem"
 
 #: app/models/task.py:252
-#, fuzzy
-#| msgid "Extent of the orthophoto"
 msgid "Extent of the DSM"
-msgstr "Ortofotó terjedelme"
+msgstr "Az ortofotó vagy a digitális felszínmodell (DSM) kiterjedése"
 
 #: app/models/task.py:252
 msgid "DSM Extent"
 msgstr "DSM terjedelem"
 
 #: app/models/task.py:253
-#, fuzzy
-#| msgid "Extent of the orthophoto"
 msgid "Extent of the DTM"
-msgstr "Ortofotó terjedelme"
+msgstr "Az ortofotó vagy a digitális terepmodell (DTM) kiterjedése"
 
 #: app/models/task.py:253
 msgid "DTM Extent"
@@ -905,10 +869,10 @@ msgid "A flag indicating whether this task is available to the public"
 msgstr "Egy jelző, hogy a feladat nyilvános-e"
 
 #: app/models/task.py:260
-#, fuzzy
-#| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this public task can be edited"
-msgstr "Egy jelző, hogy a feladat nyilvános-e"
+msgstr ""
+"Zászló, amely jelzi, hogy ez a feladat nyilvánosan elérhető, a nyilvános "
+"feladat szerkeszthető"
 
 #: app/models/task.py:262
 msgid ""
@@ -1002,30 +966,24 @@ msgid "EPSG code of the dataset (if georeferenced)"
 msgstr "Az adatkészlet EPSG-kódja (ha van földrajzi hivatkozás)"
 
 #: app/models/task.py:281
-#, fuzzy
-#| msgid "EPSG code of the dataset (if georeferenced)"
 msgid ""
 "WKT definition of the dataset (if georeferenced and EPSG code is not "
 "available)"
-msgstr "Az adatkészlet EPSG-kódja (ha van földrajzi hivatkozás)"
+msgstr ""
+"EPSG kód. A georeferenciált adathalmaz WKT definíciója (ha EPSG kód nem áll "
+"rendelkezésre)"
 
 #: app/models/task.py:282
-#, fuzzy
-#| msgid "Tasks"
 msgid "Task tags"
-msgstr "Feladatok"
+msgstr "Feladat címkék"
 
 #: app/models/task.py:283
-#, fuzzy
-#| msgid "Extent of the orthophoto"
 msgid "List of orthophoto bands"
-msgstr "Ortofotó terjedelme"
+msgstr "Az ortofotó sávjainak listája"
 
 #: app/models/task.py:283
-#, fuzzy
-#| msgid "Orthophoto Extent"
 msgid "Orthophoto Bands"
-msgstr "Ortofotó terjedelem"
+msgstr "Az ortofotó kiterjedése és csatornái"
 
 #: app/models/task.py:284
 msgid "Size of the task on disk in megabytes"
@@ -1036,22 +994,22 @@ msgid "Size"
 msgstr "Méret"
 
 #: app/models/task.py:285
-#, fuzzy
-#| msgid "A flag indicating whether this task is available to the public"
 msgid "A flag indicating whether this task was compacted"
-msgstr "Egy jelző, hogy a feladat nyilvános-e"
+msgstr ""
+"Egy jelző, amely azt mutatja, hogy ez a feladat elérhető-e a nyilvánosság "
+"számára; tömörítve lett"
 
 #: app/models/task.py:285
 msgid "Compact"
-msgstr ""
+msgstr "Tömörítve"
 
 #: app/models/task.py:286
 msgid "Polygon defining the crop area of this task"
-msgstr ""
+msgstr "Sokszög, amely meghatározza ennek a feladatnak a területét"
 
 #: app/models/task.py:286
 msgid "Crop Polygon"
-msgstr ""
+msgstr "Kivágási sokszög"
 
 #: app/models/task.py:290
 msgid "Task"
@@ -1715,7 +1673,7 @@ msgstr "Helló, %(user)s!"
 #: app/templates/app/logged_in_base.html:30
 #, python-format
 msgid "%(used)s of %(total)s used"
-msgstr ""
+msgstr "%(used)s / %(total)s felhasználva"
 
 #: app/templates/app/logged_in_base.html:43
 msgid "Logout"
@@ -1809,6 +1767,9 @@ msgid ""
 "recent tasks will be automatically deleted %(when)s, until usage falls below "
 "%(total)s."
 msgstr ""
+"A lemezkvóta túllépésre került (%(used)s / %(total)s felhasználva). A "
+"legújabb feladatok %(when)s automatikusan törlődnek, amíg a használat %"
+"(total)s alá nem csökken."
 
 #: app/templates/app/quota.html:14
 #, python-format
@@ -1816,6 +1777,8 @@ msgid ""
 "Your account does not have a storage quota. Any new task will be "
 "automatically deleted %(when)s"
 msgstr ""
+"A fiókodnak nincs tároló kvótája. Az új feladatok %(when)s automatikusan "
+"törlődnek"
 
 #: app/templates/app/welcome.html:224
 msgid "Uh oh! Could you please check the errors below?"
@@ -1833,25 +1796,25 @@ msgstr "Fiók létrehozása"
 #: app/templatetags/settings.py:57
 #, python-format
 msgid "in %(num)s days"
-msgstr ""
+msgstr "%(num)s napon belül"
 
 #: app/templatetags/settings.py:59
 #, python-format
 msgid "in %(num)s hours"
-msgstr ""
+msgstr "%(num)s órán belül"
 
 #: app/templatetags/settings.py:61
 #, python-format
 msgid "in %(num)s minutes"
-msgstr ""
+msgstr "%(num)s percen belül"
 
 #: app/templatetags/settings.py:63
 msgid "very soon"
-msgstr ""
+msgstr "Rövidesen"
 
 #: app/translations/plugin_manifest_autogenerated.py:4
 msgid "Upload and tile ODM assets with Cesium ion."
-msgstr ""
+msgstr "Töltsd fel és csempézd-darabold az ODM eszközöket Cesium ion-ba."
 
 #: app/translations/plugin_manifest_autogenerated.py:5
 msgid "Compute, preview and export contours from DEMs"
@@ -1879,7 +1842,7 @@ msgstr "Teljes képernyő gomb hozzáadása a 2D térkép nézethez"
 
 #: app/translations/plugin_manifest_autogenerated.py:10
 msgid "Process in the cloud with webodm.net"
-msgstr ""
+msgstr "Feldolgozás felhőben a webodm.net-en"
 
 #: app/translations/plugin_manifest_autogenerated.py:11
 msgid "Compute volume, area and length measurements on Leaflet"
@@ -1900,7 +1863,7 @@ msgstr "Modul a GCP fájlok létrehozására a képekből"
 
 #: app/translations/plugin_manifest_autogenerated.py:14
 msgid "A plugin to show charts of projects and tasks"
-msgstr ""
+msgstr "Egy bővítmény, amely a projektek és feladatok diagrammjait jeleníti meg"
 
 #: app/translations/plugin_manifest_autogenerated.py:15
 msgid "Create short links when sharing task URLs"
@@ -1910,33 +1873,33 @@ msgstr "Rövid hivatkozásokat hozzon létre a feladat linkek megosztása során
 msgid ""
 "Get notified when a task has finished processing, has been removed or has "
 "failed"
-msgstr ""
+msgstr "Értesítés, ha egy feladat befejeződött, törlődött vagy sikertelen volt"
 
 #: app/translations/plugin_manifest_autogenerated.py:18
 msgid "Annotate and measure on 2D maps with ease"
-msgstr ""
+msgstr "Jelöljön meg és mérjen 2D térképeken könnyedén"
 
 #: app/translations/plugin_manifest_autogenerated.py:19
-#, fuzzy
-#| msgid "Add a fullscreen button to the 2D map view"
 msgid "Add a GPS location button to the 2D map view"
-msgstr "Teljes képernyő gomb hozzáadása a 2D térkép nézethez"
+msgstr "Adj hozzá egy teljes képernyős GPS hely gombot a 2D térkép nézethez"
 
 #: app/translations/plugin_manifest_autogenerated.py:20
 msgid "Plugin to get align from external service for WebODM"
-msgstr ""
+msgstr "Bővítmény a WebODM számára, külső szolgáltatástól származó igazításhoz"
 
 #: app/translations/plugin_manifest_autogenerated.py:21
 msgid "Detect objects using AI in orthophotos"
-msgstr ""
+msgstr "Objektumok detektálása mesterséges intelligenciával ortófotókon"
 
 #: app/translations/plugin_manifest_autogenerated.py:22
 msgid "An example plugin for development"
-msgstr ""
+msgstr "Példa bővítmény fejlesztéshez"
 
 #: app/translations/plugin_manifest_autogenerated.py:23
 msgid "A plugin to add a button for taking a snapshot of the map or 3D model."
 msgstr ""
+"Egy bővítmény, amely gombbal képernyőképet készít a térképről vagy 3D "
+"modellről."
 
 #: app/views/app.py:57
 msgid "First Project"
@@ -1953,7 +1916,7 @@ msgstr "3D modell megjelenítés"
 #: app/views/app.py:134
 #, python-format
 msgid "%(node)s seems to be offline."
-msgstr ""
+msgstr "%(node)s látszólag offline"
 
 #: app/views/app.py:172
 msgid "Welcome"
@@ -1973,13 +1936,11 @@ msgstr "Hibás művelet"
 
 #: coreplugins/align-service/plugin.py:56
 msgid "Align Generator"
-msgstr ""
+msgstr "Igazítási generátor"
 
 #: coreplugins/align-service/templates/index.html:5
-#, fuzzy
-#| msgid "A plugin to create GCP files from images"
 msgid "Align file from task image"
-msgstr "Modul a GCP fájlok létrehozására a képekből"
+msgstr "Egy plugin a feladat képeiből GCP fájlok létrehozására"
 
 #: coreplugins/annotate/api.py:49 coreplugins/annotate/dist/annotate/api.py:49
 #: coreplugins/measure/api.py:21
@@ -1995,15 +1956,15 @@ msgstr ""
 
 #: coreplugins/annotate/api.py:72 coreplugins/annotate/dist/annotate/api.py:72
 msgid "A digital surface model is required to compute elevation values."
-msgstr ""
+msgstr "Digitális felszínmodell szükséges a magassági értékek kiszámításához."
 
 #: coreplugins/annotate/api.py:90 coreplugins/annotate/dist/annotate/api.py:90
 msgid "An orthophoto is required to compute temperature values."
-msgstr ""
+msgstr "Ortófotó szükséges a hőmérsékleti értékek kiszámításához."
 
 #: coreplugins/cesiumion/api_views.py:159
 msgid "No matching enum type."
-msgstr ""
+msgstr "Nincs egyező enum típus."
 
 #: coreplugins/contours/api.py:122
 msgid "No DSM layer is available."
@@ -2073,22 +2034,17 @@ msgid "Note!"
 msgstr "Megjegyzés!"
 
 #: coreplugins/diagnostic/templates/diagnostic.html:33
-#, fuzzy, python-format
-#| msgid ""
-#| "These values might be relative to the virtualization environment in which "
-#| "the application is running, not necessarily the values of the your "
-#| "machine. See instructions for %(win_link)s and %(mac_link)s for changing "
-#| "these values in a Docker setup."
+#, python-format
 msgid ""
 "These values might be relative to the virtualization environment in which "
 "the application is running, not necessarily the values of the your machine. "
 "See instructions for %(win_hyperv_link)s, %(win_wsl2_link)s, and "
 "%(mac_link)s for changing these values in a Docker setup."
 msgstr ""
-"Ezek az értékek viszonyulhatnak ahhoz a virtualizációs környezethez, "
-"amelyben az alkalmazás fut, és nem feltétlenül a számítógép értékei. Olvassa "
-"el a %(win_link)s és %(mac_link)s vonatkozó utasításokat ezen értékek Docker-"
-"beállítások módosításához.."
+"Ezek az értékek a virtualizációs környezethez viszonyítottak, amelyben az "
+"alkalmazás fut, nem feltétlenül a saját géped értékei. Lásd az utasításokat "
+"a %(win_link)s, %(hyperv_link)s, %(win_wsl2_link)s és %(mac_link)s számára a "
+"Docker beállítás megváltoztatásához."
 
 #: coreplugins/diagnostic/templates/diagnostic.html:47
 #: coreplugins/diagnostic/templates/diagnostic.html:82
@@ -2109,19 +2065,15 @@ msgstr "Ez a rövid URL már foglalt."
 
 #: coreplugins/hello-world/plugin.py:10
 msgid "Hello World"
-msgstr ""
+msgstr "Hello Világ"
 
 #: coreplugins/lightning/plugin.py:25 coreplugins/lightning/plugin.py:39
-#, fuzzy
-#| msgid "Lightning Network"
 msgid "Lightning"
-msgstr "Villám hálózat"
+msgstr "Villámgyors hálózat"
 
 #: coreplugins/objdetect/api.py:58
-#, fuzzy
-#| msgid "No DSM layer is available."
 msgid "No orthophoto is available."
-msgstr "Nincs DSM réteg."
+msgstr "Nincs elérhető ortofotó."
 
 #: coreplugins/posm-gcpi/plugin.py:9
 msgid "GCP Interface"
@@ -2129,33 +2081,31 @@ msgstr "GCP interfész"
 
 #: coreplugins/projects-charts/plugin.py:55
 msgid "Charts"
-msgstr ""
+msgstr "Grafikonok"
 
 #: coreplugins/projects-charts/templates/index.html:11
 msgid "Year"
-msgstr ""
+msgstr "Év"
 
 #: coreplugins/projects-charts/templates/index.html:23
 msgid "Next"
-msgstr ""
+msgstr "Tovább"
 
 #: coreplugins/projects-charts/templates/index.html:69
-#, fuzzy
-#| msgid "Projects"
 msgid "Projects by month"
-msgstr "Projektek"
+msgstr "Projektek hónapok szerint"
 
 #: coreplugins/projects-charts/templates/index.html:111
 msgid "Tasks by month"
-msgstr ""
+msgstr "Feladatok havi bontásban"
 
 #: coreplugins/tasknotification/plugin.py:84
 msgid "Task Notification"
-msgstr ""
+msgstr "Feladat értesítés"
 
 #: coreplugins/tasknotification/templates/index.html:5
 msgid "Tasks Notification"
-msgstr ""
+msgstr "Feladatok értesítése"
 
 #: nodeodm/apps.py:8
 msgid "Node Management"
